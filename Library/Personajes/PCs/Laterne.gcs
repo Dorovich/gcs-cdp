@@ -75,6 +75,14 @@
 				"cost_per_point": 10
 			},
 			{
+				"id": "rt",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "RT",
+				"full_name": "Resis. Thr.",
+				"attribute_base": "4"
+			},
+			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
@@ -511,6 +519,14 @@
 			"adj": 0,
 			"calc": {
 				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "rt",
+			"adj": 0,
+			"calc": {
+				"value": 4,
 				"points": 0
 			}
 		},
@@ -3952,7 +3968,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-01-19T05:05:28+01:00",
+	"modified_date": "2025-01-20T19:06:06+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
