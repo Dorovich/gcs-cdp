@@ -1,9 +1,9 @@
 # Heridas Condicionales (Conditional Injury)
 
-Ver en Pyramid 3/120 (_Alternate GURPS V_).
+Ver en Pyramid #3/120 (_Alternate GURPS V_).
 
 ## Límites de Robustez (RT)
-| Personaje/Objeto | RT |
+| Personaje: PC | RT |
 | --- | --- |
 | Doppel | 4 |
 | Faryth | 4 |
@@ -12,7 +12,35 @@ Ver en Pyramid 3/120 (_Alternate GURPS V_).
 | Laterne | 4 |
 | Runa | 4 |
 | Yorgos | 5 |
+
+| Arkopan | RT |
+| --- | --- |
 | El _Timelapse_ | 14 |
+
+| Personaje: NPC | RT |
+| --- | --- |
+| Azra | 1 |
+| Buscador del Gremio | 4 |
+| Soldado de la Guardia | 4 |
+| Thulmal Ezeer-Al | 4 |
+| Threk "Martillo" | 5 |
+| Kaela Greenwill | 4 |
+| Kuka Furtiva | 2 |
+| Mika Exploradora | 4 |
+| Mika Obrera | 4 |
+| Mika Reina | 6 |
+| Mika Soldado | 5 |
+| Mika Exploradora | 4 |
+| Mimo de la Orden | 4 |
+| Misionero de la Orden | 4 |
+| Naanki Adulto | 4 |
+| Naanki Joven | 4 |
+| Naanki Cría | 3 |
+| Escorpiño | 5 |
+| Keiler | 6 |
+| Leurann | 2 |
+| Norkata | 4 |
+| Wolpentinger | 2 |
 
 ## Tabla de RT/WP
 | HP/Daño penetrante | RT/WP |
