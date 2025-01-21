@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "ApK8pUEQU-z4eHDxv",
-	"total_points": 46,
+	"total_points": 50,
 	"points_record": [
 		{
 			"when": "2024-07-12T01:32:35+02:00",
-			"points": 46,
+			"points": 50,
 			"reason": "Initial points"
 		}
 	],
@@ -80,7 +80,7 @@
 				"placement": "secondary",
 				"name": "RT",
 				"full_name": "Resis. Thr.",
-				"attribute_base": "1"
+				"attribute_base": "2"
 			},
 			{
 				"id": "will",
@@ -497,7 +497,7 @@
 			"attr_id": "rt",
 			"adj": 0,
 			"calc": {
-				"value": 1,
+				"value": 2,
 				"points": 0
 			}
 		},
@@ -539,10 +539,10 @@
 		},
 		{
 			"attr_id": "vision",
-			"adj": 0,
+			"adj": 1,
 			"calc": {
-				"value": 13,
-				"points": 0
+				"value": 14,
+				"points": 2
 			}
 		},
 		{
@@ -600,11 +600,11 @@
 		},
 		{
 			"attr_id": "hp",
-			"adj": 0,
+			"adj": 1,
 			"calc": {
-				"value": 3,
-				"current": 3,
-				"points": 0
+				"value": 4,
+				"current": 4,
+				"points": 2
 			}
 		}
 	],
@@ -1574,7 +1574,7 @@
 		}
 	],
 	"created_date": "2024-07-12T01:32:35+02:00",
-	"modified_date": "2025-01-21T03:35:54+01:00",
+	"modified_date": "2025-01-21T18:21:41+01:00",
 	"calc": {
 		"swing": "1d-4",
 		"thrust": "1d-5",

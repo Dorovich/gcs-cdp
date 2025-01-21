@@ -3,71 +3,71 @@
 Ver en Pyramid #3/120 (_Alternate GURPS V_).
 
 ## Límites de Robustez (RT)
-| Personaje: PC | RT |
-| --- | --- |
-| Doppel | 4 |
-| Faryth | 4 |
-| Faryth (Brazos) | 3 |
-| Faryth (Pierna) | 4 |
-| Laterne | 4 |
-| Runa | 4 |
-| Yorgos | 5 |
+| Personaje: PC   | RT  |
+| ---             | --- |
+| Doppel          | 4   |
+| Faryth          | 4   |
+| Faryth (Brazos) | 3   |
+| Faryth (Pierna) | 4   |
+| Laterne         | 4   |
+| Runa            | 4   |
+| Yorgos          | 5   |
 
-| Arkopan | RT |
-| --- | --- |
-| El _Timelapse_ | 14 |
+| Arkopan        | RT  |
+| ---            | --- |
+| El _Timelapse_ | 14  |
 
-| Personaje: NPC | RT |
-| --- | --- |
-| Azra | 1 |
-| Buscador del Gremio | 4 |
-| Soldado de la Guardia | 4 |
-| Thulmal Ezeer-Al | 4 |
-| Threk "Martillo" | 5 |
-| Kaela Greenwill | 4 |
-| Kuka Furtiva | 2 |
-| Mika Exploradora | 4 |
-| Mika Obrera | 4 |
-| Mika Reina | 6 |
-| Mika Soldado | 5 |
-| Mika Exploradora | 4 |
-| Mimo de la Orden | 4 |
-| Misionero de la Orden | 4 |
-| Naanki Adulto | 4 |
-| Naanki Joven | 4 |
-| Naanki Cría | 3 |
-| Escorpiño | 5 |
-| Keiler | 6 |
-| Leurann | 2 |
-| Norkata | 4 |
-| Wolpentinger | 2 |
+| Personaje: NPC        | RT  |
+| ---                   | --- |
+| Azra                  | 2   |
+| Buscador del Gremio   | 4   |
+| Soldado de la Guardia | 4   |
+| Thulmal Ezeer-Al      | 4   |
+| Threk "Martillo"      | 5   |
+| Kaela Greenwill       | 4   |
+| Kuka Furtiva          | 2   |
+| Mika Exploradora      | 4   |
+| Mika Obrera           | 4   |
+| Mika Reina            | 6   |
+| Mika Soldado          | 5   |
+| Mika Exploradora      | 4   |
+| Mimo de la Orden      | 4   |
+| Misionero de la Orden | 4   |
+| Naanki Adulto         | 4   |
+| Naanki Joven          | 4   |
+| Naanki Cría           | 3   |
+| Escorpiño             | 5   |
+| Keiler                | 6   |
+| Leurann               | 2   |
+| Norkata               | 4   |
+| Wolpentinger          | 2   |
 
 ## Tabla de RT/WP
 | HP/Daño penetrante | RT/WP |
-| --- | --- |
-| 1 | -2 |
-| 2 | 0 |
-| 3 | 1 |
-| 4-6 | 2 |
-| 7-8 | 3 |
-| 9-12 | 4 |
-| 13-18 | 5 |
-| 19-24 | 6 |
-| 25-36 | 7 |
-| 37-60 | 8 |
-| 61-84 | 9 |
-| 85-120 | 10 |
-| 121-180 | 11 |
-| 181-240 | 12 |
-| 241-360 | 13 |
-| 361-600 | 14 |
-| 601-840 | 15 |
-| 841-1200 | 16 |
-| 1201-1800 | 17 |
-| 1081-2400 | 18 |
-| 2401-3600 | 19 |
-| 3601-6000 | 20 |
-| 6001-8400 | 21 |
+| ---                | ---   |
+| 1                  | -2    |
+| 2                  | 0     |
+| 3                  | 1     |
+| 4-6                | 2     |
+| 7-8                | 3     |
+| 9-12               | 4     |
+| 13-18              | 5     |
+| 19-24              | 6     |
+| 25-36              | 7     |
+| 37-60              | 8     |
+| 61-84              | 9     |
+| 85-120             | 10    |
+| 121-180            | 11    |
+| 181-240            | 12    |
+| 241-360            | 13    |
+| 361-600            | 14    |
+| 601-840            | 15    |
+| 841-1200           | 16    |
+| 1201-1800          | 17    |
+| 1081-2400          | 18    |
+| 2401-3600          | 19    |
+| 3601-6000          | 20    |
+| 6001-8400          | 21    |
 
 ## Tabla de Efectos Condicionales
 
@@ -75,22 +75,22 @@ Ver en Pyramid #3/120 (_Alternate GURPS V_).
 
 \** Requere ser resucitado o revivido primero, y luego estabilizado.
 
-| Severidad  | Efecto bruto      | Shock | Dolor    | Curación   |
-| ---        | ---               | ---   | ---      | ---        |
-| -7 o menos | Ninguno           | -     | -        | -          |
-| -6         | Rasguño           | -1    | Leve     | 1 día      |
-| -5         | Herida menor      | -1    | Leve     | 1.5 día    |
-| -4         | Herida menor      | -2    | Moderado | 2 días     |
-| -3         | Herida menor      | -3    | Moderado | 5 días     |
-| -2         | Herida mayor      | -4    | Severo   | 7 días     |
-| -1         | Tambaleándose     | -4    | Terrible | 10 días    |
-| 0          | Lisiado           | -4    | Agonía   | 2 semanas  |
-| 1          | Lisiado           | -4    | Agonía   | 3 semanas  |
-| 2          | Herida mortal     | -4    | Agonía   | 5 semanas*  |
-| 3          | Herida mortal     | -4    | Agonía   | 7 semanas*  |
+| Severidad  | Efecto bruto      | Shock | Dolor    | Curación     |
+| ---        | ---               | ---   | ---      | ---          |
+| -7 o menos | Ninguno           | -     | -        | -            |
+| -6         | Rasguño           | -1    | Leve     | 1 día        |
+| -5         | Herida menor      | -1    | Leve     | 1.5 día      |
+| -4         | Herida menor      | -2    | Moderado | 2 días       |
+| -3         | Herida menor      | -3    | Moderado | 5 días       |
+| -2         | Herida mayor      | -4    | Severo   | 7 días       |
+| -1         | Tambaleándose     | -4    | Terrible | 10 días      |
+| 0          | Lisiado           | -4    | Agonía   | 2 semanas    |
+| 1          | Lisiado           | -4    | Agonía   | 3 semanas    |
+| 2          | Herida mortal     | -4    | Agonía   | 5 semanas*   |
+| 3          | Herida mortal     | -4    | Agonía   | 7 semanas*   |
 | 4          | Herida fatal      | -4    | Agonía   | 10 semanas** |
 | 5          | Herida fatal      | -4    | Agonía   | 15 semanas** |
-| 6 o más    | Destrucción total | -     | -        | -          |
+| 6 o más    | Destrucción total | -     | -        | -            |
 
 - **Ninguno**: No hiere al oponente.
 - **Rasguño**: Herida casi negligible, pero una herida igualmente. Los rasguños no están sujeros a acumulación.
@@ -114,16 +114,16 @@ Ver en Pyramid #3/120 (_Alternate GURPS V_).
 | imp  | +2     | -           | -2        | -6     |
 
 ### Partes del cuerpo
-| Parte | Severidad | Golpear |
-| --- | --- | --- |
-| Cráneo | +4 | -7 |
-| Cara | +1 (cor) | -5 |
-| Ojos | +6 (sólo efecto bruto), +4 (cráneo) | -9 |
-| Cuello | +2 (cut), +1 (cr, cor) | -5 |
-| Torso | - | - |
-| Brazos | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2 |
-| Manos | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4 |
-| Vitales | +3 (+2 para beam) | -3 |
-| Ingle | - | -3 |
-| Piernas | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2 |
-| Pies | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4 |
+| Parte   | Severidad                                     | Golpear |
+| ---     | ---                                           | ---     |
+| Cráneo  | +4                                            | -7      |
+| Cara    | +1 (cor)                                      | -5      |
+| Ojos    | +6 (sólo efecto bruto), +4 (cráneo)           | -9      |
+| Cuello  | +2 (cut), +1 (cr, cor)                        | -5      |
+| Torso   | -                                             | -       |
+| Brazos  | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2      |
+| Manos   | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4      |
+| Vitales | +3 (+2 para beam)                             | -3      |
+| Ingle   | -                                             | -3      |
+| Piernas | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2      |
+| Pies    | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4      |
