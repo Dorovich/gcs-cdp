@@ -543,7 +543,7 @@
 			"attr_id": "ke",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -2108,10 +2108,10 @@
 							}
 						},
 						{
-							"id": "trrGR5hZgdIy5one3",
+							"id": "tHqljArsP1LZaFxrq",
 							"source": {
-								"library": "/gcs_user_library",
-								"path": "Crónicas del Pentácoro/Rasgos Keum.adq",
+								"library": "Dorovich/gcs-cdp",
+								"path": "CdP Rasgos (Keum).adq",
 								"id": "tY0tb0BVnVV8iHZaC"
 							},
 							"name": "Keumic Affinity",
@@ -2119,7 +2119,14 @@
 								"Advantage",
 								"Supernatural"
 							],
-							"base_points": 5,
+							"modifiers": [
+								{
+									"id": "mIHNUfv4ieSIh1jpj",
+									"name": "Projection",
+									"cost": 50,
+									"disabled": true
+								}
+							],
 							"points_per_level": 5,
 							"features": [
 								{
@@ -2130,7 +2137,7 @@
 								}
 							],
 							"can_level": true,
-							"levels": 1,
+							"levels": 2,
 							"calc": {
 								"points": 10
 							}
@@ -3534,7 +3541,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-01-20T19:05:29+01:00",
+	"modified_date": "2025-01-21T13:17:42+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

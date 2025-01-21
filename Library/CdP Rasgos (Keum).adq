@@ -3685,7 +3685,14 @@
 				"Advantage",
 				"Supernatural"
 			],
-			"base_points": 5,
+			"modifiers": [
+				{
+					"id": "m4uoFx0gJTPZdWr82",
+					"name": "Projection",
+					"cost": 50,
+					"disabled": true
+				}
+			],
 			"points_per_level": 5,
 			"features": [
 				{
@@ -3698,7 +3705,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 10
+				"points": 5
 			}
 		},
 		{
@@ -3707,6 +3714,14 @@
 			"tags": [
 				"Advantage",
 				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "myRzrCOZZ16y_diyd",
+					"name": "Projection",
+					"cost": 50,
+					"disabled": true
+				}
 			],
 			"points_per_level": 5,
 			"features": [
