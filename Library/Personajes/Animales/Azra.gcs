@@ -80,7 +80,7 @@
 				"placement": "secondary",
 				"name": "RT",
 				"full_name": "Resis. Thr.",
-				"attribute_base": "4"
+				"attribute_base": "1"
 			},
 			{
 				"id": "will",
@@ -497,7 +497,7 @@
 			"attr_id": "rt",
 			"adj": 0,
 			"calc": {
-				"value": 4,
+				"value": 1,
 				"points": 0
 			}
 		},
@@ -1574,7 +1574,7 @@
 		}
 	],
 	"created_date": "2024-07-12T01:32:35+02:00",
-	"modified_date": "2025-01-21T03:33:02+01:00",
+	"modified_date": "2025-01-21T03:35:54+01:00",
 	"calc": {
 		"swing": "1d-4",
 		"thrust": "1d-5",
