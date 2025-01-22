@@ -35,19 +35,18 @@
 			"cost_per_point": 10
 		},
 		{
-			"id": "rt",
-			"type": "integer_ref",
-			"placement": "secondary",
-			"name": "RT",
-			"full_name": "Resis. Thr.",
-			"attribute_base": "4"
-		},
-		{
 			"id": "will",
 			"type": "integer",
 			"name": "Will",
 			"attribute_base": "$iq",
 			"cost_per_point": 5
+		},
+		{
+			"id": "rt",
+			"type": "integer_ref",
+			"placement": "secondary",
+			"name": "Grit",
+			"attribute_base": "$ht/2+3"
 		},
 		{
 			"id": "ke",

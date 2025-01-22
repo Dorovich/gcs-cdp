@@ -80,19 +80,18 @@
 				"cost_per_point": 10
 			},
 			{
-				"id": "rt",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "RT",
-				"full_name": "Resis. Thr.",
-				"attribute_base": "4"
-			},
-			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
 				"attribute_base": "$iq",
 				"cost_per_point": 5
+			},
+			{
+				"id": "rt",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Grit",
+				"attribute_base": "$ht/2+3"
 			},
 			{
 				"id": "ke",
@@ -528,18 +527,18 @@
 			}
 		},
 		{
-			"attr_id": "rt",
-			"adj": 0,
-			"calc": {
-				"value": 4,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
 				"value": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "rt",
+			"adj": 0,
+			"calc": {
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -4753,7 +4752,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-01-20T19:06:20+01:00",
+	"modified_date": "2025-01-22T19:32:40+01:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",
