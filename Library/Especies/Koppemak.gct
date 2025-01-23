@@ -107,8 +107,8 @@
 								{
 									"id": "m9sNQmS6b9vZmkaKq",
 									"name": "Size",
-									"levels": 1,
 									"cost": -10,
+									"levels": 1,
 									"disabled": true
 								}
 							],
@@ -394,8 +394,8 @@
 									"id": "mg-sBb2CLOmxzn38f",
 									"name": "Hardened",
 									"reference": "B47",
-									"levels": 1,
 									"cost": 20,
+									"levels": 1,
 									"disabled": true
 								},
 								{
@@ -899,10 +899,903 @@
 							"calc": {
 								"points": 25
 							}
+						},
+						{
+							"id": "TDVJCw4q6ZlD7PM6C",
+							"name": "Sub-Traits",
+							"children": [
+								{
+									"id": "TJm92ua9mxZ7-yQZq",
+									"name": "Racial sub-traits (optional advantages)",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"qualifier": 1
+										}
+									},
+									"children": [
+										{
+											"id": "ta1eVfG98Of1LckWb",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tbYMvGDSwadg0duTE"
+											},
+											"name": "Charisma",
+											"reference": "B41",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"points_per_level": 5,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "fortune-telling"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "leadership"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "panhandling"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "public speaking"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)",
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "to Influence rolls",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "twrc0vo_jHRgmydzC",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "t2wMnVSTwlNEInQ73"
+											},
+											"name": "Mimicry",
+											"reference": "B68,P60",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mbDi0aovUOs89fpBs",
+													"name": "Voice Library",
+													"reference": "P61",
+													"cost": 50,
+													"disabled": true
+												}
+											],
+											"base_points": 10,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "tYprz3GRry6BTfXrH",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tGLoxCI3PXqFbK0Nk"
+											},
+											"name": "Eidetic Memory",
+											"reference": "B51",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mTKlRmQkM9m_I65Eu",
+													"name": "Photographic",
+													"reference": "B51",
+													"cost": 5,
+													"cost_type": "points"
+												}
+											],
+											"base_points": 5,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "t1B8DnYtfibsTF5xJ",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "toj1k8SehpW9YMKN7"
+											},
+											"name": "Infravision",
+											"reference": "B60,P87",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mTmvL1nn4Qdn09yeZ",
+													"name": "No normal vision",
+													"reference": "B60",
+													"cost": -10,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"base_points": 10,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "t_VjlJQG4PCp_HiPk",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tIkilgfk3rX0ZX6sv"
+											},
+											"name": "Absolute Direction",
+											"reference": "B34",
+											"tags": [
+												"Advantage",
+												"Mental",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "msHTHIAa_3PsZUfW0",
+													"name": "Requires signal",
+													"reference": "B34",
+													"cost": -20,
+													"disabled": true
+												},
+												{
+													"id": "mCdkakchyERK0pewh",
+													"name": "3D Spatial Sense",
+													"reference": "B34",
+													"cost": 5,
+													"cost_type": "points",
+													"features": [
+														{
+															"type": "skill_bonus",
+															"selection_type": "skills_with_name",
+															"name": {
+																"compare": "starts_with",
+																"qualifier": "piloting"
+															},
+															"amount": 1
+														},
+														{
+															"type": "skill_bonus",
+															"selection_type": "skills_with_name",
+															"name": {
+																"compare": "is",
+																"qualifier": "aerobatics"
+															},
+															"amount": 2
+														},
+														{
+															"type": "skill_bonus",
+															"selection_type": "skills_with_name",
+															"name": {
+																"compare": "is",
+																"qualifier": "free fall"
+															},
+															"amount": 2
+														},
+														{
+															"type": "skill_bonus",
+															"selection_type": "skills_with_name",
+															"name": {
+																"compare": "is",
+																"qualifier": "navigation"
+															},
+															"specialization": {
+																"compare": "is",
+																"qualifier": "hyperspace"
+															},
+															"amount": 2
+														},
+														{
+															"type": "skill_bonus",
+															"selection_type": "skills_with_name",
+															"name": {
+																"compare": "is",
+																"qualifier": "navigation"
+															},
+															"specialization": {
+																"compare": "is",
+																"qualifier": "space"
+															},
+															"amount": 2
+														}
+													],
+													"disabled": true
+												}
+											],
+											"base_points": 5,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "body sense"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "navigation"
+													},
+													"specialization": {
+														"compare": "is",
+														"qualifier": "air"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "navigation"
+													},
+													"specialization": {
+														"compare": "is",
+														"qualifier": "land"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "navigation"
+													},
+													"specialization": {
+														"compare": "is",
+														"qualifier": "sea"
+													},
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "ttruzOtpJt75Q_WXj",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tj0jQVJjSQgY7izGf"
+											},
+											"name": "Absolute Timing",
+											"reference": "B35",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mL0kOAk-z3frDdLAj",
+													"name": "Chronolocation",
+													"cost": 3,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"base_points": 2,
+											"calc": {
+												"points": 2
+											}
+										},
+										{
+											"id": "ti-WfFmiIwkbPgwSO",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "txfWfYkxkkcwmLAS4"
+											},
+											"name": "Empathy",
+											"reference": "B51,P48",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "m1DICpas1dtszkQmv",
+													"name": "Remote",
+													"reference": "P48",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mBt24UmQpf7UHLANA",
+													"source": {
+														"library": "richardwilkes/gcs_master_library",
+														"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+														"id": "m2IwCpU9KwYmjiSSA"
+													},
+													"name": "Accessibility",
+													"reference": "B110,P99",
+													"notes": "Requires physical contact",
+													"cost": -15
+												},
+												{
+													"id": "ma6oKIe5fWYjrM2L2",
+													"source": {
+														"library": "richardwilkes/gcs_master_library",
+														"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+														"id": "m2IwCpU9KwYmjiSSA"
+													},
+													"name": "Accessibility",
+													"reference": "B110,P99",
+													"notes": "Only on living beings",
+													"cost": -5
+												}
+											],
+											"base_points": 15,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "detect lies"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "fortune-telling"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "psychology"
+													},
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 12
+											}
+										},
+										{
+											"id": "tVH9a8_MFOQrWAcyF",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tGIRQlL-xfIyS7C7t"
+											},
+											"name": "Telecommunication",
+											"reference": "B91,P81,PSI17",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Mental",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "m0vqNVxIQMgVWPTyR",
+													"name": "Infrared Communication",
+													"reference": "B91",
+													"cost": 10,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "moDZ7ci5T2ONWOBC5",
+													"name": "Laser Communication",
+													"reference": "B91",
+													"cost": 15,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mCr2vKkklEyCJD1OD",
+													"name": "Radio",
+													"reference": "B91",
+													"cost": 10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mxwMfbsafBoHhBID5",
+													"name": "Telesend",
+													"reference": "B91",
+													"cost": 30,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m1HIRTduoA7jfjJ6X",
+													"name": "Broadcast",
+													"reference": "B91",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mPpDht2BI1B-OXrB_",
+													"name": "Short Wave",
+													"reference": "B91",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mx_hvtN_RObHUD0gr",
+													"name": "Universal",
+													"reference": "B91",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mg-70irWoL7p6TIcp",
+													"name": "Video",
+													"reference": "B91",
+													"cost": 40,
+													"disabled": true
+												},
+												{
+													"id": "mJu7Oh91GSOPiVoi6",
+													"name": "Racial",
+													"reference": "B91",
+													"cost": -20,
+													"disabled": true
+												},
+												{
+													"id": "mAUAb-o94AVcXnD1U",
+													"name": "Receive Only",
+													"reference": "B91",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mAZ-4ldVLnkBpoYiT",
+													"name": "Send Only",
+													"reference": "B91",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mqNwGwQkCtCKkJ-YS",
+													"name": "Vague",
+													"reference": "B91",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "m5xSxjZX7zY3_PjCv",
+													"name": "Directional Sound",
+													"reference": "P81",
+													"cost": 5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m4ZNyBbWlDxesNNw4",
+													"name": "Gravity Ripple",
+													"reference": "P81",
+													"cost": 20,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mqJC1CQ-RBT70KtB9",
+													"name": "Neutrino",
+													"reference": "P81",
+													"cost": 25,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m2vNAck9i-Ve59_qO",
+													"name": "Sonar",
+													"reference": "P81",
+													"cost": 10,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mJieUmVGgJbiEYkUq",
+													"name": "Burst",
+													"reference": "P81",
+													"cost": 30,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mqSJGT1FFvI0dM7ZV",
+													"name": "FTL",
+													"reference": "P82",
+													"cost": 120,
+													"disabled": true
+												},
+												{
+													"id": "mnWfD2-pt3zrqrVoz",
+													"name": "Secure",
+													"reference": "P82",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mLEdzs8AuZTaeT6Ij",
+													"name": "Sensie",
+													"reference": "P82",
+													"cost": 80,
+													"disabled": true
+												},
+												{
+													"id": "mxRyqiubP5aUwWlk0",
+													"name": "Cable Jack",
+													"reference": "UT31",
+													"cost": 5,
+													"cost_type": "points"
+												},
+												{
+													"id": "mC3-PjMfFfHspHyPC",
+													"name": "Full Communion",
+													"reference": "PSI17",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "miDKcWVvXejUxzQwX",
+													"name": "Reduced Range",
+													"reference": "B115,P105",
+													"notes": "10 Range Divisor",
+													"cost": -30
+												}
+											],
+											"calc": {
+												"points": 11
+											}
+										},
+										{
+											"id": "tlFi4e87iCWkgnpzD",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "toDXZ1kad2WgSHFPI"
+											},
+											"name": "Talent (Artificer)",
+											"reference": "B90",
+											"tags": [
+												"Advantage",
+												"Mental",
+												"Talent"
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "armoury"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Carpentry"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Electrician"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Electronics Repair"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Engineer"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Machinist"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Masonry"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Mechanic"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Smith"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from any employer",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "t8UfBdmi0WW8594VB",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tubKfNxOX4CgpocBj"
+											},
+											"name": "Talent (Business Acumen)",
+											"reference": "B90",
+											"tags": [
+												"Advantage",
+												"Mental",
+												"Talent"
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Accounting"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Administration"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Economics"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Finance"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Gambling"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Market Analysis"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Merchant"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Propaganda"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from business partners",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "tP78AImTSJB5fpVPE",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "thH7aW3wl09Dcug7l"
+											},
+											"name": "Lightning Calculator",
+											"reference": "B66",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mc1EPAndFLsEBNFL7",
+													"name": "Intuitive Mathematician",
+													"reference": "B66",
+													"cost": 3,
+													"cost_type": "points"
+												}
+											],
+											"base_points": 2,
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "tEe2bHOrPb-W5ZDjD",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tGK98W93y5HIWuPMk"
+											},
+											"name": "Language Talent",
+											"reference": "B65",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"base_points": 10,
+											"calc": {
+												"points": 10
+											}
+										}
+									],
+									"calc": {
+										"points": 100
+									}
+								}
+							],
+							"calc": {
+								"points": 100
+							}
 						}
 					],
 					"calc": {
-						"points": 71
+						"points": 171
 					}
 				},
 				{
@@ -936,15 +1829,540 @@
 							"calc": {
 								"points": -30
 							}
+						},
+						{
+							"id": "TQHNxd0bwJ33rpdjw",
+							"name": "Sub-Traits",
+							"children": [
+								{
+									"id": "TiB9z6aiN_Ur1cupl",
+									"name": "Racial sub-traits (optional disadvantages)",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"qualifier": 1
+										}
+									},
+									"children": [
+										{
+											"id": "tE1SVt56jvINzdVxV",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "t6TQ0VdcmrrCUikJy"
+											},
+											"name": "Clueless",
+											"reference": "B126",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "starts_with",
+														"qualifier": "savoir-faire"
+													},
+													"amount": -4
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from others aware of your clueless nature",
+													"amount": -2
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist Sex Appeal",
+													"amount": 4
+												}
+											],
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "t_yBjp-SZ-5lCu_Hs",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "txiFV5FK3-nZn8333"
+											},
+											"name": "Maintenance",
+											"reference": "B143",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mvZffS8Di_i8R67dC",
+													"name": "People Required: 1",
+													"reference": "B143",
+													"cost": -10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mTyaPmm0A8cWrAW8G",
+													"name": "People Required: 2",
+													"reference": "B143",
+													"cost": -20,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m8WuCbFkVEFP02RLz",
+													"name": "People Required: 3-5",
+													"reference": "B143",
+													"cost": -30,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mzUEkVS8nHK2zlb-7",
+													"name": "People Required: 6-10",
+													"reference": "B143",
+													"cost": -40,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m74L5qB0KOOyM5a98",
+													"name": "People Required: 11-20",
+													"reference": "B143",
+													"cost": -50,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mpAdtOdhfIldZvNhV",
+													"name": "People Required: 21-50",
+													"reference": "B143",
+													"cost": -60,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m_v8j745e4Je_qVvQ",
+													"name": "People Required: 51-100",
+													"reference": "B143",
+													"cost": -70,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mFOpU1wBX9vOlqSOI",
+													"name": "People Required: 101-200",
+													"reference": "B143",
+													"cost": -80,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mRynm50ET6Ejamjzo",
+													"name": "People Required: 201-400",
+													"reference": "B143",
+													"cost": -90,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mWtVidKR30A4LrLz3",
+													"name": "People Required: 401-800",
+													"reference": "B143",
+													"cost": -100,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "miY0gyBPWFxAxKfYD",
+													"name": "People Required: 801-1600",
+													"reference": "B143",
+													"cost": -110,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mpB2LmIwIunOa2PRA",
+													"name": "People Required: 1601-3200",
+													"reference": "B143",
+													"cost": -120,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mmIs8DwulfXT5C_uI",
+													"name": "People Required: 3201-6400",
+													"reference": "B143",
+													"cost": -130,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m0NEb-JDQIG_gjSHg",
+													"name": "People Required: 6401-12800",
+													"reference": "B143",
+													"cost": -140,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m9z4TdUUfrvIEO7pA",
+													"name": "People Required: 12801-25600",
+													"reference": "B143",
+													"cost": -150,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mfpgFrtv25cfQ9rte",
+													"name": "Frequency: Monthly",
+													"reference": "B143",
+													"cost": 0.2,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "mf9YMwMiqB6rCbdev",
+													"name": "Frequency: Bi-weekly",
+													"reference": "B143",
+													"cost": 0.3333,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "mIiOhLu8Y_ItGEm6p",
+													"name": "Frequency: Weekly",
+													"reference": "B143",
+													"cost": 0.5,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "m9b0DVAjROw-HzU0V",
+													"name": "Frequency: Every other day",
+													"reference": "B143",
+													"cost": 0.75,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "mnYxlE8WD0DalRMtP",
+													"name": "Frequency: Daily",
+													"reference": "B143",
+													"cost": 1,
+													"cost_type": "multiplier"
+												},
+												{
+													"id": "mJyhAx3YGL4LCfywW",
+													"name": "Frequency: Twice daily",
+													"reference": "B143",
+													"cost": 2,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "mqZJ6Wunxr_i53zWX",
+													"name": "Frequency: Three to five times daily",
+													"reference": "B143",
+													"cost": 3,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "m2zRyxRmtt5x2NxHt",
+													"name": "Frequency: Constant",
+													"reference": "B143",
+													"cost": 5,
+													"cost_type": "multiplier",
+													"disabled": true
+												}
+											],
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "taPXQ6nrFtRvNBROy",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "th9TK1Jmqg8uKe6SC"
+											},
+											"name": "Pacifism: Cannot Harm Innocents",
+											"reference": "B148",
+											"notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "moiyrJOuz2lo_7CVW",
+													"name": "Species-Specific",
+													"reference": "UT32",
+													"cost": -80,
+													"disabled": true
+												}
+											],
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "t5Z9560m9pULabIhK",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tRFC6SuQFL9lAGM7y"
+											},
+											"name": "Noisy",
+											"reference": "B146",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"points_per_level": -2,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "stealth"
+													},
+													"amount": -2,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": -2
+											}
+										},
+										{
+											"id": "tiMMs3w1a7W6jozlK",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "tcSrTXBhZfYO3MGuM"
+											},
+											"name": "Honesty",
+											"reference": "B138",
+											"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tbXbabiL0QQlrVoWT",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tuYiQV8SE62EPDnuX"
+											},
+											"name": "Klutz",
+											"reference": "B141",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"prereqs": {
+												"type": "prereq_list",
+												"all": true,
+												"prereqs": [
+													{
+														"type": "attribute_prereq",
+														"has": true,
+														"qualifier": {
+															"compare": "at_most",
+															"qualifier": 13
+														},
+														"which": "dx"
+													}
+												]
+											},
+											"modifiers": [
+												{
+													"id": "mkwKJ5ZNjOhmiOeD8",
+													"name": "Total",
+													"reference": "B141",
+													"cost": -10,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"base_points": -5,
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "tbw3e0NymDitjA9DS",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "t-WjXND785UJIXcn3"
+											},
+											"name": "Hidebound",
+											"reference": "B138",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -5,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage",
+													"amount": -2
+												}
+											],
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "tsOws4CShkieRh_4E",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "trpuuWASBmofkUp9B"
+											},
+											"name": "Curious",
+											"reference": "B129",
+											"notes": "Make a self-control roll when presented with an interesting item or situation",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -5,
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "t237HjW2HC_rzlBGU",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "twl5j7rN5BdWohXVG"
+											},
+											"name": "Colorblindness",
+											"reference": "B127",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"base_points": -10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "artist"
+													},
+													"amount": -1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "chemistry"
+													},
+													"amount": -1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "driving"
+													},
+													"amount": -1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "merchant"
+													},
+													"amount": -1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "piloting"
+													},
+													"amount": -1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "tracking"
+													},
+													"amount": -1
+												}
+											],
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tNIWgEgJyg-vceOHr",
+											"source": {
+												"library": "Dorovich/gcs-cdp",
+												"path": "CdP Rasgos (Especies).adq",
+												"id": "trjz55tWoAuAd7aZm"
+											},
+											"name": "Xenophilia",
+											"reference": "B162",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										}
+									],
+									"calc": {
+										"points": -77
+									}
+								}
+							],
+							"calc": {
+								"points": -77
+							}
 						}
 					],
 					"calc": {
-						"points": -50
+						"points": -127
 					}
 				}
 			],
 			"calc": {
-				"points": 30
+				"points": 53
 			}
 		}
 	]

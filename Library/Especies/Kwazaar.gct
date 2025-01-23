@@ -36,8 +36,8 @@
 									"id": "mmwrEGkuLyrCqD6Dy",
 									"name": "Size",
 									"reference": "B15",
-									"levels": 1,
 									"cost": -10,
+									"levels": 1,
 									"disabled": true
 								},
 								{
@@ -360,8 +360,8 @@
 									"id": "m-eyuBTNRodsCLzHI",
 									"name": "Hardened",
 									"reference": "B47",
-									"levels": 1,
 									"cost": 20,
+									"levels": 1,
 									"disabled": true
 								},
 								{
@@ -684,7 +684,6 @@
 									"id": "mWvDSutUE4fFuO6n3",
 									"name": "Clumsy",
 									"reference": "B88",
-									"levels": 2,
 									"cost": -20,
 									"features": [
 										{
@@ -696,7 +695,8 @@
 											"amount": -1,
 											"per_level": true
 										}
-									]
+									],
+									"levels": 2
 								},
 								{
 									"id": "m8U9GcWluep9FJkFz",
@@ -754,10 +754,927 @@
 							"calc": {
 								"points": 1
 							}
+						},
+						{
+							"id": "TkF2ahxD_kLemwH1P",
+							"name": "Sub-Traits",
+							"children": [
+								{
+									"id": "TrJcIpaGyEMHeKsdJ",
+									"name": "Racial sub-traits (optional advantages)",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"qualifier": 1
+										}
+									},
+									"children": [
+										{
+											"id": "tRfU9Ay3pc_yT7w2L",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tGjjVtxav9KsrG7Wx"
+											},
+											"name": "Combat Reflexes",
+											"reference": "B43",
+											"notes": "Never freeze",
+											"tags": [
+												"Advantage",
+												"Mental"
+											],
+											"prereqs": {
+												"type": "prereq_list",
+												"all": true,
+												"prereqs": [
+													{
+														"type": "trait_prereq",
+														"has": false,
+														"name": {
+															"compare": "is",
+															"qualifier": "Enhanced Time Sense"
+														}
+													}
+												]
+											},
+											"base_points": 15,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "starts_with",
+														"qualifier": "fast-draw"
+													},
+													"amount": 1
+												},
+												{
+													"type": "attribute_bonus",
+													"attribute": "dodge",
+													"amount": 1
+												},
+												{
+													"type": "attribute_bonus",
+													"attribute": "parry",
+													"amount": 1
+												},
+												{
+													"type": "attribute_bonus",
+													"attribute": "block",
+													"amount": 1
+												},
+												{
+													"type": "attribute_bonus",
+													"attribute": "fright_check",
+													"amount": 2
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+													"amount": 6
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to initiative rolls for your side (+2 if you are the leader)",
+													"amount": 1
+												}
+											],
+											"calc": {
+												"points": 15
+											}
+										},
+										{
+											"id": "tmYoMd3PHNjNtshNM",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "ta7LDTJnsrxUu_hpV"
+											},
+											"name": "Flexibility",
+											"reference": "B56,MA44",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 5,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "climbing"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "escape"
+													},
+													"amount": 3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "erotic art"
+													},
+													"amount": 3
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "in penalties may be ignored when due to close quarters",
+													"amount": -3
+												}
+											],
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "t5P6osT8Aa7YPd-Xq",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "ttP5n0OVmbu8o50uI"
+											},
+											"name": "Innate Attack (Toxic)",
+											"reference": "B62,P53,MA45",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mOq8P00g85k68_VDb",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 sec",
+													"cost": 100,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m4USzTxqg1ZI3kM29",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "10 sec",
+													"cost": 50,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m6kqr6Ig1q2AFNKdE",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 min",
+													"cost": 40,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mm4yB-isU6NT-Ekun",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 hr",
+													"cost": 20,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m6JJXMg_0q-fF1Psx",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 day",
+													"cost": 10,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mQ3dr3uDvbAUEAwzN",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 sec; Resistible",
+													"cost": 50,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mWNsfLmsej3axfqq7",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "10 sec; Resistible",
+													"cost": 25,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m5n8ijPvgUEIRRzsJ",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 min; Resistible",
+													"cost": 20,
+													"levels": 1
+												},
+												{
+													"id": "mOsErL7s4_ePdUZ96",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 hr; Resistible",
+													"cost": 10,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mXTFh6CDBEMnrLLaR",
+													"name": "Cyclic",
+													"reference": "B103",
+													"notes": "1 day; Resistible",
+													"cost": 5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m5dyJ08MXLgPcA3Vc",
+													"name": "Contagious",
+													"reference": "B103",
+													"notes": "Mildly",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mz5fYSmOf-pQctEIf",
+													"name": "Contagious",
+													"reference": "B103",
+													"notes": "Highly",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "moxod1E5gJYPIppwi",
+													"name": "Double Blunt Trauma",
+													"reference": "B104",
+													"notes": "1HP per 10 dmg",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mX7Tmgb9xtq8gIvBO",
+													"name": "Explosion",
+													"reference": "B104",
+													"cost": 50,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mLaaIH8loXN7FR08h",
+													"name": "Fragmentation",
+													"reference": "B104",
+													"cost": 15,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m7unvob4UVbmtEJnw",
+													"name": "Fragmentation",
+													"reference": "B104",
+													"notes": "Hot",
+													"cost": 15,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mpPpDh0RVwT9D6OZl",
+													"name": "Radiation",
+													"reference": "B104",
+													"cost": 100,
+													"disabled": true
+												},
+												{
+													"id": "mEjJW1clJ4DGZHmZY",
+													"name": "Surge",
+													"reference": "B104",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mQJLiWwAMsby5jGdK",
+													"name": "Armor Divisor",
+													"reference": "B102",
+													"notes": "2",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mkCt1oLMdW1KKCrdK",
+													"name": "Armor Divisor",
+													"reference": "B102",
+													"notes": "3",
+													"cost": 100,
+													"disabled": true
+												},
+												{
+													"id": "mmsIipGHu4AWiIXba",
+													"name": "Armor Divisor",
+													"reference": "B102",
+													"notes": "5",
+													"cost": 150,
+													"disabled": true
+												},
+												{
+													"id": "mUHpKAdnmayiKtxj4",
+													"name": "Armor Divisor",
+													"reference": "B102",
+													"notes": "10",
+													"cost": 200,
+													"disabled": true
+												},
+												{
+													"id": "m_5JRtGsLp7ZwCoF_",
+													"name": "Side Effect",
+													"reference": "B109",
+													"notes": "@Effect@",
+													"disabled": true
+												},
+												{
+													"id": "mNQJ52QUDHul1mgoK",
+													"name": "Symptoms",
+													"reference": "B109",
+													"notes": "@Effect@",
+													"disabled": true
+												},
+												{
+													"id": "m3D2scURXtD7O6L5d",
+													"name": "Armor Divisor",
+													"reference": "B110",
+													"notes": "0.5",
+													"cost": -30,
+													"disabled": true
+												},
+												{
+													"id": "mAY7a15IUPinjAA1k",
+													"name": "Armor Divisor",
+													"reference": "B110",
+													"notes": "0.2",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mqoeToQyy-CWRWmv0",
+													"name": "Armor Divisor",
+													"reference": "B110",
+													"notes": "0.1",
+													"cost": -70,
+													"disabled": true
+												},
+												{
+													"id": "mqEYeVeucGj9OOFvY",
+													"name": "No Wounding",
+													"reference": "B111",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mwK0_X_oYcwzbSuHq",
+													"name": "Incendiary",
+													"reference": "B104",
+													"cost": 10,
+													"disabled": true
+												},
+												{
+													"id": "mWqmBLZdJ2ucjfXZq",
+													"source": {
+														"library": "richardwilkes/gcs_master_library",
+														"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+														"id": "mcXN1MCeZnZB4Jz2e"
+													},
+													"name": "Follow-Up",
+													"reference": "B105,P102",
+													"notes": "Bite"
+												}
+											],
+											"points_per_level": 4,
+											"weapons": [
+												{
+													"id": "WhkqfqrzlIzQJ2DDw",
+													"damage": {
+														"type": "tox",
+														"base": "1d"
+													},
+													"accuracy": "3",
+													"range": "10/100",
+													"rate_of_fire": "1",
+													"recoil": "1",
+													"defaults": [
+														{
+															"type": "skill",
+															"name": "Innate Attack",
+															"specialization": "@Attack Type@"
+														},
+														{
+															"type": "skill",
+															"name": "Innate Attack",
+															"modifier": -2
+														},
+														{
+															"type": "dx",
+															"modifier": -4
+														}
+													],
+													"calc": {
+														"damage": "1d tox"
+													}
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "t7qwip7LjOinHrkmd",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tsavbTOaIQeNnkIK9"
+											},
+											"name": "Chameleon",
+											"reference": "B41,P43",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mZnFR1lx-XW0EogUp",
+													"name": "Extended",
+													"reference": "B41",
+													"notes": "@Sense@",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mO1NyM5UvGcSFYsGR",
+													"name": "Always On",
+													"reference": "B41",
+													"cost": -10,
+													"disabled": true
+												},
+												{
+													"id": "mguf7aZ_5RUwp9TI5",
+													"name": "Controllable",
+													"reference": "P43",
+													"cost": 20,
+													"disabled": true
+												},
+												{
+													"id": "mt65FivxLTEQRWanz",
+													"name": "Dynamic",
+													"reference": "P43",
+													"cost": 40,
+													"disabled": true
+												}
+											],
+											"points_per_level": 5,
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 10
+											}
+										},
+										{
+											"id": "ta9-I2b3HSoOfXd80",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tynHtgvWZmmNOL97D"
+											},
+											"name": "Reduced Consumption",
+											"reference": "B80",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mEy6wfs-p6exWXFJK",
+													"name": "Cast-Iron Stomach",
+													"reference": "B80",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mlDaZ18_fM4RV2TA-",
+													"name": "Food Only",
+													"reference": "B80",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mXRYAaBLggZu7s2Ih",
+													"name": "Water Only",
+													"reference": "B80",
+													"cost": -50,
+													"disabled": true
+												}
+											],
+											"points_per_level": 2,
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 2
+											}
+										},
+										{
+											"id": "tjWyBLXBeRjL2NChj",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tJTfFdHM7YI5IZR7I"
+											},
+											"name": "Resistant",
+											"reference": "B81,P71,MA47",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mCGCZYdTQkFCummJk",
+													"name": "@Very Common: Metabolic Hazards, etc.@",
+													"reference": "B80",
+													"cost": 30,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m1WyQnakm1itK_VhC",
+													"name": "@Common: Poison, Sickness, etc.@",
+													"reference": "B81",
+													"cost": 15,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mbW26uliojXT1Eig-",
+													"name": "Disease",
+													"reference": "B81",
+													"cost": 10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mcKPC3j7CdJJ88C_I",
+													"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+													"reference": "B81",
+													"cost": 5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mRaMk4iUonWO2TqLn",
+													"name": "Immunity",
+													"reference": "B81",
+													"cost": 1,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "mFTwwi21C7hM9H4Kk",
+													"name": "+8 to all HT rolls to resist",
+													"reference": "B81",
+													"cost": 0.5,
+													"cost_type": "multiplier",
+													"disabled": true
+												},
+												{
+													"id": "m9tEatgsxme4GyMbM",
+													"name": "+3 to all HT rolls to resist",
+													"reference": "B81",
+													"cost": 0.33,
+													"cost_type": "multiplier"
+												}
+											],
+											"round_down": true,
+											"calc": {
+												"points": 3
+											}
+										},
+										{
+											"id": "tpeFnlo6G8DKL8vm8",
+											"source": {
+												"library": "/gcs_user_library",
+												"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
+												"id": "tIFpRs5jIb4Ui5Rj1"
+											},
+											"name": "Tail Autotomy",
+											"notes": "Tail regrows in a week, once shed.",
+											"tags": [
+												"Exotic",
+												"Perk",
+												"Physical"
+											],
+											"base_points": 1,
+											"calc": {
+												"points": 1
+											}
+										},
+										{
+											"id": "tiXRAQjrPsPwrLfB-",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tEHmRLhULzI2uyVvh"
+											},
+											"name": "Speak Underwater",
+											"reference": "B87,P78",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mu0Zx2d78K5M6sPId",
+													"name": "Interface Crossing",
+													"reference": "B87",
+													"cost": 50,
+													"disabled": true
+												}
+											],
+											"base_points": 5,
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "tjBA2FjsCkOWhZyTU",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "txsoBf4CKtgpHPkPK"
+											},
+											"name": "Silence",
+											"reference": "B85,P76",
+											"notes": "Bonuses help only when hearing is the only sense that can be used to detect you.",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "m0xvDLDBDu75JntcL",
+													"name": "Dynamic",
+													"reference": "P76",
+													"cost": 40,
+													"disabled": true
+												}
+											],
+											"points_per_level": 5,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to Stealth when you are perfectly motionless",
+													"amount": 2,
+													"per_level": true
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to Stealth if moving (even in armor, etc.)",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "tBwaI0d_3chpNyMtc",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tj66NHKyO_GObgGsj"
+											},
+											"name": "Sharp Claws",
+											"reference": "B42",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 5,
+											"weapons": [
+												{
+													"id": "wEKaKZG5cOghwGzvI",
+													"damage": {
+														"type": "cut",
+														"st": "thr",
+														"base": "-1"
+													},
+													"usage": "Slash",
+													"reach": "C",
+													"parry": "0",
+													"defaults": [
+														{
+															"type": "dx"
+														},
+														{
+															"type": "skill",
+															"name": "Brawling"
+														},
+														{
+															"type": "skill",
+															"name": "Boxing"
+														},
+														{
+															"type": "skill",
+															"name": "Karate"
+														}
+													],
+													"calc": {
+														"damage": "thr-1 cut"
+													}
+												},
+												{
+													"id": "wWYN8dmp7jojjB3Fp",
+													"damage": {
+														"type": "cut",
+														"st": "thr"
+													},
+													"usage": "Kick",
+													"reach": "C,1",
+													"defaults": [
+														{
+															"type": "dx",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Karate",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Brawling",
+															"modifier": -2
+														}
+													],
+													"calc": {
+														"damage": "thr cut"
+													}
+												}
+											],
+											"calc": {
+												"points": 5
+											}
+										},
+										{
+											"id": "tufude_4vXx1ntxwQ",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tfEs4la8BMHdZwvxF"
+											},
+											"name": "Talent (Mathematical Ability)",
+											"reference": "B90,PU3:12",
+											"tags": [
+												"Advantage",
+												"Mental",
+												"Talent"
+											],
+											"modifiers": [
+												{
+													"id": "ma4-HDhIWcb7jnX_E",
+													"name": "Alternate Benefit",
+													"notes": "Bonus to resist deception involving numbers",
+													"disabled": true
+												},
+												{
+													"id": "mwuPvfoVmA57LMupx",
+													"name": "Alternative Cost",
+													"cost": -2,
+													"cost_type": "points",
+													"affects": "levels_only",
+													"disabled": true
+												}
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Accounting"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Astronomy"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Cryptography"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Engineer"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Finance"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Market Analysis"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Mathematics"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "Physics"
+													},
+													"amount": 1,
+													"per_level": true
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from engineers and scientists",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 10
+											}
+										}
+									],
+									"calc": {
+										"points": 71
+									}
+								}
+							],
+							"calc": {
+								"points": 71
+							}
 						}
 					],
 					"calc": {
-						"points": 38
+						"points": 109
 					}
 				},
 				{
@@ -891,15 +1808,265 @@
 							"calc": {
 								"points": -10
 							}
+						},
+						{
+							"id": "TffCfLm5-bSN_MFgp",
+							"name": "Sub-Traits",
+							"children": [
+								{
+									"id": "TStI0pIFuwIRRJuPG",
+									"name": "Racial sub-traits (optional disadvantages)",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"qualifier": 1
+										}
+									},
+									"children": [
+										{
+											"id": "tlXLmSdZy4fLtNd14",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "t7okBtFJSVdaHr_oZ"
+											},
+											"name": "Bestial",
+											"reference": "B124",
+											"tags": [
+												"Disadvantage",
+												"Exotic",
+												"Mental"
+											],
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tgpdAjlmCsLDm68Jz",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tRJveiSBWJIO33TKw"
+											},
+											"name": "Bad Grip",
+											"reference": "B123",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"prereqs": {
+												"type": "prereq_list",
+												"all": true,
+												"prereqs": [
+													{
+														"type": "trait_prereq",
+														"has": false,
+														"name": {
+															"compare": "is",
+															"qualifier": "no fine manipulators"
+														}
+													}
+												]
+											},
+											"points_per_level": -5,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to tasks that require a firm grip (max 3 levels)",
+													"amount": -2,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "tP6rvEBc3-UjyP4Nb",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tsHSzoJhgVSPSXqNY"
+											},
+											"name": "Cowardice",
+											"reference": "B129",
+											"notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tgd63G2LHBNoNPVKQ",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tYHaB3nA17KP6h1DZ"
+											},
+											"name": "Gluttony",
+											"reference": "B137",
+											"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -5,
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "t9WUXzdPvCP2AEKs3",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tOW5XqmChX0NBm1AP"
+											},
+											"name": "Light Sleeper",
+											"reference": "B142",
+											"notes": "Whenever you must sleep in an uncomfortable place, or whenever there is more than the slightest noise, you must make a HT roll in order to fall asleep. On a failure, you can try again after one hour, but you will suffer all the usual effects of one hour of missed sleep.",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"base_points": -5,
+											"calc": {
+												"points": -5
+											}
+										},
+										{
+											"id": "t54fbirwd4P18yPSu",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "teXHpDmoSZB1Wbkzp"
+											},
+											"name": "Slow Eater",
+											"reference": "B155",
+											"notes": "Each meal takes about two hours, as opposed to about ½ hour for most humans. This reduces the time available for study, long tasks, and travel on foot by 4½ hours per day.",
+											"tags": [
+												"Disadvantage",
+												"Exotic",
+												"Physical"
+											],
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tg-jeW1rXh5xAPClz",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tijmxMEy4B1uAVMr9"
+											},
+											"name": "Extra Sleep",
+											"reference": "B136",
+											"notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"points_per_level": -2,
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": -4
+											}
+										},
+										{
+											"id": "tuVcf526feNYKAAag",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tNNZgqAtiUMQ_dZs6"
+											},
+											"name": "Jealousy",
+											"reference": "B140",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -10,
+											"features": [
+												{
+													"type": "reaction_bonus",
+													"situation": "toward those you are jealous of (may be as much as -4, at GM's discretion)",
+													"amount": -2
+												}
+											],
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tYfLa0Orl5eytmbsn",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "taFPI7E0PJwXbS5nL"
+											},
+											"name": "Agoraphobia (Open Spaces)",
+											"reference": "B150",
+											"notes": "You are uncomfortable whenever you are outside, and actually become frightened when there are no walls within 50 feet.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr_adj": "action_penalty",
+											"cr": 12,
+											"base_points": -10,
+											"calc": {
+												"points": -10
+											}
+										},
+										{
+											"id": "tNaLhK4y1b3u-psRD",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set/Basic Set Traits.adq",
+												"id": "tW3e4OJTtFNNveAgo"
+											},
+											"name": "Code of Honor (Professional)",
+											"reference": "B127",
+											"notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -5,
+											"calc": {
+												"points": -5
+											}
+										}
+									],
+									"calc": {
+										"points": -74
+									}
+								}
+							],
+							"calc": {
+								"points": -74
+							}
 						}
 					],
 					"calc": {
-						"points": -25
+						"points": -99
 					}
 				}
 			],
 			"calc": {
-				"points": 33
+				"points": 30
 			}
 		}
 	]
