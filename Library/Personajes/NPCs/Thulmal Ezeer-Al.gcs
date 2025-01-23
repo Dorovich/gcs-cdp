@@ -84,8 +84,23 @@
 				"cost_per_point": 5
 			},
 			{
+				"id": "rt",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Grit",
+				"attribute_base": "$ht/2+3"
+			},
+			{
+				"id": "ke",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Keum",
+				"attribute_base": "10"
+			},
+			{
 				"id": "fright_check",
 				"type": "integer",
+				"placement": "hidden",
 				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
@@ -277,13 +292,6 @@
 						"expression": "$hp"
 					}
 				]
-			},
-			{
-				"id": "ke",
-				"type": "integer_ref",
-				"name": "KE",
-				"full_name": "Keum",
-				"attribute_base": "0"
 			}
 		],
 		"body_type": {
@@ -524,6 +532,22 @@
 			}
 		},
 		{
+			"attr_id": "rt",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ke",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
@@ -610,14 +634,6 @@
 			"calc": {
 				"value": 11,
 				"current": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "ke",
-			"adj": 0,
-			"calc": {
-				"value": 0,
 				"points": 0
 			}
 		}
@@ -2576,7 +2592,7 @@
 		}
 	],
 	"created_date": "2024-09-21T16:34:24+02:00",
-	"modified_date": "2024-09-21T17:45:34+02:00",
+	"modified_date": "2025-01-23T01:03:19+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

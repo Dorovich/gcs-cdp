@@ -80,11 +80,31 @@
 				"cost_per_point": 5
 			},
 			{
+				"id": "rt",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Grit",
+				"attribute_base": "$ht/2+3"
+			},
+			{
+				"id": "ke",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Keum",
+				"attribute_base": "10"
+			},
+			{
 				"id": "fright_check",
 				"type": "integer",
+				"placement": "hidden",
 				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
+			},
+			{
+				"id": "senses",
+				"type": "secondary_separator",
+				"name": "Senses"
 			},
 			{
 				"id": "per",
@@ -121,6 +141,11 @@
 				"name": "Touch",
 				"attribute_base": "$per",
 				"cost_per_point": 2
+			},
+			{
+				"id": "movement",
+				"type": "secondary_separator",
+				"name": "Movement"
 			},
 			{
 				"id": "basic_speed",
@@ -263,13 +288,6 @@
 						"expression": "$hp"
 					}
 				]
-			},
-			{
-				"id": "ke",
-				"type": "integer",
-				"name": "KE",
-				"full_name": "Keum",
-				"attribute_base": "0"
 			}
 		],
 		"body_type": {
@@ -509,12 +527,32 @@
 			}
 		},
 		{
+			"attr_id": "rt",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ke",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
 				"value": 8,
 				"points": 0
 			}
+		},
+		{
+			"attr_id": "senses",
+			"adj": 0
 		},
 		{
 			"attr_id": "per",
@@ -557,6 +595,10 @@
 			}
 		},
 		{
+			"attr_id": "movement",
+			"adj": 0
+		},
+		{
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
@@ -587,14 +629,6 @@
 			"calc": {
 				"value": 13,
 				"current": 13,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "ke",
-			"adj": 0,
-			"calc": {
-				"value": 0,
 				"points": 0
 			}
 		}
@@ -824,8 +858,8 @@
 					"id": "mHTGZB2d6rkVvRJtb",
 					"name": "Requires Low Gravity",
 					"reference": "P45",
-					"levels": 1,
 					"cost": -5,
+					"levels": 1,
 					"disabled": true
 				}
 			],
@@ -1102,8 +1136,8 @@
 					"id": "mlbdEnN_I3Ut1SQJW",
 					"name": "Burst",
 					"reference": "P81",
-					"levels": 1,
 					"cost": 30,
+					"levels": 1,
 					"disabled": true
 				},
 				{
@@ -1168,8 +1202,8 @@
 					"id": "mkhMLjm6aygtcrtjI",
 					"name": "Hardened",
 					"reference": "B47",
-					"levels": 1,
 					"cost": 20,
+					"levels": 1,
 					"disabled": true
 				},
 				{
@@ -1486,8 +1520,8 @@
 							"name": "DX Penalty",
 							"reference": "B36",
 							"notes": "Gives -1 to DX per level",
-							"levels": 1,
 							"cost": 10,
+							"levels": 1,
 							"disabled": true
 						},
 						{
@@ -1495,8 +1529,8 @@
 							"name": "HT Penalty",
 							"reference": "B36",
 							"notes": "Gives -1 to HT per level",
-							"levels": 1,
 							"cost": 5,
+							"levels": 1,
 							"disabled": true
 						},
 						{
@@ -1504,8 +1538,8 @@
 							"name": "IQ Penalty",
 							"reference": "B36",
 							"notes": "Gives -1 to IQ per level",
-							"levels": 1,
 							"cost": 10,
+							"levels": 1,
 							"disabled": true
 						},
 						{
@@ -1513,8 +1547,8 @@
 							"name": "ST Penalty",
 							"reference": "B36",
 							"notes": "Gives -1 to ST per level",
-							"levels": 1,
 							"cost": 5,
+							"levels": 1,
 							"disabled": true
 						}
 					]
@@ -1717,8 +1751,8 @@
 							"name": "Gives @Advantage@",
 							"reference": "B36",
 							"notes": "1 point per level",
-							"levels": 1,
 							"cost": 10,
+							"levels": 1,
 							"disabled": true
 						},
 						{
@@ -1726,8 +1760,8 @@
 							"name": "Gives @Disadvantage@",
 							"reference": "B36",
 							"notes": "1 point per level",
-							"levels": 1,
 							"cost": 1,
+							"levels": 1,
 							"disabled": true
 						},
 						{
@@ -1735,8 +1769,8 @@
 							"name": "Negates @Advantage@",
 							"reference": "B36",
 							"notes": "1 point per level",
-							"levels": 1,
 							"cost": 1,
+							"levels": 1,
 							"disabled": true
 						}
 					]
@@ -2220,7 +2254,7 @@
 		}
 	],
 	"created_date": "2024-07-01T19:06:49+02:00",
-	"modified_date": "2024-08-03T17:39:04+02:00",
+	"modified_date": "2025-01-23T01:01:55+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

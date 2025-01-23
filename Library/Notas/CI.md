@@ -13,10 +13,6 @@ Ver en Pyramid #3/120 (_Alternate GURPS V_).
 | Runa            | 4   |
 | Yorgos          | 5   |
 
-| Arkopan        | RT  |
-| ---            | --- |
-| El _Timelapse_ | 14  |
-
 | Personaje: NPC        | RT  |
 | ---                   | --- |
 | Azra                  | 2   |
@@ -41,6 +37,18 @@ Ver en Pyramid #3/120 (_Alternate GURPS V_).
 | Leurann               | 2   |
 | Norkata               | 4   |
 | Wolpentinger          | 2   |
+
+| Arkopan     | RT  |
+| ---         | --- |
+| Unipersonal | 8   |
+| Corvette    | 14  |
+| Acorazado   | 16  |
+
+| Cibernéticos       | RT  |
+| ---                | --- |
+| Pierna             | 4   |
+| Brazo              | 3   |
+| Ojo, corazón, etc. | 1   |
 
 ## Tabla de RT/WP
 | HP/Daño penetrante | RT/WP |
