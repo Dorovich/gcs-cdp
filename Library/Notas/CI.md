@@ -2,55 +2,7 @@
 
 Ver en Pyramid #3/120 (_Alternate GURPS V_).
 
-## Límites de Robustez (RT)
-| Personaje: PC   | RT  |
-| ---             | --- |
-| Doppel          | 4   |
-| Faryth          | 4   |
-| Faryth (Brazos) | 3   |
-| Faryth (Pierna) | 4   |
-| Laterne         | 4   |
-| Runa            | 4   |
-| Yorgos          | 5   |
-
-| Personaje: NPC        | RT  |
-| ---                   | --- |
-| Azra                  | 2   |
-| Buscador del Gremio   | 4   |
-| Soldado de la Guardia | 4   |
-| Thulmal Ezeer-Al      | 4   |
-| Threk "Martillo"      | 5   |
-| Kaela Greenwill       | 4   |
-| Kuka Furtiva          | 2   |
-| Mika Exploradora      | 4   |
-| Mika Obrera           | 4   |
-| Mika Reina            | 6   |
-| Mika Soldado          | 5   |
-| Mika Exploradora      | 4   |
-| Mimo de la Orden      | 4   |
-| Misionero de la Orden | 4   |
-| Naanki Adulto         | 4   |
-| Naanki Joven          | 4   |
-| Naanki Cría           | 3   |
-| Escorpiño             | 5   |
-| Keiler                | 6   |
-| Leurann               | 2   |
-| Norkata               | 4   |
-| Wolpentinger          | 2   |
-
-| Arkopan     | RT  |
-| ---         | --- |
-| Unipersonal | 8   |
-| Corvette    | 14  |
-| Acorazado   | 16  |
-
-| Cibernéticos       | RT  |
-| ---                | --- |
-| Pierna             | 4   |
-| Brazo              | 3   |
-| Ojo, corazón, etc. | 1   |
-
-## Tabla de RT/WP
+## Tabla de Robustez/Heridas
 | HP/Daño penetrante | RT/WP |
 | ---                | ---   |
 | 1                  | -2    |
@@ -121,17 +73,16 @@ Ver en Pyramid #3/120 (_Alternate GURPS V_).
 | pi++ | +2     | -           | -2        | -6     |
 | imp  | +2     | -           | -2        | -6     |
 
-### Partes del cuerpo
-| Parte   | Severidad                                     | Golpear |
-| ---     | ---                                           | ---     |
-| Cráneo  | +4                                            | -7      |
-| Cara    | +1 (cor)                                      | -5      |
-| Ojos    | +6 (sólo efecto bruto), +4 (cráneo)           | -9      |
-| Cuello  | +2 (cut), +1 (cr, cor)                        | -5      |
-| Torso   | -                                             | -       |
-| Brazos  | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2      |
-| Manos   | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4      |
-| Vitales | +3 (+2 para beam)                             | -3      |
-| Ingle   | -                                             | -3      |
-| Piernas | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) | -2      |
-| Pies    | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) | -4      |
+| Parte   | Severidad                                     |
+| ---     | ---                                           |
+| Cráneo  | +4                                            |
+| Cara    | +1 (cor)                                      |
+| Ojos    | +6 (sólo efecto bruto), +4 (cráneo)           |
+| Cuello  | +2 (cut), +1 (cr, cor)                        |
+| Torso   | -                                             |
+| Brazos  | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) |
+| Manos   | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) |
+| Vitales | +3 (+2 para beam)                             |
+| Ingle   | -                                             |
+| Piernas | WM=0 (pi+, pi++, imp), +2 (sólo efecto bruto) |
+| Pies    | WM=0 (pi+, pi++, imp), +3 (sólo efecto bruto) |
