@@ -13,7 +13,6 @@
 		"name": "Soldado de la Guardia",
 		"height": "5'4.8\"",
 		"weight": "146 lb",
-		"player_name": "Vido",
 		"title": "Soldado raso",
 		"organization": "Guardia de Niwel",
 		"tech_level": "(5+1)",
@@ -488,10 +487,10 @@
 		},
 		{
 			"attr_id": "dx",
-			"adj": 1,
+			"adj": 0,
 			"calc": {
-				"value": 11,
-				"points": 20
+				"value": 10,
+				"points": 0
 			}
 		},
 		{
@@ -578,7 +577,7 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 5.25,
+				"value": 5,
 				"points": 0
 			}
 		},
@@ -642,7 +641,7 @@
 						}
 					],
 					"calc": {
-						"level": 11,
+						"level": 10,
 						"damage": "1d-2 cr"
 					}
 				},
@@ -674,7 +673,7 @@
 						}
 					],
 					"calc": {
-						"level": 11,
+						"level": 10,
 						"damage": "1d-2 cr",
 						"parry": "8"
 					}
@@ -708,7 +707,7 @@
 						}
 					],
 					"calc": {
-						"level": 9,
+						"level": 8,
 						"damage": "1d cr"
 					}
 				}
@@ -816,7 +815,7 @@
 			],
 			"points": 1,
 			"calc": {
-				"level": 11,
+				"level": 10,
 				"rsl": "DX+0"
 			}
 		},
@@ -848,17 +847,17 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
 			},
 			"calc": {
-				"level": 10,
+				"level": 9,
 				"rsl": "DX-1"
 			}
 		},
 		{
-			"id": "sl-MHjvSKby6kADDs",
+			"id": "sPLxRDgUNVEGco_bz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -892,22 +891,21 @@
 					"modifier": -4
 				}
 			],
-			"tech_level": "(5+1)",
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
 			},
 			"calc": {
 				"level": 10,
-				"rsl": "DX-1"
+				"rsl": "DX+0"
 			}
 		},
 		{
-			"id": "s7vB3jmDAzw5vLhgK",
+			"id": "samZ26LS65n0KH5mj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -982,22 +980,21 @@
 					"modifier": -2
 				}
 			],
-			"tech_level": "(5+1)",
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
 				"level": 11,
-				"rsl": "DX+0"
+				"rsl": "DX+1"
 			}
 		},
 		{
-			"id": "sGFCthilol2R2X7X3",
+			"id": "sZVuyqHaAUB-UqyN6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1072,8 +1069,7 @@
 					"modifier": -2
 				}
 			],
-			"tech_level": "(5+1)",
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "skill",
 				"name": "Guns",
@@ -1085,93 +1081,7 @@
 			},
 			"calc": {
 				"level": 11,
-				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "slOWXVcxISPPmVTJn",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sFv-HqFH4QW3yQGAF"
-			},
-			"name": "Guns",
-			"reference": "B198",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Shotgun",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Grenade Launcher",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Gyroc",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Light Anti-Armor Weapon",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Light Machine Gun",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Musket",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Pistol",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Rifle",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Submachine Gun",
-					"modifier": -2
-				}
-			],
-			"tech_level": "(5+1)",
-			"points": 1,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Guns",
-				"specialization": "Pistol",
-				"modifier": -2,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
-			},
-			"calc": {
-				"level": 11,
-				"rsl": "DX+0"
+				"rsl": "DX+1"
 			}
 		},
 		{
@@ -1206,45 +1116,6 @@
 			"calc": {
 				"level": 9,
 				"rsl": "HT-1"
-			}
-		},
-		{
-			"id": "sJjRf0_209X-zHAY6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sw6twMMqbSiWNaKtg"
-			},
-			"name": "Riding",
-			"reference": "B217",
-			"tags": [
-				"Animal"
-			],
-			"specialization": "Equines",
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Animal Handling",
-					"specialization": "Equines",
-					"modifier": -3
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "DX-1"
 			}
 		},
 		{
@@ -1353,7 +1224,7 @@
 			}
 		},
 		{
-			"id": "s_TKF4O0w7v8xwxfE",
+			"id": "s-zFxsTpTE9xG9wHw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1371,7 +1242,6 @@
 					"modifier": -5
 				}
 			],
-			"tech_level": "(5+1)",
 			"points": 2,
 			"defaulted_from": {
 				"type": "iq",
@@ -1416,17 +1286,39 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -3,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 10,
+				"level": 9,
 				"rsl": "DX-1"
 			}
 		}
 	],
 	"equipment": [
+		{
+			"id": "eEbElT_QF3aU3BffS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e3BHRIEi6pDe3XgQr"
+			},
+			"description": "7.62x54mmR Mosin-Nagant",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 0.8,
+			"weight": "0.05 lb",
+			"quantity": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.5 lb"
+			}
+		},
 		{
 			"id": "evdSzdl7LCofs8DzJ",
 			"source": {
@@ -1491,35 +1383,35 @@
 			}
 		},
 		{
-			"id": "ez6bo8Rmue5XZY8BU",
+			"id": "eBQggH5NlPhEyGd_l",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "High Tech/High Tech Equipment.eqp",
-				"id": "ee3UomNhA2E12tsUp"
+				"id": "ewGBW813Dt91YuMPF"
 			},
-			"description": "Springfield M1 Garand, .30-06",
+			"description": "Mosin-Nagant PV-1891, 7.62X54mmR",
 			"reference": "HT120",
 			"tech_level": "6",
 			"legality_class": "3",
 			"tags": [
 				"Firearms"
 			],
-			"value": 510,
-			"weight": "10.1 lb",
+			"value": 700,
+			"weight": "9.2 lb",
 			"weapons": [
 				{
-					"id": "WWoC1jd-i3XFIkmCy",
+					"id": "WzNAvhKuxc3BplU9u",
 					"damage": {
 						"type": "pi",
 						"base": "7d+1"
 					},
 					"strength": "10†",
 					"accuracy": "5",
-					"range": "1,100/4,500",
-					"rate_of_fire": "3",
-					"shots": "8(3)",
-					"bulk": "-5",
-					"recoil": "3",
+					"range": "1,100/4,800",
+					"rate_of_fire": "1",
+					"shots": "5(3)",
+					"bulk": "-6",
+					"recoil": "4",
 					"defaults": [
 						{
 							"type": "skill",
@@ -1598,30 +1490,8 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 510,
-				"extended_weight": "10.1 lb"
-			}
-		},
-		{
-			"id": "eeAhshx9Jp_S6pJVK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "High Tech/High Tech Equipment.eqp",
-				"id": "erP9lwoCVV5erC5qe"
-			},
-			"description": ".30-06 Springfield (7.62x63mm)",
-			"reference": "HT176",
-			"tags": [
-				"Ammunition",
-				"Warheads"
-			],
-			"value": 0.8,
-			"weight": "0.056 lb",
-			"quantity": 8,
-			"equipped": true,
-			"calc": {
-				"extended_value": 6.4,
-				"extended_weight": "0.448 lb"
+				"extended_value": 700,
+				"extended_weight": "9.2 lb"
 			}
 		}
 	],
@@ -1718,7 +1588,7 @@
 		}
 	],
 	"created_date": "2024-08-26T12:16:02+02:00",
-	"modified_date": "2024-09-04T19:27:19Z",
+	"modified_date": "2025-01-24T13:30:40+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

@@ -14,7 +14,6 @@
 		"birthday": " ",
 		"height": "5'4.8\"",
 		"weight": "128 lb",
-		"player_name": "Vido",
 		"title": "Buscador",
 		"organization": "Gremio del Asta",
 		"tech_level": "(5+1)",
@@ -481,10 +480,10 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": 1,
+			"adj": 0,
 			"calc": {
-				"value": 11,
-				"points": 10
+				"value": 10,
+				"points": 0
 			}
 		},
 		{
@@ -604,8 +603,8 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 11,
-				"current": 11,
+				"value": 10,
+				"current": 10,
 				"points": 0
 			}
 		},
@@ -644,7 +643,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d-2 cr"
+						"damage": "1d-3 cr"
 					}
 				},
 				{
@@ -676,7 +675,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d-2 cr",
+						"damage": "1d-3 cr",
 						"parry": "8"
 					}
 				},
@@ -710,7 +709,7 @@
 					],
 					"calc": {
 						"level": 9,
-						"damage": "1d-1 cr"
+						"damage": "1d-2 cr"
 					}
 				}
 			],
@@ -720,39 +719,6 @@
 		}
 	],
 	"skills": [
-		{
-			"id": "sTSY5ITNgQtfXjZoT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sOp4wssAMtUc1ukJI"
-			},
-			"name": "Body Language",
-			"reference": "B181",
-			"tags": [
-				"Police",
-				"Social",
-				"Spy"
-			],
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Detect Lies",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Psychology",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"calc": {
-				"level": 9,
-				"rsl": "Per-1"
-			}
-		},
 		{
 			"id": "sF2uAOaJO0_TuAnKw",
 			"source": {
@@ -784,145 +750,6 @@
 				}
 			],
 			"points": 1,
-			"calc": {
-				"level": 11,
-				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "sMd4vIJNTK4MKFoG_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "slOONrK6jDHvcRoGx"
-			},
-			"name": "Knife",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Force Sword",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Main-Gauche",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -3
-				},
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 11,
-				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "s2Jio0qwlUj0NtdvH",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sfWUh9TJBpQuwZBVo"
-			},
-			"name": "Guns",
-			"reference": "B198",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Pistol",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Grenade Launcher",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Gyroc",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Light Anti-Armor Weapon",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Light Machine Gun",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Musket",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Beam Weapons",
-					"specialization": "Pistol",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Rifle",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Shotgun",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Submachine Gun",
-					"modifier": -2
-				}
-			],
-			"tech_level": "(5+1)",
-			"points": 1,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
 			"calc": {
 				"level": 11,
 				"rsl": "DX+0"
@@ -1006,6 +833,95 @@
 			}
 		},
 		{
+			"id": "s3Fxbb9uN68oFJPJJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sfWUh9TJBpQuwZBVo"
+			},
+			"name": "Guns",
+			"reference": "B198",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Pistol",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "DX+0"
+			}
+		},
+		{
 			"id": "s_ygX0zfbYzXliIhv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1031,7 +947,7 @@
 					"modifier": -3
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
@@ -1040,8 +956,57 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 9,
-				"rsl": "IQ-1"
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sMd4vIJNTK4MKFoG_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "slOONrK6jDHvcRoGx"
+			},
+			"name": "Knife",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "DX+0"
 			}
 		},
 		{
@@ -1072,7 +1037,7 @@
 					"modifier": -5
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
@@ -1081,8 +1046,8 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 9,
-				"rsl": "Per-1"
+				"level": 10,
+				"rsl": "Per+0"
 			}
 		},
 		{
@@ -1119,90 +1084,6 @@
 			}
 		},
 		{
-			"id": "s_TRrhLSVwA2UiRKm",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sW_dr_6QZxz1zrODT"
-			},
-			"name": "Search",
-			"reference": "B219",
-			"tags": [
-				"Police",
-				"Spy"
-			],
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "per",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Criminology",
-					"modifier": -5
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "per",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "Per-1"
-			}
-		},
-		{
-			"id": "skzFVHvIdw0-Lwqiz",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sqFw3NucoHE6Ki4XP"
-			},
-			"name": "Shadowing",
-			"reference": "B219",
-			"tags": [
-				"Criminal",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Observation",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Stealth",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Stealth",
-				"modifier": -4,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "IQ-1"
-			}
-		},
-		{
 			"id": "spFI5Y1we8zZ8UjqN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1229,7 +1110,7 @@
 					"modifier": -5
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -5,
@@ -1238,8 +1119,8 @@
 				"points": -6
 			},
 			"calc": {
-				"level": 10,
-				"rsl": "DX-1"
+				"level": 11,
+				"rsl": "DX+0"
 			}
 		},
 		{
@@ -1278,6 +1159,46 @@
 			}
 		},
 		{
+			"id": "sraz86Va0kCtseK21",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s64oJ-8i-8xecRu4a"
+			},
+			"name": "Throwing",
+			"reference": "B226",
+			"tags": [
+				"Athletic",
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Dropping",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -3,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "DX-1"
+			}
+		},
+		{
 			"id": "sDd4S5yPuD2Eou-BK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1309,26 +1230,6 @@
 			"calc": {
 				"level": 9,
 				"rsl": "Per-1"
-			}
-		},
-		{
-			"id": "s4qYDaj5H-HH5d4O1",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s8parl7zgbXys0OF2"
-			},
-			"name": "Wrestling",
-			"reference": "B228,MA61",
-			"tags": [
-				"Combat",
-				"Melee Combat"
-			],
-			"difficulty": "dx/a",
-			"points": 1,
-			"calc": {
-				"level": 10,
-				"rsl": "DX-1"
 			}
 		}
 	],
@@ -1520,7 +1421,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d-2 cut",
+						"damage": "1d-3 cut",
 						"parry": "7"
 					}
 				},
@@ -1566,7 +1467,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d-2 imp",
+						"damage": "1d-3 imp",
 						"parry": "7"
 					}
 				},
@@ -1596,8 +1497,8 @@
 					],
 					"calc": {
 						"level": 7,
-						"damage": "1d-2 imp",
-						"range": "5/11"
+						"damage": "1d-3 imp",
+						"range": "5/10"
 					}
 				}
 			],
@@ -1723,11 +1624,11 @@
 		}
 	],
 	"created_date": "2024-08-26T12:16:08+02:00",
-	"modified_date": "2024-08-26T13:20:28+02:00",
+	"modified_date": "2025-01-24T13:33:59+01:00",
 	"calc": {
-		"swing": "1d+1",
-		"thrust": "1d-1",
-		"basic_lift": "24 lb",
+		"swing": "1d",
+		"thrust": "1d-2",
+		"basic_lift": "20 lb",
 		"move": [
 			5,
 			4,
