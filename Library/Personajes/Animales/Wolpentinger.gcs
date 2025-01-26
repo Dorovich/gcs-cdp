@@ -488,10 +488,10 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": -6,
+			"adj": -5,
 			"calc": {
-				"value": 4,
-				"points": -60
+				"value": 5,
+				"points": -50
 			}
 		},
 		{
@@ -627,112 +627,13 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 4,
-				"current": 4,
+				"value": 5,
+				"current": 5,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
-		{
-			"id": "tzaG-wD43kLn0NGN9",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wkQ8egx1WDR6BYFR2",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 14,
-						"damage": "1d-5 cr"
-					}
-				},
-				{
-					"id": "wb7J3a21uNXeqvqj4",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 14,
-						"damage": "1d-5 cr",
-						"parry": "10"
-					}
-				},
-				{
-					"id": "wVfVCNhgpLxgdnz-v",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "1d-4 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
 		{
 			"id": "tWXp2Le0QEWEM4Ksp",
 			"source": {
@@ -830,7 +731,7 @@
 					],
 					"calc": {
 						"level": 14,
-						"damage": "1d-3 pi",
+						"damage": "1d-2 pi",
 						"parry": "10"
 					}
 				}
@@ -885,7 +786,7 @@
 					],
 					"calc": {
 						"level": 14,
-						"damage": "1d-5 cut"
+						"damage": "1d-4 cut"
 					}
 				}
 			],
@@ -937,7 +838,7 @@
 					],
 					"calc": {
 						"level": 14,
-						"damage": "1d-5 cut",
+						"damage": "1d-4 cut",
 						"parry": "10"
 					}
 				},
@@ -967,7 +868,7 @@
 					],
 					"calc": {
 						"level": 12,
-						"damage": "1d-4 cut"
+						"damage": "1d-3 cut"
 					}
 				}
 			],
@@ -1337,11 +1238,11 @@
 		}
 	],
 	"created_date": "2024-09-30T01:40:01+02:00",
-	"modified_date": "2025-01-23T01:02:29+01:00",
+	"modified_date": "2025-01-26T00:38:34+01:00",
 	"calc": {
-		"swing": "1d-4",
-		"thrust": "1d-5",
-		"basic_lift": "3.2 lb",
+		"swing": "1d-3",
+		"thrust": "1d-4",
+		"basic_lift": "5 lb",
 		"move": [
 			7,
 			5,
