@@ -2484,6 +2484,228 @@
 			}
 		},
 		{
+			"id": "st7ZEcsG136zur8TB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "scAysIf1hcMnIL0Ca"
+			},
+			"name": "Electrician",
+			"reference": "B189",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -3
+				}
+			],
+			"points": 4,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+2"
+			}
+		},
+		{
+			"id": "suSdp3Iag0DUkh8MB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sE5fV7wjBmakBWvj6"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Artillery",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Armoury",
+					"specialization": "Heavy Weapons",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Armoury",
+				"specialization": "Heavy Weapons",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sf930MpopG2ois4uU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s10pC5SG3-DVJxORd"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Heavy Arkopan",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Heavy Arkopan",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Heavy Arkopan",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sQe9ktJo867KDQ8nP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sm0SBaOMUXyix9RSy"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Robotics",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Robotics",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Robotics",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "IQ+0"
+			}
+		},
+		{
 			"id": "seUr5uUBTW4qlVCcL",
 			"source": {
 				"library": "/gcs_user_library",
@@ -2839,6 +3061,46 @@
 			}
 		},
 		{
+			"id": "seFvKrA6GFj4MAKBr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s_KN_9-Qka4xk40ns"
+			},
+			"name": "Machinist",
+			"reference": "B206",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Heavy Arkopan",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 13,
+				"rsl": "IQ+1"
+			}
+		},
+		{
 			"id": "sfj473r8_iJULAZoX",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2884,6 +3146,108 @@
 			"calc": {
 				"level": 12,
 				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sFDZaolBwUphn9ETh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sYE1kO_owXbs8tt-m"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Heavy Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 4,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+2"
+			}
+		},
+		{
+			"id": "sKizcEhMTtQVF3SVV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sKTkr5zOJhh2hRT9Y"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Robotics",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Robotics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 4,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Heavy Arkopan",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -3246,378 +3610,8 @@
 			}
 		},
 		{
-			"id": "SYInY-_6X2fYz0JrX",
-			"name": "Engi/Mech",
-			"children": [
-				{
-					"id": "st7ZEcsG136zur8TB",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "scAysIf1hcMnIL0Ca"
-					},
-					"name": "Electrician",
-					"reference": "B189",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electrical",
-							"modifier": -3
-						}
-					],
-					"points": 4,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 14,
-						"rsl": "IQ+2"
-					}
-				},
-				{
-					"id": "suSdp3Iag0DUkh8MB",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sE5fV7wjBmakBWvj6"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Artillery",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Armoury",
-							"specialization": "Heavy Weapons",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 2,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Armoury",
-						"specialization": "Heavy Weapons",
-						"modifier": -6,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 12,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "sf930MpopG2ois4uU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s10pC5SG3-DVJxORd"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Heavy Arkopan",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Heavy Arkopan",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 2,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Mechanic",
-						"specialization": "Heavy Arkopan",
-						"modifier": -6,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 12,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "sQe9ktJo867KDQ8nP",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sm0SBaOMUXyix9RSy"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Robotics",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Robotics",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 2,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Mechanic",
-						"specialization": "Robotics",
-						"modifier": -6,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 12,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "seFvKrA6GFj4MAKBr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s_KN_9-Qka4xk40ns"
-					},
-					"name": "Machinist",
-					"reference": "B206",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -5
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Mechanic",
-						"specialization": "Heavy Arkopan",
-						"modifier": -5,
-						"level": 8,
-						"adjusted_level": 8,
-						"points": -8
-					},
-					"calc": {
-						"level": 13,
-						"rsl": "IQ+1"
-					}
-				},
-				{
-					"id": "sFDZaolBwUphn9ETh",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sYE1kO_owXbs8tt-m"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Heavy Arkopan",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Heavy Arkopan",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 4,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 14,
-						"rsl": "IQ+2"
-					}
-				},
-				{
-					"id": "sKizcEhMTtQVF3SVV",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKTkr5zOJhh2hRT9Y"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Robotics",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Robotics",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 4,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Mechanic",
-						"specialization": "Heavy Arkopan",
-						"modifier": -4,
-						"level": 9,
-						"adjusted_level": 9,
-						"points": -9
-					},
-					"calc": {
-						"level": 14,
-						"rsl": "IQ+2"
-					}
-				}
-			]
-		},
-		{
 			"id": "SZhcqGIJIl5QoVCdI",
-			"name": "Defaults",
+			"name": "~ Defaults",
 			"children": [
 				{
 					"id": "si744oef4D8Hf4AK8",
@@ -3967,7 +3961,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-01-22T19:32:30+01:00",
+	"modified_date": "2025-02-16T05:11:37+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

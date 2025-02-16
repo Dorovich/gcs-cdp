@@ -1511,6 +1511,63 @@
 					}
 				},
 				{
+					"id": "tsys7hGJX44G583yM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tz-USDL9B_KrrVqDi"
+					},
+					"name": "Luck",
+					"reference": "B66,P59",
+					"notes": "Usable once per hour of play",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mof9LMxnSy0G8u_8y",
+							"name": "Active",
+							"reference": "B66",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mh9vNRlqAWd1yIlCb",
+							"name": "Aspected",
+							"reference": "B66",
+							"notes": "@Aspect@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mfoKegGqiUj6EZ2AV",
+							"name": "Defensive",
+							"reference": "B66",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mcKvepnF_koq3i54-",
+							"name": "Wishing",
+							"reference": "P59",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mXvWqM_lsPGE8aFuo",
+							"name": "Game Time",
+							"reference": "P108",
+							"notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
 					"id": "t-zGvFcpYjzBt89Bi",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1550,7 +1607,7 @@
 				}
 			],
 			"calc": {
-				"points": 40
+				"points": 55
 			}
 		},
 		{
@@ -2221,63 +2278,6 @@
 					}
 				},
 				{
-					"id": "tsys7hGJX44G583yM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tz-USDL9B_KrrVqDi"
-					},
-					"name": "Luck",
-					"reference": "B66,P59",
-					"notes": "Usable once per hour of play",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"modifiers": [
-						{
-							"id": "mof9LMxnSy0G8u_8y",
-							"name": "Active",
-							"reference": "B66",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mh9vNRlqAWd1yIlCb",
-							"name": "Aspected",
-							"reference": "B66",
-							"notes": "@Aspect@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mfoKegGqiUj6EZ2AV",
-							"name": "Defensive",
-							"reference": "B66",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mcKvepnF_koq3i54-",
-							"name": "Wishing",
-							"reference": "P59",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mXvWqM_lsPGE8aFuo",
-							"name": "Game Time",
-							"reference": "P108",
-							"notes": "Uses per game day equal to its maximum possible uses per real hour",
-							"disabled": true
-						}
-					],
-					"base_points": 15,
-					"calc": {
-						"points": 15
-					}
-				},
-				{
 					"id": "tTjFEol9c7ljw1MiD",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2302,7 +2302,7 @@
 				}
 			],
 			"calc": {
-				"points": -16
+				"points": -31
 			}
 		},
 		{
@@ -3937,7 +3937,7 @@
 		},
 		{
 			"id": "Sb5_wU92e3ybTTSYM",
-			"name": "Defaults",
+			"name": "~ Defaults",
 			"children": [
 				{
 					"id": "sgr70nSe6ljiTR-SV",
@@ -4752,7 +4752,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-01-22T19:32:40+01:00",
+	"modified_date": "2025-02-16T05:14:46+01:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",
