@@ -37,3 +37,5 @@
 - Economía de la ciencia y minería
 - Los kwazaar son muy cerrados al exterior
 - Rechazo sin rodeos a otras especies
+
+# Eventos en el puesto de avanzada
