@@ -1,18 +1,17 @@
 {
 	"version": 5,
 	"id": "ALmq2zi43VjEXLpI0",
-	"total_points": 163,
+	"total_points": 170,
 	"points_record": [
 		{
 			"when": "2024-07-24T23:01:53+02:00",
-			"points": 163,
+			"points": 170,
 			"reason": "Initial points"
 		}
 	],
 	"profile": {
 		"name": "Faryth",
 		"age": "25",
-		"birthday": "June 6",
 		"eyes": "Blue",
 		"hair": "Black",
 		"skin": "Tan",
@@ -85,18 +84,20 @@
 				"cost_per_point": 5
 			},
 			{
+				"id": "ke",
+				"type": "integer",
+				"placement": "secondary",
+				"name": "KE",
+				"full_name": "Keum",
+				"attribute_base": "9",
+				"cost_per_point": 10
+			},
+			{
 				"id": "rt",
 				"type": "integer_ref",
 				"placement": "secondary",
 				"name": "Grit",
 				"attribute_base": "$ht/2+3"
-			},
-			{
-				"id": "ke",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Keum",
-				"attribute_base": "10"
 			},
 			{
 				"id": "fright_check",
@@ -291,6 +292,34 @@
 					{
 						"state": "Healthy",
 						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "kp",
+				"type": "pool",
+				"name": "KP",
+				"full_name": "Keum Points",
+				"attribute_base": "$ke",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Divergent",
+						"expression": "-$kp"
+					},
+					{
+						"state": "Disjointed",
+						"expression": "0"
+					},
+					{
+						"state": "Dissonant",
+						"expression": "ceil($kp/3)-1",
+						"explanation": "Halve KE"
+					},
+					{
+						"state": "Harmonical",
+						"expression": "$kp",
+						"explanation": "Halve KE"
 					}
 				]
 			}
@@ -533,18 +562,18 @@
 			}
 		},
 		{
-			"attr_id": "rt",
+			"attr_id": "ke",
 			"adj": 0,
 			"calc": {
-				"value": 8,
+				"value": 9,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "ke",
+			"attr_id": "rt",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -635,6 +664,15 @@
 			"calc": {
 				"value": 11,
 				"current": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "kp",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -1182,6 +1220,37 @@
 					}
 				},
 				{
+					"id": "ttW-KjnMApypKPqYp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "teRggYn926_I1YeWO"
+					},
+					"name": "High Pain Threshold",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"userdesc": "Never suffer shock penalties when injured",
+					"base_points": 10,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "on all HT rolls to avoid knockdown and stunning",
+							"amount": 3
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist torture",
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "ta_B2_EoRRzTDQhTz",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1262,7 +1331,7 @@
 				}
 			],
 			"calc": {
-				"points": 62
+				"points": 72
 			}
 		},
 		{
@@ -2966,6 +3035,83 @@
 			}
 		},
 		{
+			"id": "svxcBFns-b7fUuFM6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airshipman",
+			"reference": "B185",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sOQdRA2h9QaLJo-95",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "sQemDY88w7yJpwNLS"
+			},
+			"name": "Apparatus Operation",
+			"reference": "B189",
+			"reference_highlight": "Electronics Operation",
+			"tags": [
+				"Technical"
+			],
+			"specialization": "Communications",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -4
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
 			"id": "sm1yFhgvjJH2qQDBF",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3400,6 +3546,90 @@
 			}
 		},
 		{
+			"id": "s5n-EcFdUGJ2YbBBq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sH0t4LjU0g6wd4gNi"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Contragravity",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "DX-1"
+			}
+		},
+		{
+			"id": "sUV8SAddSehelAJRQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "svEm7OyeCu_9wJ8Kk"
+			},
+			"name": "Stealth",
+			"reference": "B222",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "DX-1"
+			}
+		},
+		{
 			"id": "sJjLC5hXHCMDPsdyc",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3476,85 +3706,6 @@
 				"level": 9,
 				"rsl": "Per-1"
 			}
-		},
-		{
-			"id": "Sxptp6dms_ATq31BH",
-			"name": "~ Defaults",
-			"children": [
-				{
-					"id": "sUV8SAddSehelAJRQ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "svEm7OyeCu_9wJ8Kk"
-					},
-					"name": "Stealth",
-					"reference": "B222",
-					"tags": [
-						"Criminal",
-						"Police",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "dx/a",
-					"encumbrance_penalty_multiplier": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "dx",
-						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 7,
-						"rsl": "DX-5"
-					}
-				},
-				{
-					"id": "sWLGX2FD7C7yZI630",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades.skl",
-						"id": "seMO-_J-0xD4ZMNII"
-					},
-					"name": "Swimming",
-					"reference": "B224",
-					"tags": [
-						"Athletic",
-						"Exploration",
-						"Outdoor"
-					],
-					"difficulty": "ht/e",
-					"encumbrance_penalty_multiplier": 2,
-					"defaults": [
-						{
-							"type": "ht",
-							"modifier": -4
-						}
-					],
-					"defaulted_from": {
-						"type": "ht",
-						"modifier": -4,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
-					"calc": {
-						"level": 6,
-						"rsl": "HT-4"
-					}
-				}
-			]
 		}
 	],
 	"equipment": [
@@ -3824,7 +3975,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:53+02:00",
-	"modified_date": "2025-02-16T05:42:57+01:00",
+	"modified_date": "2025-03-14T20:20:39+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

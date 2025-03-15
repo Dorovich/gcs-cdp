@@ -101,73 +101,6 @@
 							}
 						},
 						{
-							"id": "tpvZgxoBluK10ss5U",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tWoMSz-IMAxDJo8rh"
-							},
-							"name": "Extra Hit Points",
-							"reference": "B16",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m9sNQmS6b9vZmkaKq",
-									"name": "Size",
-									"cost": -10,
-									"levels": 1,
-									"disabled": true
-								}
-							],
-							"points_per_level": 2,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "hp",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 4
-							}
-						},
-						{
-							"id": "tCYifWd0e6imwpEPk",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tWF1J_Z0Ziz-qJ6pn"
-							},
-							"name": "Increased Basic Speed",
-							"reference": "B17",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "basic_speed",
-									"amount": 0.25,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 5
-							}
-						},
-						{
 							"id": "tw_vYoM8COZQ5YyP8",
 							"name": "Increased Health",
 							"reference": "B14",
@@ -186,9 +119,9 @@
 								}
 							],
 							"can_level": true,
-							"levels": 1,
+							"levels": 2,
 							"calc": {
-								"points": 10
+								"points": 20
 							}
 						},
 						{
@@ -217,7 +150,7 @@
 						}
 					],
 					"calc": {
-						"points": 9
+						"points": 10
 					}
 				},
 				{
@@ -904,7 +837,7 @@
 				}
 			],
 			"calc": {
-				"points": 30
+				"points": 31
 			}
 		}
 	]

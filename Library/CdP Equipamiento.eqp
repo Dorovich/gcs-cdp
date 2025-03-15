@@ -89,6 +89,466 @@
 			}
 		},
 		{
+			"id": "eT00S6tf7cz29Ii6r",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "emHhvrJhhl8gEmmf_"
+			},
+			"description": "Guja",
+			"reference": "B272",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 300,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "w6LNKV7UvK-b9yzyz",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "The sharp end, Polearm",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cut",
+						"parry": "10U"
+					}
+				},
+				{
+					"id": "w8EDG5txiTUgvq5bp",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "The sharp end, Polearm",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+2 imp",
+						"parry": "10"
+					}
+				},
+				{
+					"id": "wox94YIfq5-rNjT5B",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "The blunt end",
+					"reach": "1-2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cr",
+						"parry": "10U"
+					}
+				},
+				{
+					"id": "w85PxhWUdDWU_FQoC",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "The blunt end",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+1 cr",
+						"parry": "10"
+					}
+				},
+				{
+					"id": "wlZjXVrSFSoVhVE-T",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "Two-handed sword",
+					"reach": "2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 5,
+						"damage": "1d+5 cut",
+						"parry": "6U"
+					}
+				},
+				{
+					"id": "wgsDYIptvlNf0Hb5z",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "Two-handed sword",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 5,
+						"damage": "1d+2 imp",
+						"parry": "6"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eizHK_spTLYpi3SbD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "emHhvrJhhl8gEmmf_"
+			},
+			"description": "Guja*",
+			"reference": "B272",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 300,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "wtQGHYMhpRlCgeUL3",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "The sharp end",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cut",
+						"parry": "10U"
+					}
+				},
+				{
+					"id": "wgaryrNvL2Hic8icK",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "The sharp end",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+2 imp",
+						"parry": "10"
+					}
+				},
+				{
+					"id": "w3jFHeaSFi7Yh3Zdl",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "The blunt end",
+					"reach": "1-2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cr",
+						"parry": "10U"
+					}
+				},
+				{
+					"id": "w6WpDn6s2DRsQJfCN",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "The blunt end",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+1 cr",
+						"parry": "10"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
 			"id": "epKFArHOQBabiVqK7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

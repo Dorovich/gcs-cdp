@@ -7803,6 +7803,34 @@
 			}
 		},
 		{
+			"id": "tWUeTnXjM_eexOkji",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t50ZzyORV0rTiYwnb"
+			},
+			"name": "Decreased Keum",
+			"tags": [
+				"Attribute",
+				"Disadvantage",
+				"Supernatural"
+			],
+			"points_per_level": -10,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "ke",
+					"amount": -1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
 			"id": "tU6MLCw0ERq4OkhQU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10196,6 +10224,34 @@
 			}
 		},
 		{
+			"id": "tBZ2xoPzHcNfZQVZc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tsIfS0jZqdshsDFOM"
+			},
+			"name": "Extra Keum Points",
+			"tags": [
+				"Advantage",
+				"Attribute",
+				"Supernatural"
+			],
+			"points_per_level": 3,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "fp",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 3
+			}
+		},
+		{
 			"id": "tAMtYq3trEFv7ZiFg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10725,6 +10781,34 @@
 			"levels": 1,
 			"calc": {
 				"points": -2
+			}
+		},
+		{
+			"id": "tlCUPaoY9vqSYxdqc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tvQX4UEAyWzc91L3U"
+			},
+			"name": "Fewer Keum Points",
+			"tags": [
+				"Attribute",
+				"Disadvantage",
+				"Supernatural"
+			],
+			"points_per_level": -3,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "fp",
+					"amount": -1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -3
 			}
 		},
 		{
@@ -13385,6 +13469,34 @@
 			"levels": 1,
 			"calc": {
 				"points": 20
+			}
+		},
+		{
+			"id": "tPXKm3hAnO-w0ev4m",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t1w1RFcFceKR2T9_e"
+			},
+			"name": "Increased Keum",
+			"tags": [
+				"Advantage",
+				"Attribute",
+				"Supernatural"
+			],
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "ke",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 10
 			}
 		},
 		{
@@ -16665,6 +16777,25 @@
 			],
 			"calc": {
 				"points": -10
+			}
+		},
+		{
+			"id": "t0Vc_ZNMSxnBmWmqy",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos (Keum).adq",
+				"id": "tco8z3JKQzDADo18d"
+			},
+			"name": "Keumic Knot",
+			"tags": [
+				"Disadvantage",
+				"Supernatural"
+			],
+			"points_per_level": -1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -1
 			}
 		},
 		{
@@ -22515,6 +22646,25 @@
 			"base_points": 5,
 			"calc": {
 				"points": 5
+			}
+		},
+		{
+			"id": "tJ02stu_JUnOkyjpC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tnyT6i4xpc-zi5-m8"
+			},
+			"name": "Reawakened",
+			"reference": "B80",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
 			}
 		},
 		{

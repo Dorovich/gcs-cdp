@@ -1,0 +1,3595 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "tqkOxs4sQ4Mw7tYDV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tQcU6Xo1BzIIerEX3"
+			},
+			"name": "Altered Time Rate",
+			"reference": "B38,P41,MA42",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m0O5QbzDaO5pCw5US",
+					"name": "Super-Speed",
+					"reference": "P42",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "m5s7ovnlbYSvSOFg0",
+					"name": "Non-Combat Speed",
+					"reference": "P42",
+					"cost": -60,
+					"disabled": true
+				}
+			],
+			"points_per_level": 100,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "tAWrzoDKsag7kS6Bm",
+			"name": "Clairsentience",
+			"reference": "B42,P44,PSI13",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mzufVSycO1w5Q54Ny",
+					"name": "Clairaudience",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "m-6sIltsNyZ6g043C",
+					"name": "Clairosmia",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "m7gWJLL2vR-XQnU34",
+					"name": "Clairvoyance",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mywbPFHcps0ONMrT-",
+					"name": "Visible",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "m_3ElPa8azC_9frAh",
+					"name": "Aware",
+					"reference": "P44",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m4LgUv4DW72AOVdwW",
+					"name": "Projection",
+					"reference": "P43",
+					"notes": "Only affects insubstantial world",
+					"disabled": true
+				},
+				{
+					"id": "mvkCmcllXCUa5g_RZ",
+					"name": "Projection",
+					"reference": "P44",
+					"notes": "Can use abilities on material world",
+					"cost": 140,
+					"disabled": true
+				},
+				{
+					"id": "mCbcvFbr6nci0yXVT",
+					"name": "Second Nature",
+					"reference": "P44",
+					"cost": 70,
+					"disabled": true
+				},
+				{
+					"id": "mE2AnjED-cmKJufVJ",
+					"name": "Fixed Range",
+					"reference": "PSI13",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "mvuDa59RT0xql5JX5",
+					"name": "Normal Sight",
+					"reference": "PSI13",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"base_points": 50,
+			"calc": {
+				"points": 50
+			}
+		},
+		{
+			"id": "tfLZrq0Jx0BMRadQt",
+			"name": "Danger Sense",
+			"reference": "B47,P46",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "t-BE_UeNIEywb07Zu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tjv4a7cS6NrQ4rttz"
+			},
+			"name": "Decreased Time Rate",
+			"reference": "B129",
+			"tags": [
+				"Disadvantage",
+				"Exotic",
+				"Mental"
+			],
+			"base_points": -100,
+			"calc": {
+				"points": -100
+			}
+		},
+		{
+			"id": "tvKDTQ5oFGMbMu4w1",
+			"name": "Detect",
+			"reference": "B48,P47,PSI14",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mc6FqkTWKZYJEL4JI",
+					"name": "@Rare Substance/Condition@",
+					"reference": "B48",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mCbwhxvrtrcu2Qeg7",
+					"name": "@Occasional Substance/Condition@",
+					"reference": "B48",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mimMGjvMx7DxhQSeM",
+					"name": "@Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mDuw4V46xESKgzXk2",
+					"name": "@Very Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m3ycRkwH2e2Uo34uC",
+					"name": "Precise",
+					"reference": "B48",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m18AmHyoSh0qAB49w",
+					"name": "Signal Detection",
+					"reference": "B48",
+					"disabled": true
+				},
+				{
+					"id": "mr6HS-ox95dLJ-DKp",
+					"name": "Vague",
+					"reference": "B48",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mKVKMsaSxogZ_tIhc",
+					"name": "Analyzing",
+					"reference": "P47",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m6LXTIzpcvFXwaUz3",
+					"name": "Lock-On",
+					"reference": "PSI14",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mPyz5duPuUvNJg-w1",
+					"name": "Precise, Nontargeting",
+					"reference": "PSI14",
+					"cost": 90,
+					"disabled": true
+				},
+				{
+					"id": "mSk2UuUb-Pr-pSVEk",
+					"name": "Analysis Only",
+					"reference": "PSI14",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m15PF7NKs2JDyQ0nv",
+					"name": "Cannot Analyze",
+					"reference": "PSI14",
+					"cost": -10,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tXLT8uLXqK3UoaB9v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tejcILTE2a599hIGr"
+			},
+			"name": "Draining",
+			"reference": "B132",
+			"tags": [
+				"Disadvantage",
+				"Physical",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "m77sVaZXxi98LNfB3",
+					"name": "Common",
+					"notes": "@Substance@",
+					"cost": -5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mUlOCXH7jOdU_nIsm",
+					"name": "Occasional",
+					"notes": "@Substance@",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "msGd8bSjjjaxT8TkA",
+					"name": "Rare",
+					"notes": "@Substance@",
+					"cost": -15,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mzOb15hcCBKcPt62v",
+					"name": "Illegal",
+					"cost": -5,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tbLVWultcxMxc7W7x",
+			"name": "Empathy",
+			"reference": "B51,P48",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mM-_vFYYqs9aRkqWZ",
+					"name": "Remote",
+					"reference": "P48",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "detect lies"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fortune-telling"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "psychology"
+					},
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tYsta2L_cjYkGKePY",
+			"name": "Infravision",
+			"reference": "B60,P87",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "my0NHSr6sKs1pUorL",
+					"name": "No normal vision",
+					"reference": "B60",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tHzs9xVSe6Q_jrzW9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t9FaLAwdEEbc9zy9J"
+			},
+			"name": "Insubstantiality",
+			"reference": "B62,P55,PSI14",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m7vtWkZHr5357_Vj0",
+					"name": "Affect Substantial",
+					"reference": "B63",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mbhUlHXG8ikuwvry9",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to No Encumbrance",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "msotl7YrzfVY2Jmys",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Light Encumbrance",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "miwWxx2gb1biAtEqX",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Medium Encumbrance",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mu0RrZzsBR4HbEJ-g",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Heavy Encumbrance",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mM8d8F84r7CNqnVlJ",
+					"name": "Partial Change",
+					"reference": "B63",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "md0d7QX4OHx4UvsYH",
+					"name": "Partial Change",
+					"reference": "B63",
+					"notes": "Can turn an item you are carrying substantial without dropping it",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mutmgtn_U_8Y1JBW9",
+					"name": "Always On",
+					"reference": "B63",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mR2Ky0mWAU5Welb1L",
+					"name": "Usually On",
+					"reference": "B63",
+					"notes": "Materialization costs 1 FP per second",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mpkxdXhTnSa1v4mxx",
+					"name": "No Vertical Move",
+					"reference": "P56",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mjIFCapFBR_JUScuZ",
+					"name": "Noisy",
+					"reference": "P56",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "mMqhU7yWR1CeJUB2p",
+					"name": "Projection",
+					"reference": "P56",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mQWrnXs1Pt-xKNn0o",
+					"name": "Reversion",
+					"reference": "H16",
+					"cost": 60,
+					"disabled": true
+				},
+				{
+					"id": "mlSN_cALwXoEGyH-o",
+					"name": "Touch",
+					"reference": "H16",
+					"notes": "Always On",
+					"disabled": true
+				},
+				{
+					"id": "m4Oks8N5D8YsdknTo",
+					"name": "Touch",
+					"reference": "H16",
+					"notes": "Switchable",
+					"cost": 5,
+					"disabled": true
+				},
+				{
+					"id": "mjNyCF9USFc52hZ1I",
+					"name": "Difficult Materialization",
+					"reference": "H16",
+					"notes": "Mutually exclusive with Usually On.",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m9VXH1E9WIiC-JSXU",
+					"name": "Ectoplasmic Materialization",
+					"reference": "H16",
+					"cost": -35,
+					"disabled": true
+				},
+				{
+					"id": "mzzIGppk73ew000lI",
+					"name": "Ghost Air",
+					"reference": "PSI14",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mnaoBlzf9AB1TIeFu",
+					"name": "Substantial Communication",
+					"reference": "PSI14",
+					"cost": 40,
+					"disabled": true
+				}
+			],
+			"base_points": 80,
+			"calc": {
+				"points": 80
+			}
+		},
+		{
+			"id": "tB53tFVATz3wGdrk9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tjGcz8EnMEzkKbBkl"
+			},
+			"name": "Invisibility",
+			"reference": "B63,P56",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "myLLWOxPD8MPCQAwV",
+					"name": "Affects Machines",
+					"reference": "B63",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "md5SSjsMLmb_7fzSc",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to No Encumbrance",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mMdqHIlO1UFPrSjU9",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Light Encumbrance",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mie_9bbAjBNtVh0WI",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Medium Encumbrance",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "msqgG2eWW7aEvKQn7",
+					"name": "Can Carry Objects",
+					"reference": "B63",
+					"notes": "Up to Heavy Encumbrance",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mpienEq5H7m87WXBy",
+					"name": "Extended",
+					"reference": "B63",
+					"notes": "@Type@",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mvyz384XR_okyienz",
+					"name": "Switchable",
+					"reference": "B63",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mUF00bv4D-3W4niHB",
+					"name": "Usually On",
+					"reference": "B63",
+					"notes": "Turning visible costs 1 FP per second",
+					"cost": 5,
+					"disabled": true
+				},
+				{
+					"id": "mkygTCXCCyhbMvhSf",
+					"name": "Machines Only",
+					"reference": "B63",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m0JTpYt82u4doBN7_",
+					"name": "Substantial Only",
+					"reference": "B63",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "m4cQ6Fysb1oD3c_I3",
+					"name": "Visible Reflection",
+					"reference": "B63",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mP9WCxXVWh0BAQe9Y",
+					"name": "Visible Shadow",
+					"reference": "B63",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mZn7r8gd2Vkk6ZOd-",
+					"name": "Fringe",
+					"reference": "P56",
+					"cost": -10,
+					"disabled": true
+				}
+			],
+			"base_points": 40,
+			"calc": {
+				"points": 40
+			}
+		},
+		{
+			"id": "tzT7mYwIe521xi0tH",
+			"name": "Jumper (@World/Time/Spirit@)",
+			"reference": "B64,P57,PSI15,DF9:5",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mxVRCY57zv_qlErC7",
+					"name": "Extra Carrying Capacity",
+					"reference": "B64",
+					"notes": "Up to Light Encumbrance",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mYz6jz3o4JTQ-yKg4",
+					"name": "Extra Carrying Capacity",
+					"reference": "B64",
+					"notes": "Up to Medium Encumbrance",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "m6G0du52PN79JXrgc",
+					"name": "Extra Carrying Capacity",
+					"reference": "B64",
+					"notes": "Up to Heavy Encumbrance",
+					"cost": 30,
+					"disabled": true
+				},
+				{
+					"id": "mpB0joNj5BhTHj2yP",
+					"name": "Extra Carrying Capacity",
+					"reference": "B64",
+					"notes": "Up to Extra-Heavy Encumbrance",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mXU6NejcgDaZpexmj",
+					"name": "New Worlds",
+					"reference": "B64",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mJlaezFDLuo7SSr0f",
+					"name": "Omni-Jump",
+					"reference": "B64",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "m6HmyaD3GpVAGDNJY",
+					"name": "Tracking",
+					"reference": "B64",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "m9-q9Qgxy4SL99DJ6",
+					"name": "Tunnel",
+					"reference": "B64",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "maJy1Fj9psBb_6J1m",
+					"name": "Warp Jump",
+					"reference": "B64",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mVmwdYS2JmKxmM0Lz",
+					"name": "Cannot Escort",
+					"reference": "B64",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mbaBSAtyADcfj5del",
+					"name": "Cannot Follow",
+					"reference": "B64",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m5jiOjbjRKg89M7zA",
+					"name": "Drift",
+					"reference": "B64",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "mFp2q0x0rvfFBHOLN",
+					"name": "Limited Jump",
+					"reference": "B64",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mOSG5a9joQyo9hU_b",
+					"name": "Maximum Range",
+					"reference": "B64",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mvkj_g2HzATrEvt42",
+					"name": "Naked",
+					"reference": "B65",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mxdLLcUamJyqWv6ke",
+					"name": "Stunned",
+					"reference": "B65",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mM8sUugTEgJZahhEj",
+					"name": "Interplanar",
+					"reference": "P57",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mJ2vN_HybBsh6Ac9A",
+					"name": "Interplanar Only",
+					"reference": "P57",
+					"disabled": true
+				},
+				{
+					"id": "mphSewTG9kdxKXee3",
+					"name": "Reliable",
+					"reference": "P57",
+					"cost": 5,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mibLz_4-G9t7JBfUC",
+					"name": "Limited Access",
+					"reference": "P57",
+					"notes": "@Worlds@",
+					"disabled": true
+				},
+				{
+					"id": "mwMO6iHA-VZEU372z",
+					"name": "Projection",
+					"reference": "P58",
+					"notes": "Can't Affect",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m7rKwV64ic5e3I1IF",
+					"name": "Projection",
+					"reference": "P58",
+					"notes": "Can Affect",
+					"disabled": true
+				},
+				{
+					"id": "m7WxCDvuD65rpC_Zb",
+					"name": "Projection",
+					"reference": "P58",
+					"notes": "Physical",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mARMxx7CarCVEd8sM",
+					"name": "Special Movement",
+					"reference": "P58",
+					"notes": "@Movement@",
+					"disabled": true
+				},
+				{
+					"id": "mvBXQLcLl9CnizT9J",
+					"name": "Special Portal",
+					"reference": "P58",
+					"notes": "@Portal@",
+					"disabled": true
+				},
+				{
+					"id": "moP3Hc_mfuMKpObZw",
+					"name": "Faster Concentration",
+					"reference": "PSI15",
+					"cost": 5,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mxRARYDGUdGAfQuFr",
+					"name": "Improved",
+					"reference": "PSI15",
+					"cost": 10,
+					"disabled": true
+				}
+			],
+			"base_points": 100,
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "tjZhTS_VFXcAxIsZF",
+			"name": "Medium",
+			"reference": "B68,P59",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mRHLJ76cqlOE9v4UA",
+					"name": "Manifestation",
+					"reference": "P60",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mV56KK02wnqgNxyEj",
+					"name": "Universal",
+					"reference": "P60",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "musr-_qYVFnrREb65",
+					"name": "Visual",
+					"reference": "P60",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mAqbojFatUuDySRe_",
+					"name": "Specialized",
+					"reference": "P60",
+					"notes": "@Class of Spirits@",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tgOXRe4uFpR1382R1",
+			"name": "Mind Control",
+			"reference": "B68,P61,PSI15",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mnp2s8pHGpJQ1m03q",
+					"name": "Conditioning",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mz1lphWsXWyaIA033",
+					"name": "No Memory",
+					"reference": "B69",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "m6r6R0RrUYjKV0s9f",
+					"name": "Conditioning Only",
+					"reference": "B69",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mUhNXYWNDi21vo61E",
+					"name": "Puppet",
+					"reference": "B69",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "molFaeXQSFPe_IVtp",
+					"name": "Independent",
+					"reference": "P61",
+					"cost": 70,
+					"disabled": true
+				},
+				{
+					"id": "mc8KxBKXdt6ypSEna",
+					"name": "Emotion Control",
+					"reference": "P61",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mP1Ra2XleW0JMaFR_",
+					"name": "One Emotion Only",
+					"reference": "H17",
+					"cost": -80,
+					"disabled": true
+				},
+				{
+					"id": "m23izt41YcCwVNFuG",
+					"name": "Suggestion",
+					"reference": "P61",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mm_0A8xpE-k5Tqyty",
+					"name": "Rationalization",
+					"reference": "PSI15",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "msS011o-dyB-Sytpz",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "1 hour",
+					"cost": 80,
+					"disabled": true
+				},
+				{
+					"id": "mB8yfm3yRY5yaWiLC",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "1 hour",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "m1LAXpXCWg6VCVfY0",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "10 minutes",
+					"cost": 110,
+					"disabled": true
+				},
+				{
+					"id": "m_oltRdNbhq05J67f",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "10 minutes",
+					"cost": 70,
+					"disabled": true
+				},
+				{
+					"id": "mAy0FdPaGmWv5w_iC",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "10 seconds",
+					"cost": 155,
+					"disabled": true
+				},
+				{
+					"id": "mKaD8aRB7zaz12Z5P",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "10 seconds",
+					"cost": 115,
+					"disabled": true
+				},
+				{
+					"id": "m5KxbkbyLRGiugCOV",
+					"name": "Mind Tricks",
+					"reference": "PSI15",
+					"cost": -30,
+					"disabled": true
+				}
+			],
+			"base_points": 50,
+			"calc": {
+				"points": 50
+			}
+		},
+		{
+			"id": "tHaVqmPXjZ_7nsNL3",
+			"name": "Mind Probe",
+			"reference": "B69,P61",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mxVdhtC9-Ypn9mNA7",
+					"name": "Cybernetic",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m_k7t-bKfpTKBb4uI",
+					"name": "Sensory",
+					"reference": "B69",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mJYHmarib0f8xta_d",
+					"name": "Universal",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mq9uPmgS7mQNink6e",
+					"name": "Cybernetic Only",
+					"reference": "B70",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "msoBfneYzjc8X9paa",
+					"name": "Racial",
+					"reference": "B70",
+					"notes": "@Race@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mjJG2ZolyWGy_9ZvR",
+					"name": "Sensory Only",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m_vth2es5mQ_vO6t2",
+					"name": "Telecommunication",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mHhKxYhOz4G5dlqhs",
+					"name": "Invasive",
+					"reference": "P62",
+					"cost": 75,
+					"disabled": true
+				},
+				{
+					"id": "mWcZ7ryUSBsM1Gvad",
+					"name": "Memory Bank",
+					"reference": "P62",
+					"notes": "IQ snapshots",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mDYPzYgFgctMtyd8c",
+					"name": "Memory Bank",
+					"reference": "P62",
+					"notes": "Unlimited snapshots",
+					"cost": 150,
+					"disabled": true
+				}
+			],
+			"base_points": 20,
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "tYLWTawZlYmDen4JD",
+			"name": "Mind Reading",
+			"reference": "B69,P61",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mwnoEeJBpJokKo3u3",
+					"name": "Cybernetic",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mKpiukQdo8ZBzHvHF",
+					"name": "Sensory",
+					"reference": "B69",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mcO31ds06yTAxRu0p",
+					"name": "Universal",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mncAnwQ6REdjyD1GA",
+					"name": "Cybernetic Only",
+					"reference": "B70",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m1wc3es-79RSynS5c",
+					"name": "Racial",
+					"reference": "B70",
+					"notes": "@Race@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mTXL9u0DBSn33PFhT",
+					"name": "Sensory Only",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mhK5HID6X2Tb7mHdp",
+					"name": "Telecommunication",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mMdubrbihYURLsvgT",
+					"name": "Multiple Contacts",
+					"reference": "P62",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"base_points": 30,
+			"calc": {
+				"points": 30
+			}
+		},
+		{
+			"id": "tCFfWSX038gLxpJMM",
+			"name": "Mind Shield",
+			"reference": "B70,P62,PSI15",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mtFPp__iRwXdVRse-",
+					"name": "Cybernetic",
+					"reference": "B70",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mROXdWAR7LroLR5MS",
+					"name": "Limited",
+					"reference": "P62",
+					"notes": "@Source@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mPVoJVu--nAJYwVGE",
+					"name": "Limited",
+					"reference": "P62",
+					"notes": "@Power/College/Focus@",
+					"cost": -75,
+					"disabled": true
+				},
+				{
+					"id": "mYvzfQGAteLnxCbjz",
+					"name": "Lockdown",
+					"reference": "PSI15",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mv3dE-xGoFJusUzDV",
+					"name": "Profiling",
+					"reference": "PSI15",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mmFksggKrCAKay85Y",
+					"name": "Reflection",
+					"reference": "PSI15",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mgB5IHsxQ_UfwhqBA",
+					"name": "Active",
+					"reference": "PSI15",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "m7Em3SrnCGv8c2DZt",
+					"name": "Always On",
+					"reference": "PSI15",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mSd5cRYrMv3QidCfd",
+					"name": "Feedback",
+					"reference": "PSI15",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mQgkUBp_WbMstvFKD",
+					"name": "Feedback",
+					"reference": "PSI15",
+					"notes": "With Always On",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"points_per_level": 4,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 4
+			}
+		},
+		{
+			"id": "tycX648nRW-dN5s3v",
+			"name": "Mindlink",
+			"reference": "B70",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mqE-ETCAVTsLcpkiR",
+					"name": "Single person",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mhBu0LcOMYNDmP_Dg",
+					"name": "2-9 people",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mV4y8ZNjTrMeYaVeL",
+					"name": "10-99 people",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "makejlI_waS9pb6t8",
+					"name": "100-999 people",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m9ucDn7FPUGXsUVVe",
+					"name": "1000-9999 people",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 40,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mGI1yhdSZem30uMSy",
+					"name": "10000-99999 people",
+					"reference": "B70",
+					"notes": "@Who@",
+					"cost": 50,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mOCAQyzN6-cWBnzRN",
+					"name": "Broadcast",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mk4e81d2XVqyVe74G",
+					"name": "Cybernetic",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mUKAkbxp-lvd3Fitu",
+					"name": "Sensory",
+					"reference": "B69",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mdcUFjBN_XLdClT4J",
+					"name": "Universal",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mlETJTxFcNdPml7Hr",
+					"name": "Video",
+					"reference": "B91",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "mT0JBqlIl8EygILQm",
+					"name": "Cybernetic Only",
+					"reference": "B70",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mcDEmcWkb2CQHoY6X",
+					"name": "Racial",
+					"reference": "B70",
+					"notes": "@Race@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "moSGoMTGV6D5mIKpE",
+					"name": "Sensory Only",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mwPoG1Z5OUlPXOdZv",
+					"name": "Telecommunication",
+					"reference": "B70",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mhehD_8Mz0mQwUuMB",
+					"name": "Vague",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "t_bu0FwyT5C6XL-ET",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "twD-wFuEa2heXnFR2"
+			},
+			"name": "Morph",
+			"reference": "B84",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mGi5UZlfEyEE9U0Pm",
+					"name": "Unlimited",
+					"reference": "B85",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "meoh0PVfsYwt9ElMr",
+					"name": "Cosmetic",
+					"reference": "B85",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mWqhAmF-q6yZXVIpQ",
+					"name": "Retains Shape",
+					"reference": "B85",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "msT0romr2sGpOAe_e",
+					"name": "Mass Conservation",
+					"reference": "B85",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "meUCMnOauZH4dYJmt",
+					"name": "Active Change",
+					"reference": "P75",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mTmIxmmxm6k-9Ej57",
+					"name": "Improvised Forms",
+					"reference": "P75",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m-LCPVKxkn6DoP1GN",
+					"name": "Cosmic (For Improvised Forms)",
+					"reference": "P75",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mw5JU33e3157061ja",
+					"name": "No Memorization Required",
+					"reference": "P75",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mnNfHtYtEZEtfLcit",
+					"name": "Cannot Memorize Forms",
+					"reference": "P75",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m129xmH62kOFH-yBX",
+					"name": "Flawed",
+					"reference": "P75",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mfCTDGh0bAH9spIP9",
+					"name": "Unliving Forms Only",
+					"reference": "P75",
+					"disabled": true
+				}
+			],
+			"base_points": 100,
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 101
+			}
+		},
+		{
+			"id": "t0NOC2JtQkAmBLbBi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tldTdgiYUOpNc0Hmq"
+			},
+			"name": "Obscure (@Sense@)",
+			"reference": "B72,P64,PSI16",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mqIKYCz_UVXnOEWSx",
+					"name": "Defensive",
+					"reference": "B72",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m7B9ULwXGf3FrJB0i",
+					"name": "Extended",
+					"reference": "B72",
+					"notes": "@Sense@",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mbrad2Fr2n9-jmF41",
+					"name": "Ranged",
+					"reference": "B72",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mWl02EoYsuhnF-TxC",
+					"name": "Stealthy",
+					"reference": "B72",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mOokPjiIJGpm4Kdej",
+					"name": "Always On",
+					"reference": "B72",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m3jKiJp0jqdQWZhl0",
+					"name": "Limited",
+					"reference": "P65",
+					"notes": "@Source@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mCAuzMfYtmDWf7ZJr",
+					"name": "Limited",
+					"reference": "P65",
+					"notes": "@Power@",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "m0VVHKURTBarTVI2U",
+					"name": "Anti-Targeting",
+					"reference": "PSI16",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"points_per_level": 2,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tr7QikPRHLYTwfyJY",
+			"name": "Oracle",
+			"reference": "B72,P65",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mhJq5DinLzHVf5-ZV",
+					"name": "Inspired",
+					"reference": "P65",
+					"cost": 100,
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "thC1CUBZ8JhRBQW4L",
+			"name": "Possession",
+			"reference": "B75,P67,PSI16",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mW1o7NcN51xg_ljPC",
+					"name": "Assimilation",
+					"reference": "B76",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mzy4BOGCEQ0xl20zY",
+					"name": "Chronic",
+					"reference": "B76",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mIDcXzyQ0imiuNg5R",
+					"name": "Mind Swap",
+					"reference": "B76",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "m14aVpc2hfddSrAs3",
+					"name": "Telecontrol",
+					"reference": "B76",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mOrfJBLbviiYSrV3l",
+					"name": "Digital",
+					"reference": "B76",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "maTJhG8ySAunDCo5U",
+					"name": "Magical",
+					"reference": "B76",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "m-vqmg8Sj7CYr1p80",
+					"name": "Mindlink Required",
+					"reference": "B76",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "m83Fb08OZp1nrgOx_",
+					"name": "No Memory Access",
+					"reference": "B76",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mizF6lE_NwHNV3U3p",
+					"name": "Parasitic",
+					"reference": "B76",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "m5S5ZYcgOBzHrh6U4",
+					"name": "Puppet Only",
+					"reference": "B76",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mMr1ogJvfhYE-u54-",
+					"name": "Spiritual",
+					"reference": "B76",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mnmonQcr3hOB009U7",
+					"name": "Full Memory Access",
+					"reference": "P67",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "m3dh11piQ-E_MTi5u",
+					"name": "Telecontrol 2",
+					"reference": "P67",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mvTWqa7UXzNy3qyTy",
+					"name": "Specialized",
+					"reference": "P67",
+					"notes": "@Basis: Carbon Based@",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "maX_v4WGXi8ORGQx_",
+					"name": "Specialized",
+					"reference": "P67",
+					"notes": "@Planet of Origin: Terran@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m0Yg-ePwxJyjZOeT4",
+					"name": "Specialized",
+					"reference": "P67",
+					"notes": "@Kingdom: Animalia@",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mrVaZ4u__crM8ku4H",
+					"name": "Specialized",
+					"reference": "P67",
+					"notes": "@Class: Mammalia@",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mI0MnFa9qgJG9ofch",
+					"name": "Specialized",
+					"reference": "P67",
+					"notes": "@Species: Canis Lupus@",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mHuEWfmO0Cn1QMxNx",
+					"name": "Specialized",
+					"notes": "@Family: Canidae@",
+					"cost": -35,
+					"disabled": true
+				},
+				{
+					"id": "mtLS7mo8hn2uA3i_D",
+					"name": "Poor Control",
+					"reference": "PSI16",
+					"cost": -5,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mbHAji5m0lNLkp0i_",
+					"name": "Poor Control",
+					"reference": "PSI16",
+					"notes": "40 Hour Practice",
+					"cost": -10,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mdmib0EeR-CgXNCwH",
+					"name": "Poor Control, Permanent",
+					"reference": "PSI16",
+					"cost": -15,
+					"levels": 1,
+					"disabled": true
+				}
+			],
+			"base_points": 100,
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "tMM1zQ1qh5dAoT0W6",
+			"name": "Precognition",
+			"reference": "B77,P68,PSI16",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mmXAG_J1LfEJ8Oghv",
+					"name": "Can't See Own Death",
+					"reference": "B77",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "mOiove1bxj_gtyzRD",
+					"name": "One Event",
+					"reference": "B77",
+					"notes": "@Event Type@",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mXqFyHXi2LHKipZ9i",
+					"name": "Directed",
+					"reference": "P68",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m6rkvHzVywyyT49Wy",
+					"name": "Active Only",
+					"reference": "P69",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "m8HbUuyuF5IGD1Ddt",
+					"name": "Passive Only",
+					"reference": "P69",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mpqaQkCWZSGnexnxM",
+					"name": "Dreaming",
+					"reference": "PSI16",
+					"cost": -70,
+					"disabled": true
+				},
+				{
+					"id": "mAsVN8qqPnNZvDwc5",
+					"name": "Dreaming",
+					"reference": "PSI16",
+					"notes": "Combined with Active Only or Can't See Own Death",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"base_points": 25,
+			"calc": {
+				"points": 25
+			}
+		},
+		{
+			"id": "tQa7TbKemnCXmVUuU",
+			"name": "Psychometry",
+			"reference": "B78,P69,PSI17",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mmFFv6_6wgzVcANN6",
+					"name": "Directed",
+					"reference": "P69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mMStNCK2JIPOCp0i5",
+					"name": "Immersive",
+					"reference": "P69",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "miLu_NkXjrXtGuHCW",
+					"name": "Sensitive",
+					"reference": "P69",
+					"cost": 30,
+					"disabled": true
+				},
+				{
+					"id": "mtmJ88ajaRL9X7j-z",
+					"name": "Active Only",
+					"reference": "P69",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mMG2UuMQyOgYc3ta2",
+					"name": "Hypersensory",
+					"reference": "P69",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "msgasoJFiLsZSwHQg",
+					"name": "Mundane",
+					"reference": "P69",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mIQnoxktgijGoo5n6",
+					"name": "Passive Only",
+					"reference": "P69",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "m_kkSBKjmIDwm6z-U",
+					"name": "Visions",
+					"reference": "PSI17",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"base_points": 20,
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "teSrY7YCi0mLgmHea",
+			"name": "Racial Memory",
+			"reference": "B78,P70",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mZmeEtgWZBpexWNV8",
+					"name": "Passive",
+					"reference": "B78",
+					"cost": 15,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mfb_vysurWWn_VGpU",
+					"name": "Active",
+					"reference": "B78",
+					"cost": 40,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mePCJHrcSZU5y0NjB",
+					"name": "Immersive",
+					"reference": "P70",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tOxXtq7KT-J0hD6al",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tnyT6i4xpc-zi5-m8"
+			},
+			"name": "Reawakened",
+			"reference": "B80",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "thWNsjx9gj6v_obD6",
+			"name": "Regeneration",
+			"reference": "B80,P70,MA47",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m7EKgNq6rh5GctDcb",
+					"name": "Slow",
+					"reference": "B80",
+					"notes": "You recover 1 HP per 12 hours",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m8nnavioqOB9bkesi",
+					"name": "Regular",
+					"reference": "B80",
+					"notes": "You recover 1 HP per hour",
+					"cost": 25,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m5HQ6uU8NuxBw2y3q",
+					"name": "Fast",
+					"reference": "B80",
+					"notes": "You recover 1 HP per minute",
+					"cost": 50,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mmxITsjPY1dz9j-VW",
+					"name": "Very Fast",
+					"reference": "B80",
+					"notes": "You recover 1 HP per second",
+					"cost": 100,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mZA5g1wJ_Rj40N6x6",
+					"name": "Extreme",
+					"reference": "B80",
+					"notes": "You recover 10 HP per second",
+					"cost": 150,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m8CdhjN2-pUF68J93",
+					"name": "Heals Radiation",
+					"reference": "B80",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "mrmfzTNc80tOqs7FP",
+					"name": "Radiation Only",
+					"reference": "B80",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "mIP70NDIwcqYSFulY",
+					"name": "Fatigue Recovery",
+					"reference": "P70",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mD71oGwLK-Rnd8zKC",
+					"name": "Fatigue Only",
+					"reference": "P70",
+					"disabled": true
+				},
+				{
+					"id": "mC2u8flaPpQ4n12j7",
+					"name": "Limited: @Advantage@ Only",
+					"reference": "P70",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "m10sRpb-O9AI73WBw",
+					"name": "Bane",
+					"reference": "H18",
+					"notes": "@Common or Very Common@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mARUVIxN4aUPCdSOp",
+					"name": "Bane",
+					"reference": "H18",
+					"notes": "@Occasional@",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mtooUfRVSfmhcp8GM",
+					"name": "Bane",
+					"reference": "H18",
+					"notes": "@Rare@",
+					"cost": -10,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tHImEDkLLcFBNqPZ1",
+			"name": "Regrowth",
+			"reference": "B80,P71",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "maWtPpNbW2cHXYDXi",
+					"name": "Minor",
+					"reference": "B80",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mGJVrmUAXinbDrRoM",
+					"name": "Doubling",
+					"reference": "P71",
+					"notes": "@Body Part@ Only",
+					"cost": 25,
+					"disabled": true
+				},
+				{
+					"id": "mhdyhC-73CiQgYi9f",
+					"name": "Doubling",
+					"reference": "P71",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m8G7zWZAFt1HtDtGv",
+					"name": "Reattachment",
+					"reference": "P71",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m1wgM_-YObY8UE0E3",
+					"name": "Bane",
+					"reference": "P71",
+					"notes": "@Rare@",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "m5E4jPhAu0M0qgd0i",
+					"name": "Bane",
+					"reference": "P71",
+					"notes": "@Occasional@",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mcFOgsshVQnxv7Jfj",
+					"name": "Bane",
+					"reference": "P71",
+					"notes": "@Common or Very Common@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mQjbvG2gT2DcDcg8f",
+					"name": "Reattachment Only",
+					"reference": "P71",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"base_points": 40,
+			"calc": {
+				"points": 40
+			}
+		},
+		{
+			"id": "tjqJCXGhhhoI3aKrF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tkiJQ7nfyi9aAdGHK"
+			},
+			"name": "Serendipity",
+			"reference": "B83,P73",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mtCxgsFS-offxKpXV",
+					"name": "Wishing",
+					"reference": "P73",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mFdtyMy2T4ET_yT1C",
+					"name": "Wishing",
+					"reference": "P73",
+					"notes": "For others only",
+					"disabled": true
+				},
+				{
+					"id": "mi7VPKVyvetP2QwXB",
+					"name": "Game Time",
+					"reference": "P108",
+					"notes": "Uses per game week equal to its maximum possible uses per session",
+					"disabled": true
+				}
+			],
+			"points_per_level": 15,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tLfFxcT7vnhlYcmbn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tbxMoLvSnC5tKCiCd"
+			},
+			"name": "Shapeshifting",
+			"reference": "B83,P74",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mtIbDOXAvadM-vbux",
+					"name": "Cannot Memorize Forms",
+					"reference": "H18",
+					"notes": "Only for Morph.",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "msCaPiqNWHyq9bRHj",
+					"name": "Flawed",
+					"reference": "H18",
+					"notes": "Only for Morph. Flawed is mutually incompatible with Cosmetic.",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mI_WJRDzuwvgRsY1e",
+					"name": "Needs Sample",
+					"reference": "H18",
+					"notes": "Only for Morph. You must touch the target.",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "m9s9IgOjNoAKJwMw2",
+					"name": "Needs Sample",
+					"reference": "H18",
+					"notes": "Only for Morph. You must obtain a drop of blood, hair sample, etc. from the target.",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "muKdHPLFEAJnLddLj",
+					"name": "Needs Sample",
+					"reference": "H18",
+					"notes": "Only for Morph. You must eat the entire target.",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mRs3LW8Bcf7qiXegU",
+					"name": "Projected Form",
+					"reference": "H19",
+					"notes": " Only for Alternate Form.",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mRaNVSnzHclpK8CEZ",
+					"name": "Skinbound",
+					"reference": "H19",
+					"notes": "Only for Alternate Form.",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "teEthW28bMRWU5tBU",
+			"name": "Snatcher",
+			"reference": "B86,P76",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mUM5ktFw4kMBddLKP",
+					"name": "Permanent",
+					"reference": "B86",
+					"cost": 300,
+					"disabled": true
+				},
+				{
+					"id": "m-Drt6LW-mTU5INDJ",
+					"name": "Less Weight",
+					"reference": "B86",
+					"notes": "3 lbs",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "m7OTGpAmDFoNQHUcE",
+					"name": "Less Weight",
+					"reference": "B86",
+					"notes": "2 lbs",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mDx8cC0YT4AwoP2YM",
+					"name": "Less Weight",
+					"reference": "B86",
+					"notes": "1 lb",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "mJ1j_a0ZIMWb1YVa4",
+					"name": "Less Weight",
+					"reference": "B86",
+					"notes": "4 oz",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mB5OOBgsI1m5YvHeR",
+					"name": "Less Weight",
+					"reference": "B86",
+					"notes": "1 oz",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mezRUcajWFvhymuEF",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "Only metal",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "mY1fYixkYQU02T-_u",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "Only money",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "maiLfjEbgXchhLaFC",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "Only weapons",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "maZ_wN5WEbxfyWLOs",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "Only information",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mykQhE_Ch2JFB80zm",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "No metal",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mZq_rScXiF82uDsMm",
+					"name": "Specialized",
+					"reference": "B86",
+					"notes": "Only @Color@ things",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mUMvfxW9PcRe5MKUP",
+					"name": "Stunning",
+					"reference": "B86",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "m6L8a22xEJGuzuRB8",
+					"name": "Unpredictable",
+					"reference": "B86",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mPiYYomP1d0l68BL4",
+					"name": "Creation",
+					"reference": "P76",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mK3O3VW8onBMIT8vZ",
+					"name": "Large Items",
+					"reference": "P76",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mx6NZN0Ye4qWrZu7l",
+					"name": "More Weight",
+					"reference": "P77",
+					"cost": 5,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mTbmzm-Rn8zusPGgj",
+					"name": "Recall",
+					"reference": "P77",
+					"cost": -25,
+					"disabled": true
+				}
+			],
+			"base_points": 80,
+			"calc": {
+				"points": 80
+			}
+		},
+		{
+			"id": "tdrToE389W9m7E7wS",
+			"name": "Special Rapport (@Person@)",
+			"reference": "B88,P77",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mZd-hCblF2MLTJmOe",
+					"name": "One Way",
+					"reference": "P77",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mhQ5zdzjPyWXk0Z44",
+					"name": "Transferable",
+					"reference": "P78",
+					"notes": "Own Race",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mgrh-JV27j0_hcWnE",
+					"name": "Transferable",
+					"reference": "P78",
+					"notes": "Living Being",
+					"cost": 150,
+					"disabled": true
+				},
+				{
+					"id": "mE0MwLk3RvodGJkUr",
+					"name": "Transferable",
+					"reference": "P78",
+					"notes": "Digital Minds",
+					"cost": 150,
+					"disabled": true
+				},
+				{
+					"id": "mTPbofNw-zgvRQEgg",
+					"name": "Transferable",
+					"reference": "P78",
+					"notes": "Any Sapient mind",
+					"cost": 250,
+					"disabled": true
+				},
+				{
+					"id": "mT4FtfPB-vL7kwBnE",
+					"name": "Must be Willing or Helpless",
+					"reference": "P78",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tzZSi8wp4ulffe4KT",
+			"name": "Spirit Empathy",
+			"reference": "B88,P48",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mjRg04aaqzmVRVtid",
+					"name": "Specialized",
+					"reference": "B87",
+					"notes": "@Type: Angels, Demons, Elementals, Faerie, Ghosts, etc.@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mzYGlDG8-5dlumGG2",
+					"name": "Remote",
+					"reference": "P48",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "td4-WCJ7jvCy_j3ZR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tLhvHsIW2tjWozsBy"
+			},
+			"name": "Spirit Empathy",
+			"reference": "B88,P48",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mF4setfctQq_omZjp",
+					"name": "Specialized",
+					"reference": "B87",
+					"notes": "@Type: Angels, Demons, Elementals, Faerie, Ghosts, etc.@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mGy4gdYWbBEPjH-25",
+					"name": "Remote",
+					"reference": "P48",
+					"cost": 50,
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tHSUDv0XWt3Qkkvn4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t3qytj5PflAhy0bD7"
+			},
+			"name": "Super Luck",
+			"reference": "B89,P80",
+			"notes": "Dictate one die roll once per hour of play",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "m8VRI-1OIsyW3WTly",
+					"name": "Aspected",
+					"reference": "B66",
+					"notes": "@Aspect@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mhHkAlMWs0zNNgmqU",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mBOhWmPLd05HigTwD",
+					"name": "Wishing",
+					"reference": "P80",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m_2JZXvR0Z1vFOSlP",
+					"name": "Alter Reality",
+					"reference": "P80",
+					"cost": 75,
+					"disabled": true
+				},
+				{
+					"id": "mwHF2spvHTvg_bLWa",
+					"name": "Wishing",
+					"reference": "P80",
+					"notes": "Aid Others Only",
+					"disabled": true
+				},
+				{
+					"id": "mueu4PqbEpxJI317B",
+					"name": "Game Time",
+					"reference": "P108",
+					"notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"disabled": true
+				}
+			],
+			"base_points": 100,
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "tP3x5SVEfvtBPkfwy",
+			"name": "Telecommunication",
+			"reference": "B91,P81,PSI17",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "miJ4TJQ8zGGKOG6Mu",
+					"name": "Infrared Communication",
+					"reference": "B91",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mu-phfhwLNmHT739i",
+					"name": "Laser Communication",
+					"reference": "B91",
+					"cost": 15,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mO221-etSHq9SrPy7",
+					"name": "Radio",
+					"reference": "B91",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mF5DsR4hSfz_Lx_Gc",
+					"name": "Telesend",
+					"reference": "B91",
+					"cost": 30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m7h0c0OKRH3he3UtK",
+					"name": "Broadcast",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m0Oa5JUEMuRFo2S1Q",
+					"name": "Short Wave",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mWbDkmvpqov4kIeTB",
+					"name": "Universal",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mYVfQcZ2FPMibBxPA",
+					"name": "Video",
+					"reference": "B91",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "mVFpmR0ThMkcKhFqH",
+					"name": "Racial",
+					"reference": "B91",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mQNQUjAKr9GW2oypa",
+					"name": "Receive Only",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mrg0tHlsbu682GLqu",
+					"name": "Send Only",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mNeaf_roixWpYIvmb",
+					"name": "Vague",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mg8HqieR346ZZWBAI",
+					"name": "Directional Sound",
+					"reference": "P81",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m3CBPrHzgiuwKqkRe",
+					"name": "Gravity Ripple",
+					"reference": "P81",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m3sXFo4s0htt34sje",
+					"name": "Neutrino",
+					"reference": "P81",
+					"cost": 25,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mVKPXPthkauaZ6jF6",
+					"name": "Sonar",
+					"reference": "P81",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mWL5dw5KzjhokTsiM",
+					"name": "Burst",
+					"reference": "P81",
+					"cost": 30,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mDRnkKh_p9CCjieML",
+					"name": "FTL",
+					"reference": "P82",
+					"cost": 120,
+					"disabled": true
+				},
+				{
+					"id": "mQBODgEleAvzy6Pj4",
+					"name": "Secure",
+					"reference": "P82",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mkPhWQLjUvAX_4XpX",
+					"name": "Sensie",
+					"reference": "P82",
+					"cost": 80,
+					"disabled": true
+				},
+				{
+					"id": "mFe77sWfS1lGyLM_n",
+					"name": "Cable Jack",
+					"reference": "UT31",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mKQ9XbYZxy_0Hur9r",
+					"name": "Full Communion",
+					"reference": "PSI17",
+					"cost": 20,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tknpSAOykxM-wl3kB",
+			"name": "Telekinesis",
+			"reference": "B92,P82,PSI17",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mn_v0wqkLkRRG_ozk",
+					"name": "Magnetic",
+					"reference": "B92",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mTfRaAlF67R_wnOcU",
+					"name": "Visible",
+					"reference": "B92",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mppmSDbDKtvMJ3Zik",
+					"name": "Super-Effort",
+					"reference": "P83",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "msZCT15kTv-OKomDZ",
+					"name": "Animation",
+					"reference": "P83",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mr_Z__SWYzZaTEeN1",
+					"name": "Animation",
+					"reference": "P83",
+					"notes": "No Flight",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mCzZ5acVtINz4b9On",
+					"name": "Attraction",
+					"reference": "P83",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "mXYdQCouMD7iyTHoy",
+					"name": "Repulsion",
+					"reference": "P83",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "mVgoxw6OuhxqF3p2b",
+					"name": "Attraction/Repulsion",
+					"reference": "P83",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mfQSbDoGx1qTkK3a2",
+					"name": "Lift Only",
+					"reference": "P83",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mpJDXFRN2CyXieVA7",
+					"name": "Move Only",
+					"reference": "P83",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "m0hinytBbiIKZUsES",
+					"name": "Animate Life-forms",
+					"reference": "SU28",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "m9bjPZu6IcRrAsZh-",
+					"name": "Animate Life-forms",
+					"reference": "SU28",
+					"notes": "Partial",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mWyF6nfF9XQZ89nlo",
+					"name": "Super-Damage",
+					"reference": "SU29",
+					"cost": 900,
+					"disabled": true
+				},
+				{
+					"id": "mb4LVnQwwSrjbmoRm",
+					"name": "Cannot Affect Self",
+					"reference": "PSI17",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mbFKkVxkGHFsHrdq3",
+					"name": "Cannot Punch",
+					"reference": "PSI17",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mPPCGs5kSLMxlb25q",
+					"name": "Enveloping",
+					"reference": "MATG28",
+					"cost": 60,
+					"disabled": true
+				},
+				{
+					"id": "mc0Tc7K51hdWdY4ps",
+					"name": "Grappling Only",
+					"reference": "MATG28",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "m8RWQM1bioSZ1GRUV",
+					"name": "Restraint Only",
+					"reference": "MATG28",
+					"cost": -45,
+					"disabled": true
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tvXTAX41acru5Zy1y",
+			"name": "Temperature Control",
+			"reference": "B92,P83",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mzA_ZyBaI99g8RHbA",
+					"name": "Cold",
+					"reference": "B92",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mBpnY6wkRz9MmUhDR",
+					"name": "Heat",
+					"reference": "B92",
+					"cost": -50,
+					"disabled": true
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "t2lCRtgEBhzaUZQL-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "trukZqFDEwlff1Epy"
+			},
+			"name": "Temporal Inertia",
+			"reference": "B93",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tgtcmE4VDUwPrPy1R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tQ0o-fWDmw5VQUulz"
+			},
+			"name": "Terror",
+			"reference": "B93,P84",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "m2JDC58OHFwfeISLk",
+					"name": "Always On",
+					"reference": "B93",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mLO_YAa81JqbwkZXj",
+					"name": "Active",
+					"reference": "P84",
+					"disabled": true
+				},
+				{
+					"id": "mzoY9p_FD-K1tHpSM",
+					"name": "Presence",
+					"reference": "P84",
+					"cost": 25,
+					"disabled": true
+				}
+			],
+			"base_points": 30,
+			"points_per_level": 10,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 40
+			}
+		},
+		{
+			"id": "tuk9tCBCmF8VumjlD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tqa93bDrD9kgk0ywo"
+			},
+			"name": "Timesickness",
+			"reference": "B158",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tJrTXnsDB81npsU1X",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tEBOrSyEu9NKNQskA"
+			},
+			"name": "Unique",
+			"reference": "B160",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Supernatural"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tHwedht18vYMRQZJU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tOg0QlZ2HB4-28mwP"
+			},
+			"name": "Unkillable",
+			"reference": "B95",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mb4C33ELD9Cx0s2Yh",
+					"name": "Achilles' Heel",
+					"reference": "B95",
+					"notes": "@Rare Achilles' Heel@",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mvG66FSoKawogMI8c",
+					"name": "Achilles' Heel",
+					"reference": "B95",
+					"notes": "@Occasional Achilles' Heel@",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "ml402QxjBLWQDc7L_",
+					"name": "Achilles' Heel",
+					"reference": "B95",
+					"notes": "@Common Achilles' Heel@",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m3yUXQ3HeJnszyC-M",
+					"name": "Hindrance",
+					"reference": "B95",
+					"notes": "@Rare Hindrance@",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "m8ZmC8tbAhbCokb79",
+					"name": "Hindrance",
+					"reference": "B95",
+					"notes": "@Occasional Hindrance@",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "m1g8YEoB2dta14rZw",
+					"name": "Hindrance",
+					"reference": "B95",
+					"notes": "@Common Hindrance@",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mA6GqbnVCz9uhTCiJ",
+					"name": "Reincarnation",
+					"reference": "B95",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m0uJFUNUZEaMDZQPR",
+					"name": "Trigger",
+					"reference": "B95",
+					"notes": "@Rare Trigger@",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mdEXDMTprJP_gMslL",
+					"name": "Trigger",
+					"reference": "B95",
+					"notes": "@Occasional Trigger@",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "maewbPpNFQNxiZosK",
+					"name": "Trigger",
+					"reference": "B95",
+					"notes": "@Common Trigger@",
+					"cost": -5,
+					"disabled": true
+				}
+			],
+			"points_per_level": 50,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 50
+			}
+		},
+		{
+			"id": "tayUbGZWr4J9ymOkD",
+			"name": "Warp",
+			"reference": "B97,P88,PSI18",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mxPVg1DMcWLZJj8c4",
+					"name": "Blind",
+					"reference": "B98",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mH-JDmBRht7LejJHc",
+					"name": "Extra Carrying Capacity",
+					"reference": "B98",
+					"notes": "Up to Light Encumbrance",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mrNXtpqq8tiY4KEAp",
+					"name": "Extra Carrying Capacity",
+					"reference": "B98",
+					"notes": "Up to Medium Encumbrance",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mOzmafsrhTmPGjHtQ",
+					"name": "Extra Carrying Capacity",
+					"reference": "B98",
+					"notes": "Up to Heavy Encumbrance",
+					"cost": 30,
+					"disabled": true
+				},
+				{
+					"id": "m84VgeMNxrVwUgquh",
+					"name": "Extra Carrying Capacity",
+					"reference": "B98",
+					"notes": "Up to Extra-Heavy Encumbrance",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mpnr5WD3owc6nkSSY",
+					"name": "Reliable",
+					"reference": "B98",
+					"cost": 5,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "mBLo_QgEZSDASISeR",
+					"name": "Warp Jump",
+					"reference": "B98",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mX3OwCv7xVLERlUAR",
+					"name": "Hyperjump",
+					"reference": "B98",
+					"notes": "Speed of light",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mVVJieaAOOzr7vmNm",
+					"name": "Hyperjump",
+					"reference": "B98",
+					"notes": "One light-year per day",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mzaqcEKhw4HVh6wp4",
+					"name": "Naked",
+					"reference": "B99",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mMms6ydfF7A8zxoc1",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "10 yards",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mndHVAcLbhI07SuTn",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "20 yards",
+					"cost": -45,
+					"disabled": true
+				},
+				{
+					"id": "mQBjuDBqvCpZ7UAml",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "100 yards",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mXLHnHd0HuCgyRwF3",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "500 yards",
+					"cost": -35,
+					"disabled": true
+				},
+				{
+					"id": "mM1vInPjNsQtj6AYz",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "2 miles",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mcD50qiFU32Mxci7c",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "10 miles",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mWYlpFOKBXAcOR93k",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "100 miles",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m6JFoPuMv_s1QEnep",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "1000 miles",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "muz5SP40Dq4lkQa2E",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "10000 miles",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mxyyGONPLNFQHgXz2",
+					"name": "Range Limit",
+					"reference": "B99",
+					"notes": "100000 miles",
+					"cost": -5,
+					"disabled": true
+				},
+				{
+					"id": "mLCkUSpCoMIdqvctl",
+					"name": "Blink",
+					"reference": "P89",
+					"cost": 25,
+					"disabled": true
+				},
+				{
+					"id": "mB2vmTtYkpkY6JTK-",
+					"name": "No Strain",
+					"reference": "P89",
+					"cost": 25,
+					"disabled": true
+				},
+				{
+					"id": "mQlRv6QmpF_FvEZx5",
+					"name": "Tracking",
+					"reference": "P89",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mCoQY25LXCcPFZ37L",
+					"name": "Tunnel",
+					"reference": "P89",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mKsb7vHRMCNRRLVbr",
+					"name": "Tunnel",
+					"reference": "P89",
+					"notes": "After teleport",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "mxZK6QX1EFZMBgFcp",
+					"name": "Anchored",
+					"reference": "P89",
+					"notes": "Changable",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mKT1qI5MOYK7uDi_k",
+					"name": "Anchored",
+					"reference": "P89",
+					"notes": "Item",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "m3-HLufYlywP-pleI",
+					"name": "Anchored",
+					"reference": "P89",
+					"notes": "Fixed Site",
+					"cost": -80,
+					"disabled": true
+				},
+				{
+					"id": "mqYFh9CEiT0VuPh6q",
+					"name": "Blind Only",
+					"reference": "P89",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mw8ZuNoCcgJkmerNm",
+					"name": "Drift",
+					"reference": "P89",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "mflY4KOnrn8hQsIJk",
+					"name": "Projection",
+					"reference": "P58",
+					"notes": "Can't Affect",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mfMgpSddmrivgDvyZ",
+					"name": "Projection",
+					"reference": "P58",
+					"notes": "Can use abilities",
+					"disabled": true
+				},
+				{
+					"id": "mImIthXxGnX8cN_pf",
+					"name": "Special Portal",
+					"reference": "P89",
+					"notes": "@Portal@",
+					"disabled": true
+				},
+				{
+					"id": "mefXNgrMq5MbKixbp",
+					"name": "Mental Carrying Capacity",
+					"reference": "SU29",
+					"notes": "MBL: @MBL@ lb",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mH8ReaDJF-DQFwNya",
+					"name": "Rapid Fire",
+					"reference": "SU29",
+					"disabled": true
+				},
+				{
+					"id": "m2on-fFyp2s_2lfW8",
+					"name": "Telekinetic Carrying Capacity",
+					"reference": "SU29",
+					"notes": "TBL: @TBL@ lb",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mh8dTNItH84NynpJI",
+					"name": "Exoteleport",
+					"reference": "SU30",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m4H3sAbKoAumyELWA",
+					"name": "Gyroscopic",
+					"reference": "PSI18",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "mtQ4KjQc2tmmJhceq",
+					"name": "Blink Only",
+					"reference": "PSI18",
+					"cost": -60,
+					"disabled": true
+				}
+			],
+			"base_points": 100,
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "tcjxqCmyJoL4w0GEx",
+			"name": "Weirdness Magnet",
+			"reference": "B161",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mPR7e8OV323aML6ll",
+					"name": "Origins Magnet",
+					"reference": "SU32",
+					"disabled": true
+				}
+			],
+			"base_points": -15,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others who realize you are a weirdness magnet (except parapsychologists, cultists, conspiracy theorists, thrill-seekers)",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"points": -15
+			}
+		}
+	]
+}

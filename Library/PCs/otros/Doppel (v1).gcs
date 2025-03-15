@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Apmi-XAhxTr7N_wgY",
-	"total_points": 162,
+	"total_points": 164,
 	"points_record": [
 		{
 			"when": "2024-08-04T00:53:59+02:00",
-			"points": 162,
+			"points": 164,
 			"reason": "Initial points"
 		}
 	],
@@ -1779,15 +1779,15 @@
 						"Disadvantage",
 						"Mental"
 					],
-					"cr": 12,
+					"cr": 15,
 					"base_points": -15,
 					"calc": {
-						"points": -15
+						"points": -7
 					}
 				}
 			],
 			"calc": {
-				"points": -30
+				"points": -22
 			}
 		},
 		{
@@ -2600,6 +2600,80 @@
 			}
 		},
 		{
+			"id": "suEERNaGTH9f6ZUPw",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "s1iPc5Frb36JwNES-"
+			},
+			"name": "Escape",
+			"reference": "B192",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "DX-1"
+			}
+		},
+		{
+			"id": "sS3AiDlaLgUYloBC-",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "skTfrjGzzfx9reA5x"
+			},
+			"name": "Fast-Talk",
+			"reference": "B195",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Acting",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "IQ+0"
+			}
+		},
+		{
 			"id": "sS9zbMsVI2PM45EWJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2686,6 +2760,45 @@
 			"calc": {
 				"level": 11,
 				"rsl": "DX+1"
+			}
+		},
+		{
+			"id": "s_BU5pPJ6nzrUYXya",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "sfSY0Wcn4ZmT_yN7S"
+			},
+			"name": "Holdout",
+			"reference": "B200",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -3
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "IQ+0"
 			}
 		},
 		{
@@ -2931,7 +3044,7 @@
 					"modifier": -5
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
@@ -2940,86 +3053,14 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "Per+0"
+				"level": 13,
+				"rsl": "Per+1"
 			}
 		},
 		{
 			"id": "SzOkZCh-SmNGhwTZU",
 			"name": "~ Defaults",
 			"children": [
-				{
-					"id": "suEERNaGTH9f6ZUPw",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades (old).skl",
-						"id": "s1iPc5Frb36JwNES-"
-					},
-					"name": "Escape",
-					"reference": "B192",
-					"tags": [
-						"Criminal",
-						"Street"
-					],
-					"difficulty": "dx/h",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -6
-						}
-					],
-					"defaulted_from": {
-						"type": "dx",
-						"modifier": -6,
-						"level": 4,
-						"adjusted_level": 4,
-						"points": -4
-					},
-					"calc": {
-						"level": 5,
-						"rsl": "DX-5"
-					}
-				},
-				{
-					"id": "sS3AiDlaLgUYloBC-",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades (old).skl",
-						"id": "skTfrjGzzfx9reA5x"
-					},
-					"name": "Fast-Talk",
-					"reference": "B195",
-					"tags": [
-						"Criminal",
-						"Social",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Acting",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Acting",
-						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 8,
-						"rsl": "IQ-3"
-					}
-				},
 				{
 					"id": "spjUAkNmSFgg17OTI",
 					"source": {
@@ -3067,44 +3108,6 @@
 					"calc": {
 						"level": 5,
 						"rsl": "DX-5"
-					}
-				},
-				{
-					"id": "s_BU5pPJ6nzrUYXya",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades (old).skl",
-						"id": "sfSY0Wcn4ZmT_yN7S"
-					},
-					"name": "Holdout",
-					"reference": "B200",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Sleight of Hand",
-							"modifier": -3
-						}
-					],
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
-					"calc": {
-						"level": 7,
-						"rsl": "IQ-4"
 					}
 				},
 				{
@@ -3540,7 +3543,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-01-22T19:31:57+01:00",
+	"modified_date": "2025-02-18T12:54:18+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

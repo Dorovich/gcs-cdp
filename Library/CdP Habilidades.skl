@@ -354,6 +354,66 @@
 			"points": 1
 		},
 		{
+			"id": "sQemDY88w7yJpwNLS",
+			"name": "Apparatus Operation",
+			"reference": "B189",
+			"reference_highlight": "Electronics Operation",
+			"tags": [
+				"Technical"
+			],
+			"specialization": "Communications",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "syt8_GTv1nNP-IOfH",
+			"name": "Apparatus Operation",
+			"reference": "B189",
+			"reference_highlight": "Electronics Operation",
+			"tags": [
+				"Military",
+				"Technical"
+			],
+			"vtt_notes": "Use as Electronic Warfare",
+			"specialization": "Countermeasures",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "s1oyuaael0QaIwe8u",
 			"name": "Apparatus Operation",
 			"reference": "B189",
@@ -409,64 +469,6 @@
 					"type": "skill",
 					"name": "Engineer",
 					"specialization": "@Related@",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sQemDY88w7yJpwNLS",
-			"name": "Apparatus Operation",
-			"reference": "B189",
-			"reference_highlight": "Electronics Operation",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "Communications",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Apparatus Operation",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electrical",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "syt8_GTv1nNP-IOfH",
-			"name": "Apparatus Operation",
-			"reference": "B189",
-			"reference_highlight": "Electronics Operation",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "Electronic Warfare",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Apparatus Operation",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electrical",
 					"modifier": -4
 				}
 			],
@@ -580,6 +582,325 @@
 				{
 					"type": "skill",
 					"name": "Apparatus Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sWu9TT7C62I8-O987",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "@Apparatus type@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sH8IvwHUyMfUIOqCa",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Communications",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Communications",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "scQY-y2CSQgvYR_gJ",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Military",
+				"Repair"
+			],
+			"specialization": "Countermeasures",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Countermeasures",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sohG89qcwMcMnc4a3",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Media",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Media",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sfqke0zsX4VVN1Mkw",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Medical",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Medical",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s8Ebn2KoYl0r3MQK3",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Scientific",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Scientific",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sKSRI75y-9n2-Fm_L",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Security",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Security",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "smQ-catc698pECI8M",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Sensors",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Sensors",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "@Related@",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s0SlENC73eCsysqZy",
+			"name": "Apparatus Repair",
+			"reference": "B190",
+			"reference_highlight": "Electronics Repair",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Sonar",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Apparatus Operation",
+					"specialization": "Sonar",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Apparatus Repair",
 					"modifier": -4
 				},
 				{

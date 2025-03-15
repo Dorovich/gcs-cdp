@@ -1,17 +1,16 @@
 {
 	"version": 5,
 	"id": "AbyVge4ow13WTQDq8",
-	"total_points": 163,
+	"total_points": 170,
 	"points_record": [
 		{
 			"when": "2024-08-14T11:40:28+02:00",
-			"points": 163,
+			"points": 170,
 			"reason": "Initial points"
 		}
 	],
 	"profile": {
 		"name": "Laterne, \"Late\"",
-		"birthday": "March 26",
 		"gender": "Male",
 		"height": "5'8.4\"",
 		"weight": "156 lb",
@@ -82,18 +81,20 @@
 				"cost_per_point": 5
 			},
 			{
+				"id": "ke",
+				"type": "integer",
+				"placement": "secondary",
+				"name": "KE",
+				"full_name": "Keum",
+				"attribute_base": "9",
+				"cost_per_point": 10
+			},
+			{
 				"id": "rt",
 				"type": "integer_ref",
 				"placement": "secondary",
 				"name": "Grit",
 				"attribute_base": "$ht/2+3"
-			},
-			{
-				"id": "ke",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Keum",
-				"attribute_base": "10"
 			},
 			{
 				"id": "fright_check",
@@ -288,6 +289,34 @@
 					{
 						"state": "Healthy",
 						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "kp",
+				"type": "pool",
+				"name": "KP",
+				"full_name": "Keum Points",
+				"attribute_base": "$ke",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Divergent",
+						"expression": "-$kp"
+					},
+					{
+						"state": "Disjointed",
+						"expression": "0"
+					},
+					{
+						"state": "Dissonant",
+						"expression": "ceil($kp/3)-1",
+						"explanation": "Halve KE"
+					},
+					{
+						"state": "Harmonical",
+						"expression": "$kp",
+						"explanation": "Halve KE"
 					}
 				]
 			}
@@ -530,18 +559,18 @@
 			}
 		},
 		{
-			"attr_id": "rt",
+			"attr_id": "ke",
 			"adj": 0,
 			"calc": {
-				"value": 8,
+				"value": 9,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "ke",
+			"attr_id": "rt",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -632,6 +661,15 @@
 			"calc": {
 				"value": 12,
 				"current": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "kp",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -885,7 +923,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mCZWLlIkT0xU3-L72",
+							"id": "m8Z_QAHhca4goFHN4",
 							"name": "Alternative Cost",
 							"cost": -1,
 							"cost_type": "points",
@@ -930,7 +968,7 @@
 							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
-								"qualifier": "electronics repair"
+								"qualifier": "apparatus repair"
 							},
 							"amount": 1,
 							"per_level": true
@@ -999,14 +1037,14 @@
 						}
 					],
 					"can_level": true,
-					"levels": 1,
+					"levels": 2,
 					"calc": {
-						"points": 10
+						"points": 20
 					}
 				}
 			],
 			"calc": {
-				"points": 48
+				"points": 58
 			}
 		},
 		{
@@ -1263,17 +1301,274 @@
 			}
 		},
 		{
-			"id": "TBWOd4UTzJPvehrUP",
+			"id": "TOiDue5suJw_Uabqm",
 			"name": "Koppemak",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "TuQuYyukZS6aY3RhS",
+					"id": "TovHnjAktVa2k85vT",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "tkWbZbQpRYC7qTbYh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tu0KTB8faKoeTJiEi"
+							},
+							"name": "Decreased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"points_per_level": -20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "tuWbGwzd7mJxl39cL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t8bkRwuJEx6Kf0zU_"
+							},
+							"name": "Decreased Perception",
+							"reference": "B16",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Mental",
+								"Physical"
+							],
+							"points_per_level": -5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tkAztOIrEAqtRzdMV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tMA9_2yoV8Czd7arj"
+							},
+							"name": "Decreased Will",
+							"reference": "B16",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Mental"
+							],
+							"points_per_level": -5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tUvrCpODRWnNULRVZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tWoMSz-IMAxDJo8rh"
+							},
+							"name": "Extra Hit Points",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "muH9gZvEEeWtf-j1p",
+									"name": "Size",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "tnAFz6ccCyI-mzZX9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tWF1J_Z0Ziz-qJ6pn"
+							},
+							"name": "Increased Basic Speed",
+							"reference": "B17",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "basic_speed",
+									"amount": 0.25,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tndzKVlJdTV9fGjQA",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tJRqYvJQpdY95MHhp",
+							"name": "Increased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 9
+					}
+				},
+				{
+					"id": "TvqVDf5_I0dK2FMHQ",
+					"name": "Features",
+					"children": [
+						{
+							"id": "tuNZ6-unbqDM8jWvl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t41Jcu2uv3yYlH_uK"
+							},
+							"name": "Complexity-Limited IQ",
+							"reference": "TT2:12",
+							"notes": "Complexity 7",
+							"tags": [
+								"Exotic",
+								"Mental",
+								"Taboo Trait"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tNIbkdc7t0ANE6Z9a",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "tQY4rjF8t2sAPM9xv"
+							},
+							"name": "Sterile",
+							"reference": "TT2:12",
+							"tags": [
+								"Feature",
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "ThWPGJbyb_5Rw-5u3",
 					"name": "Advantages",
 					"children": [
 						{
-							"id": "t-ja3LdOv0a3qTI22",
+							"id": "tbv3zqdn9RGsNRgR0",
 							"name": "Damage Resistance",
 							"reference": "B47,P45,MA43,PSI14",
 							"tags": [
@@ -1283,14 +1578,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mBllLgGEHLGD9oUck",
+									"id": "mC36co6SJ8_KwFWtV",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mwLdgHbJbZY5ARN7G",
+									"id": "mZIA4HbuIre75adAZ",
 									"name": "Hardened",
 									"reference": "B47",
 									"cost": 20,
@@ -1298,7 +1593,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mnWb05lepoq488KsR",
+									"id": "mMk3C38_VG-TdN54O",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances @Trait@",
@@ -1306,7 +1601,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mtwAvUSunDtdsNVus",
+									"id": "mA7WJDRdeCTh7arlS",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Healing only",
@@ -1314,7 +1609,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mPbq1DMsdycMeJn14",
+									"id": "mzFfk65qGDD05CEKK",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances any trait",
@@ -1322,14 +1617,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mXXBFFxuSVdD_8MlF",
+									"id": "m7LDn-cuadLlxMyoy",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "m2G5ZfFjNIgvDjGBx",
+									"id": "mMegkDjZAMjr_oOKX",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Rare@",
@@ -1338,7 +1633,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mmnQ7_XZsoXlZ4RyF",
+									"id": "m1FtCgUcdrVyBkQyK",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Occasional@",
@@ -1346,7 +1641,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m46Bg05AZz9pz0uoc",
+									"id": "mN8kyPfvt2kM2ZiT8",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Common@",
@@ -1354,7 +1649,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mSXVffHNlZulgq1rA",
+									"id": "mlI9UsXQ7ShcvAtsl",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Very Common@",
@@ -1362,7 +1657,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m7eIf--bGXD8Wywin",
+									"id": "mRIFYbM2Y_7roDe0C",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "Front",
@@ -1370,14 +1665,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mVh2cgtxM9FSqtaAc",
+									"id": "mB_-TWBwUuYls54Ot",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mDv0-b8Iq4a687NBA",
+									"id": "mKxs7voOmUbVPlFAY",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Very Common Attack Form@",
@@ -1385,21 +1680,21 @@
 									"disabled": true
 								},
 								{
-									"id": "mEPSadKY5bgL5ATkv",
+									"id": "moEQs__K9qY8G8qQU",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mCMMLSDNyBFdIgs5q",
+									"id": "mMp3SF2NQzxZdv22X",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mr0EfrX7DAVFs38Rq",
+									"id": "m4kpNyN2AWzHvwBRb",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -1407,7 +1702,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m9peMDPOwmEnouj-_",
+									"id": "mvoOvY_T5LeuOeXue",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Common Attack Form@",
@@ -1415,13 +1710,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mm7U_wwUIZLAubUL5",
+									"id": "mkghUhrNv7TqP25U7",
 									"name": "Tough Skin",
 									"notes": "Effects that just require skin contact or a scratch ignore this DR",
 									"cost": -40
 								},
 								{
-									"id": "msvDHPapPyHVWbdS-",
+									"id": "m8ocT3JFon3preQkA",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Occasional Attack Form@",
@@ -1429,14 +1724,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mPsoi9CrfYXH2FHaa",
+									"id": "mb8zOlpMX3gsCdkBp",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost": -80,
 									"disabled": true
 								},
 								{
-									"id": "mPwzpOntv-8tQ4XDF",
+									"id": "mSLnTNhOZC4PywTWA",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Rare Attack Form@",
@@ -1444,27 +1739,27 @@
 									"disabled": true
 								},
 								{
-									"id": "m63zJwtm7hxBm6xoE",
+									"id": "mYCbShNbRhRrmUfkr",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost": 10,
 									"disabled": true
 								},
 								{
-									"id": "mKrw0Z7kVBBT7iYAG",
+									"id": "mSo73Wxtc4-3YZ0sB",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "m9XT8PMD_PLpEkhgh",
+									"id": "m-8pMz8rBpLZOR9k0",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mMGPyOVvlyfGG_rIz",
+									"id": "muV444Ihs6na7h8fm",
 									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 									"reference": "B47",
 									"cost": -10,
@@ -1593,7 +1888,7 @@
 							}
 						},
 						{
-							"id": "tmCQ1tb44OrO8cfzp",
+							"id": "tHpYfivSWYAD6WNu4",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -1613,101 +1908,7 @@
 							}
 						},
 						{
-							"id": "tIfFB1AD65QNnpM9u",
-							"name": "Injury Tolerance",
-							"reference": "B60",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m7N7o8VP1mUNmnCaJ",
-									"name": "Diffuse",
-									"reference": "B60",
-									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
-									"cost": 100,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mvCEPK2sseNJ5q0Yy",
-									"name": "Homogenous",
-									"reference": "B60",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
-									"cost": 40,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mmTSbxyWzTq1Pi0xl",
-									"name": "No Blood",
-									"reference": "B61",
-									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
-									"cost": 5,
-									"cost_type": "points"
-								},
-								{
-									"id": "m62__WqM2lfjYM9Yp",
-									"name": "No Brain",
-									"reference": "B61",
-									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mAbt-UndXgcTcyGNc",
-									"name": "No Eyes",
-									"reference": "B61",
-									"notes": "Eyes may not be targeted. Immune to blinding attacks",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "m8H3pGhUmG1vsf4KN",
-									"name": "No Head",
-									"reference": "B61",
-									"notes": "Skull, Brain and Face cannot be targeted",
-									"cost": 7,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "m3NYlRQ-mlfALQkEB",
-									"name": "No Neck",
-									"reference": "B61",
-									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mtCVjvLbur7fTOBjK",
-									"name": "No Vitals",
-									"reference": "B61",
-									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mXq_iKfJuYgOm622l",
-									"name": "Unliving",
-									"reference": "B61",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
-									"cost": 20,
-									"cost_type": "points"
-								}
-							],
-							"calc": {
-								"points": 25
-							}
-						},
-						{
-							"id": "tBhK6v89sgXTDSvny",
+							"id": "tKww5uQbO6J8A-HMM",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -1722,21 +1923,21 @@
 							],
 							"modifiers": [
 								{
-									"id": "mWjTddiMia6CdSqXZ",
+									"id": "mKmCy50qTFU3-wo1M",
 									"name": "Cast-Iron Stomach",
 									"reference": "B80",
 									"cost": -50,
 									"disabled": true
 								},
 								{
-									"id": "mkR4EgwqZN8YCHcCI",
+									"id": "mCNWMRrUm1I5hOvkL",
 									"name": "Food Only",
 									"reference": "B80",
 									"cost": -50,
 									"disabled": true
 								},
 								{
-									"id": "m2a3wFE_gG3fWff3l",
+									"id": "m7EnIu736L4k85XKU",
 									"name": "Water Only",
 									"reference": "B80",
 									"cost": -50,
@@ -1749,299 +1950,18 @@
 							"calc": {
 								"points": 2
 							}
-						},
-						{
-							"id": "tcgrnK1mbbrwgbyTX",
-							"name": "Resistant",
-							"reference": "B81",
-							"tags": [
-								"Advantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "mVgwaVSCL__7xdqeT",
-									"name": "Metabolic Hazards",
-									"reference": "B80",
-									"cost": 30,
-									"cost_type": "points"
-								},
-								{
-									"id": "m6lMq96N8JfbarCrT",
-									"name": "@Common: Poison, Sickness, etc.@",
-									"reference": "B81",
-									"cost": 15,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mnnNklrxzzNqXwyM9",
-									"name": "@Occasional: Disease, Ingested Poison, etc.@",
-									"reference": "B81",
-									"cost": 10,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mq5XqUyHcMj5iK0nM",
-									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
-									"reference": "B81",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mb1KCFIsS9wcxgjbM",
-									"name": "Immunity",
-									"reference": "B81",
-									"cost": 1,
-									"cost_type": "multiplier"
-								},
-								{
-									"id": "m6UMKdJ5-_SIWZk9i",
-									"name": "+8 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.5,
-									"cost_type": "multiplier",
-									"disabled": true
-								},
-								{
-									"id": "m99cOEvYAhvubyRU5",
-									"name": "+3 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.33,
-									"cost_type": "multiplier",
-									"disabled": true
-								}
-							],
-							"round_down": true,
-							"calc": {
-								"points": 30
-							}
 						}
 					],
 					"calc": {
-						"points": 71
+						"points": 16
 					}
 				},
 				{
-					"id": "TukVDMDJCz1qXnREG",
-					"name": "Attributes",
-					"children": [
-						{
-							"id": "t60eycqDiDpezhwPr",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tu0KTB8faKoeTJiEi"
-							},
-							"name": "Decreased Dexterity",
-							"reference": "B15",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Physical"
-							],
-							"points_per_level": -20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "dx",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -20
-							}
-						},
-						{
-							"id": "tljgaiBZYjqQAzA5O",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t8bkRwuJEx6Kf0zU_"
-							},
-							"name": "Decreased Perception",
-							"reference": "B16",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Mental",
-								"Physical"
-							],
-							"points_per_level": -5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "per",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -5
-							}
-						},
-						{
-							"id": "twOssInXQcz8-GLQz",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tMA9_2yoV8Czd7arj"
-							},
-							"name": "Decreased Will",
-							"reference": "B16",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Mental"
-							],
-							"points_per_level": -5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "will",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -5
-							}
-						},
-						{
-							"id": "t-YPjOxUvI2EZLVUo",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tWoMSz-IMAxDJo8rh"
-							},
-							"name": "Extra Hit Points",
-							"reference": "B16",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "mle_QJqaKWHe3jJ-J",
-									"name": "Size",
-									"cost": -10,
-									"levels": 1,
-									"disabled": true
-								}
-							],
-							"points_per_level": 2,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "hp",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 4
-							}
-						},
-						{
-							"id": "tM7tUsEG4FuC2OUf9",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tWF1J_Z0Ziz-qJ6pn"
-							},
-							"name": "Increased Basic Speed",
-							"reference": "B17",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "basic_speed",
-									"amount": 0.25,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 5
-							}
-						},
-						{
-							"id": "t2wmUV5AbhbdpEkxd",
-							"name": "Increased Health",
-							"reference": "B14",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ht",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
-							"id": "thyTVGQ5mftIdiwDD",
-							"name": "Increased Intelligence",
-							"reference": "B15",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Mental"
-							],
-							"points_per_level": 20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "iq",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 20
-							}
-						}
-					],
-					"calc": {
-						"points": 9
-					}
-				},
-				{
-					"id": "TeORLitnrEjPdC2AC",
+					"id": "TGON2II-ZGrUmJJ3Y",
 					"name": "Disadvantages",
 					"children": [
 						{
-							"id": "tFbJUQWU8h478XNnS",
+							"id": "tNbo2Y7WCyciMHHjY",
 							"name": "Electrical",
 							"reference": "B134",
 							"tags": [
@@ -2053,9 +1973,205 @@
 							"calc": {
 								"points": -20
 							}
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "TVMtl2EVoWc1XW2NA",
+					"name": "Machine",
+					"reference": "B263",
+					"container_type": "meta_trait",
+					"children": [
+						{
+							"id": "ttqI20h_xT4eDcqzp",
+							"name": "Eight-hour energy reserve, Refuel 3 times per day",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
 						},
 						{
-							"id": "tEdDu-T4tUcNA7UqV",
+							"id": "tcoVgOZ3s9HLAALjF",
+							"name": "Injury Tolerance",
+							"reference": "B60",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mElVerfqo_5GGd5-J",
+									"name": "Diffuse",
+									"reference": "B60",
+									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+									"cost": 100,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m_NBu_CPHU9ETh1_5",
+									"name": "Homogenous",
+									"reference": "B60",
+									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+									"cost": 40,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mxMbhRTBBIn6nCcc1",
+									"name": "No Blood",
+									"reference": "B61",
+									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+									"cost": 5,
+									"cost_type": "points"
+								},
+								{
+									"id": "m4wf3X2zjM6ebbCSk",
+									"name": "No Brain",
+									"reference": "B61",
+									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mMRmLeI0Elt273iAZ",
+									"name": "No Eyes",
+									"reference": "B61",
+									"notes": "Eyes may not be targeted. Immune to blinding attacks",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mW80Ne8FWvH8AwOJC",
+									"name": "No Head",
+									"reference": "B61",
+									"notes": "Skull, Brain and Face cannot be targeted",
+									"cost": 7,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mAIjO0MRIu4EZoNVJ",
+									"name": "No Neck",
+									"reference": "B61",
+									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m4_SZFZenW_IuV56T",
+									"name": "No Vitals",
+									"reference": "B61",
+									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mdfPwkUoE9_eG8p0Q",
+									"name": "Unliving",
+									"reference": "B61",
+									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+									"cost": 20,
+									"cost_type": "points"
+								}
+							],
+							"calc": {
+								"points": 25
+							}
+						},
+						{
+							"id": "tsD7mULrU0TPEIeGp",
+							"name": "No fatigue points, Don't spend fatigue points",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tk5d9yYPhtIKDg2gt",
+							"name": "Resistant",
+							"reference": "B81",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m_15zroCcZXjOCw-m",
+									"name": "Metabolic Hazards",
+									"reference": "B80",
+									"cost": 30,
+									"cost_type": "points"
+								},
+								{
+									"id": "mPMzIFdRWCnvjUNpX",
+									"name": "@Common: Poison, Sickness, etc.@",
+									"reference": "B81",
+									"cost": 15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m2z9MVEQ4ljvvjvPb",
+									"name": "@Occasional: Disease, Ingested Poison, etc.@",
+									"reference": "B81",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "maJYgZXhBJNSFuxof",
+									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+									"reference": "B81",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m7kLKkdVaFwzC7aMO",
+									"name": "Immunity",
+									"reference": "B81",
+									"cost": 1,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "mOz2RWVIE0sjwtMYI",
+									"name": "+8 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.5,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "m86TKnyOLcbqesPL4",
+									"name": "+3 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"round_down": true,
+							"calc": {
+								"points": 30
+							}
+						},
+						{
+							"id": "txWTvGDI5kL0lsl5a",
 							"name": "Unhealing (Total)",
 							"reference": "B160",
 							"tags": [
@@ -2067,122 +2183,12 @@
 							"calc": {
 								"points": -30
 							}
-						}
-					],
-					"calc": {
-						"points": -50
-					}
-				},
-				{
-					"id": "TQelFbwmD5SH7In67",
-					"name": "Features",
-					"children": [
-						{
-							"id": "tdSqHYWaNrrz6keSi",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "t41Jcu2uv3yYlH_uK"
-							},
-							"name": "Complexity-Limited IQ",
-							"reference": "TT2:12",
-							"notes": "Complexity 7",
-							"tags": [
-								"Exotic",
-								"Mental",
-								"Taboo Trait"
-							],
-							"calc": {
-								"points": 0
-							}
 						},
 						{
-							"id": "tlqDzEOgWrqxPwHWs",
-							"name": "Fuel Supply",
-							"reference": "TT2:12",
+							"id": "tEsxDtU-Opdyp_VM9",
+							"name": "Wears out instead of aging",
+							"reference": "B263",
 							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical"
-							],
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "tQm6FMwEvkmO9GeIn",
-							"name": "Not Pressurized",
-							"reference": "TT2:12",
-							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical"
-							],
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "prereq_list",
-										"all": false,
-										"prereqs": [
-											{
-												"type": "trait_prereq",
-												"has": true,
-												"name": {
-													"compare": "is",
-													"qualifier": "Machine"
-												}
-											},
-											{
-												"type": "trait_prereq",
-												"has": true,
-												"name": {
-													"compare": "is",
-													"qualifier": "Injury Tolerance"
-												},
-												"notes": {
-													"compare": "contains",
-													"qualifier": "Unliving"
-												}
-											}
-										]
-									}
-								]
-							},
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "tVdwKBE9974wo-zFG",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "tWvXsARO0dmH9NHbh"
-							},
-							"name": "Not Subject to Aging",
-							"reference": "TT2:12",
-							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical"
-							],
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "teUterSN7bARSCCzC",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "tQY4rjF8t2sAPM9xv"
-							},
-							"name": "Sterile",
-							"reference": "TT2:12",
-							"tags": [
-								"Feature",
 								"Physical"
 							],
 							"calc": {
@@ -2191,7 +2197,7 @@
 						}
 					],
 					"calc": {
-						"points": 0
+						"points": 25
 					}
 				}
 			],
@@ -2360,10 +2366,10 @@
 			}
 		},
 		{
-			"id": "sSI8Mm-2XyuVaUSGi",
+			"id": "sXYpn8YO41P_s7v07",
 			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Habilidades, Rev. 3.skl",
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
 				"id": "sQemDY88w7yJpwNLS"
 			},
 			"name": "Apparatus Operation",
@@ -2372,7 +2378,7 @@
 			"tags": [
 				"Technical"
 			],
-			"specialization": "Radio",
+			"specialization": "Communications",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -2441,8 +2447,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 14,
-				"rsl": "IQ+2"
+				"level": 15,
+				"rsl": "IQ+3"
 			}
 		},
 		{
@@ -2484,6 +2490,45 @@
 			}
 		},
 		{
+			"id": "si744oef4D8Hf4AK8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8j6tcaNxXkF89Xbt"
+			},
+			"name": "Diplomacy",
+			"reference": "B187",
+			"tags": [
+				"Business",
+				"Police",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ-2"
+			}
+		},
+		{
 			"id": "st7ZEcsG136zur8TB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2518,8 +2563,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 14,
-				"rsl": "IQ+2"
+				"level": 15,
+				"rsl": "IQ+3"
 			}
 		},
 		{
@@ -2579,8 +2624,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+0"
+				"level": 13,
+				"rsl": "IQ+1"
 			}
 		},
 		{
@@ -2640,8 +2685,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+0"
+				"level": 13,
+				"rsl": "IQ+1"
 			}
 		},
 		{
@@ -2701,8 +2746,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+0"
+				"level": 13,
+				"rsl": "IQ+1"
 			}
 		},
 		{
@@ -2884,7 +2929,7 @@
 					"modifier": -2
 				}
 			],
-			"points": 4,
+			"points": 8,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
@@ -2893,8 +2938,8 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 11,
-				"rsl": "DX+2"
+				"level": 12,
+				"rsl": "DX+3"
 			}
 		},
 		{
@@ -2979,9 +3024,9 @@
 				"name": "Guns",
 				"specialization": "Pistol",
 				"modifier": -2,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": 1
+				"level": 10,
+				"adjusted_level": 10,
+				"points": 2
 			},
 			"calc": {
 				"level": 10,
@@ -3096,8 +3141,8 @@
 				"points": -8
 			},
 			"calc": {
-				"level": 13,
-				"rsl": "IQ+1"
+				"level": 14,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -3194,8 +3239,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 14,
-				"rsl": "IQ+2"
+				"level": 15,
+				"rsl": "IQ+3"
 			}
 		},
 		{
@@ -3246,8 +3291,8 @@
 				"points": -9
 			},
 			"calc": {
-				"level": 14,
-				"rsl": "IQ+2"
+				"level": 15,
+				"rsl": "IQ+3"
 			}
 		},
 		{
@@ -3614,44 +3659,6 @@
 			"name": "~ Defaults",
 			"children": [
 				{
-					"id": "si744oef4D8Hf4AK8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8j6tcaNxXkF89Xbt"
-					},
-					"name": "Diplomacy",
-					"reference": "B187",
-					"tags": [
-						"Business",
-						"Police",
-						"Social"
-					],
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Politics",
-							"modifier": -6
-						}
-					],
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -6,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
-					"calc": {
-						"level": 6,
-						"rsl": "IQ-6"
-					}
-				},
-				{
 					"id": "sLZjLzFBB-ivRiw_V",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3851,7 +3858,7 @@
 						}
 					],
 					"calc": {
-						"level": 11,
+						"level": 12,
 						"damage": "2d-1 pi"
 					}
 				}
@@ -3961,7 +3968,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-02-16T05:11:37+01:00",
+	"modified_date": "2025-03-14T20:30:07+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

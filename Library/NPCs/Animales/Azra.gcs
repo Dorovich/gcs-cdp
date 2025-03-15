@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "ApK8pUEQU-z4eHDxv",
-	"total_points": 50,
+	"total_points": 54,
 	"points_record": [
 		{
 			"when": "2024-07-12T01:32:35+02:00",
-			"points": 50,
+			"points": 54,
 			"reason": "Initial points"
 		}
 	],
@@ -546,10 +546,10 @@
 		},
 		{
 			"attr_id": "hearing",
-			"adj": 0,
+			"adj": 1,
 			"calc": {
-				"value": 13,
-				"points": 0
+				"value": 14,
+				"points": 2
 			}
 		},
 		{
@@ -1436,7 +1436,7 @@
 					"modifier": -6
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -6,
@@ -1445,8 +1445,8 @@
 				"points": -6
 			},
 			"calc": {
-				"level": 10,
-				"rsl": "DX-2"
+				"level": 11,
+				"rsl": "DX-1"
 			}
 		},
 		{
@@ -1570,10 +1570,48 @@
 				"level": 12,
 				"rsl": "Per+0"
 			}
+		},
+		{
+			"id": "s7RtPIJfIdKZ9g3r7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s3rs5bVG0nxQSZEGS"
+			},
+			"name": "Tracking",
+			"reference": "B226",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "Per-1"
+			}
 		}
 	],
 	"created_date": "2024-07-12T01:32:35+02:00",
-	"modified_date": "2025-01-22T19:32:56+01:00",
+	"modified_date": "2025-03-14T21:06:17+01:00",
 	"calc": {
 		"swing": "1d-4",
 		"thrust": "1d-5",
