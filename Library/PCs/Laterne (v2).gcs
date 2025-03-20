@@ -11,9 +11,14 @@
 	],
 	"profile": {
 		"name": "Laterne, \"Late\"",
+		"age": "12",
+		"eyes": "--",
+		"hair": "--",
+		"skin": "--",
+		"handedness": "Any",
 		"gender": "Male",
 		"height": "5'8.4\"",
-		"weight": "156 lb",
+		"weight": "312 lb",
 		"player_name": "David",
 		"title": "Marine",
 		"organization": "Armada de Niwel",
@@ -4166,7 +4171,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-03-20T17:24:20+01:00",
+	"modified_date": "2025-03-20T17:32:41+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
