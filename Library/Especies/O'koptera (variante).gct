@@ -396,13 +396,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mmYBGvBS-zUtZhw2K",
+									"id": "m4QvLKqORnu53pHCb",
 									"name": "Emotion Sense",
 									"reference": "B49",
-									"cost": 50
+									"notes": "Only with other o'koptera",
+									"cost": 20
 								},
 								{
-									"id": "mI9YHiRj0GZRtB0yz",
+									"id": "mIZCkudUJFK4EzRo7",
 									"name": "Profiling",
 									"reference": "P47",
 									"cost": 50,
@@ -427,7 +428,7 @@
 								}
 							],
 							"calc": {
-								"points": 23
+								"points": 18
 							}
 						},
 						{
@@ -566,7 +567,6 @@
 							"id": "tMuD055ncRk_M35Zr",
 							"name": "Vibration Sense",
 							"reference": "B96,P86",
-							"notes": "Target at -9",
 							"tags": [
 								"Advantage",
 								"Exotic",
@@ -574,28 +574,28 @@
 							],
 							"modifiers": [
 								{
-									"id": "mz-oVNT1rrpqr6XuJ",
+									"id": "mPLQOv9xrjeyNUtaw",
 									"name": "Universal",
 									"reference": "B96",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "mcJlzdtWd0XHCvRTb",
+									"id": "msdK4_pKkSSFX97Xr",
 									"name": "Sense of Perception",
 									"reference": "P86",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "m5jkUmJGhlv5o1nq4",
+									"id": "mG8d73dSSYmcdtQQZ",
 									"name": "Targeting",
 									"reference": "P86",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mFb2KYwRD8bPVrcLz",
+									"id": "mQyEwbOwz0MBjo0VH",
 									"name": "Air"
 								}
 							],
@@ -606,7 +606,7 @@
 						}
 					],
 					"calc": {
-						"points": 77
+						"points": 72
 					}
 				},
 				{
@@ -728,7 +728,7 @@
 				}
 			],
 			"calc": {
-				"points": 62
+				"points": 57
 			}
 		}
 	]

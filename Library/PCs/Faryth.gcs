@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "ALmq2zi43VjEXLpI0",
-	"total_points": 170,
+	"total_points": 177,
 	"points_record": [
 		{
 			"when": "2024-07-24T23:01:53+02:00",
-			"points": 170,
+			"points": 177,
 			"reason": "Initial points"
 		}
 	],
@@ -394,7 +394,7 @@
 					"calc": {
 						"roll_range": "8",
 						"dr": {
-							"all": 4
+							"all": 5
 						}
 					}
 				},
@@ -434,7 +434,7 @@
 					"calc": {
 						"roll_range": "12",
 						"dr": {
-							"all": 4
+							"all": 5
 						}
 					}
 				},
@@ -462,7 +462,7 @@
 					"calc": {
 						"roll_range": "15",
 						"dr": {
-							"all": 4
+							"all": 5
 						}
 					}
 				},
@@ -1220,6 +1220,103 @@
 					}
 				},
 				{
+					"id": "t9vZkKY5kGZmy5E9i",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ta04iFiZ_Kw0s0juj"
+					},
+					"name": "Good Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mocAxb1j03X2V1gC9",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mX0OuRptbfHxM5Evc",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mmsDnosQp3IxlMEgN",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mvsmDt6F6tUXXIWUW",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"replacements": {
+								"Small class of people": "Caravana Terrien"
+							},
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"calc": {
+								"resolved_notes": "Caravana Terrien"
+							}
+						},
+						{
+							"id": "moF5oaXbA8HdO9BZ8",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mxj827My1bpIBseNX",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mF2tcQA7YuadzzOJD",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"round_down": true,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
 					"id": "ttW-KjnMApypKPqYp",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1331,7 +1428,7 @@
 				}
 			],
 			"calc": {
-				"points": 72
+				"points": 73
 			}
 		},
 		{
@@ -1734,7 +1831,7 @@
 				"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
 				"id": "To1rOR83Y2Q6LyoNN"
 			},
-			"name": "Cybernetics (Basic)",
+			"name": "Cybernetics (Upgraded)",
 			"reference": "B46",
 			"reference_highlight": "Cybernetics",
 			"tags": [
@@ -1743,13 +1840,13 @@
 			],
 			"modifiers": [
 				{
-					"id": "mDGO-E8WP_J2SJw2d",
+					"id": "mDRxHqwpjGNnQsjVH",
 					"name": "@One body part: Head, Arm (any), Leg (any)@",
 					"cost": -80,
 					"disabled": true
 				},
 				{
-					"id": "mKIdnaARaV8yyPUld",
+					"id": "mCJEwvTNehUUb_pSr",
 					"name": "@Two body parts: Head, Arm (any), Leg (any)@",
 					"replacements": {
 						"Two body parts: Head, Arm (any), Leg (any)": "Both Arms"
@@ -1757,13 +1854,13 @@
 					"cost": -60
 				},
 				{
-					"id": "mySDuBbqeWl7ZW9vD",
+					"id": "moE4mhwbrLiQht4PF",
 					"name": "@Three body parts: Head, Arm (any), Leg (any)@",
 					"cost": -40,
 					"disabled": true
 				},
 				{
-					"id": "mloGD6t4LPzs7PFlR",
+					"id": "m9YPZncmsv14eiDjO",
 					"name": "@Four body parts: Head, Arm (any), Leg (any)@",
 					"cost": -20,
 					"disabled": true
@@ -1996,9 +2093,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 4,
+					"levels": 5,
 					"calc": {
-						"points": 8
+						"points": 10
 					}
 				},
 				{
@@ -2018,170 +2115,6 @@
 					"base_points": -20,
 					"calc": {
 						"points": -8
-					}
-				},
-				{
-					"id": "tP6zRXWHXGXfCjuHA",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tx3gYRgamuFWB9JPN"
-					},
-					"name": "Ham-Fisted",
-					"reference": "B138",
-					"tags": [
-						"Disadvantage",
-						"Physical"
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "trait_prereq",
-								"has": false,
-								"name": {
-									"compare": "is",
-									"qualifier": "high manual dexterity"
-								}
-							}
-						]
-					},
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "contains",
-								"qualifier": "artist"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "jeweler"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "knot-tying"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "leatherworking"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "lockpicking"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "pickpocket"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "sewing"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "sleight of hand"
-							},
-							"amount": -3,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "surgery"
-							},
-							"amount": -3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "machinist"
-							},
-							"amount": -3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "contains",
-								"qualifier": "mechanic"
-							},
-							"amount": -3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "contains",
-								"qualifier": "fast-draw"
-							},
-							"amount": -3
-						},
-						{
-							"type": "reaction_bonus",
-							"situation": "from others where being tidy or well-groomed would matter",
-							"amount": -1,
-							"per_level": true
-						},
-						{
-							"type": "reaction_bonus",
-							"situation": "to any Influence roll where being tidy or well-groomed would matter",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -2
 					}
 				},
 				{
@@ -2686,7 +2619,7 @@
 				}
 			],
 			"calc": {
-				"points": 0
+				"points": 4
 			}
 		},
 		{
@@ -3170,8 +3103,8 @@
 				"points": -4
 			},
 			"calc": {
-				"level": 7,
-				"rsl": "IQ-3"
+				"level": 10,
+				"rsl": "IQ+0"
 			}
 		},
 		{
@@ -3500,8 +3433,8 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 8,
-				"rsl": "IQ-2"
+				"level": 11,
+				"rsl": "IQ+1"
 			}
 		},
 		{
@@ -3705,6 +3638,54 @@
 			"calc": {
 				"level": 9,
 				"rsl": "Per-1"
+			}
+		},
+		{
+			"id": "s3kYDVDMY4m0P-oDY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "seOTHXoGLYos5iL1P"
+			},
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Automobile",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+0"
 			}
 		}
 	],
@@ -3975,7 +3956,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:53+02:00",
-	"modified_date": "2025-03-14T20:20:39+01:00",
+	"modified_date": "2025-03-16T16:47:24+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

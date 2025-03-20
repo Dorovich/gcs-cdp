@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Apmi-XAhxTr7N_wgY",
-	"total_points": 171,
+	"total_points": 172,
 	"points_record": [
 		{
 			"when": "2024-08-04T00:53:59+02:00",
-			"points": 171,
+			"points": 172,
 			"reason": "Initial points"
 		}
 	],
@@ -1234,6 +1234,103 @@
 					}
 				},
 				{
+					"id": "tZwbXIM9befLaM9V0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ta04iFiZ_Kw0s0juj"
+					},
+					"name": "Good Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mi9ZHhQRqrgQFyeL8",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mwazWWZc5O0wnOUiM",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mExbF14IQzvbP-lme",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "ms9ybsNwNVh93kp5_",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"replacements": {
+								"Small class of people": "Caravana Terrien"
+							},
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"calc": {
+								"resolved_notes": "Caravana Terrien"
+							}
+						},
+						{
+							"id": "maWGFnntk16huf2um",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mXN3hMcYhDMzz4UmC",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "muebolRylY0AKr15w",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"round_down": true,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
 					"id": "tlXcVYkJICLkWhuwE",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1618,7 +1715,7 @@
 				}
 			],
 			"calc": {
-				"points": 91
+				"points": 92
 			}
 		},
 		{
@@ -1787,6 +1884,102 @@
 			"name": "Disadvantages",
 			"children": [
 				{
+					"id": "teUaph4Ng9e9c_shS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tj478Y8UdHYlqGNf2"
+					},
+					"name": "Bad Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mMD1BVzCWHB6pQG5y",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m2-9481s_ZinFfdH7",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mYtDb2WzjebE2AoIU",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mFCmxQSRft8hCpT6c",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"replacements": {
+								"Small class of people": "Erlit"
+							},
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"calc": {
+								"resolved_notes": "Erlit"
+							}
+						},
+						{
+							"id": "mdzEYY6Gj6sv45kxQ",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mt8FSD6RHOaetlL-Z",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mSi6actNXzLhzYRl7",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
 					"id": "tyW8nI42NZFAktGID",
 					"source": {
 						"library": "/gcs_user_library",
@@ -1884,7 +2077,7 @@
 				}
 			],
 			"calc": {
-				"points": -22
+				"points": -23
 			}
 		},
 		{
@@ -2021,69 +2214,6 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "T9Ek-T12QNAWIzJWh",
-					"name": "Attributes",
-					"children": [
-						{
-							"id": "tzG1754eelsK1i5vl",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t1w1RFcFceKR2T9_e"
-							},
-							"name": "Increased Keum",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Supernatural"
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ke",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 20
-							}
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "TrniM7bATJYCMnZWv",
-					"name": "Features",
-					"children": [
-						{
-							"id": "tVv-ICpmncB81nsWq",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "tQY4rjF8t2sAPM9xv"
-							},
-							"name": "Sterile",
-							"reference": "TT2:12",
-							"tags": [
-								"Feature",
-								"Physical"
-							],
-							"calc": {
-								"points": 0
-							}
-						}
-					],
-					"calc": {
-						"points": 0
-					}
-				},
-				{
 					"id": "TTGY-UyPQP1xglZ7Z",
 					"name": "Advantages",
 					"children": [
@@ -2188,16 +2318,6 @@
 							}
 						},
 						{
-							"id": "tkQuuYj1Du2wW1tg9",
-							"name": "Unusual Background (Paradox)",
-							"reference": "B96",
-							"reference_highlight": "Unusual Background",
-							"base_points": 10,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
 							"id": "tOrKyZAFejDayIv15",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -2270,10 +2390,57 @@
 							"calc": {
 								"points": 10
 							}
+						},
+						{
+							"id": "tkQuuYj1Du2wW1tg9",
+							"name": "Unusual Background (Paradox)",
+							"reference": "B96",
+							"reference_highlight": "Unusual Background",
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
 						}
 					],
 					"calc": {
 						"points": 40
+					}
+				},
+				{
+					"id": "T9Ek-T12QNAWIzJWh",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "tzG1754eelsK1i5vl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t1w1RFcFceKR2T9_e"
+							},
+							"name": "Increased Keum",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Supernatural"
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ke",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
 					}
 				},
 				{
@@ -2335,24 +2502,6 @@
 							],
 							"calc": {
 								"points": -10
-							}
-						},
-						{
-							"id": "t6OqfzsbBbi_KnpID",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tEYEuzMtxSsWCG7uW"
-							},
-							"name": "Unusual Biochemistry",
-							"reference": "B160",
-							"tags": [
-								"Disadvantage",
-								"Physical"
-							],
-							"base_points": -5,
-							"calc": {
-								"points": -5
 							}
 						},
 						{
@@ -2484,10 +2633,54 @@
 							"calc": {
 								"points": -10
 							}
+						},
+						{
+							"id": "t6OqfzsbBbi_KnpID",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tEYEuzMtxSsWCG7uW"
+							},
+							"name": "Unusual Biochemistry",
+							"reference": "B160",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
 						}
 					],
 					"calc": {
 						"points": -25
+					}
+				},
+				{
+					"id": "TrniM7bATJYCMnZWv",
+					"name": "Features",
+					"children": [
+						{
+							"id": "tVv-ICpmncB81nsWq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "tQY4rjF8t2sAPM9xv"
+							},
+							"name": "Sterile",
+							"reference": "TT2:12",
+							"tags": [
+								"Feature",
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 0
 					}
 				}
 			],
@@ -3714,7 +3907,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-03-14T20:58:30+01:00",
+	"modified_date": "2025-03-17T02:16:11+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
