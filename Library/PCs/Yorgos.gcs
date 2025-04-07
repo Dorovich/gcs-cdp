@@ -2860,6 +2860,38 @@
 			}
 		},
 		{
+			"id": "sLTyN5ikdGW3Uzx_B",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades.skl",
+				"id": "s1GnUgqiAUb2GrbbF"
+			},
+			"name": "Occultism",
+			"reference": "B212",
+			"tags": [
+				"Magical",
+				"Occult"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 4,
+				"rsl": "IQ-5"
+			}
+		},
+		{
 			"id": "smt3MJxKDGWwTL1Uk",
 			"source": {
 				"library": "/gcs_user_library",
@@ -2889,6 +2921,38 @@
 			"calc": {
 				"level": 12,
 				"rsl": "HT+1"
+			}
+		},
+		{
+			"id": "sWRarh3HMBWZRV9oE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smwvG7uvdgf3cJC56"
+			},
+			"name": "Sewing",
+			"reference": "B219",
+			"tags": [
+				"Craft",
+				"Everyman"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "DX-4"
 			}
 		},
 		{
@@ -2923,6 +2987,45 @@
 			"calc": {
 				"level": 15,
 				"rsl": "DX+2"
+			}
+		},
+		{
+			"id": "sr3OOuMromjK_aRQG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "svEm7OyeCu_9wJ8Kk"
+			},
+			"name": "Stealth",
+			"reference": "B222",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 7,
+				"rsl": "DX-5"
 			}
 		},
 		{
@@ -3046,150 +3149,41 @@
 			}
 		},
 		{
-			"id": "SPXuFCeC2t4QjgFnq",
-			"name": "~ Defaults",
-			"children": [
+			"id": "sPSLW9JEVptkQsun_",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades.skl",
+				"id": "sUUhHei-3M6gfQjOS"
+			},
+			"name": "Tracking",
+			"reference": "B226",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
 				{
-					"id": "sLTyN5ikdGW3Uzx_B",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades.skl",
-						"id": "s1GnUgqiAUb2GrbbF"
-					},
-					"name": "Occultism",
-					"reference": "B212",
-					"tags": [
-						"Magical",
-						"Occult"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 4,
-						"adjusted_level": 4,
-						"points": -4
-					},
-					"calc": {
-						"level": 4,
-						"rsl": "IQ-5"
-					}
+					"type": "per",
+					"modifier": -5
 				},
 				{
-					"id": "sWRarh3HMBWZRV9oE",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "smwvG7uvdgf3cJC56"
-					},
-					"name": "Sewing",
-					"reference": "B219",
-					"tags": [
-						"Craft",
-						"Everyman"
-					],
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						}
-					],
-					"defaulted_from": {
-						"type": "dx",
-						"modifier": -4,
-						"level": 9,
-						"adjusted_level": 9,
-						"points": -9
-					},
-					"calc": {
-						"level": 9,
-						"rsl": "DX-4"
-					}
-				},
-				{
-					"id": "sr3OOuMromjK_aRQG",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "svEm7OyeCu_9wJ8Kk"
-					},
-					"name": "Stealth",
-					"reference": "B222",
-					"tags": [
-						"Criminal",
-						"Police",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "dx/a",
-					"encumbrance_penalty_multiplier": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "dx",
-						"modifier": -5,
-						"level": 8,
-						"adjusted_level": 8,
-						"points": -8
-					},
-					"calc": {
-						"level": 7,
-						"rsl": "DX-5"
-					}
-				},
-				{
-					"id": "sPSLW9JEVptkQsun_",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades.skl",
-						"id": "sUUhHei-3M6gfQjOS"
-					},
-					"name": "Tracking",
-					"reference": "B226",
-					"tags": [
-						"Exploration",
-						"Outdoor"
-					],
-					"difficulty": "per/a",
-					"defaults": [
-						{
-							"type": "per",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Naturalist",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "per",
-						"modifier": -5,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 5,
-						"rsl": "Per-5"
-					}
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
 				}
-			]
+			],
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 5,
+				"rsl": "Per-5"
+			}
 		}
 	],
 	"equipment": [
@@ -4093,7 +4087,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-03-16T14:52:37+01:00",
+	"modified_date": "2025-03-20T17:53:24+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

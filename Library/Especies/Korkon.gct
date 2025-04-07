@@ -505,217 +505,101 @@
 							}
 						},
 						{
-							"id": "T7MMeVcWZv2XMXrQl",
-							"name": "Horn type",
-							"template_picker": {
-								"type": "count",
-								"qualifier": {
-									"compare": "is",
-									"qualifier": 1
-								}
-							},
-							"children": [
+							"id": "tV-jnnij1EUEiaKjB",
+							"name": "Crushing Striker (Horns)",
+							"reference": "B88,MA47",
+							"notes": "Target at -5",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
 								{
-									"id": "tV-jnnij1EUEiaKjB",
-									"name": "Crushing Striker (Horns)",
-									"reference": "B88,MA47",
-									"notes": "Target at -5",
-									"tags": [
-										"Advantage",
-										"Exotic",
-										"Physical"
-									],
-									"modifiers": [
-										{
-											"id": "mj-mS0H9n7ZXGQEqK",
-											"name": "Cannot Parry",
-											"reference": "B88",
-											"cost": -40,
-											"disabled": true
-										},
-										{
-											"id": "mJDHuPL9nnZbcZ1w3",
-											"name": "Clumsy",
-											"reference": "B88",
-											"cost": -20,
-											"features": [
-												{
-													"type": "skill_bonus",
-													"selection_type": "this_weapon",
-													"name": {
-														"compare": "is"
-													},
-													"amount": -1,
-													"per_level": true
-												}
-											],
-											"levels": 1,
-											"disabled": true
-										},
-										{
-											"id": "mZRqBmpMa5Pihv-ZU",
-											"name": "Limited Arc (Front)",
-											"reference": "B88",
-											"cost": -40
-										},
-										{
-											"id": "mverjAoIIS6qh-f0c",
-											"name": "Weak",
-											"cost": -50,
-											"features": [
-												{
-													"type": "weapon_bonus",
-													"selection_type": "this_weapon",
-													"name": {
-														"compare": "is"
-													},
-													"level": {
-														"compare": "at_least"
-													},
-													"amount": -1,
-													"per_die": true
-												}
-											],
-											"disabled": true
-										}
-									],
-									"base_points": 5,
-									"weapons": [
-										{
-											"id": "wlG1vt94f4P1VQcuM",
-											"damage": {
-												"type": "cr",
-												"st": "thr",
-												"modifier_per_die": 1
-											},
-											"reach": "C",
-											"parry": "0",
-											"defaults": [
-												{
-													"type": "dx"
-												},
-												{
-													"type": "skill",
-													"name": "Brawling"
-												}
-											],
-											"calc": {
-												"damage": "thr (+1 per die) cr"
-											}
-										}
-									],
-									"calc": {
-										"points": 3
-									}
-								},
-								{
-									"id": "tgjCnRwxl93o1_Dwm",
-									"name": "Impaling Striker (Horns)",
+									"id": "mj-mS0H9n7ZXGQEqK",
+									"name": "Cannot Parry",
 									"reference": "B88",
-									"notes": "Target at -5",
-									"tags": [
-										"Advantage",
-										"Exotic",
-										"Physical"
-									],
-									"modifiers": [
-										{
-											"id": "mT5orldPZycFEHqkC",
-											"name": "Cannot Parry",
-											"reference": "B88",
-											"cost": -40,
-											"disabled": true
-										},
-										{
-											"id": "mW0QIEP9J5OB7KI-_",
-											"name": "Clumsy",
-											"reference": "B88",
-											"cost": -20,
-											"features": [
-												{
-													"type": "skill_bonus",
-													"selection_type": "this_weapon",
-													"name": {
-														"compare": "is"
-													},
-													"amount": -1,
-													"per_level": true
-												}
-											],
-											"levels": 1,
-											"disabled": true
-										},
-										{
-											"id": "mHuUrv4iSRrR3w8NP",
-											"name": "Limited Arc (Front)",
-											"reference": "B88",
-											"cost": -40
-										},
-										{
-											"id": "mluRhL_TJqRQYsmDE",
-											"name": "Weak",
-											"cost": -50,
-											"features": [
-												{
-													"type": "weapon_bonus",
-													"selection_type": "this_weapon",
-													"name": {
-														"compare": "is"
-													},
-													"level": {
-														"compare": "at_least"
-													},
-													"amount": -1,
-													"per_die": true
-												}
-											],
-											"disabled": true
-										}
-									],
-									"base_points": 8,
-									"weapons": [
-										{
-											"id": "wZWyzh6qaXhOsxlsq",
-											"damage": {
-												"type": "imp",
-												"st": "thr",
-												"modifier_per_die": 1
-											},
-											"reach": "C",
-											"parry": "0",
-											"defaults": [
-												{
-													"type": "dx"
-												},
-												{
-													"type": "skill",
-													"name": "Brawling"
-												}
-											],
-											"calc": {
-												"damage": "thr (+1 per die) imp"
-											}
-										}
-									],
-									"calc": {
-										"points": 5
-									}
+									"cost": -40,
+									"disabled": true
 								},
 								{
-									"id": "tgRzGHqUpjxjQ4VGw",
-									"name": "No Horns",
+									"id": "mJDHuPL9nnZbcZ1w3",
+									"name": "Clumsy",
+									"reference": "B88",
+									"cost": -20,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mZRqBmpMa5Pihv-ZU",
+									"name": "Limited Arc (Front)",
+									"reference": "B88",
+									"cost": -40
+								},
+								{
+									"id": "mverjAoIIS6qh-f0c",
+									"name": "Weak",
+									"cost": -50,
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": -1,
+											"per_die": true
+										}
+									],
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"weapons": [
+								{
+									"id": "wlG1vt94f4P1VQcuM",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"reach": "C",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
 									"calc": {
-										"points": 0
+										"damage": "thr (+1 per die) cr"
 									}
 								}
 							],
 							"calc": {
-								"points": 8
+								"points": 3
 							}
 						}
 					],
 					"calc": {
-						"points": 22
+						"points": 17
 					}
 				},
 				{
@@ -749,7 +633,7 @@
 				}
 			],
 			"calc": {
-				"points": 32
+				"points": 27
 			}
 		}
 	]

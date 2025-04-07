@@ -3275,6 +3275,48 @@
 			}
 		},
 		{
+			"id": "sgr70nSe6ljiTR-SV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sb6LoqgrQgzKvzHH2"
+			},
+			"name": "Biology",
+			"reference": "B180",
+			"tags": [
+				"Natural Science",
+				"Plant"
+			],
+			"replacements": {
+				"Specialty": "any"
+			},
+			"specialization": "@Specialty@",
+			"difficulty": "iq/vh",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				}
+			],
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Naturalist",
+				"modifier": -6,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 5,
+				"rsl": "IQ-5"
+			}
+		},
+		{
 			"id": "sDim0vND57D_gtEpZ",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3380,6 +3422,52 @@
 			"calc": {
 				"level": 10,
 				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sJQr1yEfL_MPFHcN1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sdjyVxpBGLKKkBeCm"
+			},
+			"name": "Diagnosis",
+			"reference": "B187",
+			"tags": [
+				"Medical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 4,
+				"rsl": "IQ-6"
 			}
 		},
 		{
@@ -3931,6 +4019,53 @@
 			}
 		},
 		{
+			"id": "s9OygFdSQVUK6vCa-",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades.skl",
+				"id": "sukdWsQJi09gjKtPC"
+			},
+			"name": "Performance",
+			"reference": "B212",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"replacements": {
+				"Specialty": "Fortune-Telling"
+			},
+			"specialization": "@Specialty@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -2
+				}
+			],
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Public Speaking",
+				"modifier": -2,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 8,
+				"rsl": "IQ-2"
+			}
+		},
+		{
 			"id": "sDq40NdrSUg_oYScj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4347,147 +4482,6 @@
 				"level": 11,
 				"rsl": "Per+0"
 			}
-		},
-		{
-			"id": "Sb5_wU92e3ybTTSYM",
-			"name": "~ Defaults",
-			"children": [
-				{
-					"id": "sgr70nSe6ljiTR-SV",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sb6LoqgrQgzKvzHH2"
-					},
-					"name": "Biology",
-					"reference": "B180",
-					"tags": [
-						"Natural Science",
-						"Plant"
-					],
-					"replacements": {
-						"Specialty": "any"
-					},
-					"specialization": "@Specialty@",
-					"difficulty": "iq/vh",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Naturalist",
-							"modifier": -6
-						}
-					],
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Naturalist",
-						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 5,
-						"rsl": "IQ-5"
-					}
-				},
-				{
-					"id": "sJQr1yEfL_MPFHcN1",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sdjyVxpBGLKKkBeCm"
-					},
-					"name": "Diagnosis",
-					"reference": "B187",
-					"tags": [
-						"Medical"
-					],
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "First Aid",
-							"modifier": -8
-						},
-						{
-							"type": "skill",
-							"name": "Physician",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Veterinary",
-							"modifier": -5
-						}
-					],
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -6,
-						"level": 4,
-						"adjusted_level": 4,
-						"points": -4
-					},
-					"calc": {
-						"level": 4,
-						"rsl": "IQ-6"
-					}
-				},
-				{
-					"id": "s9OygFdSQVUK6vCa-",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Habilidades.skl",
-						"id": "sukdWsQJi09gjKtPC"
-					},
-					"name": "Performance",
-					"reference": "B212",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"replacements": {
-						"Specialty": "Fortune-Telling"
-					},
-					"specialization": "@Specialty@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Acting",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Public Speaking",
-							"modifier": -2
-						}
-					],
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Public Speaking",
-						"modifier": -2,
-						"level": 8,
-						"adjusted_level": 8,
-						"points": -8
-					},
-					"calc": {
-						"level": 8,
-						"rsl": "IQ-2"
-					}
-				}
-			]
 		}
 	],
 	"equipment": [
@@ -5119,7 +5113,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-03-16T14:52:30+01:00",
+	"modified_date": "2025-03-20T17:53:11+01:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

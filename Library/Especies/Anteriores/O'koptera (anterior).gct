@@ -69,10 +69,42 @@
 							"calc": {
 								"points": 5
 							}
+						},
+						{
+							"id": "teSfvysLD8LjxWCw0",
+							"name": "Increased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mqYfPVxRMLQULsNRD",
+									"name": "No Fine Manipulators",
+									"cost": -40,
+									"disabled": true
+								}
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20
+							}
 						}
 					],
 					"calc": {
-						"points": 1
+						"points": 21
 					}
 				},
 				{
@@ -381,57 +413,6 @@
 							}
 						},
 						{
-							"id": "tmh2eGRX7DOB53Zrj",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tjKuFiuy3Fs6rm69e"
-							},
-							"name": "Discriminatory Smell",
-							"reference": "B49,P47",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m4QvLKqORnu53pHCb",
-									"name": "Emotion Sense",
-									"reference": "B49",
-									"notes": "Only with other o'koptera",
-									"cost": 20
-								},
-								{
-									"id": "mIZCkudUJFK4EzRo7",
-									"name": "Profiling",
-									"reference": "P47",
-									"cost": 50,
-									"disabled": true
-								}
-							],
-							"base_points": 15,
-							"features": [
-								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "is",
-										"qualifier": "Tracking"
-									},
-									"amount": 4
-								},
-								{
-									"type": "conditional_modifier",
-									"situation": "on any task that utilizes sense of smell",
-									"amount": 4
-								}
-							],
-							"calc": {
-								"points": 18
-							}
-						},
-						{
 							"id": "tsD7qNofns3KUHYce",
 							"name": "Extra Arm",
 							"reference": "B53",
@@ -531,42 +512,10 @@
 							}
 						},
 						{
-							"id": "tZ4tS6m4K7jtzf7UC",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "tPOhOhsKqL-QhIea5"
-							},
-							"name": "Signals (Chemical Messengers)",
-							"reference": "TT2:44",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Discriminatory Smell"
-										}
-									}
-								]
-							},
-							"base_points": 15,
-							"calc": {
-								"points": 15
-							}
-						},
-						{
 							"id": "tMuD055ncRk_M35Zr",
 							"name": "Vibration Sense",
 							"reference": "B96,P86",
+							"notes": "Target at -9",
 							"tags": [
 								"Advantage",
 								"Exotic",
@@ -574,28 +523,28 @@
 							],
 							"modifiers": [
 								{
-									"id": "mPLQOv9xrjeyNUtaw",
+									"id": "mz-oVNT1rrpqr6XuJ",
 									"name": "Universal",
 									"reference": "B96",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "msdK4_pKkSSFX97Xr",
+									"id": "mcJlzdtWd0XHCvRTb",
 									"name": "Sense of Perception",
 									"reference": "P86",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "mG8d73dSSYmcdtQQZ",
+									"id": "m5jkUmJGhlv5o1nq4",
 									"name": "Targeting",
 									"reference": "P86",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mQyEwbOwz0MBjo0VH",
+									"id": "mFb2KYwRD8bPVrcLz",
 									"name": "Air"
 								}
 							],
@@ -606,7 +555,7 @@
 						}
 					],
 					"calc": {
-						"points": 72
+						"points": 39
 					}
 				},
 				{
@@ -728,7 +677,7 @@
 				}
 			],
 			"calc": {
-				"points": 57
+				"points": 44
 			}
 		}
 	]

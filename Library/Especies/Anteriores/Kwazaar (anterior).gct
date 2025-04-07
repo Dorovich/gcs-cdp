@@ -1,17 +1,46 @@
 {
 	"version": 5,
-	"id": "BYTDxSurfSFeeazpM",
+	"id": "B06dHYLHs2RV4HHW7",
 	"traits": [
 		{
-			"id": "Tu2Oq0RKcmmAXlKiq",
+			"id": "TBTxm6McqbVLuMEmx",
 			"name": "Kwazaar",
 			"children": [
 				{
-					"id": "TRwhRxmHV-K05KNLG",
+					"id": "TB5QOJ4ugKSFN-3k4",
 					"name": "Attributes",
 					"children": [
 						{
-							"id": "t1OTfb5TxbqacQyqU",
+							"id": "ttIb2_F7f2fp3grCY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tVt3SvdGWNchJ8z4o"
+							},
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "t_05gV4DTuxdk2cwL",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -26,14 +55,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "muH8zrQN3ghrnzswa",
+									"id": "mm_H39GpeEAHSwBLh",
 									"name": "No Fine Manipulators",
 									"reference": "B15",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "m46c3Cvs5DVO8lkbS",
+									"id": "mmwrEGkuLyrCqD6Dy",
 									"name": "Size",
 									"reference": "B15",
 									"cost": -10,
@@ -41,7 +70,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mTNHpdnYYnGF5bElG",
+									"id": "mJRldPC2BPYcsfpvo",
 									"name": "Super-Effort",
 									"reference": "SU24",
 									"cost": 300,
@@ -62,81 +91,18 @@
 							"calc": {
 								"points": 10
 							}
-						},
-						{
-							"id": "tlpZOCxE_hzbAL0xU",
-							"name": "Increased Intelligence",
-							"reference": "B15",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Mental"
-							],
-							"points_per_level": 20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "iq",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 20
-							}
 						}
 					],
 					"calc": {
-						"points": 30
+						"points": 20
 					}
 				},
 				{
-					"id": "TqFebl3oaCe4xbQ3F",
+					"id": "TfJZ48RKZzP0m24XO",
 					"name": "Features",
 					"children": [
 						{
-							"id": "tYgPgyrlzOHgDqf30",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "t-L4J01_YfuM1dAvC"
-							},
-							"name": "Tail",
-							"reference": "TT2:12",
-							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical"
-							],
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "tjAoUTj8BJjSWs1XP",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "t0VPbjg7THRHjm113"
-							},
-							"name": "Early Maturation",
-							"reference": "TT2:12",
-							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical",
-								"Supernatural"
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "tXVLo4WHGh_DAir5f",
+							"id": "tXDQZ-bQqjdg6AspZ",
 							"source": {
 								"library": "/gcs_user_library",
 								"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
@@ -161,6 +127,45 @@
 							"calc": {
 								"points": 0
 							}
+						},
+						{
+							"id": "tF8cY4S8Yw9FOxKN7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t0VPbjg7THRHjm113"
+							},
+							"name": "Early Maturation",
+							"reference": "TT2:12",
+							"tags": [
+								"Exotic",
+								"Feature",
+								"Physical",
+								"Supernatural"
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tEkKHufVMKig3GC5N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t-L4J01_YfuM1dAvC"
+							},
+							"name": "Tail",
+							"reference": "TT2:12",
+							"tags": [
+								"Exotic",
+								"Feature",
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
 						}
 					],
 					"calc": {
@@ -168,55 +173,138 @@
 					}
 				},
 				{
-					"id": "T5aC_jebP9HGVVSq9",
+					"id": "TWOuF_Y7jv_TCRvV3",
 					"name": "Advantages",
 					"children": [
 						{
-							"id": "tiBRElDMqVSweja6f",
+							"id": "tm-DUlWmMykKUdK2X",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tK9Ov0WtlrhnJFy5n"
+								"id": "tS-7-nKXlxWatBXhg"
 							},
-							"name": "Sharp Teeth",
-							"reference": "B91",
+							"name": "Amphibious",
+							"reference": "B40,P42",
 							"tags": [
+								"Advantage",
 								"Exotic",
-								"Perk",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tWIoeD-68usM3vgBk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tPh0lR2im4mtyLaQl"
+							},
+							"name": "Breath-Holding",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 2,
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "tNaKhsjszsPcJc9XC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "ty02wIs3SOt8DoIC7"
+							},
+							"name": "Crushing Striker (Tail)",
+							"reference": "B88,MA47",
+							"tags": [
+								"Advantage",
+								"Exotic",
 								"Physical"
 							],
 							"modifiers": [
 								{
-									"id": "m-K6WSX2dNtEjZOj9",
-									"name": "Provided by Vampiric Bite",
-									"reference": "B96",
-									"cost": -1,
-									"cost_type": "points",
+									"id": "mCtpMS4nCPMAsZb_i",
+									"name": "Cannot Parry",
+									"reference": "B88",
+									"cost": -40
+								},
+								{
+									"id": "mWvDSutUE4fFuO6n3",
+									"name": "Clumsy",
+									"reference": "B88",
+									"cost": -20,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"levels": 2
+								},
+								{
+									"id": "m8U9GcWluep9FJkFz",
+									"name": "Limited Arc (@Direction@)",
+									"reference": "B88",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mDyzt3IzcLJboNGdp",
+									"name": "Weak",
+									"cost": -50,
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": -1,
+											"per_die": true
+										}
+									],
 									"disabled": true
 								}
 							],
-							"base_points": 1,
+							"base_points": 5,
 							"weapons": [
 								{
-									"id": "wkX0klIFy5IgVClAH",
+									"id": "wsnOqHYh_y0ckSC73",
 									"damage": {
-										"type": "cut",
+										"type": "cr",
 										"st": "thr",
-										"base": "-1"
+										"modifier_per_die": 1
 									},
-									"usage": "Bite",
 									"reach": "C",
+									"parry": "0",
 									"defaults": [
+										{
+											"type": "dx"
+										},
 										{
 											"type": "skill",
 											"name": "Brawling"
-										},
-										{
-											"type": "dx"
 										}
 									],
 									"calc": {
-										"damage": "thr-1 cut"
+										"damage": "thr (+1 per die) cr"
 									}
 								}
 							],
@@ -225,87 +313,7 @@
 							}
 						},
 						{
-							"id": "tQRU6SdnUbSPTF0gF",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tynHtgvWZmmNOL97D"
-							},
-							"name": "Reduced Consumption",
-							"reference": "B80",
-							"tags": [
-								"Advantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "ma4oDtt1Z828boQ_9",
-									"name": "Cast-Iron Stomach",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "m9ZQLXB6dsYamEAHL",
-									"name": "Food Only",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "mjAtGKZX2Qv8bRYno",
-									"name": "Water Only",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								}
-							],
-							"points_per_level": 2,
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 2
-							}
-						},
-						{
-							"id": "tv2y41Z5rc6q6f4_3",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tWNGzCluuu3S1L8jv"
-							},
-							"name": "Nictitating Membrane",
-							"reference": "B71",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"points_per_level": 1,
-							"features": [
-								{
-									"type": "conditional_modifier",
-									"situation": "to all HT rolls concerned with eye damage",
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"eye"
-									],
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 1
-							}
-						},
-						{
-							"id": "tQ74IkD8Juq78kRsH",
+							"id": "tVmnnnwwmLbhOzzL8",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -320,14 +328,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "m-qKKOVjqKuyPoTaL",
+									"id": "mQii3de7zZfJT-4DK",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mEPaikfz2ne3HvtK7",
+									"id": "mNgMGEAXjGdwZmPGR",
 									"name": "Hardened",
 									"reference": "B47",
 									"cost": 20,
@@ -335,7 +343,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m9ZH0ywi8-28I1Bev",
+									"id": "mDHGj9wC3eMon4XbF",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances @Trait@",
@@ -343,7 +351,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mmGhPWRdKsVIy-oXR",
+									"id": "mmGfIgAxWVjcCNd1t",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Healing only",
@@ -351,7 +359,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m3wVYtPuPwwCC6f03",
+									"id": "mkDrp7YKUScSOY6nn",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances any trait",
@@ -359,14 +367,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mbblIPdVF26w2hNDg",
+									"id": "mgRXWsRS9JcU-3OTH",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "mXOcxhokESKWRVDya",
+									"id": "mOt1tpsIIZZ2VwP6a",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Rare@",
@@ -375,7 +383,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m0YyCcH22iwnSTUFx",
+									"id": "m3w_RzB35NKmKVJy_",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Occasional@",
@@ -383,7 +391,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m4zGMgPpRh1TUV7gh",
+									"id": "mTpz3bTJkE0sIkfuU",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Common@",
@@ -391,7 +399,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mJRwisQzU_dcgNqn2",
+									"id": "mbIv24liGMI7kIc48",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Very Common@",
@@ -399,7 +407,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mye8LCMzGm3kx54yC",
+									"id": "mAbpB15ZSW3Dc6WIV",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "Front",
@@ -407,14 +415,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mBAzZhLZYVjWS9j7N",
+									"id": "mhHvWq02Mx3dgDzUC",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mrY5AnbK76_v0tVCk",
+									"id": "mVXCdKHzkLEK68wXd",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Very Common Attack Form@",
@@ -422,21 +430,21 @@
 									"disabled": true
 								},
 								{
-									"id": "mQTgHnSpQ4DlTSa9Y",
+									"id": "mpa8lDxouYR5cPBRM",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "m5Oyk0-oaHDK6Goq7",
+									"id": "mUuV4L_m83fN5nN9S",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "m2D-Ltt46_8_k28lO",
+									"id": "ms89I1-8ACVTDY6En",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -444,7 +452,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mxLMZHcpVd7w4Iijj",
+									"id": "mzOYSsFHz_0xfJVO7",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Common Attack Form@",
@@ -452,13 +460,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mFDLU48PyhXSvfpSY",
+									"id": "mbBOpn2ocFrRsKnQ2",
 									"name": "Tough Skin",
 									"notes": "Effects that just require skin contact or a scratch ignore this DR",
 									"cost": -40
 								},
 								{
-									"id": "mBR-czSiYEXRa1cZZ",
+									"id": "ml-1CfMbwsPEtz4Ya",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Occasional Attack Form@",
@@ -466,14 +474,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mO7-IDgUep1GWmrU-",
+									"id": "mxNyqt9-k13PcRAwk",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost": -80,
 									"disabled": true
 								},
 								{
-									"id": "mJB0FkHSQMOwDdBVu",
+									"id": "mB3rcniEbECWOEu5b",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Rare Attack Form@",
@@ -481,27 +489,27 @@
 									"disabled": true
 								},
 								{
-									"id": "mAWluM6ZWIY_j_k2G",
+									"id": "mlhODfN8b9XZJY2AF",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost": 10,
 									"disabled": true
 								},
 								{
-									"id": "mGSRDLGHHz5grJlJ3",
+									"id": "mtksb0qXYoMmK465Z",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "mPvHZwynGEMUKFz3C",
+									"id": "mti2blftV_FnBo-Vw",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mzeALF6vo1g_opVPD",
+									"id": "moRSxFZlFzOb4m_lU",
 									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 									"reference": "B47",
 									"cost": -10,
@@ -630,253 +638,134 @@
 							}
 						},
 						{
-							"id": "tm_hhtkLPAZDg4vuQ",
+							"id": "tx9O3F02kCZvwbn49",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "ty02wIs3SOt8DoIC7"
+								"id": "tWNGzCluuu3S1L8jv"
 							},
-							"name": "Crushing Striker (Tail)",
-							"reference": "B88,MA47",
+							"name": "Nictitating Membrane",
+							"reference": "B71",
 							"tags": [
 								"Advantage",
 								"Exotic",
 								"Physical"
 							],
+							"points_per_level": 1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to all HT rolls concerned with eye damage",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"eye"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "trWKYEFBJyzPoLzl6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tc74I5tb8McOGp5nr"
+							},
+							"name": "Peripheral Vision",
+							"reference": "B74,P87",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
 							"modifiers": [
 								{
-									"id": "mQaZxvUTWy6LlMF36",
-									"name": "Cannot Parry",
-									"reference": "B88",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "mH6kUyW5Y7pFPzhqf",
-									"name": "Clumsy",
-									"reference": "B88",
+									"id": "mK921KdnYHyD4qgqd",
+									"name": "Easy to Hit",
+									"reference": "B75",
+									"notes": "Others can target your eyes at only -6 to hit",
 									"cost": -20,
-									"features": [
-										{
-											"type": "skill_bonus",
-											"selection_type": "this_weapon",
-											"name": {
-												"compare": "is"
-											},
-											"amount": -1,
-											"per_level": true
-										}
-									],
-									"levels": 2
-								},
-								{
-									"id": "mpBDrsthvF4DNph8c",
-									"name": "Limited Arc (Behind)",
-									"reference": "B88",
-									"cost": -40
-								},
-								{
-									"id": "mmjtWaqJTNteeTr3I",
-									"name": "Weak",
-									"cost": -50,
-									"features": [
-										{
-											"type": "weapon_bonus",
-											"selection_type": "this_weapon",
-											"name": {
-												"compare": "is"
-											},
-											"level": {
-												"compare": "at_least"
-											},
-											"amount": -1,
-											"per_die": true
-										}
-									],
 									"disabled": true
 								}
 							],
-							"base_points": 5,
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "tIp7VcxfoN6KpAHy7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tK9Ov0WtlrhnJFy5n"
+							},
+							"name": "Sharp Teeth",
+							"reference": "B91",
+							"tags": [
+								"Exotic",
+								"Perk",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m3fq9J9C_k9NjFbtb",
+									"name": "Provided by Vampiric Bite",
+									"reference": "B96",
+									"cost": -1,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"base_points": 1,
 							"weapons": [
 								{
-									"id": "wbCwG0P80If8w-TMh",
+									"id": "wvR15WfD6g7JiIfQ8",
 									"damage": {
-										"type": "cr",
+										"type": "cut",
 										"st": "thr",
-										"modifier_per_die": 1
+										"base": "-1"
 									},
+									"usage": "Bite",
 									"reach": "C",
-									"parry": "0",
 									"defaults": [
-										{
-											"type": "dx"
-										},
 										{
 											"type": "skill",
 											"name": "Brawling"
+										},
+										{
+											"type": "dx"
 										}
 									],
 									"calc": {
-										"damage": "thr (+1 per die) cr"
+										"damage": "thr-1 cut"
 									}
 								}
 							],
 							"calc": {
 								"points": 1
 							}
-						},
-						{
-							"id": "tXQTd4GJOUEQ8airi",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tPh0lR2im4mtyLaQl"
-							},
-							"name": "Breath-Holding",
-							"reference": "B41",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"points_per_level": 2,
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 4
-							}
-						},
-						{
-							"id": "tmEjkjkaw-3WrxNSh",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tS-7-nKXlxWatBXhg"
-							},
-							"name": "Amphibious",
-							"reference": "B40,P42",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"base_points": 10,
-							"calc": {
-								"points": 10
-							}
 						}
 					],
 					"calc": {
-						"points": 22
+						"points": 35
 					}
 				},
 				{
-					"id": "TRH-dLzcIkW8Ac475",
+					"id": "TLk2zQ0zucTdbl-cl",
 					"name": "Disadvantages",
 					"children": [
 						{
-							"id": "t15K1r5SYNovKTd10",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tOB3S5Zp06meqhgzm"
-							},
-							"name": "Stress Atavism",
-							"reference": "B156",
-							"tags": [
-								"Disadvantage",
-								"Exotic",
-								"Mental"
-							],
-							"modifiers": [
-								{
-									"id": "m1moBAVmDf3Eesiyn",
-									"name": "Mild",
-									"reference": "B156",
-									"cost": -10,
-									"cost_type": "points"
-								},
-								{
-									"id": "miXaLnNq47vtBYyEM",
-									"name": "Moderate",
-									"reference": "B156",
-									"cost": -15,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "m7uXfiRo-KhYt6jqY",
-									"name": "Severe",
-									"reference": "B156",
-									"cost": -20,
-									"cost_type": "points",
-									"disabled": true
-								}
-							],
-							"cr": 12,
-							"calc": {
-								"points": -10
-							}
-						},
-						{
-							"id": "tX2wcPfog5L4-TzfJ",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t8duh7FJvBdSs4NOb"
-							},
-							"name": "Restricted Diet (Carnivore)",
-							"reference": "B151",
-							"tags": [
-								"Disadvantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "mlOeM0JAXTrevNATi",
-									"name": "Substitution",
-									"reference": "B151",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "miu1Pr-Qy4ChwzmnN",
-									"name": "Very Common",
-									"reference": "B151",
-									"cost": -10,
-									"cost_type": "points"
-								},
-								{
-									"id": "mEDR5lMZElKKWsjp7",
-									"name": "Common",
-									"reference": "B151",
-									"cost": -20,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mqcjdAspmJbv8aGLh",
-									"name": "Occasional",
-									"reference": "B151",
-									"cost": -30,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mBGBsNgk4254Upuo9",
-									"name": "Rare",
-									"reference": "B151",
-									"cost": -40,
-									"cost_type": "points",
-									"disabled": true
-								}
-							],
-							"calc": {
-								"points": -10
-							}
-						},
-						{
-							"id": "tu8V1uviNs3ruPDJS",
+							"id": "t1n1YKP6zK-SdUviV",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -901,6 +790,107 @@
 							"calc": {
 								"points": -5
 							}
+						},
+						{
+							"id": "trL60kEDwhLhDWXD1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t8duh7FJvBdSs4NOb"
+							},
+							"name": "Restricted Diet (Carnivore)",
+							"reference": "B151",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mrg6sXo9lni1M4DJ4",
+									"name": "Substitution",
+									"reference": "B151",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mtXQ5LoleZC8smYdH",
+									"name": "Very Common",
+									"reference": "B151",
+									"cost": -10,
+									"cost_type": "points"
+								},
+								{
+									"id": "mRz93jaAAiSubztUj",
+									"name": "Common",
+									"reference": "B151",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m0sjUNj9HYLsD9Eek",
+									"name": "Occasional",
+									"reference": "B151",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mE3v45vz82sccrxRf",
+									"name": "Rare",
+									"reference": "B151",
+									"cost": -40,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tAwU3FvvbGE0Pc4Ds",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tOB3S5Zp06meqhgzm"
+							},
+							"name": "Stress Atavism",
+							"reference": "B156",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "m82YMYTtnDJUaznU4",
+									"name": "Mild",
+									"reference": "B156",
+									"cost": -10,
+									"cost_type": "points"
+								},
+								{
+									"id": "mmsbPuwvcsnTi-bAp",
+									"name": "Moderate",
+									"reference": "B156",
+									"cost": -15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mpOPuOLorrYPAnPWL",
+									"name": "Severe",
+									"reference": "B156",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"cr": 12,
+							"calc": {
+								"points": -10
+							}
 						}
 					],
 					"calc": {
@@ -909,7 +899,7 @@
 				}
 			],
 			"calc": {
-				"points": 27
+				"points": 30
 			}
 		}
 	]
