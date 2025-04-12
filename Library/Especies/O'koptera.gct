@@ -621,6 +621,34 @@
 					"name": "Disadvantages",
 					"children": [
 						{
+							"id": "tSiU6PzDUdfeGwxWS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "tyk4elDSJmb7D6itb"
+							},
+							"name": "No Skull DR",
+							"reference": "TT2:29",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -2,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -2
+							}
+						},
+						{
 							"id": "tpwil0plQ0Lnq2IYI",
 							"name": "Short Lifespan",
 							"reference": "B154",
@@ -745,12 +773,12 @@
 						}
 					],
 					"calc": {
-						"points": -45
+						"points": -47
 					}
 				}
 			],
 			"calc": {
-				"points": 35
+				"points": 33
 			}
 		}
 	]

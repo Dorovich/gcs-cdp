@@ -9,6 +9,170 @@
 			"container_type": "ancestry",
 			"children": [
 				{
+					"id": "T_mufvilQBN3nMxYy",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "thP3nrdM0qeROODwc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tu0KTB8faKoeTJiEi"
+							},
+							"name": "Decreased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"points_per_level": -20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "t85I650AdukYsVSlM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t50ZzyORV0rTiYwnb"
+							},
+							"name": "Decreased Keum",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Supernatural"
+							],
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ke",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tWGsPvtVh2nA9iiwy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t8bkRwuJEx6Kf0zU_"
+							},
+							"name": "Decreased Perception",
+							"reference": "B16",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Mental",
+								"Physical"
+							],
+							"points_per_level": -5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t-fF-N7olfyC9LOpN",
+							"name": "Extra Hit Points",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m6XKlYNvvQLoBl2bo",
+									"name": "Size",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mGY6jXCU-ttNqr_6P",
+									"name": "No Fine Manipulators",
+									"cost": -40,
+									"disabled": true
+								}
+							],
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 6
+							}
+						},
+						{
+							"id": "t1Cz2g_iNon3oYIlc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tVt3SvdGWNchJ8z4o"
+							},
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": -19
+					}
+				},
+				{
 					"id": "T2d_AYL44FDlKsd1k",
 					"name": "Advantages",
 					"children": [
@@ -375,170 +539,6 @@
 					],
 					"calc": {
 						"points": 24
-					}
-				},
-				{
-					"id": "T_mufvilQBN3nMxYy",
-					"name": "Attributes",
-					"children": [
-						{
-							"id": "thP3nrdM0qeROODwc",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tu0KTB8faKoeTJiEi"
-							},
-							"name": "Decreased Dexterity",
-							"reference": "B15",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Physical"
-							],
-							"points_per_level": -20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "dx",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -20
-							}
-						},
-						{
-							"id": "t85I650AdukYsVSlM",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t50ZzyORV0rTiYwnb"
-							},
-							"name": "Decreased Keum",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Supernatural"
-							],
-							"points_per_level": -10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ke",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -10
-							}
-						},
-						{
-							"id": "tWGsPvtVh2nA9iiwy",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t8bkRwuJEx6Kf0zU_"
-							},
-							"name": "Decreased Perception",
-							"reference": "B16",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Mental",
-								"Physical"
-							],
-							"points_per_level": -5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "per",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -5
-							}
-						},
-						{
-							"id": "t-fF-N7olfyC9LOpN",
-							"name": "Extra Hit Points",
-							"reference": "B16",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m6XKlYNvvQLoBl2bo",
-									"name": "Size",
-									"cost": -10,
-									"levels": 1,
-									"disabled": true
-								},
-								{
-									"id": "mGY6jXCU-ttNqr_6P",
-									"name": "No Fine Manipulators",
-									"cost": -40,
-									"disabled": true
-								}
-							],
-							"points_per_level": 2,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "hp",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 3,
-							"calc": {
-								"points": 6
-							}
-						},
-						{
-							"id": "t1Cz2g_iNon3oYIlc",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tVt3SvdGWNchJ8z4o"
-							},
-							"name": "Increased Health",
-							"reference": "B14",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ht",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 10
-							}
-						}
-					],
-					"calc": {
-						"points": -19
 					}
 				},
 				{

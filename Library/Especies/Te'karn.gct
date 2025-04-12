@@ -1,0 +1,15 @@
+{
+	"version": 5,
+	"id": "B4UQl6B_nFxjWDowE",
+	"traits": [
+		{
+			"id": "TiVMibJ-27EEE0BtX",
+			"name": "Te'karn",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 0
+			}
+		}
+	]
+}
