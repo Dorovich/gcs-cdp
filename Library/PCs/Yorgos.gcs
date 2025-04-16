@@ -89,18 +89,10 @@
 			{
 				"id": "ke",
 				"type": "integer",
-				"placement": "secondary",
 				"name": "KE",
 				"full_name": "Keum",
-				"attribute_base": "9",
+				"attribute_base": "10",
 				"cost_per_point": 10
-			},
-			{
-				"id": "rt",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Grit",
-				"attribute_base": "$ht/2+3"
 			},
 			{
 				"id": "fright_check",
@@ -169,6 +161,13 @@
 				"name": "Basic Move",
 				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"full_name": "Dodge",
+				"attribute_base": "2*$basic_speed"
 			},
 			{
 				"id": "fp",
@@ -569,15 +568,7 @@
 			"attr_id": "ke",
 			"adj": 0,
 			"calc": {
-				"value": 9,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "rt",
-			"adj": 0,
-			"calc": {
-				"value": 8,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -654,6 +645,14 @@
 			}
 		},
 		{
+			"attr_id": "dodge",
+			"adj": 0,
+			"calc": {
+				"value": 14,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
@@ -676,8 +675,8 @@
 			"adj": 0,
 			"damage": 1,
 			"calc": {
-				"value": 9,
-				"current": 8,
+				"value": 10,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -762,15 +761,15 @@
 					}
 				},
 				{
-					"id": "t5qNyTqEM7xHgzL9a",
+					"id": "tzz-8XsbdgSHG0G3y",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
-						"id": "t6j-tNjbHaSbAw_WO"
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tGjjVtxav9KsrG7Wx"
 					},
 					"name": "Combat Reflexes",
 					"reference": "B43",
-					"notes": "Never freeze",
+					"notes": "[NSH]",
 					"tags": [
 						"Advantage",
 						"Mental"
@@ -803,17 +802,17 @@
 						{
 							"type": "attribute_bonus",
 							"attribute": "dodge",
-							"amount": 1
+							"amount": 2
 						},
 						{
 							"type": "attribute_bonus",
 							"attribute": "parry",
-							"amount": 1
+							"amount": 2
 						},
 						{
 							"type": "attribute_bonus",
 							"attribute": "block",
-							"amount": 1
+							"amount": 2
 						},
 						{
 							"type": "attribute_bonus",
@@ -824,11 +823,6 @@
 							"type": "conditional_modifier",
 							"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
 							"amount": 6
-						},
-						{
-							"type": "conditional_modifier",
-							"situation": "to initiative rolls for your side (+2 if you are the leader)",
-							"amount": 1
 						}
 					],
 					"calc": {
@@ -1709,7 +1703,7 @@
 									"calc": {
 										"level": 15,
 										"damage": "1d+2 cr",
-										"parry": "11"
+										"parry": "12"
 									}
 								}
 							],
@@ -2309,7 +2303,7 @@
 					"calc": {
 						"level": 15,
 						"damage": "1d cr",
-						"parry": "11"
+						"parry": "12"
 					}
 				},
 				{
@@ -3301,7 +3295,7 @@
 					"calc": {
 						"level": 11,
 						"damage": "See B404",
-						"block": "9"
+						"block": "10"
 					}
 				},
 				{
@@ -3409,7 +3403,7 @@
 					"calc": {
 						"level": 8,
 						"damage": "1d+1 imp",
-						"parry": "8"
+						"parry": "9"
 					}
 				},
 				{
@@ -3518,7 +3512,7 @@
 					"calc": {
 						"level": 9,
 						"damage": "1d cr",
-						"block": "8"
+						"block": "9"
 					}
 				}
 			],
@@ -3588,7 +3582,7 @@
 					"calc": {
 						"level": 13,
 						"damage": "2d+3 cr",
-						"parry": "10U"
+						"parry": "11U"
 					}
 				}
 			],
@@ -3766,7 +3760,7 @@
 							"calc": {
 								"level": 9,
 								"damage": "2d-2 cut",
-								"parry": "8"
+								"parry": "9"
 							}
 						},
 						{
@@ -3807,7 +3801,7 @@
 							"calc": {
 								"level": 9,
 								"damage": "1d-1 imp",
-								"parry": "8"
+								"parry": "9"
 							}
 						}
 					],
@@ -4086,14 +4080,13 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-04-16T19:17:33+02:00",
+	"modified_date": "2025-04-16T22:12:44+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
 		"basic_lift": "34 lb",
-		"dodge_bonus": 1,
-		"parry_bonus": 1,
-		"block_bonus": 1,
+		"parry_bonus": 2,
+		"block_bonus": 2,
 		"move": [
 			7,
 			5,
@@ -4102,11 +4095,11 @@
 			1
 		],
 		"dodge": [
-			10,
-			9,
-			8,
-			7,
-			6
+			14,
+			13,
+			12,
+			11,
+			10
 		]
 	}
 }

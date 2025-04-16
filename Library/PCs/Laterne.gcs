@@ -88,18 +88,10 @@
 			{
 				"id": "ke",
 				"type": "integer",
-				"placement": "secondary",
 				"name": "KE",
 				"full_name": "Keum",
-				"attribute_base": "9",
+				"attribute_base": "10",
 				"cost_per_point": 10
-			},
-			{
-				"id": "rt",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Grit",
-				"attribute_base": "$ht/2+3"
 			},
 			{
 				"id": "fright_check",
@@ -168,6 +160,13 @@
 				"name": "Basic Move",
 				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"full_name": "Dodge",
+				"attribute_base": "2*$basic_speed"
 			},
 			{
 				"id": "fp",
@@ -566,15 +565,7 @@
 			"attr_id": "ke",
 			"adj": 0,
 			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "rt",
-			"adj": 0,
-			"calc": {
-				"value": 8,
+				"value": 9,
 				"points": 0
 			}
 		},
@@ -651,6 +642,14 @@
 			}
 		},
 		{
+			"attr_id": "dodge",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
@@ -672,8 +671,8 @@
 			"attr_id": "kp",
 			"adj": 0,
 			"calc": {
-				"value": 8,
-				"current": 8,
+				"value": 9,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -4189,7 +4188,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-04-16T19:17:26+02:00",
+	"modified_date": "2025-04-16T20:49:58+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
@@ -4202,11 +4201,11 @@
 			1
 		],
 		"dodge": [
+			10,
+			9,
 			8,
 			7,
-			6,
-			5,
-			4
+			6
 		]
 	}
 }
