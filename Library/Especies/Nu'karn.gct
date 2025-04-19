@@ -5,7 +5,7 @@
 		{
 			"id": "TRe_Mzwu8d9bR7K0P",
 			"name": "Nu'karn",
-			"notes": "Apply on top of another species' template.",
+			"userdesc": "Apply on top of another species' template.",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -92,7 +92,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mmgko4_MEtlxYwVje",
+									"id": "myHf9BMEhE-b5uSZa",
 									"name": "Diffuse",
 									"reference": "B60",
 									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -101,7 +101,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mz4fqa7pUrnUgvW55",
+									"id": "moBLOUX_aRer4yQCL",
 									"name": "Homogenous",
 									"reference": "B60",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -110,7 +110,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mCeuS0uWGICHyNdt-",
+									"id": "mJc-EpSwxr428aqk3",
 									"name": "No Blood",
 									"reference": "B61",
 									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -119,7 +119,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mMRWIz34pNH9Yhvlc",
+									"id": "mWvQwZ9ek_1Bp8r1K",
 									"name": "No Brain",
 									"reference": "B61",
 									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -128,7 +128,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mBgv1YvD06X8rMpU6",
+									"id": "mqQxraOobsU_PtdRW",
 									"name": "No Eyes",
 									"reference": "B61",
 									"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -137,7 +137,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mGdcUe9kI1I-XVIg1",
+									"id": "mUeZZJm93hEmj8705",
 									"name": "No Head",
 									"reference": "B61",
 									"notes": "Skull, Brain and Face cannot be targeted",
@@ -146,7 +146,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mP7HGqfRgrqTZcdM8",
+									"id": "mnpS9n42-uMCj5DjR",
 									"name": "No Neck",
 									"reference": "B61",
 									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -155,35 +155,25 @@
 									"disabled": true
 								},
 								{
-									"id": "muWpJzr_yGASpKVTE",
+									"id": "mcy5hYH7GCvNy5AmU",
 									"name": "No Vitals",
 									"reference": "B61",
 									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
 									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
+									"cost_type": "points"
 								},
 								{
-									"id": "mHAkORJeWHY60CcJo",
+									"id": "mDRHrfHfFaONT8AJz",
 									"name": "Unliving",
 									"reference": "B61",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
 									"cost": 20,
-									"cost_type": "points"
+									"cost_type": "points",
+									"disabled": true
 								}
 							],
 							"calc": {
-								"points": 20
-							}
-						},
-						{
-							"id": "t3vyqU8WM34CxF_N8",
-							"name": "Unusual Background (Paradox)",
-							"reference": "B96",
-							"reference_highlight": "Unusual Background",
-							"base_points": 10,
-							"calc": {
-								"points": 10
+								"points": 5
 							}
 						},
 						{
@@ -259,10 +249,88 @@
 							"calc": {
 								"points": 10
 							}
+						},
+						{
+							"id": "tm3ScQcC3Xk-OOMcH",
+							"source": {
+								"library": "Dorovich/gcs-cdp",
+								"path": "CdP Rasgos (Especies).adq",
+								"id": "t3RvGqLj6IEvF5xi5"
+							},
+							"name": "Unaging",
+							"reference": "B95,PSI18",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mSGRmw3l4kyTE9P0C",
+									"name": "Age Control",
+									"reference": "B95",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mcCQa2fFM4B2J2DoJ",
+									"name": "IQ Only",
+									"reference": "RSWL24",
+									"cost": -75,
+									"disabled": true
+								},
+								{
+									"id": "mOU1OGRBO1AuPJr8d",
+									"name": "Halt Aging, Weekly",
+									"reference": "PSI18",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mAnf0c-6ydocE2hgc",
+									"name": "Halt Aging, Monthly",
+									"reference": "PSI18",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mN0N8HlMHw2nuAyKB",
+									"name": "Halt Aging, Yearly",
+									"reference": "PSI18",
+									"cost": 130,
+									"disabled": true
+								},
+								{
+									"id": "mQDLbSQpQDguQCNNl",
+									"name": "Life Extension",
+									"reference": "PSI18",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "m167p5Y0mp54I0xDO",
+									"name": "Paradoxical",
+									"cost": -35
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "t3vyqU8WM34CxF_N8",
+							"name": "Unusual Background (Paradox)",
+							"reference": "B96",
+							"reference_highlight": "Unusual Background",
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
 						}
 					],
 					"calc": {
-						"points": 40
+						"points": 35
 					}
 				},
 				{
@@ -327,6 +395,136 @@
 							}
 						},
 						{
+							"id": "t65tmis3Nt3rYswow",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t1iVqO3Y2rUkguVzt"
+							},
+							"name": "Supernatural Features",
+							"reference": "B157",
+							"tags": [
+								"Disadvantage",
+								"Physical",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "mGiJVWPwlX0PeUzSQ",
+									"name": "No Body Heat",
+									"reference": "B157",
+									"notes": "Gives +1 on all rolls to deduce your secret",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those who touch you, shake your hand, kiss you, etc.",
+											"amount": -1
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "m7u-eE6DjlBiMcf-z",
+									"name": "No Body Heat",
+									"reference": "B157",
+									"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
+									"cost": -1,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those who touch you, shake your hand, kiss you, etc.",
+											"amount": -1
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mH5mhVbRMK2Bpu7HX",
+									"name": "No Reflection",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who notice you have no reflection",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mT2mp_QNXJ4fNS7vX",
+									"name": "No Shadow",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others that notice you have no shadow",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mIqJMMvHBuCdTy8oZ",
+									"name": "Pallor",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who can see you without makeup in good light",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mXQ6CXCRSy3WBy2Dj",
+									"name": "Pallor",
+									"reference": "B157",
+									"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who can see you without makeup in good light",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mVLm6pKnWdoSP8QzI",
+									"name": "Vessel",
+									"notes": "No heartbeat, pale skin, or any other unusual feature",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "for anyone who discovers your aberrant features and recognizes you as a Nu'karn.",
+											"amount": -2
+										}
+									]
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
 							"id": "tdUoHxhs9FxGvyk0X",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -343,140 +541,10 @@
 							"calc": {
 								"points": -5
 							}
-						},
-						{
-							"id": "t65tmis3Nt3rYswow",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t1iVqO3Y2rUkguVzt"
-							},
-							"name": "Supernatural Features",
-							"reference": "B157",
-							"tags": [
-								"Disadvantage",
-								"Physical",
-								"Supernatural"
-							],
-							"modifiers": [
-								{
-									"id": "mHJ_u8kkuxmeXthnd",
-									"name": "No Body Heat",
-									"reference": "B157",
-									"notes": "Gives +1 on all rolls to deduce your secret",
-									"cost": -5,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from those who touch you, shake your hand, kiss you, etc.",
-											"amount": -1
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mc8vVxhqkEueotuh_",
-									"name": "No Body Heat",
-									"reference": "B157",
-									"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
-									"cost": -1,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from those who touch you, shake your hand, kiss you, etc.",
-											"amount": -1
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mXlttSN5BC5eQAiZT",
-									"name": "No Reflection",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who notice you have no reflection",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mNg881oiKOT_k0xq1",
-									"name": "No Shadow",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others that notice you have no shadow",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "m__FjsE_q_9xQlUsH",
-									"name": "Pallor",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who can see you without makeup in good light",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mlRAzj3aj_WaDSic_",
-									"name": "Pallor",
-									"reference": "B157",
-									"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
-									"cost": -5,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who can see you without makeup in good light",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mMsmVpTko1FD3Cm0C",
-									"name": "Vessel",
-									"notes": "No heartbeat, pale skin, or any other unusual feature",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "for anyone who discovers your aberrant features and recognizes you as a Nu'karn.",
-											"amount": -2
-										}
-									]
-								}
-							],
-							"calc": {
-								"points": -10
-							}
 						}
 					],
 					"calc": {
-						"points": -25
+						"points": -20
 					}
 				}
 			],

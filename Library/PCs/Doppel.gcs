@@ -2207,211 +2207,18 @@
 			}
 		},
 		{
-			"id": "Tns5dKhW5aS6rGZwT",
+			"id": "TfXJoN_I459NFMeO5",
 			"name": "Nu'karn (Te'karn)",
-			"notes": "Apply on top of another species' template.",
+			"userdesc": "May be applied on top of another species' template.",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "TTGY-UyPQP1xglZ7Z",
-					"name": "Advantages",
-					"children": [
-						{
-							"id": "tmpX4VjJUvIbVZMv4",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t4TqvzUkGTe4ipCZE"
-							},
-							"name": "Injury Tolerance",
-							"reference": "B60,P52,MA45",
-							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m5TPCbBavX9rI6EYW",
-									"name": "Diffuse",
-									"reference": "B60",
-									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
-									"cost": 100,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mpb5sq--o_qDb4dtw",
-									"name": "Homogenous",
-									"reference": "B60",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
-									"cost": 40,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mL0vu_2vSHJpnI6jc",
-									"name": "No Blood",
-									"reference": "B61",
-									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mwsEaQSg2f75PnNBz",
-									"name": "No Brain",
-									"reference": "B61",
-									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mAbY8y0nCuyGxznb2",
-									"name": "No Eyes",
-									"reference": "B61",
-									"notes": "Eyes may not be targeted. Immune to blinding attacks",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mrx3iHh1-ZB0dYxfO",
-									"name": "No Head",
-									"reference": "B61",
-									"notes": "Skull, Brain and Face cannot be targeted",
-									"cost": 7,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mGa0dbaFX_g3alnZc",
-									"name": "No Neck",
-									"reference": "B61",
-									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mHdD1C0xlkNK9TrNq",
-									"name": "No Vitals",
-									"reference": "B61",
-									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mWDqNeUU5iu-RTkSd",
-									"name": "Unliving",
-									"reference": "B61",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
-									"cost": 20,
-									"cost_type": "points"
-								}
-							],
-							"calc": {
-								"points": 20
-							}
-						},
-						{
-							"id": "tOrKyZAFejDayIv15",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tJTfFdHM7YI5IZR7I"
-							},
-							"name": "Resistant",
-							"reference": "B81,P71,MA47",
-							"tags": [
-								"Advantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "mYtVEz5zNouJjS7b6",
-									"name": "@Very Common: Metabolic Hazards, etc.@",
-									"reference": "B80",
-									"cost": 30,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mVWXfb94WfbVvMWTl",
-									"name": "@Common: Poison, Sickness, etc.@",
-									"reference": "B81",
-									"cost": 15,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mJlxQVQFmoY-5eLt0",
-									"name": "Diseases",
-									"reference": "B81",
-									"cost": 10,
-									"cost_type": "points"
-								},
-								{
-									"id": "mtW2EDPFYyTYpHR-b",
-									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
-									"reference": "B81",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mzeyInpMrrTNbNVut",
-									"name": "Immunity",
-									"reference": "B81",
-									"cost": 1,
-									"cost_type": "multiplier"
-								},
-								{
-									"id": "mKKqNM74eU6AWg4J_",
-									"name": "+8 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.5,
-									"cost_type": "multiplier",
-									"disabled": true
-								},
-								{
-									"id": "mmEIUQCQ3NWsuHZ-Z",
-									"name": "+3 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.33,
-									"cost_type": "multiplier",
-									"disabled": true
-								}
-							],
-							"round_down": true,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
-							"id": "tkQuuYj1Du2wW1tg9",
-							"name": "Unusual Background (Paradox)",
-							"reference": "B96",
-							"reference_highlight": "Unusual Background",
-							"base_points": 10,
-							"calc": {
-								"points": 10
-							}
-						}
-					],
-					"calc": {
-						"points": 40
-					}
-				},
-				{
-					"id": "T9Ek-T12QNAWIzJWh",
+					"id": "TSMB2nympoIbHADqS",
 					"name": "Attributes",
 					"children": [
 						{
-							"id": "tzG1754eelsK1i5vl",
+							"id": "teeRzWNv-LqxRNIdh",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2444,225 +2251,11 @@
 					}
 				},
 				{
-					"id": "TzbsIkLpalUc3eOap",
-					"name": "Disadvantages",
-					"children": [
-						{
-							"id": "tjVkHKdRr5N995zJa",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t8duh7FJvBdSs4NOb"
-							},
-							"name": "Restricted Diet (Materia viva)",
-							"reference": "B151",
-							"tags": [
-								"Disadvantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m8Tgh4G3-XxC4IS5l",
-									"name": "Substitution",
-									"reference": "B151",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "mesMkApXT_u2lURbx",
-									"name": "Very Common",
-									"reference": "B151",
-									"cost": -10,
-									"cost_type": "points"
-								},
-								{
-									"id": "mpC5ixIGpbtUCyG1w",
-									"name": "Common",
-									"reference": "B151",
-									"cost": -20,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mYXfbmLuIZ_v5T9Dh",
-									"name": "Occasional",
-									"reference": "B151",
-									"cost": -30,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mo3s1DGafTVCE0hv_",
-									"name": "Rare",
-									"reference": "B151",
-									"cost": -40,
-									"cost_type": "points",
-									"disabled": true
-								}
-							],
-							"calc": {
-								"points": -10
-							}
-						},
-						{
-							"id": "t08Or7Vu6qVqfxh6p",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t1iVqO3Y2rUkguVzt"
-							},
-							"name": "Supernatural Features",
-							"reference": "B157",
-							"tags": [
-								"Disadvantage",
-								"Physical",
-								"Supernatural"
-							],
-							"modifiers": [
-								{
-									"id": "mhggoOy21l54Op2_u",
-									"name": "No Body Heat",
-									"reference": "B157",
-									"notes": "Gives +1 on all rolls to deduce your secret",
-									"cost": -5,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from those who touch you, shake your hand, kiss you, etc.",
-											"amount": -1
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mjlIyZEt9x12BnIuM",
-									"name": "No Body Heat",
-									"reference": "B157",
-									"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
-									"cost": -1,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from those who touch you, shake your hand, kiss you, etc.",
-											"amount": -1
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "m_EAnJ55A-5Wfk330",
-									"name": "No Reflection",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who notice you have no reflection",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mNA5ebcJgrMPd7jEr",
-									"name": "No Shadow",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others that notice you have no shadow",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mdc1PkPJYbI9WwfjI",
-									"name": "Pallor",
-									"reference": "B157",
-									"notes": "Gives +2 on all rolls to deduce your secret",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who can see you without makeup in good light",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mZF_LLJScfrOE3H6p",
-									"name": "Pallor",
-									"reference": "B157",
-									"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
-									"cost": -5,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "from others who can see you without makeup in good light",
-											"amount": -2
-										}
-									],
-									"disabled": true
-								},
-								{
-									"id": "mFH63qARwh-AKCfHs",
-									"name": "Vessel",
-									"notes": "No heartbeat, pale skin, or any other unusual feature",
-									"cost": -10,
-									"cost_type": "points",
-									"features": [
-										{
-											"type": "reaction_bonus",
-											"situation": "for anyone who discovers your aberrant features and recognizes you as a Nu'karn.",
-											"amount": -2
-										}
-									]
-								}
-							],
-							"calc": {
-								"points": -10
-							}
-						},
-						{
-							"id": "t6OqfzsbBbi_KnpID",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tEYEuzMtxSsWCG7uW"
-							},
-							"name": "Unusual Biochemistry",
-							"reference": "B160",
-							"tags": [
-								"Disadvantage",
-								"Physical"
-							],
-							"base_points": -5,
-							"calc": {
-								"points": -5
-							}
-						}
-					],
-					"calc": {
-						"points": -25
-					}
-				},
-				{
-					"id": "TrniM7bATJYCMnZWv",
+					"id": "TXMdPdpRJr3hyoWli",
 					"name": "Features",
 					"children": [
 						{
-							"id": "tVv-ICpmncB81nsWq",
+							"id": "tKI6U8SDEMPWL-Qfa",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2681,6 +2274,481 @@
 					],
 					"calc": {
 						"points": 0
+					}
+				},
+				{
+					"id": "TO-4Q2tHtlC0GLLr3",
+					"name": "Advantages",
+					"children": [
+						{
+							"id": "tRMgsEdOr7OQiIGEU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t4TqvzUkGTe4ipCZE"
+							},
+							"name": "Injury Tolerance",
+							"reference": "B60,P52,MA45",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mi1c0Ta5Dtj6lLjv1",
+									"name": "Diffuse",
+									"reference": "B60",
+									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+									"cost": 100,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mbXumzZU2P8xkFr7c",
+									"name": "Homogenous",
+									"reference": "B60",
+									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+									"cost": 40,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mp6ZDlwSSj8WhmFQ4",
+									"name": "No Blood",
+									"reference": "B61",
+									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mV7KfflVoWw-hVmzF",
+									"name": "No Brain",
+									"reference": "B61",
+									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m9RGF6QcYiA_65WXK",
+									"name": "No Eyes",
+									"reference": "B61",
+									"notes": "Eyes may not be targeted. Immune to blinding attacks",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m-FrRgIsJOGe4nMCB",
+									"name": "No Head",
+									"reference": "B61",
+									"notes": "Skull, Brain and Face cannot be targeted",
+									"cost": 7,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mXhySj4dDpNDciBK9",
+									"name": "No Neck",
+									"reference": "B61",
+									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m2C7a3-aZUY0oQPof",
+									"name": "No Vitals",
+									"reference": "B61",
+									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+									"cost": 5,
+									"cost_type": "points"
+								},
+								{
+									"id": "mdsY7AvgXadkpT5YG",
+									"name": "Unliving",
+									"reference": "B61",
+									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+									"cost": 20,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tZBWyGZjmwbS3f7Jw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tJTfFdHM7YI5IZR7I"
+							},
+							"name": "Resistant",
+							"reference": "B81,P71,MA47",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mLzTy4hRGgiN-JnVs",
+									"name": "@Very Common: Metabolic Hazards, etc.@",
+									"reference": "B80",
+									"cost": 30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m5fi8dl63a-SE4A7I",
+									"name": "@Common: Poison, Sickness, etc.@",
+									"reference": "B81",
+									"cost": 15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m6BYtkwZIFjGrUywM",
+									"name": "Diseases",
+									"reference": "B81",
+									"cost": 10,
+									"cost_type": "points"
+								},
+								{
+									"id": "mTn_2is-mcHCi2x2e",
+									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+									"reference": "B81",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mPhAEDd6emmYwjfXt",
+									"name": "Immunity",
+									"reference": "B81",
+									"cost": 1,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "mSqKGvDw8cJ7NHby0",
+									"name": "+8 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.5,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "ma3CiMYGne7qTmIyX",
+									"name": "+3 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"round_down": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "t9bA3GCDp6jSE8-0V",
+							"source": {
+								"library": "Dorovich/gcs-cdp",
+								"path": "CdP Rasgos (Especies).adq",
+								"id": "t3RvGqLj6IEvF5xi5"
+							},
+							"name": "Unaging",
+							"reference": "B95,PSI18",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m7YI61UxGFG3ob9h4",
+									"name": "Age Control",
+									"reference": "B95",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mjzu_wBRVXWTNfjFW",
+									"name": "IQ Only",
+									"reference": "RSWL24",
+									"cost": -75,
+									"disabled": true
+								},
+								{
+									"id": "mo9cyiTCMgcafsZhl",
+									"name": "Halt Aging, Weekly",
+									"reference": "PSI18",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mk3VvO2NoNg0XvhEw",
+									"name": "Halt Aging, Monthly",
+									"reference": "PSI18",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "m19zIH-SZafoVKIDE",
+									"name": "Halt Aging, Yearly",
+									"reference": "PSI18",
+									"cost": 130,
+									"disabled": true
+								},
+								{
+									"id": "m0sJww_Y1-BXLFHrs",
+									"name": "Life Extension",
+									"reference": "PSI18",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "mc8Gxzb-20dItg004",
+									"name": "Paradoxical",
+									"cost": -35
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tXiJyzffYVBPfOqHY",
+							"name": "Unusual Background (Paradox)",
+							"reference": "B96",
+							"reference_highlight": "Unusual Background",
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 35
+					}
+				},
+				{
+					"id": "TM-Hvxrp2gHNNEpnP",
+					"name": "Disadvantages",
+					"children": [
+						{
+							"id": "tLiJCv1iM8ohVxEd3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t8duh7FJvBdSs4NOb"
+							},
+							"name": "Restricted Diet (Materia viva)",
+							"reference": "B151",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mJ6AfyhgH-oRQPWnh",
+									"name": "Substitution",
+									"reference": "B151",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mAH9-CdNEGH0WGb6H",
+									"name": "Very Common",
+									"reference": "B151",
+									"cost": -10,
+									"cost_type": "points"
+								},
+								{
+									"id": "mbGJ0RyDh5-DiNrXj",
+									"name": "Common",
+									"reference": "B151",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mP-0Y4RYI92Aqe8YA",
+									"name": "Occasional",
+									"reference": "B151",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mutWr4xIkp7i9DlvZ",
+									"name": "Rare",
+									"reference": "B151",
+									"cost": -40,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tLEkMAkYJWIkQzlN-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t1iVqO3Y2rUkguVzt"
+							},
+							"name": "Supernatural Features",
+							"reference": "B157",
+							"tags": [
+								"Disadvantage",
+								"Physical",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "mwPmf1QPXuYJfrO80",
+									"name": "No Body Heat",
+									"reference": "B157",
+									"notes": "Gives +1 on all rolls to deduce your secret",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those who touch you, shake your hand, kiss you, etc.",
+											"amount": -1
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "m5EpBd11OQ4J95mbY",
+									"name": "No Body Heat",
+									"reference": "B157",
+									"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
+									"cost": -1,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those who touch you, shake your hand, kiss you, etc.",
+											"amount": -1
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "maxpsQFWOTeRuHfm6",
+									"name": "No Reflection",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who notice you have no reflection",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mtE_aOi0YI4qJrRWd",
+									"name": "No Shadow",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others that notice you have no shadow",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mxxF_f7SMXWtJppAr",
+									"name": "Pallor",
+									"reference": "B157",
+									"notes": "Gives +2 on all rolls to deduce your secret",
+									"cost": -10,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who can see you without makeup in good light",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mUSli8ioVIHZmAhyL",
+									"name": "Pallor",
+									"reference": "B157",
+									"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others who can see you without makeup in good light",
+											"amount": -2
+										}
+									],
+									"disabled": true
+								},
+								{
+									"id": "mmY3rYDmeVLQjg8y9",
+									"name": "Vessel",
+									"notes": "No heartbeat, pale skin, or any other unusual feature",
+									"cost": -5,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "for anyone who discovers your aberrant features and recognizes you as a Nu'karn.",
+											"amount": -2
+										}
+									]
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tcN-5Oxp19pAUxDbP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tEYEuzMtxSsWCG7uW"
+							},
+							"name": "Unusual Biochemistry",
+							"reference": "B160",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"calc": {
+						"points": -20
 					}
 				}
 			],
@@ -3835,7 +3903,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-04-16T20:47:23+02:00",
+	"modified_date": "2025-04-18T05:34:18+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
