@@ -1080,7 +1080,6 @@
 					},
 					"name": "Flight",
 					"reference": "B56,P50,PSI14",
-					"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
 					"tags": [
 						"Advantage",
 						"Exotic",
@@ -1088,48 +1087,48 @@
 					],
 					"modifiers": [
 						{
-							"id": "mZFkGZojOtgKsCgvI",
+							"id": "mfhXodew4nm9aO8ef",
 							"name": "Newtonian Space Flight",
 							"reference": "B56",
 							"cost": 25,
 							"disabled": true
 						},
 						{
-							"id": "mW-B05S3FVtrRv_IE",
+							"id": "myaLIn2uHdPo932WI",
 							"name": "Space Flight",
 							"reference": "B56",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mqao6S6PT-13hggzS",
+							"id": "mWclnlqYz3EmGpOgr",
 							"name": "Cannot Hover",
 							"reference": "B56",
 							"cost": -15,
 							"disabled": true
 						},
 						{
-							"id": "mke__nIV2DgJ23Ett",
+							"id": "mkheUxIWLi73aRY_5",
 							"name": "Controlled Gliding",
 							"reference": "B56",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "m4BXGicas4kTSIctJ",
+							"id": "mlEzSs6QUvnMM9DuE",
 							"name": "Gliding",
 							"reference": "B56",
 							"cost": -50
 						},
 						{
-							"id": "mqYyWcBTlbRox7U9_",
+							"id": "mZX_bdK6TZ8a6ASgj",
 							"name": "Lighter Than Air",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "m-lEdVqrxu-ivFyU4",
+							"id": "mLPump4sb6QASffSA",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "30'",
@@ -1137,7 +1136,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mohaoyMGDqQVkPx9Z",
+							"id": "mN2HUbv7oUPyLF-Qd",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "10'",
@@ -1145,7 +1144,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJS5n2usEtFMeDNb7",
+							"id": "m2Gdh-s8tFwV__XY3",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "5'",
@@ -1153,56 +1152,56 @@
 							"disabled": true
 						},
 						{
-							"id": "mtcNKyT4HL4yl3eO-",
+							"id": "m1KZE60Vd56VYq6Wx",
 							"name": "Small Wings",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mLJit9LZBsPtUX8P7",
+							"id": "mB3b__KkomPUekvZc",
 							"name": "Space Flight Only",
 							"reference": "B56",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mCz5vPnb53zqg9fAz",
+							"id": "m01rCxeitrd2vKbPO",
 							"name": "Winged",
 							"reference": "B56",
 							"cost": -25,
 							"disabled": true
 						},
 						{
-							"id": "mZIB4rVMeTGAj6B6d",
+							"id": "mj5OLYQSiVsVq5tIE",
 							"name": "Planetary",
 							"reference": "P50",
 							"cost": -5,
 							"disabled": true
 						},
 						{
-							"id": "mDFhbW3IwgSu0es_f",
+							"id": "m4tMjHV2GiNdEDOzK",
 							"name": "Requires Surface",
 							"reference": "P50",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mICmwvXUx955BRcYL",
+							"id": "mnHzzZJVi7qf3cU8-",
 							"name": "Slow",
 							"reference": "PSI14",
 							"notes": "Basic Speed",
 							"cost": -25
 						},
 						{
-							"id": "m6g7YaG-VPvMBPRtL",
+							"id": "mftl1mFHOlgWGexP4",
 							"name": "Slow, Move 1",
 							"reference": "PSI14",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "mlQJFlaSoTazRijI0",
+							"id": "m8aMU9-kEHe8q7AsT",
 							"name": "Encumbrance-Limited (No encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -1211,7 +1210,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mvMIl4FJJieV-Q48C",
+							"id": "mWLxBI7Gh-eGZkGa5",
 							"name": "Encumbrance-Limited (Light encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -1220,7 +1219,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mhl919YV5bVBez653",
+							"id": "mEFnehE3sZupE-_qN",
 							"name": "Encumbrance-Limited (Medium encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -3903,7 +3902,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-04-18T05:34:18+02:00",
+	"modified_date": "2025-04-21T22:54:21+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

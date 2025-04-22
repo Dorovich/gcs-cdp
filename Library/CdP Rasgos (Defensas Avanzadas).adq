@@ -10,7 +10,7 @@
 			},
 			"name": "Enhanced Block",
 			"reference": "B51,MA43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -39,7 +39,7 @@
 			},
 			"name": "Enhanced Parry (Bare hands)",
 			"reference": "B51",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -67,7 +67,7 @@
 			},
 			"name": "Enhanced Parry (@Melee weapon skill@)",
 			"reference": "B51,MA43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -95,7 +95,7 @@
 			},
 			"name": "Enhanced Parry (All parries)",
 			"reference": "B51,MA43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -124,7 +124,7 @@
 			},
 			"name": "Enhanced Dodge",
 			"reference": "B51,MA43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -153,7 +153,7 @@
 			},
 			"name": "Combat Reflexes",
 			"reference": "B43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -222,7 +222,7 @@
 			},
 			"name": "Combat Instinct",
 			"reference": "B43",
-			"notes": "[NSH]",
+			"notes": "[DA]",
 			"tags": [
 				"Advantage",
 				"Mental"

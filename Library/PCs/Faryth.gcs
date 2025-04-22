@@ -1145,7 +1145,7 @@
 					}
 				},
 				{
-					"id": "tu7hcJTqNJSyZsq11",
+					"id": "tIEY2YKwzv4K_N-aQ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1153,7 +1153,7 @@
 					},
 					"name": "Combat Reflexes",
 					"reference": "B43",
-					"notes": "[NSH]",
+					"notes": "[DA]",
 					"tags": [
 						"Advantage",
 						"Mental"
@@ -3187,6 +3187,54 @@
 			}
 		},
 		{
+			"id": "s3kYDVDMY4m0P-oDY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "seOTHXoGLYos5iL1P"
+			},
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Automobile",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+0"
+			}
+		},
+		{
 			"id": "sQxb8A_T31Jiq3Nd7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3642,54 +3690,6 @@
 				"level": 9,
 				"rsl": "Per-1"
 			}
-		},
-		{
-			"id": "s3kYDVDMY4m0P-oDY",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "seOTHXoGLYos5iL1P"
-			},
-			"name": "Driving",
-			"reference": "B188",
-			"tags": [
-				"Vehicle"
-			],
-			"specialization": "Automobile",
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Driving",
-					"specialization": "Heavy Wheeled",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Driving",
-					"modifier": -4
-				}
-			],
-			"points": 2,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 12,
-				"rsl": "DX+0"
-			}
 		}
 	],
 	"equipment": [
@@ -3959,7 +3959,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:53+02:00",
-	"modified_date": "2025-04-16T22:13:13+02:00",
+	"modified_date": "2025-04-21T22:20:53+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
