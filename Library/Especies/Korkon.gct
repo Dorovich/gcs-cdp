@@ -209,14 +209,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mMLftF_sd1M0iwkIW",
+									"id": "mU8SpKADSL11BoSvT",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mjABDrJ0YtC16MDnQ",
+									"id": "m810GM7R-5-2gRMxL",
 									"name": "Hardened",
 									"reference": "B47",
 									"cost": 20,
@@ -224,7 +224,7 @@
 									"disabled": true
 								},
 								{
-									"id": "ma_u9_5FkpZS9jUrX",
+									"id": "mzvBzpIfClrHZz__L",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances @Trait@",
@@ -232,7 +232,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mNh2XeWJzRtxdW-9b",
+									"id": "mhgdvthbKa3gggY-d",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Healing only",
@@ -240,7 +240,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m_Rt347NBZ1L6t0fn",
+									"id": "mMGnttc7FCePIJLNo",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances any trait",
@@ -248,14 +248,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mOtYH5bfIx3ze1VPI",
+									"id": "m7XKovgdj_CAprfXd",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "mLTLa2t9ECITsp-_H",
+									"id": "mt1qgMm9Lu6m3Y1UR",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Rare@",
@@ -264,7 +264,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m-NNyOS7rjLop4Tti",
+									"id": "muxY7X7ahhJQOOeby",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Occasional@",
@@ -272,7 +272,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mblmPHpZ9_Y-CREIJ",
+									"id": "m7AFn0PdsPF3ij56g",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Common@",
@@ -280,7 +280,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mQ-Yu2UcsQEJ2gpj-",
+									"id": "m15urW65YnJIhU5HH",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Very Common@",
@@ -288,7 +288,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mxjlsskN9QzwKVgyG",
+									"id": "mhkn_POhm0I2CT7wH",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "Front",
@@ -296,14 +296,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mo8_6jvM2w9QaCnfl",
+									"id": "mWP-09DFyd10u-P-I",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mqkZx_euFfe5XMMdk",
+									"id": "m_saeY2MlfZw76xSu",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Very Common Attack Form@",
@@ -311,21 +311,21 @@
 									"disabled": true
 								},
 								{
-									"id": "mweSxNDpMQ20lz7bV",
+									"id": "m3IMLxjKSvTYUzthR",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mrcTv69yZvDYn2Y-e",
+									"id": "m711SeLZpvSd1hnTi",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mI3XXIk8tjw0ToTbc",
+									"id": "mJ4skJ48ncNw-L8XO",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -333,7 +333,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mhlnmW66kzX_amkS7",
+									"id": "mnVxBEfpxWr_HCs6P",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Common Attack Form@",
@@ -341,13 +341,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mFqCsAX1WdP_tySAh",
+									"id": "mXprlYOGcW8YsXE1f",
 									"name": "Tough Skin",
 									"notes": "Effects that just require skin contact or a scratch ignore this DR",
 									"cost": -40
 								},
 								{
-									"id": "mZXtcLzMZU9RhQ3kF",
+									"id": "mNBupcIvNIoCpE3K2",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Occasional Attack Form@",
@@ -355,14 +355,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mw3GszXZitWdMSQkg",
+									"id": "moxKjd4q-Ojokt0qi",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost": -80,
 									"disabled": true
 								},
 								{
-									"id": "mFEaec1qjFAPlVTRr",
+									"id": "mlDWNTZ14vM1tyhaY",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Rare Attack Form@",
@@ -370,27 +370,27 @@
 									"disabled": true
 								},
 								{
-									"id": "m37OZpYrYQiVNiX5c",
+									"id": "mGqNFDPTmydZ-9UrT",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost": 10,
 									"disabled": true
 								},
 								{
-									"id": "mHXFIsrw-sgO16wMi",
+									"id": "mdxiNSf-Dd-ICy5Jc",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "mzQP4bk5ZDCqrux1Y",
+									"id": "mVxAXWGjDxiVfVgBp",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mcvBi3ZmyG8SyTNEk",
+									"id": "mOAW9TRB210Nat8kg",
 									"name": "Partial (Skull only)",
 									"reference": "B47",
 									"cost": -70
@@ -416,9 +416,9 @@
 								}
 							],
 							"can_level": true,
-							"levels": 2,
+							"levels": 1,
 							"calc": {
-								"points": 2
+								"points": 1
 							}
 						},
 						{
@@ -599,7 +599,7 @@
 						}
 					],
 					"calc": {
-						"points": 17
+						"points": 16
 					}
 				},
 				{
@@ -633,7 +633,7 @@
 				}
 			],
 			"calc": {
-				"points": 27
+				"points": 26
 			}
 		}
 	]

@@ -326,16 +326,17 @@
 		],
 		"body_type": {
 			"name": "Humanoid",
-			"roll": "3d",
+			"roll": "2d",
 			"locations": [
 				{
-					"id": "eye",
-					"choice_name": "Eyes",
-					"table_name": "Eyes",
-					"hit_penalty": -9,
-					"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+					"id": "head",
+					"choice_name": "Head",
+					"table_name": "Head",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "MoS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
 					"calc": {
-						"roll_range": "-",
+						"roll_range": "2-3",
 						"dr": {
 							"all": 0
 						}
@@ -345,12 +346,10 @@
 					"id": "skull",
 					"choice_name": "Skull",
 					"table_name": "Skull",
-					"slots": 2,
-					"hit_penalty": -7,
+					"hit_penalty": -2,
 					"dr_bonus": 2,
-					"description": "An attack that misses by 1 hits the torso instead. Wounding\nmodifier is x4. Knockdown rolls are at -10. Critical hits\nuse the Critical Head Blow Table (B556). Exception: These\nspecial effects do not apply to toxic (tox) damage.",
 					"calc": {
-						"roll_range": "3-4",
+						"roll_range": "-",
 						"dr": {
 							"all": 2
 						}
@@ -360,121 +359,9 @@
 					"id": "face",
 					"choice_name": "Face",
 					"table_name": "Face",
-					"slots": 1,
-					"hit_penalty": -5,
-					"description": "An attack that misses by 1 hits the torso instead. Jaw,\ncheeks, nose, ears, etc. If the target has an open-faced\nhelmet, ignore its DR. Knockdown rolls are at -5. Critical\nhits use the Critical Head Blow Table (B556). Corrosion\n(cor) damage gets a x1½ wounding modifier, and if it\ninflicts a major wound, it also blinds one eye (both eyes on\ndamage over full HP). Random attacks from behind hit the\nskull instead.",
-					"calc": {
-						"roll_range": "5",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "leg",
-					"choice_name": "Leg",
-					"table_name": "Right Leg",
-					"slots": 2,
 					"hit_penalty": -2,
-					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
 					"calc": {
-						"roll_range": "6-7",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "arm",
-					"choice_name": "Arm",
-					"table_name": "Right Arm",
-					"slots": 1,
-					"hit_penalty": -2,
-					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
-					"calc": {
-						"roll_range": "8",
-						"dr": {
-							"all": 5
-						}
-					}
-				},
-				{
-					"id": "torso",
-					"choice_name": "Torso",
-					"table_name": "Torso",
-					"slots": 2,
-					"calc": {
-						"roll_range": "9-10",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "groin",
-					"choice_name": "Groin",
-					"table_name": "Groin",
-					"slots": 1,
-					"hit_penalty": -3,
-					"description": "An attack that misses by 1 hits the torso instead. Human\nmales and the males of similar species suffer double shock\nfrom crushing (cr) damage, and get -5 to knockdown rolls.\nOtherwise, treat as a torso hit.",
-					"calc": {
-						"roll_range": "11",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "arm",
-					"choice_name": "Arm",
-					"table_name": "Left Arm",
-					"slots": 1,
-					"hit_penalty": -2,
-					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
-					"calc": {
-						"roll_range": "12",
-						"dr": {
-							"all": 5
-						}
-					}
-				},
-				{
-					"id": "leg",
-					"choice_name": "Leg",
-					"table_name": "Left Leg",
-					"slots": 2,
-					"hit_penalty": -2,
-					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
-					"calc": {
-						"roll_range": "13-14",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "hand",
-					"choice_name": "Hand",
-					"table_name": "Hand",
-					"slots": 1,
-					"hit_penalty": -4,
-					"description": "If holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4. Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
-					"calc": {
-						"roll_range": "15",
-						"dr": {
-							"all": 5
-						}
-					}
-				},
-				{
-					"id": "foot",
-					"choice_name": "Foot",
-					"table_name": "Foot",
-					"slots": 1,
-					"hit_penalty": -4,
-					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
-					"calc": {
-						"roll_range": "16",
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -484,11 +371,120 @@
 					"id": "neck",
 					"choice_name": "Neck",
 					"table_name": "Neck",
-					"slots": 2,
-					"hit_penalty": -5,
-					"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
+					"hit_penalty": -2,
 					"calc": {
-						"roll_range": "17-18",
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eyes",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -3,
+					"description": "Requires MoS 7+.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arms",
+					"choice_name": "Arms",
+					"table_name": "Arms",
+					"slots": 2,
+					"hit_penalty": -1,
+					"description": "MoS: (0-1) Random, (2+) Random on arm.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "arm_left",
+								"choice_name": "Left Arm",
+								"table_name": "Left Arm",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 5
+									}
+								}
+							},
+							{
+								"id": "arm_right",
+								"choice_name": "Right Arm",
+								"table_name": "Right Arm",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 5
+									}
+								}
+							}
+						]
+					},
+					"calc": {
+						"roll_range": "4-5",
+						"dr": {
+							"all": 5
+						}
+					}
+				},
+				{
+					"id": "hands",
+					"choice_name": "Hands",
+					"table_name": "Hands",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen hand.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "hand_left",
+								"choice_name": "Left Hand",
+								"table_name": "Left Hand",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 5
+									}
+								}
+							},
+							{
+								"id": "hand_right",
+								"choice_name": "Right Hand",
+								"table_name": "Right Hand",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 5
+									}
+								}
+							}
+						]
+					},
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 5
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 3,
+					"description": "MoS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
+					"calc": {
+						"roll_range": "6-8",
 						"dr": {
 							"all": 0
 						}
@@ -498,8 +494,104 @@
 					"id": "vitals",
 					"choice_name": "Vitals",
 					"table_name": "Vitals",
-					"hit_penalty": -3,
-					"description": "An attack that misses by 1 hits the torso instead. Heart,\nlungs, kidneys, etc. Increase the wounding modifier for an\nimpaling (imp) or any piercing (pi-, pi, pi+, pi++) attack\nto x3. Increase the wounding modifier for a tight-beam\nburning (burn) attack to x2. Other attacks cannot target the\nvitals.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"hit_penalty": -1,
+					"description": "Requires MoS 2+.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "legs",
+					"choice_name": "Legs",
+					"table_name": "Legs",
+					"slots": 4,
+					"hit_penalty": -1,
+					"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 1/6 to hit the foot.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "leg_left",
+								"choice_name": "Left Leg",
+								"table_name": "Left Leg",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							},
+							{
+								"id": "leg_right",
+								"choice_name": "Right Leg",
+								"table_name": "Right Leg",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							}
+						]
+					},
+					"calc": {
+						"roll_range": "9-12",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "feet",
+					"choice_name": "Feet",
+					"table_name": "Feet",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "foot_left",
+								"choice_name": "Left Foot",
+								"table_name": "Left Foot",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							},
+							{
+								"id": "foot_right",
+								"choice_name": "Right Foot",
+								"table_name": "Right Foot",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							}
+						]
+					},
 					"calc": {
 						"roll_range": "-",
 						"dr": {
@@ -1878,14 +1970,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mORCOc5ZpXb6Ghha4",
+							"id": "mcQdD-DIqKFLAnJpW",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mT7a8M-RarecqH4R0",
+							"id": "mwsqfPpTDOC92Q_Ei",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -1893,7 +1985,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mLR7tJkpGxEwbbvDn",
+							"id": "medp77MI2Ydo8gON-",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances @Trait@",
@@ -1901,7 +1993,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mw7qIV_Fe2ZO_xiGN",
+							"id": "m7iNKWXecmwzXH6Rm",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Healing only",
@@ -1909,7 +2001,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mN0lZS9Gs8anpls9-",
+							"id": "mEKWujvcogh3CyHzb",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances any trait",
@@ -1917,14 +2009,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mtRFZ1ond7zj9PZyx",
+							"id": "mJ_b1BGlbT5LBk_sZ",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "myaT22ydMItifZIKK",
+							"id": "mn6O93vwLAHqVMVmd",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Rare@",
@@ -1933,7 +2025,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mluHjeDNo7KLE-tBV",
+							"id": "msuYtNIF9tkOHRYwu",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Occasional@",
@@ -1941,7 +2033,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mwqXSJXHvWS8eJRq6",
+							"id": "mj0MNoYhgKl-HZEhw",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Common@",
@@ -1949,7 +2041,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mMt4PEpWe3UudRmMe",
+							"id": "mriKx-8AJYEevGp1T",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Very Common@",
@@ -1957,7 +2049,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mnPHmbgg_-yELcevJ",
+							"id": "mSTGSjWn6iaZLfwP_",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "Front",
@@ -1965,14 +2057,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mCYtox41xrtwYIuOh",
+							"id": "m7xT5AbBgJ1HKhI-Q",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mER6zekYs88AeQpzX",
+							"id": "mMRmEcRJxVjYt1h_t",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Very Common Attack Form@",
@@ -1980,21 +2072,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mHxgTeGEunnnJCxms",
+							"id": "mGWSJcHR_BpaKI7l3",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mfVrEdJnmXv2bNzio",
+							"id": "mIkP3rPAKg7WnQdrW",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mh-whaB3FRZyTzPqF",
+							"id": "mxzSemdWXDvy15jR2",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -2002,7 +2094,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJqk9skNUUlgqJHJI",
+							"id": "mt1sdpEriUhqlzM1S",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Common Attack Form@",
@@ -2010,14 +2102,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mJgK2NRUGblR2QjhO",
+							"id": "mkjE9iivLrm8X5HA0",
 							"name": "Tough Skin",
 							"notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mtiIH8TliXPjjOe6a",
+							"id": "mMV7FaUnjtAiWcAeM",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Occasional Attack Form@",
@@ -2025,14 +2117,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mCMmUnpPJbAZx4Noj",
+							"id": "mp0XJ6IGfzyKF1lHF",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mR0jTzLKU8L0ak5WY",
+							"id": "m6HNAmweVzGADlLdG",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Rare Attack Form@",
@@ -2040,27 +2132,27 @@
 							"disabled": true
 						},
 						{
-							"id": "mLdKBiVNBiTI9Dtqc",
+							"id": "mJumycV52SFr8Rk0y",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mEdKeExSp3T6UP724",
+							"id": "mB9ptxki1fpbrppeV",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mxoo8E2Ajnb6Nhrth",
+							"id": "m--9SbHzRJT09B_NC",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "mrS3ta7mo1B2EM6E7",
+							"id": "mmxzhDjCAA6RTv5yw",
 							"name": "Partial (Arms, Right Leg)",
 							"reference": "B47",
 							"cost": -60,
@@ -2072,15 +2164,8 @@
 						{
 							"type": "dr_bonus",
 							"locations": [
-								"arm"
-							],
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"hand"
+								"arms",
+								"hands"
 							],
 							"amount": 1,
 							"per_level": true
@@ -2799,12 +2884,12 @@
 			}
 		},
 		{
-			"id": "tTLFfi-KEqjHUsUtU",
+			"id": "tiD1Poktoy7DNued6",
 			"name": "Natural Attacks",
 			"reference": "B271",
 			"weapons": [
 				{
-					"id": "wYOVt3p6joq6xJ82k",
+					"id": "wUaZy4tLJMXicDQd9",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -2827,7 +2912,7 @@
 					}
 				},
 				{
-					"id": "wFyaiPC8flDBhjPtz",
+					"id": "w-GRXpzhi-ZKckQXR",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -2862,12 +2947,13 @@
 					}
 				},
 				{
-					"id": "wJjffAhUS43ikoDor",
+					"id": "wrsr9gc2_G8zroxM9",
 					"damage": {
 						"type": "cr",
-						"st": "thr"
+						"st": "thr",
+						"base": "-1"
 					},
-					"usage": "Kick",
+					"usage": "High Kick",
 					"reach": "C,1",
 					"defaults": [
 						{
@@ -2891,18 +2977,18 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d+1 cr"
+						"damage": "1d cr"
 					}
 				},
 				{
-					"id": "wV9xq6tPBe_gl4bBM",
+					"id": "wEZ03omZjhXkAQCnU",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "-2"
+						"base": "-1"
 					},
-					"usage": "Slam",
-					"reach": "C",
+					"usage": "Low Kick",
+					"reach": "C,1",
 					"defaults": [
 						{
 							"type": "dx"
@@ -2913,12 +2999,16 @@
 						},
 						{
 							"type": "skill",
-							"name": "Sumo Wrestling"
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d-3 cr"
+						"level": 13,
+						"damage": "1d cr"
 					}
 				}
 			],
@@ -3935,6 +4025,118 @@
 	],
 	"other_equipment": [
 		{
+			"id": "eyqyTG4DZkHdjb4le",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e-O689QV494UNnZgb"
+			},
+			"description": "Golden-tipped Bullet, .455 Webley",
+			"reference": "HT94",
+			"notes": "Shot by Zaraazas",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"value": 1,
+			"weight": "0.05 lb",
+			"weapons": [
+				{
+					"id": "WEiM1yIORtjSzsCmO",
+					"damage": {
+						"type": "pi+",
+						"base": "2d-1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "120/1,300",
+					"rate_of_fire": "3",
+					"shots": "6(2i)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "2d-1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
 			"id": "eVrSf0WV6H0Ch3txz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3959,7 +4161,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:53+02:00",
-	"modified_date": "2025-04-21T22:20:53+02:00",
+	"modified_date": "2025-04-22T22:22:24+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
