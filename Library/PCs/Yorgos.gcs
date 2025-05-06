@@ -3273,6 +3273,27 @@
 				"level": 5,
 				"rsl": "Per-5"
 			}
+		},
+		{
+			"id": "sNxnajiQW4yI8I23z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8parl7zgbXys0OF2"
+			},
+			"name": "Wrestling",
+			"reference": "B228,MA61",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"points": 4,
+			"calc": {
+				"level": 14,
+				"rsl": "DX+1"
+			}
 		}
 	],
 	"equipment": [
@@ -4108,7 +4129,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-04-22T19:27:00+02:00",
+	"modified_date": "2025-05-01T18:35:09+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

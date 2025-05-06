@@ -17,25 +17,30 @@
 			],
 			"modifiers": [
 				{
-					"id": "m0O5QbzDaO5pCw5US",
+					"id": "mWwEyDEF9mVlZpbV0",
 					"name": "Super-Speed",
 					"reference": "P42",
 					"cost": 20,
 					"disabled": true
 				},
 				{
-					"id": "m5s7ovnlbYSvSOFg0",
+					"id": "mFlvjhdMGQHh4p0Rm",
 					"name": "Non-Combat Speed",
 					"reference": "P42",
 					"cost": -60,
 					"disabled": true
+				},
+				{
+					"id": "mgDVEgPjDrZR95rNM",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 100,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 100
+				"points": 90
 			}
 		},
 		{
@@ -114,11 +119,16 @@
 					"reference": "PSI13",
 					"cost": -20,
 					"disabled": true
+				},
+				{
+					"id": "mHaS_0p3MtRlRcNG8",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 50,
 			"calc": {
-				"points": 50
+				"points": 45
 			}
 		},
 		{
@@ -129,9 +139,16 @@
 				"Advantage",
 				"Mental"
 			],
+			"modifiers": [
+				{
+					"id": "mERSc8xBD7JMIMNoD",
+					"name": "Keumic",
+					"cost": -10
+				}
+			],
 			"base_points": 15,
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		},
 		{
@@ -148,9 +165,16 @@
 				"Exotic",
 				"Mental"
 			],
+			"modifiers": [
+				{
+					"id": "mToKsvxnY048Qbd3n",
+					"name": "Keumic",
+					"cost": -10
+				}
+			],
 			"base_points": -100,
 			"calc": {
-				"points": -100
+				"points": -90
 			}
 		},
 		{
@@ -250,6 +274,11 @@
 					"reference": "PSI14",
 					"cost": -10,
 					"disabled": true
+				},
+				{
+					"id": "mqHsXgFt44Yq8272v",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -301,6 +330,11 @@
 					"cost": -5,
 					"cost_type": "points",
 					"disabled": true
+				},
+				{
+					"id": "m-mWmn7HSzdWDWQK3",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -322,6 +356,11 @@
 					"reference": "P48",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "mjaFbA-cZmtEsBTCg",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 15,
@@ -355,7 +394,7 @@
 				}
 			],
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		},
 		{
@@ -375,11 +414,16 @@
 					"cost": -10,
 					"cost_type": "points",
 					"disabled": true
+				},
+				{
+					"id": "m4ig__g4823jC8C8l",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 10,
 			"calc": {
-				"points": 10
+				"points": 9
 			}
 		},
 		{
@@ -538,11 +582,16 @@
 					"reference": "PSI14",
 					"cost": 40,
 					"disabled": true
+				},
+				{
+					"id": "m6fQTTz6vjhUqXojx",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 80,
 			"calc": {
-				"points": 80
+				"points": 72
 			}
 		},
 		{
@@ -657,223 +706,16 @@
 					"reference": "P56",
 					"cost": -10,
 					"disabled": true
+				},
+				{
+					"id": "mnPieeqA_zTA6QOKT",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 40,
 			"calc": {
-				"points": 40
-			}
-		},
-		{
-			"id": "tzT7mYwIe521xi0tH",
-			"name": "Jumper (@World/Time/Spirit@)",
-			"reference": "B64,P57,PSI15,DF9:5",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Supernatural"
-			],
-			"modifiers": [
-				{
-					"id": "mxVRCY57zv_qlErC7",
-					"name": "Extra Carrying Capacity",
-					"reference": "B64",
-					"notes": "Up to Light Encumbrance",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "mYz6jz3o4JTQ-yKg4",
-					"name": "Extra Carrying Capacity",
-					"reference": "B64",
-					"notes": "Up to Medium Encumbrance",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "m6G0du52PN79JXrgc",
-					"name": "Extra Carrying Capacity",
-					"reference": "B64",
-					"notes": "Up to Heavy Encumbrance",
-					"cost": 30,
-					"disabled": true
-				},
-				{
-					"id": "mpB0joNj5BhTHj2yP",
-					"name": "Extra Carrying Capacity",
-					"reference": "B64",
-					"notes": "Up to Extra-Heavy Encumbrance",
-					"cost": 50,
-					"disabled": true
-				},
-				{
-					"id": "mXU6NejcgDaZpexmj",
-					"name": "New Worlds",
-					"reference": "B64",
-					"cost": 50,
-					"disabled": true
-				},
-				{
-					"id": "mJlaezFDLuo7SSr0f",
-					"name": "Omni-Jump",
-					"reference": "B64",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "m6HmyaD3GpVAGDNJY",
-					"name": "Tracking",
-					"reference": "B64",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "m9-q9Qgxy4SL99DJ6",
-					"name": "Tunnel",
-					"reference": "B64",
-					"cost": 40,
-					"disabled": true
-				},
-				{
-					"id": "maJy1Fj9psBb_6J1m",
-					"name": "Warp Jump",
-					"reference": "B64",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "mVmwdYS2JmKxmM0Lz",
-					"name": "Cannot Escort",
-					"reference": "B64",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mbaBSAtyADcfj5del",
-					"name": "Cannot Follow",
-					"reference": "B64",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "m5jiOjbjRKg89M7zA",
-					"name": "Drift",
-					"reference": "B64",
-					"cost": -15,
-					"disabled": true
-				},
-				{
-					"id": "mFp2q0x0rvfFBHOLN",
-					"name": "Limited Jump",
-					"reference": "B64",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mOSG5a9joQyo9hU_b",
-					"name": "Maximum Range",
-					"reference": "B64",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mvkj_g2HzATrEvt42",
-					"name": "Naked",
-					"reference": "B65",
-					"cost": -30,
-					"disabled": true
-				},
-				{
-					"id": "mxdLLcUamJyqWv6ke",
-					"name": "Stunned",
-					"reference": "B65",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mM8sUugTEgJZahhEj",
-					"name": "Interplanar",
-					"reference": "P57",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mJ2vN_HybBsh6Ac9A",
-					"name": "Interplanar Only",
-					"reference": "P57",
-					"disabled": true
-				},
-				{
-					"id": "mphSewTG9kdxKXee3",
-					"name": "Reliable",
-					"reference": "P57",
-					"cost": 5,
-					"levels": 1,
-					"disabled": true
-				},
-				{
-					"id": "mibLz_4-G9t7JBfUC",
-					"name": "Limited Access",
-					"reference": "P57",
-					"notes": "@Worlds@",
-					"disabled": true
-				},
-				{
-					"id": "mwMO6iHA-VZEU372z",
-					"name": "Projection",
-					"reference": "P58",
-					"notes": "Can't Affect",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "m7rKwV64ic5e3I1IF",
-					"name": "Projection",
-					"reference": "P58",
-					"notes": "Can Affect",
-					"disabled": true
-				},
-				{
-					"id": "m7WxCDvuD65rpC_Zb",
-					"name": "Projection",
-					"reference": "P58",
-					"notes": "Physical",
-					"cost": -25,
-					"disabled": true
-				},
-				{
-					"id": "mARMxx7CarCVEd8sM",
-					"name": "Special Movement",
-					"reference": "P58",
-					"notes": "@Movement@",
-					"disabled": true
-				},
-				{
-					"id": "mvBXQLcLl9CnizT9J",
-					"name": "Special Portal",
-					"reference": "P58",
-					"notes": "@Portal@",
-					"disabled": true
-				},
-				{
-					"id": "moP3Hc_mfuMKpObZw",
-					"name": "Faster Concentration",
-					"reference": "PSI15",
-					"cost": 5,
-					"levels": 1,
-					"disabled": true
-				},
-				{
-					"id": "mxRARYDGUdGAfQuFr",
-					"name": "Improved",
-					"reference": "PSI15",
-					"cost": 10,
-					"disabled": true
-				}
-			],
-			"base_points": 100,
-			"calc": {
-				"points": 100
+				"points": 36
 			}
 		},
 		{
@@ -914,11 +756,16 @@
 					"notes": "@Class of Spirits@",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "m3RWf6ovNcL6TKUdF",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 10,
 			"calc": {
-				"points": 10
+				"points": 9
 			}
 		},
 		{
@@ -1048,11 +895,16 @@
 					"reference": "PSI15",
 					"cost": -30,
 					"disabled": true
+				},
+				{
+					"id": "mpH4nqpXSJ41OrWrD",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 50,
 			"calc": {
-				"points": 50
+				"points": 45
 			}
 		},
 		{
@@ -1137,11 +989,16 @@
 					"notes": "Unlimited snapshots",
 					"cost": 150,
 					"disabled": true
+				},
+				{
+					"id": "mlaRN-eIoDb0PLLaM",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 20,
 			"calc": {
-				"points": 20
+				"points": 18
 			}
 		},
 		{
@@ -1210,11 +1067,16 @@
 					"reference": "P62",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "m2CjL3ChzYOcnr1r5",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 30,
 			"calc": {
-				"points": 30
+				"points": 27
 			}
 		},
 		{
@@ -1299,6 +1161,11 @@
 					"notes": "With Always On",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "mE4t0b_ZluVRLos9s",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 4,
@@ -1442,6 +1309,11 @@
 					"reference": "B91",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "mPW7NjTxxXOcl6y0D",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -1464,88 +1336,92 @@
 			],
 			"modifiers": [
 				{
-					"id": "mGi5UZlfEyEE9U0Pm",
+					"id": "miQrUEAuGaDEIdv3Y",
 					"name": "Unlimited",
 					"reference": "B85",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "meoh0PVfsYwt9ElMr",
+					"id": "mDSo6uLN7fXnLiFgK",
 					"name": "Cosmetic",
 					"reference": "B85",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mWqhAmF-q6yZXVIpQ",
+					"id": "mmoO9-bWJBrnVJlQ4",
 					"name": "Retains Shape",
 					"reference": "B85",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "msT0romr2sGpOAe_e",
+					"id": "mvQ9ku5FSqsbvgr35",
 					"name": "Mass Conservation",
 					"reference": "B85",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "meUCMnOauZH4dYJmt",
+					"id": "mi2jA7NBSEoFZaPci",
 					"name": "Active Change",
 					"reference": "P75",
 					"cost": 20,
 					"disabled": true
 				},
 				{
-					"id": "mTmIxmmxm6k-9Ej57",
+					"id": "mFynkOlGOQhS-Gu5d",
 					"name": "Improvised Forms",
 					"reference": "P75",
 					"cost": 100,
 					"disabled": true
 				},
 				{
-					"id": "m-LCPVKxkn6DoP1GN",
+					"id": "mXnCQPHzGjfM5VXRX",
 					"name": "Cosmic (For Improvised Forms)",
 					"reference": "P75",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mw5JU33e3157061ja",
+					"id": "mNH1MnQBdZ7D1m3pK",
 					"name": "No Memorization Required",
 					"reference": "P75",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mnNfHtYtEZEtfLcit",
+					"id": "mfmf5GYsWLrl2cp6a",
 					"name": "Cannot Memorize Forms",
 					"reference": "P75",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "m129xmH62kOFH-yBX",
+					"id": "m_P1YkI4b0Rj0vAl2",
 					"name": "Flawed",
 					"reference": "P75",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mfCTDGh0bAH9spIP9",
+					"id": "mbxyrkNEWzA2nLQ0O",
 					"name": "Unliving Forms Only",
 					"reference": "P75",
 					"disabled": true
+				},
+				{
+					"id": "m4rigw--DbJV7hEO_",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 100,
 			"points_per_level": 1,
 			"can_level": true,
-			"levels": 1,
 			"calc": {
-				"points": 101
+				"points": 90
 			}
 		},
 		{
@@ -1621,6 +1497,11 @@
 					"reference": "PSI16",
 					"cost": -20,
 					"disabled": true
+				},
+				{
+					"id": "mR4P3eWZND9rRxMeL",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 2,
@@ -1646,11 +1527,16 @@
 					"reference": "P65",
 					"cost": 100,
 					"disabled": true
+				},
+				{
+					"id": "mpmp_CUZmXarlhsKe",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 15,
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		},
 		{
@@ -1825,11 +1711,16 @@
 					"cost": -15,
 					"levels": 1,
 					"disabled": true
+				},
+				{
+					"id": "mXN4BcThYZca9Cr3y",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 100,
 			"calc": {
-				"points": 100
+				"points": 90
 			}
 		},
 		{
@@ -1892,11 +1783,16 @@
 					"notes": "Combined with Active Only or Can't See Own Death",
 					"cost": -20,
 					"disabled": true
+				},
+				{
+					"id": "ma2IotcI1IcFUcpSJ",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 25,
 			"calc": {
-				"points": 25
+				"points": 23
 			}
 		},
 		{
@@ -1964,11 +1860,16 @@
 					"reference": "PSI17",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "mcWYG-5-zYfUj-SC4",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 20,
 			"calc": {
-				"points": 20
+				"points": 18
 			}
 		},
 		{
@@ -2003,29 +1904,15 @@
 					"reference": "P70",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "mR3TdTIwqe-PP-kf0",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
 				"points": 0
-			}
-		},
-		{
-			"id": "tOxXtq7KT-J0hD6al",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tnyT6i4xpc-zi5-m8"
-			},
-			"name": "Reawakened",
-			"reference": "B80",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Supernatural"
-			],
-			"base_points": 10,
-			"calc": {
-				"points": 10
 			}
 		},
 		{
@@ -2140,6 +2027,11 @@
 					"notes": "@Rare@",
 					"cost": -10,
 					"disabled": true
+				},
+				{
+					"id": "maOyJy7CVPHhGu2il",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -2215,11 +2107,16 @@
 					"reference": "P71",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "mWBjUgurfbNMgGaEt",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 40,
 			"calc": {
-				"points": 40
+				"points": 36
 			}
 		},
 		{
@@ -2256,13 +2153,18 @@
 					"reference": "P108",
 					"notes": "Uses per game week equal to its maximum possible uses per session",
 					"disabled": true
+				},
+				{
+					"id": "mLTmCbEA7eSNsIs5a",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 15,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		},
 		{
@@ -2334,6 +2236,11 @@
 					"reference": "H19",
 					"notes": "Only for Alternate Form.",
 					"disabled": true
+				},
+				{
+					"id": "mNLgoQbGxTTgOu6Ki",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -2487,11 +2394,16 @@
 					"reference": "P77",
 					"cost": -25,
 					"disabled": true
+				},
+				{
+					"id": "mIOdRlBE4Trs3tZ5s",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 80,
 			"calc": {
-				"points": 80
+				"points": 72
 			}
 		},
 		{
@@ -2549,6 +2461,11 @@
 					"reference": "P78",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "me0hWsFldj6iSCeNg",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 5,
@@ -2580,11 +2497,16 @@
 					"reference": "P48",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "mzT17I-qa8kPyDYEj",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 10,
 			"calc": {
-				"points": 10
+				"points": 9
 			}
 		},
 		{
@@ -2616,11 +2538,16 @@
 					"reference": "P48",
 					"cost": 50,
 					"disabled": true
+				},
+				{
+					"id": "mqmmvNtZ8iFaCXfvw",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 10,
 			"calc": {
-				"points": 10
+				"points": 9
 			}
 		},
 		{
@@ -2681,11 +2608,16 @@
 					"reference": "P108",
 					"notes": "Uses per game day equal to its maximum possible uses per real hour",
 					"disabled": true
+				},
+				{
+					"id": "m2wMLxSVFMuCW1S8T",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 100,
 			"calc": {
-				"points": 100
+				"points": 90
 			}
 		},
 		{
@@ -2862,6 +2794,11 @@
 					"reference": "PSI17",
 					"cost": 20,
 					"disabled": true
+				},
+				{
+					"id": "mrd0BSE1kYkkbDLCR",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"calc": {
@@ -3006,6 +2943,11 @@
 					"reference": "MATG28",
 					"cost": -45,
 					"disabled": true
+				},
+				{
+					"id": "mBH1XJUZsyk7BpmPx",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 5,
@@ -3039,6 +2981,11 @@
 					"reference": "B92",
 					"cost": -50,
 					"disabled": true
+				},
+				{
+					"id": "mEPAp815D77_YrWM9",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 5,
@@ -3062,9 +3009,16 @@
 				"Mental",
 				"Supernatural"
 			],
+			"modifiers": [
+				{
+					"id": "mZI9CD7lmbOwBnU_F",
+					"name": "Keumic",
+					"cost": -10
+				}
+			],
 			"base_points": 15,
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		},
 		{
@@ -3101,6 +3055,11 @@
 					"reference": "P84",
 					"cost": 25,
 					"disabled": true
+				},
+				{
+					"id": "meTvmd4yWTQ_tkdGZ",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 30,
@@ -3108,44 +3067,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 40
-			}
-		},
-		{
-			"id": "tuk9tCBCmF8VumjlD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqa93bDrD9kgk0ywo"
-			},
-			"name": "Timesickness",
-			"reference": "B158",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tJrTXnsDB81npsU1X",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tEBOrSyEu9NKNQskA"
-			},
-			"name": "Unique",
-			"reference": "B160",
-			"tags": [
-				"Disadvantage",
-				"Mental",
-				"Supernatural"
-			],
-			"base_points": -5,
-			"calc": {
-				"points": -5
+				"points": 36
 			}
 		},
 		{
@@ -3241,13 +3163,18 @@
 					"notes": "@Common Trigger@",
 					"cost": -5,
 					"disabled": true
+				},
+				{
+					"id": "mrdOvEoFtPFf2NaRb",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"points_per_level": 50,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 50
+				"points": 45
 			}
 		},
 		{
@@ -3555,40 +3482,16 @@
 					"reference": "PSI18",
 					"cost": -60,
 					"disabled": true
+				},
+				{
+					"id": "mB5BbE-s8Trq4Ui4o",
+					"name": "Keumic",
+					"cost": -10
 				}
 			],
 			"base_points": 100,
 			"calc": {
-				"points": 100
-			}
-		},
-		{
-			"id": "tcjxqCmyJoL4w0GEx",
-			"name": "Weirdness Magnet",
-			"reference": "B161",
-			"tags": [
-				"Disadvantage",
-				"Mental",
-				"Supernatural"
-			],
-			"modifiers": [
-				{
-					"id": "mPR7e8OV323aML6ll",
-					"name": "Origins Magnet",
-					"reference": "SU32",
-					"disabled": true
-				}
-			],
-			"base_points": -15,
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"situation": "from others who realize you are a weirdness magnet (except parapsychologists, cultists, conspiracy theorists, thrill-seekers)",
-					"amount": -2
-				}
-			],
-			"calc": {
-				"points": -15
+				"points": 90
 			}
 		}
 	]

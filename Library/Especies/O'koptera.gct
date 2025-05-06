@@ -80,7 +80,7 @@
 					"name": "Advantages",
 					"children": [
 						{
-							"id": "tSpKUDMX9TR6lyWO4",
+							"id": "tYhoXZNu1mHDnPUYd",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -95,14 +95,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mkvFm5BhABpAXQ43v",
+									"id": "mnhkwmxZ4OPDi6Mho",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mWF01I5j0O13mi3QL",
+									"id": "mghxEQnFC0hxBW0Tt",
 									"name": "Hardened",
 									"reference": "B47",
 									"cost": 20,
@@ -110,7 +110,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mFaKH3ICUdP2ujRpF",
+									"id": "mDfxQzLF_B5yZrYyp",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances @Trait@",
@@ -118,7 +118,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mZVm3PjZe7braYQGv",
+									"id": "muNJwBASErueTXD3p",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Healing only",
@@ -126,7 +126,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m3wQ_R2F4nDlUxp6t",
+									"id": "meI0mBpn2w2KAzq6I",
 									"name": "Absorption",
 									"reference": "B46",
 									"notes": "Enhances any trait",
@@ -134,14 +134,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mAAuldmBAs_C5vVC8",
+									"id": "m09PWsqTMwdYGRlm9",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "mnZebTPGwAoi1MyOc",
+									"id": "mv8-NbbGDZ9gFDJ4j",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Rare@",
@@ -150,7 +150,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m3xV1es0Oghk-AbMa",
+									"id": "moKAFuYdUT_KDD7c6",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Occasional@",
@@ -158,7 +158,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mGNwpK5Vhn3Gh_Ebd",
+									"id": "moJ4xGeJKYyNgzbmx",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Common@",
@@ -166,7 +166,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mR1-f8Mlfpi35cr55",
+									"id": "mxyihYOsX9E4VRHGR",
 									"name": "Bane",
 									"reference": "H14",
 									"notes": "@Very Common@",
@@ -174,7 +174,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mcBFHC8Bujg2SXzKH",
+									"id": "mcLC6a610IuKjtE04",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "Front",
@@ -182,14 +182,14 @@
 									"disabled": true
 								},
 								{
-									"id": "meVUbL7n7JUFejUN8",
+									"id": "mHwPTKveiFh3xVwlV",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mgYZOy8oHyYYtYqs_",
+									"id": "mU0UvlGugL9xCivLo",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Very Common Attack Form@",
@@ -197,21 +197,21 @@
 									"disabled": true
 								},
 								{
-									"id": "m1kkajxpRCh_K_ej5",
+									"id": "mKaNJm3udZdM5pimo",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mZPJgYwphDTOZelVv",
+									"id": "mfWbiqEj4k_zT6aKk",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mkdqYpABqw4RtPZe5",
+									"id": "mSa_rJdehyzZF6en9",
 									"name": "Directional",
 									"reference": "B47",
 									"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -219,7 +219,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mL_-NJDgQ-v2RLmiT",
+									"id": "mB8Eagt9s-ZJCL7rC",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Common Attack Form@",
@@ -227,14 +227,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mAEgq7x0AvCvuMzKh",
+									"id": "mc5edEijdA59SfqLX",
 									"name": "Tough Skin",
 									"notes": "Effects that just require skin contact or a scratch ignore this DR",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mUMN-QxolPpJww1jW",
+									"id": "mdPGIzh2iKalZnLqS",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Occasional Attack Form@",
@@ -242,14 +242,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mA2ok0pn7h9KJgPSW",
+									"id": "msBjRnKGDoWzSFPY1",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost": -80,
 									"disabled": true
 								},
 								{
-									"id": "mfgLT0vuJuA9FU5vW",
+									"id": "m1lawDYdzZo5iUMsF",
 									"name": "Limited",
 									"reference": "B46",
 									"notes": "@Rare Attack Form@",
@@ -257,27 +257,27 @@
 									"disabled": true
 								},
 								{
-									"id": "mTI5hbpQSzVnXvvbK",
+									"id": "mpyqjaAls7Nqr2bay",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost": 10,
 									"disabled": true
 								},
 								{
-									"id": "mj7wmhR_4TQW_oej1",
+									"id": "mL72Gwr20NjOdgUNN",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "mvoUQajajwjWDxzcu",
+									"id": "mJoGxY6Do7vsVhUdL",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mRCJQXaMM1V6WV4A5",
+									"id": "mcWLwnI76E4voq0RN",
 									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 									"reference": "B47",
 									"cost": -10,
@@ -289,87 +289,19 @@
 								{
 									"type": "dr_bonus",
 									"locations": [
-										"skull"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"face"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"neck"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"torso"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
+										"arms",
+										"eyes",
+										"face",
+										"feet",
+										"groin",
+										"hands",
+										"head",
+										"legs",
+										"neck",
+										"skull",
+										"tail",
+										"torso",
 										"vitals"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"groin"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"arm"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"hand"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"leg"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"foot"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"tail"
 									],
 									"amount": 1,
 									"per_level": true
