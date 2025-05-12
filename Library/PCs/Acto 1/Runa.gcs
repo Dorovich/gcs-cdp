@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "A7ihFSVGiblNzcFYY",
-	"total_points": 173,
+	"total_points": 174,
 	"points_record": [
 		{
 			"when": "2024-07-25T00:10:31+02:00",
-			"points": 173,
+			"points": 174,
 			"reason": "Initial points"
 		}
 	],
@@ -19,7 +19,7 @@
 		"handedness": "Right",
 		"gender": "Female",
 		"height": "5'0.48\"",
-		"weight": "124 lb",
+		"weight": "130 lb",
 		"player_name": "Judith",
 		"title": "Peregrina",
 		"organization": "YFRLD / Tribu Korogán",
@@ -401,6 +401,35 @@
 					"slots": 2,
 					"hit_penalty": -1,
 					"description": "MoS: (0-1) Random, (2+) Random on arm.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "arm_left",
+								"choice_name": "Left Arm",
+								"table_name": "Left Arm",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							},
+							{
+								"id": "arm_right",
+								"choice_name": "Right Arm",
+								"table_name": "Right Arm",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							}
+						]
+					},
 					"calc": {
 						"roll_range": "4-5",
 						"dr": {
@@ -414,6 +443,35 @@
 					"table_name": "Hands",
 					"hit_penalty": -2,
 					"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen hand.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "hand_left",
+								"choice_name": "Left Hand",
+								"table_name": "Left Hand",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							},
+							{
+								"id": "hand_right",
+								"choice_name": "Right Hand",
+								"table_name": "Right Hand",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							}
+						]
+					},
 					"calc": {
 						"roll_range": "-",
 						"dr": {
@@ -430,7 +488,7 @@
 					"calc": {
 						"roll_range": "6-8",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -441,7 +499,7 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -454,7 +512,7 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -465,10 +523,39 @@
 					"slots": 4,
 					"hit_penalty": -1,
 					"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 1/6 to hit the foot.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "leg_left",
+								"choice_name": "Left Leg",
+								"table_name": "Left Leg",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 2
+									}
+								}
+							},
+							{
+								"id": "leg_right",
+								"choice_name": "Right Leg",
+								"table_name": "Right Leg",
+								"hit_penalty": -1,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 2
+									}
+								}
+							}
+						]
+					},
 					"calc": {
 						"roll_range": "9-12",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -478,6 +565,35 @@
 					"table_name": "Feet",
 					"hit_penalty": -2,
 					"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "foot_left",
+								"choice_name": "Left Foot",
+								"table_name": "Left Foot",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 1
+									}
+								}
+							},
+							{
+								"id": "foot_right",
+								"choice_name": "Right Foot",
+								"table_name": "Right Foot",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 1
+									}
+								}
+							}
+						]
+					},
 					"calc": {
 						"roll_range": "-",
 						"dr": {
@@ -495,9 +611,7 @@
 		"notes_display": "inline",
 		"skill_level_adj_display": "tooltip",
 		"show_spell_adj": true,
-		"hide_source_mismatch": true,
-		"hide_tl_column": true,
-		"hide_lc_column": true
+		"hide_source_mismatch": true
 	},
 	"attributes": [
 		{
@@ -2413,612 +2527,640 @@
 			}
 		},
 		{
-			"id": "Tx1GqHDOUux1Poys5",
+			"id": "TJSoD1m-ZJp5viulB",
 			"name": "Korkon",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tdxPtvCI8bB2JGK4P",
-					"name": "Crushing Striker (Horns)",
-					"reference": "B88,MA47",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
+					"id": "TURJVlj5Z8Ely4ui_",
+					"name": "Advantages",
+					"children": [
 						{
-							"id": "mZsrGzFcTYy7gkUHr",
-							"name": "Cannot Parry",
-							"reference": "B88",
-							"cost": -40,
-							"disabled": true
+							"id": "tnN8F02vqaW4TnPNf",
+							"name": "Crushing Striker (Horns)",
+							"reference": "B88,MA47",
+							"notes": "Target at -5",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mR9dyIVZ3w0jMDDbP",
+									"name": "Cannot Parry",
+									"reference": "B88",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m1toy_jNDO7vih1dc",
+									"name": "Clumsy",
+									"reference": "B88",
+									"cost": -20,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mgcEfEHMM9acOT2wQ",
+									"name": "Limited Arc (Front)",
+									"reference": "B88",
+									"cost": -40
+								},
+								{
+									"id": "m1AsxOKfGsEX6IvGC",
+									"name": "Weak",
+									"cost": -50,
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "this_weapon",
+											"name": {
+												"compare": "is"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": -1,
+											"per_die": true
+										}
+									],
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"weapons": [
+								{
+									"id": "wwUvhUvwKmziXi9di",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"reach": "C",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
+									"calc": {
+										"level": 10,
+										"damage": "1d cr",
+										"parry": "10"
+									}
+								}
+							],
+							"calc": {
+								"points": 3
+							}
 						},
 						{
-							"id": "mWVaeRIMGG8WkG3pB",
-							"name": "Clumsy",
-							"reference": "B88",
-							"cost": -20,
+							"id": "t3Hvc5iVZd_zwC7F3",
+							"name": "Damage Resistance",
+							"reference": "B47,P45,MA43,PSI14",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m52Uik1bvXvu5sPfr",
+									"name": "Force Field",
+									"reference": "B47",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "moFbaTVwge9MfnK97",
+									"name": "Hardened",
+									"reference": "B47",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mriGzl0uMCUeGt4IC",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Enhances @Trait@",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mjS7QNDFotj7P0czR",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Healing only",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mLR_LaQbQTu0CSrhM",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Enhances any trait",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mR1xt6c-zhis3umkc",
+									"name": "Reflection",
+									"reference": "B47",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mnZ7PuoLTHalxCydp",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Rare@",
+									"cost": -1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m37gBJ6wHmJaVxn--",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Occasional@",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "mZzvvgD9C8ryad43Z",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Common@",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mJD4lu8jQmtoO6PHl",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Very Common@",
+									"cost": -15,
+									"disabled": true
+								},
+								{
+									"id": "mOXSJQLJFP1PXdDU8",
+									"name": "Directional",
+									"reference": "B47",
+									"notes": "Front",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mFTb9u7Aq745uNF7l",
+									"name": "Flexible",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mcil3A-iUA8WYWrpW",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Very Common Attack Form@",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mTHdNMea3-ppnqK9Z",
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mghVioPoKq0iU3L1F",
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mzxpLB9uHPBrxIPeC",
+									"name": "Directional",
+									"reference": "B47",
+									"notes": "@Direction: Back, Right, Left, Top or Underside@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "maM4PwuxOvvhV-dYa",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Common Attack Form@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mue_VIWHMwM46sxh1",
+									"name": "Tough Skin",
+									"notes": "Effects that just require skin contact or a scratch ignore this DR",
+									"cost": -40
+								},
+								{
+									"id": "m18Pza4N5yeprq_zG",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Occasional Attack Form@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "mA3AGhfiGpHo_yDDp",
+									"name": "Ablative",
+									"reference": "B47",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "m2gUcWj0NM0aWT9Cg",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Rare Attack Form@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "mJTRuzewEihapBTFp",
+									"name": "Laminate",
+									"reference": "RSWL18",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mvgf-4dVhT5c36MOb",
+									"name": "Malediction-Proof",
+									"reference": "PSI14",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "moAUrlEZEpg_9q9OX",
+									"name": "Maledictions Only",
+									"reference": "PSI14",
+									"disabled": true
+								},
+								{
+									"id": "mRNLgmNwFNEI5W2LF",
+									"name": "Partial (Skull only)",
+									"reference": "B47",
+									"cost": -70
+								}
+							],
+							"points_per_level": 5,
 							"features": [
 								{
-									"type": "skill_bonus",
-									"selection_type": "this_weapon",
-									"name": {
-										"compare": "is"
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"brain"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "toIt9w3G2WNNxfjsJ",
+							"name": "Fur",
+							"reference": "B101",
+							"tags": [
+								"Exotic",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tHq6H706zh1jxKpWV",
+							"name": "Hooves",
+							"reference": "B42",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 3,
+							"weapons": [
+								{
+									"id": "wVLyIerhYV-ARScH_",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
 									},
+									"usage": "Trample",
+									"usage_notes": "Only on SM-2 or (prone) SM-1",
+									"reach": "C,1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Brawling",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Karate",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"level": 8,
+										"damage": "1d cr"
+									}
+								}
+							],
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"feet"
+									],
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "tMwcZC6Wd1mDwVToE",
+							"name": "Temperature Tolerance",
+							"reference": "B93",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "tkFului2L2iHz19PA",
+							"name": "Universal Digestion",
+							"reference": "B95,P86",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m95uPV6jTFsM9eArv",
+									"name": "Matter Eater",
+									"reference": "P86",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 16
+					}
+				},
+				{
+					"id": "TtVLEODjF4A4pMmfM",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "t9hoT8NpCOmS9WLlI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t50ZzyORV0rTiYwnb"
+							},
+							"name": "Decreased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Mental"
+							],
+							"points_per_level": -20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
 									"amount": -1,
 									"per_level": true
 								}
 							],
+							"can_level": true,
 							"levels": 1,
-							"disabled": true
+							"calc": {
+								"points": -20
+							}
 						},
 						{
-							"id": "mYS0noibXMAuoP9oq",
-							"name": "Limited Arc (Front)",
-							"reference": "B88",
-							"cost": -40
-						},
-						{
-							"id": "maVW4T1mBXWjS1lFO",
-							"name": "Weak",
-							"cost": -50,
+							"id": "tbab7gto6TrB9Y4ZM",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 10,
 							"features": [
 								{
-									"type": "weapon_bonus",
-									"selection_type": "this_weapon",
-									"name": {
-										"compare": "is"
-									},
-									"level": {
-										"compare": "at_least"
-									},
-									"amount": -1,
-									"per_die": true
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
 								}
 							],
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"weapons": [
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						},
 						{
-							"id": "wfQQckCZ6XHvfCpD1",
-							"damage": {
-								"type": "cr",
-								"st": "thr",
-								"modifier_per_die": 1
+							"id": "tz-Cip1WgrfDiAKZ7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tmpxhXmSORakqvrbn"
 							},
-							"reach": "C",
-							"parry": "0",
-							"defaults": [
+							"name": "Increased Perception",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
 								{
-									"type": "dx"
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tFLQmoT3KALXzPgCR",
+							"name": "Increased Strength",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "meSZlSs0x4A9GThKk",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost": -40,
+									"disabled": true
 								},
 								{
-									"type": "skill",
-									"name": "Brawling"
+									"id": "mTmr9SDgpEk0E23zA",
+									"name": "Size",
+									"reference": "B15",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "moMoJAXXDRpfNrkUo",
+									"name": "Super-Effort",
+									"reference": "SU24",
+									"cost": 300,
+									"disabled": true
 								}
 							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
 							"calc": {
-								"level": 10,
-								"damage": "1d cr",
-								"parry": "10"
+								"points": 10
+							}
+						},
+						{
+							"id": "tI9zXx_IM5mn4LyP1",
+							"name": "Increased Will",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 10
 							}
 						}
 					],
 					"calc": {
-						"points": 3
+						"points": 15
 					}
 				},
 				{
-					"id": "tUmuHlPzGq9Kg1aoa",
-					"name": "Damage Resistance",
-					"reference": "B47,P45,MA43,PSI14",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
+					"id": "TPZw25gU_tUDQNf-4",
+					"name": "Disadvantages",
+					"children": [
 						{
-							"id": "mG7C-Ux5yKiJPETpW",
-							"name": "Force Field",
-							"reference": "B47",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mzBVflZcBnMepkHXG",
-							"name": "Hardened",
-							"reference": "B47",
-							"cost": 20,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mi4dkCOAsL9uqkffx",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Enhances @Trait@",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mAWvWP1i33ezTB-7b",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Healing only",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mu8hFZ0ExEy-ihAds",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Enhances any trait",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mO3s3sIvdFw2oV7VJ",
-							"name": "Reflection",
-							"reference": "B47",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mhErMR7zjXdazTeBs",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Rare@",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "myomXJ-J_3RwCWXde",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Occasional@",
-							"cost": -5,
-							"disabled": true
-						},
-						{
-							"id": "mLZWeMi2G3L5EjN65",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Common@",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "mrqC6wqNTUVTTHCF8",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Very Common@",
-							"cost": -15,
-							"disabled": true
-						},
-						{
-							"id": "m0MVyaQHLgcE4x5zB",
-							"name": "Directional",
-							"reference": "B47",
-							"notes": "Front",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mNUc66rVo4LalzCpO",
-							"name": "Flexible",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mdmZA842IxNbyRe47",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "m0FJJ5CinY9-ZrGEw",
-							"name": "Semi-Ablative",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mkzqkk20UTf6_FBJ3",
-							"name": "Can't wear armor",
-							"reference": "B47",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "maKuqoy8PXnIPk9aY",
-							"name": "Directional",
-							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mlK6TaGcZVScycSBW",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Common Attack Form@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mqa3KiD_ezn9fVgLI",
-							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
-							"cost": -40
-						},
-						{
-							"id": "mWpdYOd7_PujqYTlB",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
-							"cost": -60,
-							"disabled": true
-						},
-						{
-							"id": "mFYWU6m7SnH6AE4jw",
-							"name": "Ablative",
-							"reference": "B47",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mDiYuxx1ouss6Gwbk",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Rare Attack Form@",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "m0tsCEKwX-o7kfk_R",
-							"name": "Laminate",
-							"reference": "RSWL18",
-							"cost": 10,
-							"disabled": true
-						},
-						{
-							"id": "md-7bIS76u0F3Z3RX",
-							"name": "Malediction-Proof",
-							"reference": "PSI14",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mHJXlGgsAzTfjkf7D",
-							"name": "Maledictions Only",
-							"reference": "PSI14",
-							"disabled": true
-						},
-						{
-							"id": "mEr_StmdEzBPg0ki7",
-							"name": "Partial (Skull only)",
-							"reference": "B47",
-							"cost": -70
-						}
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"skull"
+							"id": "truVTnqk-iM6ONY9v",
+							"name": "Stubbornness",
+							"reference": "B157",
+							"tags": [
+								"Disadvantage",
+								"Mental"
 							],
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"brain"
-							],
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 1
-					}
-				},
-				{
-					"id": "t5V2AgVyWOJotHo4i",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t50ZzyORV0rTiYwnb"
-					},
-					"name": "Decreased Intelligence",
-					"reference": "B15",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Mental"
-					],
-					"points_per_level": -20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "iq",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -20
-					}
-				},
-				{
-					"id": "tv0zrGBPhoc87rXB4",
-					"name": "Fur",
-					"reference": "B101",
-					"tags": [
-						"Exotic",
-						"Perk",
-						"Physical"
-					],
-					"base_points": 1,
-					"calc": {
-						"points": 1
-					}
-				},
-				{
-					"id": "tU_lW8UBIhq52pfOB",
-					"name": "Hooves",
-					"reference": "B42",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"base_points": 3,
-					"weapons": [
-						{
-							"id": "w2cv_nAlkWHxErrLt",
-							"damage": {
-								"type": "cr",
-								"st": "thr",
-								"modifier_per_die": 1
-							},
-							"usage": "Trample",
-							"usage_notes": "Only on SM-2 or (prone) SM-1",
-							"reach": "C,1",
-							"defaults": [
+							"base_points": -5,
+							"features": [
 								{
-									"type": "dx",
-									"modifier": -2
-								},
-								{
-									"type": "skill",
-									"name": "Brawling",
-									"modifier": -2
-								},
-								{
-									"type": "skill",
-									"name": "Karate",
-									"modifier": -2
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -1
 								}
 							],
 							"calc": {
-								"level": 8,
-								"damage": "1d cr"
+								"points": -5
 							}
-						}
-					],
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"feet"
-							],
-							"amount": 1
-						}
-					],
-					"calc": {
-						"points": 3
-					}
-				},
-				{
-					"id": "thRxlEj_SyAxR2aZc",
-					"name": "Increased Health",
-					"reference": "B14",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "ht",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "tP71BOC7p9OfIJ9Zg",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tmpxhXmSORakqvrbn"
-					},
-					"name": "Increased Perception",
-					"reference": "B16",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Mental",
-						"Physical"
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "per",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "tt0D2pYUwWOpfQOwT",
-					"name": "Increased Strength",
-					"reference": "B14",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mw-YA-ECluXh6YxqE",
-							"name": "No Fine Manipulators",
-							"reference": "B15",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "myPd1e-H6InbIAws3",
-							"name": "Size",
-							"reference": "B15",
-							"cost": -10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mBZFWlXLmaa7FMRnG",
-							"name": "Super-Effort",
-							"reference": "SU24",
-							"cost": 300,
-							"disabled": true
-						}
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "st",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "t_3np5veSvcgD8qhM",
-					"name": "Increased Will",
-					"reference": "B16",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Mental"
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "will",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "t5ExNOfO-SSoHmmwZ",
-					"name": "Stubbornness",
-					"reference": "B157",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -5,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from others",
-							"amount": -1
 						}
 					],
 					"calc": {
 						"points": -5
 					}
-				},
-				{
-					"id": "tt1zHK1IYMnZFfjD7",
-					"name": "Temperature Tolerance",
-					"reference": "B93",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"points_per_level": 1,
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 2
-					}
-				},
-				{
-					"id": "t0Yn6IGT5FciAWpsg",
-					"name": "Universal Digestion",
-					"reference": "B95,P86",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mkyvUBWKoqEh0DsmH",
-							"name": "Matter Eater",
-							"reference": "P86",
-							"cost": 300,
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"calc": {
-						"points": 5
-					}
 				}
 			],
 			"calc": {
-				"points": 25
+				"points": 26
 			}
 		},
 		{
@@ -4299,26 +4441,607 @@
 	],
 	"equipment": [
 		{
-			"id": "e1qUmgAGovsTJswKo",
+			"id": "eT0HB_MAyH0kxJ5DZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Low Tech/Low Tech Equipment.eqp",
-				"id": "eTONLiYjf4rvd5vlF"
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ehaJQEz4vKFr9XyDC"
 			},
-			"description": "Inmate jumpsuit",
-			"reference": "LT98",
-			"notes": "División de Caronte (Guardia de Niwel)",
+			"description": "Blowpipe",
+			"reference": "B275",
 			"tech_level": "0",
 			"tags": [
-				"Clothing"
+				"Missile Weapon",
+				"UsesAmmoType:Dart"
 			],
 			"value": 30,
-			"weight": "2 lb",
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WGJwxONiI_EJFnvff",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "2",
+					"accuracy": "1",
+					"range": "x4",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Blowpipe"
+						}
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-3 pi-",
+						"range": "24"
+					}
+				}
+			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 30,
-				"extended_weight": "2 lb"
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eisk95lO6-UCmTXSb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "emHhvrJhhl8gEmmf_"
+			},
+			"description": "Guja*",
+			"reference": "B272",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 300,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "wWnFCZf5FbimB-oYG",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung (sharp end)",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wN2c1IG6woA-Hxxe3",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust (sharp end)",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+2 imp",
+						"parry": "11"
+					}
+				},
+				{
+					"id": "wl8EXzc5azxzB-zyd",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung (blunt end)",
+					"reach": "1-2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+4 cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wKSEtawriKfkrNQj6",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Thrust (blunt end)",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d+1 cr",
+						"parry": "11"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "empuaWJ0WVhY7DmlR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e5elGPa0mpvNveBYM"
+			},
+			"description": "Heavy Leather Leggings",
+			"reference": "B283",
+			"tech_level": "1",
+			"tags": [
+				"Limb Armor"
+			],
+			"value": 60,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"legs"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eEInzZdD9GOzouRXX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eLUoq82xnnC1U0cXM"
+			},
+			"description": "Leather Armor",
+			"reference": "B283",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 100,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "enXX48MZWfPcaCZ88",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e3wbU7mGpoDa1MkZW"
+			},
+			"description": "Leather Gloves",
+			"reference": "B284",
+			"notes": "Flexible",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"value": 30,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eKwykhQ-AUTCS1aS1",
+			"description": "Venom Vial",
+			"notes": "Contains paralyzing venom from o'koptera (roll at HT-1).",
+			"legality_class": "4",
+			"value": 1,
+			"weight": "0.04 lb",
+			"quantity": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.2 lb"
+			}
+		}
+	],
+	"other_equipment": [
+		{
+			"id": "EN-Y7Q2Lu6FOq11t1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "EMNZJgZiRnFvArKtA"
+			},
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 60,
+			"weight": "3 lb",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eG_U2ZHdoCT2A5LvI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eES-b-ipuZmJ3CkyP"
+					},
+					"description": "Antitoxin Kit (O'koptera venom)",
+					"reference": "B289",
+					"notes": "Antidote for specific poison. 10 uses",
+					"tech_level": "6",
+					"tags": [
+						"Medical Gear"
+					],
+					"value": 25,
+					"weight": "0.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "eiPxh1AXYyjwj-qSP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eLt7ZoaK-NfuPNE_R"
+					},
+					"description": "Bandages",
+					"reference": "B289",
+					"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+					"tech_level": "0",
+					"tags": [
+						"Medical Gear"
+					],
+					"value": 10,
+					"weight": "2 lb",
+					"quantity": 2,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "eIuhKz-q7Tq7aJBEs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eorcvwCZeV7RsffFA"
+					},
+					"description": "Bear Trap",
+					"reference": "HT58",
+					"notes": "ST 15. Survival +1. Damage thr+2 crushing.",
+					"tech_level": "5",
+					"legality_class": "3",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 75,
+					"weight": "35 lb",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"extended_value": 150,
+						"extended_weight": "70 lb"
+					}
+				},
+				{
+					"id": "ekoF-pC1bUBUUU9aN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eY_2WQXxOPveFEJKi"
+					},
+					"description": "Canteen",
+					"reference": "HT53",
+					"notes": "1qt.",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 10,
+					"weight": "3 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eOpd7A1Tu_03o9aI7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eiykSXXTgOboA-GEm"
+					},
+					"description": "Compass",
+					"reference": "HT52",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 25,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eW5aCcwfVUotVzcMq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "emo1jrk6QPUN4ZErV"
+					},
+					"description": "Falconry Whistle",
+					"reference": "HT58",
+					"notes": "To call Azra",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 5,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eeKzLbuLAHPspJoeT",
+					"description": "Notebook and pencil",
+					"value": 2,
+					"weight": "0.4 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "0.4 lb"
+					}
+				},
+				{
+					"id": "e2SKFWyzZ0grHrEkw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "e0z9DCZj3jzgLmFSf"
+					},
+					"description": "Personal Basics",
+					"reference": "B288",
+					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 5,
+					"weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e7vxW5_5q11CcGCjB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eX4YtbQ2w0gEu4Ycc"
+					},
+					"description": "Pillow",
+					"reference": "HT56",
+					"tech_level": "1",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 15,
+					"weight": "0.6 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 15,
+						"extended_weight": "0.6 lb"
+					}
+				},
+				{
+					"id": "e-ZJ5JPIBI0U_fhhy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eQFSt355oQKikJmzb"
+					},
+					"description": "Rope, 1/2\"",
+					"reference": "HT56",
+					"notes": "\"Quantity\" represents yards. Supports 300lbs.",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 3,
+					"weight": "0.36 lb",
+					"quantity": 20,
+					"equipped": true,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "7.2 lb"
+					}
+				},
+				{
+					"id": "eBp5zIxGeDW1AjQ26",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eLEGjF9a2hWzDLYsr"
+					},
+					"description": "Traveler's Rations",
+					"reference": "B288",
+					"notes": "One meal",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 2,
+					"weight": "0.5 lb",
+					"quantity": 5,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "2.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 387,
+				"extended_weight": "92.2 lb"
 			}
 		}
 	],
@@ -4329,7 +5052,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-05-12T15:34:09+02:00",
+	"modified_date": "2025-04-22T19:33:10+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

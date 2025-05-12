@@ -45,6 +45,36 @@
 			}
 		},
 		{
+			"id": "tvq94XmH-3TC3oEvr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Power Ups/Power Ups Traits.adq",
+				"id": "tp75ScZgm_oYdvfDm"
+			},
+			"name": "Dabbler",
+			"reference": "PU2:16",
+			"notes": "@Up to 8 Skills@",
+			"tags": [
+				"Mental",
+				"Perk",
+				"Physical"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tToTfPINFyLrfLrrL",
+			"name": "Jaw ST",
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tRF3rsWu6L-VV7qFv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

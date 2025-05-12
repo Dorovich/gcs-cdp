@@ -1,0 +1,162 @@
+{
+	"version": 5,
+	"name": "Humanoid",
+	"roll": "2d",
+	"locations": [
+		{
+			"id": "head",
+			"choice_name": "Head",
+			"table_name": "Head",
+			"slots": 2,
+			"hit_penalty": -2,
+			"description": "MoS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
+			"calc": {
+				"roll_range": "2-3",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "skull",
+			"choice_name": "Skull",
+			"table_name": "Skull",
+			"hit_penalty": -2,
+			"dr_bonus": 2,
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 2
+				}
+			}
+		},
+		{
+			"id": "face",
+			"choice_name": "Face",
+			"table_name": "Face",
+			"hit_penalty": -2,
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "neck",
+			"choice_name": "Neck",
+			"table_name": "Neck",
+			"hit_penalty": -2,
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "eyes",
+			"choice_name": "Eyes",
+			"table_name": "Eyes",
+			"hit_penalty": -3,
+			"description": "Requires MoS 7+.",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "arms",
+			"choice_name": "Arms",
+			"table_name": "Arms",
+			"slots": 2,
+			"hit_penalty": -1,
+			"description": "MoS: (0-1) Random, (2+) Random on arm.",
+			"calc": {
+				"roll_range": "4-5",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "hands",
+			"choice_name": "Hands",
+			"table_name": "Hands",
+			"hit_penalty": -2,
+			"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen hand.",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "torso",
+			"choice_name": "Torso",
+			"table_name": "Torso",
+			"slots": 3,
+			"description": "MoS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
+			"calc": {
+				"roll_range": "6-8",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "vitals",
+			"choice_name": "Vitals",
+			"table_name": "Vitals",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "groin",
+			"choice_name": "Groin",
+			"table_name": "Groin",
+			"hit_penalty": -1,
+			"description": "Requires MoS 2+.",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "legs",
+			"choice_name": "Legs",
+			"table_name": "Legs",
+			"slots": 4,
+			"hit_penalty": -1,
+			"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 1/6 to hit the foot.",
+			"calc": {
+				"roll_range": "9-12",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "feet",
+			"choice_name": "Feet",
+			"table_name": "Feet",
+			"hit_penalty": -2,
+			"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		}
+	]
+}

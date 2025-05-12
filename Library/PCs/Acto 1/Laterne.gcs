@@ -3815,45 +3815,6 @@
 			}
 		},
 		{
-			"id": "sLZjLzFBB-ivRiw_V",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "svEm7OyeCu_9wJ8Kk"
-			},
-			"name": "Stealth",
-			"reference": "B222",
-			"tags": [
-				"Criminal",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "dx/a",
-			"encumbrance_penalty_multiplier": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 5,
-				"rsl": "DX-4"
-			}
-		},
-		{
 			"id": "sypelV7Tu7YohzklN",
 			"source": {
 				"library": "/gcs_user_library",

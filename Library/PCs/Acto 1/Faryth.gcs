@@ -12,6 +12,7 @@
 	"profile": {
 		"name": "Faryth",
 		"age": "25",
+		"birthday": "8 de Vord, 1º",
 		"eyes": "Blue",
 		"hair": "Black",
 		"skin": "Tan",
@@ -752,9 +753,10 @@
 		{
 			"attr_id": "hp",
 			"adj": 0,
+			"damage": 75,
 			"calc": {
 				"value": 11,
-				"current": 11,
+				"current": -64,
 				"points": 0
 			}
 		},
@@ -3105,7 +3107,7 @@
 			"tags": [
 				"Technical"
 			],
-			"specialization": "Communications",
+			"specialization": "Comms",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -4161,7 +4163,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:53+02:00",
-	"modified_date": "2025-04-22T22:22:24+02:00",
+	"modified_date": "2025-05-06T21:12:43+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
@@ -4169,18 +4171,18 @@
 		"parry_bonus": 2,
 		"block_bonus": 2,
 		"move": [
-			5,
-			4,
 			3,
 			2,
+			1,
+			1,
 			1
 		],
 		"dodge": [
-			13,
-			12,
-			11,
-			10,
-			9
+			7,
+			6,
+			5,
+			4,
+			3
 		]
 	}
 }
