@@ -2930,7 +2930,7 @@
 			"replacements": {
 				"Specialty": "Nu'karn"
 			},
-			"specialization": "@Specialty@",
+			"specialization": "Te'karn",
 			"difficulty": "iq/a",
 			"defaults": [
 				{

@@ -217,6 +217,7 @@
 			"name": "Battle-Hardened",
 			"reference": "B43",
 			"reference_highlight": "Combat Reflexes",
+			"notes": "(Experimental trait)",
 			"tags": [
 				"Advantage",
 				"Mental"

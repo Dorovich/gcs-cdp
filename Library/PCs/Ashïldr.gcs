@@ -656,21 +656,152 @@
 	],
 	"traits": [
 		{
-			"id": "tdwzmXxeOiGxFgT8r",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tE_Ykx9nKvsgBGb6L"
-			},
-			"name": "Ambidexterity",
-			"reference": "B39",
-			"tags": [
-				"Advantage",
-				"Physical"
+			"id": "TWIaLyybWFYFo15iH",
+			"name": "Advantages",
+			"children": [
+				{
+					"id": "tdwzmXxeOiGxFgT8r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tE_Ykx9nKvsgBGb6L"
+					},
+					"name": "Ambidexterity",
+					"reference": "B39",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tx7H04ET074a3FnSC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups Traits.adq",
+						"id": "tp75ScZgm_oYdvfDm"
+					},
+					"name": "Dabbler",
+					"reference": "PU2:16",
+					"notes": "Intimidation, Savoir-Faire (High Society), Acting, Public Speaking",
+					"tags": [
+						"Mental",
+						"Perk",
+						"Physical"
+					],
+					"replacements": {
+						"Up to 8 Skills": ""
+					},
+					"base_points": 1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Savoir-Faire"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "High Society"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Public Speaking"
+							},
+							"amount": 2
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tUM7Z9l70-r-EmTJN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tz-USDL9B_KrrVqDi"
+					},
+					"name": "Luck",
+					"reference": "B66,P59",
+					"notes": "Usable once per hour of play",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mYM5KkmSBpKx_CqUo",
+							"name": "Active",
+							"reference": "B66",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mGvAxFgu9V6KAV_kv",
+							"name": "Aspected",
+							"reference": "B66",
+							"notes": "@Aspect@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mJWL6CpoV_JoUi8V9",
+							"name": "Defensive",
+							"reference": "B66",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mg_c1CvD0NHVCtRsA",
+							"name": "Wishing",
+							"reference": "P59",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mdNfiLqga0dPF_uCF",
+							"name": "Game Time",
+							"reference": "P108",
+							"notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				}
 			],
-			"base_points": 5,
 			"calc": {
-				"points": 5
+				"points": 21
 			}
 		},
 		{
@@ -989,147 +1120,34 @@
 			}
 		},
 		{
-			"id": "tx7H04ET074a3FnSC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Power Ups/Power Ups Traits.adq",
-				"id": "tp75ScZgm_oYdvfDm"
-			},
-			"name": "Dabbler",
-			"reference": "PU2:16",
-			"notes": "Intimidation, Savoir-Faire (High Society), Acting, Public Speaking",
-			"tags": [
-				"Mental",
-				"Perk",
-				"Physical"
-			],
-			"replacements": {
-				"Up to 8 Skills": ""
-			},
-			"base_points": 1,
-			"features": [
+			"id": "TcOs3DeUL5Ik0i3Jd",
+			"name": "Disadvantages",
+			"children": [
 				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Intimidation"
+					"id": "tGHJABjpYA2Q7lo7N",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tX9WbqaCJNqsAwk2u"
 					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Savoir-Faire"
+					"name": "Expression",
+					"reference": "B164",
+					"notes": "\"???\"",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"replacements": {
+						"Saying": "Saying"
 					},
-					"specialization": {
-						"compare": "is",
-						"qualifier": "High Society"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Acting"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Public Speaking"
-					},
-					"amount": 2
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
 				}
 			],
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tGHJABjpYA2Q7lo7N",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tX9WbqaCJNqsAwk2u"
-			},
-			"name": "Expression",
-			"reference": "B164",
-			"notes": "\"???\"",
-			"tags": [
-				"Mental",
-				"Quirk"
-			],
-			"replacements": {
-				"Saying": "Saying"
-			},
-			"base_points": -1,
 			"calc": {
 				"points": -1
-			}
-		},
-		{
-			"id": "tUM7Z9l70-r-EmTJN",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Luck",
-			"reference": "B66,P59",
-			"notes": "Usable once per hour of play",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mYM5KkmSBpKx_CqUo",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mGvAxFgu9V6KAV_kv",
-					"name": "Aspected",
-					"reference": "B66",
-					"notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mJWL6CpoV_JoUi8V9",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mg_c1CvD0NHVCtRsA",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mdNfiLqga0dPF_uCF",
-					"name": "Game Time",
-					"reference": "P108",
-					"notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
-			"calc": {
-				"points": 15
 			}
 		},
 		{
@@ -2245,7 +2263,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-05-12T15:33:41+02:00",
+	"modified_date": "2025-05-13T22:51:35+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

@@ -2,7 +2,7 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "sxhLu0wbktuHPl9BD",
+			"id": "s7VYYinfd9znu57mw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -39,7 +39,7 @@
 			"points": 1
 		},
 		{
-			"id": "siLv2tfJpss3vUBoV",
+			"id": "sZjjcqM-VMBI_xklp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -70,7 +70,7 @@
 			"points": 1
 		},
 		{
-			"id": "sNuYbjmZfyMRBi_zg",
+			"id": "sXT7YDVdIc0OllS7f",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -102,7 +102,7 @@
 			"points": 1
 		},
 		{
-			"id": "sff3Q2N7aysshcexd",
+			"id": "suoArIIN14EMx1fQ-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -129,7 +129,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdZjcKQMc-adp5350",
+			"id": "sPPxnJUerx9pydsS8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -160,7 +160,7 @@
 			"points": 1
 		},
 		{
-			"id": "sFeBxZsEP3l2A-xqZ",
+			"id": "sIOWOUE9lyleFBobQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -181,7 +181,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjGau9uOe3kzIHeaQ",
+			"id": "sF5cRHkgHBUOrxtoG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -203,7 +203,7 @@
 			"points": 1
 		},
 		{
-			"id": "sGcoPkD9D1Z_pdg36",
+			"id": "sRdf252I2aGd_Aub6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -225,7 +225,7 @@
 			"points": 1
 		},
 		{
-			"id": "s8nA3KtKHE8sCPMHH",
+			"id": "siAxAi1nYGs_Qqu8c",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -247,7 +247,7 @@
 			"points": 1
 		},
 		{
-			"id": "sDm4JDcePI8mYf-4p",
+			"id": "sTmwXSOoyQMlA2zGy",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -269,7 +269,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjXe3fZUuzILMhhpt",
+			"id": "sg-pFyPViP-OXPlZd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -291,7 +291,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjCh6iPKgMDdLwdOV",
+			"id": "sCh3vKnzwW1Uegy2X",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -325,12 +325,7 @@
 			"points": 1
 		},
 		{
-			"id": "sYn8ZUAsluwwH5yBs",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sPHhENc1u1ER3SoI2"
-			},
+			"id": "sPHhENc1u1ER3SoI2",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -359,19 +354,14 @@
 			"points": 1
 		},
 		{
-			"id": "s-1m-3fysFgIUeTvO",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sQemDY88w7yJpwNLS"
-			},
+			"id": "sQemDY88w7yJpwNLS",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
 			"tags": [
 				"Technical"
 			],
-			"specialization": "Comms",
+			"specialization": "Communications",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -393,12 +383,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSqEcmPNq4I_BhGsl",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "syt8_GTv1nNP-IOfH"
-			},
+			"id": "syt8_GTv1nNP-IOfH",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -429,12 +414,7 @@
 			"points": 1
 		},
 		{
-			"id": "spZpwcsifK7JEbFIO",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "s1oyuaael0QaIwe8u"
-			},
+			"id": "s1oyuaael0QaIwe8u",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -465,12 +445,7 @@
 			"points": 1
 		},
 		{
-			"id": "sWa-HE4zkaZKaFmL1",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "s6haABgAVvqyNfKRD"
-			},
+			"id": "s6haABgAVvqyNfKRD",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -500,12 +475,7 @@
 			"points": 1
 		},
 		{
-			"id": "smB2WMKzO2--Jfad_",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "spHQmeH_S30bGd-0D"
-			},
+			"id": "spHQmeH_S30bGd-0D",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -534,12 +504,7 @@
 			"points": 1
 		},
 		{
-			"id": "sCd-iRjh2fOYvqkmG",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sydnURzZuAHLyeO7_"
-			},
+			"id": "sydnURzZuAHLyeO7_",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -571,12 +536,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLWvzV3cYfsbMnNTc",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "szc4i_mN9oyqP3MyY"
-			},
+			"id": "szc4i_mN9oyqP3MyY",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -605,12 +565,7 @@
 			"points": 1
 		},
 		{
-			"id": "spZzfZJcci7gNgncq",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sPq4Ki8OHM1CAnNAc"
-			},
+			"id": "sPq4Ki8OHM1CAnNAc",
 			"name": "Apparatus Operation",
 			"reference": "B189",
 			"reference_highlight": "Electronics Operation",
@@ -639,12 +594,7 @@
 			"points": 1
 		},
 		{
-			"id": "szEbdlKsmWHHnqbHY",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sWu9TT7C62I8-O987"
-			},
+			"id": "sWu9TT7C62I8-O987",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -674,12 +624,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIV0tF3ZTUJWdPgN8",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sH8IvwHUyMfUIOqCa"
-			},
+			"id": "sH8IvwHUyMfUIOqCa",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -687,7 +632,7 @@
 				"Maintenance",
 				"Repair"
 			],
-			"specialization": "Comms",
+			"specialization": "Communications",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -697,7 +642,7 @@
 				{
 					"type": "skill",
 					"name": "Apparatus Operation",
-					"specialization": "Comms",
+					"specialization": "Communications",
 					"modifier": -3
 				},
 				{
@@ -715,12 +660,7 @@
 			"points": 1
 		},
 		{
-			"id": "suHEJQE0Dun6c2LHd",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "scQY-y2CSQgvYR_gJ"
-			},
+			"id": "scQY-y2CSQgvYR_gJ",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -757,12 +697,7 @@
 			"points": 1
 		},
 		{
-			"id": "swK0_kSY-3XMn6MOV",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sohG89qcwMcMnc4a3"
-			},
+			"id": "sohG89qcwMcMnc4a3",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -798,12 +733,7 @@
 			"points": 1
 		},
 		{
-			"id": "s2Xr81iJse72Tzhte",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sfqke0zsX4VVN1Mkw"
-			},
+			"id": "sfqke0zsX4VVN1Mkw",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -839,12 +769,7 @@
 			"points": 1
 		},
 		{
-			"id": "sJ7HKu4Lm6KR8COtb",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "s8Ebn2KoYl0r3MQK3"
-			},
+			"id": "s8Ebn2KoYl0r3MQK3",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -880,12 +805,7 @@
 			"points": 1
 		},
 		{
-			"id": "shz8SrGz_arFKx1rN",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sKSRI75y-9n2-Fm_L"
-			},
+			"id": "sKSRI75y-9n2-Fm_L",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -921,12 +841,7 @@
 			"points": 1
 		},
 		{
-			"id": "scTgBHiDY3VFwoTca",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "smQ-catc698pECI8M"
-			},
+			"id": "smQ-catc698pECI8M",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -962,12 +877,7 @@
 			"points": 1
 		},
 		{
-			"id": "s4UlrnKOdzjArqh68",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "s0SlENC73eCsysqZy"
-			},
+			"id": "s0SlENC73eCsysqZy",
 			"name": "Apparatus Repair",
 			"reference": "B190",
 			"reference_highlight": "Electronics Repair",
@@ -1003,7 +913,7 @@
 			"points": 1
 		},
 		{
-			"id": "sI5V3SOCbiDdyGal_",
+			"id": "s4qaxVetfSKVpmh3d",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1034,7 +944,7 @@
 			"points": 1
 		},
 		{
-			"id": "sXPmMHsFqKRH02XAJ",
+			"id": "sMkOpflX14oeAmjSv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1056,7 +966,7 @@
 			"points": 1
 		},
 		{
-			"id": "sXTx1lVrKvrq1K3z8",
+			"id": "sUpT3QDBQWMopx5KZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1084,7 +994,7 @@
 			"points": 1
 		},
 		{
-			"id": "sGf4d1_oiKDNJTkLV",
+			"id": "syZW_hJJVbrwSrndF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1109,7 +1019,7 @@
 			"points": 1
 		},
 		{
-			"id": "scYdDUL5q83G3P2VL",
+			"id": "soRXduxZq4NRUw0Qp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1139,7 +1049,7 @@
 			"points": 1
 		},
 		{
-			"id": "sT9J7H2TREOXafhRb",
+			"id": "s_0D3FpDbOdUVrSJi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1169,7 +1079,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTQR_Uq7KNue1y-Jz",
+			"id": "sLAHswLL6PD0ciMpk",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1199,7 +1109,7 @@
 			"points": 1
 		},
 		{
-			"id": "sBqgzBnlbKXf7WG6f",
+			"id": "sen5jA_eHoqP3DLOO",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1229,7 +1139,7 @@
 			"points": 1
 		},
 		{
-			"id": "sm38LNsEYUsUfKtmo",
+			"id": "sbS6ZIBPDQR7rYEM_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1259,7 +1169,7 @@
 			"points": 1
 		},
 		{
-			"id": "snR_Mzp-6iTDb0XWP",
+			"id": "sdVTzk-sUTy0npgxK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1289,7 +1199,7 @@
 			"points": 1
 		},
 		{
-			"id": "se6KiRvtR-33f9iZT",
+			"id": "s0qrevyn4_q6QFsLb",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1319,7 +1229,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIpvHE2Z5so8AWS8Y",
+			"id": "sMiNzNPbTr-SlC8Ct",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1349,7 +1259,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLdM0mTLy_UBBrMjw",
+			"id": "sAs82FhajY2tWeUwQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1373,7 +1283,7 @@
 			"points": 1
 		},
 		{
-			"id": "sBe2FTLFkOcGabA8L",
+			"id": "s5hNnEa7jkTbucS9Q",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1397,7 +1307,7 @@
 			"points": 1
 		},
 		{
-			"id": "sNzc0TMG-QefX8ngp",
+			"id": "s3rhCzW6BK4r7k4Ui",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1421,79 +1331,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbj9_0HyZkyE-2KVX",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sD7RKUYuJOeh5vrTJ"
-			},
-			"name": "Artillery",
-			"reference": "B178",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Catapult",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sgT4uKLzN1s_rJqF1",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "siUwhUBcqrDAPgud8"
-			},
-			"name": "Artillery",
-			"reference": "B178",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Guided Missile",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s9MWDUztuwEKrm6-h",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "syYJSC7lSC-RS9APA"
-			},
-			"name": "Artillery",
-			"reference": "B178",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Torpedoes",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "srXRbDWb-VBe42GBP",
+			"id": "spKwlkvJYSPqVH3p0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1521,7 +1359,7 @@
 			"points": 1
 		},
 		{
-			"id": "s6kTTjlwhv47jFK13",
+			"id": "suuCxGTgF65UvvPtA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1573,7 +1411,7 @@
 			"points": 1
 		},
 		{
-			"id": "slMYVFLHH-y4frhjR",
+			"id": "sWA-Tx4AQZbbbqM46",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1625,7 +1463,7 @@
 			"points": 1
 		},
 		{
-			"id": "sttTPC-DJhPNxnOyy",
+			"id": "s-q5IAlFhhesZmRwr",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1677,7 +1515,7 @@
 			"points": 1
 		},
 		{
-			"id": "ssYCLb8Ow3B4x1VDp",
+			"id": "sJ2Hr7IlThpP7aSUA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1729,7 +1567,7 @@
 			"points": 1
 		},
 		{
-			"id": "sE0Xkv6Z_H_QhW3M8",
+			"id": "sjaBwEgoGfJgrwgwb",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1757,7 +1595,7 @@
 			"points": 1
 		},
 		{
-			"id": "si2pd9cehAP09ZLJc",
+			"id": "sHmpvZvuaiQnxWyV9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1802,7 +1640,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSAhhBFs9v7pMVHTB",
+			"id": "sVijMPOlH0rh7L0we",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1854,7 +1692,7 @@
 			"points": 1
 		},
 		{
-			"id": "spKwplKvf19Ts0BHc",
+			"id": "s4yCEYDriJomkA-3z",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1883,7 +1721,7 @@
 			"points": 1
 		},
 		{
-			"id": "sMeXsH__OGs6S_VMe",
+			"id": "smZLLKjalBlmewigi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1928,7 +1766,7 @@
 			"points": 1
 		},
 		{
-			"id": "shDQbttH48nDun2Bq",
+			"id": "sUie6T5aGXg84i3-X",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1957,7 +1795,7 @@
 			"points": 1
 		},
 		{
-			"id": "smqpir_8zNaeO2-7d",
+			"id": "s6dSV6q04dpgXba0V",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2003,7 +1841,7 @@
 			"points": 1
 		},
 		{
-			"id": "sm8c1g8gBb6hyaUBj",
+			"id": "syvRsLxqsfT8rdzMc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2042,7 +1880,29 @@
 			"points": 1
 		},
 		{
-			"id": "slqDSfBt8QbaJBsbG",
+			"id": "s-qKWNntI27y9VNqQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sZqSL-LyzHEp8oSCU"
+			},
+			"name": "Autohypnosis",
+			"reference": "B179,MA54",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "will/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Meditation",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sLT2OSV3FcK3-epE-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2075,7 +1935,34 @@
 			"points": 1
 		},
 		{
-			"id": "sAvgf1nUpM4qLydj2",
+			"id": "s4F5wOCv-eVN0HO11",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Bartender",
+			"reference": "B216",
+			"tags": [
+				"Professional",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Carousing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s2YjDfmHbnu40ZGqQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2112,7 +1999,7 @@
 			"points": 1
 		},
 		{
-			"id": "sozeols91qcuNlEz8",
+			"id": "sIwazWbQDJ3RZ1kLw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2140,7 +2027,7 @@
 			"points": 1
 		},
 		{
-			"id": "sX4ZYA-IxcDNYA2SN",
+			"id": "sdGImQG7eLG5gd7YM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2168,7 +2055,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSC3Vowi5r2gmJNzc",
+			"id": "sHBmE1kDLcdg0945B",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2196,7 +2083,7 @@
 			"points": 1
 		},
 		{
-			"id": "sPnWwx4inlxI0szDL",
+			"id": "soIAruP154dqT1-a0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2224,7 +2111,7 @@
 			"points": 1
 		},
 		{
-			"id": "sj4wkxVmIWp34uaq9",
+			"id": "svY6Nb1bKKEDZtnC5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2252,7 +2139,7 @@
 			"points": 1
 		},
 		{
-			"id": "s3OpE5jT1kdm024ce",
+			"id": "sE9_km9XJU2xRZfcf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2280,7 +2167,7 @@
 			"points": 1
 		},
 		{
-			"id": "s06xPuDtJ0y3Ehh6i",
+			"id": "svfYlfZlwikjlfypU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2308,7 +2195,7 @@
 			"points": 1
 		},
 		{
-			"id": "sXWzPwJQqOBgIQRlB",
+			"id": "sPkmFuA1XGtpXrNwF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2336,7 +2223,7 @@
 			"points": 1
 		},
 		{
-			"id": "sU_M2-11wHLJz5-oV",
+			"id": "s4bh9FhS0pts4d764",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2363,7 +2250,7 @@
 			"points": 1
 		},
 		{
-			"id": "sHZ4EPBobhedQ-9I9",
+			"id": "sAGDUFB3JdMNexo1l",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2386,7 +2273,7 @@
 			"points": 1
 		},
 		{
-			"id": "swB6mUHdQw4EaRykF",
+			"id": "sc95EK1nLUY8A3MY2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2435,7 +2322,7 @@
 			"points": 1
 		},
 		{
-			"id": "syk5heyYsdu01Kq9Z",
+			"id": "sOw0EFEXfXwQFNBRz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2484,7 +2371,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIcWtGU1wt5uFPLsw",
+			"id": "sL3olgI_Nb4dZgxVf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2528,7 +2415,7 @@
 			"points": 1
 		},
 		{
-			"id": "sam8Qsbb_DBbtJxRn",
+			"id": "sgNNGP7O_tSs4Kkzu",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2572,7 +2459,7 @@
 			"points": 1
 		},
 		{
-			"id": "sqpghAFV20KTwRI7J",
+			"id": "sIVKEmyGIHrwmTTJq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2616,7 +2503,52 @@
 			"points": 1
 		},
 		{
-			"id": "sjKnBwPU1WuqWGlqJ",
+			"id": "sA1o2MDQ0XwtQ6qNc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sW70jxMkHsRAPsc94"
+			},
+			"name": "Body Control",
+			"reference": "B181,MA54",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "ht/vh",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "meditation"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "breath control"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "suMAuNq-grs8QMoK9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2645,7 +2577,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSSMox-QIV7VvEPZw",
+			"id": "s5RzFigBvY6MpoGlQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2671,24 +2603,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEH0SMclskqStcdub",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "slQ5ixUw01c01ysbC"
-			},
-			"name": "Bolas",
-			"reference": "B181",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"points": 1
-		},
-		{
-			"id": "sT2L5jdfB9pVuCl5J",
+			"id": "sfsaxgOzEc8w2fCEc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2711,7 +2626,7 @@
 			"points": 1
 		},
 		{
-			"id": "swH3YGwTf-5J0Hkav",
+			"id": "sVnkMXj6hJvwwBj1x",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2721,8 +2636,7 @@
 			"reference": "B182,MA55",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/a",
 			"features": [
@@ -2758,7 +2672,7 @@
 			"points": 1
 		},
 		{
-			"id": "sPbMTZBeXZPIrEvwI",
+			"id": "sxfdaU3cf-p9oAGFz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2788,7 +2702,7 @@
 			"points": 1
 		},
 		{
-			"id": "s-niOSWWf93Tj1un6",
+			"id": "sDAhuMUkSL-o2otle",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2798,8 +2712,7 @@
 			"reference": "B182,MA55",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/e",
 			"features": [
@@ -2821,7 +2734,36 @@
 			"points": 1
 		},
 		{
-			"id": "sSlpXvDPt44gZh2ap",
+			"id": "s75UejmZ1RUvMp_BW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s1SqXRnoxCuktkPzv"
+			},
+			"name": "Breaking Blow",
+			"reference": "B182,MA55",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "iq/h",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sxiGbQMc5cxyr9Ded",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2836,55 +2778,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdXesfLEJCDh1S1ca",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sW0On3Z4nRf_QVqy1"
-			},
-			"name": "Broadsword",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Force Sword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Rapier",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Saber",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Sword",
-					"modifier": -4
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sOZcJ6G3vFnsBT8K-",
+			"id": "sw67ZOSPI4TtRtddC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2912,7 +2806,7 @@
 			"points": 1
 		},
 		{
-			"id": "sE8eFi9bS-SeZQUBq",
+			"id": "sR01J7EIBdSrFohYV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2935,7 +2829,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTWXEqySlfbUDq6gg",
+			"id": "suODLFqxQHji5LUS4",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2956,7 +2850,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbU4fhRcmBkLGdJEz",
+			"id": "sto1Z2YkbMtgUmXhe",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -2996,7 +2890,7 @@
 			"points": 1
 		},
 		{
-			"id": "sPYidtCt0OERE5gGw",
+			"id": "sRxBFL0W3KIj3oSSH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3022,27 +2916,7 @@
 			"points": 1
 		},
 		{
-			"id": "srgEFj0IbrccsGd4s",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sfZrwMVUibhbtdssl"
-			},
-			"name": "Cleaning",
-			"tags": [
-				"Everyman"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sbctVCx3uPtWh4nJT",
+			"id": "sxE8ZfyhO6TPAgAja",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3068,7 +2942,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgH10XAjipxm-DLqW",
+			"id": "svslPGUZ33CL-SuS8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3101,7 +2975,7 @@
 			"points": 1
 		},
 		{
-			"id": "s1hEpOh6KXahD2OWz",
+			"id": "s7tjXEpxzQcH7-XVU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3117,17 +2991,17 @@
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
+				"when_tl": {
+					"compare": "at_most",
+					"qualifier": 6
+				},
 				"prereqs": [
 					{
 						"type": "skill_prereq",
 						"has": true,
 						"name": {
 							"compare": "is",
-							"qualifier": "Mechanic"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "Analytical Engine"
+							"qualifier": "mechanic"
 						}
 					}
 				]
@@ -3135,7 +3009,7 @@
 			"points": 1
 		},
 		{
-			"id": "sH0E3zgFf1B7ZkUa5",
+			"id": "s_RjN37FTR4O9zSz5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3160,7 +3034,7 @@
 			"points": 1
 		},
 		{
-			"id": "skO1DHZR4yMiqylv3",
+			"id": "sYEIh8ZrwEA8NMZid",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3185,7 +3059,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRTTWYEGC9TmAscLe",
+			"id": "si5BMeZlRhjUgGy0P",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3225,7 +3099,7 @@
 			"points": 1
 		},
 		{
-			"id": "satxt58UnVn-ktYBK",
+			"id": "sNtgt_fHjvcP8bgvt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3266,7 +3140,7 @@
 			"points": 1
 		},
 		{
-			"id": "s9YRC3G1Boffvjq1n",
+			"id": "s-qHvO70AJq_9Ievh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3291,7 +3165,7 @@
 			"points": 1
 		},
 		{
-			"id": "sw3KYQ0kuw8nwFQME",
+			"id": "s0_0bXWydC-VPbJFt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3316,7 +3190,7 @@
 			"points": 1
 		},
 		{
-			"id": "sAGQCR5HKhkrNF4jj",
+			"id": "sZNJSPDE-tf9URole",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3342,7 +3216,7 @@
 			"points": 1
 		},
 		{
-			"id": "snOjIoCuOtZIgEOKw",
+			"id": "szKzMklSmijdLlJx_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3369,7 +3243,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIypkJyShR9CdOA3U",
+			"id": "sRA2iyJniUpFA-4gv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3396,7 +3270,7 @@
 			"points": 1
 		},
 		{
-			"id": "sxQJU2bSHyDA85hfx",
+			"id": "saRVxghlPAw_YqRbm",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3423,7 +3297,7 @@
 			"points": 1
 		},
 		{
-			"id": "s5V1btVeOogUPVwa3",
+			"id": "s3gJv9s-2vm2elLdr",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3450,7 +3324,7 @@
 			"points": 1
 		},
 		{
-			"id": "sT-pQzOMz2dq8OVqj",
+			"id": "stvGbOPxD0zVO1HMG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3478,7 +3352,7 @@
 			"points": 1
 		},
 		{
-			"id": "scV3Rx0yNyP1-9zmo",
+			"id": "szekawRNbbaFlqeOY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3501,7 +3375,7 @@
 			"points": 1
 		},
 		{
-			"id": "smFVhkeDKcfxNiq25",
+			"id": "sZT-MrcArNoH2-0R1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3525,7 +3399,7 @@
 			"points": 1
 		},
 		{
-			"id": "s-XcLByV8e66VB51V",
+			"id": "sRXI8IrgLTUihnibR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3550,7 +3424,7 @@
 			"points": 1
 		},
 		{
-			"id": "sF-dIlZILZgkjYfhb",
+			"id": "stIjtCYqVTJFKFeSa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3575,7 +3449,7 @@
 			"points": 1
 		},
 		{
-			"id": "sheL7mDkLbF585DxK",
+			"id": "sXvP4q5JkUUHUt5t5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3610,7 +3484,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRJwyPDKlfvoN4KJO",
+			"id": "s6z9mdOwrJCMceKar",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3645,7 +3519,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEJJ_JmzATyIdyHSd",
+			"id": "s2je_-S55G8mtkalr",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3679,7 +3553,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSo69VEEcdgEqlIeM",
+			"id": "sBTyPid2uhfeGiMZq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3715,7 +3589,7 @@
 			"points": 1
 		},
 		{
-			"id": "s3DW0GKhLbzQ5xq7X",
+			"id": "s1xJIagLtI1m-kuMA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3749,7 +3623,7 @@
 			"points": 1
 		},
 		{
-			"id": "st472Ofbfp35SOnPn",
+			"id": "sV6re3yaZ9LOK975O",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3783,7 +3657,7 @@
 			"points": 1
 		},
 		{
-			"id": "sigPO73XLatOIg_R5",
+			"id": "sHb9ZlwduaKx1IVk5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3819,7 +3693,7 @@
 			"points": 1
 		},
 		{
-			"id": "sscfYdddlGQasDsme",
+			"id": "s9dOEF9rkFyaJ0iKS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3853,7 +3727,7 @@
 			"points": 1
 		},
 		{
-			"id": "sMkyMMA3JlFb_Tcsy",
+			"id": "s1W_CQy74K-NcwE6X",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3887,7 +3761,7 @@
 			"points": 1
 		},
 		{
-			"id": "sg6d1RMaEb2PSAskM",
+			"id": "stNQmlHb_sh2PlAHZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3921,7 +3795,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbotf7Tyul5g9eqab",
+			"id": "sB3rim6HOKkfKwr31",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3955,7 +3829,7 @@
 			"points": 1
 		},
 		{
-			"id": "soyPxF6StGTwG5_d6",
+			"id": "stTyvNIJNMDDpYJak",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -3977,7 +3851,7 @@
 			"points": 1
 		},
 		{
-			"id": "swcHUSZ0qJBajnKmX",
+			"id": "sr4sJwti_LhXeOWx3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4010,7 +3884,7 @@
 			"points": 1
 		},
 		{
-			"id": "svddzcsbicdb3bUD2",
+			"id": "s-pG31agG7dtefXFa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4046,7 +3920,7 @@
 			"points": 1
 		},
 		{
-			"id": "s3RMxpe8R7DiluTdi",
+			"id": "skpCuGQeKuZc10n95",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4074,7 +3948,7 @@
 			"points": 1
 		},
 		{
-			"id": "sK7Y-8pAErmX4moFI",
+			"id": "sD2Y_7oV4HpfCXSwW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4103,7 +3977,7 @@
 			"points": 1
 		},
 		{
-			"id": "s94JqmeGiD_V_pJa5",
+			"id": "sPvCIxmuOxTbGygoe",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4144,7 +4018,28 @@
 			"points": 1
 		},
 		{
-			"id": "samLw2RE2tibTtZ_s",
+			"id": "sGsxm42JlSst-7r0t",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sPb6TBT6YjoYH8jNG"
+			},
+			"name": "Dreaming",
+			"reference": "B188",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "will/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sS8k46eLT5nkINFpO",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4181,7 +4076,7 @@
 			"points": 1
 		},
 		{
-			"id": "s-s8TK1dGSmvDfT8x",
+			"id": "sZNQGgcYWyHhlEQzZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4218,7 +4113,7 @@
 			"points": 1
 		},
 		{
-			"id": "sX0CB8j4iYStZ8y62",
+			"id": "sAl95Tbm2dSVVSL9A",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4249,7 +4144,7 @@
 			"points": 1
 		},
 		{
-			"id": "scXE1nO2weu6yEa9f",
+			"id": "sReK9t6nJ9RVV3t4R",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4286,7 +4181,7 @@
 			"points": 1
 		},
 		{
-			"id": "sd031O356XKG5hA0l",
+			"id": "sJyMLVbTowzyADsSM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4323,7 +4218,7 @@
 			"points": 1
 		},
 		{
-			"id": "smUPMzyIHioQcWgAd",
+			"id": "sjp_QWIA7tV7ZoUqv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4354,7 +4249,7 @@
 			"points": 1
 		},
 		{
-			"id": "sXrds4AwGopyccDbI",
+			"id": "swQcVia_yY2oMBo9R",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4385,7 +4280,7 @@
 			"points": 1
 		},
 		{
-			"id": "sk1etw3MJASG-iyR8",
+			"id": "sEdhwks7ZbwyypNqz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4421,7 +4316,7 @@
 			"points": 1
 		},
 		{
-			"id": "soh21cQwfek7soAo-",
+			"id": "sSfmJc0bKaVQLoqEf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4452,7 +4347,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLL4DKRnZDSQWBTGE",
+			"id": "sYQ5KMFGenm4cF3lx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4489,7 +4384,7 @@
 			"points": 1
 		},
 		{
-			"id": "sn5Rv9BbFlopQqoAE",
+			"id": "sbTd9_O9u7tCcbSbL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4517,7 +4412,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEojz5bHIxe5JOm_S",
+			"id": "sD78Hy1gyC6uEfeNA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4555,7 +4450,7 @@
 			"points": 1
 		},
 		{
-			"id": "sOZueqBSQRab0mpwj",
+			"id": "sMMtU1rrECDwt96tB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4583,7 +4478,7 @@
 			"points": 1
 		},
 		{
-			"id": "sx0GCn_qNZD7l1HuA",
+			"id": "sdwmfzHN_IP3GnXe5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4631,55 +4526,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLUOxSw2ucID9Dc2J",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sUMX5WJHqMbYwXdJG"
-			},
-			"name": "Engineer",
-			"reference": "B190",
-			"tags": [
-				"Design",
-				"Engineer",
-				"Invention"
-			],
-			"specialization": "Analytical Engine",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"specialization": "Analytical Engine",
-					"modifier": -6
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"when_tl": {
-					"compare": "at_least",
-					"qualifier": 5
-				},
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "mathematics"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "applied"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sDVlM-I_rkxdKuW4F",
+			"id": "szpWnaKKpv8Km4dxf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4727,7 +4574,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTgrivp_BTcwDzIcL",
+			"id": "sHMweneVYTmHfBbT8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4775,7 +4622,7 @@
 			"points": 1
 		},
 		{
-			"id": "s0ijoUIEbtZYFPZyV",
+			"id": "sSGddOTYEUq-9c0pW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4822,7 +4669,7 @@
 			"points": 1
 		},
 		{
-			"id": "stItmt84C07F_NUEr",
+			"id": "sjiVa9iLRPCODNUn3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4870,7 +4717,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSmb99SaCBn8KFVFr",
+			"id": "sr-qmSTPG9Xvabgyf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4918,7 +4765,7 @@
 			"points": 1
 		},
 		{
-			"id": "s781beqgqGeXp1E1x",
+			"id": "sox8vfFQH0b81Jc_u",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -4965,7 +4812,7 @@
 			"points": 1
 		},
 		{
-			"id": "suCH50PGE3LpSgUTF",
+			"id": "sQd8xSBuDPIA_Mlg2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5013,7 +4860,7 @@
 			"points": 1
 		},
 		{
-			"id": "sxerQJgF0J0sBNVT8",
+			"id": "spQcjQISddGv-5tF0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5061,7 +4908,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjqSEcZdKOzgiohYT",
+			"id": "sAgK1cm04EnGbgZg_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5141,7 +4988,7 @@
 			"points": 1
 		},
 		{
-			"id": "sogRGi-O3L06LlnJ0",
+			"id": "sNRCz1jyU_4i1hoWH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5194,7 +5041,7 @@
 			"points": 1
 		},
 		{
-			"id": "s72XKv2KxnU8h1aMV",
+			"id": "sSyAYGTiZkOwMqVIE",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5242,7 +5089,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTHE6tVjcHuzIMHX8",
+			"id": "sJRioRZeCkpHCa3Ks",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5290,7 +5137,7 @@
 			"points": 1
 		},
 		{
-			"id": "sAypnwcdhQzlBDvLx",
+			"id": "sX_DH-JN2OIxZK18o",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5338,7 +5185,7 @@
 			"points": 1
 		},
 		{
-			"id": "sk7FAgw_78vC-VocI",
+			"id": "s9EtAMbaMQ0sCTHqK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5386,7 +5233,7 @@
 			"points": 1
 		},
 		{
-			"id": "sHY7tz3iTBPuR4h-K",
+			"id": "sBIhgK4sHqtnk2G46",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5407,7 +5254,7 @@
 			"points": 1
 		},
 		{
-			"id": "sVjFcTdcDS-DGKZtt",
+			"id": "sJVL-Qi32Lc1709qm",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5433,7 +5280,7 @@
 			"points": 1
 		},
 		{
-			"id": "sZHU7Kj-qYrzN8Izq",
+			"id": "sIRwE7d5aqKSEr0VJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5455,7 +5302,231 @@
 			"points": 1
 		},
 		{
-			"id": "sw5md6OFHVHGgmYhM",
+			"id": "sptyvGbRsdicqgG1p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sC3Hao70ucDyPFMyx"
+			},
+			"name": "Esoteric Medicine",
+			"reference": "B192,MA56",
+			"tags": [
+				"Esoteric",
+				"Medical"
+			],
+			"difficulty": "per/h",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sqsUG-g-QqWnZTW7p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sDWD-D17CLWj-4iaZ"
+			},
+			"name": "Exorcism",
+			"reference": "B193",
+			"tags": [
+				"Magical",
+				"Occult"
+			],
+			"difficulty": "will/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Religious Ritual",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Ritual Magic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Theology",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZd6SyMW_leLxieIX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "srkpvMJuu4TRxCcO7"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly",
+				"Spy"
+			],
+			"specialization": "Computer Security",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sca20NiqKCuUNnQQJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sByG3GvJehFY8b614"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"specialization": "Conspiracy Theory",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sX9jukx4ohH7m5R70",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVG21oGW_ok1qdXIS"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Medical",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Epidemiology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "stBf3BYZd-sasPodV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swPEguEhGicG5M08E"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Hydrology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "s6_QlXZ9cwjQutIlT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s88gTPKTH8WGPQqDI"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Military",
+				"Scholarly"
+			],
+			"specialization": "Military Science",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "s3wJcnQ_tufu8DBuH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "suJZrsB0u5UHi5Fur"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Natural Philosophy",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sNJcH1pCgUyU5XipH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s0dU_3l7J0a0U3S28"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Political Science",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sD8ULkifcL0zTqtuu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "snUdhPlsF2W6sdjll"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Thanatology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sr3CCJGrBiuyax-8R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqKieRudf_Tp4-T6T"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Xenology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sKP4PdWm8eN1sr1E3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5501,7 +5572,7 @@
 			"points": 1
 		},
 		{
-			"id": "sr-iT91Vz5pjRdhi7",
+			"id": "sM83ELw_mSOKIEEW4",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5549,7 +5620,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdItMNOIw6ufrcS5F",
+			"id": "s5_bIAJp_kTbzdRhw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5599,7 +5670,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdTp5lN-0rgLIAwgZ",
+			"id": "s4wiI4oJjkov2Iz8Q",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5632,68 +5703,7 @@
 			"points": 1
 		},
 		{
-			"id": "skm6RE-C2wigQxLf7",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "seNr8bwC1ERg2ZOEH"
-			},
-			"name": "Explosives",
-			"reference": "B194",
-			"tags": [
-				"Military",
-				"Technical"
-			],
-			"specialization": "Underwater Demolition",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Explosives",
-					"specialization": "Demolition",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Explosives",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sLgBKistpyZ74uDB-",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sy8miYImrH3fYmTAL"
-			},
-			"name": "Falconry",
-			"reference": "B194",
-			"tags": [
-				"Animal"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Animal Handling",
-					"specialization": "Raptors",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s_HHqiDdd8JkrO5lp",
+			"id": "s3dWj6xAuyBQwndWA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5724,25 +5734,7 @@
 			"points": 1
 		},
 		{
-			"id": "soiAlTUS2vuvDmoIr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "scP0IdjWrVEveSeDl"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Ammo",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "sEqTmLDfy_ubw3E9x",
+			"id": "scoRKc5L90v4zHyXh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5755,102 +5747,11 @@
 				"Ranged Combat",
 				"Weapon"
 			],
-			"specialization": "Arrow",
 			"difficulty": "dx/e",
 			"points": 1
 		},
 		{
-			"id": "szuYfj74BPNKSwERc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sqgUZNRy0qgmVDUXq"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"specialization": "Knife",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "shLQDeS2r5PzOgCl3",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s4bSNseWZqF5X0QWL"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Long Arm",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "sBeb390IWa5i2UtmG",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "slFkOhWAAPF7DTJRe"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Pistol",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "sjCBXFjJWFqBuqh_q",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "spdUP_VQ1WFDBlGW0"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"specialization": "Sword",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "s9jUB-nk6vTGmVfWv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sEMKLr_IOimbwGaDI"
-			},
-			"name": "Fast-Draw",
-			"reference": "B194,MA56",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"specialization": "Two-Handed Sword",
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
-			"id": "smVMDXiyp-jtaCKWb",
+			"id": "syFmwhiZYHhzi1Cqx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5879,7 +5780,7 @@
 			"points": 1
 		},
 		{
-			"id": "sK7qQdI96BBiq7Sn1",
+			"id": "sMF2Pvq7V7HYS5o3d",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5894,6 +5795,12 @@
 			],
 			"difficulty": "dx/a",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Performance",
+					"specialization": "Sleight of Hand",
+					"modifier": -4
+				},
 				{
 					"type": "dx",
 					"modifier": -5
@@ -5912,7 +5819,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgrPbnPpTpfyBQUfQ",
+			"id": "s3e4RJSiGbQWOq8RZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5944,23 +5851,7 @@
 			"points": 1
 		},
 		{
-			"id": "sVjvXGg1FhWhGhb9J",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sQHalgIcHaJaMxuWp"
-			},
-			"name": "Fire Eating",
-			"reference": "B195",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"difficulty": "dx/a",
-			"points": 1
-		},
-		{
-			"id": "seqhWgPwJFRjWHvFW",
+			"id": "sy69blnhSmqWKcWs8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -5995,7 +5886,7 @@
 			"points": 1
 		},
 		{
-			"id": "srVHvxWYWDE6ohFxF",
+			"id": "sjdP20ECBQPDQ3EQw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6017,7 +5908,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLmw6A3XdAzMis19u",
+			"id": "snM8HS7AhIADbNURp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6050,7 +5941,7 @@
 			"points": 1
 		},
 		{
-			"id": "sn8_W7GRKKHolsIrV",
+			"id": "stDByGCz9m9vXCM_K",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6085,7 +5976,7 @@
 			"points": 1
 		},
 		{
-			"id": "sVKequZshm2J7JPoZ",
+			"id": "sTK-zAWb57xwNU_nd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6103,7 +5994,7 @@
 			"points": 1
 		},
 		{
-			"id": "so1g3XQf53pEV7esi",
+			"id": "s-bdFbootm3fK38x2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6129,7 +6020,7 @@
 			"points": 1
 		},
 		{
-			"id": "srk-2enMSDo7r6kVk",
+			"id": "sRWBUZl9LO7XK08vz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6157,7 +6048,7 @@
 			"points": 1
 		},
 		{
-			"id": "s3q8SMjytu1LzzyYH",
+			"id": "sf-56kpEtjs7qKGlY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6189,7 +6080,7 @@
 			"points": 1
 		},
 		{
-			"id": "sihaI4BVa1cnzf00J",
+			"id": "sMsmF89Igq7tB4Www",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6221,7 +6112,7 @@
 			"points": 1
 		},
 		{
-			"id": "srsW38GjSh8xClitP",
+			"id": "sAy73yHNbH6_-nux9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6253,7 +6144,7 @@
 			"points": 1
 		},
 		{
-			"id": "sE6puutYmb-tVTkpl",
+			"id": "so_JmNsWxSSCf61yM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6285,7 +6176,7 @@
 			"points": 1
 		},
 		{
-			"id": "snHunqNJh67K3Voaf",
+			"id": "sUhoeh9tesR4PM6Rf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6317,7 +6208,7 @@
 			"points": 1
 		},
 		{
-			"id": "sb9VeDADyjkcHA4w7",
+			"id": "sMefJBx2ZpySpb1v1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6349,7 +6240,7 @@
 			"points": 1
 		},
 		{
-			"id": "seswfJ8tuOAoHAceM",
+			"id": "sBRSLLOu7s6w3AKok",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6381,7 +6272,7 @@
 			"points": 1
 		},
 		{
-			"id": "sT4O9upJYwQICrwfb",
+			"id": "sd1ZUOOmpc5i_yw7I",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6407,7 +6298,7 @@
 			"points": 1
 		},
 		{
-			"id": "sW-uILaqFgfRbrrRS",
+			"id": "sH2722_q_yDpq_4Yn",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6432,7 +6323,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKlLC5olO2ZCYgsAz",
+			"id": "symGtZ9OwGYInUFgL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6454,19 +6345,21 @@
 			"points": 1
 		},
 		{
-			"id": "sCO5MWZXOLECzDNj_",
+			"id": "s89x90HK3m0bY0KQN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
 				"id": "sWB9ypJAq43MF3O0n"
 			},
-			"name": "Gambling",
-			"reference": "B197",
+			"name": "Games",
+			"reference": "B197,B197,MA57",
 			"tags": [
 				"Criminal",
+				"Knowledge",
 				"Social",
 				"Street"
 			],
+			"specialization": "@Gambling game@",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -6483,7 +6376,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLBdXhYJc7JPBiZEL",
+			"id": "sJRBS54Q6ComnSvA4",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6505,7 +6398,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEfyINXMx6k-5I_GW",
+			"id": "sRwVOor48QUzDnDGp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6531,30 +6424,7 @@
 			"points": 1
 		},
 		{
-			"id": "s8OHqAYLJKGbz7NDQ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sJi3zy2jTbdgSwZfK"
-			},
-			"name": "Garrote",
-			"reference": "B197",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sWfqnWJR1ixjQsRMx",
+			"id": "swrJIzTAeA0mniLSB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6576,13 +6446,11 @@
 				{
 					"type": "skill",
 					"name": "Geology",
-					"specialization": "Earthlike",
 					"modifier": -4
 				},
 				{
 					"type": "skill",
 					"name": "Meteorology",
-					"specialization": "Earthlike",
 					"modifier": -4
 				},
 				{
@@ -6594,7 +6462,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEJ-WGVvfzo3a7iMu",
+			"id": "styOCNtpVdkd5Jm7v",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6627,7 +6495,7 @@
 			"points": 1
 		},
 		{
-			"id": "sCvavuIT_VhlYT2KP",
+			"id": "sSJA5bMDeUH48d7T2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6660,7 +6528,7 @@
 			"points": 1
 		},
 		{
-			"id": "sX36uqgNl5F-RZ77V",
+			"id": "sbVfz7Nw01BBzK8cp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6680,7 +6548,6 @@
 				{
 					"type": "skill",
 					"name": "Geography",
-					"specialization": "Physical, Earthlike",
 					"modifier": -4
 				},
 				{
@@ -6692,7 +6559,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEu-1Z3mGwGDYL1wG",
+			"id": "sw1ukc6bDusnYhCZG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -6713,406 +6580,7 @@
 			"points": 1
 		},
 		{
-			"id": "s4o9acI5U3CgeD2nI",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sMUFAf6g_JoMYW3r7"
-			},
-			"name": "Group Performance",
-			"reference": "B198,MA57",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"specialization": "@Art@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Dancing",
-					"modifier": -2
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diplomacy"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "intimidation"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sVqnUNTCxQlk5e4WE",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s67bGQ_e5_wCaaEx-"
-			},
-			"name": "Group Performance",
-			"reference": "B198,MA57",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"specialization": "Choreography",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Dancing",
-					"modifier": -2
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diplomacy"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "intimidation"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "dancing"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "suYW9308i6FNF-pRk",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sVA6l16nBR86F53ab"
-			},
-			"name": "Group Performance",
-			"reference": "B198,MA57",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"specialization": "Conducting",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Musical Instrument",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Singing",
-					"modifier": -3
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diplomacy"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "intimidation"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "contains",
-											"qualifier": "musical instrument"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "contains",
-											"qualifier": "musical instrument"
-										}
-									}
-								]
-							},
-							{
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "contains",
-											"qualifier": "musical instrument"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "singing"
-										}
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sxSB840bjtQjajPQn",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sZ7NYJ5fxLa2Jj93s"
-			},
-			"name": "Group Performance",
-			"reference": "B198,MA57",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"specialization": "Directing",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Performance",
-					"modifier": -5
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diplomacy"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "intimidation"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "performance"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sa-Ft8Pscta7QjuIo",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "spLtdtwiNdLkklweA"
-			},
-			"name": "Group Performance",
-			"reference": "B198,MA57",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"specialization": "Fight Choreography",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Stage Combat",
-					"modifier": -2
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diplomacy"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "intimidation"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "stage combat"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sCKudcFlTTCxr6u95",
+			"id": "sYJ-CSK9XirOaUJk_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7141,7 +6609,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbLPyV4dh9zKiafaY",
+			"id": "s22tTrEu430c6rAtc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7170,7 +6638,7 @@
 			"points": 1
 		},
 		{
-			"id": "sy3q57Du9V9V9XD0x",
+			"id": "st8zaY5VuWRFEBnvT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7199,7 +6667,7 @@
 			"points": 1
 		},
 		{
-			"id": "svgTC4THQIJmL05NZ",
+			"id": "sQW1DHFZvgm6vJ2S7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7228,7 +6696,7 @@
 			"points": 1
 		},
 		{
-			"id": "sA3MOHhVn-nu7rkl6",
+			"id": "s_esh_Rtv8ZthQo0L",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7257,7 +6725,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIKBMbZFX1cmdcmBk",
+			"id": "sqmplTJOummlEar95",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7286,7 +6754,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTQ2lH1D8pNqbeWNQ",
+			"id": "sSwb5Fo-Z-fmPSAz3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7315,7 +6783,7 @@
 			"points": 1
 		},
 		{
-			"id": "s512T5X6kG05xI9Ov",
+			"id": "sgswjCP1cHknLN4VQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7387,7 +6855,7 @@
 			"points": 1
 		},
 		{
-			"id": "spTXR_nvxIfGvkQeK",
+			"id": "sRqEQREbjMQMTvtwf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7459,7 +6927,7 @@
 			"points": 1
 		},
 		{
-			"id": "sO-TX_4PrQa_zG97f",
+			"id": "sk2nLG5ChvL0QkGji",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7537,7 +7005,7 @@
 			"points": 1
 		},
 		{
-			"id": "syI8XkwIth3II8rDH",
+			"id": "sA-GU-nb2e03jGrEW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7615,7 +7083,7 @@
 			"points": 1
 		},
 		{
-			"id": "sz3_pkG36kfyfMIt6",
+			"id": "s-TRhHU3hoWCW93iz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7687,7 +7155,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbzIf-YtmE40fh3ss",
+			"id": "sw8xiBg5YgWCGdtBW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7759,7 +7227,7 @@
 			"points": 1
 		},
 		{
-			"id": "s6hOYhsZ82-54--Ym",
+			"id": "s9So8BxV1i7sqWYca",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7787,36 +7255,7 @@
 			"points": 1
 		},
 		{
-			"id": "sHHeH5ZEtJmbgpeHw",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "suh8p7dvxGAH0tzsX"
-			},
-			"name": "Herb Lore",
-			"reference": "B199",
-			"tags": [
-				"Plant"
-			],
-			"difficulty": "iq/vh",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "contains",
-							"qualifier": "naturalist"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "s7J951OPA3jsDGdsM",
+			"id": "sLt20wWrwbQPaoTFW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7832,43 +7271,23 @@
 			"points": 1
 		},
 		{
-			"id": "sKU57KWJmo-EmnTC0",
+			"id": "sM8HKga7dIC0WmZeP",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "scUd9D-fClueKYIDh"
+				"id": "s2OCalT9sy_mq08xi"
 			},
 			"name": "Hidden Lore",
 			"reference": "B199,MA57",
 			"tags": [
-				"Knowledge",
-				"Magical",
-				"Occult"
+				"Knowledge"
 			],
-			"specialization": "Automatons",
+			"specialization": "Conspiracies",
 			"difficulty": "iq/a",
 			"points": 1
 		},
 		{
-			"id": "sZpNzXxixqsGNpM8o",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "scUd9D-fClueKYIDh"
-			},
-			"name": "Hidden Lore",
-			"reference": "B199,MA57",
-			"tags": [
-				"Knowledge",
-				"Magical",
-				"Occult"
-			],
-			"specialization": "Crystal spheres",
-			"difficulty": "iq/a",
-			"points": 1
-		},
-		{
-			"id": "sQNt4aK_SZImWIkfs",
+			"id": "srWGAOehMn95Hi4Ga",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7886,7 +7305,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIqLnOmp0FE7Hzzsn",
+			"id": "sAA_I89Cfzr1LObK-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7904,7 +7323,7 @@
 			"points": 1
 		},
 		{
-			"id": "slJDPe0ejF9tBZjM1",
+			"id": "sSzC863Z7U4wUaUXG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7927,7 +7346,7 @@
 			"points": 1
 		},
 		{
-			"id": "sliQbLtsSJLx6ixyT",
+			"id": "sJyGg9a9H7Mi2DPX8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7950,7 +7369,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdfYy2daubstO8VqG",
+			"id": "stfLeMwHapHpfHvwT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7972,7 +7391,7 @@
 			"points": 1
 		},
 		{
-			"id": "s7bn-HxMNQrOM9sE8",
+			"id": "soytgKzhoguPCgVDd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -7994,7 +7413,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRG-YGwRZa31XFXYB",
+			"id": "s_2XAvqB63IA_TBZK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8022,7 +7441,7 @@
 			"points": 1
 		},
 		{
-			"id": "sCtpUQaKx5w24FLmU",
+			"id": "sE5fUn7OpQ6MqIeuJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8043,7 +7462,7 @@
 			"points": 1
 		},
 		{
-			"id": "sE4a5j1DkcQQT_AG8",
+			"id": "s_19NM-7CSDSH4gK_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8058,36 +7477,7 @@
 			"points": 1
 		},
 		{
-			"id": "sQHm2lWJk21LzYSzz",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6rCvCSMxy5vSy3gd"
-			},
-			"name": "Innate Attack",
-			"reference": "B201",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Breath",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Innate Attack",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "svx8GscuavkXkSDvE",
+			"id": "s9loAlD8gmMRIZ984",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8100,7 +7490,7 @@
 				"Ranged Combat",
 				"Weapon"
 			],
-			"specialization": "Gaze",
+			"specialization": "@Type: Beam, Breath, Gaze, Projectile@",
 			"difficulty": "dx/e",
 			"defaults": [
 				{
@@ -8116,36 +7506,7 @@
 			"points": 1
 		},
 		{
-			"id": "s8x6ikp2xpGJrHvGu",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sJvwPKtI422-KNEiv"
-			},
-			"name": "Innate Attack",
-			"reference": "B201",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Projectile",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Innate Attack",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sH0LnhGGee_GvWz0F",
+			"id": "sd3m2b2M7ht4Z1kzI",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8173,7 +7534,7 @@
 			"points": 1
 		},
 		{
-			"id": "swhO3cwDliSi2uqOf",
+			"id": "svB13DYISPdbvOw7K",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8206,7 +7567,7 @@
 			"points": 1
 		},
 		{
-			"id": "stYx1JoUzkz-Q90zi",
+			"id": "sKous2QA7X_3ismCi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8235,7 +7596,7 @@
 			"points": 1
 		},
 		{
-			"id": "s3JQI0FUIO7Bo82il",
+			"id": "ssw42NPTn-w9FJ-o9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8268,45 +7629,7 @@
 			"points": 1
 		},
 		{
-			"id": "sMoyMDsGRo0rfcGM6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sTZGCst3O84rAPalE"
-			},
-			"name": "Jitte/Sai",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Force Sword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Main-Gauche",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -3
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s8Ch4iTRXscrgqyzE",
+			"id": "sP8KFKC2IqNM_y8OS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8314,18 +7637,17 @@
 			},
 			"name": "Judo",
 			"reference": "B203,MA57",
+			"notes": "Allows parrying two different attacks per turn, one with each hand.",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
-			"vtt_notes": "Allows parrying two different attacks per turn, one with each hand.",
 			"difficulty": "dx/h",
 			"encumbrance_penalty_multiplier": 1,
 			"points": 1
 		},
 		{
-			"id": "sLJieOl9E-NA0z-Mk",
+			"id": "su6Uj2xlUAw0nsLA3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8340,7 +7662,7 @@
 			"points": 1
 		},
 		{
-			"id": "sYjON9s6n_3DIMlGE",
+			"id": "sbZx0dqZWBLqj60wv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8350,8 +7672,7 @@
 			"reference": "B203,MA57",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/h",
 			"encumbrance_penalty_multiplier": 1,
@@ -8387,7 +7708,7 @@
 			"points": 1
 		},
 		{
-			"id": "sa4F6dtZDfnz3WQoH",
+			"id": "s42HHv_xUla0HuHeQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8425,7 +7746,7 @@
 			"points": 1
 		},
 		{
-			"id": "sDozdOkMnWsMopqwG",
+			"id": "sE6gUCTBbrkfPogig",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8456,109 +7777,7 @@
 			"points": 1
 		},
 		{
-			"id": "s7yz9IUzk2U3XSzqJ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sYPHN5czQyyV8OVll"
-			},
-			"name": "Kusari",
-			"reference": "B209",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Force Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Monowire Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Flail",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sKJPQxUiy_tkS-tkb",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s-cgh9Ou6XjX7wgtG"
-			},
-			"name": "Lance",
-			"reference": "B204",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Spear",
-					"modifier": -3
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "starts_with",
-							"qualifier": "riding"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "svOq4X3kdfKs0hDgr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sNHxFDMT_Y46rdkWv"
-			},
-			"name": "Lasso",
-			"reference": "B204",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"points": 1
-		},
-		{
-			"id": "sh6Nmc1_ki8ribAKT",
+			"id": "sGquIzp7Roia38BHf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8583,7 +7802,7 @@
 			"points": 1
 		},
 		{
-			"id": "s-5hrgUWTXC2EnFO6",
+			"id": "sCC38GgHXVbknxHrZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8605,7 +7824,7 @@
 			"points": 1
 		},
 		{
-			"id": "sFjozpdm7Tab9c9iX",
+			"id": "s53o8l_D0ePdLhPgV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8626,7 +7845,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSwOtij5f5vLecG73",
+			"id": "sXHqDR3pDg66SJYw1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8641,7 +7860,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKRVKpENnK4Ztyplo",
+			"id": "sI_zvRpgv3onOZhMG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8657,7 +7876,7 @@
 			"points": 1
 		},
 		{
-			"id": "sxVz6D10TiX2k_Kdq",
+			"id": "se5to687WaQ_fDNlQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8678,7 +7897,7 @@
 			"points": 1
 		},
 		{
-			"id": "sx7XDAZYczwpsGcNk",
+			"id": "swTwEVKufLW2D5WGz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8707,7 +7926,7 @@
 			"points": 1
 		},
 		{
-			"id": "sfQtnNLn7Db5NZEin",
+			"id": "sMCh0RnAV2Ip36a4H",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8736,7 +7955,7 @@
 			"points": 1
 		},
 		{
-			"id": "s0Ue6lq8cdsuI-4sI",
+			"id": "sQaNj4XG0hdb0gsjR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8765,7 +7984,7 @@
 			"points": 1
 		},
 		{
-			"id": "si-hIvJuy8YTBOOyV",
+			"id": "sUIx_ynRq-DUwyoZa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8794,7 +8013,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKgy1UjURCB_3f6fV",
+			"id": "sZz6x_opRSeQ0iyPM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8823,7 +8042,7 @@
 			"points": 1
 		},
 		{
-			"id": "s2WDBVF26rTf72Oer",
+			"id": "snrHXofV1Y_2iNtWZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8846,7 +8065,7 @@
 			"points": 1
 		},
 		{
-			"id": "srOdDE42eFpol_Dmx",
+			"id": "sg8hlcAkCVNqAm4r7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8871,7 +8090,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdetUX1HsrFo9rXjV",
+			"id": "sQWdU-DL3UiqvVyIJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8898,55 +8117,7 @@
 			"points": 1
 		},
 		{
-			"id": "sFq0bF38FrsZV81R2",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s10DaCiFKFSDx8aPC"
-			},
-			"name": "Main-Gauche",
-			"reference": "B208,MA58",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Jitte/Sai",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Knife",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Rapier",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Saber",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Smallsword",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sg59HDHPxGd8fTU5q",
+			"id": "sq-1nxe_fGWIJTaln",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -8973,7 +8144,7 @@
 			"points": 1
 		},
 		{
-			"id": "suOs4V6J8hXElJYAO",
+			"id": "sWHgKTyibLVGuB1_c",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9004,7 +8175,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgNxE9cw8dkD0X_v2",
+			"id": "sAYPXMg1cfyiVx2_F",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9025,7 +8196,7 @@
 			"points": 1
 		},
 		{
-			"id": "siz9Cisfvo2ivLqmX",
+			"id": "sqgtiGOX529BWgqh0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9039,6 +8210,11 @@
 			"specialization": "Applied",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -9057,7 +8233,7 @@
 			"points": 1
 		},
 		{
-			"id": "sagkLPexNjVmTAz4L",
+			"id": "smjUvSZXCtAi20gHT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9072,6 +8248,11 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				},
@@ -9084,7 +8265,7 @@
 			"points": 1
 		},
 		{
-			"id": "sE1CmMzvDc8Ht51w5",
+			"id": "s1o1IXhDG5WXvfUDF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9099,6 +8280,11 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				},
@@ -9111,7 +8297,7 @@
 			"points": 1
 		},
 		{
-			"id": "sYaRj8TlsRkUp3h7z",
+			"id": "sviZgBbP6Ol7Atzul",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9126,6 +8312,11 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				}
@@ -9133,7 +8324,7 @@
 			"points": 1
 		},
 		{
-			"id": "sz12u9vAwc4u1TQJX",
+			"id": "s0AoeZpqY3r0kgyeW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9148,6 +8339,11 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				}
@@ -9155,7 +8351,7 @@
 			"points": 1
 		},
 		{
-			"id": "s9zEk28Gw5kZt9c0N",
+			"id": "syugRxtCgKHcjRPnD",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9170,6 +8366,11 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				}
@@ -9177,7 +8378,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgu3hWNJFUCk65V-r",
+			"id": "s_bveIz2B-RlD5Wrx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9192,6 +8393,11 @@
 			"specialization": "Surveying",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -3
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -9210,7 +8416,7 @@
 			"points": 1
 		},
 		{
-			"id": "s2Xbxohtdc78lya0C",
+			"id": "sJJe198d7sWLnij5H",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9249,11 +8455,11 @@
 			"points": 1
 		},
 		{
-			"id": "s3o9fOzJPm1bGSQT3",
+			"id": "sOrcUZ6vzFBjl_KAS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "stJGGgA2iI_-Sk0YN"
+				"id": "sXMnK8CcTy43O0MsH"
 			},
 			"name": "Mechanic",
 			"reference": "B207",
@@ -9261,7 +8467,7 @@
 				"Maintenance",
 				"Repair"
 			],
-			"specialization": "Analytical Engine",
+			"specialization": "Autogyro",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -9271,7 +8477,7 @@
 				{
 					"type": "skill",
 					"name": "Engineer",
-					"specialization": "Analytical Engine",
+					"specialization": "Autogyro",
 					"modifier": -4
 				},
 				{
@@ -9288,7 +8494,7 @@
 			"points": 1
 		},
 		{
-			"id": "sPFfPW5iGmXdJzpz5",
+			"id": "s3D85I9YST69gybWM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9327,7 +8533,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKRiiZCtrr5--iQR_",
+			"id": "slDgt7d9_Mk8M9h82",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9366,7 +8572,7 @@
 			"points": 1
 		},
 		{
-			"id": "syIo-pxyFas7T3pr8",
+			"id": "sLRt9E3L4SG_yCh54",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9405,7 +8611,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRlLhS6JXsLcRQ2St",
+			"id": "sYw1pe2qDeSKnfOHM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9444,11 +8650,11 @@
 			"points": 1
 		},
 		{
-			"id": "s94Ev23Vwh-KElsy3",
+			"id": "sFkFK4thrSoyxSGLr",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sHQpro7wqfP04HzAj"
+				"id": "sg8EZC6lzzWkoaRRY"
 			},
 			"name": "Mechanic",
 			"reference": "B207",
@@ -9456,7 +8662,7 @@
 				"Maintenance",
 				"Repair"
 			],
-			"specialization": "Diesel Engine",
+			"specialization": "Flight Pack",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -9466,7 +8672,7 @@
 				{
 					"type": "skill",
 					"name": "Engineer",
-					"specialization": "Diesel Engine",
+					"specialization": "Flight Pack",
 					"modifier": -4
 				},
 				{
@@ -9483,7 +8689,7 @@
 			"points": 1
 		},
 		{
-			"id": "stSwQTeaII-nW5L09",
+			"id": "smuyd5Dc_v5DhV9t-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9522,7 +8728,7 @@
 			"points": 1
 		},
 		{
-			"id": "suYpzfoaP1kkYkHI_",
+			"id": "sw46DkTGcJMi7q09O",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9561,85 +8767,7 @@
 			"points": 1
 		},
 		{
-			"id": "sWWEGAj0LxbOrmKLD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s8ru3HTHb4kbm8nGz"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Gas Turbine",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Gas Turbine",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "siTGI2BC8_56VZ61X",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "smLOOlLIZd_uKpS9x"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Gasoline Engine",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Gasoline Engine",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sGpCMKfYHJiE6r91R",
+			"id": "sWYK2smOss2jqS_V-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9678,7 +8806,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKZSs8x_YRoTqfQFZ",
+			"id": "sXfSnalnvHID2Dr-I",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9717,7 +8845,46 @@
 			"points": 1
 		},
 		{
-			"id": "sMg1k2l8jWGlWq6cI",
+			"id": "sew3GKjyZ6nyCt01Y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s9F8b6YfwH2VYKEaf"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Heavy Airplane",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Airplane",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "stahGT9cSmKiN2zPP",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9756,7 +8923,7 @@
 			"points": 1
 		},
 		{
-			"id": "syxNQsPl03Ah5kDTE",
+			"id": "slSW-uMu46BaLkwPJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9795,7 +8962,46 @@
 			"points": 1
 		},
 		{
-			"id": "sJrTbp5Nn4wckzoEr",
+			"id": "shHHOCBbew0wujkkR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sLxMxu9UKPCA6NBt9"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Helicopter",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Helicopter",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZWsLVgxUdKXijxpV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9834,7 +9040,46 @@
 			"points": 1
 		},
 		{
-			"id": "skxQrT35RoOCSplYo",
+			"id": "s3Ogb1NiQixZYSTmz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-AqnJIKgzRC5GmmW"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Hydrogen Turbine",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Steam Turbine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sI-v3bX1l5HPn3aCk",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9873,7 +9118,85 @@
 			"points": 1
 		},
 		{
-			"id": "sLogH1PsTP6GysszZ",
+			"id": "sqCtmFFQYwxEPtv16",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s3MpVBq767OZCjkAL"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Legged Drive",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Legged Drive",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-OaxwOp1JW6brZcD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sXLQMC0qZnA0tlI_8"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Light Airplane",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Light Airplane",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sz64H7SCzGlJu8ojj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9912,7 +9235,46 @@
 			"points": 1
 		},
 		{
-			"id": "so8G92i_IbrDM2wc3",
+			"id": "sXjqDCf2N3MAd-gxd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sOPe23ERAle9VTBC3"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Lighter-Than-Air",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Lighter-Than-Air",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s5bEOM6Ep9otBpBgc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9951,7 +9313,7 @@
 			"points": 1
 		},
 		{
-			"id": "s23qN45hcxHanx0Mi",
+			"id": "sp-dY6tiK2WyuwmaH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -9990,7 +9352,7 @@
 			"points": 1
 		},
 		{
-			"id": "s1_w0iImApbpOUE_Z",
+			"id": "sKvuz25YhNi4TbdxG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10029,7 +9391,7 @@
 			"points": 1
 		},
 		{
-			"id": "sU8DcLb4FX9TzTvO8",
+			"id": "s0OAYZR-uqycEUtZA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10068,7 +9430,7 @@
 			"points": 1
 		},
 		{
-			"id": "svxkyedlA4s2r6AIr",
+			"id": "sOBMT6TlIZVLOQfHX",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10107,7 +9469,7 @@
 			"points": 1
 		},
 		{
-			"id": "sn2NhS9CaG3bSNI5O",
+			"id": "sPAoARvYdpasxjzcn",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10146,7 +9508,46 @@
 			"points": 1
 		},
 		{
-			"id": "stY01g_4UPpB5Dp_i",
+			"id": "sFWNIXFqcs2Gir3A1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-AqnJIKgzRC5GmmW"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Steam Turbine",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Steam Engine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sGuXVIPS5TsTFTYHv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10185,7 +9586,7 @@
 			"points": 1
 		},
 		{
-			"id": "snpx26rowDDatxY5L",
+			"id": "s6EDlbpyo8bVlgSUF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10224,7 +9625,85 @@
 			"points": 1
 		},
 		{
-			"id": "sRu7Kpq0wC7Hu5u7w",
+			"id": "sVlzdCiTtvtK_OEWM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s4H0sp6I8fGUALvFU"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Ultralight",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Ultralight",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "srh_VKOA6xlbaiboH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "st_pOG2u6LQE1sSeA"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Vertol",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Vertol",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "shDPFOYUPES_USh38",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10263,7 +9742,153 @@
 			"points": 1
 		},
 		{
-			"id": "sODOaxjLbixHfkK4p",
+			"id": "snZsM6GatABX9jAHr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sHQpro7wqfP04HzAj"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Diesel Engine",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Diesel Engine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sKi8uutOKf1JuL8Qr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sHQpro7wqfP04HzAj"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Hydrogen Engine",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Hydrogen Engine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s4gINHlsOOOzvIF1j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sHQpro7wqfP04HzAj"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Hydrogen Turbine",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Hydrogen Turbine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sMZtR23Zt8KwyZiy1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s9Ea1OCpoHkrNdjwf"
+			},
+			"name": "Meditation",
+			"reference": "B207",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "will/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Autohypnosis",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sxH7vIyI4b1tbv8HR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10295,7 +9920,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjbDwas4T6dFHL1_e",
+			"id": "sPa0TEnuLuoAa1tiF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10327,7 +9952,7 @@
 			"points": 1
 		},
 		{
-			"id": "sp2J-S1Ho2j43dZGL",
+			"id": "snhGczlQGf5LpJUUS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10348,7 +9973,7 @@
 			"points": 1
 		},
 		{
-			"id": "sy61TqaT60R-KfnFx",
+			"id": "si2ULKdREPGgNyQ6F",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10385,7 +10010,7 @@
 			"points": 1
 		},
 		{
-			"id": "svGYfpx-nO5IGvbFH",
+			"id": "sf4pfNJgcrrV3Zv63",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10422,7 +10047,7 @@
 			"points": 1
 		},
 		{
-			"id": "siQuYjjUtJ_-5r_-5",
+			"id": "sp7o1qhzleXSl49dg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10455,7 +10080,7 @@
 			"points": 1
 		},
 		{
-			"id": "sc0_wEsc0VpfZyjPN",
+			"id": "sYrJFMrlkrgoDeva3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10477,7 +10102,7 @@
 			"points": 1
 		},
 		{
-			"id": "sw_n3B8g4v_5HNGuY",
+			"id": "sz9zBXLNP5VpGPteW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10505,7 +10130,70 @@
 			"points": 1
 		},
 		{
-			"id": "sDPpX6X6M6h2fMuPT",
+			"id": "seeThcDJvsE-Z6ybu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s9BP8qACIfSLdJ5Pk"
+			},
+			"name": "Musical Influence",
+			"reference": "B210",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "iq/vh",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "singing"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "musical instrument"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Talent (Musical Ability)"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "seJj0dry1ldTWEiyH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10522,7 +10210,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKIAPxR1bY0umoQV6",
+			"id": "sHLCLRa_ZtM8zPJ3-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10552,7 +10240,7 @@
 			"points": 1
 		},
 		{
-			"id": "stA46PDXpprTZU491",
+			"id": "sZr_DxY5W2WnKANrY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10590,7 +10278,7 @@
 			"points": 1
 		},
 		{
-			"id": "sjcdckPyb_zz0j_YN",
+			"id": "sRIBjFsX-yvTdHLoP",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10628,7 +10316,83 @@
 			"points": 1
 		},
 		{
-			"id": "smzDQQFYc-cB2oE03",
+			"id": "spLwSXLpYLDOuhDZL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sZZ8IZK6yPuxwffjd"
+			},
+			"name": "Navigation",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"specialization": "Flux",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Astronomy",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Applied",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Hyperspace",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sz6_lCrKskVhjukoF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sQDDY3vM3okMKExLN"
+			},
+			"name": "Navigation",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"specialization": "Hyperspace",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Astronomy",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Applied",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Space",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sfBKWh2YPtrFcUdqJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10682,7 +10446,7 @@
 			"points": 1
 		},
 		{
-			"id": "sF6SAcZucrnuzlGjG",
+			"id": "sNhWYOCMJmOmQnNY5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10725,31 +10489,44 @@
 			"points": 1
 		},
 		{
-			"id": "sb-dT1JtN4GUTLhQa",
+			"id": "snzqyu4qvooL7QpX9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s0P_2AU_5q-BK-nhU"
+				"id": "swjwM4R_hmkH-UXlB"
 			},
-			"name": "Net",
-			"reference": "B211",
+			"name": "NBC Suit",
+			"reference": "B192",
 			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
+				"Military",
+				"Technical"
 			],
-			"difficulty": "dx/h",
+			"difficulty": "dx/a",
 			"defaults": [
 				{
-					"type": "skill",
-					"name": "Cloak",
+					"type": "dx",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Diving Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Vacc Suit",
+					"modifier": -2
 				}
 			],
 			"points": 1
 		},
 		{
-			"id": "s3F2_dwQh9HRmmjnM",
+			"id": "sTA9XobQXIHpq-B3C",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10779,7 +10556,7 @@
 			"points": 1
 		},
 		{
-			"id": "sQ6ISdYFSLB70_c-W",
+			"id": "soBh8-eXWqPDJS8zf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10801,7 +10578,7 @@
 			"points": 1
 		},
 		{
-			"id": "sJMyXVH0vq3gDSeW9",
+			"id": "s0W4NS7_s7ykBy8PM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10828,7 +10605,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdGNtNmGm06AWRo_V",
+			"id": "sfniegfdKWiJfTxBJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10858,7 +10635,7 @@
 			"points": 1
 		},
 		{
-			"id": "sGsaxG0ajYoODtt50",
+			"id": "senGD_rgFMfkihIMj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10893,7 +10670,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIex16ZIPtiRbJHr7",
+			"id": "sodMEKUW4dcn0_jM5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10924,7 +10701,7 @@
 			"points": 1
 		},
 		{
-			"id": "s28Lv9--IsGCUH03-",
+			"id": "sgGdlrUdXc3Hgl1r5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10954,7 +10731,7 @@
 			"points": 1
 		},
 		{
-			"id": "swhzoK-EYkgtEHfn-",
+			"id": "sxyWTZwwGkodw01F9",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -10987,7 +10764,7 @@
 			"points": 1
 		},
 		{
-			"id": "sBQpvunuCFyT6Nld3",
+			"id": "sIVbTd9MNW_DVTNem",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11010,7 +10787,7 @@
 			"points": 1
 		},
 		{
-			"id": "stlgtak3PN8xJ-4Mp",
+			"id": "sy4D5-KRXxRGCzDBT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11027,7 +10804,7 @@
 			"points": 1
 		},
 		{
-			"id": "sTrktX6uu6w65VNFY",
+			"id": "sUpOg0VOU8Dm1fQMj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11059,7 +10836,71 @@
 			"points": 1
 		},
 		{
-			"id": "shiEAMl8TePMsTvJa",
+			"id": "swy0ELF9nfocaum7m",
+			"name": "Performance",
+			"reference": "B195",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Fire Eating",
+			"difficulty": "dx/a",
+			"points": 1
+		},
+		{
+			"id": "sIyEffbXZINeE1pTK",
+			"name": "Performance",
+			"reference": "B221",
+			"tags": [
+				"Arts",
+				"Criminal",
+				"Entertainment",
+				"Street"
+			],
+			"specialization": "Sleight of Hand",
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sgIZ4qiyUZnpkIc3x",
+			"name": "Performance",
+			"reference": "B222,MA59",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Stage Combat",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s9kplwBqt2azWttou",
+			"name": "Performance",
+			"reference": "B228",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Ventriloquism",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sPcOG94MvaaVrL7oR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11113,7 +10954,7 @@
 			"points": 1
 		},
 		{
-			"id": "s6nDP8xY7jU5xkfWm",
+			"id": "sf3HsMFqT6tjhc189",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11147,7 +10988,7 @@
 			"points": 1
 		},
 		{
-			"id": "sWt3QJyYCITkHpuaR",
+			"id": "sQBkOsJJGDkjC4sIe",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11170,7 +11011,7 @@
 			"points": 1
 		},
 		{
-			"id": "sMs1dP7hA9fy9wg7D",
+			"id": "si5q3872_7f-1Q_9y",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11200,7 +11041,7 @@
 			"points": 1
 		},
 		{
-			"id": "sfONZtb9boN0nU-E_",
+			"id": "sQw9AbDbnuS9DNG8k",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11231,7 +11072,7 @@
 			"points": 1
 		},
 		{
-			"id": "sU6Y3rFlew9_63F5I",
+			"id": "snfmtwrfwczaCZQKH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11274,7 +11115,7 @@
 			"points": 1
 		},
 		{
-			"id": "sx7QUjqVGxxKa5_qt",
+			"id": "sL7weF_JOjilTk4Cv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11314,7 +11155,7 @@
 			"points": 1
 		},
 		{
-			"id": "sT6qLeCs36dVxuu55",
+			"id": "sMgB9DZ15i8zRGFsf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11352,7 +11193,7 @@
 			"points": 1
 		},
 		{
-			"id": "sfcymeRJLR4BfeCip",
+			"id": "s_vPwLK4RbpMCcJ98",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11366,6 +11207,12 @@
 			],
 			"difficulty": "dx/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Performance",
+					"specialization": "Sleight of Hand",
+					"modifier": -4
+				},
 				{
 					"type": "dx",
 					"modifier": -6
@@ -11384,7 +11231,7 @@
 			"points": 1
 		},
 		{
-			"id": "sZpA70fFry-lMYj7S",
+			"id": "sG__6gXODzHqfoe6U",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11417,7 +11264,58 @@
 			"points": 1
 		},
 		{
-			"id": "sgiStzwCRu8qIr9fs",
+			"id": "sSY0Zq420k9en2Pde",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s1LJtJ0EbBcxeup5d"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Autogyro",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Helicopter",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Heavy Airplane",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Light Airplane",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "High-Performance Airplane",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sWAx5DOwvZs6RcmJn",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11450,7 +11348,40 @@
 			"points": 1
 		},
 		{
-			"id": "sHJYyL7fIzufK7qN0",
+			"id": "sM4-3nxv6G02Ykcu3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "su3zM7fuvm8Fp0D1i"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Flight Pack",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sh1-U_eVBuK86N8LZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11489,7 +11420,181 @@
 			"points": 1
 		},
 		{
-			"id": "sY4mtQYW3EmD4PQz9",
+			"id": "sbunC7akfweers7yO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sU3WBe_euE-2u36U2"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Heavy Airplane",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "High-Performance Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Light Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "svyA4_LcvTA6_rFfL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s68T8C_d4Kd-urocy"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Helicopter",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Autogyro",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbP8eMa2XZzFBDJPO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sDNmi1xNdiJG1jiZz"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "High-Performance Airplane",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Aerospace",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Heavy Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Light Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1v9zzWMehR1qbiRl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "ss7jX_zvtMCUp6msC"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Light Airplane",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Glider",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Heavy Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "High-Performance Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Ultralight",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sv5UmPShpqeqPsy37",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11516,7 +11621,97 @@
 			"points": 1
 		},
 		{
-			"id": "sCRFBA2T27FGH6Lrr",
+			"id": "smj4JDkCLBpgmTslh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sWEQ-QuxqSQyZdCRU"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Ultralight",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Gilder",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Light Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Heavy Airplane",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "High-Performance Airplane",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "ss_3LxhSA5ms6IoHA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sPbGGutsY_70Dy0Li"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Vertol",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Helicopter",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sy2BEhWtMfYck64FR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11543,7 +11738,7 @@
 			"points": 1
 		},
 		{
-			"id": "sCKAHPpt2eqs35KZc",
+			"id": "suByhItHJ7bdPKhEp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11582,11 +11777,11 @@
 			"points": 1
 		},
 		{
-			"id": "svWJEIwJMDdEoAz8a",
+			"id": "sdtgXsLYlYB_njKRX",
 			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sMbYJPn9E7PHx-Aob"
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "snWZqMuWKW_ygEPjs"
 			},
 			"name": "Polearm",
 			"reference": "B208",
@@ -11620,34 +11815,81 @@
 			"points": 1
 		},
 		{
-			"id": "s6cjUmdVrvMxaVHDZ",
+			"id": "s5TCLE4R0rmK4EOLH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6tcQ-jAVh2MoJ_uf"
+				"id": "sBCZF1apRHAng7GFF"
 			},
-			"name": "Politics",
-			"reference": "B215",
+			"name": "Power Blow",
+			"reference": "B215,MA58",
 			"tags": [
-				"Business",
-				"Social"
+				"Esoteric"
 			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Diplomacy",
-					"modifier": -5
-				}
-			],
+			"difficulty": "will/h",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
 			"points": 1
 		},
 		{
-			"id": "sb6lkue-TlQvYgbl7",
+			"id": "sJBiVq5c21S5E5dpU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqyFrR5b7x_IRMZsk"
+			},
+			"name": "Pressure Points",
+			"reference": "B215,MA58",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "iq/h",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "srXjZSTTr0IP4Y6h1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11669,7 +11911,7 @@
 			"points": 1
 		},
 		{
-			"id": "s44SEQvEKXU1zIPC7",
+			"id": "s3zKqf3DoUyG4TCQ2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11691,7 +11933,7 @@
 			"points": 1
 		},
 		{
-			"id": "smLNkcbTAx-xwVACq",
+			"id": "sgDBz-e0XVfVNPw1x",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11725,7 +11967,7 @@
 			"points": 1
 		},
 		{
-			"id": "snrsJDzb-iy7YacXc",
+			"id": "stF33cidGKyMPDDs6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11752,7 +11994,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgd15cLS7-tKWV5dK",
+			"id": "sg6UkUw05CI1ODcVQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11764,6 +12006,7 @@
 				"Humanities",
 				"Social Sciences"
 			],
+			"specialization": "@Species@",
 			"difficulty": "iq/h",
 			"defaults": [
 				{
@@ -11779,7 +12022,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbGK9TRrHz55HH-Ri",
+			"id": "sTl_THNoJ_ueTb-av",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11807,7 +12050,7 @@
 			"points": 1
 		},
 		{
-			"id": "saEKw8-Sw2VOUsoTF",
+			"id": "sTqhJDPGLuF6OZXUY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11835,7 +12078,7 @@
 			"points": 1
 		},
 		{
-			"id": "sV6AqGFrA0bINDH3Q",
+			"id": "stxZfUTAWK9GB2OiK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11863,7 +12106,7 @@
 			"points": 1
 		},
 		{
-			"id": "sz7KKo5QUbG716XNH",
+			"id": "sSAPCKhXWZPD-IbRv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11891,7 +12134,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIb-493rPayKsBIuV",
+			"id": "srvDNRL17GutB8tES",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11919,7 +12162,7 @@
 			"points": 1
 		},
 		{
-			"id": "sk7c_VzbctPkK2ZNW",
+			"id": "saoGgsQ0RsqfNPK_J",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11957,50 +12200,7 @@
 			"points": 1
 		},
 		{
-			"id": "sfzVA6M1175j3nE9U",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s-y06a7Fcnd6VGLQ-"
-			},
-			"name": "Rapier",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Broadsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Main-Gauche",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Saber",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Smallsword",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "smw0aI8j5Kk8DRY5a",
+			"id": "sTUerO1X9u_dcqPaZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12031,7 +12231,7 @@
 			"points": 1
 		},
 		{
-			"id": "sf6gCsu018oXg8uEv",
+			"id": "snnpag7NiVzEj1p5Z",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12062,7 +12262,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLyvWyC2Mft3Mo7w-",
+			"id": "sbZTSrAUNXpXbWuLE",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12159,7 +12359,7 @@
 			"points": 1
 		},
 		{
-			"id": "s_4sP1RQEvCx-wz68",
+			"id": "sMjoXT7elIT3lt8LU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12187,7 +12387,7 @@
 			"points": 1
 		},
 		{
-			"id": "sZuadW9IPmmlxWWPU",
+			"id": "sCdvc5ANTSSd-xtnX",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12215,7 +12415,7 @@
 			"points": 1
 		},
 		{
-			"id": "stz0M1bgYajtMLAxm",
+			"id": "sbugEJal7VTvBmuR6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12243,7 +12443,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRjSiRvAWROsDbvN0",
+			"id": "saEDyw727Rh8PMUdT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12271,7 +12471,7 @@
 			"points": 1
 		},
 		{
-			"id": "sscIi_erO1Qj-QYZH",
+			"id": "sU2l7frfSaQ6qHKOg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12299,7 +12499,7 @@
 			"points": 1
 		},
 		{
-			"id": "sOFxTV8vVwqZQLobw",
+			"id": "sqXqaB6ohDy3JQYZC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12320,55 +12520,7 @@
 			"points": 1
 		},
 		{
-			"id": "sqxrAMVMWQGchDBQ6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sm4SB8y1Te_UbDPpu"
-			},
-			"name": "Saber",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Broadsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Main-Gauche",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Rapier",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Smallsword",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sfb_3r_qz5O9KKkmk",
+			"id": "sr0vh8ZqI-YrVWNEw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12396,7 +12548,7 @@
 			"points": 1
 		},
 		{
-			"id": "srBPlusjzk_idW31E",
+			"id": "sMdrL6MJifySROP4Q",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12424,7 +12576,7 @@
 			"points": 1
 		},
 		{
-			"id": "sWO8nVyZZxZzaows_",
+			"id": "sxCDvFBJyraNcON9o",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12454,7 +12606,7 @@
 			"points": 1
 		},
 		{
-			"id": "svDdBlN31Hz1-9BYN",
+			"id": "smYVctfd8eC_yI0xR",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12484,7 +12636,7 @@
 			"points": 1
 		},
 		{
-			"id": "sR4svSk1NA49k3lmn",
+			"id": "sMvpcW5LgY0W0WK6t",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12508,7 +12660,7 @@
 			"points": 1
 		},
 		{
-			"id": "sosXgy29k954DhH3W",
+			"id": "sxY0mAkk7N3BjqPEv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12532,7 +12684,7 @@
 			"points": 1
 		},
 		{
-			"id": "sD9dTu0zisLh8tcpa",
+			"id": "sa84tLidnoj7Z1wNZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12562,7 +12714,7 @@
 			"points": 1
 		},
 		{
-			"id": "sJMTzh09s5_UHBrth",
+			"id": "scGk_srGhgn6KYZBs",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12584,7 +12736,7 @@
 			"points": 1
 		},
 		{
-			"id": "s4Yp6jPxb9f1qwtxU",
+			"id": "sy-xg-AWrO_bADOfN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12628,7 +12780,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIHUkoo5gCuowHj_P",
+			"id": "sNONWxz7HpFkj2dWo",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12649,7 +12801,7 @@
 			"points": 1
 		},
 		{
-			"id": "sELqkhprtOI991fVZ",
+			"id": "sr79Zb2kppHaXKafm",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12676,7 +12828,7 @@
 			"points": 1
 		},
 		{
-			"id": "s89U-SDZnTKTZunxU",
+			"id": "sUsoUV-79Osvlxl8e",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12698,7 +12850,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSi14YDd4lT4C35_t",
+			"id": "s-WBfJDGTfJtAdF91",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12719,7 +12871,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSmPH_NzMfkNN8fvA",
+			"id": "sHPSuN-MhNC6s8n8E",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12753,11 +12905,11 @@
 			"points": 1
 		},
 		{
-			"id": "sA8PJ0J6QJrvH030j",
+			"id": "s3HsAA0ET8_F0sx7v",
 			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sxg-_yrzuGL19d-m8"
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "soWVx9iPwTCFQ9pnm"
 			},
 			"name": "Shield",
 			"reference": "B220",
@@ -12766,37 +12918,6 @@
 				"Melee Combat",
 				"Weapon"
 			],
-			"specialization": "Buckler",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Shield",
-					"specialization": "Force",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s3Hz_FanJiuVlgfat",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sHxw81LQLjwvQNyP9"
-			},
-			"name": "Shield",
-			"reference": "B220",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"specialization": "Shield",
 			"difficulty": "dx/e",
 			"defaults": [
 				{
@@ -12807,7 +12928,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbpQdzqGeC0Hu7chD",
+			"id": "sLG6PwGFbcx7emuvS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12874,7 +12995,7 @@
 			"points": 1
 		},
 		{
-			"id": "shqC_jt2zGAR-gKmt",
+			"id": "sMMzuTYNRIPMA4tGJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12941,7 +13062,7 @@
 			"points": 1
 		},
 		{
-			"id": "saLft1bP9HAv8Kedl",
+			"id": "spX8VxiRZca2vd3Dt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13014,7 +13135,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRFjtTaYECcRfoOTm",
+			"id": "s4Wt8sFlEhNWqoRfl",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13081,65 +13202,7 @@
 			"points": 1
 		},
 		{
-			"id": "s8e1GhDGsBGSWKvuo",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s-DdOtFsU7dX4Ttfz"
-			},
-			"name": "Shortsword",
-			"reference": "B209",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Broadsword",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Force Sword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Jitte/Sai",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Knife",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Saber",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Smallsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Tonfa",
-					"modifier": -3
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s8ZdP6yWU0lYJYk28",
+			"id": "sA9m7GV4UFz4zMrxC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13161,7 +13224,7 @@
 			"points": 1
 		},
 		{
-			"id": "sEmHgRkcYAVKaiDB_",
+			"id": "styUPXnWF-fv0WGS0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13183,7 +13246,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRLJxjyxBhSbjdAWK",
+			"id": "sBSkDys_qLRTFjHKD",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13206,32 +13269,7 @@
 			"points": 1
 		},
 		{
-			"id": "sxokvddx0RQBhpmLr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sx30jF75AT-salBcj"
-			},
-			"name": "Sleight of Hand",
-			"reference": "B221",
-			"tags": [
-				"Arts",
-				"Criminal",
-				"Entertainment",
-				"Street"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Filch",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sV1R1JxnIVxpsp_C1",
+			"id": "sN0E38UVFiDc8S2pe",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13254,50 +13292,7 @@
 			"points": 1
 		},
 		{
-			"id": "s_psfrcaHHz2iosj2",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sS4hZ6hj6EE25ergR"
-			},
-			"name": "Smallsword",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Main-Gauche",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Rapier",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Saber",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sLKmy2LKjMOK5ruoZ",
+			"id": "sB9hJlx6w0k2qAltx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13329,7 +13324,7 @@
 			"points": 1
 		},
 		{
-			"id": "s9Cx6zKcgBFIMPEay",
+			"id": "sW1d-JyTG0CgwMnjW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13356,7 +13351,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdW9Lx6Zol613PYO5",
+			"id": "sLYC6DV2YPjf0iXYQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13388,7 +13383,7 @@
 			"points": 1
 		},
 		{
-			"id": "sBg4ww33AQOp42oFE",
+			"id": "snAV_ZnWdDC-EeVex",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13411,7 +13406,7 @@
 			"points": 1
 		},
 		{
-			"id": "sZCCoUZr1vzU9_Fyz",
+			"id": "sqeUZs3JbzuQeDVlY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13443,7 +13438,7 @@
 			"points": 1
 		},
 		{
-			"id": "srsv4GKPD74ZTyHkv",
+			"id": "sQFG2qjrHVxh_hVjS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13464,69 +13459,7 @@
 			"points": 1
 		},
 		{
-			"id": "s45iD4tu2OIWAv8P8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sGZIS74r72pQZ7Ayv"
-			},
-			"name": "Spear",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Polearm",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Staff",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sebnGY_U53k6wnDlc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "scjjlTC-AfuV0whOe"
-			},
-			"name": "Spear Thrower",
-			"reference": "B222",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Thrown Weapon",
-					"specialization": "Spear",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sylfjOo7VFcHu24zA",
+			"id": "sVgF9hPX3gM2u7fwl",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13541,7 +13474,7 @@
 			"points": 1
 		},
 		{
-			"id": "sgdMQ5qtQYKRoj_l8",
+			"id": "sSBxk79Y4ZGmlbfaH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13563,63 +13496,7 @@
 			"points": 1
 		},
 		{
-			"id": "sk6YDUeW6kYqGhNEj",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sZnijHP17_9lk1OPG"
-			},
-			"name": "Staff",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Polearm",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Spear",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "svPmFY_iuWiKTs-yY",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s668RCeNYZxo_-Xaj"
-			},
-			"name": "Stage Combat",
-			"reference": "B222,MA59",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Performance",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sdfldNXB1Rn1TU6sh",
+			"id": "sPIi9qY0k_eXC_xKD",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13648,7 +13525,7 @@
 			"points": 1
 		},
 		{
-			"id": "shRZB5BLfTH_WbZ_I",
+			"id": "soCgaB43b4vOdyPiL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13685,7 +13562,7 @@
 			"points": 1
 		},
 		{
-			"id": "sAmT5-ZfCuRbViNqh",
+			"id": "sua0J0_tvyRWx8B1o",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13722,7 +13599,7 @@
 			"points": 1
 		},
 		{
-			"id": "sMVP5tq-dHHegiRAI",
+			"id": "sLw3MbvviNkXpjFBH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13759,7 +13636,7 @@
 			"points": 1
 		},
 		{
-			"id": "scYNcSCV9frOqWut9",
+			"id": "sOyk4um7slbexJhX5",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13783,7 +13660,7 @@
 			"points": 1
 		},
 		{
-			"id": "ssQyPQ5Om0HwpPWGn",
+			"id": "sLF83hUAeu3Bz5M-_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13839,7 +13716,7 @@
 			"points": 1
 		},
 		{
-			"id": "s0Vvc_xx0STBJkZJ3",
+			"id": "sLs4hS9jFQaRylEeH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13873,7 +13750,7 @@
 			"points": 1
 		},
 		{
-			"id": "sN7whLyB761LDRel2",
+			"id": "spxY_Dw7NLvUxBmAm",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13900,7 +13777,7 @@
 			"points": 1
 		},
 		{
-			"id": "sKWNwpppn8QReaCYC",
+			"id": "s2yi6ur7-fQU4HCDB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13921,7 +13798,7 @@
 			"points": 1
 		},
 		{
-			"id": "sxZFPl_dM1bVTUc2B",
+			"id": "sI6HAS6_LbyBojFUA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13931,14 +13808,13 @@
 			"reference": "B223,MA59",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/a",
 			"points": 1
 		},
 		{
-			"id": "scf-XKHl1MLxbqRTq",
+			"id": "sju9Bowp-vEZ_I2sA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -13997,7 +13873,83 @@
 			"points": 1
 		},
 		{
-			"id": "sgcpm9QbiJHA6ByQq",
+			"id": "s5v_NwTwMjIWJioUR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swx1BRcN-EGMO4e1Y"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "@Any Aquatic@",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1SsyYgcVxONWafL2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14025,7 +13977,7 @@
 			"points": 1
 		},
 		{
-			"id": "sccHfzdCbTJKj2lXS",
+			"id": "ss3Tu6jXGCtco_RsH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14101,7 +14053,77 @@
 			"points": 1
 		},
 		{
-			"id": "sBdzeX1haVX3Js0nP",
+			"id": "sI4OJYD1MsTaCphIr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Arcane Swamp",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s94rWhW6z3AO_F-PM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14171,7 +14193,217 @@
 			"points": 1
 		},
 		{
-			"id": "sAHwboTEXmJgLiHDR",
+			"id": "sqs5oPDrUNKjSDYw7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s2yMpXUpoF9fpo14U"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Bank",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-ugYw9q8-SAj0pOa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Buuhraw",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "szoAYpezHVFy90Kya",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spQgV_mcr1jwcjOqs"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Deep Ocean Vent",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sGTIMsnDoIRXktWr7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14241,7 +14473,217 @@
 			"points": 1
 		},
 		{
-			"id": "sqA--9-8uJcEhTRRb",
+			"id": "sQWR3NyidjaZyasIB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Eternal Valley",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPIWoPHBq2IKLkH_G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6D9NYM68_s_nT74S"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Fresh-Water Lake",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s6dPVt58dOMhubRV0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Indigo League",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZegXvUHKQSWvCKm1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14317,7 +14759,7 @@
 			"points": 1
 		},
 		{
-			"id": "sQ9yTcXhmjmcNgtTP",
+			"id": "s25bY84RMWVK5TFGu",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14387,7 +14829,77 @@
 			"points": 1
 		},
 		{
-			"id": "sQzhH7QTho_qEWIl8",
+			"id": "scEAXqFh4NPOHU7do",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Mirage Forest",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s5EyTvmd7aaOc_k_N",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14457,7 +14969,77 @@
 			"points": 1
 		},
 		{
-			"id": "sHzBL60GYZYjimoVX",
+			"id": "sxsTCApUKcSm4bvV2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sfqbQojhjn-DdHO7m"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Open Ocean",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "su985jxL_cmiNp1yt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14527,7 +15109,363 @@
 			"points": 1
 		},
 		{
-			"id": "soIekl6OxKe_ljoAO",
+			"id": "sWBD2ncGyEYXx8Mks",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shtAWtg6XTvpFLeZw"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Reef",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sYhPPb2vafRiYvrHD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNTfEyuCr_O3WbTMJ"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "River/Stream",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s2BBpcMa7qaHgzfm0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-iT1f2dcfeZO045N"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Salt-Water Sea",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPbEDUtvzSPC625aF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Scorched Desert",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sj5lywkijRvJ-Tnrl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBfcjUxryr4iVknLt"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Silicon Peaks",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sE6KeHgznj6Uh2QYH",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14603,7 +15541,83 @@
 			"points": 1
 		},
 		{
-			"id": "sk5PKa8qOPZI9kuBs",
+			"id": "sNPCimMVm-oIKX7M9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "slh12IeWjC7pXCRnl"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Tropical Lagoon",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Salt-Water Sea",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sEUygYCfIobq_zrxh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14673,7 +15687,22 @@
 			"points": 1
 		},
 		{
-			"id": "sXL7qE99vbj268QxF",
+			"id": "sastLuqD2w3S6tIyM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sCTUQ-jjrenvzMrlJ"
+			},
+			"name": "Sway Emotions",
+			"reference": "B192",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "will/h",
+			"points": 1
+		},
+		{
+			"id": "sZAgS5C-LWGUX6HNg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14697,7 +15726,35 @@
 			"points": 1
 		},
 		{
-			"id": "svNQZWP9giUfjfz2x",
+			"id": "sLa9sIFtYbLPaBvmd",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
+				"id": "sgG3HrMwYtF6SQokn"
+			},
+			"name": "Sword",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s6ufQXpKZlrWnS2es",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14724,7 +15781,7 @@
 			"points": 1
 		},
 		{
-			"id": "sLA_lPaD_2QziOWXS",
+			"id": "sZ8LhRt2iUotHHRDc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14746,7 +15803,7 @@
 			"points": 1
 		},
 		{
-			"id": "sh65NUaYzH9NCWSG-",
+			"id": "sxa2ErQYyhZdC4z5Z",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14786,7 +15843,7 @@
 			"points": 1
 		},
 		{
-			"id": "sG_U74Otcu3B9f9hH",
+			"id": "sstOiJr2eJ6P2tZwd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14821,7 +15878,7 @@
 			"points": 1
 		},
 		{
-			"id": "sbzBfssPBCCNTmHAI",
+			"id": "s7l_oHiqaWqnCE2q1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14850,65 +15907,7 @@
 			"points": 1
 		},
 		{
-			"id": "sL9sJXTIgF7M9wPp8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sMIRD7ORV8Bmze6Af"
-			},
-			"name": "Theology",
-			"reference": "B226",
-			"tags": [
-				"Humanities",
-				"Social Sciences"
-			],
-			"specialization": "Faith of Sh-gá-rra",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Religious Ritual",
-					"specialization": "@Specialty@",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sCMm_keebShX6Z0BL",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sMIRD7ORV8Bmze6Af"
-			},
-			"name": "Theology",
-			"reference": "B226",
-			"tags": [
-				"Humanities",
-				"Social Sciences"
-			],
-			"specialization": "Order of Old",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Religious Ritual",
-					"specialization": "@Specialty@",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sCX0TBWGNLthykurf",
+			"id": "sz-1qZhOnzuQzxqZz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -14937,254 +15936,7 @@
 			"points": 1
 		},
 		{
-			"id": "sHUo-QnCNn4mecfmP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shz-_Gg3cmjxmRxx2"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "@Specialty@",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sE-PYOw5Az7iNRafA",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sQ93W8oPsTVYtDkZ9"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Axe/Mace",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "suE7utayAQLVt0TMq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sb93Iknas4MWw8-l_"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Dart",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Throwing",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "srItUKGOM6n80raw3",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shzjSxy2W5Q2LWFIp"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Harpoon",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Thrown Weapon",
-					"specialization": "Spear",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sRNt_Wxwp9VW8J1Gb",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s3KM8dub0Xn5_9oPI"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Knife",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sBzSsLpAFubBZXtpM",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6sHR8eiTIhFZvXjf"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Shuriken",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Throwing",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sAJa_VYmT-bps7ptl",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sJnzh1OaoKVZdj02_"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Spear",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Spear Thrower",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Thrown Weapon",
-					"specialization": "Harpoon",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s0dKWQHoXG4rHHmt8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "ssbVfpHEFYJxuxnZl"
-			},
-			"name": "Thrown Weapon",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Stick",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sRLsBq_eoUkSGg_Ym",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sNwfaxu-3aL0vVB5a"
-			},
-			"name": "Tonfa",
-			"reference": "B209,MA61",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Shortsword",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sj2Hyr-JaqDwxTb5i",
+			"id": "s7zdZgdtUTHl7ShNN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15211,7 +15963,7 @@
 			"points": 1
 		},
 		{
-			"id": "sSUfkpM2ZspzmHakq",
+			"id": "sLQgdCeTC7CrJEuf4",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15239,116 +15991,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIAsnZRilBJfBo5e8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "soc41LpDsc6ewYxuO"
-			},
-			"name": "Two-Handed Axe/Mace",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Axe/Mace",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Polearm",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Flail",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sMzAdG16L5ayOtX2w",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sn1Fy1fi0cXPnwhst"
-			},
-			"name": "Two-Handed Flail",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Flail",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Kusari",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Axe/Mace",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sjl2Aqnnhr53F49d_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sFGzlIfgyVs82Qec9"
-			},
-			"name": "Two-Handed Sword",
-			"reference": "B209",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Broadsword",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Force Sword",
-					"modifier": -4
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sko02Ce8R4v6dACCd",
+			"id": "se-0ljthx4XAN6WHC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15371,7 +16014,7 @@
 			"points": 1
 		},
 		{
-			"id": "srqZgOogDNhcnn7Xr",
+			"id": "sJP31tJ2bywIpliJT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15394,23 +16037,43 @@
 			"points": 1
 		},
 		{
-			"id": "s2RNKzi3AlpXQFFTm",
+			"id": "sxE9_lGvqwNQaWzM0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sqGxu15iEnZV1UQbt"
+				"id": "sAmDzPjf0rKZ6I5G1"
 			},
-			"name": "Ventriloquism",
-			"reference": "B228",
+			"name": "Vacc Suit",
+			"reference": "B192",
 			"tags": [
-				"Arts",
-				"Entertainment"
+				"Technical"
 			],
-			"difficulty": "iq/h",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Diving Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "NBC Suit",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -2
+				}
+			],
 			"points": 1
 		},
 		{
-			"id": "sI6oRDxJYFGrmryUU",
+			"id": "symgiKAmUKEsdpETZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15443,7 +16106,7 @@
 			"points": 1
 		},
 		{
-			"id": "s28ft5aCzstGLIGIT",
+			"id": "sbC8mMfN8SktblyH7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15466,23 +16129,7 @@
 			"points": 1
 		},
 		{
-			"id": "sRFPOgQyUEsgu28rw",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "si6mX4OGmTtcWb1ud"
-			},
-			"name": "Weird Science",
-			"reference": "B228",
-			"tags": [
-				"Design",
-				"Invention"
-			],
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"id": "sibW52gZfNAB1kcEu",
+			"id": "sDFt1-FpegJXc3Tcv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15520,7 +16167,7 @@
 			"points": 1
 		},
 		{
-			"id": "sIrIXVeQYVrT4nZv1",
+			"id": "scs0j0q4ey1jJ9yXk",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15530,14 +16177,13 @@
 			"reference": "B228,MA61",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/a",
 			"points": 1
 		},
 		{
-			"id": "sTKwwExoLViYEejAm",
+			"id": "soIqsDgzLQdQ8xw0k",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -15557,6 +16203,69 @@
 					"modifier": -5
 				}
 			],
+			"points": 1
+		},
+		{
+			"id": "sPMzyuYfoYUZ6KBvg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "stl-5klG0QJVibdRs"
+			},
+			"name": "Zen Archery",
+			"reference": "B228,MA61",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "iq/vh",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "meditation"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "bow"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 18
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "weapon master"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								}
+							}
+						]
+					}
+				]
+			},
 			"points": 1
 		}
 	]

@@ -1,0 +1,748 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "qIbDntt8xmQtUH6cT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qRZuJ6wqoDy5Xp0D1"
+			},
+			"name": "Arm Lock",
+			"reference": "B230,MA65",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Wrestling"
+			},
+			"limit": 4,
+			"points": 1
+		},
+		{
+			"id": "qU6ZjvkwOSpX1ifTT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "q32eC2BYmXj_-57Pa"
+			},
+			"name": "Back Kick",
+			"reference": "B230,MA67",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Karate"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qABmY14vk_tXbtSsM",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "q4HOEAVwkzW1LO6CG"
+			},
+			"name": "Burst Fire",
+			"reference": "PY63:19",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Guns",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "q9nhZoTLUyVCQQ5eh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qDBtoIcLaLcjxjVN8"
+			},
+			"name": "Choke Hold",
+			"reference": "B230,MA69",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Wrestling",
+				"modifier": -3
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Wrestling"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "q4iLvvVsxsEjkhAcX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "q11aSGW0Y6yrbz_e5"
+			},
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"limit": 5,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qyj71jUTubb1X5NKq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qdV2t7kqSGzVQouic"
+			},
+			"name": "Elbow Strike",
+			"reference": "B230,MA71",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Brawling"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "q73d1VWT_NuuRpZ9V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qlf8-jNd24f1dDJf6"
+			},
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qPsmUuukhj-EB6qqs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "q4dXeT1nQwBNKcZbG"
+			},
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "@Combat Skill@",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Combat Skill@"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qxD_PdPqeUjiNs5Kr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qXTByqKnuWLOC3_10"
+			},
+			"name": "High Kick",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "quGQYOSaZYjhyvuWX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qA0rE_Q6DzCxRy3RX"
+			},
+			"name": "Impersonate",
+			"reference": "B233",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Technique"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Mimicry",
+				"specialization": "Speech",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qhIt4_xBEFZhAjol7",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qOpiopxlUD7g1WROx"
+			},
+			"name": "Jitte/Sai",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "One-Handed Sword",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qJ_Vvh9xMH6Vuh4rS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qByAXNBhC_VLK8WTg"
+			},
+			"name": "Jump Kick",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -4
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qQ5M4v5bKdDNvGjwH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qn6d1PZL7zjq-BkyC"
+			},
+			"name": "Knee Strike",
+			"reference": "B232,MA76",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -1
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qLmfubClVXWY_T2dw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qq5DZpMNDLEjAu05C"
+			},
+			"name": "Mounted Archery",
+			"reference": "B231,MA74",
+			"tags": [
+				"Animal",
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Bow",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "riding"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qMs-DxDb4QfsYLm6E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "q7mv-R0UI91k14t5x"
+			},
+			"name": "Neck Snap",
+			"reference": "B232,MA77",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "st",
+				"modifier": -4
+			},
+			"limit": 3,
+			"points": 2
+		},
+		{
+			"id": "qiS2PSe1uvdK1jpL3",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "q979y9UrxrR9BuCoO"
+			},
+			"name": "Payload Warhead",
+			"reference": "PY63:19",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Guns",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qHxdhWjNZTzbkius6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qVd4AfYpe8IZSKeb5"
+			},
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "@DX or Melee Weapon Skill@"
+			},
+			"limit": 5,
+			"points": 2
+		},
+		{
+			"id": "qukWd8deSFt7d8HMA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qgm1-ljR9tUfkrxFj"
+			},
+			"name": "Rope Up",
+			"reference": "B233",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Outdoor",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qlur9OdAVvmzkqXsQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "quzNvuMMTAuycYAQX"
+			},
+			"name": "Scaling",
+			"reference": "B233",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Outdoor",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qjOxPnZMpD-Zc-KjB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qIwCYzsfqnuq7LkN5"
+			},
+			"name": "Set Trap",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Explosives",
+				"specialization": "Demolition",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qzhhe__7mVM2B7WGM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qU0Y0Co4kBPalexEn"
+			},
+			"name": "Slip Handcuffs",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Escape",
+				"modifier": -5
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qdxWRcJHRCW5WoaHh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qW-8PPxgTh4eOLJPP"
+			},
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Polearm",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qYpZdhN8xZWrNWDk6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qtiDpERi-CcumZQsD"
+			},
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Staff",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "q5pqnjK9_UmfepPlJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qbAclPDlvsnJ2CWjL"
+			},
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Wrestling",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "q3SFibzJyVwi3Yr-1",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qT_NY3toRiFiiPWnb"
+			},
+			"name": "Unarmed Parry",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "qcBFtnpE8QBjVqdUf",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qi9GrsrtaMoAl9mua"
+			},
+			"name": "Unarmed Parry",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Wrestling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
+			"id": "q8lcd0KEoL0I5e8EQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qMg_ko6g5MerJMMMH"
+			},
+			"name": "Work by Touch",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Lockpicking",
+				"modifier": -5
+			},
+			"limit": 0,
+			"points": 2
+		}
+	]
+}

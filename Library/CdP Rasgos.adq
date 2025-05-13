@@ -45,36 +45,6 @@
 			}
 		},
 		{
-			"id": "tvq94XmH-3TC3oEvr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Power Ups/Power Ups Traits.adq",
-				"id": "tp75ScZgm_oYdvfDm"
-			},
-			"name": "Dabbler",
-			"reference": "PU2:16",
-			"notes": "@Up to 8 Skills@",
-			"tags": [
-				"Mental",
-				"Perk",
-				"Physical"
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tToTfPINFyLrfLrrL",
-			"name": "Jaw ST",
-			"points_per_level": 1,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
 			"id": "tRF3rsWu6L-VV7qFv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2788,6 +2758,67 @@
 			}
 		},
 		{
+			"id": "tpXFnw-tN_e9D2CPl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tGjjVtxav9KsrG7Wx"
+			},
+			"name": "Battle-Hardened",
+			"reference": "B43",
+			"reference_highlight": "Combat Reflexes",
+			"notes": "(Experimental trait)",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"base_points": 7,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "fright_check",
+					"amount": 1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 7
+			}
+		},
+		{
 			"id": "tbRR0SFaP-odxSchj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4256,7 +4287,7 @@
 			}
 		},
 		{
-			"id": "tmLGRhF2kafsKbhYV",
+			"id": "toBqtQAKFlxM8C6ZK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -4264,7 +4295,6 @@
 			},
 			"name": "Combat Reflexes",
 			"reference": "B43",
-			"notes": "Never freeze",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -4297,17 +4327,17 @@
 				{
 					"type": "attribute_bonus",
 					"attribute": "dodge",
-					"amount": 1
+					"amount": 2
 				},
 				{
 					"type": "attribute_bonus",
 					"attribute": "parry",
-					"amount": 1
+					"amount": 2
 				},
 				{
 					"type": "attribute_bonus",
 					"attribute": "block",
-					"amount": 1
+					"amount": 2
 				},
 				{
 					"type": "attribute_bonus",
@@ -4318,11 +4348,6 @@
 					"type": "conditional_modifier",
 					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
 					"amount": 6
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to initiative rolls for your side (+2 if you are the leader)",
-					"amount": 1
 				}
 			],
 			"calc": {
@@ -7227,6 +7252,26 @@
 			}
 		},
 		{
+			"id": "tvq94XmH-3TC3oEvr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Power Ups/Power Ups Traits.adq",
+				"id": "tp75ScZgm_oYdvfDm"
+			},
+			"name": "Dabbler",
+			"reference": "PU2:16",
+			"notes": "@Up to 8 Skills@",
+			"tags": [
+				"Mental",
+				"Perk",
+				"Physical"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tuZtYkJgnlH5cuMND",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -9704,7 +9749,7 @@
 			}
 		},
 		{
-			"id": "tpfDZV_YTbZDptFGk",
+			"id": "txYdFfO3Q6u3FPNP8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -9721,7 +9766,7 @@
 				{
 					"type": "attribute_bonus",
 					"attribute": "block",
-					"amount": 1,
+					"amount": 2,
 					"per_level": true
 				}
 			],
@@ -9732,7 +9777,7 @@
 			}
 		},
 		{
-			"id": "tP1aLDDK9EsjBJzaL",
+			"id": "tCcqbdhHSsqAzq85q",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -9749,7 +9794,7 @@
 				{
 					"type": "attribute_bonus",
 					"attribute": "dodge",
-					"amount": 1,
+					"amount": 2,
 					"per_level": true
 				}
 			],
@@ -9837,7 +9882,7 @@
 			}
 		},
 		{
-			"id": "t2W3pwYl593uAAZac",
+			"id": "tmts7LUkrd9Q1AMtK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -9854,7 +9899,7 @@
 				{
 					"type": "conditional_modifier",
 					"situation": "to Parry with @Melee weapon skill@",
-					"amount": 1
+					"amount": 2
 				}
 			],
 			"can_level": true,
@@ -9864,7 +9909,7 @@
 			}
 		},
 		{
-			"id": "toj4WgK3Z_qhWvKL5",
+			"id": "tl_GQHGH_uaSTbLvM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -9881,7 +9926,7 @@
 				{
 					"type": "attribute_bonus",
 					"attribute": "parry",
-					"amount": 1,
+					"amount": 2,
 					"per_level": true
 				}
 			],
@@ -9892,7 +9937,7 @@
 			}
 		},
 		{
-			"id": "ten_Nnn4FfKYh6aKh",
+			"id": "tJXVS3jq9CKjAZapm",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -9909,7 +9954,7 @@
 				{
 					"type": "conditional_modifier",
 					"situation": "to Parry with bare hands",
-					"amount": 1
+					"amount": 2
 				}
 			],
 			"can_level": true,
@@ -16883,6 +16928,16 @@
 			"base_points": -20,
 			"calc": {
 				"points": -20
+			}
+		},
+		{
+			"id": "tToTfPINFyLrfLrrL",
+			"name": "Jaw ST",
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{
