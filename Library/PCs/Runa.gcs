@@ -1618,29 +1618,28 @@
 					}
 				},
 				{
-					"id": "tsys7hGJX44G583yM",
+					"id": "tIF4QbPB5Q2fvcUhT",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tz-USDL9B_KrrVqDi"
 					},
-					"name": "Luck",
+					"name": "Luck (1/h)",
 					"reference": "B66,P59",
-					"notes": "Usable once per hour of play",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
 					"modifiers": [
 						{
-							"id": "mof9LMxnSy0G8u_8y",
+							"id": "mJU13yM01rC_cgN4I",
 							"name": "Active",
 							"reference": "B66",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mh9vNRlqAWd1yIlCb",
+							"id": "mMm4uZjWzlpaTKIhO",
 							"name": "Aspected",
 							"reference": "B66",
 							"notes": "@Aspect@",
@@ -1648,21 +1647,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mfoKegGqiUj6EZ2AV",
+							"id": "mUHQaO2PfrUZxp4Tx",
 							"name": "Defensive",
 							"reference": "B66",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mcKvepnF_koq3i54-",
+							"id": "mTg2f5nXuoCI2_T57",
 							"name": "Wishing",
 							"reference": "P59",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mXvWqM_lsPGE8aFuo",
+							"id": "mshK9XCM2bGNO5cYN",
 							"name": "Game Time",
 							"reference": "P108",
 							"notes": "Uses per game day equal to its maximum possible uses per real hour",
@@ -1722,116 +1721,90 @@
 			"name": "Culture",
 			"children": [
 				{
-					"id": "tBHZXJXRj0RdvHQfB",
+					"id": "tMeEg5sR5yYwM0l0v",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "toXBQ8q4Nek5lsLPF"
 					},
-					"name": "Cultural Familiarity (@Culture@)",
+					"name": "Cultural Familiarity",
 					"reference": "B23",
-					"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
-					"replacements": {
-						"Culture": "Korkon"
-					},
+					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 					"modifiers": [
 						{
-							"id": "meKTcb5RL_ia59K5P",
-							"name": "Alien",
+							"id": "miSbg4sAZd2QaunRf",
+							"name": "Koppemak",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "ma-tp99yT8ov3nuRC",
-							"name": "Native",
-							"cost": -1,
+							"id": "mihHAXFIK6DpCCWyw",
+							"name": "Koppemak",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mNADQ99fcxgfGOB7U",
+							"name": "Korkon",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mHvbmijbd7spNrlB7",
+							"name": "Korkon",
+							"notes": "Native",
 							"cost_type": "points"
-						}
-					],
-					"base_points": 1,
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "te9Q4JErcWLvs-PjE",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "toXBQ8q4Nek5lsLPF"
-					},
-					"name": "Cultural Familiarity (@Culture@)",
-					"reference": "B23",
-					"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"replacements": {
-						"Culture": "O'koptera"
-					},
-					"modifiers": [
+						},
 						{
-							"id": "mYWMApmG-syWQH38J",
-							"name": "Alien",
+							"id": "m8NudBpxup_FB-ulv",
+							"name": "Kwazaar",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mAatU3mCHL5-QZWub",
-							"name": "Native",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						}
-					],
-					"base_points": 1,
-					"calc": {
-						"points": 1
-					}
-				},
-				{
-					"id": "tBjNYBiHVDh58VPx8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "toXBQ8q4Nek5lsLPF"
-					},
-					"name": "Cultural Familiarity (Te'karn)",
-					"reference": "B23",
-					"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"replacements": {
-						"Culture": "O'koptera"
-					},
-					"modifiers": [
-						{
-							"id": "mGhhzabAAroYxtKuW",
-							"name": "Alien",
-							"cost": 1,
+							"id": "mlvLKU0utELL8S9DF",
+							"name": "Kwazaar",
+							"notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mixK-GtSluVU2D2xP",
-							"name": "Native",
-							"cost": -1,
+							"id": "mk7Fce_zVR4ytP6ew",
+							"name": "Te'karn",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "m0noYKHq7o12-qUO_",
+							"name": "Te'karn",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "maUnnNvG3pCMTisZO",
+							"name": "O'koptera",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "mzvrMqw_mH0zsRJiW",
+							"name": "O'koptera",
+							"notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						}
 					],
-					"base_points": 1,
 					"calc": {
-						"points": 1
+						"points": 2
 					}
 				},
 				{
@@ -4329,7 +4302,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-05-12T15:34:09+02:00",
+	"modified_date": "2025-05-15T00:27:10+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

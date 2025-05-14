@@ -1341,29 +1341,28 @@
 					}
 				},
 				{
-					"id": "tTNQPOh0ZKGjNwQvn",
+					"id": "t-QiYL_EiKf7JLSWy",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tz-USDL9B_KrrVqDi"
 					},
-					"name": "Luck",
+					"name": "Luck (1/h)",
 					"reference": "B66,P59",
-					"notes": "Usable once per hour of play",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
 					"modifiers": [
 						{
-							"id": "mC1YLKZSS9RsCte4Q",
+							"id": "mOVeNJQm5hoVFGO94",
 							"name": "Active",
 							"reference": "B66",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mfGAdnrHqZzKzyfFe",
+							"id": "mIlhSq1dihCFTXJR0",
 							"name": "Aspected",
 							"reference": "B66",
 							"notes": "@Aspect@",
@@ -1371,21 +1370,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mIS9rh4Gva-EhbzXQ",
+							"id": "mifCTunaxY4H56x6z",
 							"name": "Defensive",
 							"reference": "B66",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "m9pPZZUEayoAGUDeB",
+							"id": "mVJndIM7EwzDGEEHY",
 							"name": "Wishing",
 							"reference": "P59",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mk7X6cbZ5BH7QkI4p",
+							"id": "mSbuR5sVliNU5iC30",
 							"name": "Game Time",
 							"reference": "P108",
 							"notes": "Uses per game day equal to its maximum possible uses per real hour",
@@ -1699,38 +1698,90 @@
 			"name": "Culture",
 			"children": [
 				{
-					"id": "tfLDYLlHUU-zg9QJ5",
+					"id": "tl9mM5_Raow6NZj8M",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "toXBQ8q4Nek5lsLPF"
 					},
-					"name": "Cultural Familiarity (@Culture@)",
+					"name": "Cultural Familiarity",
 					"reference": "B23",
-					"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
-					"replacements": {
-						"Culture": "Te'karn"
-					},
+					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 					"modifiers": [
 						{
-							"id": "mfBMGP0mtgDqV81zq",
-							"name": "Alien",
+							"id": "mUPmOziYJsiZupG5Y",
+							"name": "Koppemak",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mojq_WXPt9wnejlPp",
-							"name": "Native",
-							"cost": -1,
+							"id": "mbtOXqJzKT1xcWFZK",
+							"name": "Koppemak",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m5ARLHxR3mM7P6ihO",
+							"name": "Korkon",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mNo10bZOsSepwLB2-",
+							"name": "Korkon",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mGBzH_Ly3bgPE7DW8",
+							"name": "Kwazaar",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mHGmVfWU5G0_lECXT",
+							"name": "Kwazaar",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mHL6O_XtGSzAtEI5H",
+							"name": "Te'karn",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mshSjYU0H1agYu3tb",
+							"name": "Te'karn",
+							"notes": "Native",
 							"cost_type": "points"
+						},
+						{
+							"id": "m5RjMJWo3I1koIaMi",
+							"name": "O'koptera",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m0DezhI2VF6Id6Uz_",
+							"name": "O'koptera",
+							"notes": "Native",
+							"cost_type": "points",
+							"disabled": true
 						}
 					],
-					"base_points": 1,
 					"calc": {
 						"points": 0
 					}
@@ -2189,7 +2240,7 @@
 		},
 		{
 			"id": "Tz_YdvNKsXhA_efjj",
-			"name": "Nu'karn",
+			"name": "Nu'karn/Te'karn",
 			"userdesc": "Apply on top of another species' template.",
 			"ancestry": "Human",
 			"container_type": "ancestry",
@@ -2689,24 +2740,6 @@
 			],
 			"calc": {
 				"points": 25
-			}
-		},
-		{
-			"id": "TIYu6BnTc91TbzFpb",
-			"name": "Other (?)",
-			"children": [
-				{
-					"id": "t1iIuUyqq7CbuFysf",
-					"name": "Keumic Knot",
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 0
-					}
-				}
-			],
-			"calc": {
-				"points": 0
 			}
 		}
 	],
@@ -3856,7 +3889,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-12T15:33:57+02:00",
+	"modified_date": "2025-05-15T00:27:37+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

@@ -109,16 +109,17 @@
 							],
 							"modifiers": [
 								{
-									"id": "m_fE-zU3zkjhOwLpz",
+									"id": "myeMAmLsIT_db6bc4",
 									"name": "Intuitive Mathematician",
 									"reference": "B66",
 									"cost": 3,
-									"cost_type": "points"
+									"cost_type": "points",
+									"disabled": true
 								}
 							],
 							"base_points": 2,
 							"calc": {
-								"points": 5
+								"points": 2
 							}
 						},
 						{
@@ -137,7 +138,7 @@
 						}
 					],
 					"calc": {
-						"points": 27
+						"points": 24
 					}
 				},
 				{
@@ -160,9 +161,8 @@
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
 						"id": "t41Jcu2uv3yYlH_uK"
 					},
-					"name": "Complexity-Limited IQ",
+					"name": "Complexity-Limited IQ (C7)",
 					"reference": "TT2:12",
-					"notes": "Complexity 7",
 					"tags": [
 						"Exotic",
 						"Mental",
@@ -535,9 +535,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 3,
+					"levels": 4,
 					"calc": {
-						"points": 6
+						"points": 8
 					}
 				},
 				{
@@ -856,21 +856,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mkhWYN51N3Sm8rO51",
+							"id": "mbP-TnVv91-GLHrON",
 							"name": "Cast-Iron Stomach",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "msoBC8k3J5csgll3w",
+							"id": "mkrTot_u9fVTCxhkv",
 							"name": "Food Only",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mjuPReIFloJP9vLkT",
+							"id": "moNpUJ4_3y9PNADXw",
 							"name": "Water Only",
 							"reference": "B80",
 							"cost": -50,
@@ -886,7 +886,7 @@
 				}
 			],
 			"calc": {
-				"points": 26
+				"points": 25
 			}
 		}
 	]

@@ -256,27 +256,27 @@
 					],
 					"modifiers": [
 						{
-							"id": "m7wHGy-4-TD73WgHb",
+							"id": "mnfzPFsRGgxgBQLgF",
 							"name": "Emotion Sense",
 							"reference": "B49",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mTk58GCYBzTSKg2wE",
+							"id": "mCkHbkKh1Dsg_pf3E",
 							"name": "Profiling",
 							"reference": "P47",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mzTXKhn6Laj01eQlS",
+							"id": "mbO4_Wq0P1pAeIqIt",
 							"name": "Racial Emotion Sense",
-							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones. Must be within 2 yards of the subject.",
-							"cost": 25
+							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
+							"cost": 20
 						},
 						{
-							"id": "m1edoww0yG2kTefbA",
+							"id": "me3Atgb2DzsZINAAy",
 							"name": "Vague Communication"
 						}
 					],
@@ -298,7 +298,7 @@
 						}
 					],
 					"calc": {
-						"points": 19
+						"points": 18
 					}
 				},
 				{
@@ -312,14 +312,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "miiUi-5bdF4hK_J5H",
+							"id": "mBTTfYRAmIbJJ_ezF",
 							"name": "Extra-Flexible",
 							"reference": "B53",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mmjipMvGuP_CPN-QV",
+							"id": "mqYycAo5zE9dQaXyH",
 							"name": "Long",
 							"reference": "B53",
 							"cost": 100,
@@ -327,28 +327,28 @@
 							"disabled": true
 						},
 						{
-							"id": "maym2Cx-5li0_kY3W",
+							"id": "m2wI0jc1C9xSAox7y",
 							"name": "Foot Manipulators",
 							"reference": "B53",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "my3ZFgZkJlEDk6fez",
+							"id": "mlHrKBmjdbo1_xztS",
 							"name": "No Physical Attack",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m5Rh1nMMpUMdBfK_K",
+							"id": "mxc3kXKplNMj04mTk",
 							"name": "Short",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mm13EuDnXtghGTQWL",
+							"id": "mTqAbaI3RMLgZCHPp",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Half body ST",
@@ -356,7 +356,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m18S_wTcSTEWI23gk",
+							"id": "mFJxgBio0znsjDrDM",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Quarter body ST",
@@ -364,14 +364,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mnrRcR_Mp5s_kGcEV",
+							"id": "mLBy7Yn9NPzqfT3BT",
 							"name": "Weapon Mount",
 							"reference": "B53",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mPvvP5iLAjsBdRkTF",
+							"id": "mH3YM2CyPufudpjFf",
 							"name": "No Grasping Hand",
 							"reference": "MATG28",
 							"cost": -40,
@@ -386,35 +386,6 @@
 					}
 				},
 				{
-					"id": "tGp4Q909biAx79RBC",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tpVpKxJ4O8NxUBBDE"
-					},
-					"name": "Fewer Hit Points",
-					"reference": "B16",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -2,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "hp",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": -4
-					}
-				},
-				{
 					"id": "tROhOy8Xhz9J_LQcM",
 					"name": "Night Vision",
 					"reference": "B71,P87",
@@ -424,9 +395,9 @@
 					],
 					"points_per_level": 1,
 					"can_level": true,
-					"levels": 3,
+					"levels": 4,
 					"calc": {
-						"points": 3
+						"points": 4
 					}
 				},
 				{
@@ -534,7 +505,7 @@
 				},
 				{
 					"id": "tMuD055ncRk_M35Zr",
-					"name": "Vibration Sense",
+					"name": "Vibration Sense (Air)",
 					"reference": "B96,P86",
 					"tags": [
 						"Advantage",
@@ -543,29 +514,25 @@
 					],
 					"modifiers": [
 						{
-							"id": "mPLQOv9xrjeyNUtaw",
+							"id": "mNPGHQ8OPuRnisdWF",
 							"name": "Universal",
 							"reference": "B96",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "msdK4_pKkSSFX97Xr",
+							"id": "madepg3Mi5Z7BL0wI",
 							"name": "Sense of Perception",
 							"reference": "P86",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mG8d73dSSYmcdtQQZ",
+							"id": "m7LOC9Vj8ZfPw0FgZ",
 							"name": "Targeting",
 							"reference": "P86",
 							"cost": 20,
 							"disabled": true
-						},
-						{
-							"id": "mQyEwbOwz0MBjo0VH",
-							"name": "Air"
 						}
 					],
 					"base_points": 10,
@@ -574,13 +541,13 @@
 					}
 				},
 				{
-					"id": "tPq_EzeiFLcOVcjZa",
+					"id": "tp52i8AV-yHAlSQrl",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tgZ_USe8H3_wWhOHm"
 					},
-					"name": "Vulnerability",
+					"name": "Vulnerability (Fire)",
 					"reference": "B161",
 					"tags": [
 						"Disadvantage",
@@ -589,7 +556,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mFSZaRQJ5g8WU7XCQ",
+							"id": "mJ5LcpGqOSKOHGZ2X",
 							"name": "@Rare attack@",
 							"reference": "B161",
 							"cost": -5,
@@ -597,7 +564,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mo3q6cfsmzaV44yWN",
+							"id": "mshKIHy_YLXeaAh5Z",
 							"name": "@Occasional attack@",
 							"reference": "B161",
 							"cost": -10,
@@ -605,14 +572,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mahEP_rQMGeI5_tVP",
-							"name": "Fire",
+							"id": "mVD3x-3jZANrSiD-A",
+							"name": "Common",
 							"reference": "B161",
 							"cost": -15,
 							"cost_type": "points"
 						},
 						{
-							"id": "mIfvF3nhzxoTj66wD",
+							"id": "mCUIBv_UTmYEHaK0h",
 							"name": "@Very common attack@",
 							"reference": "B161",
 							"cost": -20,
@@ -620,14 +587,14 @@
 							"disabled": true
 						},
 						{
-							"id": "m0fJ2p_2lRbl-_Gu8",
+							"id": "mqQc8JRYptwWoAxo3",
 							"name": "Wounding x2",
 							"reference": "B161",
 							"cost": 2,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "mD7jwMdBTW4QNCcdk",
+							"id": "ma_5nqnJF24X5Y1JH",
 							"name": "Wounding x3",
 							"reference": "B161",
 							"cost": 3,
@@ -635,7 +602,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mXn9fyU1TJlVuyt9X",
+							"id": "mn1fjSaB6-26S7iSa",
 							"name": "Wounding x4",
 							"reference": "B161",
 							"cost": 4,
@@ -643,7 +610,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mazzPidVkjnI3Y_U0",
+							"id": "mozocaDKP3ZjlpGWZ",
 							"name": "Fatigue Only",
 							"reference": "B161",
 							"cost": -50,
@@ -656,7 +623,7 @@
 				}
 			],
 			"calc": {
-				"points": 26
+				"points": 30
 			}
 		}
 	]

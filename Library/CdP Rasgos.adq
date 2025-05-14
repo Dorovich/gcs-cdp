@@ -5360,6 +5360,96 @@
 			}
 		},
 		{
+			"id": "t0lPrLhlEhRkAK-e_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mRb4ssr3VqteKeWdT",
+					"name": "Koppemak",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mc9eSP1lKMWhWpj_q",
+					"name": "Koppemak",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mdgyIWx6Mxis4teVm",
+					"name": "Korkon",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mSGdCrK5ZUQGNcfkN",
+					"name": "Korkon",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mPk0noUcGEksC4G1y",
+					"name": "Kwazaar",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mMCTOjSAk_mSp0-wJ",
+					"name": "Kwazaar",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mxvNkmJ_JhJx4DHUg",
+					"name": "O'koptera",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mm7IdqH_Wb4fqMBWT",
+					"name": "O'koptera",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m6mjZCR2t6g4icf81",
+					"name": "Te'karn",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "md16yGskyDhkdDfiC",
+					"name": "Te'karn",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "tcT169odORvbWComi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -18358,6 +18448,174 @@
 			}
 		},
 		{
+			"id": "t1I_wAKdziih9i4Qo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Luck (1/h)",
+			"reference": "B66,P59",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "m2h2VkTa8Q9XiYt6o",
+					"name": "Active",
+					"reference": "B66",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mnipoZXeRil5EB_-d",
+					"name": "Aspected",
+					"reference": "B66",
+					"notes": "@Aspect@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m7wGCpIfqqW2mYUel",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mTPno1s3qXc7Sdh9m",
+					"name": "Wishing",
+					"reference": "P59",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mqgiFnvNKtH_234Cw",
+					"name": "Game Time",
+					"reference": "P108",
+					"notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "t3OBkbZqr08GlfvPE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tpqxCsRu8W1w0NZPS"
+			},
+			"name": "Luck (2/h)",
+			"reference": "B66",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mdcB1pFmS_iUeWbKv",
+					"name": "Active",
+					"reference": "B66",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "myOe2LKT52iAcsk2D",
+					"name": "Aspected",
+					"reference": "B66",
+					"notes": "@Aspect@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mXLoC3yx1J7-UHjFC",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mUH4Y2BssP_zMkzNk",
+					"name": "Wishing",
+					"reference": "P59",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mNvor8zG42hqIbkQX",
+					"name": "Game Time",
+					"reference": "P108",
+					"notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"disabled": true
+				}
+			],
+			"base_points": 30,
+			"calc": {
+				"points": 30
+			}
+		},
+		{
+			"id": "tSLwpkZZ5iQtsvYLr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tzcAVOHp3Wd0BY361"
+			},
+			"name": "Luck (6/h)",
+			"reference": "B66",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mcIWYNsvHOsXj3ZyF",
+					"name": "Active",
+					"reference": "B66",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mZvJ7qdO5DKyBZeJP",
+					"name": "Aspected",
+					"reference": "B66",
+					"notes": "@Aspect@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mrXtB35BzpRtIl6P7",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "ms-dolDvydVVZG9d5",
+					"name": "Wishing",
+					"reference": "P59",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mBp9XHmbrv6Oju5If",
+					"name": "Game Time",
+					"reference": "P108",
+					"notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"disabled": true
+				}
+			],
+			"base_points": 60,
+			"calc": {
+				"points": 60
+			}
+		},
+		{
 			"id": "tBI_bG7KfwQwTiruU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -30123,25 +30381,6 @@
 			}
 		},
 		{
-			"id": "tKwq4yTSW8t6n0tkb",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tYbn-MTLMV_UnI4js"
-			},
-			"name": "Unhealing (Total)",
-			"reference": "B160",
-			"tags": [
-				"Disadvantage",
-				"Exotic",
-				"Physical"
-			],
-			"base_points": -30,
-			"calc": {
-				"points": -30
-			}
-		},
-		{
 			"id": "t3TR6HmXinVYOu0iW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -30972,25 +31211,6 @@
 			}
 		},
 		{
-			"id": "tvAVGCEjvUqyFyHdf",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tbRcx49SumN2nrk62"
-			},
-			"name": "Vow",
-			"reference": "B165",
-			"notes": "@Subject@",
-			"tags": [
-				"Mental",
-				"Quirk"
-			],
-			"base_points": -1,
-			"calc": {
-				"points": -1
-			}
-		},
-		{
 			"id": "thdXQ0opySGIUyB4R",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -31032,6 +31252,25 @@
 			],
 			"calc": {
 				"points": 0
+			}
+		},
+		{
+			"id": "tvAVGCEjvUqyFyHdf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tbRcx49SumN2nrk62"
+			},
+			"name": "Vow",
+			"reference": "B165",
+			"notes": "@Subject@",
+			"tags": [
+				"Mental",
+				"Quirk"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
 			}
 		},
 		{

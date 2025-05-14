@@ -218,7 +218,7 @@
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "t8duh7FJvBdSs4NOb"
 					},
-					"name": "Restricted Diet (Materia viva)",
+					"name": "Restricted Diet (Living matter)",
 					"reference": "B151",
 					"tags": [
 						"Disadvantage",
@@ -226,21 +226,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "m2K6ChfmZzz5AztPr",
+							"id": "mCXYms5IXTnEH7aGE",
 							"name": "Substitution",
 							"reference": "B151",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m5i3aVKXyOS2TiO-d",
+							"id": "mM0b92msbZFYZI456",
 							"name": "Very Common",
 							"reference": "B151",
 							"cost": -10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mlx0LsN706GbXVnqV",
+							"id": "mL6XfTG-jdytg9MRX",
 							"name": "Common",
 							"reference": "B151",
 							"cost": -20,
@@ -248,7 +248,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mn928172Ro9ZAfR01",
+							"id": "mreS16bXUJ344SyBr",
 							"name": "Occasional",
 							"reference": "B151",
 							"cost": -30,
@@ -256,7 +256,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m28w7rbvNquUJmUgh",
+							"id": "mVOW-GBQfJ1omhe2v",
 							"name": "Rare",
 							"reference": "B151",
 							"cost": -40,
@@ -301,7 +301,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mGiJVWPwlX0PeUzSQ",
+							"id": "mQFGNhEMag2JgyUy_",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Gives +1 on all rolls to deduce your secret",
@@ -317,7 +317,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m7u-eE6DjlBiMcf-z",
+							"id": "mWELEEq6KF1TpTVbJ",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
@@ -333,7 +333,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mH5mhVbRMK2Bpu7HX",
+							"id": "mSmZZaAZl6w1eBv-E",
 							"name": "No Reflection",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -349,7 +349,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mT2mp_QNXJ4fNS7vX",
+							"id": "moEOd4x1KbXUYWkHq",
 							"name": "No Shadow",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -365,7 +365,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mIqJMMvHBuCdTy8oZ",
+							"id": "m6W4DhNgfSlfVyy0J",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -381,7 +381,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mXQ6CXCRSy3WBy2Dj",
+							"id": "mUZIrzkHStE_Ds8IY",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
@@ -397,9 +397,9 @@
 							"disabled": true
 						},
 						{
-							"id": "mVLm6pKnWdoSP8QzI",
+							"id": "mBB7F1mRMZ1KWzfsJ",
 							"name": "Vessel",
-							"notes": "No heartbeat, pale skin, or any other unusual feature",
+							"notes": "Unnatural physiology",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -431,56 +431,56 @@
 					],
 					"modifiers": [
 						{
-							"id": "mSGRmw3l4kyTE9P0C",
+							"id": "meyp73NpHVZTQYwgo",
 							"name": "Age Control",
 							"reference": "B95",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mcCQa2fFM4B2J2DoJ",
+							"id": "mgfuXiMCtsiGz5-J5",
 							"name": "IQ Only",
 							"reference": "RSWL24",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mOU1OGRBO1AuPJr8d",
+							"id": "mu--F3qtK6uKesQS9",
 							"name": "Halt Aging, Weekly",
 							"reference": "PSI18",
 							"cost": 80,
 							"disabled": true
 						},
 						{
-							"id": "mAnf0c-6ydocE2hgc",
+							"id": "m8QUnddg3gqkgAA8F",
 							"name": "Halt Aging, Monthly",
 							"reference": "PSI18",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mN0N8HlMHw2nuAyKB",
+							"id": "mzAz80VUtpvbQDloM",
 							"name": "Halt Aging, Yearly",
 							"reference": "PSI18",
 							"cost": 130,
 							"disabled": true
 						},
 						{
-							"id": "mQDLbSQpQDguQCNNl",
+							"id": "mbR8vRVh9Ky_C7Ikr",
 							"name": "Life Extension",
 							"reference": "PSI18",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "m167p5Y0mp54I0xDO",
-							"name": "Paradoxical",
-							"cost": -35
+							"id": "mmkcf0Mh7yQFM8loj",
+							"name": "Keumic",
+							"cost": -10
 						}
 					],
 					"base_points": 15,
 					"calc": {
-						"points": 10
+						"points": 14
 					}
 				},
 				{
@@ -503,7 +503,7 @@
 				}
 			],
 			"calc": {
-				"points": 25
+				"points": 29
 			}
 		}
 	]
