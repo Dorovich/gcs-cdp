@@ -660,13 +660,13 @@
 			"name": "Advantages",
 			"children": [
 				{
-					"id": "tF0CDlzBoUD7w384J",
+					"id": "tgW9tQDeEnkBRHR8H",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tdlCZw4YB4T7QkOnj"
 					},
-					"name": "Appearance",
+					"name": "Appearance (Very Beautiful)",
 					"reference": "B21",
 					"tags": [
 						"Advantage",
@@ -674,47 +674,9 @@
 					],
 					"modifiers": [
 						{
-							"id": "mBCS5JrHECBlrDRmH",
-							"name": "Attractive",
+							"id": "mAKHjokYCzIZSfUMQ",
+							"name": "Androgynous",
 							"reference": "B21",
-							"cost": 4,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 1
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mUc9-xoTIT1e70slp",
-							"name": "Average",
-							"reference": "B21",
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mwABLuRlxpcnAI4w5",
-							"name": "Beautiful",
-							"reference": "B21",
-							"cost": 12,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from those attracted to members of your sex, +2 from everyone else",
-									"amount": 4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "m3LykpCFyCAbJ63tG",
-							"name": "Beautiful (Androgynous)",
-							"reference": "B21",
-							"cost": 12,
 							"cost_type": "points",
 							"features": [
 								{
@@ -726,322 +688,26 @@
 							"disabled": true
 						},
 						{
-							"id": "mFWG3sHo2SNbj-wSc",
-							"name": "Beautiful (Impressive)",
-							"reference": "B21",
-							"cost": 12,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 3
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mY9yXHgfHdCDTF-_B",
-							"name": "Handsome",
-							"reference": "B21",
-							"cost": 12,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from those attracted to members of your sex, +2 from everyone else",
-									"amount": 4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "m3tEkh8ZT0NG4K2jH",
-							"name": "Handsome (Androgynous)",
-							"reference": "B21",
-							"cost": 12,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 3
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mqUkSpd1hu7VQLv2b",
-							"name": "Handsome (Impressive)",
-							"reference": "B21",
-							"cost": 12,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 3
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mTVa2qKme3G6hf9Mz",
-							"name": "Hideous",
-							"reference": "B21,B202",
-							"cost": -16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "is",
-										"qualifier": "Intimidation"
-									},
-									"amount": 2
-								},
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": -4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mYOFENjm-8A6BNt1p",
-							"name": "Horrific",
-							"reference": "B21,B202",
-							"cost": -24,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "is",
-										"qualifier": "Intimidation"
-									},
-									"amount": 4
-								},
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": -6
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mzwDqBlGXUjmfjg2s",
+							"id": "mC9jTzo911PpyKXUO",
 							"name": "Impressive",
 							"reference": "B21",
 							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mF_gHuc6ZoZj3j445",
-							"name": "Monstrous",
-							"reference": "B21,B202",
-							"cost": -20,
-							"cost_type": "points",
 							"features": [
 								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "is",
-										"qualifier": "Intimidation"
-									},
+									"type": "reaction_bonus",
+									"situation": "from others",
 									"amount": 3
-								},
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": -5
 								}
 							],
 							"disabled": true
-						},
+						}
+					],
+					"base_points": 16,
+					"features": [
 						{
-							"id": "mKrJdYIOESm1Ie6bf",
-							"name": "Off-the-Shelf Looks",
-							"reference": "B21",
-							"notes": "Halves the usual reaction bonus - adjust manually",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "mkUiQT35YfAfLyM-H",
-							"name": "Transcendent",
-							"reference": "B21",
-							"cost": 20,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
-									"amount": 8
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mbRYygMSMuxyFqQH3",
-							"name": "Transcendent (Androgynous)",
-							"reference": "B21",
-							"cost": 20,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 5
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mdQThG_hkYZyXixAG",
-							"name": "Transcendent (Impressive)",
-							"reference": "B21",
-							"cost": 20,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 5
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mSMqm0dKLygFnRFKG",
-							"name": "Ugly",
-							"reference": "B21",
-							"cost": -8,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": -2
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mTOwM9KWS9pig8iNg",
-							"name": "Unattractive",
-							"reference": "B21",
-							"cost": -4,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": -1
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mpssTpBHK8DmvESNK",
-							"name": "Universal",
-							"reference": "B21",
-							"cost": 25,
-							"disabled": true
-						},
-						{
-							"id": "mhy_KdP6vt50D9TYm",
-							"name": "Very Beautiful",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
-									"amount": 6
-								}
-							]
-						},
-						{
-							"id": "mgsSngI-R0tRCezYv",
-							"name": "Very Beautiful (Androgynous)",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mdJtFgMzWpVK020oP",
-							"name": "Very Beautiful (Impressive)",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mTxRZfk5WHNrtVNLA",
-							"name": "Very Handsome",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
-									"amount": 6
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "mVGSa0h9BxlqQlEu0",
-							"name": "Very Handsome (Androgynous)",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 4
-								}
-							],
-							"disabled": true
-						},
-						{
-							"id": "m8mqVDJWWAGUhSLtz",
-							"name": "Very Handsome (Impressive)",
-							"reference": "B21",
-							"cost": 16,
-							"cost_type": "points",
-							"features": [
-								{
-									"type": "reaction_bonus",
-									"situation": "from others",
-									"amount": 4
-								}
-							],
-							"disabled": true
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+							"amount": 6
 						}
 					],
 					"calc": {
@@ -1064,48 +730,48 @@
 					],
 					"modifiers": [
 						{
-							"id": "mfhXodew4nm9aO8ef",
+							"id": "mPOxHqVK7R0fzsPo8",
 							"name": "Newtonian Space Flight",
 							"reference": "B56",
 							"cost": 25,
 							"disabled": true
 						},
 						{
-							"id": "myaLIn2uHdPo932WI",
+							"id": "mu5xwqk-mie7dMll5",
 							"name": "Space Flight",
 							"reference": "B56",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mWclnlqYz3EmGpOgr",
+							"id": "mnp8-LLf6o6QE00I_",
 							"name": "Cannot Hover",
 							"reference": "B56",
 							"cost": -15,
 							"disabled": true
 						},
 						{
-							"id": "mkheUxIWLi73aRY_5",
+							"id": "mBHAJ7X4tHF5RM4Od",
 							"name": "Controlled Gliding",
 							"reference": "B56",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "mlEzSs6QUvnMM9DuE",
+							"id": "mJxJLKyTbh_8DfSP9",
 							"name": "Gliding",
 							"reference": "B56",
 							"cost": -50
 						},
 						{
-							"id": "mZX_bdK6TZ8a6ASgj",
+							"id": "mm2s4rLO7Qt45OuiD",
 							"name": "Lighter Than Air",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mLPump4sb6QASffSA",
+							"id": "mJRmvnoNQqfqNQCf0",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "30'",
@@ -1113,7 +779,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mN2HUbv7oUPyLF-Qd",
+							"id": "mKis0RP-YF2M9fno3",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "10'",
@@ -1121,7 +787,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m2Gdh-s8tFwV__XY3",
+							"id": "mjOEPaTZoUxIUUN7o",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "5'",
@@ -1129,56 +795,56 @@
 							"disabled": true
 						},
 						{
-							"id": "m1KZE60Vd56VYq6Wx",
+							"id": "m-TqmExDHOJynOgpS",
 							"name": "Small Wings",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mB3b__KkomPUekvZc",
+							"id": "mDkEdxnZSviptgJje",
 							"name": "Space Flight Only",
 							"reference": "B56",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "m01rCxeitrd2vKbPO",
+							"id": "mBz6Pf4JHk0al-6XK",
 							"name": "Winged",
 							"reference": "B56",
 							"cost": -25,
 							"disabled": true
 						},
 						{
-							"id": "mj5OLYQSiVsVq5tIE",
+							"id": "m2J2EJqEtJv_Cbeq1",
 							"name": "Planetary",
 							"reference": "P50",
 							"cost": -5,
 							"disabled": true
 						},
 						{
-							"id": "m4tMjHV2GiNdEDOzK",
+							"id": "mRVIKQbeBcDgm1yN_",
 							"name": "Requires Surface",
 							"reference": "P50",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mnHzzZJVi7qf3cU8-",
+							"id": "mwcULqyK77C7D6mKX",
 							"name": "Slow",
 							"reference": "PSI14",
 							"notes": "Basic Speed",
 							"cost": -25
 						},
 						{
-							"id": "mftl1mFHOlgWGexP4",
+							"id": "m1vuM8-b6CMkrVZ05",
 							"name": "Slow, Move 1",
 							"reference": "PSI14",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "m8aMU9-kEHe8q7AsT",
+							"id": "mPpYUhhnRS2EEke2l",
 							"name": "Encumbrance-Limited (No encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -1187,7 +853,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mWLxBI7Gh-eGZkGa5",
+							"id": "mHLzHbfU8JhoQGZCR",
 							"name": "Encumbrance-Limited (Light encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -1196,11 +862,20 @@
 							"disabled": true
 						},
 						{
-							"id": "mEFnehE3sZupE-_qN",
+							"id": "m3b9OxKQMWqhvTFe6",
 							"name": "Encumbrance-Limited (Medium encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
 							"notes": "Can only glide at best when overburdened",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "m3E6w-q41XqjeYSQg",
+							"name": "Up to medium encumbrance",
+							"reference": "FFWF12",
+							"reference_highlight": "Encumbrance-Limited",
+							"notes": "Fall if greater",
 							"cost": -5
 						}
 					],
@@ -1210,7 +885,7 @@
 					}
 				},
 				{
-					"id": "tZwbXIM9befLaM9V0",
+					"id": "t3K2J33qU2ia9i-k1",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1224,7 +899,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mi9ZHhQRqrgQFyeL8",
+							"id": "mtobkHhyjJu_e9Bg4",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone",
@@ -1233,7 +908,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mwazWWZc5O0wnOUiM",
+							"id": "msZV3V_uwv4C8sl3q",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone except @large class of people@",
@@ -1242,7 +917,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mExbF14IQzvbP-lme",
+							"id": "mInOYJ5_l9k6G-Dv6",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Large class of people@",
@@ -1251,28 +926,24 @@
 							"disabled": true
 						},
 						{
-							"id": "ms9ybsNwNVh93kp5_",
-							"name": "People Affected",
+							"id": "m1ish944-LCdeUv4T",
+							"name": "Caravana Terrien",
 							"reference": "B27",
-							"notes": "@Small class of people@",
 							"replacements": {
 								"Small class of people": "Caravana Terrien"
 							},
 							"cost": 0.33,
-							"cost_type": "multiplier",
-							"calc": {
-								"resolved_notes": "Caravana Terrien"
-							}
+							"cost_type": "multiplier"
 						},
 						{
-							"id": "maWGFnntk16huf2um",
+							"id": "mLi3tePE8b9e3pl5I",
 							"name": "Recognized all the time",
 							"reference": "B28",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "mXN3hMcYhDMzz4UmC",
+							"id": "mEE1gnWRslCR0JdqL",
 							"name": "Recognized sometimes",
 							"reference": "B28",
 							"notes": "10-",
@@ -1281,7 +952,7 @@
 							"disabled": true
 						},
 						{
-							"id": "muebolRylY0AKr15w",
+							"id": "mN1q-6bgwD6TArQvH",
 							"name": "Recognized occasionally",
 							"reference": "B28",
 							"notes": "7-",
@@ -1294,7 +965,7 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others aware of your reputation",
+							"situation": "from Terrien Caravan members aware of your reputation",
 							"amount": 1,
 							"per_level": true
 						}
@@ -1333,8 +1004,7 @@
 				},
 				{
 					"id": "txD5mX9nwKm5oSLTS",
-					"name": "Levitation",
-					"notes": "0.2m",
+					"name": "Levitation (10 cm)",
 					"base_points": 1,
 					"calc": {
 						"points": 1
@@ -1412,95 +1082,95 @@
 					],
 					"modifiers": [
 						{
-							"id": "mZeliQXRJnEneB5W5",
+							"id": "msannjWMC0Glsi6eQ",
 							"name": "Unlimited",
 							"reference": "B85",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mYeTF6bhp38URU4IN",
+							"id": "mzTDgbiIMbbHBvfDT",
 							"name": "Cosmetic",
 							"reference": "B85",
 							"cost": -50
 						},
 						{
-							"id": "m-WfPDUxAi_--5__T",
+							"id": "mAiHVImFFC0UhnoQ5",
 							"name": "Retains Shape",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mCx2Na7qpkjvGJ6w6",
+							"id": "mOCmHqCaeWz2qqdfp",
 							"name": "Mass Conservation",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mr000qNYT1oWJjXd2",
+							"id": "muXLAZAWfDdExmVg9",
 							"name": "Active Change",
 							"reference": "P75",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mtswtIW9YOY3HyKTl",
+							"id": "m5iQrG1BoUfYXOqBV",
 							"name": "Improvised Forms",
 							"reference": "P75",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mvUC2aaI5cpdL83to",
+							"id": "mhPksmtGRTN2SUWOV",
 							"name": "Cosmic (For Improvised Forms)",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mJ4c1acbIpLBrJ_Uv",
+							"id": "m818m_ljlu95QJ_Ky",
 							"name": "No Memorization Required",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mYKgDygP0t30ZPhkc",
+							"id": "mYy95rXU8w18KERG1",
 							"name": "Cannot Memorize Forms",
 							"reference": "P75",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mlPEPjx99Q-MePTaI",
+							"id": "m7RBATBNEhqBYJIvj",
 							"name": "Flawed",
 							"reference": "P75",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mZRBNZ7SUMe42HPj_",
+							"id": "mF_Jk24JwZjBzfCLf",
 							"name": "Unliving Forms Only",
 							"reference": "P75",
 							"disabled": true
 						},
 						{
-							"id": "mFd6AUi2O36w7wGqL",
+							"id": "mE99AEx6KWGt3JLIN",
 							"name": "Preparation Required",
 							"reference": "B114",
-							"notes": "1 minute, Weakened without preparation",
+							"notes": "1 minute, else is weakened",
 							"cost": -10
 						},
 						{
-							"id": "mMgX7RZu2uw5l_h5X",
+							"id": "meCAXjJK4weybMYxt",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Power Ups/Power Ups 8 Limitations Limitation Modifiers.adm",
 								"id": "mCD27yfxzVhAdITOD"
 							},
-							"name": "Requires (@Attribute DX, IQ, or HT@) Roll",
+							"name": "Requires IQ Roll",
 							"reference": "PU8:17",
 							"replacements": {
 								"Attribute DX, IQ, or HT": "IQ"
@@ -1925,7 +1595,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mMD1BVzCWHB6pQG5y",
+							"id": "mWjfvMxebowFak4jR",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone",
@@ -1934,7 +1604,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m2-9481s_ZinFfdH7",
+							"id": "my7QwJR5uYJnxbicC",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone except @large class of people@",
@@ -1943,7 +1613,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mYtDb2WzjebE2AoIU",
+							"id": "mTHw8QYWimqUZM9cm",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Large class of people@",
@@ -1952,28 +1622,24 @@
 							"disabled": true
 						},
 						{
-							"id": "mFCmxQSRft8hCpT6c",
-							"name": "People Affected",
+							"id": "mI_5JIAS_CBEd-buW",
+							"name": "Ciudadanos de Erlit",
 							"reference": "B27",
-							"notes": "@Small class of people@",
 							"replacements": {
 								"Small class of people": "Erlit"
 							},
 							"cost": 0.33,
-							"cost_type": "multiplier",
-							"calc": {
-								"resolved_notes": "Erlit"
-							}
+							"cost_type": "multiplier"
 						},
 						{
-							"id": "mdzEYY6Gj6sv45kxQ",
+							"id": "mPryM3rCF75N3bRxr",
 							"name": "Recognized all the time",
 							"reference": "B28",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "mt8FSD6RHOaetlL-Z",
+							"id": "mpB2QTlxuMrRxUpsx",
 							"name": "Recognized sometimes",
 							"reference": "B28",
 							"notes": "10-",
@@ -1982,7 +1648,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mSi6actNXzLhzYRl7",
+							"id": "mbvQtSgFpjpihxLvS",
 							"name": "Recognized occasionally",
 							"reference": "B28",
 							"notes": "7-",
@@ -1995,7 +1661,7 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others aware of your reputation",
+							"situation": "from Erlit citizens aware of your reputation",
 							"amount": -1,
 							"per_level": true
 						}
@@ -2043,9 +1709,8 @@
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "t49qcxpm53kg-OdPj"
 					},
-					"name": "Odious Personal Habit",
+					"name": "Odious Personal Habit (Bromas constantes)",
 					"reference": "B22",
-					"notes": "Bromas constantes",
 					"tags": [
 						"Disadvantage",
 						"Physical"
@@ -2055,7 +1720,7 @@
 					},
 					"modifiers": [
 						{
-							"id": "m7blpdmx6TNjIe0Kg",
+							"id": "mwYLC2rA8pk4tpkTH",
 							"name": "-1 Reaction",
 							"reference": "B22",
 							"cost": -5,
@@ -2063,14 +1728,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mB1q9Szl5m7cwyCf7",
+							"id": "mF2Fy7ZzrpKe8eXvR",
 							"name": "-2 Reaction",
 							"reference": "B22",
 							"cost": -10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mtQtm5dEu8cCMUPgP",
+							"id": "mLsz3anwQeqRr5UMw",
 							"name": "-3 Reaction",
 							"reference": "B22",
 							"cost": -15,
@@ -3245,46 +2910,6 @@
 			}
 		},
 		{
-			"id": "sOcNlgbUWSvXoTC1e",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shun-iitiwyWbrGcF"
-			},
-			"name": "Intimidation",
-			"reference": "B202",
-			"tags": [
-				"Criminal",
-				"Police",
-				"Social",
-				"Street"
-			],
-			"difficulty": "will/a",
-			"defaults": [
-				{
-					"type": "will",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Acting",
-					"modifier": -3
-				}
-			],
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Acting",
-				"modifier": -3,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "Will-2"
-			}
-		},
-		{
 			"id": "slBiyPnPhJVZigl12",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3889,7 +3514,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-15T00:27:37+02:00",
+	"modified_date": "2025-05-15T02:13:21+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

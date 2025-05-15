@@ -736,7 +736,7 @@
 					}
 				},
 				{
-					"id": "tqw4QHKomAYpFNdZd",
+					"id": "t0MA_mQXTmING0d-Q",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -744,7 +744,6 @@
 					},
 					"name": "Combat Reflexes",
 					"reference": "B43",
-					"notes": "[DA]",
 					"tags": [
 						"Advantage",
 						"Mental"
@@ -874,7 +873,7 @@
 					}
 				},
 				{
-					"id": "tu5XQVvet_wrb3L6D",
+					"id": "tazna2q054cVOKR3B",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -888,7 +887,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "m3w0FtRNh31BOK5JM",
+							"id": "mcVjgBoshLu0yHSYI",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone",
@@ -897,7 +896,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mFzMvkKVo5c3rkb4n",
+							"id": "mM6x9xlK3za1HLjaf",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone except @large class of people@",
@@ -906,7 +905,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mBSQO9S_dsADswBOE",
+							"id": "m4G-ZYLBZw3nqfC7N",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Large class of people@",
@@ -915,28 +914,24 @@
 							"disabled": true
 						},
 						{
-							"id": "mFnWVYKQixCZpHeDg",
-							"name": "People Affected",
+							"id": "mokQhXWfClZVZlS3i",
+							"name": "Caravana Terrien",
 							"reference": "B27",
-							"notes": "@Small class of people@",
 							"replacements": {
 								"Small class of people": "Caravana Terrien"
 							},
 							"cost": 0.33,
-							"cost_type": "multiplier",
-							"calc": {
-								"resolved_notes": "Caravana Terrien"
-							}
+							"cost_type": "multiplier"
 						},
 						{
-							"id": "m6P4pQ0Efbw44_2r_",
+							"id": "m4QaOLcI105MFgAIo",
 							"name": "Recognized all the time",
 							"reference": "B28",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "mj5oGMe8_R4lyJW-f",
+							"id": "m9ZH5uT9wfsnqomyh",
 							"name": "Recognized sometimes",
 							"reference": "B28",
 							"notes": "10-",
@@ -945,7 +940,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mcpJTdeCjGhk3x2zv",
+							"id": "mF6YCL7XTrlPfVo-m",
 							"name": "Recognized occasionally",
 							"reference": "B28",
 							"notes": "7-",
@@ -958,7 +953,7 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others aware of your reputation",
+							"situation": "from Terrien Caravan members aware of your reputation",
 							"amount": 1,
 							"per_level": true
 						}
@@ -2817,38 +2812,6 @@
 			}
 		},
 		{
-			"id": "sLTyN5ikdGW3Uzx_B",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Habilidades.skl",
-				"id": "s1GnUgqiAUb2GrbbF"
-			},
-			"name": "Occultism",
-			"reference": "B212",
-			"tags": [
-				"Magical",
-				"Occult"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 4,
-				"adjusted_level": 4,
-				"points": -4
-			},
-			"calc": {
-				"level": 4,
-				"rsl": "IQ-5"
-			}
-		},
-		{
 			"id": "smt3MJxKDGWwTL1Uk",
 			"source": {
 				"library": "/gcs_user_library",
@@ -2878,38 +2841,6 @@
 			"calc": {
 				"level": 12,
 				"rsl": "HT+1"
-			}
-		},
-		{
-			"id": "sWRarh3HMBWZRV9oE",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "smwvG7uvdgf3cJC56"
-			},
-			"name": "Sewing",
-			"reference": "B219",
-			"tags": [
-				"Craft",
-				"Everyman"
-			],
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "DX-4"
 			}
 		},
 		{
@@ -2944,45 +2875,6 @@
 			"calc": {
 				"level": 15,
 				"rsl": "DX+2"
-			}
-		},
-		{
-			"id": "sr3OOuMromjK_aRQG",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "svEm7OyeCu_9wJ8Kk"
-			},
-			"name": "Stealth",
-			"reference": "B222",
-			"tags": [
-				"Criminal",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "dx/a",
-			"encumbrance_penalty_multiplier": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
-			},
-			"calc": {
-				"level": 8,
-				"rsl": "DX-5"
 			}
 		},
 		{
@@ -3106,43 +2998,6 @@
 			}
 		},
 		{
-			"id": "sPSLW9JEVptkQsun_",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Habilidades.skl",
-				"id": "sUUhHei-3M6gfQjOS"
-			},
-			"name": "Tracking",
-			"reference": "B226",
-			"tags": [
-				"Exploration",
-				"Outdoor"
-			],
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "per",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Naturalist",
-					"modifier": -5
-				}
-			],
-			"defaulted_from": {
-				"type": "per",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 5,
-				"rsl": "Per-5"
-			}
-		},
-		{
 			"id": "sNxnajiQW4yI8I23z",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3196,7 +3051,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-05-15T00:27:27+02:00",
+	"modified_date": "2025-05-15T01:58:03+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
