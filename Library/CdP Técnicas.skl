@@ -347,6 +347,42 @@
 			"points": 1
 		},
 		{
+			"id": "qtq1b_tAnijfGpOCF",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qwwp44kWOy-0J5myP"
+			},
+			"name": "Main-Gauche",
+			"reference": "B208,MA58",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Fencing",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qymA6QXKov0xY4hTr",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qmx1mTdSZ8kWSXceT"
+			},
+			"name": "Main-Gauche",
+			"reference": "B208,MA58",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
 			"id": "qJ_Vvh9xMH6Vuh4rS",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

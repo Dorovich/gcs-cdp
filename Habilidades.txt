@@ -1,0 +1,9 @@
+- Arma arrojadiza: Ya no existe, usar la habilidad Lanzar. El nivel efectivo no puede ser mayor que Arma de asta (para lanzas y arpones), Cuchillo (para dagas y cuchillos), Hacha/Maza (para hachas, mazas o palos).
+
+- Psicología: Es general para cualquier especie. Aplicar penalización por familiaridad con cada una.
+
+- Escudo: Sirve para escudos normales y pequeños (bucklers).
+
+- Lanza: Ya no existe, usar la habilidad Arma de asta.
+
+- Operar/Reparar Electrónicos: Reemplazadas por Operar/Reparar Aparatos.

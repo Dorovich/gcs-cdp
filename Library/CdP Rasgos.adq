@@ -5702,6 +5702,96 @@
 			}
 		},
 		{
+			"id": "teV0cvgF_6W13ORVh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Body Familiarity",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mn6KMp6XJolLMl-ee",
+					"name": "Koppemak",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mOcrkeBFxZpScjXZv",
+					"name": "Koppemak",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m2LJVWA-0cygOyJ5S",
+					"name": "Korkon",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mi1ycxk3hsDZWMntz",
+					"name": "Korkon",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m-MzJy-ZdQZBJ0ctb",
+					"name": "Kwazaar",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mqbmMQiFYbaFxiQ85",
+					"name": "Kwazaar",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mjhiiCUIjiG3bNJ69",
+					"name": "O'koptera",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mbxjZGHGwtYcLanl-",
+					"name": "O'koptera",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mIwDfVP9pZ5rO_O7r",
+					"name": "Te'karn",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m5DwNaHtlqUkNUbtw",
+					"name": "Te'karn",
+					"notes": "Native",
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "t72stmKIrtgyCWxLG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
