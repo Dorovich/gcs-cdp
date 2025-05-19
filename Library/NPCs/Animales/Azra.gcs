@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "ApK8pUEQU-z4eHDxv",
-	"total_points": 54,
+	"total_points": 45,
 	"points_record": [
 		{
 			"when": "2024-07-12T01:32:35+02:00",
-			"points": 54,
+			"points": 45,
 			"reason": "Initial points"
 		}
 	],
@@ -72,7 +72,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 10
+				"cost_per_point": 15
 			},
 			{
 				"id": "will",
@@ -82,18 +82,12 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "rt",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Grit",
-				"attribute_base": "$ht/2+3"
-			},
-			{
 				"id": "ke",
-				"type": "integer_ref",
-				"placement": "secondary",
-				"name": "Keum",
-				"attribute_base": "10"
+				"type": "integer",
+				"name": "KE",
+				"full_name": "Keum",
+				"attribute_base": "10",
+				"cost_per_point": 10
 			},
 			{
 				"id": "fright_check",
@@ -113,7 +107,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"attribute_base": "$ht",
 				"cost_per_point": 5
 			},
 			{
@@ -162,6 +156,13 @@
 				"name": "Basic Move",
 				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"full_name": "Dodge",
+				"attribute_base": "2*$basic_speed"
 			},
 			{
 				"id": "fp",
@@ -288,6 +289,34 @@
 					{
 						"state": "Healthy",
 						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "kp",
+				"type": "pool",
+				"name": "KP",
+				"full_name": "Keum Points",
+				"attribute_base": "$ke",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Divergent",
+						"expression": "-$kp"
+					},
+					{
+						"state": "Disjointed",
+						"expression": "0"
+					},
+					{
+						"state": "Dissonant",
+						"expression": "ceil($kp/3)-1",
+						"explanation": "Halve KE"
+					},
+					{
+						"state": "Harmonical",
+						"expression": "$kp",
+						"explanation": "Halve KE"
 					}
 				]
 			}
@@ -456,8 +485,7 @@
 		"modifiers_display": "inline",
 		"notes_display": "inline",
 		"skill_level_adj_display": "tooltip",
-		"show_spell_adj": true,
-		"exclude_unspent_points_from_total": false
+		"show_spell_adj": true
 	},
 	"attributes": [
 		{
@@ -489,7 +517,7 @@
 			"adj": 2,
 			"calc": {
 				"value": 12,
-				"points": 20
+				"points": 30
 			}
 		},
 		{
@@ -498,14 +526,6 @@
 			"calc": {
 				"value": 10,
 				"points": 20
-			}
-		},
-		{
-			"attr_id": "rt",
-			"adj": 0,
-			"calc": {
-				"value": 9,
-				"points": 0
 			}
 		},
 		{
@@ -530,25 +550,25 @@
 		},
 		{
 			"attr_id": "per",
-			"adj": 6,
+			"adj": 0,
 			"calc": {
 				"value": 12,
-				"points": 30
+				"points": 0
 			}
 		},
 		{
 			"attr_id": "vision",
-			"adj": 1,
+			"adj": 0,
 			"calc": {
-				"value": 14,
-				"points": 2
+				"value": 12,
+				"points": 0
 			}
 		},
 		{
 			"attr_id": "hearing",
 			"adj": 1,
 			"calc": {
-				"value": 14,
+				"value": 13,
 				"points": 2
 			}
 		},
@@ -589,6 +609,14 @@
 			}
 		},
 		{
+			"attr_id": "dodge",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
@@ -605,55 +633,18 @@
 				"current": 4,
 				"points": 2
 			}
+		},
+		{
+			"attr_id": "kp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
 		}
 	],
 	"traits": [
-		{
-			"id": "tJaafpGF8NMSm2jeS",
-			"name": "Acute Hearing",
-			"reference": "B35",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"points_per_level": 2,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "hearing",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "tB8--52xmFMp9uHLX",
-			"name": "Acute Vision",
-			"reference": "B35",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"points_per_level": 2,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "vision",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 2
-			}
-		},
 		{
 			"id": "tjgX7b4Vb1XtZeg9Q",
 			"name": "Telescopic Vision",
@@ -664,7 +655,7 @@
 			],
 			"modifiers": [
 				{
-					"id": "mCnT8FwPQfoQESNAl",
+					"id": "mFO-9qIe5QanXgMXa",
 					"name": "No Targeting",
 					"reference": "B92",
 					"cost": -60,
@@ -673,9 +664,9 @@
 			],
 			"points_per_level": 5,
 			"can_level": true,
-			"levels": 1,
+			"levels": 5,
 			"calc": {
-				"points": 5
+				"points": 25
 			}
 		},
 		{
@@ -1012,49 +1003,49 @@
 			],
 			"modifiers": [
 				{
-					"id": "mBWOfrLhMZwjt_1Su",
+					"id": "m6VKH3mwNELMTsxin",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "m1bFydrldIm4R4P_M",
+					"id": "mRfVlmsfRjC1L5RQY",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mSgJ8v-V39gzLjpqI",
+					"id": "mKrh6l41OvpcUaiSm",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15,
 					"disabled": true
 				},
 				{
-					"id": "mW1j_zdEzfP6i6LFs",
+					"id": "ml1cNSp5J3MIx_HHU",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mo90wtQbI7nRtxs4B",
+					"id": "musZCyJ5DV45nxRhD",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mmqOef3r6XNv4yfoH",
+					"id": "mZwqBZl8eJFCYJaDu",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "muAwg_2dBanp9gO2v",
+					"id": "m2WeXS0RuBk77Ct0o",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -1062,7 +1053,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mEO4PykiFRtDEiSnS",
+					"id": "m-xHUm5pCp_q8KMy9",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -1070,7 +1061,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mxH-T22mEdpU2EMEQ",
+					"id": "mtoW-Ba2UZhvuF7r-",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -1078,41 +1069,41 @@
 					"disabled": true
 				},
 				{
-					"id": "m9gQu3gey5thchCoF",
+					"id": "mKsOjzp8AqKoHP2DR",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "m7FcYzjoGUUZP4OmG",
+					"id": "mF1wDKBz_2y11TCpw",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "ml5wvYEQdNl5tUfxc",
+					"id": "mgfGJA3JvJVyJXreW",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25
 				},
 				{
-					"id": "mkXpKM_9H5aVoPwBj",
+					"id": "mHcMz5sM_z1-p2CfZ",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "mjVJ_KDQcr4NbEsT1",
+					"id": "mvIeA6cza2rPnIOhJ",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "md6lvpBLHjKOXk9fj",
+					"id": "mcCHshJ4Hcalez6XC",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -1120,14 +1111,14 @@
 					"disabled": true
 				},
 				{
-					"id": "mgGH2nkFw-ht51HgU",
+					"id": "m7pOo22wooxa7EsPA",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mKDYDKrw3V1NqbHEl",
+					"id": "mBjCWqbyW9eU_qjJ_",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -1136,16 +1127,15 @@
 					"disabled": true
 				},
 				{
-					"id": "mRBnh8IUoA866KakO",
+					"id": "meUx8XEB9-mhJ88I_",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
 					"notes": "Can only glide at best when overburdened",
-					"cost": -10,
-					"disabled": true
+					"cost": -10
 				},
 				{
-					"id": "myN8IB-X5TNcVOepR",
+					"id": "mXlrvGK3RI4jj5AUL",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -1156,7 +1146,7 @@
 			],
 			"base_points": 40,
 			"calc": {
-				"points": 30
+				"points": 26
 			}
 		},
 		{
@@ -1342,10 +1332,10 @@
 					"modifier": -4
 				}
 			],
-			"points": 2,
+			"points": 1,
 			"calc": {
-				"level": 12,
-				"rsl": "Per+0"
+				"level": 11,
+				"rsl": "Per-1"
 			}
 		},
 		{
@@ -1410,7 +1400,7 @@
 			"defaulted_from": {
 				"type": "skill",
 				"name": "Survival",
-				"specialization": "Eternal Valley",
+				"specialization": "Woodlands",
 				"modifier": -2,
 				"level": 10,
 				"adjusted_level": 10,
@@ -1436,7 +1426,7 @@
 					"modifier": -6
 				}
 			],
-			"points": 2,
+			"points": 1,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -6,
@@ -1445,8 +1435,8 @@
 				"points": -6
 			},
 			"calc": {
-				"level": 11,
-				"rsl": "DX-1"
+				"level": 10,
+				"rsl": "DX-2"
 			}
 		},
 		{
@@ -1491,7 +1481,7 @@
 			}
 		},
 		{
-			"id": "sjqOwHoz-WF14rE7u",
+			"id": "sh1yhtQxHjI39lkXw",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -1503,7 +1493,7 @@
 				"Exploration",
 				"Outdoor"
 			],
-			"specialization": "Eternal Valley",
+			"specialization": "Woodlands",
 			"difficulty": "per/a",
 			"defaults": [
 				{
@@ -1572,6 +1562,89 @@
 			}
 		},
 		{
+			"id": "sRfYg4tlRvv8k_LeC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sDovSoHETvakbQ1h-"
+			},
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Mountain",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Survival",
+				"specialization": "Woodlands",
+				"modifier": -3,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "Per+0"
+			}
+		},
+		{
 			"id": "s7RtPIJfIdKZ9g3r7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1611,12 +1684,11 @@
 		}
 	],
 	"created_date": "2024-07-12T01:32:35+02:00",
-	"modified_date": "2025-03-14T21:06:17+01:00",
+	"modified_date": "2025-05-15T19:40:38+02:00",
 	"calc": {
 		"swing": "1d-4",
 		"thrust": "1d-5",
 		"basic_lift": "1.8 lb",
-		"dodge_bonus": 1,
 		"parry_bonus": 1,
 		"block_bonus": 1,
 		"move": [
@@ -1627,11 +1699,11 @@
 			3
 		],
 		"dodge": [
+			13,
+			12,
+			11,
 			10,
-			9,
-			8,
-			7,
-			6
+			9
 		]
 	}
 }

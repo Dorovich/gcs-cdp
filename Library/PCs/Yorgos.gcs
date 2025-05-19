@@ -438,10 +438,11 @@
 					"id": "vitals",
 					"choice_name": "Vitals",
 					"table_name": "Vitals",
+					"dr_bonus": 1,
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 1
 						}
 					}
 				},
@@ -2505,11 +2506,11 @@
 			}
 		},
 		{
-			"id": "sWxg4tZJbSZu9hWIa",
+			"id": "s-gqWGrXePI9BFcKK",
 			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Habilidades (old).skl",
-				"id": "sILZSXZPGgvW3qKox"
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sy28RZa8MDBQXru82"
 			},
 			"name": "Flail",
 			"reference": "B208",
@@ -3051,7 +3052,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-05-15T01:58:03+02:00",
+	"modified_date": "2025-05-19T14:20:47+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

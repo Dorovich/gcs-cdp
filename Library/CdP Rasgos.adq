@@ -31666,7 +31666,7 @@
 			],
 			"modifiers": [
 				{
-					"id": "m-Nc6F1FccygwIzBr",
+					"id": "m_hS_emofv3UpsBwN",
 					"name": "@Rare attack@",
 					"reference": "B161",
 					"cost": -5,
@@ -31674,7 +31674,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m7M3SEdukO0H_4-fY",
+					"id": "mVjkX2jqVfjcR9pyZ",
 					"name": "@Occasional attack@",
 					"reference": "B161",
 					"cost": -10,
@@ -31682,7 +31682,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mxFaJFoNdGhckmnUw",
+					"id": "mKpoU8cS9gGliuJtz",
 					"name": "@Common attack@",
 					"reference": "B161",
 					"cost": -15,
@@ -31690,7 +31690,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m-sgcljT5e7C8obeQ",
+					"id": "mk5KAIK2EgZ_9jjdJ",
 					"name": "@Very common attack@",
 					"reference": "B161",
 					"cost": -20,
@@ -31698,7 +31698,15 @@
 					"disabled": true
 				},
 				{
-					"id": "mZ09tHC6fEOm4nqBp",
+					"id": "mLctUV1ovAEj_zA9f",
+					"name": "Wounding ×1.5",
+					"reference": "B161",
+					"cost": 1,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mXCqpmljFQ-T_Bfyf",
 					"name": "Wounding x2",
 					"reference": "B161",
 					"cost": 2,
@@ -31706,7 +31714,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mxkUm3PdSBEEf9vpG",
+					"id": "mTsnIT_bB2b3reJD8",
 					"name": "Wounding x3",
 					"reference": "B161",
 					"cost": 3,
@@ -31714,7 +31722,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mLR_n6FxhA--ZMxdF",
+					"id": "meNUf2ZU9Z99kZt1d",
 					"name": "Wounding x4",
 					"reference": "B161",
 					"cost": 4,
@@ -31722,7 +31730,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mG2bl1FtV5lyfqySi",
+					"id": "m2uM6T2Ej99JVajme",
 					"name": "Fatigue Only",
 					"reference": "B161",
 					"cost": -50,
@@ -32130,6 +32138,24 @@
 			"base_points": 10,
 			"calc": {
 				"points": 10
+			}
+		},
+		{
+			"id": "tZRPo1XCgs4WPVW6U",
+			"name": "Bad Vision",
+			"points_per_level": -2,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "vision",
+					"amount": -1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -2
 			}
 		}
 	]

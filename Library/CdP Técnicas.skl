@@ -347,6 +347,30 @@
 			"points": 1
 		},
 		{
+			"id": "qMdc2XBmc-d7iV7-q",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qOpiopxlUD7g1WROx"
+			},
+			"name": "Jitte/Sai",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -3
+			},
+			"limit": 0,
+			"points": 1
+		},
+		{
 			"id": "qtq1b_tAnijfGpOCF",
 			"source": {
 				"library": "/gcs-cdp",

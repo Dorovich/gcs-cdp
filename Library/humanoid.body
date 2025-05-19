@@ -74,35 +74,6 @@
 			"slots": 2,
 			"hit_penalty": -1,
 			"description": "MoS: (0-1) Random, (2+) Random on arm.",
-			"sub_table": {
-				"roll": "0",
-				"locations": [
-					{
-						"id": "arm_left",
-						"choice_name": "Left Arm",
-						"table_name": "Left Arm",
-						"hit_penalty": -1,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					},
-					{
-						"id": "arm_right",
-						"choice_name": "Right Arm",
-						"table_name": "Right Arm",
-						"hit_penalty": -1,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					}
-				]
-			},
 			"calc": {
 				"roll_range": "4-5",
 				"dr": {
@@ -116,35 +87,6 @@
 			"table_name": "Hands",
 			"hit_penalty": -2,
 			"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen hand.",
-			"sub_table": {
-				"roll": "0",
-				"locations": [
-					{
-						"id": "hand_left",
-						"choice_name": "Left Hand",
-						"table_name": "Left Hand",
-						"hit_penalty": -2,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					},
-					{
-						"id": "hand_right",
-						"choice_name": "Right Hand",
-						"table_name": "Right Hand",
-						"hit_penalty": -2,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					}
-				]
-			},
 			"calc": {
 				"roll_range": "-",
 				"dr": {
@@ -169,10 +111,11 @@
 			"id": "vitals",
 			"choice_name": "Vitals",
 			"table_name": "Vitals",
+			"dr_bonus": 1,
 			"calc": {
 				"roll_range": "-",
 				"dr": {
-					"all": 0
+					"all": 1
 				}
 			}
 		},
@@ -195,36 +138,7 @@
 			"table_name": "Legs",
 			"slots": 4,
 			"hit_penalty": -1,
-			"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 2/6 to hit the foot.",
-			"sub_table": {
-				"roll": "0",
-				"locations": [
-					{
-						"id": "leg_left",
-						"choice_name": "Left Leg",
-						"table_name": "Left Leg",
-						"hit_penalty": -1,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					},
-					{
-						"id": "leg_right",
-						"choice_name": "Right Leg",
-						"table_name": "Right Leg",
-						"hit_penalty": -1,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					}
-				]
-			},
+			"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 1/6 to hit the foot.",
 			"calc": {
 				"roll_range": "9-12",
 				"dr": {
@@ -238,35 +152,6 @@
 			"table_name": "Feet",
 			"hit_penalty": -2,
 			"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
-			"sub_table": {
-				"roll": "0",
-				"locations": [
-					{
-						"id": "foot_left",
-						"choice_name": "Left Foot",
-						"table_name": "Left Foot",
-						"hit_penalty": -2,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					},
-					{
-						"id": "foot_right",
-						"choice_name": "Right Foot",
-						"table_name": "Right Foot",
-						"hit_penalty": -2,
-						"calc": {
-							"roll_range": "-",
-							"dr": {
-								"all": 0
-							}
-						}
-					}
-				]
-			},
 			"calc": {
 				"roll_range": "-",
 				"dr": {

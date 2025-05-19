@@ -436,10 +436,11 @@
 					"id": "vitals",
 					"choice_name": "Vitals",
 					"table_name": "Vitals",
+					"dr_bonus": 1,
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 1
 						}
 					}
 				},
@@ -1296,7 +1297,7 @@
 							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
-								"qualifier": "Theft"
+								"qualifier": "Pickpocket"
 							},
 							"amount": 1,
 							"per_level": true
@@ -1315,10 +1316,6 @@
 							"type": "skill_bonus",
 							"selection_type": "skills_with_name",
 							"name": {
-								"compare": "is",
-								"qualifier": "Performance"
-							},
-							"specialization": {
 								"compare": "is",
 								"qualifier": "Sleight of Hand"
 							},
@@ -3056,6 +3053,48 @@
 			}
 		},
 		{
+			"id": "srMMHVlLn9qBfV04V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "ss81pfyKeFBFEpPw2"
+			},
+			"name": "Pickpocket",
+			"reference": "B213",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 5,
+				"rsl": "DX-5"
+			}
+		},
+		{
 			"id": "sxHtzJaiu5JlVMws4",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3514,7 +3553,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-15T02:13:21+02:00",
+	"modified_date": "2025-05-15T19:21:14+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

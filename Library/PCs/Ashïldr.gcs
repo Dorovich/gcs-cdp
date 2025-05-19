@@ -436,10 +436,11 @@
 					"id": "vitals",
 					"choice_name": "Vitals",
 					"table_name": "Vitals",
+					"dr_bonus": 1,
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 1
 						}
 					}
 				},
@@ -807,7 +808,7 @@
 					},
 					"name": "Signature Gear",
 					"reference": "B85",
-					"notes": "@Nombre de la nave@ (2000 kt)",
+					"notes": "@Nave@ (2000 kt)",
 					"tags": [
 						"Advantage",
 						"Social"
@@ -1399,11 +1400,11 @@
 			}
 		},
 		{
-			"id": "sZ_QgL1AoKrmzRO6u",
+			"id": "sL-I_k0ZgAyBOTzqT",
 			"source": {
 				"library": "/gcs-cdp",
 				"path": "CdP Habilidades.skl",
-				"id": "sQemDY88w7yJpwNLS"
+				"id": "sPHhENc1u1ER3SoI2"
 			},
 			"name": "Apparatus Operation",
 			"reference": "B189",
@@ -1415,6 +1416,12 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Comms",
+					"modifier": -3
+				},
+				{
 					"type": "iq",
 					"modifier": -4
 				},
@@ -1426,14 +1433,16 @@
 				{
 					"type": "skill",
 					"name": "Engineer",
-					"specialization": "Electrical",
+					"specialization": "Comms",
 					"modifier": -4
 				}
 			],
 			"points": 2,
 			"defaulted_from": {
-				"type": "iq",
-				"modifier": -4,
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Comms",
+				"modifier": -3,
 				"level": 7,
 				"adjusted_level": 7,
 				"points": -7
@@ -1441,60 +1450,6 @@
 			"calc": {
 				"level": 11,
 				"rsl": "IQ+0"
-			}
-		},
-		{
-			"id": "spWv9g1TIuVen6d7r",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sH8IvwHUyMfUIOqCa"
-			},
-			"name": "Apparatus Repair",
-			"reference": "B190",
-			"reference_highlight": "Electronics Repair",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Comms",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Apparatus Operation",
-					"specialization": "Comms",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Apparatus Repair",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Comms",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Apparatus Operation",
-				"specialization": "Comms",
-				"modifier": -3,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -1769,6 +1724,58 @@
 			"calc": {
 				"level": 11,
 				"rsl": "DX+0"
+			}
+		},
+		{
+			"id": "sm0RtbJAqDHhFnBem",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sRfVMd6U3uKdXctRs"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Comms",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Comms",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Mechanic",
+				"specialization": "Light Arkopan",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -2295,7 +2302,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-05-15T02:49:07+02:00",
+	"modified_date": "2025-05-19T14:09:17+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

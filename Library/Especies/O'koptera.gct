@@ -9,6 +9,29 @@
 			"container_type": "ancestry",
 			"children": [
 				{
+					"id": "t-AoWfUPC3zE1viBc",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tZRPo1XCgs4WPVW6U"
+					},
+					"name": "Bad Vision",
+					"points_per_level": -2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -4
+					}
+				},
+				{
 					"id": "tDptwtdHavyhZAOwu",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -256,27 +279,27 @@
 					],
 					"modifiers": [
 						{
-							"id": "mnfzPFsRGgxgBQLgF",
+							"id": "mNK-GG-2xxZHa09-Q",
 							"name": "Emotion Sense",
 							"reference": "B49",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mCkHbkKh1Dsg_pf3E",
+							"id": "mYBM0j-qWEh5QGWAU",
 							"name": "Profiling",
 							"reference": "P47",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mbO4_Wq0P1pAeIqIt",
+							"id": "mt_sb1lfHE11ujLaq",
 							"name": "Racial Emotion Sense",
 							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
-							"cost": 20
+							"cost": 25
 						},
 						{
-							"id": "me3Atgb2DzsZINAAy",
+							"id": "mUUF2mifTSlHEWb0r",
 							"name": "Vague Communication"
 						}
 					],
@@ -298,7 +321,7 @@
 						}
 					],
 					"calc": {
-						"points": 18
+						"points": 19
 					}
 				},
 				{
@@ -312,14 +335,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mBTTfYRAmIbJJ_ezF",
+							"id": "m0RTCsAGOnQkwUMC0",
 							"name": "Extra-Flexible",
 							"reference": "B53",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mqYycAo5zE9dQaXyH",
+							"id": "mWAPocWDMsJp8ZFow",
 							"name": "Long",
 							"reference": "B53",
 							"cost": 100,
@@ -327,28 +350,28 @@
 							"disabled": true
 						},
 						{
-							"id": "m2wI0jc1C9xSAox7y",
+							"id": "malzhatUBGQ7snjjc",
 							"name": "Foot Manipulators",
 							"reference": "B53",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "mlHrKBmjdbo1_xztS",
+							"id": "mcAtKKytoBgcYm5sM",
 							"name": "No Physical Attack",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mxc3kXKplNMj04mTk",
+							"id": "mQTKYZ6ybjnKvo6LI",
 							"name": "Short",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mTqAbaI3RMLgZCHPp",
+							"id": "mJnX6i8l-tymLtb8a",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Half body ST",
@@ -356,7 +379,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mFJxgBio0znsjDrDM",
+							"id": "mgoUw_T7MumXK69Qg",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Quarter body ST",
@@ -364,14 +387,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mLBy7Yn9NPzqfT3BT",
+							"id": "maTHBbmfehJNpMYxK",
 							"name": "Weapon Mount",
 							"reference": "B53",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mH3YM2CyPufudpjFf",
+							"id": "mdXCW0H24uoq-si5d",
 							"name": "No Grasping Hand",
 							"reference": "MATG28",
 							"cost": -40,
@@ -383,6 +406,35 @@
 					"levels": 2,
 					"calc": {
 						"points": 20
+					}
+				},
+				{
+					"id": "te3giTpYkwgn9ypiA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tpVpKxJ4O8NxUBBDE"
+					},
+					"name": "Fewer Hit Points",
+					"reference": "B16",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hp",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -2
 					}
 				},
 				{
@@ -486,7 +538,7 @@
 					},
 					"name": "Social Stigma (Cannibal)",
 					"reference": "B156",
-					"notes": "Affects any species except koppemak and other o'koptera",
+					"notes": "Except for koppemak and other o'koptera",
 					"tags": [
 						"Disadvantage",
 						"Social"
@@ -541,7 +593,7 @@
 					}
 				},
 				{
-					"id": "tp52i8AV-yHAlSQrl",
+					"id": "tp-Qy2qi3Y3LhGNwT",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -556,7 +608,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mJ5LcpGqOSKOHGZ2X",
+							"id": "m5TCxU3bPjN1_4Ed1",
 							"name": "@Rare attack@",
 							"reference": "B161",
 							"cost": -5,
@@ -564,7 +616,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mshKIHy_YLXeaAh5Z",
+							"id": "mM1dU98Juw8gZkM9_",
 							"name": "@Occasional attack@",
 							"reference": "B161",
 							"cost": -10,
@@ -572,14 +624,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mVD3x-3jZANrSiD-A",
+							"id": "m7pktGK61r8r0Mkq0",
 							"name": "Common",
 							"reference": "B161",
 							"cost": -15,
 							"cost_type": "points"
 						},
 						{
-							"id": "mCUIBv_UTmYEHaK0h",
+							"id": "mErlJViUIluH3E8vy",
 							"name": "@Very common attack@",
 							"reference": "B161",
 							"cost": -20,
@@ -587,14 +639,22 @@
 							"disabled": true
 						},
 						{
-							"id": "mqQc8JRYptwWoAxo3",
-							"name": "Wounding x2",
+							"id": "mmEzxCTbicss6a1PG",
+							"name": "Wounding ×1.5",
 							"reference": "B161",
-							"cost": 2,
+							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "ma_5nqnJF24X5Y1JH",
+							"id": "mzKQzl4LjpDKBc4_4",
+							"name": "Wounding x2",
+							"reference": "B161",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m4YdJOQPdN8EhZ0_X",
 							"name": "Wounding x3",
 							"reference": "B161",
 							"cost": 3,
@@ -602,7 +662,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mn1fjSaB6-26S7iSa",
+							"id": "m5PA0oP-sz-n5BqyL",
 							"name": "Wounding x4",
 							"reference": "B161",
 							"cost": 4,
@@ -610,7 +670,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mozocaDKP3ZjlpGWZ",
+							"id": "mS8pBYGSCNF2mgzp7",
 							"name": "Fatigue Only",
 							"reference": "B161",
 							"cost": -50,
@@ -618,12 +678,12 @@
 						}
 					],
 					"calc": {
-						"points": -30
+						"points": -15
 					}
 				}
 			],
 			"calc": {
-				"points": 30
+				"points": 40
 			}
 		}
 	]

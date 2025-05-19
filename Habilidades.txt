@@ -6,4 +6,6 @@
 
 - Lanza: Ya no existe, usar la habilidad Arma de asta.
 
-- Operar/Reparar Electrónicos: Reemplazadas por Operar/Reparar Aparatos.
+- Operar/Reparar Electrónicos: Reemplazadas por Operar Aparatos y otras especialidades de Mecánico, respectivamente.
+
+- Estoque/Sable/Main-Gauche/etc.: La habilidad Espada cubre espadas de una mano, y Esgrima las armas de ese tipo (Estoque, Main-Gauche, Sable).
