@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "Apmi-XAhxTr7N_wgY",
-	"total_points": 165,
+	"total_points": 169,
 	"points_record": [
+		{
+			"when": "2025-05-21T16:23:54+02:00",
+			"points": 4,
+			"reason": "Acto II"
+		},
 		{
 			"when": "2024-08-04T00:53:59+02:00",
 			"points": 165,
@@ -75,6 +80,13 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
+				"cost_per_point": 15
+			},
+			{
+				"id": "keum",
+				"type": "integer",
+				"name": "Keumic Inertia",
+				"attribute_base": "10",
 				"cost_per_point": 10
 			},
 			{
@@ -85,20 +97,33 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "ke",
-				"type": "integer",
-				"name": "KE",
-				"full_name": "Keum",
-				"attribute_base": "10",
-				"cost_per_point": 10
-			},
-			{
 				"id": "fright_check",
 				"type": "integer",
-				"placement": "hidden",
-				"name": "Fright Check",
+				"name": "Composure",
 				"attribute_base": "$will",
 				"cost_per_point": 2
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Init",
+				"full_name": "Initiative",
+				"attribute_base": "($will+$per)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"placement": "hidden",
+				"name": "Dodge",
+				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
 			},
 			{
 				"id": "senses",
@@ -110,7 +135,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"attribute_base": "$ht",
 				"cost_per_point": 5
 			},
 			{
@@ -140,79 +165,6 @@
 				"name": "Touch",
 				"attribute_base": "$per",
 				"cost_per_point": 2
-			},
-			{
-				"id": "movement",
-				"type": "secondary_separator",
-				"name": "Movement"
-			},
-			{
-				"id": "basic_speed",
-				"type": "decimal",
-				"name": "Basic Speed",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 20
-			},
-			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "floor($basic_speed)",
-				"cost_per_point": 5
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"full_name": "Dodge",
-				"attribute_base": "2*$basic_speed"
-			},
-			{
-				"id": "fp",
-				"type": "pool",
-				"name": "FP",
-				"full_name": "Fatigue Points",
-				"attribute_base": "$ht",
-				"cost_per_point": 3,
-				"thresholds": [
-					{
-						"state": "Unconscious",
-						"expression": "-$fp",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Collapse",
-						"expression": "0",
-						"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Tired",
-						"expression": "ceil($fp/3)-1",
-						"explanation": "Move, Dodge and ST are halved (B426)",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Tiring",
-						"expression": "$fp-1"
-					},
-					{
-						"state": "Rested",
-						"expression": "$fp"
-					}
-				]
 			},
 			{
 				"id": "hp",
@@ -296,30 +248,22 @@
 				]
 			},
 			{
-				"id": "kp",
-				"type": "pool",
-				"name": "KP",
-				"full_name": "Keum Points",
-				"attribute_base": "$ke",
-				"cost_per_point": 3,
+				"id": "stress",
+				"type": "pool_ref",
+				"name": "Stress",
+				"attribute_base": "0",
 				"thresholds": [
 					{
-						"state": "Divergent",
-						"expression": "-$kp"
+						"state": "Collapse",
+						"expression": "-$will"
 					},
 					{
-						"state": "Disjointed",
+						"state": "Stressed",
+						"expression": "-1"
+					},
+					{
+						"state": "Calm",
 						"expression": "0"
-					},
-					{
-						"state": "Dissonant",
-						"expression": "ceil($kp/3)-1",
-						"explanation": "Halve KE"
-					},
-					{
-						"state": "Harmonical",
-						"expression": "$kp",
-						"explanation": "Halve KE"
 					}
 				]
 			}
@@ -532,18 +476,18 @@
 			}
 		},
 		{
-			"attr_id": "will",
+			"attr_id": "keum",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "ke",
+			"attr_id": "will",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -556,62 +500,6 @@
 			}
 		},
 		{
-			"attr_id": "senses",
-			"adj": 0
-		},
-		{
-			"attr_id": "per",
-			"adj": 1,
-			"calc": {
-				"value": 12,
-				"points": 5
-			}
-		},
-		{
-			"attr_id": "vision",
-			"adj": 0,
-			"calc": {
-				"value": 12,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "hearing",
-			"adj": 0,
-			"calc": {
-				"value": 12,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "taste_smell",
-			"adj": 0,
-			"calc": {
-				"value": 12,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "touch",
-			"adj": 0,
-			"calc": {
-				"value": 12,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "movement",
-			"adj": 0
-		},
-		{
-			"attr_id": "basic_speed",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "basic_move",
 			"adj": 0,
 			"calc": {
@@ -620,19 +508,62 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
+			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 5.5,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "fp",
+			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
-				"value": 10,
-				"current": 10,
+				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "senses",
+			"adj": 0
+		},
+		{
+			"attr_id": "per",
+			"adj": 1,
+			"calc": {
+				"value": 11,
+				"points": 5
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -646,11 +577,11 @@
 			}
 		},
 		{
-			"attr_id": "kp",
+			"attr_id": "stress",
 			"adj": 0,
 			"calc": {
-				"value": 12,
-				"current": 12,
+				"value": 0,
+				"current": 0,
 				"points": 0
 			}
 		}
@@ -658,7 +589,7 @@
 	"traits": [
 		{
 			"id": "TauWDqJkOzZ4IE2O-",
-			"name": "Advantages",
+			"name": "Advantages \u0026 Perks",
 			"children": [
 				{
 					"id": "tgW9tQDeEnkBRHR8H",
@@ -1361,8 +1292,204 @@
 			}
 		},
 		{
+			"id": "TkqCaIQlWLSU1Jx03",
+			"name": "Disadvantages \u0026 Quirks",
+			"children": [
+				{
+					"id": "teUaph4Ng9e9c_shS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tj478Y8UdHYlqGNf2"
+					},
+					"name": "Bad Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mWjfvMxebowFak4jR",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "my7QwJR5uYJnxbicC",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mTHw8QYWimqUZM9cm",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mI_5JIAS_CBEd-buW",
+							"name": "Ciudadanos de Erlit",
+							"reference": "B27",
+							"replacements": {
+								"Small class of people": "Erlit"
+							},
+							"cost": 0.33,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mPryM3rCF75N3bRxr",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mpB2QTlxuMrRxUpsx",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mbvQtSgFpjpihxLvS",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from Erlit citizens aware of your reputation",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tyW8nI42NZFAktGID",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
+						"id": "t-TmKStQRVHBSMEKC"
+					},
+					"name": "Chummy",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tGfUGJcTntejrJNtk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t49qcxpm53kg-OdPj"
+					},
+					"name": "Odious Personal Habit (Bromas constantes)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"replacements": {
+						"Habit": "Bromas"
+					},
+					"modifiers": [
+						{
+							"id": "mwYLC2rA8pk4tpkTH",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mF2Fy7ZzrpKe8eXvR",
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mLsz3anwQeqRr5UMw",
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "thdu-Uw6cDI7cFHeM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tu0KYjUBLw84B4gKc"
+					},
+					"name": "Trickster",
+					"reference": "B159",
+					"notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 15,
+					"base_points": -15,
+					"calc": {
+						"points": -7
+					}
+				}
+			],
+			"calc": {
+				"points": -23
+			}
+		},
+		{
 			"id": "TNJvrU1JGenzQPS9Z",
-			"name": "Culture",
+			"name": "Languages \u0026 Culture",
 			"children": [
 				{
 					"id": "tl9mM5_Raow6NZj8M",
@@ -1574,202 +1701,6 @@
 			}
 		},
 		{
-			"id": "TkqCaIQlWLSU1Jx03",
-			"name": "Disadvantages",
-			"children": [
-				{
-					"id": "teUaph4Ng9e9c_shS",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tj478Y8UdHYlqGNf2"
-					},
-					"name": "Bad Reputation",
-					"reference": "B26,MA54",
-					"tags": [
-						"Disadvantage",
-						"Social"
-					],
-					"modifiers": [
-						{
-							"id": "mWjfvMxebowFak4jR",
-							"name": "People Affected",
-							"reference": "B27",
-							"notes": "Almost everyone",
-							"cost": 1,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "my7QwJR5uYJnxbicC",
-							"name": "People Affected",
-							"reference": "B27",
-							"notes": "Almost everyone except @large class of people@",
-							"cost": 0.67,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "mTHw8QYWimqUZM9cm",
-							"name": "People Affected",
-							"reference": "B27",
-							"notes": "@Large class of people@",
-							"cost": 0.5,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "mI_5JIAS_CBEd-buW",
-							"name": "Ciudadanos de Erlit",
-							"reference": "B27",
-							"replacements": {
-								"Small class of people": "Erlit"
-							},
-							"cost": 0.33,
-							"cost_type": "multiplier"
-						},
-						{
-							"id": "mPryM3rCF75N3bRxr",
-							"name": "Recognized all the time",
-							"reference": "B28",
-							"cost": 1,
-							"cost_type": "multiplier"
-						},
-						{
-							"id": "mpB2QTlxuMrRxUpsx",
-							"name": "Recognized sometimes",
-							"reference": "B28",
-							"notes": "10-",
-							"cost": 0.5,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "mbvQtSgFpjpihxLvS",
-							"name": "Recognized occasionally",
-							"reference": "B28",
-							"notes": "7-",
-							"cost": 0.33,
-							"cost_type": "multiplier",
-							"disabled": true
-						}
-					],
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from Erlit citizens aware of your reputation",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -1
-					}
-				},
-				{
-					"id": "tyW8nI42NZFAktGID",
-					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
-						"id": "t-TmKStQRVHBSMEKC"
-					},
-					"name": "Chummy",
-					"reference": "B126",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -5,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "to others",
-							"amount": 2
-						},
-						{
-							"type": "conditional_modifier",
-							"situation": "to IQ-based skills when alone",
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -5
-					}
-				},
-				{
-					"id": "tGfUGJcTntejrJNtk",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t49qcxpm53kg-OdPj"
-					},
-					"name": "Odious Personal Habit (Bromas constantes)",
-					"reference": "B22",
-					"tags": [
-						"Disadvantage",
-						"Physical"
-					],
-					"replacements": {
-						"Habit": "Bromas"
-					},
-					"modifiers": [
-						{
-							"id": "mwYLC2rA8pk4tpkTH",
-							"name": "-1 Reaction",
-							"reference": "B22",
-							"cost": -5,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mF2Fy7ZzrpKe8eXvR",
-							"name": "-2 Reaction",
-							"reference": "B22",
-							"cost": -10,
-							"cost_type": "points"
-						},
-						{
-							"id": "mLsz3anwQeqRr5UMw",
-							"name": "-3 Reaction",
-							"reference": "B22",
-							"cost": -15,
-							"cost_type": "points",
-							"disabled": true
-						}
-					],
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "thdu-Uw6cDI7cFHeM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tu0KYjUBLw84B4gKc"
-					},
-					"name": "Trickster",
-					"reference": "B159",
-					"notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr": 15,
-					"base_points": -15,
-					"calc": {
-						"points": -7
-					}
-				}
-			],
-			"calc": {
-				"points": -23
-			}
-		},
-		{
 			"id": "t19JwFGQPxdMU9Yc0",
 			"name": "Natural Attacks",
 			"reference": "B271",
@@ -1901,20 +1832,20 @@
 			}
 		},
 		{
-			"id": "Tz_YdvNKsXhA_efjj",
-			"name": "Nu'karn/Te'karn",
+			"id": "TKFsqLx9px9CTveJg",
+			"name": "Nu'karn (Te'karn)",
 			"userdesc": "Apply on top of another species' template.",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "t237eBv8GAXJm6Jzv",
+					"id": "tJdwxTdo6ZrXXN2Fb",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "t1w1RFcFceKR2T9_e"
 					},
-					"name": "Increased Keum",
+					"name": "Keumic Relay",
 					"tags": [
 						"Advantage",
 						"Attribute",
@@ -1924,7 +1855,7 @@
 					"features": [
 						{
 							"type": "attribute_bonus",
-							"attribute": "ke",
+							"attribute": "keum",
 							"amount": 1,
 							"per_level": true
 						}
@@ -1936,7 +1867,7 @@
 					}
 				},
 				{
-					"id": "tf9uChV4E1aOGEfQ-",
+					"id": "tTyv7J97TRCQU4L2m",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1951,7 +1882,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mLTjPREGKVWteLf9n",
+							"id": "mnKCi0gYbJwf3UPRc",
 							"name": "Diffuse",
 							"reference": "B60",
 							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -1960,7 +1891,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mh59SAJlTShwZLGht",
+							"id": "mlGn_i-2qaR6ksYOB",
 							"name": "Homogenous",
 							"reference": "B60",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -1969,7 +1900,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mKuczaM-bh6RAlGHk",
+							"id": "mF027TMPeDOpBFkUa",
 							"name": "No Blood",
 							"reference": "B61",
 							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -1978,7 +1909,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mi1Cjhct8p1n52UJK",
+							"id": "m8FYMiOziMlhVXkVP",
 							"name": "No Brain",
 							"reference": "B61",
 							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -1987,7 +1918,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mit0UFrRQU4UrwC7A",
+							"id": "mjKramtrG1lPQtc_I",
 							"name": "No Eyes",
 							"reference": "B61",
 							"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -1996,7 +1927,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m65kTF7DGQrHoOnBe",
+							"id": "mwYn31cC8fAeq7n6Z",
 							"name": "No Head",
 							"reference": "B61",
 							"notes": "Skull, Brain and Face cannot be targeted",
@@ -2005,7 +1936,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mfCn-ahrHy-JyBhMG",
+							"id": "mJt35WRBzM9iYI7og",
 							"name": "No Neck",
 							"reference": "B61",
 							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -2014,7 +1945,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m0bmdM9mSRY_YFaHG",
+							"id": "myXvzI4_qRtxUaNDR",
 							"name": "No Vitals",
 							"reference": "B61",
 							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
@@ -2022,7 +1953,7 @@
 							"cost_type": "points"
 						},
 						{
-							"id": "mPcqo9MAlZM0JsMgE",
+							"id": "mKM07BwPmVvlnAbmN",
 							"name": "Unliving",
 							"reference": "B61",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
@@ -2036,7 +1967,7 @@
 					}
 				},
 				{
-					"id": "tqd4FQVByp04j4HfV",
+					"id": "tB6muElIPKbzvuT0z",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -2050,7 +1981,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mmHDT-qLRFvpIOsC3",
+							"id": "mgcZ400Jj5upcoK7x",
 							"name": "@Very Common: Metabolic Hazards, etc.@",
 							"reference": "B80",
 							"cost": 30,
@@ -2058,7 +1989,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mrnhwzzwI8-bGxijz",
+							"id": "mKG-_AAF5_Ngi1vr1",
 							"name": "@Common: Poison, Sickness, etc.@",
 							"reference": "B81",
 							"cost": 15,
@@ -2066,14 +1997,14 @@
 							"disabled": true
 						},
 						{
-							"id": "m6dOdS6e0tF-oLNIh",
+							"id": "mCsfNx4nd4yKTYYtl",
 							"name": "Diseases",
 							"reference": "B81",
 							"cost": 10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mcPYfW9dZo-rsccjb",
+							"id": "mJy5LqixGJtd0kInf",
 							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
 							"reference": "B81",
 							"cost": 5,
@@ -2081,14 +2012,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mSRX28lHFmGGHh0IK",
+							"id": "ms9oHLZyceD_h7kV_",
 							"name": "Immunity",
 							"reference": "B81",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "m-PsREqDpremb90Rz",
+							"id": "muFBsc4KB4uJBiVdS",
 							"name": "+8 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.5,
@@ -2096,7 +2027,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJyLzn_GPDQRv_2Fq",
+							"id": "mssZIZ7SJmGYwFPUr",
 							"name": "+3 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.33,
@@ -2110,13 +2041,13 @@
 					}
 				},
 				{
-					"id": "tKzUXnLG4YkuKBaKQ",
+					"id": "tR36ipJQpbZ0rwUAw",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "t8duh7FJvBdSs4NOb"
 					},
-					"name": "Restricted Diet (Materia viva)",
+					"name": "Restricted Diet (Living matter)",
 					"reference": "B151",
 					"tags": [
 						"Disadvantage",
@@ -2124,21 +2055,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mepDXBw6c1eOl5jr-",
+							"id": "m49sAAd8mQu9Dbe3w",
 							"name": "Substitution",
 							"reference": "B151",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m8RLBkfIldyxLK3t6",
+							"id": "mvCkp8HchjW357qT_",
 							"name": "Very Common",
 							"reference": "B151",
 							"cost": -10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mFInvHggV59yuUqlN",
+							"id": "mIkD6PHtRGC7aGK50",
 							"name": "Common",
 							"reference": "B151",
 							"cost": -20,
@@ -2146,7 +2077,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mEFE-egGow5oj1lZK",
+							"id": "mQ_S7VXrk5lLI23cH",
 							"name": "Occasional",
 							"reference": "B151",
 							"cost": -30,
@@ -2154,7 +2085,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m50v4muEngHFXC92t",
+							"id": "mJMrd1kmsZJe8bkiN",
 							"name": "Rare",
 							"reference": "B151",
 							"cost": -40,
@@ -2167,7 +2098,7 @@
 					}
 				},
 				{
-					"id": "tGYcSZrLwuVARTnTO",
+					"id": "tS8hLeFyq1d0K0Hdn",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2184,7 +2115,7 @@
 					}
 				},
 				{
-					"id": "tTBHwLpM7GXjJU3q_",
+					"id": "tR_DRJQ-3MOUQxQ5b",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -2199,7 +2130,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mMrz8hq0v0PIOYfT3",
+							"id": "mK-H0nK68h8FvTk-E",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Gives +1 on all rolls to deduce your secret",
@@ -2215,7 +2146,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m3kj37Czvd_tYk8Tt",
+							"id": "m9cjvUBnIYIY4Vp8v",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
@@ -2231,7 +2162,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mmvRdpRcFYSNhSJmR",
+							"id": "mVfjhPwzqafOr6sSb",
 							"name": "No Reflection",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2247,7 +2178,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m1o76vATvcZruPp3e",
+							"id": "mnq225EOSABs-KlrO",
 							"name": "No Shadow",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2263,7 +2194,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHsM2qlLA_pqH8bPv",
+							"id": "m27KjJ-iru2XWaPfN",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2279,7 +2210,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m4symHazGjHT6nd65",
+							"id": "mlg44kHLbX6LSBW6N",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
@@ -2295,9 +2226,9 @@
 							"disabled": true
 						},
 						{
-							"id": "mRmCfMrALDc_fIjpP",
+							"id": "m3b4KXqxSz9bFbqmX",
 							"name": "Vessel",
-							"notes": "No heartbeat, pale skin, or any other unusual feature",
+							"notes": "Unnatural physiology",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -2314,7 +2245,7 @@
 					}
 				},
 				{
-					"id": "t1XFU4YRKRa5iNj9J",
+					"id": "tikeNid9ytRgHITAJ",
 					"source": {
 						"library": "Dorovich/gcs-cdp",
 						"path": "CdP Rasgos (Especies).adq",
@@ -2329,60 +2260,60 @@
 					],
 					"modifiers": [
 						{
-							"id": "moCAw8Gj9WQ7jf4nV",
+							"id": "mbZXw1g3VrclrfEzK",
 							"name": "Age Control",
 							"reference": "B95",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mN2hcnWMH8KSPM8An",
+							"id": "mAxBsnabx2BlkXLzf",
 							"name": "IQ Only",
 							"reference": "RSWL24",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mPgJcW3S0RyvhFgPv",
+							"id": "mctx5XFxsTEOQi5zH",
 							"name": "Halt Aging, Weekly",
 							"reference": "PSI18",
 							"cost": 80,
 							"disabled": true
 						},
 						{
-							"id": "m33GsZW-8qKxQgXt7",
+							"id": "mUgh_22kGWo1afd_Y",
 							"name": "Halt Aging, Monthly",
 							"reference": "PSI18",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mZf8qst6jJDx1ANru",
+							"id": "m1JFmLPO46Yp7Qh_H",
 							"name": "Halt Aging, Yearly",
 							"reference": "PSI18",
 							"cost": 130,
 							"disabled": true
 						},
 						{
-							"id": "miyn0lczxFhlvAc4X",
+							"id": "m2Ds6ULhyeK4ItV08",
 							"name": "Life Extension",
 							"reference": "PSI18",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "mLNu_yL3WjrgRHWeG",
-							"name": "Paradoxical",
-							"cost": -35
+							"id": "m-j4VH2mCHAJ67Qsw",
+							"name": "Keumic",
+							"cost": -10
 						}
 					],
 					"base_points": 15,
 					"calc": {
-						"points": 10
+						"points": 14
 					}
 				},
 				{
-					"id": "tjagH8S4gZtcmoXV-",
+					"id": "trWx9hMDicjR12P1V",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -2401,7 +2332,7 @@
 				}
 			],
 			"calc": {
-				"points": 25
+				"points": 29
 			}
 		}
 	],
@@ -3021,12 +2952,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "Per+0"
 			}
 		},
@@ -3195,12 +3126,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "Per+1"
 			}
 		}
@@ -3553,7 +3484,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-15T19:21:14+02:00",
+	"modified_date": "2025-05-21T22:41:25+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
@@ -3566,11 +3497,11 @@
 			1
 		],
 		"dodge": [
-			10,
-			9,
 			8,
 			7,
-			6
+			6,
+			5,
+			4
 		]
 	}
 }

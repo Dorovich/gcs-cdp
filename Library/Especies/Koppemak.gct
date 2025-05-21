@@ -430,34 +430,6 @@
 					}
 				},
 				{
-					"id": "t85I650AdukYsVSlM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t50ZzyORV0rTiYwnb"
-					},
-					"name": "Decreased Keum",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Supernatural"
-					],
-					"points_per_level": -10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "ke",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
 					"id": "tWGsPvtVh2nA9iiwy",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -535,38 +507,37 @@
 						}
 					],
 					"can_level": true,
-					"levels": 4,
+					"levels": 5,
 					"calc": {
-						"points": 8
+						"points": 10
 					}
 				},
 				{
-					"id": "t1Cz2g_iNon3oYIlc",
+					"id": "t0p1qo-_s7asWP0DQ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tVt3SvdGWNchJ8z4o"
+						"id": "t50ZzyORV0rTiYwnb"
 					},
-					"name": "Increased Health",
-					"reference": "B14",
+					"name": "Keumic Anchor",
 					"tags": [
-						"Advantage",
 						"Attribute",
-						"Physical"
+						"Disadvantage",
+						"Supernatural"
 					],
-					"points_per_level": 10,
+					"points_per_level": -10,
 					"features": [
 						{
 							"type": "attribute_bonus",
-							"attribute": "ht",
-							"amount": 1,
+							"attribute": "keum",
+							"amount": -1,
 							"per_level": true
 						}
 					],
 					"can_level": true,
 					"levels": 1,
 					"calc": {
-						"points": 10
+						"points": -10
 					}
 				},
 				{
@@ -886,7 +857,7 @@
 				}
 			],
 			"calc": {
-				"points": 25
+				"points": 17
 			}
 		}
 	]

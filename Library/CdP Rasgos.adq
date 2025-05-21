@@ -147,6 +147,212 @@
 			}
 		},
 		{
+			"id": "tkntR9TzbEAn1v43g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t2YeWtLsS-544fGdt"
+			},
+			"name": "Enhanced Block",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tkujNiHWM1dkuHAfU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tGjjVtxav9KsrG7Wx"
+			},
+			"name": "Combat Reflexes",
+			"reference": "B43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"base_points": 15,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					},
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "fright_check",
+					"amount": 2
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "ttwsLNIP_1qcLTufO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "twGsZPV8OE0NLFaXl"
+			},
+			"name": "Enhanced Dodge",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 15,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "t-qjrQep4UonAww4e",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tDw6GZRxayNGMc8wW"
+			},
+			"name": "Enhanced Parry (@Melee weapon skill@)",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry with @Melee weapon skill@",
+					"amount": 1
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tZeU8uZ2OuJaJkNn0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tVyvGlX-r5_Svydpa"
+			},
+			"name": "Enhanced Parry (All parries)",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "t77ioP-8Lm_gd2-W6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "taqHL9ZGLNxoSoyo-"
+			},
+			"name": "Enhanced Parry (Bare hands)",
+			"reference": "B51",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry with bare hands",
+					"amount": 1
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "tWm9O63n5b9-C3a8T",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3073,21 +3279,11 @@
 					}
 				]
 			},
-			"base_points": 7,
+			"base_points": 6,
 			"features": [
 				{
 					"type": "attribute_bonus",
 					"attribute": "dodge",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "parry",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "block",
 					"amount": 1
 				},
 				{
@@ -3102,7 +3298,7 @@
 				}
 			],
 			"calc": {
-				"points": 7
+				"points": 6
 			}
 		},
 		{
@@ -4571,74 +4767,6 @@
 			],
 			"calc": {
 				"points": -15
-			}
-		},
-		{
-			"id": "toBqtQAKFlxM8C6ZK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tGjjVtxav9KsrG7Wx"
-			},
-			"name": "Combat Reflexes",
-			"reference": "B43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "is",
-							"qualifier": "Enhanced Time Sense"
-						}
-					}
-				]
-			},
-			"base_points": 15,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "starts_with",
-						"qualifier": "fast-draw"
-					},
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "dodge",
-					"amount": 2
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "parry",
-					"amount": 2
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "block",
-					"amount": 2
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "fright_check",
-					"amount": 2
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
-					"amount": 6
-				}
-			],
-			"calc": {
-				"points": 15
 			}
 		},
 		{
@@ -8300,7 +8428,7 @@
 				"Disadvantage",
 				"Physical"
 			],
-			"points_per_level": -10,
+			"points_per_level": -15,
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -8312,7 +8440,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -10
+				"points": -15
 			}
 		},
 		{
@@ -8351,7 +8479,7 @@
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "t50ZzyORV0rTiYwnb"
 			},
-			"name": "Decreased Keum",
+			"name": "Keumic Anchor",
 			"tags": [
 				"Attribute",
 				"Disadvantage",
@@ -8361,7 +8489,7 @@
 			"features": [
 				{
 					"type": "attribute_bonus",
-					"attribute": "ke",
+					"attribute": "keum",
 					"amount": -1,
 					"per_level": true
 				}
@@ -10216,62 +10344,6 @@
 			}
 		},
 		{
-			"id": "txYdFfO3Q6u3FPNP8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t2YeWtLsS-544fGdt"
-			},
-			"name": "Enhanced Block",
-			"reference": "B51,MA43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "block",
-					"amount": 2,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tCcqbdhHSsqAzq85q",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "twGsZPV8OE0NLFaXl"
-			},
-			"name": "Enhanced Dodge",
-			"reference": "B51,MA43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"points_per_level": 15,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "dodge",
-					"amount": 2,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
 			"id": "teFlORfv9SN198KG4",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10346,88 +10418,6 @@
 			"levels": 1,
 			"calc": {
 				"points": 20
-			}
-		},
-		{
-			"id": "tmts7LUkrd9Q1AMtK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tDw6GZRxayNGMc8wW"
-			},
-			"name": "Enhanced Parry (@Melee weapon skill@)",
-			"reference": "B51,MA43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Parry with @Melee weapon skill@",
-					"amount": 2
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tl_GQHGH_uaSTbLvM",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tVyvGlX-r5_Svydpa"
-			},
-			"name": "Enhanced Parry (All parries)",
-			"reference": "B51,MA43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"points_per_level": 10,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "parry",
-					"amount": 2,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 10
-			}
-		},
-		{
-			"id": "tJXVS3jq9CKjAZapm",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "taqHL9ZGLNxoSoyo-"
-			},
-			"name": "Enhanced Parry (Bare hands)",
-			"reference": "B51",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Parry with bare hands",
-					"amount": 2
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 5
 			}
 		},
 		{
@@ -10864,34 +10854,6 @@
 			"levels": 1,
 			"calc": {
 				"points": 2
-			}
-		},
-		{
-			"id": "tBZ2xoPzHcNfZQVZc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tsIfS0jZqdshsDFOM"
-			},
-			"name": "Extra Keum Points",
-			"tags": [
-				"Advantage",
-				"Attribute",
-				"Supernatural"
-			],
-			"points_per_level": 3,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "fp",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 3
 			}
 		},
 		{
@@ -11424,34 +11386,6 @@
 			"levels": 1,
 			"calc": {
 				"points": -2
-			}
-		},
-		{
-			"id": "tlCUPaoY9vqSYxdqc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tvQX4UEAyWzc91L3U"
-			},
-			"name": "Fewer Keum Points",
-			"tags": [
-				"Attribute",
-				"Disadvantage",
-				"Supernatural"
-			],
-			"points_per_level": -3,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "fp",
-					"amount": -1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": -3
 			}
 		},
 		{
@@ -14070,7 +14004,7 @@
 				"Attribute",
 				"Physical"
 			],
-			"points_per_level": 10,
+			"points_per_level": 15,
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -14082,7 +14016,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 10
+				"points": 15
 			}
 		},
 		{
@@ -14121,7 +14055,7 @@
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "t1w1RFcFceKR2T9_e"
 			},
-			"name": "Increased Keum",
+			"name": "Keumic Relay",
 			"tags": [
 				"Advantage",
 				"Attribute",
@@ -14131,7 +14065,7 @@
 			"features": [
 				{
 					"type": "attribute_bonus",
-					"attribute": "ke",
+					"attribute": "keum",
 					"amount": 1,
 					"per_level": true
 				}
@@ -17430,25 +17364,6 @@
 			],
 			"calc": {
 				"points": -10
-			}
-		},
-		{
-			"id": "t0Vc_ZNMSxnBmWmqy",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Rasgos (Keum).adq",
-				"id": "tco8z3JKQzDADo18d"
-			},
-			"name": "Keumic Knot",
-			"tags": [
-				"Disadvantage",
-				"Supernatural"
-			],
-			"points_per_level": -1,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": -1
 			}
 		},
 		{
