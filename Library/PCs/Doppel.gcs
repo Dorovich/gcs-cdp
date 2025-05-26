@@ -83,13 +83,6 @@
 				"cost_per_point": 15
 			},
 			{
-				"id": "keum",
-				"type": "integer",
-				"name": "Keumic Inertia",
-				"attribute_base": "10",
-				"cost_per_point": 10
-			},
-			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
@@ -102,13 +95,6 @@
 				"name": "Composure",
 				"attribute_base": "$will",
 				"cost_per_point": 2
-			},
-			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 5
 			},
 			{
 				"id": "basic_speed",
@@ -124,6 +110,20 @@
 				"placement": "hidden",
 				"name": "Dodge",
 				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+			},
+			{
+				"id": "keum",
+				"type": "integer_ref",
+				"name": "Keum",
+				"attribute_base": "($iq+$will)/4",
+				"cost_per_point": 10
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
 			},
 			{
 				"id": "senses",
@@ -256,6 +256,10 @@
 					{
 						"state": "Collapse",
 						"expression": "-$will"
+					},
+					{
+						"state": "Distressed",
+						"expression": "-ceil($will/2)"
 					},
 					{
 						"state": "Stressed",
@@ -476,14 +480,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 12,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
@@ -500,14 +496,6 @@
 			}
 		},
 		{
-			"attr_id": "basic_move",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
@@ -520,6 +508,22 @@
 			"adj": 0,
 			"calc": {
 				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "keum",
+			"adj": 0,
+			"calc": {
+				"value": 7,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
 				"points": 0
 			}
 		},
@@ -662,48 +666,48 @@
 					],
 					"modifiers": [
 						{
-							"id": "mPOxHqVK7R0fzsPo8",
+							"id": "mduLaCLc0woFdlcnd",
 							"name": "Newtonian Space Flight",
 							"reference": "B56",
 							"cost": 25,
 							"disabled": true
 						},
 						{
-							"id": "mu5xwqk-mie7dMll5",
+							"id": "m0lPNfl7k7N8dXxi-",
 							"name": "Space Flight",
 							"reference": "B56",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mnp8-LLf6o6QE00I_",
+							"id": "mTE44l_juG_QqHxEq",
 							"name": "Cannot Hover",
 							"reference": "B56",
 							"cost": -15,
 							"disabled": true
 						},
 						{
-							"id": "mBHAJ7X4tHF5RM4Od",
+							"id": "mgbuqPYNxQpiJzn4k",
 							"name": "Controlled Gliding",
 							"reference": "B56",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "mJxJLKyTbh_8DfSP9",
+							"id": "m9UXtNhkUY5JMKsH_",
 							"name": "Gliding",
 							"reference": "B56",
 							"cost": -50
 						},
 						{
-							"id": "mm2s4rLO7Qt45OuiD",
+							"id": "mxox-V54_TgvEGtFG",
 							"name": "Lighter Than Air",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mJRmvnoNQqfqNQCf0",
+							"id": "mSN-_uUCPa5b05tZT",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "30'",
@@ -711,7 +715,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mKis0RP-YF2M9fno3",
+							"id": "mKyNslqiDszSEC5gO",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "10'",
@@ -719,7 +723,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjOEPaTZoUxIUUN7o",
+							"id": "mIx0M2apuNMKpRnR_",
 							"name": "Low Ceiling",
 							"reference": "B56",
 							"notes": "5'",
@@ -727,56 +731,59 @@
 							"disabled": true
 						},
 						{
-							"id": "m-TqmExDHOJynOgpS",
+							"id": "m2QS4KU6sOtd7dFbm",
 							"name": "Small Wings",
 							"reference": "B56",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mDkEdxnZSviptgJje",
+							"id": "mqmDYgmDtoZbDwCwZ",
 							"name": "Space Flight Only",
 							"reference": "B56",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mBz6Pf4JHk0al-6XK",
+							"id": "mlaxI1s1sU6b7OD_-",
 							"name": "Winged",
 							"reference": "B56",
 							"cost": -25,
 							"disabled": true
 						},
 						{
-							"id": "m2J2EJqEtJv_Cbeq1",
+							"id": "mB0fpe4IWAYkySW5J",
 							"name": "Planetary",
 							"reference": "P50",
 							"cost": -5,
 							"disabled": true
 						},
 						{
-							"id": "mRVIKQbeBcDgm1yN_",
+							"id": "m-qsDk1Gj5N4CtjqQ",
 							"name": "Requires Surface",
 							"reference": "P50",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mwcULqyK77C7D6mKX",
+							"id": "mPoZIWjiXV7dsGyNJ",
 							"name": "Slow",
 							"reference": "PSI14",
-							"notes": "Basic Speed",
-							"cost": -25
+							"notes": "||floor(($dx+$ht)/4)||",
+							"cost": -25,
+							"calc": {
+								"resolved_notes": "5"
+							}
 						},
 						{
-							"id": "m1vuM8-b6CMkrVZ05",
+							"id": "mASrVayBd1dAI0pKH",
 							"name": "Slow, Move 1",
 							"reference": "PSI14",
 							"cost": -45,
 							"disabled": true
 						},
 						{
-							"id": "mPpYUhhnRS2EEke2l",
+							"id": "mMBekzEjb51-45Hp8",
 							"name": "Encumbrance-Limited (No encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -785,7 +792,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHLzHbfU8JhoQGZCR",
+							"id": "m9SMQWgsLGlvC1l70",
 							"name": "Encumbrance-Limited (Light encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -794,7 +801,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m3b9OxKQMWqhvTFe6",
+							"id": "mdVMC3xm1kybXfFbI",
 							"name": "Encumbrance-Limited (Medium encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
@@ -803,11 +810,10 @@
 							"disabled": true
 						},
 						{
-							"id": "m3E6w-q41XqjeYSQg",
-							"name": "Up to medium encumbrance",
+							"id": "mB6Q09SHez4PeZCpu",
+							"name": "Up to Medium encumbrance",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
-							"notes": "Fall if greater",
 							"cost": -5
 						}
 					],
@@ -3484,7 +3490,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-21T22:41:25+02:00",
+	"modified_date": "2025-05-26T20:32:34+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

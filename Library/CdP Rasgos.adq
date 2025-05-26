@@ -2587,7 +2587,7 @@
 			"name": "Appearance (Hideous)",
 			"reference": "B21",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"base_points": -12,
@@ -2621,7 +2621,7 @@
 			"name": "Appearance (Horrific)",
 			"reference": "B21",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"base_points": -24,
@@ -2655,7 +2655,7 @@
 			"name": "Appearance (Monstrous)",
 			"reference": "B21",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"base_points": -20,
@@ -2689,7 +2689,7 @@
 			"name": "Appearance (Ugly)",
 			"reference": "B21",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"base_points": -8,
@@ -2714,7 +2714,7 @@
 			"name": "Appearance (Unattractive)",
 			"reference": "B21",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"base_points": -4,
@@ -11612,7 +11612,7 @@
 			},
 			"name": "Flight",
 			"reference": "B56,P50,PSI14",
-			"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+			"notes": "Air Move ||floor(($dx+$ht)/2)||",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -11620,49 +11620,49 @@
 			],
 			"modifiers": [
 				{
-					"id": "mxDLIWep2jGP-jqbT",
+					"id": "muliDri7BGyPf5WM4",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "mstXrSsWim_RPhhnu",
+					"id": "myQHqDaN0axtdtYmx",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mM6yhpXG2USao5d3C",
+					"id": "mnT1T2q6ZpB7976na",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15,
 					"disabled": true
 				},
 				{
-					"id": "mJlLa3j-CkoZgiuT6",
+					"id": "mYtZH2ZTS0diCq_vY",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "m91c1Kz5ycBLiULw0",
+					"id": "m2pvnlGOircgtgw5D",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "myLZ6EHVquejLg8mH",
+					"id": "mLGJTQkpSORg0_DB1",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mGrjo4mM32RX-_HCy",
+					"id": "m2a4dGKHfkouFvrAp",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -11670,7 +11670,7 @@
 					"disabled": true
 				},
 				{
-					"id": "myptvDlsBcPi_yffc",
+					"id": "mG6tzdkfOn1wIEaQO",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -11678,7 +11678,7 @@
 					"disabled": true
 				},
 				{
-					"id": "murL8rawwpkDapj5V",
+					"id": "mg194DcqV8oMfGU_G",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -11686,42 +11686,42 @@
 					"disabled": true
 				},
 				{
-					"id": "mhLnsXkTShesZLHms",
+					"id": "m6SoQ4qMoTWb-iZqX",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mYaoGSI8GYakHmaJ0",
+					"id": "mMUW7l-K5ftgWum0l",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "mllY4QA0HKVi0KtJo",
+					"id": "mFpbDc1MNL_bU1sI3",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25,
 					"disabled": true
 				},
 				{
-					"id": "mmHCLBYu6g15YpcDR",
+					"id": "mNc_fEELzbPwY4UjJ",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "mwvXh1uW5hCbNUkIj",
+					"id": "m5UfhRVBGAKF8xTly",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "mFAV4I_FdU8GyGvmi",
+					"id": "m_GH3ChKGvQ_xvp2E",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -11729,14 +11729,14 @@
 					"disabled": true
 				},
 				{
-					"id": "m5nHujBFqllp6vKeY",
+					"id": "m7oaZiG0aX1Fi9ov6",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mUTrLGCyln3a4mVCN",
+					"id": "mcZYLhFY5yLEb5kkl",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -11745,7 +11745,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mvvYfjAiSp4AQcRtY",
+					"id": "mUCPOAv49VrafWtqK",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -11754,7 +11754,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m-pWUHE3Uvdoldiya",
+					"id": "mOg6tqi4zsVYAyXFl",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -19182,7 +19182,7 @@
 			},
 			"name": "Membranous Wings",
 			"reference": "B56,P50,PSI14",
-			"notes": "[O'koptera] Flight. Air Move is Basic Speed x 2 (drop all fractions)",
+			"notes": "[O'koptera] Flight. Air Move ||floor(($dx+$ht)/2)||",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -19190,48 +19190,48 @@
 			],
 			"modifiers": [
 				{
-					"id": "mmrJvV1mWO_qNYc-A",
+					"id": "mq1UXVS764Ove3ite",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "mIhbRcaLbJ8BGsVDq",
+					"id": "m2kKzbXNH1t0xRkhy",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mBR1yvxp_R2AsQk6o",
+					"id": "mP48M8w7qEXFFGQYr",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15
 				},
 				{
-					"id": "mn7iHi5lRtNLRv1M6",
+					"id": "mD0YnN3qUO1W0EQN0",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mChv9aMKQc1552bdS",
+					"id": "mHl9RJ97RYWuSUJDm",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mPL0hD94EClZ-5ciO",
+					"id": "mr8xHozyvW4f49c5I",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mHiG_MOcW5trUpUff",
+					"id": "mynfKfZ4XSeyKyBqr",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -19239,7 +19239,7 @@
 					"disabled": true
 				},
 				{
-					"id": "muJM-bDfB77pZrfhu",
+					"id": "mhC_kkFpIGn-KmBvs",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -19247,7 +19247,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mtEM4pMg5oEpT6HuC",
+					"id": "mgmYsetPXwlj6Ag5v",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -19255,41 +19255,41 @@
 					"disabled": true
 				},
 				{
-					"id": "m6VFmPxQeH7-qBj2j",
+					"id": "mPZx3p28X6rFEuf1L",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mlGgy6hbOX4_F1Tf7",
+					"id": "mRAuvQ-8vRHbJhADJ",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "mFYViWDsJxN5P7u5S",
+					"id": "m5sTXBKUoA8k1gHt3",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25
 				},
 				{
-					"id": "mL19WRTWcicA2NyHl",
+					"id": "m416y7m_pWtQU7n_L",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "mfi5NoJPRMb9McVTL",
+					"id": "mcC4pr_F6R4cDbMIM",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "m1P89gL5BVEbm-V6D",
+					"id": "mnHC-ItrfqJxkRNI1",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -19297,14 +19297,14 @@
 					"disabled": true
 				},
 				{
-					"id": "mu4fHiPXH197OYay6",
+					"id": "mqcPwaLTXkJGJEPZq",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mKSJaLZ2exIQ7WOdu",
+					"id": "mhjz2uoSxl8b4rXQ1",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -19313,21 +19313,29 @@
 					"disabled": true
 				},
 				{
-					"id": "m8tBbbsaoB1PL13q-",
+					"id": "m6V-3jTjhZjvHFkKd",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
 					"notes": "Can only glide at best when overburdened",
-					"cost": -10
+					"cost": -10,
+					"disabled": true
 				},
 				{
-					"id": "mLakKDecSQOMT_lSw",
+					"id": "mSKYa86uOI3TFPo6t",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
 					"notes": "Can only glide at best when overburdened",
 					"cost": -5,
 					"disabled": true
+				},
+				{
+					"id": "mg0ekjV4Z4uAm8gKS",
+					"name": "Up to Light encumbrance",
+					"reference": "FFWF12",
+					"reference_highlight": "Encumbrance-Limited",
+					"cost": -10
 				}
 			],
 			"base_points": 40,

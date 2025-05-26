@@ -85,13 +85,6 @@
 				"cost_per_point": 15
 			},
 			{
-				"id": "keum",
-				"type": "integer",
-				"name": "Keumic Inertia",
-				"attribute_base": "10",
-				"cost_per_point": 10
-			},
-			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
@@ -104,13 +97,6 @@
 				"name": "Composure",
 				"attribute_base": "$will",
 				"cost_per_point": 2
-			},
-			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 5
 			},
 			{
 				"id": "basic_speed",
@@ -126,6 +112,20 @@
 				"placement": "hidden",
 				"name": "Dodge",
 				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+			},
+			{
+				"id": "keum",
+				"type": "integer_ref",
+				"name": "Keum",
+				"attribute_base": "($iq+$will)/4",
+				"cost_per_point": 10
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
 			},
 			{
 				"id": "senses",
@@ -258,6 +258,10 @@
 					{
 						"state": "Collapse",
 						"expression": "-$will"
+					},
+					{
+						"state": "Distressed",
+						"expression": "-ceil($will/2)"
 					},
 					{
 						"state": "Stressed",
@@ -478,14 +482,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
@@ -502,14 +498,6 @@
 			}
 		},
 		{
-			"attr_id": "basic_move",
-			"adj": 1,
-			"calc": {
-				"value": 7,
-				"points": 5
-			}
-		},
-		{
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
@@ -523,6 +511,22 @@
 			"calc": {
 				"value": 10,
 				"points": 0
+			}
+		},
+		{
+			"attr_id": "keum",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 1,
+			"calc": {
+				"value": 7,
+				"points": 5
 			}
 		},
 		{
@@ -3330,7 +3334,7 @@
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-05-21T22:41:11+02:00",
+	"modified_date": "2025-05-26T20:32:51+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

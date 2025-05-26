@@ -35,13 +35,6 @@
 			"cost_per_point": 15
 		},
 		{
-			"id": "keum",
-			"type": "integer",
-			"name": "Keumic Inertia",
-			"attribute_base": "10",
-			"cost_per_point": 10
-		},
-		{
 			"id": "will",
 			"type": "integer",
 			"name": "Will",
@@ -54,13 +47,6 @@
 			"name": "Composure",
 			"attribute_base": "$will",
 			"cost_per_point": 2
-		},
-		{
-			"id": "basic_move",
-			"type": "integer",
-			"name": "Basic Move",
-			"attribute_base": "($dx+$ht)/4",
-			"cost_per_point": 5
 		},
 		{
 			"id": "basic_speed",
@@ -76,6 +62,20 @@
 			"placement": "hidden",
 			"name": "Dodge",
 			"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+		},
+		{
+			"id": "keum",
+			"type": "integer_ref",
+			"name": "Keum",
+			"attribute_base": "($iq+$will)/4",
+			"cost_per_point": 10
+		},
+		{
+			"id": "basic_move",
+			"type": "integer",
+			"name": "Basic Move",
+			"attribute_base": "($dx+$ht)/4",
+			"cost_per_point": 5
 		},
 		{
 			"id": "senses",
@@ -208,6 +208,10 @@
 				{
 					"state": "Collapse",
 					"expression": "-$will"
+				},
+				{
+					"state": "Distressed",
+					"expression": "-ceil($will/2)"
 				},
 				{
 					"state": "Stressed",

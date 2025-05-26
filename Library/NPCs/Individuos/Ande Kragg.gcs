@@ -74,7 +74,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 10
+				"cost_per_point": 15
 			},
 			{
 				"id": "will",
@@ -84,20 +84,40 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "ke",
+				"id": "fright_check",
 				"type": "integer",
-				"name": "KE",
-				"full_name": "Keum",
-				"attribute_base": "10",
+				"name": "Composure",
+				"attribute_base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Init",
+				"full_name": "Initiative",
+				"attribute_base": "($will+$per)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"placement": "hidden",
+				"name": "Dodge",
+				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+			},
+			{
+				"id": "keum",
+				"type": "integer_ref",
+				"name": "Keum",
+				"attribute_base": "($iq+$will)/4",
 				"cost_per_point": 10
 			},
 			{
-				"id": "fright_check",
+				"id": "basic_move",
 				"type": "integer",
-				"placement": "hidden",
-				"name": "Fright Check",
-				"attribute_base": "$will",
-				"cost_per_point": 2
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
 			},
 			{
 				"id": "senses",
@@ -109,7 +129,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"attribute_base": "$ht",
 				"cost_per_point": 5
 			},
 			{
@@ -139,79 +159,6 @@
 				"name": "Touch",
 				"attribute_base": "$per",
 				"cost_per_point": 2
-			},
-			{
-				"id": "movement",
-				"type": "secondary_separator",
-				"name": "Movement"
-			},
-			{
-				"id": "basic_speed",
-				"type": "decimal",
-				"name": "Basic Speed",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 20
-			},
-			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "floor($basic_speed)",
-				"cost_per_point": 5
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"full_name": "Dodge",
-				"attribute_base": "2*$basic_speed"
-			},
-			{
-				"id": "fp",
-				"type": "pool",
-				"name": "FP",
-				"full_name": "Fatigue Points",
-				"attribute_base": "$ht",
-				"cost_per_point": 3,
-				"thresholds": [
-					{
-						"state": "Unconscious",
-						"expression": "-$fp",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Collapse",
-						"expression": "0",
-						"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Tired",
-						"expression": "ceil($fp/3)-1",
-						"explanation": "Move, Dodge and ST are halved (B426)",
-						"ops": [
-							"halve_move",
-							"halve_dodge",
-							"halve_st"
-						]
-					},
-					{
-						"state": "Tiring",
-						"expression": "$fp-1"
-					},
-					{
-						"state": "Rested",
-						"expression": "$fp"
-					}
-				]
 			},
 			{
 				"id": "hp",
@@ -295,30 +242,26 @@
 				]
 			},
 			{
-				"id": "kp",
-				"type": "pool",
-				"name": "KP",
-				"full_name": "Keum Points",
-				"attribute_base": "$ke",
-				"cost_per_point": 3,
+				"id": "stress",
+				"type": "pool_ref",
+				"name": "Stress",
+				"attribute_base": "0",
 				"thresholds": [
 					{
-						"state": "Divergent",
-						"expression": "-$kp"
+						"state": "Collapse",
+						"expression": "-$will"
 					},
 					{
-						"state": "Disjointed",
+						"state": "Distressed",
+						"expression": "-ceil($will/2)"
+					},
+					{
+						"state": "Stressed",
+						"expression": "-1"
+					},
+					{
+						"state": "Calm",
 						"expression": "0"
-					},
-					{
-						"state": "Dissonant",
-						"expression": "ceil($kp/3)-1",
-						"explanation": "Halve KE"
-					},
-					{
-						"state": "Harmonical",
-						"expression": "$kp",
-						"explanation": "Halve KE"
 					}
 				]
 			}
@@ -538,14 +481,6 @@
 			}
 		},
 		{
-			"attr_id": "ke",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
@@ -554,59 +489,27 @@
 			}
 		},
 		{
-			"attr_id": "senses",
-			"adj": 0
-		},
-		{
-			"attr_id": "per",
-			"adj": 0,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "vision",
-			"adj": 0,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "hearing",
-			"adj": 0,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "taste_smell",
-			"adj": 0,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "touch",
-			"adj": 0,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "movement",
-			"adj": 0
-		},
-		{
 			"attr_id": "basic_speed",
 			"adj": 0.25,
 			"calc": {
-				"value": 5.5,
+				"value": 6.25,
 				"points": 5
+			}
+		},
+		{
+			"attr_id": "dodge",
+			"adj": 0,
+			"calc": {
+				"value": 6,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "keum",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
 			}
 		},
 		{
@@ -618,19 +521,46 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
+			"attr_id": "senses",
+			"adj": 0
+		},
+		{
+			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "fp",
+			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 11,
-				"current": 11,
+				"value": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -644,11 +574,11 @@
 			}
 		},
 		{
-			"attr_id": "kp",
+			"attr_id": "stress",
 			"adj": 0,
 			"calc": {
-				"value": 10,
-				"current": 10,
+				"value": 0,
+				"current": 0,
 				"points": 0
 			}
 		}
@@ -1364,7 +1294,7 @@
 		}
 	],
 	"created_date": "2025-05-09T04:31:15+02:00",
-	"modified_date": "2025-05-12T16:29:58+02:00",
+	"modified_date": "2025-05-26T20:36:25+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
@@ -1377,11 +1307,11 @@
 			1
 		],
 		"dodge": [
-			11,
-			10,
-			9,
-			8,
-			7
+			6,
+			5,
+			4,
+			3,
+			2
 		]
 	}
 }

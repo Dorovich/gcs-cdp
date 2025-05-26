@@ -7461,35 +7461,6 @@
 			"points": 1
 		},
 		{
-			"id": "sHHeH5ZEtJmbgpeHw",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "suh8p7dvxGAH0tzsX"
-			},
-			"name": "Herb Lore",
-			"reference": "B199",
-			"tags": [
-				"Plant"
-			],
-			"difficulty": "iq/vh",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "contains",
-							"qualifier": "naturalist"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
 			"id": "SQGR8yUsA3QLB1Ec-",
 			"name": "Hidden Lore",
 			"children": [
