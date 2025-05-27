@@ -19180,58 +19180,59 @@
 				"path": "CdP Rasgos (Especies).adq",
 				"id": "tPpFaRJ1HUGQR0azT"
 			},
-			"name": "Membranous Wings",
+			"name": "Flight - Membranous Wings",
 			"reference": "B56,P50,PSI14",
-			"notes": "[O'koptera] Flight. Air Move ||floor(($dx+$ht)/2)||",
+			"notes": "Air Move ||floor(($dx+$ht)/2)||",
 			"tags": [
 				"Advantage",
 				"Exotic",
 				"Physical"
 			],
+			"vtt_notes": "O'koptera Trait",
 			"modifiers": [
 				{
-					"id": "mq1UXVS764Ove3ite",
+					"id": "m0ZAW7jGrrx6i6v0a",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "m2kKzbXNH1t0xRkhy",
+					"id": "md0RIOJaEUCSt_BNP",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mP48M8w7qEXFFGQYr",
+					"id": "mxQHECkiTEIfL7maz",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15
 				},
 				{
-					"id": "mD0YnN3qUO1W0EQN0",
+					"id": "mOcW65N85eIh3V9fe",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mHl9RJ97RYWuSUJDm",
+					"id": "mfkodiDlXjZqnUmaY",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mr8xHozyvW4f49c5I",
+					"id": "mDh4XvraHyXvpJW9f",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mynfKfZ4XSeyKyBqr",
+					"id": "mMTsTMfw6AujY--Hr",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -19239,7 +19240,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mhC_kkFpIGn-KmBvs",
+					"id": "mCPjJZzv_OpcCZEyD",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -19247,7 +19248,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mgmYsetPXwlj6Ag5v",
+					"id": "mnST7AQ-eC_FX5Msy",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -19255,41 +19256,41 @@
 					"disabled": true
 				},
 				{
-					"id": "mPZx3p28X6rFEuf1L",
+					"id": "mjXV_edf1xJRuh7i6",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mRAuvQ-8vRHbJhADJ",
+					"id": "m4Xjzxubc2JiA29nu",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "m5sTXBKUoA8k1gHt3",
+					"id": "mFh0fV-uHfBG0WwOs",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25
 				},
 				{
-					"id": "m416y7m_pWtQU7n_L",
+					"id": "mR7JpRX4JA2mMpYeP",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "mcC4pr_F6R4cDbMIM",
+					"id": "mP4QujCftPop5ca1e",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "mnHC-ItrfqJxkRNI1",
+					"id": "mIoCdKtseom04NH-D",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -19297,14 +19298,14 @@
 					"disabled": true
 				},
 				{
-					"id": "mqcPwaLTXkJGJEPZq",
+					"id": "mC3jFUQql8KXq7pYL",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mhjz2uoSxl8b4rXQ1",
+					"id": "mY0IoX28HT6QbdRBz",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -19313,7 +19314,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m6V-3jTjhZjvHFkKd",
+					"id": "m9EAEVFKFnjjHL3Rj",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -19322,7 +19323,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mSKYa86uOI3TFPo6t",
+					"id": "mA09iH1J5RhFhsgQm",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -19331,7 +19332,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mg0ekjV4Z4uAm8gKS",
+					"id": "mP57fPLVFQpq-z5GY",
 					"name": "Up to Light encumbrance",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",

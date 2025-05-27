@@ -453,6 +453,34 @@
 					}
 				},
 				{
+					"id": "tj4VRi4JrcmuvhEHy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "tyk4elDSJmb7D6itb"
+					},
+					"name": "No Ribcage DR",
+					"reference": "TT2:29",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -2,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				},
+				{
 					"id": "tSiU6PzDUdfeGwxWS",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -683,7 +711,7 @@
 				}
 			],
 			"calc": {
-				"points": 40
+				"points": 38
 			}
 		}
 	]

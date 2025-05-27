@@ -67,6 +67,27 @@
 			}
 		},
 		{
+			"id": "enhaQf1_CvqJvZC1v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1oy_sNR1BiZ8wO1l"
+			},
+			"description": "Karat Coin",
+			"reference": "B264",
+			"tech_level": "1",
+			"tags": [
+				"Money: GURPS Standard Medieval Coins"
+			],
+			"value": 10,
+			"weight": "0.004 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.004 lb"
+			}
+		},
+		{
 			"id": "e82BydoOcowSB8k5a",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -142,9 +163,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+4 cut",
-						"parry": "10U"
+						"damage": "sw+2 cut"
 					}
 				},
 				{
@@ -185,9 +204,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+2 imp",
-						"parry": "10"
+						"damage": "thr+3 imp"
 					}
 				},
 				{
@@ -222,9 +239,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+4 cr",
-						"parry": "10U"
+						"damage": "sw+2 cr"
 					}
 				},
 				{
@@ -259,9 +274,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+1 cr",
-						"parry": "10"
+						"damage": "thr+2 cr"
 					}
 				},
 				{
@@ -305,9 +318,7 @@
 						}
 					],
 					"calc": {
-						"level": 5,
-						"damage": "1d+5 cut",
-						"parry": "6U"
+						"damage": "sw+3 cut"
 					}
 				},
 				{
@@ -351,9 +362,7 @@
 						}
 					],
 					"calc": {
-						"level": 5,
-						"damage": "1d+2 imp",
-						"parry": "6"
+						"damage": "thr+3 imp"
 					}
 				}
 			],
@@ -418,9 +427,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+4 cut",
-						"parry": "10U"
+						"damage": "sw+2 cut"
 					}
 				},
 				{
@@ -461,9 +468,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+2 imp",
-						"parry": "10"
+						"damage": "thr+3 imp"
 					}
 				},
 				{
@@ -498,9 +503,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+4 cr",
-						"parry": "10U"
+						"damage": "sw+2 cr"
 					}
 				},
 				{
@@ -535,9 +538,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d+1 cr",
-						"parry": "10"
+						"damage": "thr+2 cr"
 					}
 				}
 			],
