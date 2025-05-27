@@ -335,14 +335,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "m0RTCsAGOnQkwUMC0",
+							"id": "mWtOOwDZ0j_oWKuau",
 							"name": "Extra-Flexible",
 							"reference": "B53",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mWAPocWDMsJp8ZFow",
+							"id": "m1_J6VARzgrvKuFt8",
 							"name": "Long",
 							"reference": "B53",
 							"cost": 100,
@@ -350,28 +350,28 @@
 							"disabled": true
 						},
 						{
-							"id": "malzhatUBGQ7snjjc",
+							"id": "mtTr_4DETj3OjdniC",
 							"name": "Foot Manipulators",
 							"reference": "B53",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "mcAtKKytoBgcYm5sM",
+							"id": "m_mKOvdv762-tnKwo",
 							"name": "No Physical Attack",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mQTKYZ6ybjnKvo6LI",
+							"id": "mNsXlmnToLNGUtMPu",
 							"name": "Short",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mJnX6i8l-tymLtb8a",
+							"id": "m-fNR8HRtu6UxLWAy",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Half body ST",
@@ -379,7 +379,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mgoUw_T7MumXK69Qg",
+							"id": "mjb9bfmhhdj42ACQO",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Quarter body ST",
@@ -387,14 +387,14 @@
 							"disabled": true
 						},
 						{
-							"id": "maTHBbmfehJNpMYxK",
+							"id": "m8aqdb72t3_YBMIyv",
 							"name": "Weapon Mount",
 							"reference": "B53",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mdXCW0H24uoq-si5d",
+							"id": "mesmxPnpPplDJRlgd",
 							"name": "No Grasping Hand",
 							"reference": "MATG28",
 							"cost": -40,
@@ -453,7 +453,7 @@
 					}
 				},
 				{
-					"id": "tj4VRi4JrcmuvhEHy",
+					"id": "tjEirHBQFcjKp2kMZ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -466,18 +466,18 @@
 						"Exotic",
 						"Physical"
 					],
-					"base_points": -2,
+					"base_points": -1,
 					"features": [
 						{
 							"type": "dr_bonus",
 							"locations": [
 								"vitals"
 							],
-							"amount": -2
+							"amount": -1
 						}
 					],
 					"calc": {
-						"points": -2
+						"points": -1
 					}
 				},
 				{
@@ -711,7 +711,7 @@
 				}
 			],
 			"calc": {
-				"points": 38
+				"points": 39
 			}
 		}
 	]
