@@ -32,7 +32,7 @@
 			"name": "HT",
 			"full_name": "Health",
 			"attribute_base": "10",
-			"cost_per_point": 15
+			"cost_per_point": 10
 		},
 		{
 			"id": "will",
@@ -42,39 +42,20 @@
 			"cost_per_point": 5
 		},
 		{
-			"id": "fright_check",
+			"id": "ke",
 			"type": "integer",
-			"name": "Composure",
-			"attribute_base": "$will",
-			"cost_per_point": 2
-		},
-		{
-			"id": "basic_speed",
-			"type": "decimal",
-			"name": "Init",
-			"full_name": "Initiative",
-			"attribute_base": "($dx+$per)/4",
-			"cost_per_point": 20
-		},
-		{
-			"id": "basic_move",
-			"type": "integer",
-			"name": "Basic Move",
-			"attribute_base": "($dx+$ht)/4",
-			"cost_per_point": 5
-		},
-		{
-			"id": "keum",
-			"type": "integer_ref",
-			"name": "Keum",
-			"attribute_base": "($iq+$will)/4",
+			"name": "KE",
+			"full_name": "Keum",
+			"attribute_base": "10",
 			"cost_per_point": 10
 		},
 		{
-			"id": "dodge",
-			"type": "integer_ref",
-			"name": "Dodge",
-			"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
+			"id": "fright_check",
+			"type": "integer",
+			"placement": "hidden",
+			"name": "Fright Check",
+			"attribute_base": "$will",
+			"cost_per_point": 2
 		},
 		{
 			"id": "senses",
@@ -86,7 +67,7 @@
 			"type": "integer",
 			"name": "Per",
 			"full_name": "Perception",
-			"attribute_base": "$ht",
+			"attribute_base": "$iq",
 			"cost_per_point": 5
 		},
 		{
@@ -116,6 +97,79 @@
 			"name": "Touch",
 			"attribute_base": "$per",
 			"cost_per_point": 2
+		},
+		{
+			"id": "movement",
+			"type": "secondary_separator",
+			"name": "Movement"
+		},
+		{
+			"id": "basic_speed",
+			"type": "decimal",
+			"name": "Basic Speed",
+			"attribute_base": "($dx+$ht)/4",
+			"cost_per_point": 20
+		},
+		{
+			"id": "basic_move",
+			"type": "integer",
+			"name": "Basic Move",
+			"attribute_base": "floor($basic_speed)",
+			"cost_per_point": 5
+		},
+		{
+			"id": "dodge",
+			"type": "integer_ref",
+			"name": "Dodge",
+			"full_name": "Dodge",
+			"attribute_base": "2*$basic_speed"
+		},
+		{
+			"id": "fp",
+			"type": "pool",
+			"name": "FP",
+			"full_name": "Fatigue Points",
+			"attribute_base": "$ht",
+			"cost_per_point": 3,
+			"thresholds": [
+				{
+					"state": "Unconscious",
+					"expression": "-$fp",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Collapse",
+					"expression": "0",
+					"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Tired",
+					"expression": "ceil($fp/3)-1",
+					"explanation": "Move, Dodge and ST are halved (B426)",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "Tiring",
+					"expression": "$fp-1"
+				},
+				{
+					"state": "Rested",
+					"expression": "$fp"
+				}
+			]
 		},
 		{
 			"id": "hp",
@@ -199,27 +253,30 @@
 			]
 		},
 		{
-			"id": "stress",
+			"id": "kp",
 			"type": "pool",
-			"name": "Stress",
-			"attribute_base": "0",
+			"name": "KP",
+			"full_name": "Keum Points",
+			"attribute_base": "$ke",
 			"cost_per_point": 3,
 			"thresholds": [
 				{
-					"state": "Collapse",
-					"expression": "-$will"
+					"state": "Divergent",
+					"expression": "-$kp"
 				},
 				{
-					"state": "Distressed",
-					"expression": "-ceil($will/2)"
-				},
-				{
-					"state": "Stressed",
-					"expression": "-1"
-				},
-				{
-					"state": "Calm",
+					"state": "Disjointed",
 					"expression": "0"
+				},
+				{
+					"state": "Dissonant",
+					"expression": "ceil($kp/3)-1",
+					"explanation": "Halve KE"
+				},
+				{
+					"state": "Harmonical",
+					"expression": "$kp",
+					"explanation": "Halve KE"
 				}
 			]
 		}

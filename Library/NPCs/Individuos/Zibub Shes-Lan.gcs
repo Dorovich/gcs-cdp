@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AXFPrlTKK7jWr_Sk8",
-	"total_points": 129,
+	"total_points": 134,
 	"points_record": [
 		{
 			"when": "2025-05-27T00:09:41+02:00",
-			"points": 129,
+			"points": 134,
 			"reason": "Initial points"
 		}
 	],
@@ -99,15 +99,15 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($will+$per)/4",
+				"attribute_base": "($dx+$per)/4",
 				"cost_per_point": 20
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"placement": "hidden",
-				"name": "Dodge",
-				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
 			},
 			{
 				"id": "keum",
@@ -117,11 +117,10 @@
 				"cost_per_point": 10
 			},
 			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 5
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
 			},
 			{
 				"id": "senses",
@@ -247,9 +246,10 @@
 			},
 			{
 				"id": "stress",
-				"type": "pool_ref",
+				"type": "pool",
 				"name": "Stress",
 				"attribute_base": "0",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "Collapse",
@@ -490,15 +490,15 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 5.5,
+				"value": 5.75,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "dodge",
+			"attr_id": "basic_move",
 			"adj": 0,
 			"calc": {
-				"value": 8,
+				"value": 5,
 				"points": 0
 			}
 		},
@@ -511,10 +511,10 @@
 			}
 		},
 		{
-			"attr_id": "basic_move",
+			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
-				"value": 5,
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -1069,7 +1069,7 @@
 			},
 			"modifiers": [
 				{
-					"id": "mf3t-BoMVNU0V4YaH",
+					"id": "m0Y14UnmwMmuKzH6o",
 					"name": "Native",
 					"reference": "B23",
 					"cost": -6,
@@ -1077,7 +1077,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mgcifOJ8CiUw7moiB",
+					"id": "mGFwWfHmh617ObI4y",
 					"name": "Spoken",
 					"reference": "B24",
 					"notes": "None",
@@ -1085,7 +1085,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m-I_hlVa4wKKeOt9d",
+					"id": "mNl7xNXCu0Ypb_ErG",
 					"name": "Spoken",
 					"reference": "B24",
 					"notes": "Broken",
@@ -1094,24 +1094,24 @@
 					"disabled": true
 				},
 				{
-					"id": "mCBSBdE4nBFbNxLWJ",
+					"id": "mcPEtmm09fnkwj-nr",
 					"name": "Spoken",
 					"reference": "B24",
 					"notes": "Accented",
 					"cost": 2,
-					"cost_type": "points"
+					"cost_type": "points",
+					"disabled": true
 				},
 				{
-					"id": "mFOhbpjfmUHzz-wUy",
+					"id": "mH7iJtZhW99IJdfao",
 					"name": "Spoken",
 					"reference": "B24",
 					"notes": "Native",
 					"cost": 3,
-					"cost_type": "points",
-					"disabled": true
+					"cost_type": "points"
 				},
 				{
-					"id": "miW7wW175npC5Iy6s",
+					"id": "mdurUKXKgbrTgqXVB",
 					"name": "Written",
 					"reference": "B24",
 					"notes": "None",
@@ -1119,7 +1119,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m6qkVwQ3g7eqKH11y",
+					"id": "m4q_beENKk0cvXbJp",
 					"name": "Written",
 					"reference": "B24",
 					"notes": "Broken",
@@ -1128,7 +1128,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mqO1hp0dNQYLryEoz",
+					"id": "mAN9zvENByOo_tYim",
 					"name": "Written",
 					"reference": "B24",
 					"notes": "Accented",
@@ -1137,7 +1137,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m0HJI7Jl7-X6bk1fl",
+					"id": "mqLMVnTBjgT5_XiWa",
 					"name": "Written",
 					"reference": "B24",
 					"notes": "Native",
@@ -1146,7 +1146,123 @@
 				}
 			],
 			"calc": {
-				"points": 5
+				"points": 6
+			}
+		},
+		{
+			"id": "t02lyEvyGZQ6Qf8RD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tw1Ad0oSMw2ATM4X1"
+			},
+			"name": "Language: Amate'karn",
+			"reference": "B24",
+			"tags": [
+				"Advantage",
+				"Language",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Language Talent"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"replacements": {
+				"Language": "Ama'kon"
+			},
+			"modifiers": [
+				{
+					"id": "mmkXrZpe6A3KmZOwC",
+					"name": "Native",
+					"reference": "B23",
+					"cost": -6,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mR5K2Y0A5uk0Bu-UQ",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mrBms7FMejcrW97DI",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mFxaYINdIr4OGvQj_",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points"
+				},
+				{
+					"id": "mILyzcGhgIaHMdyC2",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m8AKSyeEPRi3-d6t4",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mQSDa29EcStLtrDgB",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m1F1ogthQhT8tdRp7",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points"
+				},
+				{
+					"id": "mflzK9DX0a946qhpY",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 4
 			}
 		},
 		{
@@ -3360,7 +3476,7 @@
 		}
 	],
 	"created_date": "2025-05-27T00:09:41+02:00",
-	"modified_date": "2025-05-27T11:53:20+02:00",
+	"modified_date": "2025-05-30T17:31:47+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

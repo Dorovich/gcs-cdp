@@ -91,15 +91,15 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($will+$per)/4",
+				"attribute_base": "($dx+$per)/4",
 				"cost_per_point": 20
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"placement": "hidden",
-				"name": "Dodge",
-				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 5
 			},
 			{
 				"id": "keum",
@@ -109,11 +109,10 @@
 				"cost_per_point": 10
 			},
 			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 5
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
 			},
 			{
 				"id": "senses",
@@ -239,9 +238,10 @@
 			},
 			{
 				"id": "stress",
-				"type": "pool_ref",
+				"type": "pool",
 				"name": "Stress",
 				"attribute_base": "0",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "Collapse",
@@ -509,16 +509,16 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 5,
+				"value": 5.75,
 				"points": 0
 			}
 		},
 		{
-			"attr_id": "dodge",
-			"adj": 0,
+			"attr_id": "basic_move",
+			"adj": 1,
 			"calc": {
-				"value": 5,
-				"points": 0
+				"value": 6,
+				"points": 5
 			}
 		},
 		{
@@ -530,11 +530,11 @@
 			}
 		},
 		{
-			"attr_id": "basic_move",
-			"adj": 1,
+			"attr_id": "dodge",
+			"adj": 0,
 			"calc": {
-				"value": 6,
-				"points": 5
+				"value": 8,
+				"points": 0
 			}
 		},
 		{
@@ -2221,7 +2221,7 @@
 		}
 	],
 	"created_date": "2024-07-01T19:06:49+02:00",
-	"modified_date": "2025-05-26T20:37:28+02:00",
+	"modified_date": "2025-05-30T17:32:07+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
@@ -2234,11 +2234,11 @@
 			1
 		],
 		"dodge": [
+			8,
+			7,
+			6,
 			5,
-			4,
-			3,
-			2,
-			1
+			4
 		]
 	}
 }
