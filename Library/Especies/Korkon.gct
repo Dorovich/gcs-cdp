@@ -19,14 +19,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mcVBxlYocbjZz41k7",
+							"id": "mJnwmYNl1w4osqBaU",
 							"name": "Cannot Parry",
 							"reference": "B88",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mhiSWJKvP3t0-V3j-",
+							"id": "m5XdcHoTvbty_wqDo",
 							"name": "Clumsy",
 							"reference": "B88",
 							"cost": -20,
@@ -45,13 +45,13 @@
 							"disabled": true
 						},
 						{
-							"id": "moArLVCZ_S35iAUpM",
+							"id": "mLjte_KC-PW77jiPH",
 							"name": "Limited Arc (Front)",
 							"reference": "B88",
 							"cost": -40
 						},
 						{
-							"id": "mWA-t0ERNHLuEE3dV",
+							"id": "meYh21Vm5n0Ry185a",
 							"name": "Weak",
 							"cost": -50,
 							"features": [
@@ -74,12 +74,13 @@
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "w7sndBL45pEI9zC9I",
+							"id": "wswgtQ6m0HBdWNlof",
 							"damage": {
 								"type": "cr",
 								"st": "thr",
 								"modifier_per_die": 1
 							},
+							"usage": "Headbutt",
 							"reach": "C",
 							"parry": "0",
 							"defaults": [

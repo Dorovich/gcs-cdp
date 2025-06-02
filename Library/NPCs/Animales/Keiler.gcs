@@ -103,13 +103,6 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
-			},
-			{
 				"id": "dodge",
 				"type": "integer_ref",
 				"name": "Dodge",
@@ -238,27 +231,39 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "sp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
-				"cost_per_point": 3,
+				"name": "SP",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "-$sp"
+					},
+					{
+						"state": "Panicking",
+						"expression": "0",
+						"explanation": "-6 to any rolls that make sense"
 					},
 					{
 						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"expression": "ceil($sp/3)-1",
+						"explanation": "-4 to any rolls that make sense"
 					},
 					{
 						"state": "Stressed",
-						"expression": "-1"
+						"expression": "round($sp/2)",
+						"explanation": "-2 to any rolls that make sense"
+					},
+					{
+						"state": "Stressed",
+						"expression": "$sp-1",
+						"explanation": "-1 to any rolls that make sense"
 					},
 					{
 						"state": "Calm",
-						"expression": "0"
+						"expression": "$sp"
 					}
 				]
 			}
@@ -523,14 +528,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 1,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
@@ -592,115 +589,16 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "sp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 3,
+				"current": 3,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
-		{
-			"id": "t_cYmY9PHW34RwBWa",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wQOxWsEVhpXE8Z_vd",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "2d-2 cr"
-					}
-				},
-				{
-					"id": "wJrIlUmDDhJZlv2ur",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "2d-2 cr",
-						"parry": "9"
-					}
-				},
-				{
-					"id": "wEV3_FVxybhmewtlc",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "2d-1 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
 		{
 			"id": "tC8kEujQ3Ph-R8iYR",
 			"source": {
@@ -1084,6 +982,105 @@
 			"calc": {
 				"points": 3
 			}
+		},
+		{
+			"id": "t_cYmY9PHW34RwBWa",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wQOxWsEVhpXE8Z_vd",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "2d-2 cr"
+					}
+				},
+				{
+					"id": "wJrIlUmDDhJZlv2ur",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "2d-2 cr",
+						"parry": "9"
+					}
+				},
+				{
+					"id": "wEV3_FVxybhmewtlc",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "2d-1 cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
 		}
 	],
 	"skills": [
@@ -1125,7 +1122,7 @@
 		}
 	],
 	"created_date": "2024-09-22T19:37:48Z",
-	"modified_date": "2025-05-30T17:32:15+02:00",
+	"modified_date": "2025-06-01T23:20:54+02:00",
 	"calc": {
 		"swing": "3d+2",
 		"thrust": "2d-1",

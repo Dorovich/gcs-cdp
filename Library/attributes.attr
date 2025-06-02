@@ -44,7 +44,7 @@
 		{
 			"id": "fright_check",
 			"type": "integer",
-			"name": "Composure",
+			"name": "Fright Check",
 			"attribute_base": "$will",
 			"cost_per_point": 2
 		},
@@ -53,31 +53,18 @@
 			"type": "decimal",
 			"name": "Init",
 			"full_name": "Initiative",
-			"attribute_base": "($dx+$per)/4",
+			"attribute_base": "($dx+$ht)/4",
 			"cost_per_point": 20
 		},
 		{
 			"id": "basic_move",
 			"type": "integer",
 			"name": "Basic Move",
-			"attribute_base": "($dx+$ht)/4",
+			"attribute_base": "floor($basic_speed)",
 			"cost_per_point": 5
 		},
 		{
-			"id": "keum",
-			"type": "integer_ref",
-			"name": "Keum",
-			"attribute_base": "($iq+$will)/4",
-			"cost_per_point": 10
-		},
-		{
-			"id": "dodge",
-			"type": "integer_ref",
-			"name": "Dodge",
-			"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-		},
-		{
-			"id": "senses",
+			"id": "senses_sep",
 			"type": "secondary_separator",
 			"name": "Senses"
 		},
@@ -137,7 +124,7 @@
 				{
 					"state": "Dying #4",
 					"expression": "round(-$hp*4)",
-					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+					"explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-4</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
 					"ops": [
 						"halve_move",
 						"halve_dodge"
@@ -146,7 +133,7 @@
 				{
 					"state": "Dying #3",
 					"expression": "round(-$hp*3)",
-					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+					"explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-3</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
 					"ops": [
 						"halve_move",
 						"halve_dodge"
@@ -155,7 +142,7 @@
 				{
 					"state": "Dying #2",
 					"expression": "round(-$hp*2)",
-					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+					"explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-2</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
 					"ops": [
 						"halve_move",
 						"halve_dodge"
@@ -164,7 +151,7 @@
 				{
 					"state": "Dying #1",
 					"expression": "-$hp",
-					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+					"explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-1</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
 					"ops": [
 						"halve_move",
 						"halve_dodge"
@@ -173,7 +160,7 @@
 				{
 					"state": "Collapse",
 					"expression": "0",
-					"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+					"explanation": "<html><body>\n<b>Roll vs. HT</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
 					"ops": [
 						"halve_move",
 						"halve_dodge"
@@ -199,27 +186,49 @@
 			]
 		},
 		{
-			"id": "stress",
+			"id": "fp",
 			"type": "pool",
-			"name": "Stress",
-			"attribute_base": "0",
+			"name": "FP",
+			"full_name": "Fatigue Points",
+			"attribute_base": "$ht",
 			"cost_per_point": 3,
 			"thresholds": [
 				{
+					"state": "Unconscious",
+					"expression": "-$fp",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
 					"state": "Collapse",
-					"expression": "-$will"
+					"expression": "0",
+					"explanation": "<html><body>\n<b>Roll vs. Will</b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n</body></html>",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
 				},
 				{
-					"state": "Distressed",
-					"expression": "-ceil($will/2)"
+					"state": "Tired",
+					"expression": "ceil($fp/3)-1",
+					"explanation": "Move, Dodge and ST are halved (B426)",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
 				},
 				{
-					"state": "Stressed",
-					"expression": "-1"
+					"state": "Tiring",
+					"expression": "$fp-1"
 				},
 				{
-					"state": "Calm",
-					"expression": "0"
+					"state": "Rested",
+					"expression": "$fp"
 				}
 			]
 		}

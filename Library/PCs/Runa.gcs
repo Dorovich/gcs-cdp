@@ -94,7 +94,7 @@
 			{
 				"id": "fright_check",
 				"type": "integer",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -103,31 +103,18 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -187,7 +174,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -196,7 +183,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -205,7 +192,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -214,7 +201,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -223,7 +210,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -249,27 +236,49 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "fp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
 				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Stressed",
-						"expression": "-1"
+						"state": "Tiring",
+						"expression": "$fp-1"
 					},
 					{
-						"state": "Calm",
-						"expression": "0"
+						"state": "Rested",
+						"expression": "$fp"
 					}
 				]
 			}
@@ -373,7 +382,7 @@
 					"calc": {
 						"roll_range": "7-9",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -386,7 +395,7 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 1
+							"all": 3
 						}
 					}
 				},
@@ -398,7 +407,7 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 2
 						}
 					}
 				},
@@ -507,23 +516,7 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 9,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
@@ -576,11 +569,11 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 11,
+				"current": 11,
 				"points": 0
 			}
 		}
@@ -1312,6 +1305,55 @@
 			}
 		},
 		{
+			"id": "tqLm3l8lfQHBjzPrs",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
+			},
+			"name": "CdP Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "w-t7WJquZgohzmvxr",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Unarmed",
+					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-2 cr",
+						"parry": "9"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "TnRnTFAVwD5N3UaF7",
 			"name": "Disadvantages \u0026 Quirks",
 			"children": [
@@ -1446,13 +1488,13 @@
 			}
 		},
 		{
-			"id": "TZmyvqn2XVgtYuQSd",
+			"id": "TFlaqL26tfm6CtxB2",
 			"name": "Korkon",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tN9dCw1_PtjERjC64",
+					"id": "tUcjviA6N_ns65dfh",
 					"name": "Crushing Striker (Horns)",
 					"reference": "B88,MA47",
 					"tags": [
@@ -1462,14 +1504,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mpsTL-GkkAuFGnlSv",
+							"id": "mWtwtKYWldI6nnnLj",
 							"name": "Cannot Parry",
 							"reference": "B88",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "meILvkL8rSPfH7QAR",
+							"id": "mM6N5Olk46rmy5pUp",
 							"name": "Clumsy",
 							"reference": "B88",
 							"cost": -20,
@@ -1488,13 +1530,13 @@
 							"disabled": true
 						},
 						{
-							"id": "mX1XLKgPHPQPZxWBD",
+							"id": "mZWjRE890J0c1w-Zi",
 							"name": "Limited Arc (Front)",
 							"reference": "B88",
 							"cost": -40
 						},
 						{
-							"id": "mEw7pat8H3jFQOqCE",
+							"id": "mrT0r5qUOQ12LqP0I",
 							"name": "Weak",
 							"cost": -50,
 							"features": [
@@ -1517,12 +1559,13 @@
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "waeIzRelOiUEq-Y6_",
+							"id": "wf99Hg8uxlRbe1aHf",
 							"damage": {
 								"type": "cr",
 								"st": "thr",
 								"modifier_per_die": 1
 							},
+							"usage": "Headbutt",
 							"reach": "C",
 							"parry": "0",
 							"defaults": [
@@ -1546,7 +1589,7 @@
 					}
 				},
 				{
-					"id": "t2kb-0504ydho3j1_",
+					"id": "tjRkA2km5oEkqbWG7",
 					"name": "Damage Resistance",
 					"reference": "B47,P45,MA43,PSI14",
 					"tags": [
@@ -1556,14 +1599,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "m0cXFYY7SzgY6-a8n",
+							"id": "mjXDw6ruPRCIX6dvU",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "m-Z_B7OaaVeaka5mR",
+							"id": "mke2GpXJ51NSxrDEY",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -1571,7 +1614,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mqa-th3jlIHXPhekU",
+							"id": "mSrPimrrlg9h1Gere",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances @Trait@",
@@ -1579,7 +1622,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mGoAfJ1iFbpzRwXJQ",
+							"id": "mFQqPGnrwtqYNILZY",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Healing only",
@@ -1587,7 +1630,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m-LYHwdAooVIvhMXh",
+							"id": "mBuvNH9SZfkC10rRg",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances any trait",
@@ -1595,14 +1638,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mGx38OmcU4VX4GAE7",
+							"id": "mnxHdakPIt1M9Od24",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mzFl61oVlheT7qy5u",
+							"id": "mgnEXoBHcfT00RfnW",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Rare@",
@@ -1611,7 +1654,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m6u1-cUgI56nY79zc",
+							"id": "mLmKcF2A-M-juewgl",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Occasional@",
@@ -1619,7 +1662,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mFEuFfnSFYVKcHzUI",
+							"id": "m83BY0-mTuQluO3SU",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Common@",
@@ -1627,7 +1670,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mfyL4cgHsdyu5yjY3",
+							"id": "mvf0a7e24JW8Z-GVC",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Very Common@",
@@ -1635,7 +1678,7 @@
 							"disabled": true
 						},
 						{
-							"id": "muSsI1mk_WMtVhyA0",
+							"id": "mk-i1PEMNwxeBWsRB",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "Front",
@@ -1643,14 +1686,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mrpjFzu5u_In4IReX",
+							"id": "mO0FioUvvqK3asDLc",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mjFO2LfjGjUN_caHd",
+							"id": "mkm8v2LvYapAKndRO",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Very Common Attack Form@",
@@ -1658,21 +1701,21 @@
 							"disabled": true
 						},
 						{
-							"id": "m6gqF3Zw1yu0krqHf",
+							"id": "m_IVLzGABbBqeE9tG",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mvFP64DP_mlAyvX4F",
+							"id": "mtCwB5ip21YENk6j9",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "maLYuqWYSO_4ilt9D",
+							"id": "mjJy_8FhNwpiw4coB",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -1680,7 +1723,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mkkMsdynzt1-fNHr6",
+							"id": "mrL_CwfgdFASH78qI",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Common Attack Form@",
@@ -1688,13 +1731,13 @@
 							"disabled": true
 						},
 						{
-							"id": "mcrkeAd0vhgW6KCVy",
+							"id": "mPhCwRvvE018wco7z",
 							"name": "Tough Skin",
 							"notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40
 						},
 						{
-							"id": "mhYgn-XNpOXOkHI2S",
+							"id": "mkidgS47jPRNYjnqS",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Occasional Attack Form@",
@@ -1702,14 +1745,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mTONSRty3mvaweAFG",
+							"id": "mTfGI27U7d1kneyH_",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mLSobOKQ-3WIc9LX1",
+							"id": "m_HtwRPo_owW7PWNr",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Rare Attack Form@",
@@ -1717,27 +1760,27 @@
 							"disabled": true
 						},
 						{
-							"id": "mW4yhtk-mUaiDJVyZ",
+							"id": "m2aFDuVh5sUAzYMzE",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mhMn4vPhprqrcYWhk",
+							"id": "mYFbDFQRi-zi11gNP",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mnxnzYYJiYXbbnwuW",
+							"id": "mJSqHMHLLKQdJqR22",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "m3OPloKITqSJjF8ix",
+							"id": "mfNEfOH45DXHO1geY",
 							"name": "Partial (Skull only)",
 							"reference": "B47",
 							"cost": -70
@@ -1769,7 +1812,7 @@
 					}
 				},
 				{
-					"id": "tgld6aoTuH7CuTIGQ",
+					"id": "tOqEI1ddYyeluCXQ0",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1798,7 +1841,7 @@
 					}
 				},
 				{
-					"id": "t_1W1f5XXt_nEe2lS",
+					"id": "tFhlwjJ1PUginAQXg",
 					"name": "Fur",
 					"reference": "B101",
 					"tags": [
@@ -1812,7 +1855,7 @@
 					}
 				},
 				{
-					"id": "tSrOfK8T4c8WXPuom",
+					"id": "tRD8H1XR0WIRoCWJm",
 					"name": "Hooves",
 					"reference": "B42",
 					"tags": [
@@ -1822,7 +1865,7 @@
 					"base_points": 3,
 					"weapons": [
 						{
-							"id": "wOF4-cUSY2HO5C6tO",
+							"id": "wSIlGLyHmt8wFbeTx",
 							"damage": {
 								"type": "cr",
 								"st": "thr",
@@ -1867,7 +1910,7 @@
 					}
 				},
 				{
-					"id": "tuOeMhLswc_By8d8V",
+					"id": "t1pHNmFEY8VTJg-JC",
 					"name": "Increased Health",
 					"reference": "B14",
 					"tags": [
@@ -1891,7 +1934,7 @@
 					}
 				},
 				{
-					"id": "t3PVGc9bYo_HEQw6O",
+					"id": "tp_5155NuoZD4e5bK",
 					"name": "Increased Strength",
 					"reference": "B14",
 					"tags": [
@@ -1901,14 +1944,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "m7FnfNZ8ab3W8nK4L",
+							"id": "mvGFogZlY8GUOZrUY",
 							"name": "No Fine Manipulators",
 							"reference": "B15",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mSffaIQCVCwp9dw9Q",
+							"id": "mrMhY-D8hW-uZgYQj",
 							"name": "Size",
 							"reference": "B15",
 							"cost": -10,
@@ -1916,7 +1959,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m5caWYLVGuZi_lbNG",
+							"id": "mv47K00V6AQpKTgXG",
 							"name": "Super-Effort",
 							"reference": "SU24",
 							"cost": 300,
@@ -1939,7 +1982,7 @@
 					}
 				},
 				{
-					"id": "trJh-6x6SnltW78Tu",
+					"id": "tnXuARbMWJmITwXjF",
 					"name": "Increased Will",
 					"reference": "B16",
 					"tags": [
@@ -1963,7 +2006,7 @@
 					}
 				},
 				{
-					"id": "tJcPtdHD6pKQqGeoj",
+					"id": "t446kbrgKYZ5riGmB",
 					"name": "Stubbornness",
 					"reference": "B157",
 					"tags": [
@@ -1983,7 +2026,7 @@
 					}
 				},
 				{
-					"id": "t_jFpfvvC6Naa4oq0",
+					"id": "tZHJQe35-XEBAPdDp",
 					"name": "Temperature Tolerance",
 					"reference": "B93",
 					"tags": [
@@ -1998,7 +2041,7 @@
 					}
 				},
 				{
-					"id": "tO7x_u3gtxrjXg604",
+					"id": "tkxFFjO7m1JcYhYnP",
 					"name": "Universal Digestion",
 					"reference": "B95,P86",
 					"tags": [
@@ -2007,7 +2050,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mJB4qc9Fq_97JhHh8",
+							"id": "mbnPC54GeSCtQVtXA",
 							"name": "Matter Eater",
 							"reference": "P86",
 							"cost": 300,
@@ -2582,137 +2625,6 @@
 			],
 			"calc": {
 				"points": 11
-			}
-		},
-		{
-			"id": "tBsnkLf3tjYtHENLX",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "woWhl5ok-D9z0yatG",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr"
-					}
-				},
-				{
-					"id": "wVaqzLYckKLa27jLM",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr",
-						"parry": "9"
-					}
-				},
-				{
-					"id": "w7xsniOnyZPTVaYdO",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "High Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d-2 cr"
-					}
-				},
-				{
-					"id": "wEnlXvDNt4WcBZMEX",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Low Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
 			}
 		}
 	],
@@ -3737,7 +3649,7 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 9,
+				"level": 8,
 				"rsl": "DX-1"
 			}
 		},
@@ -3902,22 +3814,6 @@
 	],
 	"equipment": [
 		{
-			"id": "emukZuWxVPYZ4dTUP",
-			"description": "Parole Armband",
-			"notes": "Marks you as “criminal on parole”, probably.",
-			"legality_class": "4",
-			"value": 0.3,
-			"weight": "0.1 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 0.3,
-				"extended_weight": "0.1 lb"
-			}
-		}
-	],
-	"other_equipment": [
-		{
 			"id": "EpcQlLcmgdqiwkVnO",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3953,6 +3849,7 @@
 					"value": 25,
 					"weight": "0.5 lb",
 					"quantity": 1,
+					"equipped": true,
 					"calc": {
 						"extended_value": 25,
 						"extended_weight": "0.5 lb"
@@ -3975,6 +3872,7 @@
 					"value": 10,
 					"weight": "2 lb",
 					"quantity": 2,
+					"equipped": true,
 					"calc": {
 						"extended_value": 20,
 						"extended_weight": "4 lb"
@@ -4040,6 +3938,7 @@
 					],
 					"value": 5,
 					"quantity": 1,
+					"equipped": true,
 					"calc": {
 						"extended_value": 5,
 						"extended_weight": "0 lb"
@@ -4142,6 +4041,7 @@
 					"value": 2,
 					"weight": "0.5 lb",
 					"quantity": 5,
+					"equipped": true,
 					"calc": {
 						"extended_value": 10,
 						"extended_weight": "2.5 lb"
@@ -4152,6 +4052,53 @@
 				"extended_value": 237,
 				"extended_weight": "22.2 lb"
 			}
+		},
+		{
+			"id": "eUjBuqqcCs28XC3wj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eLUoq82xnnC1U0cXM"
+			},
+			"description": "Leather Armor",
+			"reference": "B283",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 100,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "emukZuWxVPYZ4dTUP",
+			"description": "Parole Armband",
+			"notes": "Marks you as “criminal on parole”, probably.",
+			"legality_class": "4",
+			"value": 0.3,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0.3,
+				"extended_weight": "0.1 lb"
+			}
 		}
 	],
 	"notes": [
@@ -4161,11 +4108,12 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-05-30T17:29:19+02:00",
+	"modified_date": "2025-06-02T17:42:46+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",
 		"basic_lift": "29 lb",
+		"dodge_bonus": 1,
 		"parry_bonus": 1,
 		"block_bonus": 1,
 		"move": [

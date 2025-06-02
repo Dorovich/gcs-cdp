@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AHvyRcnhVBJd7XDgc",
-	"total_points": 150,
+	"total_points": 10,
 	"points_record": [
 		{
 			"when": "2024-09-30T01:40:01+02:00",
-			"points": 150,
+			"points": 10,
 			"reason": "Initial points"
 		}
 	],
@@ -99,13 +99,6 @@
 				"name": "Basic Move",
 				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 5
-			},
-			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
 			},
 			{
 				"id": "dodge",
@@ -236,27 +229,39 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "sp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
-				"cost_per_point": 3,
+				"name": "SP",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "-$sp"
+					},
+					{
+						"state": "Panicking",
+						"expression": "0",
+						"explanation": "-6 to any rolls that make sense"
 					},
 					{
 						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"expression": "ceil($sp/3)-1",
+						"explanation": "-4 to any rolls that make sense"
 					},
 					{
 						"state": "Stressed",
-						"expression": "-1"
+						"expression": "round($sp/2)",
+						"explanation": "-2 to any rolls that make sense"
+					},
+					{
+						"state": "Stressed",
+						"expression": "$sp-1",
+						"explanation": "-1 to any rolls that make sense"
 					},
 					{
 						"state": "Calm",
-						"expression": "0"
+						"expression": "$sp"
 					}
 				]
 			}
@@ -522,14 +527,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 3,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
@@ -591,11 +588,11 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "sp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 8,
+				"current": 8,
 				"points": 0
 			}
 		}
@@ -1205,7 +1202,7 @@
 		}
 	],
 	"created_date": "2024-09-30T01:40:01+02:00",
-	"modified_date": "2025-05-30T17:32:27+02:00",
+	"modified_date": "2025-06-01T23:21:13+02:00",
 	"calc": {
 		"swing": "1d-3",
 		"thrust": "1d-4",

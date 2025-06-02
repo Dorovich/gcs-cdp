@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AwzuXLzd0t1QYPZTN",
-	"total_points": 150,
+	"total_points": 50,
 	"points_record": [
 		{
 			"when": "2024-07-01T19:06:49+02:00",
-			"points": 150,
+			"points": 50,
 			"reason": "Initial points"
 		}
 	],
@@ -100,13 +100,6 @@
 				"name": "Basic Move",
 				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 5
-			},
-			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
 			},
 			{
 				"id": "dodge",
@@ -237,27 +230,39 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "sp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
-				"cost_per_point": 3,
+				"name": "SP",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "-$sp"
+					},
+					{
+						"state": "Panicking",
+						"expression": "0",
+						"explanation": "-6 to any rolls that make sense"
 					},
 					{
 						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"expression": "ceil($sp/3)-1",
+						"explanation": "-4 to any rolls that make sense"
 					},
 					{
 						"state": "Stressed",
-						"expression": "-1"
+						"expression": "round($sp/2)",
+						"explanation": "-2 to any rolls that make sense"
+					},
+					{
+						"state": "Stressed",
+						"expression": "$sp-1",
+						"explanation": "-1 to any rolls that make sense"
 					},
 					{
 						"state": "Calm",
-						"expression": "0"
+						"expression": "$sp"
 					}
 				]
 			}
@@ -522,14 +527,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 3,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
@@ -591,250 +588,16 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "sp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 8,
+				"current": 8,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
-		{
-			"id": "tTHZrfMBwO6ua6403",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wU0O-bbfbNL_4V8aI",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-1 cr"
-					}
-				},
-				{
-					"id": "w2WwgydA91JHXcbVx",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-1 cr",
-						"parry": "8"
-					}
-				},
-				{
-					"id": "wM10mQZRuJ2L_fiv_",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tAehikJm-NL9SPM-4",
-			"name": "Fangs",
-			"reference": "B91",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"base_points": 2,
-			"weapons": [
-				{
-					"id": "wiLvY_M12p7pM9YQQ",
-					"damage": {
-						"type": "imp",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "dx"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-1 imp"
-					}
-				}
-			],
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "txsCJrlC4sB4hfw4W",
-			"name": "Vibration Sense",
-			"reference": "B96,P86",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "m-iw9e6Q09YdVTFKp",
-					"name": "Universal",
-					"reference": "B96",
-					"cost": 50,
-					"disabled": true
-				},
-				{
-					"id": "mWGqP0fp8tglBc6DJ",
-					"name": "Sense of Perception",
-					"reference": "P86",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mW8-UUlHGUM3LRQnv",
-					"name": "Targeting",
-					"reference": "P86",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "mbWFFhZBKa8vsggCQ",
-					"name": "Air"
-				}
-			],
-			"base_points": 10,
-			"calc": {
-				"points": 10
-			}
-		},
-		{
-			"id": "tufe9fydhpGdaA59u",
-			"name": "Clinging",
-			"reference": "B43,P45",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mJg4XBviWYmrkej-7",
-					"name": "Specific",
-					"reference": "B43",
-					"notes": "@Common Material@",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mM1d9fwkzfHxOF5Bm",
-					"name": "Specific",
-					"reference": "B43",
-					"notes": "@Uncommon Material@",
-					"cost": -60,
-					"disabled": true
-				},
-				{
-					"id": "moeP_R29nvH8FBVIn",
-					"name": "Specific",
-					"reference": "B43",
-					"notes": "@Absurd Material@",
-					"cost": -80,
-					"disabled": true
-				},
-				{
-					"id": "m6PIlVTYjafFgrKZc",
-					"name": "Attraction",
-					"reference": "P45",
-					"cost": 25,
-					"disabled": true
-				},
-				{
-					"id": "mHTGZB2d6rkVvRJtb",
-					"name": "Requires Low Gravity",
-					"reference": "P45",
-					"cost": -5,
-					"levels": 1,
-					"disabled": true
-				}
-			],
-			"base_points": 20,
-			"calc": {
-				"points": 20
-			}
-		},
 		{
 			"id": "tzgrk3lwioYmlFReb",
 			"name": "Absolute Direction",
@@ -972,180 +735,410 @@
 			}
 		},
 		{
-			"id": "tnmusDxYjTfnUyHov",
-			"name": "Telecommunication",
-			"reference": "B91,P81,PSI17",
+			"id": "taLaPL8ye2iJhabNx",
+			"name": "Affliction",
+			"reference": "B35,P39,PSI13",
 			"tags": [
 				"Advantage",
 				"Exotic",
-				"Mental",
 				"Physical"
 			],
 			"modifiers": [
 				{
-					"id": "meyE1TNpOmA9cL1Q7",
-					"name": "Infrared Communication",
-					"reference": "B91",
+					"id": "MXI9xsyKsQrbwkbSi",
+					"name": "Attribute Penalties",
+					"children": [
+						{
+							"id": "mX3k4z0dmQ7IvKjwX",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mSd0roR1fnAnUKCCa",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "muzsNHCbxMesoF57d",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mQfHakf2cSqTb3Eyq",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "murQrPbjcxw_nOmwh",
+					"name": "Cancellation",
+					"reference": "PSI13",
 					"cost": 10,
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mPMEf6DMearP5y--d",
-					"name": "Laser Communication",
-					"reference": "B91",
-					"cost": 15,
-					"cost_type": "points",
+					"id": "mZ3W-aLd_AKKl82f_",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
 					"disabled": true
 				},
 				{
-					"id": "mNw0o1LwcCuzWfbSM",
-					"name": "Radio",
-					"reference": "B91",
+					"id": "M37pfJu9nn73i2hba",
+					"name": "Incapacitation",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "mAm9X-3sd4Sh3ADT6",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mOiiXHXS9E76xPGZ2",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mQ_q_wvSqxaFrO9oZ",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mq4VIiGPWPXx6aarC",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "meUxp6RZ4VwCeV6_t",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mIVZbcZiL2yiaafmj",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150
+						},
+						{
+							"id": "moYUdkUEe30v9zZbu",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mgOZrUqHglunKoKFV",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mk1a1vdhIXMjbZPcm",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mWeKkvb41N1dc3_C_",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "MEVW9eCE2k_HXCMPD",
+					"name": "Irritations",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "mHQhGmwqy2R3-ruwH",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mI16lWGTZbFDYnTKs",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mQ8fEuG9J4bcs-3t2",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mc6sgrtegeSUmM3qS",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mZWiC8vwHWP-OqdUh",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "m4jybx5z4pvKd91Y2",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mvDlnL15kYZ73Xt9y",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "modMw1xst01LbWqXd",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "MdkSV7im9HBFq0DCc",
+					"name": "Mortal Conditions",
+					"children": [
+						{
+							"id": "mtaFf90r562HrUYpw",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mZhj_qgevJp9FMD8o",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mrb6-H-vsiirF5-vV",
+					"name": "Stunning",
+					"reference": "B36",
 					"cost": 10,
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mmHzyni_oUMtvuFZX",
-					"name": "Telesend",
-					"reference": "B91",
-					"cost": 30,
-					"cost_type": "points"
+					"id": "MVthIia8cyJKNDUx9",
+					"name": "Traits",
+					"children": [
+						{
+							"id": "m6GNIN8X6Ae14tKnh",
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mVWOk5prqKgW6_onS",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mjUwRFPe6eNldZIAZ",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					]
 				},
 				{
-					"id": "mF1FzKn6hIpP3neaW",
-					"name": "Broadcast",
-					"reference": "B91",
-					"cost": 50,
+					"id": "mHNb_upFpmuk4Ghom",
+					"name": "Follow-Up",
+					"reference": "B105,P102",
+					"notes": "Bite"
+				},
+				{
+					"id": "mwzSmsr7jNlcZPsl_",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "Once per day, Slow Reload",
+					"cost": -35
+				}
+			],
+			"base_points": 8,
+			"points_per_level": 2,
+			"can_level": true,
+			"levels": 4,
+			"calc": {
+				"points": 35
+			}
+		},
+		{
+			"id": "tnQ1WFis5BfzUj8Oa",
+			"name": "Bestial",
+			"reference": "B124",
+			"tags": [
+				"Disadvantage",
+				"Exotic",
+				"Mental"
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tkKZOU1Umtq1t4GcW",
+			"name": "Bloodlust",
+			"reference": "B125",
+			"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tffMDbg9GhKpkBcnf",
+			"name": "Cannot Speak",
+			"reference": "B125",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "stuttering"
+						}
+					}
+				]
+			},
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tufe9fydhpGdaA59u",
+			"name": "Clinging",
+			"reference": "B43,P45",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mJg4XBviWYmrkej-7",
+					"name": "Specific",
+					"reference": "B43",
+					"notes": "@Common Material@",
+					"cost": -40,
 					"disabled": true
 				},
 				{
-					"id": "mOJXlXTRV1D626HRQ",
-					"name": "Short Wave",
-					"reference": "B91",
-					"cost": 50,
+					"id": "mM1d9fwkzfHxOF5Bm",
+					"name": "Specific",
+					"reference": "B43",
+					"notes": "@Uncommon Material@",
+					"cost": -60,
 					"disabled": true
 				},
 				{
-					"id": "my4ubxXS-m2mFzWkO",
-					"name": "Universal",
-					"reference": "B91",
-					"cost": 50,
+					"id": "moeP_R29nvH8FBVIn",
+					"name": "Specific",
+					"reference": "B43",
+					"notes": "@Absurd Material@",
+					"cost": -80,
 					"disabled": true
 				},
 				{
-					"id": "m66OeXpNJuOkY3Z2H",
-					"name": "Video",
-					"reference": "B91",
-					"cost": 40,
-					"disabled": true
-				},
-				{
-					"id": "mEr_a_iFuXtiO_Z8C",
-					"name": "Racial",
-					"reference": "B91",
-					"cost": -20
-				},
-				{
-					"id": "mtF9TTeVE54IMzCfy",
-					"name": "Receive Only",
-					"reference": "B91",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "mP4HBntzm-n9KqQkb",
-					"name": "Send Only",
-					"reference": "B91",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "mQceRDRGhW7eyNoY_",
-					"name": "Vague",
-					"reference": "B91",
-					"cost": -50
-				},
-				{
-					"id": "m3yVy4wZCU1fVmzqQ",
-					"name": "Directional Sound",
-					"reference": "P81",
-					"cost": 5,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mK7I_tjhzTwJljOab",
-					"name": "Gravity Ripple",
-					"reference": "P81",
-					"cost": 20,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mQmUKXrfwfMZdJqFP",
-					"name": "Neutrino",
-					"reference": "P81",
+					"id": "m6PIlVTYjafFgrKZc",
+					"name": "Attraction",
+					"reference": "P45",
 					"cost": 25,
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "m2fL7PzhrBDlt63G3",
-					"name": "Sonar",
-					"reference": "P81",
-					"cost": 10,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mlbdEnN_I3Ut1SQJW",
-					"name": "Burst",
-					"reference": "P81",
-					"cost": 30,
+					"id": "mHTGZB2d6rkVvRJtb",
+					"name": "Requires Low Gravity",
+					"reference": "P45",
+					"cost": -5,
 					"levels": 1,
-					"disabled": true
-				},
-				{
-					"id": "m68dyhz6jP7xMfRPv",
-					"name": "FTL",
-					"reference": "P82",
-					"cost": 120,
-					"disabled": true
-				},
-				{
-					"id": "mtkSU_RRl8cfnBKpF",
-					"name": "Secure",
-					"reference": "P82",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "mOOM0x67pmhhPS1pY",
-					"name": "Sensie",
-					"reference": "P82",
-					"cost": 80,
-					"disabled": true
-				},
-				{
-					"id": "mMB1bbTjBb_hpKQw2",
-					"name": "Cable Jack",
-					"reference": "UT31",
-					"cost": 5,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mD3ax6rlB5Dgx8PCy",
-					"name": "Full Communion",
-					"reference": "PSI17",
-					"cost": 20,
 					"disabled": true
 				}
 			],
+			"base_points": 20,
 			"calc": {
-				"points": 9
+				"points": 20
 			}
 		},
 		{
@@ -1469,330 +1462,155 @@
 			}
 		},
 		{
-			"id": "taLaPL8ye2iJhabNx",
-			"name": "Affliction",
-			"reference": "B35,P39,PSI13",
+			"id": "tAehikJm-NL9SPM-4",
+			"name": "Fangs",
+			"reference": "B91",
 			"tags": [
 				"Advantage",
 				"Exotic",
 				"Physical"
 			],
-			"modifiers": [
+			"base_points": 2,
+			"weapons": [
 				{
-					"id": "MXI9xsyKsQrbwkbSi",
-					"name": "Attribute Penalties",
-					"children": [
+					"id": "wiLvY_M12p7pM9YQQ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
 						{
-							"id": "mX3k4z0dmQ7IvKjwX",
-							"name": "DX Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to DX per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
+							"type": "skill",
+							"name": "Brawling"
 						},
 						{
-							"id": "mSd0roR1fnAnUKCCa",
-							"name": "HT Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to HT per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "muzsNHCbxMesoF57d",
-							"name": "IQ Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to IQ per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mQfHakf2cSqTb3Eyq",
-							"name": "ST Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to ST per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
+							"type": "dx"
 						}
-					]
-				},
-				{
-					"id": "murQrPbjcxw_nOmwh",
-					"name": "Cancellation",
-					"reference": "PSI13",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "mZ3W-aLd_AKKl82f_",
-					"name": "Cumulative",
-					"reference": "B36",
-					"cost": 400,
-					"disabled": true
-				},
-				{
-					"id": "M37pfJu9nn73i2hba",
-					"name": "Incapacitation",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mAm9X-3sd4Sh3ADT6",
-							"name": "Agony",
-							"reference": "B428",
-							"notes": "Lose 1 FP per minute",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mOiiXHXS9E76xPGZ2",
-							"name": "Choking",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mQ_q_wvSqxaFrO9oZ",
-							"name": "Daze",
-							"reference": "B428",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mq4VIiGPWPXx6aarC",
-							"name": "Ecstasy",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "meUxp6RZ4VwCeV6_t",
-							"name": "Hallucination",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mIVZbcZiL2yiaafmj",
-							"name": "Paralysis",
-							"reference": "B429",
-							"cost": 150
-						},
-						{
-							"id": "moYUdkUEe30v9zZbu",
-							"name": "Retching",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mgOZrUqHglunKoKFV",
-							"name": "Seizure",
-							"reference": "B429",
-							"notes": "Lose 1d FP at the end of the seizure",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mk1a1vdhIXMjbZPcm",
-							"name": "Sleep",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "mWeKkvb41N1dc3_C_",
-							"name": "Unconsciousness",
-							"reference": "B429",
-							"cost": 200,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "MEVW9eCE2k_HXCMPD",
-					"name": "Irritations",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mHQhGmwqy2R3-ruwH",
-							"name": "Coughing",
-							"reference": "B428",
-							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mI16lWGTZbFDYnTKs",
-							"name": "Drunk",
-							"reference": "B428",
-							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mQ8fEuG9J4bcs-3t2",
-							"name": "Euphoria",
-							"reference": "B428",
-							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "mc6sgrtegeSUmM3qS",
-							"name": "Moderate Pain",
-							"reference": "B428",
-							"notes": "-2 to all DX, IQ, skill and self-control rolls",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mZWiC8vwHWP-OqdUh",
-							"name": "Nauseated",
-							"reference": "B428",
-							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "m4jybx5z4pvKd91Y2",
-							"name": "Severe Pain",
-							"reference": "B428",
-							"notes": "-4 to all DX, IQ, skill and self-control rolls",
-							"cost": 40,
-							"disabled": true
-						},
-						{
-							"id": "mvDlnL15kYZ73Xt9y",
-							"name": "Terrible Pain",
-							"reference": "B428",
-							"notes": "-6 to all DX, IQ, skill and self-control rolls",
-							"cost": 60,
-							"disabled": true
-						},
-						{
-							"id": "modMw1xst01LbWqXd",
-							"name": "Tipsy",
-							"reference": "B428",
-							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
-							"cost": 10,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "MdkSV7im9HBFq0DCc",
-					"name": "Mortal Conditions",
-					"children": [
-						{
-							"id": "mtaFf90r562HrUYpw",
-							"name": "Coma",
-							"reference": "B429",
-							"cost": 250,
-							"disabled": true
-						},
-						{
-							"id": "mZhj_qgevJp9FMD8o",
-							"name": "Heart Attack",
-							"reference": "B429",
-							"cost": 300,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "mrb6-H-vsiirF5-vV",
-					"name": "Stunning",
-					"reference": "B36",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "MVthIia8cyJKNDUx9",
-					"name": "Traits",
-					"children": [
-						{
-							"id": "m6GNIN8X6Ae14tKnh",
-							"name": "Gives @Advantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mVWOk5prqKgW6_onS",
-							"name": "Gives @Disadvantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mjUwRFPe6eNldZIAZ",
-							"name": "Negates @Advantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "mHNb_upFpmuk4Ghom",
-					"name": "Follow-Up",
-					"reference": "B105,P102",
-					"notes": "Bite"
-				},
-				{
-					"id": "mwzSmsr7jNlcZPsl_",
-					"name": "Limited Use",
-					"reference": "B112,P103",
-					"notes": "Once per day, Slow Reload",
-					"cost": -35
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-1 imp"
+					}
 				}
 			],
-			"base_points": 8,
-			"points_per_level": 2,
-			"can_level": true,
-			"levels": 4,
 			"calc": {
-				"points": 35
+				"points": 2
 			}
 		},
 		{
-			"id": "tkKZOU1Umtq1t4GcW",
-			"name": "Bloodlust",
-			"reference": "B125",
-			"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"id": "tk0hVi9HwP-fqeA7I",
+			"name": "Horizontal",
+			"reference": "B139",
 			"tags": [
 				"Disadvantage",
-				"Mental"
+				"Exotic",
+				"Physical"
 			],
-			"cr": 12,
 			"base_points": -10,
 			"calc": {
 				"points": -10
 			}
 		},
 		{
-			"id": "tHYnuMJNUQwkqcn2Z",
-			"name": "Xenophobia (Strange and Unknown Things)",
-			"reference": "B150",
-			"notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
+			"id": "tTHZrfMBwO6ua6403",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wU0O-bbfbNL_4V8aI",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-1 cr"
+					}
+				},
+				{
+					"id": "w2WwgydA91JHXcbVx",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-1 cr",
+						"parry": "8"
+					}
+				},
+				{
+					"id": "wM10mQZRuJ2L_fiv_",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 9,
+						"damage": "1d cr"
+					}
+				}
 			],
-			"cr_adj": "action_penalty",
-			"cr": 12,
-			"base_points": -15,
 			"calc": {
-				"points": -15
+				"points": 0
 			}
 		},
 		{
@@ -1818,34 +1636,6 @@
 			],
 			"calc": {
 				"points": -30
-			}
-		},
-		{
-			"id": "tk0hVi9HwP-fqeA7I",
-			"name": "Horizontal",
-			"reference": "B139",
-			"tags": [
-				"Disadvantage",
-				"Exotic",
-				"Physical"
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tnQ1WFis5BfzUj8Oa",
-			"name": "Bestial",
-			"reference": "B124",
-			"tags": [
-				"Disadvantage",
-				"Exotic",
-				"Mental"
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
 			}
 		},
 		{
@@ -1878,27 +1668,234 @@
 			}
 		},
 		{
-			"id": "tffMDbg9GhKpkBcnf",
-			"name": "Cannot Speak",
-			"reference": "B125",
+			"id": "tnmusDxYjTfnUyHov",
+			"name": "Telecommunication",
+			"reference": "B91,P81,PSI17",
 			"tags": [
-				"Disadvantage",
+				"Advantage",
+				"Exotic",
+				"Mental",
 				"Physical"
 			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "is",
-							"qualifier": "stuttering"
-						}
-					}
-				]
-			},
+			"modifiers": [
+				{
+					"id": "meyE1TNpOmA9cL1Q7",
+					"name": "Infrared Communication",
+					"reference": "B91",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mPMEf6DMearP5y--d",
+					"name": "Laser Communication",
+					"reference": "B91",
+					"cost": 15,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mNw0o1LwcCuzWfbSM",
+					"name": "Radio",
+					"reference": "B91",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mmHzyni_oUMtvuFZX",
+					"name": "Telesend",
+					"reference": "B91",
+					"cost": 30,
+					"cost_type": "points"
+				},
+				{
+					"id": "mF1FzKn6hIpP3neaW",
+					"name": "Broadcast",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mOJXlXTRV1D626HRQ",
+					"name": "Short Wave",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "my4ubxXS-m2mFzWkO",
+					"name": "Universal",
+					"reference": "B91",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "m66OeXpNJuOkY3Z2H",
+					"name": "Video",
+					"reference": "B91",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "mEr_a_iFuXtiO_Z8C",
+					"name": "Racial",
+					"reference": "B91",
+					"cost": -20
+				},
+				{
+					"id": "mtF9TTeVE54IMzCfy",
+					"name": "Receive Only",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mP4HBntzm-n9KqQkb",
+					"name": "Send Only",
+					"reference": "B91",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mQceRDRGhW7eyNoY_",
+					"name": "Vague",
+					"reference": "B91",
+					"cost": -50
+				},
+				{
+					"id": "m3yVy4wZCU1fVmzqQ",
+					"name": "Directional Sound",
+					"reference": "P81",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mK7I_tjhzTwJljOab",
+					"name": "Gravity Ripple",
+					"reference": "P81",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mQmUKXrfwfMZdJqFP",
+					"name": "Neutrino",
+					"reference": "P81",
+					"cost": 25,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m2fL7PzhrBDlt63G3",
+					"name": "Sonar",
+					"reference": "P81",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mlbdEnN_I3Ut1SQJW",
+					"name": "Burst",
+					"reference": "P81",
+					"cost": 30,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "m68dyhz6jP7xMfRPv",
+					"name": "FTL",
+					"reference": "P82",
+					"cost": 120,
+					"disabled": true
+				},
+				{
+					"id": "mtkSU_RRl8cfnBKpF",
+					"name": "Secure",
+					"reference": "P82",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mOOM0x67pmhhPS1pY",
+					"name": "Sensie",
+					"reference": "P82",
+					"cost": 80,
+					"disabled": true
+				},
+				{
+					"id": "mMB1bbTjBb_hpKQw2",
+					"name": "Cable Jack",
+					"reference": "UT31",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mD3ax6rlB5Dgx8PCy",
+					"name": "Full Communion",
+					"reference": "PSI17",
+					"cost": 20,
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 9
+			}
+		},
+		{
+			"id": "txsCJrlC4sB4hfw4W",
+			"name": "Vibration Sense",
+			"reference": "B96,P86",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m-iw9e6Q09YdVTFKp",
+					"name": "Universal",
+					"reference": "B96",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mWGqP0fp8tglBc6DJ",
+					"name": "Sense of Perception",
+					"reference": "P86",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mW8-UUlHGUM3LRQnv",
+					"name": "Targeting",
+					"reference": "P86",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mbWFFhZBKa8vsggCQ",
+					"name": "Air"
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tHYnuMJNUQwkqcn2Z",
+			"name": "Xenophobia (Strange and Unknown Things)",
+			"reference": "B150",
+			"notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr_adj": "action_penalty",
+			"cr": 12,
 			"base_points": -15,
 			"calc": {
 				"points": -15
@@ -2221,7 +2218,7 @@
 		}
 	],
 	"created_date": "2024-07-01T19:06:49+02:00",
-	"modified_date": "2025-05-30T17:32:07+02:00",
+	"modified_date": "2025-06-01T23:20:49+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

@@ -107,13 +107,6 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
-			},
-			{
 				"id": "dodge",
 				"type": "integer_ref",
 				"name": "Dodge",
@@ -242,27 +235,39 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "sp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
-				"cost_per_point": 3,
+				"name": "SP",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "-$sp"
+					},
+					{
+						"state": "Panicking",
+						"expression": "0",
+						"explanation": "-6 to any rolls that make sense"
 					},
 					{
 						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"expression": "ceil($sp/3)-1",
+						"explanation": "-4 to any rolls that make sense"
 					},
 					{
 						"state": "Stressed",
-						"expression": "-1"
+						"expression": "round($sp/2)",
+						"explanation": "-2 to any rolls that make sense"
+					},
+					{
+						"state": "Stressed",
+						"expression": "$sp-1",
+						"explanation": "-1 to any rolls that make sense"
 					},
 					{
 						"state": "Calm",
-						"expression": "0"
+						"expression": "$sp"
 					}
 				]
 			}
@@ -498,14 +503,6 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 6,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
@@ -567,11 +564,11 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "sp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 13,
+				"current": 13,
 				"points": 0
 			}
 		}
@@ -4033,7 +4030,7 @@
 		}
 	],
 	"created_date": "2024-09-02T19:38:51+02:00",
-	"modified_date": "2025-05-30T17:31:04+02:00",
+	"modified_date": "2025-06-01T19:10:30+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

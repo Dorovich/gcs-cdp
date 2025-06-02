@@ -92,7 +92,7 @@
 			{
 				"id": "fright_check",
 				"type": "integer",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -101,31 +101,18 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -185,7 +172,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -194,7 +181,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -203,7 +190,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -212,7 +199,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -221,7 +208,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -247,27 +234,49 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "fp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
 				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Stressed",
-						"expression": "-1"
+						"state": "Tiring",
+						"expression": "$fp-1"
 					},
 					{
-						"state": "Calm",
-						"expression": "0"
+						"state": "Rested",
+						"expression": "$fp"
 					}
 				]
 			}
@@ -492,7 +501,7 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 5.25,
+				"value": 5,
 				"points": 0
 			}
 		},
@@ -505,23 +514,7 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 7,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
@@ -574,11 +567,11 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 10,
+				"current": 10,
 				"points": 0
 			}
 		}
@@ -1291,6 +1284,55 @@
 			}
 		},
 		{
+			"id": "tjq080w_PIZxPihrX",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
+			},
+			"name": "CdP Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wpFE955Lw80CmvNVw",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Unarmed",
+					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "TkqCaIQlWLSU1Jx03",
 			"name": "Disadvantages \u0026 Quirks",
 			"children": [
@@ -1700,173 +1742,14 @@
 			}
 		},
 		{
-			"id": "t19JwFGQPxdMU9Yc0",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wy835BczxG0zHbu5o",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wMkMRCKsjvmY1v5Xi",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr",
-						"parry": "8"
-					}
-				},
-				{
-					"id": "w2JdSfp8IZ4RjB5Kw",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "High Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wEiufEH84rKAlqGo2",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Low Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "TKFsqLx9px9CTveJg",
+			"id": "TgWOST_MhLLGLpwZB",
 			"name": "Nu'karn (Te'karn)",
 			"userdesc": "Apply on top of another species' template.",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tJdwxTdo6ZrXXN2Fb",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t1w1RFcFceKR2T9_e"
-					},
-					"name": "Keumic Relay",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Supernatural"
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "keum",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "tTyv7J97TRCQU4L2m",
+					"id": "t6-RxgYQgzyR5JapM",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1881,7 +1764,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mnKCi0gYbJwf3UPRc",
+							"id": "mJWoQhBs4orwY6bmX",
 							"name": "Diffuse",
 							"reference": "B60",
 							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -1890,7 +1773,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mlGn_i-2qaR6ksYOB",
+							"id": "mDclKwJLndDIABWbV",
 							"name": "Homogenous",
 							"reference": "B60",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -1899,7 +1782,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mF027TMPeDOpBFkUa",
+							"id": "mst-2J4W2u85Yv8t2",
 							"name": "No Blood",
 							"reference": "B61",
 							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -1908,7 +1791,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m8FYMiOziMlhVXkVP",
+							"id": "m6jQlBqs98dbkzjYq",
 							"name": "No Brain",
 							"reference": "B61",
 							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -1917,7 +1800,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjKramtrG1lPQtc_I",
+							"id": "mKWK2CJlpN5yAM_S4",
 							"name": "No Eyes",
 							"reference": "B61",
 							"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -1926,7 +1809,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mwYn31cC8fAeq7n6Z",
+							"id": "mlLgi4X66Pz4YYT0c",
 							"name": "No Head",
 							"reference": "B61",
 							"notes": "Skull, Brain and Face cannot be targeted",
@@ -1935,7 +1818,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJt35WRBzM9iYI7og",
+							"id": "mv7GtfMVaL-I4KW9x",
 							"name": "No Neck",
 							"reference": "B61",
 							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -1944,7 +1827,7 @@
 							"disabled": true
 						},
 						{
-							"id": "myXvzI4_qRtxUaNDR",
+							"id": "mdscXVfA6Yp7yzPsc",
 							"name": "No Vitals",
 							"reference": "B61",
 							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
@@ -1952,7 +1835,7 @@
 							"cost_type": "points"
 						},
 						{
-							"id": "mKM07BwPmVvlnAbmN",
+							"id": "mCD_e1Z2owBCc0UtK",
 							"name": "Unliving",
 							"reference": "B61",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
@@ -1966,7 +1849,7 @@
 					}
 				},
 				{
-					"id": "tB6muElIPKbzvuT0z",
+					"id": "t8sv-LbhYXNamF_mW",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1980,7 +1863,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mgcZ400Jj5upcoK7x",
+							"id": "mIfdqQ7sxxsrgcmcX",
 							"name": "@Very Common: Metabolic Hazards, etc.@",
 							"reference": "B80",
 							"cost": 30,
@@ -1988,7 +1871,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mKG-_AAF5_Ngi1vr1",
+							"id": "mWSQELXEcF9iOGorF",
 							"name": "@Common: Poison, Sickness, etc.@",
 							"reference": "B81",
 							"cost": 15,
@@ -1996,14 +1879,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mCsfNx4nd4yKTYYtl",
+							"id": "mPDGkSWux52OLFH2j",
 							"name": "Diseases",
 							"reference": "B81",
 							"cost": 10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mJy5LqixGJtd0kInf",
+							"id": "m7Xz4fJg0gSCi8G18",
 							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
 							"reference": "B81",
 							"cost": 5,
@@ -2011,14 +1894,14 @@
 							"disabled": true
 						},
 						{
-							"id": "ms9oHLZyceD_h7kV_",
+							"id": "mfEeaMm12rcIJm-z0",
 							"name": "Immunity",
 							"reference": "B81",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "muFBsc4KB4uJBiVdS",
+							"id": "m-tD-ZyWg2yHjHfH0",
 							"name": "+8 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.5,
@@ -2026,7 +1909,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mssZIZ7SJmGYwFPUr",
+							"id": "m6H02A_7eUR1IfToT",
 							"name": "+3 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.33,
@@ -2040,7 +1923,7 @@
 					}
 				},
 				{
-					"id": "tR36ipJQpbZ0rwUAw",
+					"id": "tx3slJfEdj_1Hu0ng",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -2054,21 +1937,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "m49sAAd8mQu9Dbe3w",
+							"id": "m9wow0VuPkmXmF18A",
 							"name": "Substitution",
 							"reference": "B151",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mvCkp8HchjW357qT_",
+							"id": "mHsz23Afsi78TxqbQ",
 							"name": "Very Common",
 							"reference": "B151",
 							"cost": -10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mIkD6PHtRGC7aGK50",
+							"id": "mL_RQ8D7CAQmTIQMq",
 							"name": "Common",
 							"reference": "B151",
 							"cost": -20,
@@ -2076,7 +1959,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mQ_S7VXrk5lLI23cH",
+							"id": "m5Ro4VaCDiBW8t74v",
 							"name": "Occasional",
 							"reference": "B151",
 							"cost": -30,
@@ -2084,7 +1967,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJMrd1kmsZJe8bkiN",
+							"id": "meTUf1NZCyUorJS02",
 							"name": "Rare",
 							"reference": "B151",
 							"cost": -40,
@@ -2097,7 +1980,7 @@
 					}
 				},
 				{
-					"id": "tS8hLeFyq1d0K0Hdn",
+					"id": "tzHLYH2qc1Gv0izsY",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2114,7 +1997,7 @@
 					}
 				},
 				{
-					"id": "tR_DRJQ-3MOUQxQ5b",
+					"id": "t98xlIeaBeJb90C1p",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -2129,7 +2012,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mK-H0nK68h8FvTk-E",
+							"id": "mMKQxpA5MfxCQRsxg",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Gives +1 on all rolls to deduce your secret",
@@ -2145,7 +2028,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m9cjvUBnIYIY4Vp8v",
+							"id": "mo_eei7XZyQIK8VE8",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
@@ -2161,7 +2044,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mVfjhPwzqafOr6sSb",
+							"id": "mFmkskwQe1N4d5ia9",
 							"name": "No Reflection",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2177,7 +2060,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mnq225EOSABs-KlrO",
+							"id": "mXDprFX2bZ0bsnS8t",
 							"name": "No Shadow",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2193,7 +2076,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m27KjJ-iru2XWaPfN",
+							"id": "mS2gIAHWDrDNNTmOr",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Gives +2 on all rolls to deduce your secret",
@@ -2209,7 +2092,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mlg44kHLbX6LSBW6N",
+							"id": "mlVjVSvjl0-94oeiq",
 							"name": "Pallor",
 							"reference": "B157",
 							"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
@@ -2225,7 +2108,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m3b4KXqxSz9bFbqmX",
+							"id": "m0koEGzB4AOGP5cnv",
 							"name": "Vessel",
 							"notes": "Unnatural physiology",
 							"cost": -5,
@@ -2244,7 +2127,41 @@
 					}
 				},
 				{
-					"id": "tikeNid9ytRgHITAJ",
+					"id": "tM0gAVBj09jsjOWNm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t1w1RFcFceKR2T9_e"
+					},
+					"name": "The Fifth Door (Ajar)",
+					"notes": "Halve Tempo shift penalties",
+					"tags": [
+						"Advantage",
+						"Supernatural"
+					],
+					"vtt_notes": "Unusual background",
+					"modifiers": [
+						{
+							"id": "mvm1tf2e0QHQ4kaGG",
+							"name": "Unusual Background",
+							"cost": 5,
+							"cost_type": "points"
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist stress caused by a change of Tempo",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "tjU179FCPOagmXEqW",
 					"source": {
 						"library": "Dorovich/gcs-cdp",
 						"path": "CdP Rasgos (Especies).adq",
@@ -2259,49 +2176,49 @@
 					],
 					"modifiers": [
 						{
-							"id": "mbZXw1g3VrclrfEzK",
+							"id": "mt7gMRKGSa9H-22ih",
 							"name": "Age Control",
 							"reference": "B95",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mAxBsnabx2BlkXLzf",
+							"id": "m_IO01oOEzcZDuCUy",
 							"name": "IQ Only",
 							"reference": "RSWL24",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mctx5XFxsTEOQi5zH",
+							"id": "mXI1BUumaAz4jWJga",
 							"name": "Halt Aging, Weekly",
 							"reference": "PSI18",
 							"cost": 80,
 							"disabled": true
 						},
 						{
-							"id": "mUgh_22kGWo1afd_Y",
+							"id": "msKH3Mr9-kd3jfnSL",
 							"name": "Halt Aging, Monthly",
 							"reference": "PSI18",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "m1JFmLPO46Yp7Qh_H",
+							"id": "mEgqS8L1bEeTiKKws",
 							"name": "Halt Aging, Yearly",
 							"reference": "PSI18",
 							"cost": 130,
 							"disabled": true
 						},
 						{
-							"id": "m2Ds6ULhyeK4ItV08",
+							"id": "mI2rF6e9EMQUiGVFg",
 							"name": "Life Extension",
 							"reference": "PSI18",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "m-j4VH2mCHAJ67Qsw",
+							"id": "moP2K38Du8Yr2jVP7",
 							"name": "Keumic",
 							"cost": -10
 						}
@@ -2312,7 +2229,7 @@
 					}
 				},
 				{
-					"id": "trWx9hMDicjR12P1V",
+					"id": "tUZX9KF-2G98EQ4Vo",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -3137,6 +3054,54 @@
 	],
 	"equipment": [
 		{
+			"id": "EJunbhwRHHAgepZ-P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "EMNZJgZiRnFvArKtA"
+			},
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 60,
+			"weight": "3 lb",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eSmqRxpegDGTZDRIQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "e0z9DCZj3jzgLmFSf"
+					},
+					"description": "Personal Basics",
+					"reference": "B288",
+					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 5,
+					"weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 65,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
 			"id": "E1RvSuYhMf-eKchPg",
 			"description": "Pistol",
 			"legality_class": "4",
@@ -3427,55 +3392,6 @@
 			}
 		}
 	],
-	"other_equipment": [
-		{
-			"id": "EJunbhwRHHAgepZ-P",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "High Tech/High Tech Equipment.eqp",
-				"id": "EMNZJgZiRnFvArKtA"
-			},
-			"description": "Backpack, Small",
-			"reference": "HT54",
-			"notes": "Holds 50lbs.",
-			"tech_level": "5",
-			"tags": [
-				"General Equipment"
-			],
-			"value": 60,
-			"weight": "3 lb",
-			"quantity": 1,
-			"children": [
-				{
-					"id": "eSmqRxpegDGTZDRIQ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Equipment.eqp",
-						"id": "e0z9DCZj3jzgLmFSf"
-					},
-					"description": "Personal Basics",
-					"reference": "B288",
-					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
-					"tech_level": "0",
-					"tags": [
-						"Camping and Survival Gear"
-					],
-					"value": 5,
-					"weight": "1 lb",
-					"quantity": 1,
-					"equipped": true,
-					"calc": {
-						"extended_value": 5,
-						"extended_weight": "1 lb"
-					}
-				}
-			],
-			"calc": {
-				"extended_value": 65,
-				"extended_weight": "4 lb"
-			}
-		}
-	],
 	"notes": [
 		{
 			"id": "nIyYunpgwWXPKPQxs",
@@ -3483,7 +3399,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-05-30T17:29:26+02:00",
+	"modified_date": "2025-06-02T17:37:28+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

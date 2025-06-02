@@ -104,13 +104,6 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "keum",
-				"type": "integer_ref",
-				"name": "Keum",
-				"attribute_base": "($iq+$will)/4",
-				"cost_per_point": 10
-			},
-			{
 				"id": "dodge",
 				"type": "integer_ref",
 				"name": "Dodge",
@@ -239,27 +232,39 @@
 				]
 			},
 			{
-				"id": "stress",
+				"id": "sp",
 				"type": "pool",
-				"name": "Stress",
-				"attribute_base": "0",
-				"cost_per_point": 3,
+				"name": "SP",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "Collapse",
-						"expression": "-$will"
+						"expression": "-$sp"
+					},
+					{
+						"state": "Panicking",
+						"expression": "0",
+						"explanation": "-6 to any rolls that make sense"
 					},
 					{
 						"state": "Distressed",
-						"expression": "-ceil($will/2)"
+						"expression": "ceil($sp/3)-1",
+						"explanation": "-4 to any rolls that make sense"
 					},
 					{
 						"state": "Stressed",
-						"expression": "-1"
+						"expression": "round($sp/2)",
+						"explanation": "-2 to any rolls that make sense"
+					},
+					{
+						"state": "Stressed",
+						"expression": "$sp-1",
+						"explanation": "-1 to any rolls that make sense"
 					},
 					{
 						"state": "Calm",
-						"expression": "0"
+						"expression": "$sp"
 					}
 				]
 			}
@@ -444,10 +449,10 @@
 		},
 		{
 			"attr_id": "dx",
-			"adj": 2,
+			"adj": 3,
 			"calc": {
-				"value": 12,
-				"points": 40
+				"value": 13,
+				"points": 60
 			}
 		},
 		{
@@ -468,17 +473,17 @@
 		},
 		{
 			"attr_id": "will",
-			"adj": 2,
+			"adj": 3,
 			"calc": {
-				"value": 6,
-				"points": 10
+				"value": 7,
+				"points": 15
 			}
 		},
 		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 8,
+				"value": 7,
 				"points": 0
 			}
 		},
@@ -486,7 +491,7 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 6,
+				"value": 6.5,
 				"points": 0
 			}
 		},
@@ -499,18 +504,10 @@
 			}
 		},
 		{
-			"attr_id": "keum",
-			"adj": 0,
-			"calc": {
-				"value": 2,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 9,
 				"points": 0
 			}
 		},
@@ -520,17 +517,17 @@
 		},
 		{
 			"attr_id": "per",
-			"adj": 0,
+			"adj": 1,
 			"calc": {
-				"value": 12,
-				"points": 0
+				"value": 13,
+				"points": 5
 			}
 		},
 		{
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -538,7 +535,7 @@
 			"attr_id": "hearing",
 			"adj": 1,
 			"calc": {
-				"value": 13,
+				"value": 14,
 				"points": 2
 			}
 		},
@@ -546,7 +543,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -554,7 +551,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -568,11 +565,11 @@
 			}
 		},
 		{
-			"attr_id": "stress",
+			"attr_id": "sp",
 			"adj": 0,
 			"calc": {
-				"value": 0,
-				"current": 0,
+				"value": 7,
+				"current": 7,
 				"points": 0
 			}
 		}
@@ -1050,6 +1047,44 @@
 			}
 		},
 		{
+			"id": "tI3X46GJ6_XUq8-Ln",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tGjjVtxav9KsrG7Wx"
+			},
+			"name": "Panic Reflexes",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"base_points": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to any active defense when Panicking",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "tsUs2YDS_UkJtjmEI",
 			"name": "Reduced Consumption",
 			"reference": "B80",
@@ -1126,7 +1161,7 @@
 						}
 					],
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"damage": "1d-5 pi+"
 					}
 				}
@@ -1173,9 +1208,9 @@
 						}
 					],
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"damage": "1d-5 cut",
-						"parry": "11"
+						"parry": "10"
 					}
 				},
 				{
@@ -1203,7 +1238,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"damage": "1d-4 cut"
 					}
 				}
@@ -1234,74 +1269,6 @@
 			"levels": 5,
 			"calc": {
 				"points": 25
-			}
-		},
-		{
-			"id": "tO-TGdyFdvSUT51FW",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tGjjVtxav9KsrG7Wx"
-			},
-			"name": "Combat Reflexes",
-			"reference": "B43",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "is",
-							"qualifier": "Enhanced Time Sense"
-						}
-					}
-				]
-			},
-			"base_points": 15,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "starts_with",
-						"qualifier": "fast-draw"
-					},
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "dodge",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "parry",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "block",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "fright_check",
-					"amount": 2
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
-					"amount": 6
-				}
-			],
-			"calc": {
-				"points": 15
 			}
 		}
 	],
@@ -1339,12 +1306,12 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -6,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "DX+0"
 			}
 		},
@@ -1372,7 +1339,7 @@
 			],
 			"points": 1,
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per-1"
 			}
 		},
@@ -1409,7 +1376,7 @@
 			],
 			"points": 4,
 			"calc": {
-				"level": 14,
+				"level": 15,
 				"rsl": "DX+2"
 			}
 		},
@@ -1440,13 +1407,13 @@
 				"name": "Survival",
 				"specialization": "Mountain",
 				"modifier": -2,
-				"level": 10,
-				"adjusted_level": 10,
-				"points": 20
+				"level": 11,
+				"adjusted_level": 11,
+				"points": 24
 			},
 			"calc": {
-				"level": 10,
-				"rsl": "IQ+6"
+				"level": 11,
+				"rsl": "IQ+7"
 			}
 		},
 		{
@@ -1468,12 +1435,12 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -6,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 10,
+				"level": 11,
 				"rsl": "DX-2"
 			}
 		},
@@ -1505,7 +1472,7 @@
 					}
 				]
 			},
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "ht",
 				"modifier": -5,
@@ -1514,8 +1481,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 11,
-				"rsl": "HT-1"
+				"level": 12,
+				"rsl": "HT+0"
 			}
 		},
 		{
@@ -1592,12 +1559,12 @@
 				"name": "Survival",
 				"specialization": "Woodlands",
 				"modifier": -3,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "Per+0"
 			}
 		},
@@ -1673,12 +1640,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "Per+0"
 			}
 		},
@@ -1711,24 +1678,22 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per-1"
 			}
 		}
 	],
 	"created_date": "2024-07-12T01:32:35+02:00",
-	"modified_date": "2025-05-30T17:31:59+02:00",
+	"modified_date": "2025-06-01T23:24:03+02:00",
 	"calc": {
 		"swing": "1d-4",
 		"thrust": "1d-5",
 		"basic_lift": "3.2 lb",
-		"parry_bonus": 1,
-		"block_bonus": 1,
 		"move": [
 			17,
 			13,
@@ -1737,11 +1702,11 @@
 			3
 		],
 		"dodge": [
-			10,
 			9,
 			8,
 			7,
-			6
+			6,
+			5
 		]
 	}
 }
