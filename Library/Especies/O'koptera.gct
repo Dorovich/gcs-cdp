@@ -279,27 +279,27 @@
 					],
 					"modifiers": [
 						{
-							"id": "mNK-GG-2xxZHa09-Q",
+							"id": "mKxg99H2YNPP3qHRK",
 							"name": "Emotion Sense",
 							"reference": "B49",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mYBM0j-qWEh5QGWAU",
+							"id": "mFIfRbCTdoyAosy4-",
 							"name": "Profiling",
 							"reference": "P47",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mt_sb1lfHE11ujLaq",
+							"id": "mVa3fF0Uq349Jx1yq",
 							"name": "Racial Emotion Sense",
 							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
-							"cost": 25
+							"cost": 30
 						},
 						{
-							"id": "mUUF2mifTSlHEWb0r",
+							"id": "mSTRV12IH98ByEZ9M",
 							"name": "Vague Communication"
 						}
 					],
@@ -321,7 +321,7 @@
 						}
 					],
 					"calc": {
-						"points": 19
+						"points": 20
 					}
 				},
 				{
@@ -335,14 +335,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mWtOOwDZ0j_oWKuau",
+							"id": "m3f5Qf1XRr4OOfVvi",
 							"name": "Extra-Flexible",
 							"reference": "B53",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "m1_J6VARzgrvKuFt8",
+							"id": "m_XrId5K7K5KGJp6i",
 							"name": "Long",
 							"reference": "B53",
 							"cost": 100,
@@ -350,28 +350,28 @@
 							"disabled": true
 						},
 						{
-							"id": "mtTr_4DETj3OjdniC",
+							"id": "m82q8g0pHb9l0g8HO",
 							"name": "Foot Manipulators",
 							"reference": "B53",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "m_mKOvdv762-tnKwo",
+							"id": "mNDLVdZc1IzsLtb0f",
 							"name": "No Physical Attack",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mNsXlmnToLNGUtMPu",
+							"id": "mEFZ2g-hdBeE7AGtt",
 							"name": "Short",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m-fNR8HRtu6UxLWAy",
+							"id": "mKdyXB5iGOvglszw5",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Half body ST",
@@ -379,7 +379,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjb9bfmhhdj42ACQO",
+							"id": "m7yHoOIEiwU9M6OET",
 							"name": "Weak",
 							"reference": "B53",
 							"notes": "Quarter body ST",
@@ -387,14 +387,14 @@
 							"disabled": true
 						},
 						{
-							"id": "m8aqdb72t3_YBMIyv",
+							"id": "mx638nAlfYLO3HvKW",
 							"name": "Weapon Mount",
 							"reference": "B53",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mesmxPnpPplDJRlgd",
+							"id": "maz5GlNFnsJ8F5Xgk",
 							"name": "No Grasping Hand",
 							"reference": "MATG28",
 							"cost": -40,
@@ -450,34 +450,6 @@
 					"levels": 4,
 					"calc": {
 						"points": 4
-					}
-				},
-				{
-					"id": "tjEirHBQFcjKp2kMZ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Ribcage DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"base_points": -1,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"vitals"
-							],
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -1
 					}
 				},
 				{
@@ -579,9 +551,9 @@
 							}
 						]
 					},
-					"base_points": 15,
+					"base_points": 5,
 					"calc": {
-						"points": 15
+						"points": 5
 					}
 				},
 				{
@@ -738,7 +710,7 @@
 				}
 			],
 			"calc": {
-				"points": 38
+				"points": 30
 			}
 		}
 	]

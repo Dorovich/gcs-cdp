@@ -69,7 +69,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -81,7 +81,7 @@
 			{
 				"id": "fright_check",
 				"type": "integer",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -90,24 +90,18 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -116,7 +110,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -167,7 +161,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -176,7 +170,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -185,7 +179,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -194,7 +188,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -203,7 +197,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -229,39 +223,49 @@
 				]
 			},
 			{
-				"id": "sp",
+				"id": "fp",
 				"type": "pool",
-				"name": "SP",
-				"attribute_base": "$will",
-				"cost_per_point": 2,
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
 						"state": "Collapse",
-						"expression": "-$sp"
-					},
-					{
-						"state": "Panicking",
 						"expression": "0",
-						"explanation": "-6 to any rolls that make sense"
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Distressed",
-						"expression": "ceil($sp/3)-1",
-						"explanation": "-4 to any rolls that make sense"
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Stressed",
-						"expression": "round($sp/2)",
-						"explanation": "-2 to any rolls that make sense"
+						"state": "Tiring",
+						"expression": "$fp-1"
 					},
 					{
-						"state": "Stressed",
-						"expression": "$sp-1",
-						"explanation": "-1 to any rolls that make sense"
-					},
-					{
-						"state": "Calm",
-						"expression": "$sp"
+						"state": "Rested",
+						"expression": "$fp"
 					}
 				]
 			}
@@ -490,7 +494,7 @@
 			"adj": -1,
 			"calc": {
 				"value": 9,
-				"points": -15
+				"points": -10
 			}
 		},
 		{
@@ -526,22 +530,14 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -549,7 +545,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -557,7 +553,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -565,7 +561,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -573,7 +569,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -587,11 +583,11 @@
 			}
 		},
 		{
-			"attr_id": "sp",
+			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
-				"value": 10,
-				"current": 10,
+				"value": 9,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -1520,7 +1516,7 @@
 		}
 	],
 	"created_date": "2024-09-03T14:17:29+02:00",
-	"modified_date": "2025-06-01T23:21:01+02:00",
+	"modified_date": "2025-06-03T22:56:06+02:00",
 	"calc": {
 		"swing": "1d-3",
 		"thrust": "1d-4",

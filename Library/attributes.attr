@@ -32,7 +32,7 @@
 			"name": "HT",
 			"full_name": "Health",
 			"attribute_base": "10",
-			"cost_per_point": 15
+			"cost_per_point": 10
 		},
 		{
 			"id": "will",
@@ -73,7 +73,7 @@
 			"type": "integer",
 			"name": "Per",
 			"full_name": "Perception",
-			"attribute_base": "$ht",
+			"attribute_base": "$iq",
 			"cost_per_point": 5
 		},
 		{

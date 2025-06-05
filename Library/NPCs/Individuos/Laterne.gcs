@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AbyVge4ow13WTQDq8",
-	"total_points": 164,
+	"total_points": 168,
 	"points_record": [
 		{
 			"when": "2024-08-14T11:40:28+02:00",
-			"points": 164,
+			"points": 168,
 			"reason": "Initial points"
 		}
 	],
@@ -78,7 +78,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -119,7 +119,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -519,7 +519,7 @@
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -527,7 +527,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -535,7 +535,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -543,7 +543,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -551,7 +551,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -559,8 +559,8 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 15,
-				"current": 15,
+				"value": 12,
+				"current": 12,
 				"points": 0
 			}
 		},
@@ -1247,13 +1247,13 @@
 			}
 		},
 		{
-			"id": "TPF9HAMqkpxcmmiOr",
+			"id": "Ty9ABHmNTtK2a-qrM",
 			"name": "Koppemak",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tDn3-GE8ZzyawC2Wl",
+					"id": "t_Aa1Oegz7IMA1gsM",
 					"name": "Affected by Magnetism",
 					"tags": [
 						"Exotic",
@@ -1265,13 +1265,13 @@
 					}
 				},
 				{
-					"id": "TPVcIQFAUgUeEhHS7",
+					"id": "TfGE72jXk2byjMtF6",
 					"name": "Artificial Intelligence",
 					"reference": "B263",
 					"container_type": "meta_trait",
 					"children": [
 						{
-							"id": "tYu9LnupCM31qh3hj",
+							"id": "tcnJXxZmbLl7O4OEL",
 							"name": "Absolute Timing",
 							"reference": "B35",
 							"tags": [
@@ -1280,7 +1280,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mN1TA0AI0elIcGsdb",
+									"id": "myrH9MlrT0RdEPi5O",
 									"name": "Chronolocation",
 									"cost": 3,
 									"cost_type": "points",
@@ -1293,7 +1293,7 @@
 							}
 						},
 						{
-							"id": "tEaL4wy-IfagMNg1L",
+							"id": "t4OoibDnvFyF5KVC6",
 							"name": "Digital Mind",
 							"reference": "B49",
 							"tags": [
@@ -1307,7 +1307,7 @@
 							}
 						},
 						{
-							"id": "tThdILIe9Bp92Cey4",
+							"id": "tfx4HEdyOxhTgGQux",
 							"name": "Doesn't Sleep",
 							"reference": "B50",
 							"tags": [
@@ -1321,7 +1321,7 @@
 							}
 						},
 						{
-							"id": "t_-6xqg7Dlapu381S",
+							"id": "tg44tWOcQM2JuiHvc",
 							"name": "Eidetic Memory",
 							"reference": "B51",
 							"tags": [
@@ -1330,7 +1330,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "msaUU-9TBeKBQ0JaX",
+									"id": "muGHtGaRPx0u-nq27",
 									"name": "Photographic",
 									"reference": "B51",
 									"cost": 5,
@@ -1344,7 +1344,7 @@
 							}
 						},
 						{
-							"id": "tW5D4foRVwdmrVgBN",
+							"id": "tHcNrpViD6bLmFCLU",
 							"name": "Lightning Calculator",
 							"reference": "B66",
 							"tags": [
@@ -1353,7 +1353,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "ma7dNNh1N7rN3uy5H",
+									"id": "mtYba2biLVKnR7AGU",
 									"name": "Intuitive Mathematician",
 									"reference": "B66",
 									"cost": 3,
@@ -1367,7 +1367,7 @@
 							}
 						},
 						{
-							"id": "tmNU9zjwY-a2wzgZ2",
+							"id": "tTsX3b6LKpLAYAC17",
 							"name": "Reprogrammable",
 							"reference": "B150",
 							"tags": [
@@ -1386,7 +1386,7 @@
 					}
 				},
 				{
-					"id": "tUZjmVeyu5vtYSEiU",
+					"id": "tSiTV_zHoplTubn6b",
 					"name": "Cannot Float",
 					"reference": "B165",
 					"tags": [
@@ -1399,7 +1399,7 @@
 					}
 				},
 				{
-					"id": "tdPKMGyrnb5pUKzoG",
+					"id": "tIht0qROY8_vrii22",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -1417,7 +1417,7 @@
 					}
 				},
 				{
-					"id": "ttusnFonVHVjXama5",
+					"id": "t0-66PohToN-9F3wi",
 					"name": "Damage Resistance",
 					"reference": "B47",
 					"tags": [
@@ -1427,7 +1427,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mGzs-JrsmK3iU6GA2",
+							"id": "mzRrwlT2EJvHcUlP0",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Rare Attack Form@",
@@ -1435,14 +1435,14 @@
 							"disabled": true
 						},
 						{
-							"id": "moqHVpEScNWzjC4zS",
+							"id": "mUT9id1fwBOJU0Jxj",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "m0m6iExJ4VvcDGHUx",
+							"id": "mMacMXeqNjdu381MG",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Occasional Attack Form@",
@@ -1450,21 +1450,21 @@
 							"disabled": true
 						},
 						{
-							"id": "m2ayYk6dUchcVTwiI",
+							"id": "mQFz9W8OkEDnKlgrE",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mMG2zGKRCHy3LuAA3",
+							"id": "mayJjv4MB6nBhk1dp",
 							"name": "Tough Skin",
 							"notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mU9mRUWpDyc9ZcgU6",
+							"id": "mPbuOM6LF3OjrlIhm",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Common Attack Form@",
@@ -1472,7 +1472,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mgMo6_u3zyjLr82aa",
+							"id": "mfT-ydGFZUguKT1e3",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -1480,7 +1480,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mBQjr1lgLOh6sfEF-",
+							"id": "m5_stbojX5aWuECa3",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "Front",
@@ -1488,21 +1488,21 @@
 							"disabled": true
 						},
 						{
-							"id": "m_OYMB0qsxdVQdSvK",
+							"id": "mCTGMGSnvcO9ck-lA",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mo6NM0GLlYoecMyxz",
+							"id": "mmIliSZB-ha_WPHzL",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mVytxsG16rmOi7B6F",
+							"id": "mxoUB8SF8X0fo76lu",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Very Common Attack Form@",
@@ -1510,7 +1510,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mW1V0Oun2br3x9zhO",
+							"id": "mvOwgO6ZTaq2uXDGb",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Very Common@",
@@ -1518,7 +1518,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m6U-BMAy1FCpDYpFy",
+							"id": "m5SNerTv4saY9OYOL",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Common@",
@@ -1526,14 +1526,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mZZ8nxOa_bJ5Vh2XK",
+							"id": "mBZoo4I5d9iuhSRPt",
 							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 							"reference": "B47",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "m6EZYmzwQc497BwOR",
+							"id": "mxtXmEFU-McmHACno",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Occasional@",
@@ -1541,7 +1541,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mXF93RQNV-aWXl8UQ",
+							"id": "m1axAzL8sWwSeKlD2",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Rare@",
@@ -1550,14 +1550,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mCeHQkyIzz8HdngyM",
+							"id": "mmRNNak9bbvwJhu-F",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mBXwGvUucuP69HgyO",
+							"id": "mRH_SL8KAa46yZIE1",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances any trait",
@@ -1565,7 +1565,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m17p69GIVd1LiMzK0",
+							"id": "mXaaAmumR9w0rtzB9",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Healing only",
@@ -1573,7 +1573,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m9PQFyra4DNqQmB5A",
+							"id": "mWjB1st3mKyPnTUKV",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances @Trait@",
@@ -1581,21 +1581,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mQoMg1YemdRTEEihz",
+							"id": "mLb-yQnQSr1Hl8s_I",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mJL6UTXn7HFJg5O2A",
+							"id": "mKhlsEwLkcQAplUPA",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "m6ak7bIDJ-TByUWBm",
+							"id": "mgExczbttQyZV5FAk",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -1603,14 +1603,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mP1mj_zcPxRmBWuli",
+							"id": "mD0zHF8m31G5NF8xF",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "m1saGhxjQ2g4NxWiu",
+							"id": "miFlSI5OSyUuFexMQ",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
@@ -1645,7 +1645,7 @@
 					}
 				},
 				{
-					"id": "tWf3xr_9hJ_SstV1E",
+					"id": "tU6VxxyiY0Iw7_yz0",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1674,7 +1674,7 @@
 					}
 				},
 				{
-					"id": "t8Wfs1KYYoVmLibKB",
+					"id": "tVS3Sfs1wr6semeDc",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1704,7 +1704,7 @@
 					}
 				},
 				{
-					"id": "tQEEnoJK-kU1lOPyk",
+					"id": "tHvbLRWEUoDXs2yCQ",
 					"name": "Electrical",
 					"reference": "B134",
 					"tags": [
@@ -1718,7 +1718,7 @@
 					}
 				},
 				{
-					"id": "t57ME8Y0UfngHxiM3",
+					"id": "txk8ajgjibs3FCi9t",
 					"name": "Extra Hit Points",
 					"reference": "B16",
 					"tags": [
@@ -1728,14 +1728,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "muIf7znuRKEfDtd_5",
+							"id": "mt50kCSribiVmHNeN",
 							"name": "Size",
 							"cost": -10,
 							"levels": 1,
 							"disabled": true
 						},
 						{
-							"id": "m8VDRzMaWmIhLVGVV",
+							"id": "m79icDsn3ghYQpnM3",
 							"name": "No Fine Manipulators",
 							"cost": -40,
 							"disabled": true
@@ -1751,47 +1751,19 @@
 						}
 					],
 					"can_level": true,
-					"levels": 5,
+					"levels": 2,
 					"calc": {
-						"points": 10
+						"points": 4
 					}
 				},
 				{
-					"id": "tfGQYGpf7eWPuY4jy",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t50ZzyORV0rTiYwnb"
-					},
-					"name": "Keumic Anchor",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Supernatural"
-					],
-					"points_per_level": -10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "keum",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "Tta-jru2spZL4PQG1",
+					"id": "TUr1uLuYBFPQgtnGy",
 					"name": "Machine",
 					"reference": "B263",
 					"container_type": "meta_trait",
 					"children": [
 						{
-							"id": "tSEmzglSBhkzzk7lr",
+							"id": "t5k4hIiyU-nu-pBAU",
 							"name": "Eight-hour energy reserve, Refuel 3 times per day",
 							"reference": "B263",
 							"tags": [
@@ -1802,7 +1774,7 @@
 							}
 						},
 						{
-							"id": "tPwTSK6jNhZqOxu0a",
+							"id": "tseYIMDhQhf_I3Gky",
 							"name": "Injury Tolerance",
 							"reference": "B60",
 							"tags": [
@@ -1812,7 +1784,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mVXvo2VGLLr9yMlid",
+									"id": "mhLvyUFpD_URMyyYp",
 									"name": "Diffuse",
 									"reference": "B60",
 									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -1821,7 +1793,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m0GmNHeKZTvUyObdK",
+									"id": "mj0ecmhrGR0E4XGXQ",
 									"name": "Homogenous",
 									"reference": "B60",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -1830,7 +1802,7 @@
 									"disabled": true
 								},
 								{
-									"id": "msgdSHGrtVa8vQOFn",
+									"id": "mQAHoH6BD3qImXIVv",
 									"name": "No Blood",
 									"reference": "B61",
 									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -1838,7 +1810,7 @@
 									"cost_type": "points"
 								},
 								{
-									"id": "md3PyQmjrJnmTmUms",
+									"id": "mFDjWJE2ErHocdAic",
 									"name": "No Brain",
 									"reference": "B61",
 									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -1847,7 +1819,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mnFApF07LA4aQzSIl",
+									"id": "mYpfYa-B0RiZAcojP",
 									"name": "No Eyes",
 									"reference": "B61",
 									"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -1856,7 +1828,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m-MElm1oItqX6Wg2h",
+									"id": "mwXhjLFaUiIz_WaNg",
 									"name": "No Head",
 									"reference": "B61",
 									"notes": "Skull, Brain and Face cannot be targeted",
@@ -1865,7 +1837,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mQWXrVRcWU9cTpX4k",
+									"id": "mEoZrMXwXHSeAo51i",
 									"name": "No Neck",
 									"reference": "B61",
 									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -1874,7 +1846,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mHf9BRi7b0P06BqAn",
+									"id": "mU0GUFCoQdz9r0eCD",
 									"name": "No Vitals",
 									"reference": "B61",
 									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
@@ -1883,7 +1855,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m8Q22KWo_LhUqeySU",
+									"id": "mBaL7EEBbCs_YAMme",
 									"name": "Unliving",
 									"reference": "B61",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
@@ -1896,7 +1868,7 @@
 							}
 						},
 						{
-							"id": "t3VY_1j_Tim45xb5X",
+							"id": "tLZ2A_DsRFPYdoPOf",
 							"name": "No fatigue points, Don't spend fatigue points",
 							"reference": "B263",
 							"tags": [
@@ -1907,7 +1879,7 @@
 							}
 						},
 						{
-							"id": "tzhNRPqT015QjIvEX",
+							"id": "tMtwvRu2gXYCcdG9u",
 							"name": "Resistant",
 							"reference": "B81",
 							"tags": [
@@ -1916,14 +1888,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "m6gnpvZTwOhWp_eEE",
+									"id": "m3N__eFkD1PaYuYmb",
 									"name": "Metabolic Hazards",
 									"reference": "B80",
 									"cost": 30,
 									"cost_type": "points"
 								},
 								{
-									"id": "mf7EoE8ekChtBh6uT",
+									"id": "mcut057Q_RiXAdJ_H",
 									"name": "@Common: Poison, Sickness, etc.@",
 									"reference": "B81",
 									"cost": 15,
@@ -1931,7 +1903,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mrCX34d181r7YpOtf",
+									"id": "m73FnUTMK9on-2i2I",
 									"name": "@Occasional: Disease, Ingested Poison, etc.@",
 									"reference": "B81",
 									"cost": 10,
@@ -1939,7 +1911,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mqdqxuRcXyBkVU3xf",
+									"id": "mR8vadpoPFFysZmC7",
 									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
 									"reference": "B81",
 									"cost": 5,
@@ -1947,14 +1919,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mvxNOMRIaWpVEsC9j",
+									"id": "mkg_kG0nxpsY95DOA",
 									"name": "Immunity",
 									"reference": "B81",
 									"cost": 1,
 									"cost_type": "multiplier"
 								},
 								{
-									"id": "mwrcd8-OO_N_aJJrH",
+									"id": "myhH7Z_T6Un1YmHY3",
 									"name": "+8 to all HT rolls to resist",
 									"reference": "B81",
 									"cost": 0.5,
@@ -1962,7 +1934,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mNdjmuYqljxaaJ8q0",
+									"id": "m0yKZwDDsWYMemu9Y",
 									"name": "+3 to all HT rolls to resist",
 									"reference": "B81",
 									"cost": 0.33,
@@ -1976,7 +1948,7 @@
 							}
 						},
 						{
-							"id": "t_6ISXWHDvVsmnY9T",
+							"id": "t6BavNhaAnK7x6m-B",
 							"name": "Unhealing (Total)",
 							"reference": "B160",
 							"tags": [
@@ -1990,7 +1962,7 @@
 							}
 						},
 						{
-							"id": "ti0sD4E3KdI8EEcw0",
+							"id": "tUGj9z7KdQRkSJnKC",
 							"name": "Wears out instead of aging",
 							"reference": "B263",
 							"tags": [
@@ -2006,7 +1978,7 @@
 					}
 				},
 				{
-					"id": "tYzJYYtMqXU8QIvRG",
+					"id": "tUv1oHn4ebauV5Sfh",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2033,7 +2005,7 @@
 					}
 				},
 				{
-					"id": "tzCl20CTJRloJfw_i",
+					"id": "t95RZRfG1OZxtRzF-",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2061,7 +2033,7 @@
 					}
 				},
 				{
-					"id": "t2KW46HDcsdySg3VN",
+					"id": "tCUjHmYrQDaSqvTo7",
 					"name": "Noisy",
 					"reference": "B146",
 					"tags": [
@@ -2088,7 +2060,7 @@
 					}
 				},
 				{
-					"id": "tSWwBqo7a1U-mX3fH",
+					"id": "taMgvDQnqDQR1zzkc",
 					"name": "Reduced Consumption",
 					"reference": "B80",
 					"notes": "Refuel once per day",
@@ -2098,21 +2070,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mvdZvovsTiI_LmZMl",
+							"id": "mdV7NVB8rQM9_McC4",
 							"name": "Cast-Iron Stomach",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mWp-DX9PvDIyQu6Sf",
+							"id": "m4YbbGiDLmS-_rNDX",
 							"name": "Food Only",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mSsCuiOki9o5WuW5R",
+							"id": "mXGwhLDuNwF8pt--O",
 							"name": "Water Only",
 							"reference": "B80",
 							"cost": -50,
@@ -2128,7 +2100,7 @@
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 20
 			}
 		},
 		{
@@ -3828,7 +3800,7 @@
 		}
 	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-06-02T17:31:01+02:00",
+	"modified_date": "2025-06-04T23:20:37+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

@@ -45,6 +45,20 @@
 			}
 		},
 		{
+			"id": "tFZtmSpNbSUF2u-4M",
+			"name": "Attribute Substitution (@Attribute@-based @Skill@)",
+			"reference": "PU2:15",
+			"reference_highlight": "Attribute Substitution",
+			"tags": [
+				"Attribute",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tRF3rsWu6L-VV7qFv",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -78,6 +92,319 @@
 			"base_points": -1,
 			"calc": {
 				"points": -1
+			}
+		},
+		{
+			"id": "tYUMXUzun7SJ2aTnq",
+			"name": "Affliction — Narcotic Bite",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "MkCwcbCTdxvx7b4LV",
+					"name": "Attribute Penalties",
+					"children": [
+						{
+							"id": "mfG2Yz2IHHsplInXL",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mDTpUEsRP3aDE-NID",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m8IfN5-nF8w3Uff25",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "meX_PUau_t_4VuSJ3",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mopVFMNllxpM8oV_p",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "my2JXGFwxCHCmsBiK",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "MH5OkSQyvlPZB52oG",
+					"name": "Incapacitation",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "m7vRmT98nwm3198kW",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "magEnFq_TXbKYqKOI",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "muPoZMjrZfXzSxlbd",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mT6gyrzKDEn-93tA5",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mrYHMC2Dq4tmaDx00",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mlqiEnEhw94UvEhMA",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "my2oPhvE5qV3hh5lt",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mvatU5zvLhLvjNCWu",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mgcMt44H6huOsp8e8",
+							"name": "Sleep",
+							"cost": 150
+						},
+						{
+							"id": "mAFiBur14gr-Ij8MF",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "Mo3gIF-kaZn2i7uZm",
+					"name": "Irritations",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "m9Hx0sj8iinsExtqZ",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mOxWNjL__nGm8FXvQ",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mpfQEdWmdOElbZPHP",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mAPRDkFyhhTzFdVTb",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mTDmKMXTqT1CRpH_W",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mgLEErFS9EJ9DM2yC",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mI8jtjyutiijnUJhj",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "mjsMMsIXdtibvZ8Bb",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "MO0gQoKGtbRgr7fGV",
+					"name": "Mortal Conditions",
+					"children": [
+						{
+							"id": "m_zf-CYEspAGxeh34",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mN10ChdYwFw02-kuG",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "m81J3q9c7UkvR3iBW",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "Md75f_Mg1uz7TpPwA",
+					"name": "Traits",
+					"children": [
+						{
+							"id": "mUIimMN8O938obiuu",
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mz97XYJI7g8dQOpcp",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mqpinIGrSKSJTI7Js",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "muV0BSAODXYP0EuOo",
+					"name": "Follow-Up",
+					"reference": "B105,P102",
+					"notes": "Bite"
+				},
+				{
+					"id": "mC7qCou0g3EG_nNUT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mSAFsJswgoMiiLLNm"
+					},
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "2/day",
+					"cost": -30
+				},
+				{
+					"id": "mtP6JMph7lEy93YnT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m35mRHt7D1uGCmYeA"
+					},
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 minute",
+					"cost": -10
+				}
+			],
+			"base_points": 8,
+			"points_per_level": 2,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 21
 			}
 		},
 		{
@@ -8350,7 +8677,7 @@
 				"Disadvantage",
 				"Physical"
 			],
-			"points_per_level": -15,
+			"points_per_level": -10,
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -8362,7 +8689,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -15
+				"points": -10
 			}
 		},
 		{
@@ -9077,9 +9404,8 @@
 				"path": "CdP Rasgos (Especies).adq",
 				"id": "tmGpyuJ7BpkUVuUDw"
 			},
-			"name": "Disguise",
+			"name": "Morph — Disguise",
 			"reference": "B84",
-			"notes": "[Nu'karn] Morph",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -9087,89 +9413,89 @@
 			],
 			"modifiers": [
 				{
-					"id": "mAGzCFbflQbolOvQR",
+					"id": "mk-eA1LdMlMEeZNyr",
 					"name": "Unlimited",
 					"reference": "B85",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "myJPNajbyQiiQMfPC",
+					"id": "mz2OJ5frpSIlS5Sz8",
 					"name": "Cosmetic",
 					"reference": "B85",
 					"cost": -50
 				},
 				{
-					"id": "mAqWBHAaZeOxpFbrl",
+					"id": "mWU8fPImZWbBLm160",
 					"name": "Retains Shape",
 					"reference": "B85",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "mBPRSHEFzLtz9HhXX",
+					"id": "m0VTeo8f3bDFZtSDY",
 					"name": "Mass Conservation",
 					"reference": "B85",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "mT_-C9St-zfMnF1VU",
+					"id": "mcA27aPjn9WMLKQBa",
 					"name": "Active Change",
 					"reference": "P75",
 					"cost": 20,
 					"disabled": true
 				},
 				{
-					"id": "mpyT7OpYLmDpZi-ye",
+					"id": "mev8K6APtbrOyDBTm",
 					"name": "Improvised Forms",
 					"reference": "P75",
 					"cost": 100,
 					"disabled": true
 				},
 				{
-					"id": "mj6ziA_HQyeLEdzlF",
+					"id": "mZEVrYcVDBym7DHbE",
 					"name": "Cosmic (For Improvised Forms)",
 					"reference": "P75",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mODlHmXQQDs8yMYMF",
+					"id": "mtFEqnuHvIv3-joRT",
 					"name": "No Memorization Required",
 					"reference": "P75",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mMOCKwlVCDq9zN2Ie",
+					"id": "mBeeJLE0vJRGQu7cP",
 					"name": "Cannot Memorize Forms",
 					"reference": "P75",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mVZZ676t0rNuzU8c6",
+					"id": "mfcEREscu1iko8OaG",
 					"name": "Flawed",
 					"reference": "P75",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mAgc5UDqDtk1EhcSh",
+					"id": "mAhZMWG-mVirkEHvS",
 					"name": "Unliving Forms Only",
 					"reference": "P75",
 					"disabled": true
 				},
 				{
-					"id": "mlBAWGYV_pax139Tp",
+					"id": "mCw8zjLk4y1iPkLd0",
 					"name": "Preparation Required",
 					"reference": "B114",
-					"notes": "1 minute, Weakened without preparation",
+					"notes": "1 minute, else is weakened",
 					"cost": -10
 				},
 				{
-					"id": "mPRr6e6k61PJgrwaj",
+					"id": "m4-vkgQ1KetOW7Tl9",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Power Ups/Power Ups 8 Limitations Limitation Modifiers.adm",
@@ -10081,33 +10407,23 @@
 			],
 			"modifiers": [
 				{
-					"id": "mlLzt5OOS-xuvGioH",
+					"id": "mUm2oNrOsEchfaKcg",
 					"name": "Remote",
 					"reference": "P48",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mIhjSXK6eQO7B7HmK",
+					"id": "maiIhagGPCwNuZDH9",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
 						"id": "m2IwCpU9KwYmjiSSA"
 					},
-					"name": "Requires physical contact",
+					"name": "Accessibility",
 					"reference": "B110,P99",
-					"cost": -15
-				},
-				{
-					"id": "mhdnhUjBnYnM44p9o",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
-						"id": "m2IwCpU9KwYmjiSSA"
-					},
-					"name": "Only on living beings",
-					"reference": "B110,P99",
-					"cost": -5
+					"notes": "Requires physical contact with a living being",
+					"cost": -25
 				}
 			],
 			"base_points": 15,
@@ -11722,7 +12038,7 @@
 			},
 			"name": "Flight",
 			"reference": "B56,P50,PSI14",
-			"notes": "Air Move ||floor(($dx+$ht)/2)||",
+			"notes": "Air Move ||floor($basic_speed)*2||",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -11730,49 +12046,49 @@
 			],
 			"modifiers": [
 				{
-					"id": "muliDri7BGyPf5WM4",
+					"id": "mQcxW6Un7ya79bTTB",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "myQHqDaN0axtdtYmx",
+					"id": "mxlXg1ObxgOWi-IQp",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mnT1T2q6ZpB7976na",
+					"id": "mD4xV6gISa930mrph",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15,
 					"disabled": true
 				},
 				{
-					"id": "mYtZH2ZTS0diCq_vY",
+					"id": "mHRZvujFLf7MAuDyq",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "m2pvnlGOircgtgw5D",
+					"id": "mv_9NazIZExzp9_4-",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mLGJTQkpSORg0_DB1",
+					"id": "mFMR-Yy1SHBekrksv",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "m2a4dGKHfkouFvrAp",
+					"id": "mOwuIsva8_lMnYeau",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -11780,7 +12096,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mG6tzdkfOn1wIEaQO",
+					"id": "mIqRUgajD06et6WMj",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -11788,7 +12104,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mg194DcqV8oMfGU_G",
+					"id": "mzYe7cVWYBpxdY9wX",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -11796,42 +12112,42 @@
 					"disabled": true
 				},
 				{
-					"id": "m6SoQ4qMoTWb-iZqX",
+					"id": "mjMlzmaum6gZb-P8W",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mMUW7l-K5ftgWum0l",
+					"id": "mWxWeV73Bs5EJq0Hr",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "mFpbDc1MNL_bU1sI3",
+					"id": "mpm-jkfKTXLUMeRgh",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25,
 					"disabled": true
 				},
 				{
-					"id": "mNc_fEELzbPwY4UjJ",
+					"id": "maRD1q38wxmwSH17G",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "m5UfhRVBGAKF8xTly",
+					"id": "mFo05whDRR_D0-4AA",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "m_GH3ChKGvQ_xvp2E",
+					"id": "mswgc7LaRlrmJoNux",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -11839,14 +12155,14 @@
 					"disabled": true
 				},
 				{
-					"id": "m7oaZiG0aX1Fi9ov6",
+					"id": "m24_pTXW9NT3I2vtm",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mcZYLhFY5yLEb5kkl",
+					"id": "mUwNC1pthX5811Cpd",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -11855,7 +12171,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mUCPOAv49VrafWtqK",
+					"id": "mEgNvDHliDKa2_b2f",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -11864,7 +12180,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mOg6tqi4zsVYAyXFl",
+					"id": "mlyam9R3Ptm5iJNX-",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -11885,59 +12201,58 @@
 				"path": "CdP Rasgos (Especies).adq",
 				"id": "tPpFaRJ1HUGQR0azT"
 			},
-			"name": "Flight — Membranous Wings",
+			"name": "Flight — Regular Wings",
 			"reference": "B56,P50,PSI14",
-			"notes": "Air Move ||$basic_move*2||",
+			"notes": "Air Move ||floor($basic_speed)*2||",
 			"tags": [
 				"Advantage",
 				"Exotic",
 				"Physical"
 			],
-			"vtt_notes": "O'koptera Trait",
 			"modifiers": [
 				{
-					"id": "m6zSMhVP9jZFW1YyH",
+					"id": "mlxXyeEyaWbBRGy_-",
 					"name": "Newtonian Space Flight",
 					"reference": "B56",
 					"cost": 25,
 					"disabled": true
 				},
 				{
-					"id": "mRtxbk4ctN5CTW6iZ",
+					"id": "mi0FeMaL0_7Vd72H0",
 					"name": "Space Flight",
 					"reference": "B56",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mtZYRDuumK-yC5RRM",
+					"id": "mF6KWJsIWmYCZCGss",
 					"name": "Cannot Hover",
 					"reference": "B56",
 					"cost": -15
 				},
 				{
-					"id": "mXBONzhVkfVleGFGf",
+					"id": "mFXq4dK4HZTElBjfi",
 					"name": "Controlled Gliding",
 					"reference": "B56",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mB2FSb9kO-ez0jiKV",
+					"id": "mZWFEt3xTDgOjqv14",
 					"name": "Gliding",
 					"reference": "B56",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mH3VVQrJXKWmxej_g",
+					"id": "mRHnUXgNh6KiBWskX",
 					"name": "Lighter Than Air",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mnKohiL7q3jUhZuIA",
+					"id": "m6ZnoJ6ZLu74XnrtR",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "30'",
@@ -11945,7 +12260,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mVOUDjGETtL1WaCkZ",
+					"id": "mlbSWiGgwc9lmDR0F",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "10'",
@@ -11953,7 +12268,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mOGvqYNSFjGbO-OLq",
+					"id": "msPhaWV3gslOyZG9F",
 					"name": "Low Ceiling",
 					"reference": "B56",
 					"notes": "5'",
@@ -11961,41 +12276,41 @@
 					"disabled": true
 				},
 				{
-					"id": "mdUvAkyAuXqdeeDVM",
+					"id": "mu-GT0lcHGNPGbjeK",
 					"name": "Small Wings",
 					"reference": "B56",
 					"cost": -10,
 					"disabled": true
 				},
 				{
-					"id": "mGOg8uH_7Yggn5VU6",
+					"id": "mb4D2voWx8ox-da3R",
 					"name": "Space Flight Only",
 					"reference": "B56",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "mLjEKrJnvZ_w6C28i",
+					"id": "meCVu9Wtb9QZYo9VZ",
 					"name": "Winged",
 					"reference": "B56",
 					"cost": -25
 				},
 				{
-					"id": "mKLJTZPobmPAo68Pe",
+					"id": "mZNR2G3f2urWQ5EpC",
 					"name": "Planetary",
 					"reference": "P50",
 					"cost": -5,
 					"disabled": true
 				},
 				{
-					"id": "mskbJJ7WszuL99Jur",
+					"id": "mnxCjBykKVshmTamd",
 					"name": "Requires Surface",
 					"reference": "P50",
 					"cost": -20,
 					"disabled": true
 				},
 				{
-					"id": "m-XCOsgPs1OW0I2C3",
+					"id": "mOOu_BQzeDjZHSuxq",
 					"name": "Slow",
 					"reference": "PSI14",
 					"notes": "Basic Speed",
@@ -12003,14 +12318,14 @@
 					"disabled": true
 				},
 				{
-					"id": "moPqUCsLRvyoMU43z",
+					"id": "m7cTXFTYJ34Gx_DYk",
 					"name": "Slow, Move 1",
 					"reference": "PSI14",
 					"cost": -45,
 					"disabled": true
 				},
 				{
-					"id": "mIX0qMoPfHkPRULql",
+					"id": "mhKU9FfjXGRJI3mhH",
 					"name": "Encumbrance-Limited (No encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -12019,7 +12334,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m6qakqpHRcvZa0Yis",
+					"id": "mrdJqW7lyvOKzv9FA",
 					"name": "Encumbrance-Limited (Light encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -12028,7 +12343,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mCCWakIV1PTbqUSqI",
+					"id": "mdDP-ufbKJAQcYg3j",
 					"name": "Encumbrance-Limited (Medium encumbrance)",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -12037,7 +12352,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mg1RY8ulw4ts0PZ3p",
+					"id": "mBuxWnEc86K6iD0tl",
 					"name": "Up to Light encumbrance",
 					"reference": "FFWF12",
 					"reference_highlight": "Encumbrance-Limited",
@@ -14285,7 +14600,7 @@
 				"Attribute",
 				"Physical"
 			],
-			"points_per_level": 15,
+			"points_per_level": 10,
 			"features": [
 				{
 					"type": "attribute_bonus",
@@ -14297,7 +14612,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 15
+				"points": 10
 			}
 		},
 		{
@@ -22297,308 +22612,6 @@
 			}
 		},
 		{
-			"id": "tQZVOl0oZL-hTN62H",
-			"source": {
-				"library": "Dorovich/gcs-cdp",
-				"path": "CdP Rasgos (Especies).adq",
-				"id": "toZXB7Y-JMDD9OZ9R"
-			},
-			"name": "Paralyzing Bite",
-			"reference": "B35,P39,PSI13",
-			"notes": "[O'koptera] Affliction",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "Msj5DY3VRGsIGH6ep",
-					"name": "Attribute Penalties",
-					"children": [
-						{
-							"id": "mfHmOXoMJ17lWogw-",
-							"name": "DX Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to DX per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mVdFcXnxXDZoDmnDQ",
-							"name": "HT Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to HT per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "m9_aYljps72_jt6X0",
-							"name": "IQ Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to IQ per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mvaOkKJVbGAIDdXg-",
-							"name": "ST Penalty",
-							"reference": "B36",
-							"notes": "Gives -1 to ST per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "mLLyPpjdKFUlfzhU_",
-					"name": "Cancellation",
-					"reference": "PSI13",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "mFa9FRAZHsS013mT7",
-					"name": "Cumulative",
-					"reference": "B36",
-					"cost": 400,
-					"disabled": true
-				},
-				{
-					"id": "MVni1lBTJhsq4UTYB",
-					"name": "Incapacitation",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mFE3H5vSmuY5lfGcG",
-							"name": "Agony",
-							"reference": "B428",
-							"notes": "Lose 1 FP per minute",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mszkkOx8mWUYfZbfD",
-							"name": "Choking",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mS4nlXb_yRPtfm_CD",
-							"name": "Daze",
-							"reference": "B428",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mUogUWpx003Hf5pzh",
-							"name": "Ecstasy",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mVRsV2JwefiXMcqmS",
-							"name": "Hallucination",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mB9lL4_sr6lQmapMw",
-							"name": "Paralysis",
-							"reference": "B429",
-							"cost": 150
-						},
-						{
-							"id": "mzJgzZa8bM1OAzg0L",
-							"name": "Retching",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mqFMIcCNsvEQMDj_b",
-							"name": "Seizure",
-							"reference": "B429",
-							"notes": "Lose 1d FP at the end of the seizure",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mYOvxhG694jTHVH24",
-							"name": "Sleep",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "m7qjJREXwVi1tqGkS",
-							"name": "Unconsciousness",
-							"reference": "B429",
-							"cost": 200,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "M-4g3XYPcw_i6ESMp",
-					"name": "Irritations",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mX8Jdl_BrT5LJ0OgK",
-							"name": "Coughing",
-							"reference": "B428",
-							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mlSU8RmEMIV-Ghoio",
-							"name": "Drunk",
-							"reference": "B428",
-							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "m-6Ita6tm6GOFzzqs",
-							"name": "Euphoria",
-							"reference": "B428",
-							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "mTv4Lffo4dAz8E-jf",
-							"name": "Moderate Pain",
-							"reference": "B428",
-							"notes": "-2 to all DX, IQ, skill and self-control rolls",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mflK4t9HhUc0T4Sh5",
-							"name": "Nauseated",
-							"reference": "B428",
-							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "mEXtaRTng4YURku6b",
-							"name": "Severe Pain",
-							"reference": "B428",
-							"notes": "-4 to all DX, IQ, skill and self-control rolls",
-							"cost": 40,
-							"disabled": true
-						},
-						{
-							"id": "mskJSMueXpvmm_BVq",
-							"name": "Terrible Pain",
-							"reference": "B428",
-							"notes": "-6 to all DX, IQ, skill and self-control rolls",
-							"cost": 60,
-							"disabled": true
-						},
-						{
-							"id": "mVQyO3Od9aQc_z0yc",
-							"name": "Tipsy",
-							"reference": "B428",
-							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
-							"cost": 10,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "M5r3a91I5qbLLykwv",
-					"name": "Mortal Conditions",
-					"children": [
-						{
-							"id": "mbrcrpfLOaexFgLv1",
-							"name": "Coma",
-							"reference": "B429",
-							"cost": 250,
-							"disabled": true
-						},
-						{
-							"id": "mUqIe1R7o1b-eM7Rg",
-							"name": "Heart Attack",
-							"reference": "B429",
-							"cost": 300,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "m1290eeR68qJa6X_T",
-					"name": "Stunning",
-					"reference": "B36",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "MbxypcYlEWUEfLMHb",
-					"name": "Traits",
-					"children": [
-						{
-							"id": "mUuqIYr0bpcrlHQB0",
-							"name": "Gives @Advantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mqXIw8x_f6IyjnhOG",
-							"name": "Gives @Disadvantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "m-KuLjyE0Wr2b_N1B",
-							"name": "Negates @Advantage@",
-							"reference": "B36",
-							"notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "mAWIwW5r5EHCJ9FtU",
-					"name": "Follow-Up",
-					"reference": "B105,P102",
-					"notes": "Bite"
-				},
-				{
-					"id": "m1VD9u6z_-Xbi-XB-",
-					"name": "Limited Use",
-					"reference": "B112,P103",
-					"notes": "Once per day, Slow Reload",
-					"cost": -35
-				}
-			],
-			"base_points": 8,
-			"points_per_level": 2,
-			"can_level": true,
-			"levels": 2,
-			"calc": {
-				"points": 26
-			}
-		},
-		{
 			"id": "tv3BbsnlrRgbRVJOz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -27858,7 +27871,7 @@
 				"id": "tIFpRs5jIb4Ui5Rj1"
 			},
 			"name": "Tail Autotomy",
-			"notes": "[Kwazaar] Tail regrows in a week, once shed.",
+			"notes": "Tail regrows in a week, once shed.",
 			"tags": [
 				"Exotic",
 				"Perk",
@@ -30332,10 +30345,10 @@
 				"Advantage",
 				"Supernatural"
 			],
-			"vtt_notes": "Unusual background",
+			"userdesc": "Unusual background",
 			"modifiers": [
 				{
-					"id": "mfabUlnhg2300hXiB",
+					"id": "mg6XcbnQMWjfVSoLY",
 					"name": "Unusual Background",
 					"cost": 5,
 					"cost_type": "points",
@@ -30367,10 +30380,10 @@
 				"Advantage",
 				"Supernatural"
 			],
-			"vtt_notes": "Unusual background",
+			"userdesc": "Unusual background",
 			"modifiers": [
 				{
-					"id": "mDEka9cq3BxQQvb24",
+					"id": "myItdcQZxM-d2GPTb",
 					"name": "Unusual Background",
 					"cost": 10,
 					"cost_type": "points",
@@ -31052,9 +31065,8 @@
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "ttP5n0OVmbu8o50uI"
 			},
-			"name": "Venomous Bite",
+			"name": "Innate Attack (Toxic) — Venomous Bite",
 			"reference": "B62,P53,MA45",
-			"notes": "[Kwazaar] Innate Attack (Toxic)",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -31062,7 +31074,7 @@
 			],
 			"modifiers": [
 				{
-					"id": "mF5WFssFG-gJHwRxQ",
+					"id": "mCIvbHfx3cRmr_UbT",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 sec",
@@ -31071,7 +31083,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mVIyoVcxUydwceg5L",
+					"id": "mBAzhJKq1rSVDoGAw",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "10 sec",
@@ -31080,7 +31092,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mEMbrdh88KB6XXq0e",
+					"id": "mDURN29xcW3PC4CBl",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 min",
@@ -31089,7 +31101,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mfXWj49qkxlYzYnUz",
+					"id": "mBpsuq6rc3SlQoFyV",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 hr",
@@ -31098,7 +31110,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mwam6jib9zzdx18Ey",
+					"id": "muXgAuWoqeorVi8sx",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 day",
@@ -31107,7 +31119,7 @@
 					"disabled": true
 				},
 				{
-					"id": "ml-phJS-Mma5f13q8",
+					"id": "mKIlki90moMzG97HN",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 sec; Resistible",
@@ -31116,7 +31128,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mBkDL1vCrpNCYLe4k",
+					"id": "m4bCJFuwPoEPg5QzT",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "10 sec; Resistible",
@@ -31125,7 +31137,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mVrVlOE1pOLqQOhN0",
+					"id": "mmk1GwQtlFTT1dJ2h",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 min; Resistible",
@@ -31133,7 +31145,7 @@
 					"levels": 1
 				},
 				{
-					"id": "mugy41KawepnQwdDI",
+					"id": "mDBT9cWZG06ZdzBhz",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 hr; Resistible",
@@ -31142,7 +31154,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mL3ttwlI8Nvpx4pFa",
+					"id": "mH2Wo6OcoKmSJsAOG",
 					"name": "Cyclic",
 					"reference": "B103",
 					"notes": "1 day; Resistible",
@@ -31151,7 +31163,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m0TYOcFO3fuc16nDt",
+					"id": "mlgQx9fUfuahf-p7g",
 					"name": "Contagious",
 					"reference": "B103",
 					"notes": "Mildly",
@@ -31159,7 +31171,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mA5oNk8Cqa7noiHEV",
+					"id": "moNurKNTC2ykza--q",
 					"name": "Contagious",
 					"reference": "B103",
 					"notes": "Highly",
@@ -31167,7 +31179,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m2SF28KJpBHKhGtvo",
+					"id": "m4hJ3CR_MWLWKroN_",
 					"name": "Double Blunt Trauma",
 					"reference": "B104",
 					"notes": "1HP per 10 dmg",
@@ -31175,7 +31187,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m9V_O77kGQLyo4_1u",
+					"id": "mQm0M8rW_q-vX7Zim",
 					"name": "Explosion",
 					"reference": "B104",
 					"cost": 50,
@@ -31183,7 +31195,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m0wRA4FX04P-ng-Fa",
+					"id": "mdD-oGMg2f3t3H3gd",
 					"name": "Fragmentation",
 					"reference": "B104",
 					"cost": 15,
@@ -31191,7 +31203,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m41M5JUoD8YI541uz",
+					"id": "mSQYV-DeaC7_vE0Rg",
 					"name": "Fragmentation",
 					"reference": "B104",
 					"notes": "Hot",
@@ -31200,21 +31212,21 @@
 					"disabled": true
 				},
 				{
-					"id": "mtt36G0JELqnOWrTD",
+					"id": "mQyw3OcslnFHYo8vP",
 					"name": "Radiation",
 					"reference": "B104",
 					"cost": 100,
 					"disabled": true
 				},
 				{
-					"id": "m3IyorB0B_F1OE4_I",
+					"id": "mWJHaOxePj8jkpzts",
 					"name": "Surge",
 					"reference": "B104",
 					"cost": 20,
 					"disabled": true
 				},
 				{
-					"id": "mFCcNim5i06ohFZ2-",
+					"id": "m0KDpX8t6UTe8NESk",
 					"name": "Armor Divisor",
 					"reference": "B102",
 					"notes": "2",
@@ -31222,7 +31234,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mozrkyNf8gn0aAi0m",
+					"id": "mrUsfWPixRDvitmeh",
 					"name": "Armor Divisor",
 					"reference": "B102",
 					"notes": "3",
@@ -31230,7 +31242,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m6Bn8YwnhQxEf-9Pw",
+					"id": "m3QJU7nAde5y646ik",
 					"name": "Armor Divisor",
 					"reference": "B102",
 					"notes": "5",
@@ -31238,7 +31250,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mEloekJaW0H6IgA3R",
+					"id": "mWcWyBuN-egE0z6cS",
 					"name": "Armor Divisor",
 					"reference": "B102",
 					"notes": "10",
@@ -31246,21 +31258,21 @@
 					"disabled": true
 				},
 				{
-					"id": "my6WnIzToNlm9hMxv",
+					"id": "m5luHzvPi-avkbXBu",
 					"name": "Side Effect",
 					"reference": "B109",
 					"notes": "@Effect@",
 					"disabled": true
 				},
 				{
-					"id": "mIxu2y2_stbLRmgLH",
+					"id": "m3G1AO_9j8wZOQJxc",
 					"name": "Symptoms",
 					"reference": "B109",
 					"notes": "@Effect@",
 					"disabled": true
 				},
 				{
-					"id": "mYvs68Uzzroc7jy0M",
+					"id": "mXBgumk9p_J80cbK-",
 					"name": "Armor Divisor",
 					"reference": "B110",
 					"notes": "0.5",
@@ -31268,7 +31280,7 @@
 					"disabled": true
 				},
 				{
-					"id": "m-dA3zvYbsScwsrns",
+					"id": "mcL1Wut7rRbih861M",
 					"name": "Armor Divisor",
 					"reference": "B110",
 					"notes": "0.2",
@@ -31276,7 +31288,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mqRMg0WgaF8ojC32E",
+					"id": "mmYVGah8Tm_ZIP0Qj",
 					"name": "Armor Divisor",
 					"reference": "B110",
 					"notes": "0.1",
@@ -31284,21 +31296,21 @@
 					"disabled": true
 				},
 				{
-					"id": "mgF86P9BQHq2KCYjO",
+					"id": "meYwns436z6dcR29R",
 					"name": "No Wounding",
 					"reference": "B111",
 					"cost": -50,
 					"disabled": true
 				},
 				{
-					"id": "mhwi1rHWxNempFwHO",
+					"id": "mVTS9ydHzv4m3QTEK",
 					"name": "Incendiary",
 					"reference": "B104",
 					"cost": 10,
 					"disabled": true
 				},
 				{
-					"id": "mqT78hjxfixPpU8_a",
+					"id": "mGYmfrkuuUrje1E-0",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
@@ -31307,12 +31319,37 @@
 					"name": "Follow-Up",
 					"reference": "B105,P102",
 					"notes": "Bite"
+				},
+				{
+					"id": "mcj2MlFk2RXU1rENT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m35mRHt7D1uGCmYeA"
+					},
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 minute",
+					"cost": -10
+				},
+				{
+					"id": "mXzJ2VsAQ6W2TWvNY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m-F3ACfcl680ioFta"
+					},
+					"name": "Resistible",
+					"reference": "B115,P105",
+					"notes": "HT-5, +1/level \u003e1",
+					"cost": -5,
+					"levels": 1
 				}
 			],
 			"points_per_level": 4,
 			"weapons": [
 				{
-					"id": "W8C_6fRFRCRKNIaff",
+					"id": "WiVWmnDqzu_rtQxwK",
 					"damage": {
 						"type": "tox",
 						"base": "1d"
@@ -31343,9 +31380,9 @@
 				}
 			],
 			"can_level": true,
-			"levels": 2,
+			"levels": 1,
 			"calc": {
-				"points": 10
+				"points": 5
 			}
 		},
 		{

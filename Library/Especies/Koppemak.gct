@@ -507,37 +507,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 5,
+					"levels": 2,
 					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "t0p1qo-_s7asWP0DQ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t50ZzyORV0rTiYwnb"
-					},
-					"name": "Keumic Anchor",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Supernatural"
-					],
-					"points_per_level": -10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "keum",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -10
+						"points": 4
 					}
 				},
 				{
@@ -884,7 +856,7 @@
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 20
 			}
 		}
 	]

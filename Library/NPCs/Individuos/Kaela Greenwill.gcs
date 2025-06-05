@@ -75,7 +75,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -87,7 +87,7 @@
 			{
 				"id": "fright_check",
 				"type": "integer",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -96,24 +96,18 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -122,7 +116,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -173,7 +167,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -182,7 +176,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -191,7 +185,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -200,7 +194,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -209,7 +203,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -235,39 +229,49 @@
 				]
 			},
 			{
-				"id": "sp",
+				"id": "fp",
 				"type": "pool",
-				"name": "SP",
-				"attribute_base": "$will",
-				"cost_per_point": 2,
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
 						"state": "Collapse",
-						"expression": "-$sp"
-					},
-					{
-						"state": "Panicking",
 						"expression": "0",
-						"explanation": "-6 to any rolls that make sense"
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Distressed",
-						"expression": "ceil($sp/3)-1",
-						"explanation": "-4 to any rolls that make sense"
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Stressed",
-						"expression": "round($sp/2)",
-						"explanation": "-2 to any rolls that make sense"
+						"state": "Tiring",
+						"expression": "$fp-1"
 					},
 					{
-						"state": "Stressed",
-						"expression": "$sp-1",
-						"explanation": "-1 to any rolls that make sense"
-					},
-					{
-						"state": "Calm",
-						"expression": "$sp"
+						"state": "Rested",
+						"expression": "$fp"
 					}
 				]
 			}
@@ -456,25 +460,25 @@
 		},
 		{
 			"attr_id": "iq",
-			"adj": 3,
+			"adj": 2,
 			"calc": {
-				"value": 13,
-				"points": 60
+				"value": 12,
+				"points": 40
 			}
 		},
 		{
 			"attr_id": "ht",
-			"adj": 1,
+			"adj": 0,
 			"calc": {
-				"value": 11,
-				"points": 15
+				"value": 10,
+				"points": 0
 			}
 		},
 		{
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
-				"value": 13,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -482,7 +486,7 @@
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 13,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -490,7 +494,7 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 5.75,
+				"value": 5.5,
 				"points": 0
 			}
 		},
@@ -503,22 +507,14 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -526,7 +522,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -534,7 +530,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -542,7 +538,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -550,7 +546,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -564,11 +560,11 @@
 			}
 		},
 		{
-			"attr_id": "sp",
+			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
-				"value": 13,
-				"current": 13,
+				"value": 10,
+				"current": 10,
 				"points": 0
 			}
 		}
@@ -2686,12 +2682,12 @@
 				"type": "skill",
 				"name": "Merchant",
 				"modifier": -3,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 15,
+				"level": 14,
 				"rsl": "IQ+2"
 			}
 		},
@@ -2719,12 +2715,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 15,
+				"level": 14,
 				"rsl": "IQ+2"
 			}
 		},
@@ -2757,7 +2753,7 @@
 			],
 			"points": 4,
 			"calc": {
-				"level": 15,
+				"level": 14,
 				"rsl": "IQ+2"
 			}
 		},
@@ -2794,12 +2790,12 @@
 				"name": "Psychology",
 				"specialization": "Korkon",
 				"modifier": -4,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 10,
+				"level": 11,
 				"rsl": "Per-1"
 			}
 		},
@@ -2833,12 +2829,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "IQ+0"
 			}
 		},
@@ -2882,12 +2878,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "IQ+0"
 			}
 		},
@@ -2943,12 +2939,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -2990,12 +2986,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "IQ+0"
 			}
 		},
@@ -3022,12 +3018,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "IQ+0"
 			}
 		},
@@ -3173,12 +3169,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "IQ-1"
 			}
 		},
@@ -3206,12 +3202,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 15,
+				"level": 14,
 				"rsl": "IQ+2"
 			}
 		},
@@ -3249,12 +3245,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3297,7 +3293,7 @@
 			"tech_level": "(5+1)",
 			"points": 4,
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3337,9 +3333,9 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
 				"level": 13,
@@ -3376,12 +3372,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "IQ-1"
 			}
 		},
@@ -3415,12 +3411,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "IQ-1"
 			}
 		},
@@ -3464,12 +3460,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3505,12 +3501,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3548,12 +3544,12 @@
 				"name": "Savoir-Faire",
 				"specialization": "High Society",
 				"modifier": -2,
-				"level": 11,
-				"adjusted_level": 11,
-				"points": -11
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3628,12 +3624,12 @@
 				"type": "skill",
 				"name": "Airshipman",
 				"modifier": -5,
-				"level": 10,
-				"adjusted_level": 10,
-				"points": -10
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
 			},
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "IQ+1"
 			}
 		},
@@ -3700,12 +3696,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "IQ-1"
 			}
 		},
@@ -3775,12 +3771,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -5,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "IQ-1"
 			}
 		}
@@ -4030,7 +4026,7 @@
 		}
 	],
 	"created_date": "2024-09-02T19:38:51+02:00",
-	"modified_date": "2025-06-01T19:10:30+02:00",
+	"modified_date": "2025-06-03T22:54:43+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

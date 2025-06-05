@@ -75,7 +75,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -87,7 +87,7 @@
 			{
 				"id": "fright_check",
 				"type": "integer",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -96,24 +96,18 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -122,7 +116,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -173,7 +167,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -182,7 +176,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -191,7 +185,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -200,7 +194,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -209,7 +203,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -235,39 +229,49 @@
 				]
 			},
 			{
-				"id": "sp",
+				"id": "fp",
 				"type": "pool",
-				"name": "SP",
-				"attribute_base": "$will",
-				"cost_per_point": 2,
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
 						"state": "Collapse",
-						"expression": "-$sp"
-					},
-					{
-						"state": "Panicking",
 						"expression": "0",
-						"explanation": "-6 to any rolls that make sense"
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Distressed",
-						"expression": "ceil($sp/3)-1",
-						"explanation": "-4 to any rolls that make sense"
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
 					},
 					{
-						"state": "Stressed",
-						"expression": "round($sp/2)",
-						"explanation": "-2 to any rolls that make sense"
+						"state": "Tiring",
+						"expression": "$fp-1"
 					},
 					{
-						"state": "Stressed",
-						"expression": "$sp-1",
-						"explanation": "-1 to any rolls that make sense"
-					},
-					{
-						"state": "Calm",
-						"expression": "$sp"
+						"state": "Rested",
+						"expression": "$fp"
 					}
 				]
 			}
@@ -467,7 +471,7 @@
 			"adj": 1,
 			"calc": {
 				"value": 11,
-				"points": 15
+				"points": 10
 			}
 		},
 		{
@@ -503,22 +507,14 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -526,7 +522,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -534,7 +530,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -542,7 +538,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -550,7 +546,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -564,11 +560,11 @@
 			}
 		},
 		{
-			"attr_id": "sp",
+			"attr_id": "fp",
 			"adj": 0,
 			"calc": {
-				"value": 12,
-				"current": 12,
+				"value": 11,
+				"current": 11,
 				"points": 0
 			}
 		}
@@ -1338,6 +1334,717 @@
 			}
 		},
 		{
+			"id": "TJZa_7t102flWfAuL",
+			"name": "O'koptera",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "tCmx6GlfItWhluaU2",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tZRPo1XCgs4WPVW6U"
+					},
+					"name": "Bad Vision",
+					"points_per_level": -2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -4
+					}
+				},
+				{
+					"id": "tkmuxc-B61_YvUTuY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tBmSJ3pNE53c4IRUU"
+					},
+					"name": "Damage Resistance",
+					"reference": "B47,P45,MA43,PSI14",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mFzooa848ky-5EdSz",
+							"name": "Force Field",
+							"reference": "B47",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mpWpPivqcmAAFaqJj",
+							"name": "Hardened",
+							"reference": "B47",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m12CRNW0B91d1mlfP",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances @Trait@",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "muIX-Xva5HxNgSuoK",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Healing only",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "m8n_xaUPzzgvjn-kB",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances any trait",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mhJFiq3288Y0mJutO",
+							"name": "Reflection",
+							"reference": "B47",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mazt--sQxZAobDpcc",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Rare@",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mYwwRTgFNLM6aL85B",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Occasional@",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "mNMgX8S_RCVIHy75z",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Common@",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mJFT7tSsFwIL2fsB1",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Very Common@",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "mEQjjICm3OBjKgWRw",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "Front",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mlWwPT-_qeqWqfoi1",
+							"name": "Flexible",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mqxmBnrvaU_v2KVXu",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Very Common Attack Form@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m9-57sqHY9-ZGZjR-",
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mMuS1ewqcI-VaF1o7",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mPt0Q6nn-rbRKWpRq",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "moRHEllH3IvAKkUQV",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Common Attack Form@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mAQV4fxes-cIZ4dC_",
+							"name": "Tough Skin",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mHd501LPNBE9TJZP7",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Occasional Attack Form@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "m9oiSBvhLpYXm0xPp",
+							"name": "Ablative",
+							"reference": "B47",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "m0KqQNYcJaMPJLG3q",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Rare Attack Form@",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mXOBxfhNMrDxX5Nq5",
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mhhMHyk1_J0-5NZpv",
+							"name": "Malediction-Proof",
+							"reference": "PSI14",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m7oVChA2ucU3JLJ-_",
+							"name": "Maledictions Only",
+							"reference": "PSI14",
+							"disabled": true
+						},
+						{
+							"id": "mgPWetGJBB8K7uklc",
+							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+							"reference": "B47",
+							"cost": -10,
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arms",
+								"face",
+								"feet",
+								"groin",
+								"hands",
+								"head",
+								"legs",
+								"neck",
+								"skull",
+								"torso",
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tqzh57yhvs3lnKBCX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tjKuFiuy3Fs6rm69e"
+					},
+					"name": "Discriminatory Smell",
+					"reference": "B49,P47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mtc4V34zdp8-HOI7Y",
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mu3G8WVmE5x1EOoXc",
+							"name": "Profiling",
+							"reference": "P47",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mcimdXn_1dzQRfALL",
+							"name": "Racial Emotion Sense",
+							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
+							"cost": 30
+						},
+						{
+							"id": "m_JfInGPU2p3wGOpz",
+							"name": "Vague Communication"
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tracking"
+							},
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "on any task that utilizes sense of smell",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "tCrvDt9CHXI7WZ2RV",
+					"name": "Extra Arm",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m6qV-qb6mi_o7bsJ1",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "meScVgy8NQURpw_BI",
+							"name": "Long",
+							"reference": "B53",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mbbSYsSoTMDli5Y8X",
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mARsPGgJZcjWj4CMe",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mtr2ZsakTGVfpIZgG",
+							"name": "Short",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mQ3qWuJT5HHbMdGYS",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Half body ST",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "m0nRDfQq3IHel8ror",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Quarter body ST",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mXobyIeFo6pudBlDo",
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "musF3YoEuAUdQewXQ",
+							"name": "No Grasping Hand",
+							"reference": "MATG28",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "tScuzC9qOmJ-rczLD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tpVpKxJ4O8NxUBBDE"
+					},
+					"name": "Fewer Hit Points",
+					"reference": "B16",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hp",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "tCUDXVdpANiYuoegZ",
+					"name": "Night Vision",
+					"reference": "B71,P87",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "tgqde7UE2AY-AVVo1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "tyk4elDSJmb7D6itb"
+					},
+					"name": "No Ribcage DR",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "t2KBbD49NK1FROYoJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "tyk4elDSJmb7D6itb"
+					},
+					"name": "No Skull DR",
+					"reference": "TT2:29",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -2,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "tc7jgfW9gTLx1s025",
+					"name": "Short Lifespan",
+					"reference": "B154",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": -10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tU0Qv9njR8Z-Lrzla",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "tPOhOhsKqL-QhIea5"
+					},
+					"name": "Signals (Chemical Messengers)",
+					"reference": "TT2:44",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Discriminatory Smell"
+								}
+							}
+						]
+					},
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tr6S25_yi6jL2VrBD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tlCuUK0YaDVALIxPZ"
+					},
+					"name": "Social Stigma (Cannibal)",
+					"reference": "B156",
+					"notes": "Except for koppemak and other o'koptera",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others except koppemak and o'koptera",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "taXF5T_HdE6jb3tEO",
+					"name": "Vibration Sense (Air)",
+					"reference": "B96,P86",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mYehQjbdH7oXeT2vf",
+							"name": "Universal",
+							"reference": "B96",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m4X36dcK72a2BMFjD",
+							"name": "Sense of Perception",
+							"reference": "P86",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mPM3ouyTA_Dxf3b2r",
+							"name": "Targeting",
+							"reference": "P86",
+							"cost": 20,
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "t-cY1cQAfg44zkotU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tgZ_USe8H3_wWhOHm"
+					},
+					"name": "Vulnerability (Fire)",
+					"reference": "B161",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mCLzLwtILXOfw55ye",
+							"name": "@Rare attack@",
+							"reference": "B161",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "meFsYy5NYOcFxJIT4",
+							"name": "@Occasional attack@",
+							"reference": "B161",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mLApTY6uJHXTyvvYS",
+							"name": "Common",
+							"reference": "B161",
+							"cost": -15,
+							"cost_type": "points"
+						},
+						{
+							"id": "mLkAzbHjrXRg6pkLp",
+							"name": "@Very common attack@",
+							"reference": "B161",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mOo48sfZTjul0zCfD",
+							"name": "Wounding ×1.5",
+							"reference": "B161",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "m-JQVie7pj2esnZ8S",
+							"name": "Wounding x2",
+							"reference": "B161",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mh-3F1y7ezNvXaTXC",
+							"name": "Wounding x3",
+							"reference": "B161",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "ma-cjEToOa5vnR-yS",
+							"name": "Wounding x4",
+							"reference": "B161",
+							"cost": 4,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mUEyE1fH4Ql1lfM2g",
+							"name": "Fatigue Only",
+							"reference": "B161",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				}
+			],
+			"calc": {
+				"points": 30
+			}
+		},
+		{
 			"id": "tjGCVpifdUvKhQRco",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1559,718 +2266,6 @@
 			"levels": 8,
 			"calc": {
 				"points": 20
-			}
-		},
-		{
-			"id": "TTo6wyZEt-Iz4cohS",
-			"name": "O'koptera",
-			"ancestry": "Human",
-			"container_type": "ancestry",
-			"children": [
-				{
-					"id": "tmDoq_GuJDY-LNOVg",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Rasgos.adq",
-						"id": "tZRPo1XCgs4WPVW6U"
-					},
-					"name": "Bad Vision",
-					"points_per_level": -2,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "vision",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": -4
-					}
-				},
-				{
-					"id": "tRd9O1Rb6bCxnLPvJ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tBmSJ3pNE53c4IRUU"
-					},
-					"name": "Damage Resistance",
-					"reference": "B47,P45,MA43,PSI14",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "miGYgiw1wa-PxwtXe",
-							"name": "Force Field",
-							"reference": "B47",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "m8rloherB9IJnLLyP",
-							"name": "Hardened",
-							"reference": "B47",
-							"cost": 20,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mN5XSpNRaGA7klMtX",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Enhances @Trait@",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "miRzPu_-b9g1sge_Q",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Healing only",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mDOadsSEVGNiGlki2",
-							"name": "Absorption",
-							"reference": "B46",
-							"notes": "Enhances any trait",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mwkFj6Ib3ptaQENjp",
-							"name": "Reflection",
-							"reference": "B47",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mnF7eCaN3sjZcyOTR",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Rare@",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "m_dtdXt8WF40_OyhK",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Occasional@",
-							"cost": -5,
-							"disabled": true
-						},
-						{
-							"id": "mZpY4M4WW6dY4kLMb",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Common@",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "mOuF4glecKwhxsrNA",
-							"name": "Bane",
-							"reference": "H14",
-							"notes": "@Very Common@",
-							"cost": -15,
-							"disabled": true
-						},
-						{
-							"id": "m4hMLj9xutMlAtLXO",
-							"name": "Directional",
-							"reference": "B47",
-							"notes": "Front",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "m4vIjOcCwh8WoH66B",
-							"name": "Flexible",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mewuTdlp34yCp-pM4",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mKIYVO3WHdSoPdX8R",
-							"name": "Semi-Ablative",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mrW41rj2aLwEyKXwQ",
-							"name": "Can't wear armor",
-							"reference": "B47",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mm-f3Iyk-V4YA2O3e",
-							"name": "Directional",
-							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "m-aqjG4lHhWiliM0K",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Common Attack Form@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mdA5beSvidDgVyWw9",
-							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mHr3KeFPFCUTIMH3G",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
-							"cost": -60,
-							"disabled": true
-						},
-						{
-							"id": "mPy0rniL9BZeJEXId",
-							"name": "Ablative",
-							"reference": "B47",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mpkk_YUl8MEtSBFxO",
-							"name": "Limited",
-							"reference": "B46",
-							"notes": "@Rare Attack Form@",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mnpf3tfKHddMpp9AX",
-							"name": "Laminate",
-							"reference": "RSWL18",
-							"cost": 10,
-							"disabled": true
-						},
-						{
-							"id": "mh_p89Jwk16c537q5",
-							"name": "Malediction-Proof",
-							"reference": "PSI14",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mMEPtIPWUqylAFxbx",
-							"name": "Maledictions Only",
-							"reference": "PSI14",
-							"disabled": true
-						},
-						{
-							"id": "mjta_65Jv-gxxx0vV",
-							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
-							"reference": "B47",
-							"cost": -10,
-							"disabled": true
-						}
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"arms",
-								"face",
-								"feet",
-								"groin",
-								"hands",
-								"head",
-								"legs",
-								"neck",
-								"skull",
-								"torso",
-								"vitals"
-							],
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "tyY_nAnXW4Zu-jTIN",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tjKuFiuy3Fs6rm69e"
-					},
-					"name": "Discriminatory Smell",
-					"reference": "B49,P47",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mqt4ISU6er0i-9h_t",
-							"name": "Emotion Sense",
-							"reference": "B49",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mTpf_cFHRqGa3Ug0V",
-							"name": "Profiling",
-							"reference": "P47",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "m8c9VdrVaj6KgOjQk",
-							"name": "Racial Emotion Sense",
-							"notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
-							"cost": 25
-						},
-						{
-							"id": "mGfFeJfUg1jyljeqI",
-							"name": "Vague Communication"
-						}
-					],
-					"base_points": 15,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "Tracking"
-							},
-							"amount": 4
-						},
-						{
-							"type": "conditional_modifier",
-							"situation": "on any task that utilizes sense of smell",
-							"amount": 4
-						}
-					],
-					"calc": {
-						"points": 19
-					}
-				},
-				{
-					"id": "tegjaADFbRlAgkMGW",
-					"name": "Extra Arm",
-					"reference": "B53",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mvkc_xXFQRiLuENo7",
-							"name": "Extra-Flexible",
-							"reference": "B53",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mkyrb6wgLR9Ume1i7",
-							"name": "Long",
-							"reference": "B53",
-							"cost": 100,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mAoa_gI0YiNBbg07j",
-							"name": "Foot Manipulators",
-							"reference": "B53",
-							"cost": -30,
-							"disabled": true
-						},
-						{
-							"id": "mBlDeJWqrgsXHMcey",
-							"name": "No Physical Attack",
-							"reference": "B53",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "mByFbKcSsEmNZDEUG",
-							"name": "Short",
-							"reference": "B53",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "mNvXuCInALah8Yjxv",
-							"name": "Weak",
-							"reference": "B53",
-							"notes": "Half body ST",
-							"cost": -25,
-							"disabled": true
-						},
-						{
-							"id": "mSHOOoIah6IEdLj8Z",
-							"name": "Weak",
-							"reference": "B53",
-							"notes": "Quarter body ST",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "mc2LuG2CnUDTh04WB",
-							"name": "Weapon Mount",
-							"reference": "B53",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mQSmfr27v2lPLJalb",
-							"name": "No Grasping Hand",
-							"reference": "MATG28",
-							"cost": -40,
-							"disabled": true
-						}
-					],
-					"points_per_level": 10,
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "tC4xVwcNGhCCz6Syv",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tpVpKxJ4O8NxUBBDE"
-					},
-					"name": "Fewer Hit Points",
-					"reference": "B16",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -2,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "hp",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -2
-					}
-				},
-				{
-					"id": "tXHZdIvpEqjyKo7vt",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"points_per_level": 1,
-					"can_level": true,
-					"levels": 4,
-					"calc": {
-						"points": 4
-					}
-				},
-				{
-					"id": "tiHe2m3YMkTQB4eEm",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Ribcage DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"base_points": -1,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"vitals"
-							],
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -1
-					}
-				},
-				{
-					"id": "t7dwTPEeSh93jaXMv",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Skull DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"base_points": -2,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"skull"
-							],
-							"amount": -2
-						}
-					],
-					"calc": {
-						"points": -2
-					}
-				},
-				{
-					"id": "tyVu3c5a0G-9CTL7d",
-					"name": "Short Lifespan",
-					"reference": "B154",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"points_per_level": -10,
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "te34jegOI2XnRn2yY",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tPOhOhsKqL-QhIea5"
-					},
-					"name": "Signals (Chemical Messengers)",
-					"reference": "TT2:44",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "trait_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Discriminatory Smell"
-								}
-							}
-						]
-					},
-					"base_points": 15,
-					"calc": {
-						"points": 15
-					}
-				},
-				{
-					"id": "tqUi6_RnFBLbQ4zHU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tlCuUK0YaDVALIxPZ"
-					},
-					"name": "Social Stigma (Cannibal)",
-					"reference": "B156",
-					"notes": "Except for koppemak and other o'koptera",
-					"tags": [
-						"Disadvantage",
-						"Social"
-					],
-					"base_points": -5,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from others except koppemak and o'koptera",
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -5
-					}
-				},
-				{
-					"id": "tBppTJmMpZS02OJTy",
-					"name": "Vibration Sense (Air)",
-					"reference": "B96,P86",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mqVgu3qa_xDPfSfIE",
-							"name": "Universal",
-							"reference": "B96",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mM_4n2alBMtt7nH8F",
-							"name": "Sense of Perception",
-							"reference": "P86",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mqu0OwmU39o2n41la",
-							"name": "Targeting",
-							"reference": "P86",
-							"cost": 20,
-							"disabled": true
-						}
-					],
-					"base_points": 10,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "tpJ-QHHqWxaG0lWc_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tgZ_USe8H3_wWhOHm"
-					},
-					"name": "Vulnerability (Fire)",
-					"reference": "B161",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mw1RVb-vOsh8ClT50",
-							"name": "@Rare attack@",
-							"reference": "B161",
-							"cost": -5,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mLnQDAyUV6DfGe8mo",
-							"name": "@Occasional attack@",
-							"reference": "B161",
-							"cost": -10,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mdPfuNL6RqJdPxu5M",
-							"name": "Common",
-							"reference": "B161",
-							"cost": -15,
-							"cost_type": "points"
-						},
-						{
-							"id": "mcUMJZX19k2_Kt5zT",
-							"name": "@Very common attack@",
-							"reference": "B161",
-							"cost": -20,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mPFdtL1u7II25_eUF",
-							"name": "Wounding ×1.5",
-							"reference": "B161",
-							"cost": 1,
-							"cost_type": "multiplier"
-						},
-						{
-							"id": "m6_zAvtxR6qcZjYDw",
-							"name": "Wounding x2",
-							"reference": "B161",
-							"cost": 2,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "m6-IZfiyzGUnPmqoM",
-							"name": "Wounding x3",
-							"reference": "B161",
-							"cost": 3,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "mzYb_1bbSzwVrGzKn",
-							"name": "Wounding x4",
-							"reference": "B161",
-							"cost": 4,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "m2U1mUmM8VAZSqQcj",
-							"name": "Fatigue Only",
-							"reference": "B161",
-							"cost": -50,
-							"disabled": true
-						}
-					],
-					"calc": {
-						"points": -15
-					}
-				}
-			],
-			"calc": {
-				"points": 39
 			}
 		}
 	],
@@ -2852,12 +2847,12 @@
 				"name": "Survival",
 				"specialization": "Jungle",
 				"modifier": -3,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
 			},
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per+0"
 			}
 		},
@@ -2933,12 +2928,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per+0"
 			}
 		},
@@ -3016,12 +3011,12 @@
 				"name": "Survival",
 				"specialization": "Desert",
 				"modifier": -3,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
 			},
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per+0"
 			}
 		},
@@ -3099,12 +3094,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "Per+1"
 			}
 		}
@@ -3178,7 +3173,7 @@
 		}
 	],
 	"created_date": "2025-04-29T16:26:19+02:00",
-	"modified_date": "2025-06-01T19:10:24+02:00",
+	"modified_date": "2025-06-04T23:50:03+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

@@ -388,7 +388,7 @@
 					}
 				},
 				{
-					"id": "tLwCUvi0iM2t1xU70",
+					"id": "tfmnwfpGffH__-dva",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -400,13 +400,14 @@
 						"Advantage",
 						"Supernatural"
 					],
-					"vtt_notes": "Unusual background",
+					"userdesc": "Unusual background",
 					"modifiers": [
 						{
-							"id": "msD0qZdS33WHanFJd",
+							"id": "m3BfTu7Hk0riF4KH0",
 							"name": "Unusual Background",
 							"cost": 5,
-							"cost_type": "points"
+							"cost_type": "points",
+							"disabled": true
 						}
 					],
 					"base_points": 15,
@@ -418,7 +419,7 @@
 						}
 					],
 					"calc": {
-						"points": 20
+						"points": 15
 					}
 				},
 				{
@@ -509,7 +510,7 @@
 				}
 			],
 			"calc": {
-				"points": 29
+				"points": 24
 			}
 		}
 	]

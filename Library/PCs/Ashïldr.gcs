@@ -80,7 +80,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -121,7 +121,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -521,7 +521,7 @@
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -529,7 +529,7 @@
 			"attr_id": "vision",
 			"adj": 1,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 2
 			}
 		},
@@ -537,7 +537,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -545,7 +545,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -553,7 +553,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 10,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -2221,7 +2221,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-06-02T17:37:41+02:00",
+	"modified_date": "2025-06-03T20:34:20+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

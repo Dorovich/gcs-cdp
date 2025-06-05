@@ -80,7 +80,7 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
@@ -121,7 +121,7 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$ht",
+				"attribute_base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -521,7 +521,7 @@
 			"attr_id": "per",
 			"adj": 1,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 5
 			}
 		},
@@ -529,7 +529,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -537,7 +537,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -545,7 +545,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -553,7 +553,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -991,13 +991,13 @@
 					}
 				},
 				{
-					"id": "tJQX-mKdVUfTZvH2C",
+					"id": "t-ZC_0TPqXW-jpWm-",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
+						"library": "Dorovich/gcs-cdp",
+						"path": "CdP Rasgos (Especies).adq",
 						"id": "tmGpyuJ7BpkUVuUDw"
 					},
-					"name": "Morph",
+					"name": "Morph — Disguise",
 					"reference": "B84",
 					"tags": [
 						"Advantage",
@@ -1006,95 +1006,95 @@
 					],
 					"modifiers": [
 						{
-							"id": "msannjWMC0Glsi6eQ",
+							"id": "meH2s6uY3XR62Lfna",
 							"name": "Unlimited",
 							"reference": "B85",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mzTDgbiIMbbHBvfDT",
+							"id": "mIy-lEc7bCsd3Jk8U",
 							"name": "Cosmetic",
 							"reference": "B85",
 							"cost": -50
 						},
 						{
-							"id": "mAiHVImFFC0UhnoQ5",
+							"id": "muINB0oUgdy8ypX06",
 							"name": "Retains Shape",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mOCmHqCaeWz2qqdfp",
+							"id": "moE4b0DIFq_74FHTc",
 							"name": "Mass Conservation",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "muXLAZAWfDdExmVg9",
+							"id": "mpF4iyzd6R15_MLrc",
 							"name": "Active Change",
 							"reference": "P75",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "m5iQrG1BoUfYXOqBV",
+							"id": "mU43N3-qF3jcegp6O",
 							"name": "Improvised Forms",
 							"reference": "P75",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mhPksmtGRTN2SUWOV",
+							"id": "mefB5CrbHxCtKAFca",
 							"name": "Cosmic (For Improvised Forms)",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "m818m_ljlu95QJ_Ky",
+							"id": "maCPomwSTC5FEPOVH",
 							"name": "No Memorization Required",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mYy95rXU8w18KERG1",
+							"id": "m4GrHrSKA0j2NCvJg",
 							"name": "Cannot Memorize Forms",
 							"reference": "P75",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m7RBATBNEhqBYJIvj",
+							"id": "mVVhHCYT5-iZhoNKS",
 							"name": "Flawed",
 							"reference": "P75",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mF_Jk24JwZjBzfCLf",
+							"id": "maoWXmdGphn5591mU",
 							"name": "Unliving Forms Only",
 							"reference": "P75",
 							"disabled": true
 						},
 						{
-							"id": "mE99AEx6KWGt3JLIN",
+							"id": "mxJzRVdz5QBiNehI-",
 							"name": "Preparation Required",
 							"reference": "B114",
 							"notes": "1 minute, else is weakened",
 							"cost": -10
 						},
 						{
-							"id": "meCAXjJK4weybMYxt",
+							"id": "mpGi0KD_Yo8DdOjk2",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Power Ups/Power Ups 8 Limitations Limitation Modifiers.adm",
 								"id": "mCD27yfxzVhAdITOD"
 							},
-							"name": "Requires IQ Roll",
+							"name": "Requires (@Attribute DX, IQ, or HT@) Roll",
 							"reference": "PU8:17",
 							"replacements": {
 								"Attribute DX, IQ, or HT": "IQ"
@@ -2868,12 +2868,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 11,
+				"level": 12,
 				"rsl": "Per+0"
 			}
 		},
@@ -3042,12 +3042,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "Per+1"
 			}
 		}
@@ -3399,7 +3399,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-06-02T17:37:28+02:00",
+	"modified_date": "2025-06-03T23:28:49+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
