@@ -2978,51 +2978,6 @@
 					}
 				},
 				{
-					"id": "eiOYWtGMnz-n1BxVv",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Equipment.eqp",
-						"id": "eLUoq82xnnC1U0cXM"
-					},
-					"description": "Leather Armor",
-					"reference": "B283",
-					"tech_level": "1",
-					"tags": [
-						"Body Armor"
-					],
-					"value": 100,
-					"weight": "10 lb",
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"torso"
-							],
-							"amount": 2
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"vitals"
-							],
-							"amount": 2
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"groin"
-							],
-							"amount": 2
-						}
-					],
-					"quantity": 1,
-					"equipped": true,
-					"calc": {
-						"extended_value": 100,
-						"extended_weight": "10 lb"
-					}
-				},
-				{
 					"id": "eGj1MIHATs8XzgO0y",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3217,8 +3172,53 @@
 				}
 			],
 			"calc": {
-				"extended_value": 409.25,
-				"extended_weight": "47.924 lb"
+				"extended_value": 309.25,
+				"extended_weight": "37.924 lb"
+			}
+		},
+		{
+			"id": "eiOYWtGMnz-n1BxVv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eLUoq82xnnC1U0cXM"
+			},
+			"description": "Leather Armor",
+			"reference": "B283",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 100,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
 			}
 		},
 		{
@@ -3240,10 +3240,17 @@
 		{
 			"id": "nABbH-BQb6WzNWSvL",
 			"text": "**Anotaciones**: [1] Autoproclamado"
+		},
+		{
+			"id": "nnt6fhg9e0s6fikxK",
+			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"calc": {
+				"resolved_text": "**Umbrales HP**: 7 (\u003eHP/2), 5 (\u003eHP/3), 4 (\u003cHP/3)"
+			}
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-06-03T20:33:50+02:00",
+	"modified_date": "2025-06-06T07:43:34+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

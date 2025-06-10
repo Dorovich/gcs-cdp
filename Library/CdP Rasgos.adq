@@ -21927,24 +21927,6 @@
 			}
 		},
 		{
-			"id": "t_VatpbQZipCTrzDm",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tLjJdINd7_EUwXEvg"
-			},
-			"name": "Numb",
-			"reference": "B146",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"base_points": -20,
-			"calc": {
-				"points": -20
-			}
-		},
-		{
 			"id": "tKk0m8dLBIDg6H_Nq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

@@ -2220,8 +2220,17 @@
 			}
 		}
 	],
+	"notes": [
+		{
+			"id": "ncdU-eqF3F25MfTNc",
+			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"calc": {
+				"resolved_text": "**Umbrales HP**: 6 (\u003eHP/2), 4 (\u003eHP/3), 3 (\u003cHP/3)"
+			}
+		}
+	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-06-03T20:34:20+02:00",
+	"modified_date": "2025-06-06T07:41:19+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

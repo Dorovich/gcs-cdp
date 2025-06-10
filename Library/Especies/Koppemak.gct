@@ -4,7 +4,7 @@
 	"traits": [
 		{
 			"id": "TcnODKWVyH7hU9nQc",
-			"name": "Koppemak",
+			"name": "Koppemak (C7)",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -161,7 +161,7 @@
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
 						"id": "t41Jcu2uv3yYlH_uK"
 					},
-					"name": "Complexity-Limited IQ (C7)",
+					"name": "Complexity-Limited IQ",
 					"reference": "TT2:12",
 					"tags": [
 						"Exotic",
@@ -401,32 +401,32 @@
 					}
 				},
 				{
-					"id": "thP3nrdM0qeROODwc",
+					"id": "tKh2-Lq0Zq_iDMsPo",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tu0KTB8faKoeTJiEi"
+						"id": "tLnETZfKq1bkyavDB"
 					},
-					"name": "Decreased Dexterity",
-					"reference": "B15",
+					"name": "Decreased Basic Speed",
+					"reference": "B17",
 					"tags": [
 						"Attribute",
 						"Disadvantage",
 						"Physical"
 					],
-					"points_per_level": -20,
+					"points_per_level": -5,
 					"features": [
 						{
 							"type": "attribute_bonus",
-							"attribute": "dx",
-							"amount": -1,
+							"attribute": "basic_speed",
+							"amount": -0.25,
 							"per_level": true
 						}
 					],
 					"can_level": true,
-					"levels": 1,
+					"levels": 2,
 					"calc": {
-						"points": -20
+						"points": -10
 					}
 				},
 				{
@@ -761,6 +761,24 @@
 					}
 				},
 				{
+					"id": "tvLI32_iD2N7b4R5V",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tM_NtrhGdt7J7oETM"
+					},
+					"name": "No Sense of Smell/Taste",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
 					"id": "tPMeaGMA1W938myqt",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -816,6 +834,24 @@
 					}
 				},
 				{
+					"id": "tLcVC_be3d-RcPpEr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tLjJdINd7_EUwXEvg"
+					},
+					"name": "Numb",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
 					"id": "tkkQ7zqBAGqdiqFM2",
 					"name": "Reduced Consumption",
 					"reference": "B80",
@@ -856,7 +892,7 @@
 				}
 			],
 			"calc": {
-				"points": 20
+				"points": 5
 			}
 		}
 	]

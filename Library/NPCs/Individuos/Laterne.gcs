@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AbyVge4ow13WTQDq8",
-	"total_points": 168,
+	"total_points": 153,
 	"points_record": [
 		{
 			"when": "2024-08-14T11:40:28+02:00",
-			"points": 168,
+			"points": 153,
 			"reason": "Initial points"
 		}
 	],
@@ -19,7 +19,7 @@
 		"handedness": "Right",
 		"gender": "Male",
 		"height": "5'8.4\"",
-		"weight": "312 lb",
+		"weight": "400 lb",
 		"player_name": "David",
 		"title": "Marine",
 		"organization": "Armada de Niwel",
@@ -459,7 +459,7 @@
 			"attr_id": "dx",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -499,7 +499,7 @@
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
-				"value": 4.75,
+				"value": 4.5,
 				"points": 0
 			}
 		},
@@ -699,7 +699,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mvC_7ZobBaz2PrRsj",
+							"id": "mgGLF59ra2qwoimAS",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone",
@@ -708,7 +708,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mzdCtoDwOcQ9LwcH4",
+							"id": "mu4F2kgVQ2obeHXOJ",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone except @large class of people@",
@@ -717,7 +717,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mExk87GIBncKqfpnc",
+							"id": "m9g7Ggt8FHzTj2o33",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Large class of people@",
@@ -726,7 +726,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mYhZ2giqa8mg_ajFb",
+							"id": "m_78HidpUPWGv12sO",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Small class of people@",
@@ -740,14 +740,14 @@
 							}
 						},
 						{
-							"id": "meEIHiJCe63aTw1vi",
+							"id": "m7s34apd3_qxM78Ts",
 							"name": "Recognized all the time",
 							"reference": "B28",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "m_Df71X_fuVDl9HLo",
+							"id": "mtAhK1uJwEXxKrAnp",
 							"name": "Recognized sometimes",
 							"reference": "B28",
 							"notes": "10-",
@@ -756,7 +756,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mtbOfQsJU_z_PeNTy",
+							"id": "mFHqadB6d_642XnuS",
 							"name": "Recognized occasionally",
 							"reference": "B28",
 							"notes": "7-",
@@ -769,7 +769,7 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others aware of your reputation",
+							"situation": "from Terrien caravan members aware of your reputation",
 							"amount": 1,
 							"per_level": true
 						}
@@ -1138,7 +1138,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "m_Q7NTUdLmH4SnPZj",
+							"id": "mPohw4GjE-eX9L0sJ",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone",
@@ -1147,7 +1147,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mlupQ66zUcFN2fj4w",
+							"id": "mqHnY3clpRLLQ71KH",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "Almost everyone except @large class of people@",
@@ -1156,7 +1156,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mz7rsh0VoIM5I0zig",
+							"id": "mGKn9uQA_SnrFpxyb",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Large class of people@",
@@ -1170,7 +1170,7 @@
 							}
 						},
 						{
-							"id": "mb8bRKwC9D9yVCodF",
+							"id": "mdm_HADm8mLNc94fk",
 							"name": "People Affected",
 							"reference": "B27",
 							"notes": "@Small class of people@",
@@ -1179,7 +1179,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mMQjQkD43zvdlAwBR",
+							"id": "mp6APT8_7f8N7uoZ8",
 							"name": "Recognized all the time",
 							"reference": "B28",
 							"cost": 1,
@@ -1187,7 +1187,7 @@
 							"disabled": true
 						},
 						{
-							"id": "moetNjaPgFhLF8N2z",
+							"id": "m41w-jJmhYTw4f1bM",
 							"name": "Recognized sometimes",
 							"reference": "B28",
 							"notes": "10-",
@@ -1195,7 +1195,7 @@
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "muuwU6_PqGi7bn8Ex",
+							"id": "mykaovOV916rgnVjU",
 							"name": "Recognized occasionally",
 							"reference": "B28",
 							"notes": "7-",
@@ -1208,7 +1208,7 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others aware of your reputation",
+							"situation": "from other koppemak aware of your human-made origin",
 							"amount": -1,
 							"per_level": true
 						}
@@ -1247,13 +1247,144 @@
 			}
 		},
 		{
-			"id": "Ty9ABHmNTtK2a-qrM",
+			"id": "tIHnhHcGy6kTykXWC",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wsyd6yyK91hd9CuUO",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wQo6X1ocTBSfWFH7e",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				},
+				{
+					"id": "wv-ZU2EUtlgR8qvM6",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "High Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wy3og2WSAcn5mdK5g",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Low Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "TL7NrIJtfdSV0KfbB",
 			"name": "Koppemak",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "t_Aa1Oegz7IMA1gsM",
+					"id": "tyAfLs996HeEsXHHn",
 					"name": "Affected by Magnetism",
 					"tags": [
 						"Exotic",
@@ -1265,13 +1396,13 @@
 					}
 				},
 				{
-					"id": "TfGE72jXk2byjMtF6",
+					"id": "TyyTrJyZMJdq9dfp3",
 					"name": "Artificial Intelligence",
 					"reference": "B263",
 					"container_type": "meta_trait",
 					"children": [
 						{
-							"id": "tcnJXxZmbLl7O4OEL",
+							"id": "tKrE6HrZ81DCdJkSW",
 							"name": "Absolute Timing",
 							"reference": "B35",
 							"tags": [
@@ -1280,7 +1411,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "myrH9MlrT0RdEPi5O",
+									"id": "mOPm_MHX5SvkYH_mf",
 									"name": "Chronolocation",
 									"cost": 3,
 									"cost_type": "points",
@@ -1293,7 +1424,7 @@
 							}
 						},
 						{
-							"id": "t4OoibDnvFyF5KVC6",
+							"id": "tU9qjdiTS6vPD_3bn",
 							"name": "Digital Mind",
 							"reference": "B49",
 							"tags": [
@@ -1307,7 +1438,7 @@
 							}
 						},
 						{
-							"id": "tfx4HEdyOxhTgGQux",
+							"id": "t7PmcghXQuRXIdW6u",
 							"name": "Doesn't Sleep",
 							"reference": "B50",
 							"tags": [
@@ -1321,7 +1452,7 @@
 							}
 						},
 						{
-							"id": "tg44tWOcQM2JuiHvc",
+							"id": "tptjPl1qKzKL_0ans",
 							"name": "Eidetic Memory",
 							"reference": "B51",
 							"tags": [
@@ -1330,7 +1461,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "muGHtGaRPx0u-nq27",
+									"id": "m_OY_0QjMFrIunUjF",
 									"name": "Photographic",
 									"reference": "B51",
 									"cost": 5,
@@ -1344,7 +1475,7 @@
 							}
 						},
 						{
-							"id": "tHcNrpViD6bLmFCLU",
+							"id": "tHXEb0hmORxz2U8nx",
 							"name": "Lightning Calculator",
 							"reference": "B66",
 							"tags": [
@@ -1353,7 +1484,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mtYba2biLVKnR7AGU",
+									"id": "mtDkeCjWjVN1WLPV4",
 									"name": "Intuitive Mathematician",
 									"reference": "B66",
 									"cost": 3,
@@ -1367,7 +1498,7 @@
 							}
 						},
 						{
-							"id": "tTsX3b6LKpLAYAC17",
+							"id": "tg5WdH6XT-2H2IStw",
 							"name": "Reprogrammable",
 							"reference": "B150",
 							"tags": [
@@ -1386,7 +1517,7 @@
 					}
 				},
 				{
-					"id": "tSiTV_zHoplTubn6b",
+					"id": "tlEYQgWEWdqT3zp1o",
 					"name": "Cannot Float",
 					"reference": "B165",
 					"tags": [
@@ -1399,7 +1530,7 @@
 					}
 				},
 				{
-					"id": "tIht0qROY8_vrii22",
+					"id": "tmsQAGh_EB-cB-yqm",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -1417,7 +1548,7 @@
 					}
 				},
 				{
-					"id": "t0-66PohToN-9F3wi",
+					"id": "tCQUFeDCxZcrMVpYB",
 					"name": "Damage Resistance",
 					"reference": "B47",
 					"tags": [
@@ -1427,7 +1558,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mzRrwlT2EJvHcUlP0",
+							"id": "mWt6x-veceaOc1YDt",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Rare Attack Form@",
@@ -1435,14 +1566,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mUT9id1fwBOJU0Jxj",
+							"id": "mK70UTngXVESHz8Rk",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mMacMXeqNjdu381MG",
+							"id": "mFrvIJ1VkUDrOWYKR",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Occasional Attack Form@",
@@ -1450,21 +1581,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mQFz9W8OkEDnKlgrE",
+							"id": "mNinKaA0wq9TxB1Bz",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mayJjv4MB6nBhk1dp",
+							"id": "mioZ4Y0JyYjNYXZgN",
 							"name": "Tough Skin",
 							"notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mPbuOM6LF3OjrlIhm",
+							"id": "mcMnKO6dnASL7iBin",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Common Attack Form@",
@@ -1472,7 +1603,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mfT-ydGFZUguKT1e3",
+							"id": "mJTUtIcOfls0IBMqw",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -1480,7 +1611,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m5_stbojX5aWuECa3",
+							"id": "mMYQVhkmTj1v0v2ij",
 							"name": "Directional",
 							"reference": "B47",
 							"notes": "Front",
@@ -1488,21 +1619,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mCTGMGSnvcO9ck-lA",
+							"id": "mx8urZXtdRRPG66NR",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mmIliSZB-ha_WPHzL",
+							"id": "mP505Cee--Us1Q81Q",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mxoUB8SF8X0fo76lu",
+							"id": "mtybgp__mEbBRor26",
 							"name": "Limited",
 							"reference": "B46",
 							"notes": "@Very Common Attack Form@",
@@ -1510,7 +1641,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mvOwgO6ZTaq2uXDGb",
+							"id": "myMupXa7okIuMbbZQ",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Very Common@",
@@ -1518,7 +1649,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m5SNerTv4saY9OYOL",
+							"id": "mpmWC3kMEIg9zEcSD",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Common@",
@@ -1526,14 +1657,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mBZoo4I5d9iuhSRPt",
+							"id": "mUmIxdWuTzRxnaMBQ",
 							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 							"reference": "B47",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "mxtXmEFU-McmHACno",
+							"id": "mSARoWnXQcIPAkofu",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Occasional@",
@@ -1541,7 +1672,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m1axAzL8sWwSeKlD2",
+							"id": "mIsl5CqQnxvEuK3K0",
 							"name": "Bane",
 							"reference": "H14",
 							"notes": "@Rare@",
@@ -1550,14 +1681,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mmRNNak9bbvwJhu-F",
+							"id": "mQNQtNWOewatr9h1b",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mRH_SL8KAa46yZIE1",
+							"id": "mpTOHd0DTCzPQlNG2",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances any trait",
@@ -1565,7 +1696,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mXaaAmumR9w0rtzB9",
+							"id": "mu28cz2EOg1J7A0TM",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Healing only",
@@ -1573,7 +1704,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mWjB1st3mKyPnTUKV",
+							"id": "mnywuAypBJfPNDPCv",
 							"name": "Absorption",
 							"reference": "B46",
 							"notes": "Enhances @Trait@",
@@ -1581,21 +1712,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mLb-yQnQSr1Hl8s_I",
+							"id": "mom40ST2NhNxf06Ts",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mKhlsEwLkcQAplUPA",
+							"id": "meYjigJRBQCUxP4Ro",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mgExczbttQyZV5FAk",
+							"id": "mDo8eMZFLbo_Q8HDV",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -1603,14 +1734,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mD0zHF8m31G5NF8xF",
+							"id": "m6-w9ngtUddgaC0Ph",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "miFlSI5OSyUuFexMQ",
+							"id": "mptULBQ5sigP7-G-u",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
@@ -1645,36 +1776,36 @@
 					}
 				},
 				{
-					"id": "tU6VxxyiY0Iw7_yz0",
+					"id": "tCbVqb-3qtTS7F53w",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tu0KTB8faKoeTJiEi"
+						"id": "tLnETZfKq1bkyavDB"
 					},
-					"name": "Decreased Dexterity",
-					"reference": "B15",
+					"name": "Decreased Basic Speed",
+					"reference": "B17",
 					"tags": [
 						"Attribute",
 						"Disadvantage",
 						"Physical"
 					],
-					"points_per_level": -20,
+					"points_per_level": -5,
 					"features": [
 						{
 							"type": "attribute_bonus",
-							"attribute": "dx",
-							"amount": -1,
+							"attribute": "basic_speed",
+							"amount": -0.25,
 							"per_level": true
 						}
 					],
 					"can_level": true,
-					"levels": 1,
+					"levels": 2,
 					"calc": {
-						"points": -20
+						"points": -10
 					}
 				},
 				{
-					"id": "tVS3Sfs1wr6semeDc",
+					"id": "tdZ8Bsd7qhGrX9Lik",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1704,7 +1835,7 @@
 					}
 				},
 				{
-					"id": "tHvbLRWEUoDXs2yCQ",
+					"id": "tHwZdnrGUaV_tJens",
 					"name": "Electrical",
 					"reference": "B134",
 					"tags": [
@@ -1718,7 +1849,7 @@
 					}
 				},
 				{
-					"id": "txk8ajgjibs3FCi9t",
+					"id": "tfi6X6v0piCoSMpdO",
 					"name": "Extra Hit Points",
 					"reference": "B16",
 					"tags": [
@@ -1728,14 +1859,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mt50kCSribiVmHNeN",
+							"id": "mcwcO1usEfxgVaR7y",
 							"name": "Size",
 							"cost": -10,
 							"levels": 1,
 							"disabled": true
 						},
 						{
-							"id": "m79icDsn3ghYQpnM3",
+							"id": "mqJE52qwk_ZuDF_DV",
 							"name": "No Fine Manipulators",
 							"cost": -40,
 							"disabled": true
@@ -1757,13 +1888,13 @@
 					}
 				},
 				{
-					"id": "TUr1uLuYBFPQgtnGy",
+					"id": "TY61b6jkSRZ3UCLPy",
 					"name": "Machine",
 					"reference": "B263",
 					"container_type": "meta_trait",
 					"children": [
 						{
-							"id": "t5k4hIiyU-nu-pBAU",
+							"id": "tJ8qmE34l8N_kL0zk",
 							"name": "Eight-hour energy reserve, Refuel 3 times per day",
 							"reference": "B263",
 							"tags": [
@@ -1774,7 +1905,7 @@
 							}
 						},
 						{
-							"id": "tseYIMDhQhf_I3Gky",
+							"id": "t0a04oqL7L_Z7tPJd",
 							"name": "Injury Tolerance",
 							"reference": "B60",
 							"tags": [
@@ -1784,7 +1915,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mhLvyUFpD_URMyyYp",
+									"id": "mN9c4bRwjfAd-7imS",
 									"name": "Diffuse",
 									"reference": "B60",
 									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -1793,7 +1924,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mj0ecmhrGR0E4XGXQ",
+									"id": "mR9hhehNR4WAlXjVf",
 									"name": "Homogenous",
 									"reference": "B60",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -1802,7 +1933,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mQAHoH6BD3qImXIVv",
+									"id": "m_tyGAy2iL6ozpezd",
 									"name": "No Blood",
 									"reference": "B61",
 									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -1810,7 +1941,7 @@
 									"cost_type": "points"
 								},
 								{
-									"id": "mFDjWJE2ErHocdAic",
+									"id": "mPkE71EnoiZ2BJACB",
 									"name": "No Brain",
 									"reference": "B61",
 									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -1819,7 +1950,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mYpfYa-B0RiZAcojP",
+									"id": "mohk2T8qgY6tt11JV",
 									"name": "No Eyes",
 									"reference": "B61",
 									"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -1828,7 +1959,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mwXhjLFaUiIz_WaNg",
+									"id": "mNvAj_UzZyotEyYbI",
 									"name": "No Head",
 									"reference": "B61",
 									"notes": "Skull, Brain and Face cannot be targeted",
@@ -1837,7 +1968,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mEoZrMXwXHSeAo51i",
+									"id": "my7beBxcdS4cPe__N",
 									"name": "No Neck",
 									"reference": "B61",
 									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -1846,7 +1977,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mU0GUFCoQdz9r0eCD",
+									"id": "mZiPTut6yU9bTfhEO",
 									"name": "No Vitals",
 									"reference": "B61",
 									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
@@ -1855,7 +1986,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mBaL7EEBbCs_YAMme",
+									"id": "mnp-VTsyvmmNa-zBz",
 									"name": "Unliving",
 									"reference": "B61",
 									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
@@ -1868,7 +1999,7 @@
 							}
 						},
 						{
-							"id": "tLZ2A_DsRFPYdoPOf",
+							"id": "tTb57EBDnTnqRw6qk",
 							"name": "No fatigue points, Don't spend fatigue points",
 							"reference": "B263",
 							"tags": [
@@ -1879,7 +2010,7 @@
 							}
 						},
 						{
-							"id": "tMtwvRu2gXYCcdG9u",
+							"id": "tolnBguXkjcoMxiXe",
 							"name": "Resistant",
 							"reference": "B81",
 							"tags": [
@@ -1888,14 +2019,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "m3N__eFkD1PaYuYmb",
+									"id": "mx5EaMIaQp3WRGJXb",
 									"name": "Metabolic Hazards",
 									"reference": "B80",
 									"cost": 30,
 									"cost_type": "points"
 								},
 								{
-									"id": "mcut057Q_RiXAdJ_H",
+									"id": "mPouI4Ph4W-qoKhwn",
 									"name": "@Common: Poison, Sickness, etc.@",
 									"reference": "B81",
 									"cost": 15,
@@ -1903,7 +2034,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m73FnUTMK9on-2i2I",
+									"id": "mvv0csvtVqwH5LnXG",
 									"name": "@Occasional: Disease, Ingested Poison, etc.@",
 									"reference": "B81",
 									"cost": 10,
@@ -1911,7 +2042,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mR8vadpoPFFysZmC7",
+									"id": "moxboxTvEcj02liYp",
 									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
 									"reference": "B81",
 									"cost": 5,
@@ -1919,14 +2050,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mkg_kG0nxpsY95DOA",
+									"id": "mgp7rT1TusxnjE5SH",
 									"name": "Immunity",
 									"reference": "B81",
 									"cost": 1,
 									"cost_type": "multiplier"
 								},
 								{
-									"id": "myhH7Z_T6Un1YmHY3",
+									"id": "mEd44DwrV68-4KH05",
 									"name": "+8 to all HT rolls to resist",
 									"reference": "B81",
 									"cost": 0.5,
@@ -1934,7 +2065,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m0yKZwDDsWYMemu9Y",
+									"id": "mmxogfQAo7cMYiuIr",
 									"name": "+3 to all HT rolls to resist",
 									"reference": "B81",
 									"cost": 0.33,
@@ -1948,7 +2079,7 @@
 							}
 						},
 						{
-							"id": "t6BavNhaAnK7x6m-B",
+							"id": "tnKaqLIoGn4X49Meq",
 							"name": "Unhealing (Total)",
 							"reference": "B160",
 							"tags": [
@@ -1962,7 +2093,7 @@
 							}
 						},
 						{
-							"id": "tUGj9z7KdQRkSJnKC",
+							"id": "tnEvxuGa30nPyThGb",
 							"name": "Wears out instead of aging",
 							"reference": "B263",
 							"tags": [
@@ -1978,7 +2109,7 @@
 					}
 				},
 				{
-					"id": "tUv1oHn4ebauV5Sfh",
+					"id": "t4KPmGl7AvWcjR1QH",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2005,7 +2136,25 @@
 					}
 				},
 				{
-					"id": "t95RZRfG1OZxtRzF-",
+					"id": "t4Hv4PrMkbB7Q8XAn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tM_NtrhGdt7J7oETM"
+					},
+					"name": "No Sense of Smell/Taste",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tB0neih6sYsy9POop",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2033,7 +2182,7 @@
 					}
 				},
 				{
-					"id": "tCUjHmYrQDaSqvTo7",
+					"id": "tFlYZMlsLmUOVGrew",
 					"name": "Noisy",
 					"reference": "B146",
 					"tags": [
@@ -2060,7 +2209,25 @@
 					}
 				},
 				{
-					"id": "taMgvDQnqDQR1zzkc",
+					"id": "tkqzdiM-kZgxgjfPn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tLjJdINd7_EUwXEvg"
+					},
+					"name": "Numb",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "tg1bvcwhXzZiEG3GK",
 					"name": "Reduced Consumption",
 					"reference": "B80",
 					"notes": "Refuel once per day",
@@ -2070,21 +2237,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mdV7NVB8rQM9_McC4",
+							"id": "mm3jy34ecIztyYl_O",
 							"name": "Cast-Iron Stomach",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m4YbbGiDLmS-_rNDX",
+							"id": "m-JbB7HbyhGHKvpWr",
 							"name": "Food Only",
 							"reference": "B80",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mXGwhLDuNwF8pt--O",
+							"id": "mTt599nFB3UN7cf12",
 							"name": "Water Only",
 							"reference": "B80",
 							"cost": -50,
@@ -2100,138 +2267,7 @@
 				}
 			],
 			"calc": {
-				"points": 20
-			}
-		},
-		{
-			"id": "tIHnhHcGy6kTykXWC",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wsyd6yyK91hd9CuUO",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wQo6X1ocTBSfWFH7e",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d-3 cr",
-						"parry": "7"
-					}
-				},
-				{
-					"id": "wv-ZU2EUtlgR8qvM6",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "High Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 7,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wy3og2WSAcn5mdK5g",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Low Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d-3 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
+				"points": 5
 			}
 		}
 	],
@@ -2677,7 +2713,7 @@
 			"difficulty": "dx/e",
 			"points": 1,
 			"calc": {
-				"level": 9,
+				"level": 10,
 				"rsl": "DX+0"
 			}
 		},
@@ -2714,12 +2750,12 @@
 				"name": "Gunner",
 				"specialization": "Machine Gun",
 				"modifier": -4,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 10,
+				"level": 11,
 				"rsl": "DX+1"
 			}
 		},
@@ -2754,12 +2790,12 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 10,
+				"level": 11,
 				"rsl": "DX+1"
 			}
 		},
@@ -2796,12 +2832,12 @@
 				"name": "Guns",
 				"specialization": "Pistol",
 				"modifier": -4,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
 			},
 			"calc": {
-				"level": 9,
+				"level": 10,
 				"rsl": "DX+0"
 			}
 		},
@@ -2885,12 +2921,12 @@
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "DX+3"
 			}
 		},
@@ -3333,7 +3369,7 @@
 				"points": -6
 			},
 			"calc": {
-				"level": 10,
+				"level": 11,
 				"rsl": "DX+1"
 			}
 		},
@@ -3786,7 +3822,7 @@
 						}
 					],
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"damage": "2d-1 pi"
 					}
 				}
@@ -3799,8 +3835,17 @@
 			}
 		}
 	],
+	"notes": [
+		{
+			"id": "n5CXGwmOnz2GwIbEi",
+			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"calc": {
+				"resolved_text": "**Umbrales HP**: 7 (\u003eHP/2), 5 (\u003eHP/3), 3 (\u003cHP/3)"
+			}
+		}
+	],
 	"created_date": "2024-08-14T11:40:28+02:00",
-	"modified_date": "2025-06-04T23:20:37+02:00",
+	"modified_date": "2025-06-06T08:17:58+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

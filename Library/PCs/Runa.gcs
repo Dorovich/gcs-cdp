@@ -4106,10 +4106,17 @@
 		{
 			"id": "nUo90Ew0IlRHOSITV",
 			"text": "**Runas grabadas**: _Nacimiento del guerrero_, _Observador del desierto_, _Surcador del viento_."
+		},
+		{
+			"id": "nTkI4_cUnzv6ERVa_",
+			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"calc": {
+				"resolved_text": "**Umbrales HP**: 7 (\u003eHP/2), 5 (\u003eHP/3), 3 (\u003cHP/3)"
+			}
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-06-03T20:34:00+02:00",
+	"modified_date": "2025-06-06T07:43:03+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",
