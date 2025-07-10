@@ -1,0 +1,272 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "tX1USd7bRGv_BaKvf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t2YeWtLsS-544fGdt"
+			},
+			"name": "Enhanced Block",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tTMcu5v-EJuwzFfG0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "taqHL9ZGLNxoSoyo-"
+			},
+			"name": "Enhanced Parry (Bare hands)",
+			"reference": "B51",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry with bare hands",
+					"amount": 2
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tmhxsczZtE1uZR_Mr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tDw6GZRxayNGMc8wW"
+			},
+			"name": "Enhanced Parry (@Melee weapon skill@)",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry with @Melee weapon skill@",
+					"amount": 2
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "t8OQwhiieMPkBEfVA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tVyvGlX-r5_Svydpa"
+			},
+			"name": "Enhanced Parry (All parries)",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tsYKtvrglU_AN0J-G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "twGsZPV8OE0NLFaXl"
+			},
+			"name": "Enhanced Dodge",
+			"reference": "B51,MA43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"points_per_level": 15,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "teQvBr9Mn6UW6GTHI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tGjjVtxav9KsrG7Wx"
+			},
+			"name": "Combat Reflexes",
+			"reference": "B43",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"base_points": 15,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					},
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "fright_check",
+					"amount": 2
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tcEHD7XF0QWreeWwW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tGjjVtxav9KsrG7Wx"
+			},
+			"name": "Battle-Hardened",
+			"reference": "B43",
+			"reference_highlight": "Combat Reflexes",
+			"notes": "(Experimental trait)",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"base_points": 7,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "fright_check",
+					"amount": 1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 7
+			}
+		}
+	]
+}
