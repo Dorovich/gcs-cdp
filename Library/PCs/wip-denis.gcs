@@ -562,398 +562,388 @@
 	],
 	"traits": [
 		{
-			"id": "tp76M5XSHJvnv2EOr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "ty02wIs3SOt8DoIC7"
-			},
-			"name": "Crushing Striker (@Body Part@)",
-			"reference": "B88,MA47",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"replacements": {
-				"Body Part": "Horn",
-				"Direction": "Front"
-			},
-			"modifiers": [
+			"id": "TIPWgOUi-t48FO_Qb",
+			"name": "Advantages \u0026 Perks",
+			"children": [
 				{
-					"id": "mSY7IIUNaAk1bw7Fx",
-					"name": "Cannot Parry",
-					"reference": "B88",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mcth20jhTnaBkjBX8",
-					"name": "Clumsy",
-					"reference": "B88",
-					"cost": -20,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "this_weapon",
-							"name": {
-								"compare": "is"
-							},
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"levels": 1,
-					"disabled": true
-				},
-				{
-					"id": "mxe8uTZnBTg1lP5pq",
-					"name": "Limited Arc (@Direction@)",
-					"reference": "B88",
-					"cost": -40
-				},
-				{
-					"id": "mfro-Ox81kZH5MR8v",
-					"name": "Weak",
-					"cost": -50,
-					"features": [
-						{
-							"type": "weapon_bonus",
-							"selection_type": "this_weapon",
-							"name": {
-								"compare": "is"
-							},
-							"level": {
-								"compare": "at_least"
-							},
-							"amount": -1,
-							"per_die": true
-						}
-					],
-					"disabled": true
-				}
-			],
-			"base_points": 5,
-			"weapons": [
-				{
-					"id": "wOBpc8mFbeXX9Rzzz",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"modifier_per_die": 1
+					"id": "tp76M5XSHJvnv2EOr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ty02wIs3SOt8DoIC7"
 					},
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
+					"name": "Crushing Striker (@Body Part@)",
+					"reference": "B88,MA47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Body Part": "Horn",
+						"Direction": "Front"
+					},
+					"modifiers": [
 						{
-							"type": "dx"
+							"id": "mSY7IIUNaAk1bw7Fx",
+							"name": "Cannot Parry",
+							"reference": "B88",
+							"cost": -40,
+							"disabled": true
 						},
 						{
-							"type": "skill",
-							"name": "Brawling"
+							"id": "mcth20jhTnaBkjBX8",
+							"name": "Clumsy",
+							"reference": "B88",
+							"cost": -20,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mxe8uTZnBTg1lP5pq",
+							"name": "Limited Arc (@Direction@)",
+							"reference": "B88",
+							"cost": -40
+						},
+						{
+							"id": "mfro-Ox81kZH5MR8v",
+							"name": "Weak",
+							"cost": -50,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": -1,
+									"per_die": true
+								}
+							],
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "wOBpc8mFbeXX9Rzzz",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"modifier_per_die": 1
+							},
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"level": 11,
+								"damage": "1d-1 cr",
+								"parry": "8"
+							}
 						}
 					],
 					"calc": {
-						"level": 11,
-						"damage": "1d-1 cr",
-						"parry": "8"
+						"points": 3
+					}
+				},
+				{
+					"id": "tTN8HRJpyBCj6I55G",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tgjE-yMzESTjq695x"
+					},
+					"name": "Danger Sense",
+					"reference": "B47,P46",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tCbc1iJnzVglYTjFF",
+					"name": "Extra Step",
+					"local_notes": "-2 to DX and skills when stepping past 1",
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tHVKS4I3Ir4VwbkRV",
+					"source": {
+						"library": "Dorovich/gcs-cdp",
+						"path": "CdP Rasgos (Especies).adq",
+						"id": "tPpFaRJ1HUGQR0azT"
+					},
+					"name": "Flight",
+					"reference": "B56,P50,PSI14",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m8rIXY_mM2kFHEVYX",
+							"name": "Newtonian Space Flight",
+							"reference": "B56",
+							"cost": 25,
+							"disabled": true
+						},
+						{
+							"id": "m7wZh8TFV9Pmy7amL",
+							"name": "Space Flight",
+							"reference": "B56",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mHjmVvU02lpbIzkRP",
+							"name": "Cannot Hover",
+							"reference": "B56",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "mMOoCKZiuMDSeLlcg",
+							"name": "Controlled Gliding",
+							"reference": "B56",
+							"cost": -45,
+							"disabled": true
+						},
+						{
+							"id": "mUzDeYpeOYibwF3VF",
+							"name": "Gliding",
+							"reference": "B56",
+							"cost": -50
+						},
+						{
+							"id": "mnguIj4Y36-S57vUz",
+							"name": "Lighter Than Air",
+							"reference": "B56",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mAEdM22lELk4dJN4Z",
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"local_notes": "30'",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "m68tTNqghQju3s0CW",
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"local_notes": "10'",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m5FnOvWVXW9XaIb07",
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"local_notes": "5'",
+							"cost": -25
+						},
+						{
+							"id": "mh9LL-YhxEaqjUHBp",
+							"name": "Small Wings",
+							"reference": "B56",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mzaJHy9eMuTsbE1w4",
+							"name": "Space Flight Only",
+							"reference": "B56",
+							"cost": -75,
+							"disabled": true
+						},
+						{
+							"id": "mgiNZfyHMnJL61ck3",
+							"name": "Winged",
+							"reference": "B56",
+							"cost": -25
+						},
+						{
+							"id": "mOsz2lHTVLi_B4KY1",
+							"name": "Planetary",
+							"reference": "P50",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "m6BD4ujhAxc0UUyMl",
+							"name": "Requires Surface",
+							"reference": "P50",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mr1uqhDObCc8-YahK",
+							"name": "Regular Move",
+							"reference": "PSI14",
+							"local_notes": "2× Basic Speed",
+							"disabled": true
+						},
+						{
+							"id": "m_RkXLHgZDh_Yvd03",
+							"name": "Slow",
+							"reference": "PSI14",
+							"local_notes": "Basic Speed",
+							"cost": -25
+						},
+						{
+							"id": "mMH9BUM2vcke6-d1F",
+							"name": "Slow",
+							"reference": "PSI14",
+							"local_notes": "Move 1",
+							"cost": -45,
+							"disabled": true
+						},
+						{
+							"id": "mU1KWzBQFTDFOHmeS",
+							"name": "Up to No encumbrance",
+							"reference": "FFWF12",
+							"reference_highlight": "Encumbrance-Limited",
+							"local_notes": "Can only glide when Light, fall if greater",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "mN-t3cvoTjXdRU4GO",
+							"name": "Up to Light encumbrance",
+							"reference": "FFWF12",
+							"reference_highlight": "Encumbrance-Limited",
+							"local_notes": "Can only glide when Medium, fall if greater",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mh5FeNdFaHl2wfuJa",
+							"name": "Up to Medium encumbrance",
+							"reference": "FFWF12",
+							"reference_highlight": "Encumbrance-Limited",
+							"local_notes": "Can only glide when Heavy, fall if greater",
+							"cost": -5
+						}
+					],
+					"base_points": 40,
+					"calc": {
+						"points": 8
+					}
+				},
+				{
+					"id": "t1NPHJBrh8GvbwJAD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tz-USDL9B_KrrVqDi"
+					},
+					"name": "Luck (1/h)",
+					"reference": "B66,P59",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mt_0YQ02wFVOsPBlC",
+							"name": "Active",
+							"reference": "B66",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mv12CL4Pokfr-Ntuy",
+							"name": "Aspected",
+							"reference": "B66",
+							"local_notes": "@Aspect@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m0vSPPSkT0hxiua54",
+							"name": "Defensive",
+							"reference": "B66",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m7dXhaMXgtnrI_aCZ",
+							"name": "Wishing",
+							"reference": "P59",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mvHTc7sb6cEi46vf5",
+							"name": "Game Time",
+							"reference": "P108",
+							"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
 					}
 				}
 			],
 			"calc": {
-				"points": 3
+				"points": 51
 			}
 		},
 		{
-			"id": "tTN8HRJpyBCj6I55G",
+			"id": "tDKJmGDLYufMQE0V6",
 			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tgjE-yMzESTjq695x"
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
 			},
-			"name": "Danger Sense",
-			"reference": "B47,P46",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"base_points": 15,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tCbc1iJnzVglYTjFF",
-			"name": "Extra Step",
-			"local_notes": "-2 to DX and skills when stepping past 1",
-			"points_per_level": 10,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 10
-			}
-		},
-		{
-			"id": "tvtRoYMJOI5dA9C4y",
-			"source": {
-				"library": "Dorovich/gcs-cdp",
-				"path": "CdP Rasgos (Especies).adq",
-				"id": "tPpFaRJ1HUGQR0azT"
-			},
-			"name": "Flight — Regular Wings",
-			"reference": "B56,P50,PSI14",
-			"local_notes": "Air Move \u003cscript\u003eMath.floor($basic_speed)\u003c/script\u003e",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "m2FtVtbSeMX2WPx5Q",
-					"name": "Newtonian Space Flight",
-					"reference": "B56",
-					"cost": 25,
-					"disabled": true
-				},
-				{
-					"id": "m0E9v4BLYJkXJr2T6",
-					"name": "Space Flight",
-					"reference": "B56",
-					"cost": 50,
-					"disabled": true
-				},
-				{
-					"id": "mZpXZS3_YWjFHqYBN",
-					"name": "Cannot Hover",
-					"reference": "B56",
-					"cost": -15,
-					"disabled": true
-				},
-				{
-					"id": "mscKVjmzwRdlAiMH_",
-					"name": "Controlled Gliding",
-					"reference": "B56",
-					"cost": -45,
-					"disabled": true
-				},
-				{
-					"id": "miwe4chrljAIdu98Q",
-					"name": "Gliding",
-					"reference": "B56",
-					"cost": -50
-				},
-				{
-					"id": "mtViF7VB7vYRtzCp6",
-					"name": "Lighter Than Air",
-					"reference": "B56",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mOfulj6XAVitWa8Al",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"local_notes": "30'",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mGY-K9Yu64mmhV57t",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"local_notes": "10'",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mmqj_---XCoiMbbIW",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"local_notes": "5'",
-					"cost": -25
-				},
-				{
-					"id": "mWS9wRrcw4Y32RSTj",
-					"name": "Small Wings",
-					"reference": "B56",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mcbo5qOaNTc8B8h7w",
-					"name": "Space Flight Only",
-					"reference": "B56",
-					"cost": -75,
-					"disabled": true
-				},
-				{
-					"id": "mlH1FonC7wiRS0Msa",
-					"name": "Winged",
-					"reference": "B56",
-					"cost": -25
-				},
-				{
-					"id": "mcnANnv3QjONLMKiX",
-					"name": "Planetary",
-					"reference": "P50",
-					"cost": -5,
-					"disabled": true
-				},
-				{
-					"id": "mnnOEtmZFbawuKCFt",
-					"name": "Requires Surface",
-					"reference": "P50",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mrzfLiNZt2tCmI8Jd",
-					"name": "Slow",
-					"reference": "PSI14",
-					"local_notes": "Basic Speed",
-					"cost": -25
-				},
-				{
-					"id": "mcefhKSH_KqMaI4kI",
-					"name": "Slow, Move 1",
-					"reference": "PSI14",
-					"cost": -45,
-					"disabled": true
-				},
-				{
-					"id": "mhv_ZZlxZi2icDB5j",
-					"name": "Encumbrance-Limited (No encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"local_notes": "Can only glide at best when overburdened",
-					"cost": -15,
-					"disabled": true
-				},
-				{
-					"id": "my10nkV385pdrT3tb",
-					"name": "Encumbrance-Limited (Light encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"local_notes": "Can only glide at best when overburdened",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mYC31H1UNrFGko3Ve",
-					"name": "Encumbrance-Limited (Medium encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"local_notes": "Can only glide at best when overburdened",
-					"cost": -5,
-					"disabled": true
-				},
-				{
-					"id": "mCj7wu5CF7sTRgok0",
-					"name": "Up to Medium encumbrance",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"cost": -5
-				}
-			],
-			"base_points": 40,
-			"calc": {
-				"points": 8,
-				"resolved_notes": "Air Move 5"
-			}
-		},
-		{
-			"id": "t1NPHJBrh8GvbwJAD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Luck (1/h)",
-			"reference": "B66,P59",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mt_0YQ02wFVOsPBlC",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mv12CL4Pokfr-Ntuy",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "m0vSPPSkT0hxiua54",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "m7dXhaMXgtnrI_aCZ",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mvHTc7sb6cEi46vf5",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tnMBSH9EAhVFjWkmK",
-			"name": "Natural Attacks",
+			"name": "CdP Natural Attacks",
 			"reference": "B271",
 			"weapons": [
 				{
-					"id": "w7lSdwdpOE3S1q8ze",
+					"id": "wrTSILyDvR423yGbU",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wTlbizHziVB9G2RKG",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
+					"usage": "Unarmed",
+					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -978,39 +968,6 @@
 						"damage": "1d-3 cr",
 						"parry": "8"
 					}
-				},
-				{
-					"id": "wi_5uiiXg4lJhVv1H",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d-2 cr"
-					}
 				}
 			],
 			"calc": {
@@ -1018,87 +975,471 @@
 			}
 		},
 		{
-			"id": "tSDzWRIFn5ADlIO8H",
-			"name": "No Extra Arm",
-			"reference": "B53",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
+			"id": "T5BP5PYEwFxsa_2fs",
+			"name": "Disadvantages \u0026 Quirks",
+			"children": [
 				{
-					"id": "mGr6Qm6Yfk2sMFtjq",
-					"name": "Extra-Flexible",
+					"id": "tSDzWRIFn5ADlIO8H",
+					"name": "No Extra Arm",
 					"reference": "B53",
-					"cost": 50,
-					"disabled": true
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mGr6Qm6Yfk2sMFtjq",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mVifG_pGoJERZOOxd",
+							"name": "Long",
+							"reference": "B53",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mhC4_P7dnT9Netlqt",
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mUUAs3J8f0kCsSS88",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mySAVl4IyaUTCuXXT",
+							"name": "Short",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mojSKrUEZxd1oP0cP",
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Half body ST",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "m6VJ59vTd7WBEJ_Ut",
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Quarter body ST",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m_NtzqGhUNidNTm87",
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mmdDC1R0Dm_yRWTy2",
+							"name": "No Grasping Hand",
+							"reference": "MATG28",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"points_per_level": -10,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -20
+					}
 				},
 				{
-					"id": "mVifG_pGoJERZOOxd",
-					"name": "Long",
-					"reference": "B53",
-					"cost": 100,
-					"levels": 1,
-					"disabled": true
+					"id": "tPJv5KUvOo1rkhzse",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tLjJdINd7_EUwXEvg"
+					},
+					"name": "Numb",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m0Ncw-qVhMRFMb0Zh",
+							"name": "Hands Only",
+							"cost": -40
+						}
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -12
+					}
 				},
 				{
-					"id": "mhC4_P7dnT9Netlqt",
-					"name": "Foot Manipulators",
-					"reference": "B53",
-					"cost": -30,
-					"disabled": true
-				},
-				{
-					"id": "mUUAs3J8f0kCsSS88",
-					"name": "No Physical Attack",
-					"reference": "B53",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "mySAVl4IyaUTCuXXT",
-					"name": "Short",
-					"reference": "B53",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "mojSKrUEZxd1oP0cP",
-					"name": "Weak",
-					"reference": "B53",
-					"local_notes": "Half body ST",
-					"cost": -25,
-					"disabled": true
-				},
-				{
-					"id": "m6VJ59vTd7WBEJ_Ut",
-					"name": "Weak",
-					"reference": "B53",
-					"local_notes": "Quarter body ST",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "m_NtzqGhUNidNTm87",
-					"name": "Weapon Mount",
-					"reference": "B53",
-					"cost": -80,
-					"disabled": true
-				},
-				{
-					"id": "mmdDC1R0Dm_yRWTy2",
-					"name": "No Grasping Hand",
-					"reference": "MATG28",
-					"cost": -40,
-					"disabled": true
+					"id": "tXx4UEE3I1LhFoDZO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tHv97hIejdmH2l3xH"
+					},
+					"name": "Shiny Exoskeleton",
+					"reference": "B164",
+					"tags": [
+						"Physical",
+						"Quirk"
+					],
+					"replacements": {
+						"Physical Quirk": "Shiny caparace"
+					},
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
 				}
 			],
-			"points_per_level": -10,
-			"can_level": true,
-			"levels": 2,
 			"calc": {
-				"points": -20
+				"points": -33
+			}
+		},
+		{
+			"id": "Tx9CjPRJ6m5oiT5II",
+			"name": "Languages \u0026 Culture",
+			"children": [
+				{
+					"id": "tKsgDLEFd7jdWVj5Y",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toXBQ8q4Nek5lsLPF"
+					},
+					"name": "Cultural Familiarity",
+					"reference": "B23",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+					"modifiers": [
+						{
+							"id": "mBrQiVATIsL9YZOhZ",
+							"name": "Koppemak",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mL-osf9LnqIPJAUFJ",
+							"name": "Koppemak",
+							"local_notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mzNDJn9N9rxSPmhPR",
+							"name": "Korkon",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mM-5DG2GcF44tdGVh",
+							"name": "Korkon",
+							"local_notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mWRxSNS2ZMCzvc816",
+							"name": "Kwazaar",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mg4inUvs8SHWRodCH",
+							"name": "Kwazaar",
+							"local_notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mLXY6DXnApGLi-Lxc",
+							"name": "Te'karn",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m3CG-IrX9eoifrKlv",
+							"name": "Te'karn",
+							"local_notes": "Native",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mrMyStchvGUESvkFf",
+							"name": "O'koptera",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m2DYW5Hwpwo0O4Yxb",
+							"name": "O'koptera",
+							"local_notes": "Native",
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tKW8kYAj1cTksylZl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: Ama'kon",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Anere"
+					},
+					"modifiers": [
+						{
+							"id": "mpVdlC5a6jVwAbxds",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m6GMV0pgk7_USolW7",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mZhKtxXOim2YAUQEf",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mbluz6rn9dVdg35_v",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "mUosbtOKjT5zWiZl2",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mzarI9slZjKafYZcb",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mxX9nO_bug8e1VCLF",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mNdJo2ZzBPFziQ4Ck",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "mU3eG2jnzpeNwCzso",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "tN16mhKp6CtP3vz-x",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: Anere",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Anere"
+					},
+					"modifiers": [
+						{
+							"id": "mq9y0aQzQiP6_doi2",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points"
+						},
+						{
+							"id": "mx0QaOTyub-2Bpurz",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m3fneQS-_CirJLSb5",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mBQ50byH3TLclJ19O",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m8CsajP0tvxola_Su",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost": 3,
+							"cost_type": "points"
+						},
+						{
+							"id": "mrkn4_SKtDWjaYrUS",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "myXkPOvLni_w3O7Xz",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mKEDcTYN6Pd7WLNfU",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mAOKL8d4i2WAbXYE_",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost": 3,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 4
 			}
 		},
 		{
@@ -1811,30 +2152,50 @@
 			"calc": {
 				"points": 40
 			}
-		},
-		{
-			"id": "tXx4UEE3I1LhFoDZO",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tHv97hIejdmH2l3xH"
-			},
-			"name": "Shiny Exoskeleton",
-			"reference": "B164",
-			"tags": [
-				"Physical",
-				"Quirk"
-			],
-			"replacements": {
-				"Physical Quirk": "Shiny caparace"
-			},
-			"base_points": -1,
-			"calc": {
-				"points": -1
-			}
 		}
 	],
 	"skills": [
+		{
+			"id": "ssBdJrAFPMA9RicEn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s5huq4lGmPah5Mzn3"
+			},
+			"name": "Armoury",
+			"reference": "B178",
+			"tags": [
+				"Maintenance",
+				"Military",
+				"Repair"
+			],
+			"specialization": "Melee Weapons",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Melee Weapons",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "IQ-1"
+			}
+		},
 		{
 			"id": "sbPDk9lRSFSyYGMcQ",
 			"source": {
@@ -1979,6 +2340,50 @@
 			"calc": {
 				"level": 10,
 				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sJxuDpAGd5ikAGNRT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-y06a7Fcnd6VGLQ-"
+			},
+			"name": "Fencing",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sword",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "DX-1"
 			}
 		},
 		{
@@ -2215,91 +2620,6 @@
 				"level": 10,
 				"rsl": "Per+0"
 			}
-		},
-		{
-			"id": "sJxuDpAGd5ikAGNRT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s-y06a7Fcnd6VGLQ-"
-			},
-			"name": "Fencing",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Knife",
-					"modifier": -4
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Sword",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "DX-1"
-			}
-		},
-		{
-			"id": "ssBdJrAFPMA9RicEn",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s5huq4lGmPah5Mzn3"
-			},
-			"name": "Armoury",
-			"reference": "B178",
-			"tags": [
-				"Maintenance",
-				"Military",
-				"Repair"
-			],
-			"specialization": "Melee Weapons",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Melee Weapons",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "IQ-1"
-			}
 		}
 	],
 	"notes": [
@@ -2309,7 +2629,7 @@
 		}
 	],
 	"created_date": "2025-07-08T22:19:10+02:00",
-	"modified_date": "2025-07-10T00:20:45+02:00",
+	"modified_date": "2025-07-10T23:21:37+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
