@@ -5,6 +5,8 @@
 		{
 			"id": "Tu2Oq0RKcmmAXlKiq",
 			"name": "Kwazaar",
+			"ancestry": "Human",
+			"container_type": "ancestry",
 			"children": [
 				{
 					"id": "tmEjkjkaw-3WrxNSh",
@@ -82,7 +84,7 @@
 					},
 					"name": "Cold-Blooded",
 					"reference": "B127",
-					"notes": "Under 50-degrees",
+					"local_notes": "Under 50-degrees",
 					"tags": [
 						"Disadvantage",
 						"Exotic",
@@ -230,7 +232,7 @@
 							"id": "m8d8JUS5M_UQSNUO1",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances @Trait@",
+							"local_notes": "Enhances @Trait@",
 							"cost": 80,
 							"disabled": true
 						},
@@ -238,7 +240,7 @@
 							"id": "mwW1P0NAHe2q6sLYM",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Healing only",
+							"local_notes": "Healing only",
 							"cost": 80,
 							"disabled": true
 						},
@@ -246,7 +248,7 @@
 							"id": "m8sp9d_mb0t_d7UxA",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances any trait",
+							"local_notes": "Enhances any trait",
 							"cost": 100,
 							"disabled": true
 						},
@@ -261,7 +263,7 @@
 							"id": "mlirboO7pNeOuyq8U",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Rare@",
+							"local_notes": "@Rare@",
 							"cost": -1,
 							"cost_type": "points",
 							"disabled": true
@@ -270,7 +272,7 @@
 							"id": "myrlcLFFMoD-G2y9c",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Occasional@",
+							"local_notes": "@Occasional@",
 							"cost": -5,
 							"disabled": true
 						},
@@ -278,7 +280,7 @@
 							"id": "m6tgdc4P7iinWnukz",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Common@",
+							"local_notes": "@Common@",
 							"cost": -10,
 							"disabled": true
 						},
@@ -286,7 +288,7 @@
 							"id": "mKDKg_B2BcfrGPoLQ",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Very Common@",
+							"local_notes": "@Very Common@",
 							"cost": -15,
 							"disabled": true
 						},
@@ -294,7 +296,7 @@
 							"id": "mGaI4a0p7mp1Tuxp_",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "Front",
+							"local_notes": "Front",
 							"cost": -20,
 							"disabled": true
 						},
@@ -309,7 +311,7 @@
 							"id": "mnicCZdldwpKDswh9",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
+							"local_notes": "@Very Common Attack Form@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -331,7 +333,7 @@
 							"id": "m0fyOCjlpqMpkJUc4",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
 							"cost": -40,
 							"disabled": true
 						},
@@ -339,21 +341,21 @@
 							"id": "mpTdnsl6SPyTI_mJ4",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Common Attack Form@",
+							"local_notes": "@Common Attack Form@",
 							"cost": -40,
 							"disabled": true
 						},
 						{
 							"id": "m-IFvM6OI1vK7nh5l",
 							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40
 						},
 						{
 							"id": "mrQmum8uc20sC2bto",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
+							"local_notes": "@Occasional Attack Form@",
 							"cost": -60,
 							"disabled": true
 						},
@@ -368,7 +370,7 @@
 							"id": "mMzhRB20M_Nc9PGZc",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Rare Attack Form@",
+							"local_notes": "@Rare Attack Form@",
 							"cost": -80,
 							"disabled": true
 						},

@@ -54,7 +54,7 @@
 				"type": "integer",
 				"name": "ST",
 				"full_name": "Strength",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10,
 				"cost_adj_percent_per_sm": 10
 			},
@@ -63,7 +63,7 @@
 				"type": "integer",
 				"name": "DX",
 				"full_name": "Dexterity",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -71,7 +71,7 @@
 				"type": "integer",
 				"name": "IQ",
 				"full_name": "Intelligence",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -79,21 +79,21 @@
 				"type": "integer",
 				"name": "HT",
 				"full_name": "Health",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10
 			},
 			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "fright_check",
 				"type": "integer",
 				"name": "Fright Check",
-				"attribute_base": "$will",
+				"base": "$will",
 				"cost_per_point": 2
 			},
 			{
@@ -101,14 +101,14 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$ht)/4",
+				"base": "($dx + $ht) / 4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "floor($basic_speed)",
+				"base": "Math.floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
@@ -121,35 +121,35 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "vision",
 				"type": "integer",
 				"name": "Vision",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "hearing",
 				"type": "integer",
 				"name": "Hearing",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "taste_smell",
 				"type": "integer",
 				"name": "Taste \u0026 Smell",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "touch",
 				"type": "integer",
 				"name": "Touch",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
@@ -157,13 +157,13 @@
 				"type": "pool",
 				"name": "HP",
 				"full_name": "Hit Points",
-				"attribute_base": "$st",
+				"base": "$st",
 				"cost_per_point": 2,
 				"cost_adj_percent_per_sm": 10,
 				"thresholds": [
 					{
 						"state": "Dead",
-						"expression": "round(-$hp*5)",
+						"value": "Math.round(-$hp * 5)",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -171,7 +171,7 @@
 					},
 					{
 						"state": "Dying #4",
-						"expression": "round(-$hp*4)",
+						"value": "Math.round(-$hp * 4)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -180,7 +180,7 @@
 					},
 					{
 						"state": "Dying #3",
-						"expression": "round(-$hp*3)",
+						"value": "Math.round(-$hp * 3)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -189,7 +189,7 @@
 					},
 					{
 						"state": "Dying #2",
-						"expression": "round(-$hp*2)",
+						"value": "Math.round(-$hp * 2)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -198,7 +198,7 @@
 					},
 					{
 						"state": "Dying #1",
-						"expression": "-$hp",
+						"value": "-$hp",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -207,7 +207,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -216,7 +216,7 @@
 					},
 					{
 						"state": "Reeling",
-						"expression": "ceil($hp/3)-1",
+						"value": "Math.ceil($hp / 3) - 1",
 						"explanation": "Move and Dodge are halved (B419)",
 						"ops": [
 							"halve_move",
@@ -225,11 +225,11 @@
 					},
 					{
 						"state": "Wounded",
-						"expression": "$hp-1"
+						"value": "$hp - 1"
 					},
 					{
 						"state": "Healthy",
-						"expression": "$hp"
+						"value": "$hp"
 					}
 				]
 			},
@@ -238,12 +238,12 @@
 				"type": "pool",
 				"name": "FP",
 				"full_name": "Fatigue Points",
-				"attribute_base": "$ht",
+				"base": "$ht",
 				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "Unconscious",
-						"expression": "-$fp",
+						"value": "-$fp",
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -252,7 +252,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -262,7 +262,7 @@
 					},
 					{
 						"state": "Tired",
-						"expression": "ceil($fp/3)-1",
+						"value": "Math.ceil($fp / 3) - 1",
 						"explanation": "Move, Dodge and ST are halved (B426)",
 						"ops": [
 							"halve_move",
@@ -272,11 +272,11 @@
 					},
 					{
 						"state": "Tiring",
-						"expression": "$fp-1"
+						"value": "$fp - 1"
 					},
 					{
 						"state": "Rested",
-						"expression": "$fp"
+						"value": "$fp"
 					}
 				]
 			}
@@ -608,7 +608,7 @@
 					},
 					"name": "Dabbler",
 					"reference": "PU2:16",
-					"notes": "Intimidation, Savoir-Faire (High Society), Acting, Public Speaking",
+					"local_notes": "Intimidation, Savoir-Faire (High Society), Acting, Public Speaking",
 					"tags": [
 						"Mental",
 						"Perk",
@@ -689,7 +689,7 @@
 							"id": "mvVyW8aelAkcKurIN",
 							"name": "Aspected",
 							"reference": "B66",
-							"notes": "@Aspect@",
+							"local_notes": "@Aspect@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -711,7 +711,7 @@
 							"id": "mGS91SzwsJi7JCzXK",
 							"name": "Game Time",
 							"reference": "P108",
-							"notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
 							"disabled": true
 						}
 					],
@@ -729,7 +729,7 @@
 					},
 					"name": "Signature Gear",
 					"reference": "B85",
-					"notes": "The Faraheim (2000 kt)",
+					"local_notes": "The Faraheim",
 					"tags": [
 						"Advantage",
 						"Social"
@@ -808,7 +808,7 @@
 					},
 					"name": "Debt",
 					"reference": "B26",
-					"notes": "20 kt/month",
+					"local_notes": "20 kt/month",
 					"tags": [
 						"Disadvantage",
 						"Social"
@@ -875,7 +875,7 @@
 						{
 							"id": "mE3iKoh4OW2EGXWqJ",
 							"name": "Koppemak",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -888,7 +888,7 @@
 						{
 							"id": "m_0ox00oWligiY2b8",
 							"name": "Korkon",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -902,7 +902,7 @@
 						{
 							"id": "mrBPz8_53v01mIL7E",
 							"name": "Kwazaar",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -916,7 +916,7 @@
 						{
 							"id": "mW4gI0K6miDAKAgXp",
 							"name": "Te'karn",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points"
 						},
 						{
@@ -929,7 +929,7 @@
 						{
 							"id": "mNvko1RJ6o6LES3S2",
 							"name": "O'koptera",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						}
@@ -984,7 +984,7 @@
 							"id": "m-ON71UMg3ttPwydj",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -992,7 +992,7 @@
 							"id": "mfL-FaA44wXgRs8XW",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1001,7 +1001,7 @@
 							"id": "mkFNROyyzGTRLYNXs",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -1010,7 +1010,7 @@
 							"id": "mIM0bd6e2nX1lNqNZ",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						},
@@ -1018,7 +1018,7 @@
 							"id": "m0zLBcDQ7l_pcjfGK",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1026,7 +1026,7 @@
 							"id": "m56gvAzny-OzsgSkS",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1035,7 +1035,7 @@
 							"id": "mAVkXVd_iGQP65SIW",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -1044,7 +1044,7 @@
 							"id": "mqQv98J3ZIEAGVoAW",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						}
@@ -1100,7 +1100,7 @@
 							"id": "mfRpnyvLgTqvWSlHY",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1108,7 +1108,7 @@
 							"id": "mjLc-UajhzGbB5tGF",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1117,7 +1117,7 @@
 							"id": "maLMBGrQZWE_WhtwC",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points"
 						},
@@ -1125,7 +1125,7 @@
 							"id": "mxL4wTRj3UEyLzrzb",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
@@ -1134,14 +1134,14 @@
 							"id": "mI-_mLj7amPKXa4Zd",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points"
 						},
 						{
 							"id": "miVGfJqHhxpPmTMW0",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1150,7 +1150,7 @@
 							"id": "mhREAzJEp6XqY427r",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -1159,7 +1159,7 @@
 							"id": "mvFLnDkTDfu1pdA05",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
@@ -2047,8 +2047,8 @@
 			"tags": [
 				"Camping and Survival Gear"
 			],
-			"value": 100,
-			"weight": "10 lb",
+			"base_value": "100",
+			"base_weight": "10 lb",
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -2075,17 +2075,19 @@
 					},
 					"description": "Personal Basics",
 					"reference": "B288",
-					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"local_notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
 					"tech_level": "0",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 5,
-					"weight": "1 lb",
+					"base_value": "5",
+					"base_weight": "1 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 5,
 						"extended_value": 5,
+						"weight": "1 lb",
 						"extended_weight": "1 lb"
 					}
 				},
@@ -2102,21 +2104,25 @@
 					"tags": [
 						"General Equipment"
 					],
-					"value": 600,
-					"weight": "20 lb",
+					"base_value": "600",
+					"base_weight": "20 lb",
 					"replacements": {
 						"Specialty": "Contragravity"
 					},
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 600,
 						"extended_value": 600,
+						"weight": "20 lb",
 						"extended_weight": "20 lb"
 					}
 				}
 			],
 			"calc": {
+				"value": 100,
 				"extended_value": 705,
+				"weight": "10 lb",
 				"extended_weight": "31 lb"
 			}
 		},
@@ -2135,8 +2141,8 @@
 				"Missile Weapon",
 				"Tools"
 			],
-			"value": 20,
-			"weight": "3 lb",
+			"base_value": "20",
+			"base_weight": "3 lb",
 			"weapons": [
 				{
 					"id": "wJ3n9RPG91uDnaNDs",
@@ -2215,22 +2221,42 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
+				"value": 20,
 				"extended_value": 20,
+				"weight": "3 lb",
 				"extended_weight": "3 lb"
+			}
+		}
+	],
+	"other_equipment": [
+		{
+			"id": "eQIQCBe_zCTM3ohP-",
+			"description": "The Faraheim",
+			"local_notes": "Custom Levelond-class light arkopan",
+			"legality_class": "4",
+			"base_value": "197305",
+			"base_weight": "764.25",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 197305,
+				"extended_value": 197305,
+				"weight": "1,528.5 lb",
+				"extended_weight": "1,528.5 lb"
 			}
 		}
 	],
 	"notes": [
 		{
 			"id": "ncdU-eqF3F25MfTNc",
-			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"markdown": "**Umbrales HP**: \u003cscript\u003eMath.floor($hp / 2) + 1\u003c/script\u003e (\u003eHP/2), \u003cscript\u003eMath.floor($hp / 3) + 1\u003c/script\u003e (\u003eHP/3), \u003cscript\u003eMath.ceil($hp / 3) - 1\u003c/script\u003e (\u003cHP/3)",
 			"calc": {
 				"resolved_text": "**Umbrales HP**: 6 (\u003eHP/2), 4 (\u003eHP/3), 3 (\u003cHP/3)"
 			}
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-06-06T07:41:19+02:00",
+	"modified_date": "2025-07-12T13:33:51+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
