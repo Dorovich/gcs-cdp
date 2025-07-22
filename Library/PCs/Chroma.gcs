@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "AfxFUX6jF97i865p7",
-	"total_points": 100,
+	"total_points": 103,
 	"points_record": [
+		{
+			"when": "2025-07-14T16:11:52+02:00",
+			"points": 3,
+			"reason": "Sesión 2-1"
+		},
 		{
 			"when": "2025-07-10T02:43:50+02:00",
 			"points": 100,
@@ -276,7 +281,7 @@
 			}
 		],
 		"body_type": {
-			"name": "Humanoid",
+			"name": "Humanoid (Kwazaar)",
 			"roll": "2d",
 			"locations": [
 				{
@@ -309,7 +314,7 @@
 					"id": "face",
 					"choice_name": "Face",
 					"table_name": "Face",
-					"hit_penalty": -5,
+					"hit_penalty": -4,
 					"calc": {
 						"roll_range": "-",
 						"dr": {
@@ -772,7 +777,7 @@
 					},
 					"modifiers": [
 						{
-							"id": "mp4rU4at_DjQNhNtY",
+							"id": "mByHHInMYgsAD0XRZ",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 sec",
@@ -781,7 +786,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJ_wEA1NPq8WBpDoN",
+							"id": "mfaO4dkCoCLBWNT7l",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "10 sec",
@@ -790,7 +795,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mbKlEhhRjkmp4HcDw",
+							"id": "moboRHN28Fzry4lmF",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 min",
@@ -799,7 +804,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mTqkTGEnU5T3qnbmp",
+							"id": "mYa9hS_8ngAsmgM5Q",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 hr",
@@ -808,7 +813,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mDh5u1Mk4rv9R_iP6",
+							"id": "meoFZH38zymreKN9t",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 day",
@@ -817,7 +822,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mW-ANXN3X8TfmY1KT",
+							"id": "ma_cX8vGsmK8V5FGU",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 sec; Resistible",
@@ -826,7 +831,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m8lPTawFO2ODGOwft",
+							"id": "mNbg1owwQjB2d2xcA",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "10 sec; Resistible",
@@ -835,7 +840,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mNDKtrV_C8lvRPTUI",
+							"id": "m1VvwxKHMjQNPcAxb",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 min; Resistible",
@@ -843,7 +848,7 @@
 							"levels": 1
 						},
 						{
-							"id": "mPYZyjWnZlyWV-mtm",
+							"id": "mhdBeHU_RItkZkmJL",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 hr; Resistible",
@@ -852,7 +857,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJ0bIvnosum3up-H3",
+							"id": "mTHYrxgp6ZiI6HY9B",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 day; Resistible",
@@ -861,7 +866,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mYRRg-84bMkzkNhk8",
+							"id": "mNsQ_QNaZrXen2P7o",
 							"name": "Contagious",
 							"reference": "B103",
 							"local_notes": "Mildly",
@@ -869,7 +874,7 @@
 							"disabled": true
 						},
 						{
-							"id": "me-mmswHDCz_XdZhv",
+							"id": "mZX8UZ22HYB4lrbeI",
 							"name": "Contagious",
 							"reference": "B103",
 							"local_notes": "Highly",
@@ -877,7 +882,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mACxJrmU1GPUnjmmc",
+							"id": "mHyDr37TAjs-ciUWY",
 							"name": "Double Blunt Trauma",
 							"reference": "B104",
 							"local_notes": "1HP per 10 dmg",
@@ -885,7 +890,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mUcJnpAERhtEOSfCt",
+							"id": "mkNSbJbxhfOPMGlpq",
 							"name": "Explosion",
 							"reference": "B104",
 							"cost": 50,
@@ -893,7 +898,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mg5L8wgoUfuRl77WT",
+							"id": "mUc5S8B8HUhfZJLet",
 							"name": "Fragmentation",
 							"reference": "B104",
 							"cost": 15,
@@ -901,7 +906,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mMGZvlcIi6RyVecyq",
+							"id": "muRE46rs_iC_XDUir",
 							"name": "Fragmentation",
 							"reference": "B104",
 							"local_notes": "Hot",
@@ -910,21 +915,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mzQNH2skzQDkT2b74",
+							"id": "m-ujttP4_dc5CrGQd",
 							"name": "Radiation",
 							"reference": "B104",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "m32nIS1zlaw-IQ57o",
+							"id": "mYxugs5ziaAIBoH87",
 							"name": "Surge",
 							"reference": "B104",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mkpV0wbTALKXSYTvc",
+							"id": "m5hBZP6UVLyzkfiOp",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "2",
@@ -932,7 +937,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mR8HbMY0AfWNaA5Gn",
+							"id": "mw4m2as861B0p0x7f",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "3",
@@ -940,7 +945,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mFR2LvH6dVh5vrF-f",
+							"id": "miIK-fU4Dc7SuBDnk",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "5",
@@ -948,7 +953,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m4Gw2GzY6pSmFJL1g",
+							"id": "musVBJBuAyP3LVb44",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "10",
@@ -956,21 +961,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mMdtAK2XBgj18OCEw",
+							"id": "mtglzdPJYoAM7nwFG",
 							"name": "Side Effect",
 							"reference": "B109",
-							"local_notes": "Hemorrhage (-2HT)",
+							"local_notes": "Hemorrhage (-2 HT)",
 							"cost": 10
 						},
 						{
-							"id": "mUzmYMdtoQvpzjOEN",
+							"id": "mWaH-mAPqj0zuYFHh",
 							"name": "Side Effect",
 							"reference": "B109",
 							"local_notes": "Tipsy",
 							"cost": 10
 						},
 						{
-							"id": "mo8bUFXLMy6x-7ete",
+							"id": "mvyqO7S-_fRZ-A4Fl",
 							"name": "Symptoms",
 							"reference": "B109",
 							"local_notes": "@Effect@",
@@ -980,7 +985,7 @@
 							}
 						},
 						{
-							"id": "mZRQNjzAeuNIRw1D6",
+							"id": "mzNKwQhVP1K1I2Unf",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.5",
@@ -988,7 +993,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mGcSrre150-lr8Ibk",
+							"id": "m8K33wGcYOZ7BkKD_",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.2",
@@ -996,7 +1001,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mv0BML4uOI5zz57MZ",
+							"id": "mcVfDA_V0y_eHfie_",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.1",
@@ -1004,21 +1009,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mq419fCFYBSbH10rW",
+							"id": "mhLTWbJFj04wTipBv",
 							"name": "No Wounding",
 							"reference": "B111",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "m6O_NJzgsJ-eMQ7F0",
+							"id": "mPUbXdIZPIi4Dbpod",
 							"name": "Incendiary",
 							"reference": "B104",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mv169-OkvVK5xiNq8",
+							"id": "mRiObJH12zQIlCDeT",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
@@ -1029,7 +1034,7 @@
 							"local_notes": "Bite"
 						},
 						{
-							"id": "mUy1Ukmco3bffRkko",
+							"id": "mbbkpYcC3aemK5sKd",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -1041,7 +1046,7 @@
 							"cost": -10
 						},
 						{
-							"id": "mG05wRkdlnTUlSYLJ",
+							"id": "myorzpmThsTfQ-QJo",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -1057,7 +1062,7 @@
 					"points_per_level": 4,
 					"weapons": [
 						{
-							"id": "WcUMDBvIdOg0RsAyF",
+							"id": "WgRdXw0MOQUUSe0yF",
 							"damage": {
 								"type": "tox",
 								"base": "1d"
@@ -1563,6 +1568,31 @@
 					}
 				},
 				{
+					"id": "tkurl1ZEG4S_I-_8a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7U0VbIzs6SqefwLr"
+					},
+					"name": "Social Stigma (Kwazaar)",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from Niwel patriots and similar persons at -2",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
 					"id": "tRb9OSVExtIqG-Yjw",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1578,9 +1608,9 @@
 					],
 					"cr_adj": "action_penalty",
 					"cr": 12,
-					"base_points": -15,
+					"base_points": -10,
 					"calc": {
-						"points": -15
+						"points": -10
 					}
 				}
 			],
@@ -3656,15 +3686,15 @@
 			"equipped": true,
 			"children": [
 				{
-					"id": "el-OCURlhCsny2HIL",
+					"id": "eYRVl_sf5LHaVoveZ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Low Tech/Low Tech Equipment.eqp",
-						"id": "eJdmG2XPlfFC_C8B9"
+						"id": "ez4ZjutUoKa4ORnkj"
 					},
 					"description": "Swordbreaker",
 					"reference": "LT61",
-					"tech_level": "4",
+					"tech_level": "1",
 					"tags": [
 						"Melee Weapon"
 					],
@@ -3672,16 +3702,47 @@
 					"base_weight": "1.5 lb",
 					"weapons": [
 						{
-							"id": "w-yl6DEHEuICUJzG_",
+							"id": "wovbZFCT7vgobS_Q0",
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Sword"
+								},
+								{
+									"type": "skill",
+									"name": "Fencing",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"level": 10,
+								"damage": "1d+1 cut",
+								"parry": "8"
+							}
+						},
+						{
+							"id": "wmyK505k6RU0lvu2z",
 							"damage": {
 								"type": "imp",
 								"st": "thr",
 								"base": "1"
 							},
-							"strength": "5",
+							"strength": "8",
 							"usage": "Thrust",
 							"reach": "1",
-							"parry": "0F",
+							"parry": "0",
 							"defaults": [
 								{
 									"type": "dx",
@@ -3700,7 +3761,7 @@
 							"calc": {
 								"level": 10,
 								"damage": "1d imp",
-								"parry": "8F"
+								"parry": "8"
 							}
 						}
 					],
@@ -3732,7 +3793,7 @@
 		}
 	],
 	"created_date": "2025-07-10T02:43:50+02:00",
-	"modified_date": "2025-07-12T13:51:23+02:00",
+	"modified_date": "2025-07-14T16:53:30+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

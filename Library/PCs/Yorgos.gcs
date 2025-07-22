@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "AoJ4BukMe_5FgcjIl",
-	"total_points": 169,
+	"total_points": 172,
 	"points_record": [
+		{
+			"when": "2025-07-14T16:12:15+02:00",
+			"points": 3,
+			"reason": "Sesión 2-1"
+		},
 		{
 			"when": "2025-05-21T13:53:22+02:00",
 			"points": -10,
@@ -56,7 +61,7 @@
 				"type": "integer",
 				"name": "ST",
 				"full_name": "Strength",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10,
 				"cost_adj_percent_per_sm": 10
 			},
@@ -65,7 +70,7 @@
 				"type": "integer",
 				"name": "DX",
 				"full_name": "Dexterity",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -73,7 +78,7 @@
 				"type": "integer",
 				"name": "IQ",
 				"full_name": "Intelligence",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -81,21 +86,21 @@
 				"type": "integer",
 				"name": "HT",
 				"full_name": "Health",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10
 			},
 			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "fright_check",
 				"type": "integer",
 				"name": "Fright Check",
-				"attribute_base": "$will",
+				"base": "$will",
 				"cost_per_point": 2
 			},
 			{
@@ -103,14 +108,14 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$ht)/4",
+				"base": "($dx + $ht) / 4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "floor($basic_speed)",
+				"base": "Math.floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
@@ -123,35 +128,35 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "vision",
 				"type": "integer",
 				"name": "Vision",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "hearing",
 				"type": "integer",
 				"name": "Hearing",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "taste_smell",
 				"type": "integer",
 				"name": "Taste \u0026 Smell",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "touch",
 				"type": "integer",
 				"name": "Touch",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
@@ -159,13 +164,13 @@
 				"type": "pool",
 				"name": "HP",
 				"full_name": "Hit Points",
-				"attribute_base": "$st",
+				"base": "$st",
 				"cost_per_point": 2,
 				"cost_adj_percent_per_sm": 10,
 				"thresholds": [
 					{
 						"state": "Dead",
-						"expression": "round(-$hp*5)",
+						"value": "Math.round(-$hp * 5)",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -173,7 +178,7 @@
 					},
 					{
 						"state": "Dying #4",
-						"expression": "round(-$hp*4)",
+						"value": "Math.round(-$hp * 4)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -182,7 +187,7 @@
 					},
 					{
 						"state": "Dying #3",
-						"expression": "round(-$hp*3)",
+						"value": "Math.round(-$hp * 3)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -191,7 +196,7 @@
 					},
 					{
 						"state": "Dying #2",
-						"expression": "round(-$hp*2)",
+						"value": "Math.round(-$hp * 2)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -200,7 +205,7 @@
 					},
 					{
 						"state": "Dying #1",
-						"expression": "-$hp",
+						"value": "-$hp",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -209,7 +214,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -218,7 +223,7 @@
 					},
 					{
 						"state": "Reeling",
-						"expression": "ceil($hp/3)-1",
+						"value": "Math.ceil($hp / 3) - 1",
 						"explanation": "Move and Dodge are halved (B419)",
 						"ops": [
 							"halve_move",
@@ -227,11 +232,11 @@
 					},
 					{
 						"state": "Wounded",
-						"expression": "$hp-1"
+						"value": "$hp - 1"
 					},
 					{
 						"state": "Healthy",
-						"expression": "$hp"
+						"value": "$hp"
 					}
 				]
 			},
@@ -240,12 +245,12 @@
 				"type": "pool",
 				"name": "FP",
 				"full_name": "Fatigue Points",
-				"attribute_base": "$ht",
+				"base": "$ht",
 				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "Unconscious",
-						"expression": "-$fp",
+						"value": "-$fp",
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -254,7 +259,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -264,7 +269,7 @@
 					},
 					{
 						"state": "Tired",
-						"expression": "ceil($fp/3)-1",
+						"value": "Math.ceil($fp / 3) - 1",
 						"explanation": "Move, Dodge and ST are halved (B426)",
 						"ops": [
 							"halve_move",
@@ -274,11 +279,11 @@
 					},
 					{
 						"state": "Tiring",
-						"expression": "$fp-1"
+						"value": "$fp - 1"
 					},
 					{
 						"state": "Rested",
-						"expression": "$fp"
+						"value": "$fp"
 					}
 				]
 			}
@@ -562,9 +567,10 @@
 		{
 			"attr_id": "hp",
 			"adj": 0,
+			"damage": 1,
 			"calc": {
 				"value": 13,
-				"current": 13,
+				"current": 12,
 				"points": 0
 			}
 		},
@@ -610,7 +616,7 @@
 					},
 					"name": "Arm ST",
 					"reference": "B40",
-					"notes": "Only applies to efforts to lift, throw, or attack with those arms or hands. If a task requires multiple hands and they don't have the same ST, use the average ST.",
+					"local_notes": "Only applies to efforts to lift, throw, or attack with those arms or hands. If a task requires multiple hands and they don't have the same ST, use the average ST.",
 					"tags": [
 						"Advantage",
 						"Physical"
@@ -627,7 +633,7 @@
 							"id": "mbkPoZ6QjHaDRB4Ed",
 							"name": "Only one arm",
 							"reference": "B40",
-							"notes": "@Which@",
+							"local_notes": "@Which@",
 							"cost": -2,
 							"cost_type": "points",
 							"affects": "levels_only",
@@ -782,7 +788,7 @@
 					},
 					"name": "Fit",
 					"reference": "B55",
-					"notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+					"local_notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
 					"tags": [
 						"Advantage",
 						"Physical"
@@ -812,12 +818,15 @@
 						"Advantage",
 						"Social"
 					],
+					"replacements": {
+						"Small class of people": "Caravana Terrien"
+					},
 					"modifiers": [
 						{
 							"id": "mcVjgBoshLu0yHSYI",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone",
+							"local_notes": "Almost everyone",
 							"cost": 1,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -826,7 +835,7 @@
 							"id": "mM6x9xlK3za1HLjaf",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone except @large class of people@",
+							"local_notes": "Almost everyone except @large class of people@",
 							"cost": 0.67,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -835,7 +844,7 @@
 							"id": "m4G-ZYLBZw3nqfC7N",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "@Large class of people@",
+							"local_notes": "@Large class of people@",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -844,9 +853,6 @@
 							"id": "mokQhXWfClZVZlS3i",
 							"name": "Caravana Terrien",
 							"reference": "B27",
-							"replacements": {
-								"Small class of people": "Caravana Terrien"
-							},
 							"cost": 0.33,
 							"cost_type": "multiplier"
 						},
@@ -861,7 +867,7 @@
 							"id": "m9ZH5uT9wfsnqomyh",
 							"name": "Recognized sometimes",
 							"reference": "B28",
-							"notes": "10-",
+							"local_notes": "10-",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -870,7 +876,7 @@
 							"id": "mF6YCL7XTrlPfVo-m",
 							"name": "Recognized occasionally",
 							"reference": "B28",
-							"notes": "7-",
+							"local_notes": "7-",
 							"cost": 0.33,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -917,7 +923,7 @@
 							"id": "mesRNJkqvGI7NzfR1",
 							"name": "Aspected",
 							"reference": "B66",
-							"notes": "@Aspect@",
+							"local_notes": "@Aspect@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -939,7 +945,7 @@
 							"id": "mYMEFt0hft2aVVWPj",
 							"name": "Game Time",
 							"reference": "P108",
-							"notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
 							"disabled": true
 						}
 					],
@@ -1036,7 +1042,7 @@
 					},
 					"name": "Berserk",
 					"reference": "B124",
-					"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+					"local_notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
 					"tags": [
 						"Disadvantage",
 						"Mental"
@@ -1103,7 +1109,7 @@
 					},
 					"name": "Code of Honor (Chivalry)",
 					"reference": "B127",
-					"notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
+					"local_notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
 					"tags": [
 						"Disadvantage",
 						"Mental"
@@ -1142,7 +1148,7 @@
 					},
 					"name": "Overconfidence",
 					"reference": "B148",
-					"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+					"local_notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
 					"tags": [
 						"Disadvantage",
 						"Mental"
@@ -1391,7 +1397,7 @@
 							"id": "mJsU-87Cj2gcW1P2y",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances @Trait@",
+							"local_notes": "Enhances @Trait@",
 							"cost": 80,
 							"disabled": true
 						},
@@ -1399,7 +1405,7 @@
 							"id": "msF2miri_HJOx3hgB",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Healing only",
+							"local_notes": "Healing only",
 							"cost": 80,
 							"disabled": true
 						},
@@ -1407,7 +1413,7 @@
 							"id": "m4wBHsNxmUs5fbfRZ",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances any trait",
+							"local_notes": "Enhances any trait",
 							"cost": 100,
 							"disabled": true
 						},
@@ -1422,7 +1428,7 @@
 							"id": "mt-yaKeNd13TQUTtz",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Rare@",
+							"local_notes": "@Rare@",
 							"cost": -1,
 							"cost_type": "points",
 							"disabled": true
@@ -1431,7 +1437,7 @@
 							"id": "m_Wbb3KuCT1PAos_I",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Occasional@",
+							"local_notes": "@Occasional@",
 							"cost": -5,
 							"disabled": true
 						},
@@ -1439,7 +1445,7 @@
 							"id": "mH_5XhsxPkJnnqwZ3",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Common@",
+							"local_notes": "@Common@",
 							"cost": -10,
 							"disabled": true
 						},
@@ -1447,7 +1453,7 @@
 							"id": "mYwmJfBriC6O--A_X",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Very Common@",
+							"local_notes": "@Very Common@",
 							"cost": -15,
 							"disabled": true
 						},
@@ -1455,7 +1461,7 @@
 							"id": "m2dY_D0CuZCCtzY3h",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "Front",
+							"local_notes": "Front",
 							"cost": -20,
 							"disabled": true
 						},
@@ -1470,7 +1476,7 @@
 							"id": "msIMkaDB_2hUiEA9i",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
+							"local_notes": "@Very Common Attack Form@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -1492,7 +1498,7 @@
 							"id": "mI5QPCdUzpYdTDspM",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
 							"cost": -40,
 							"disabled": true
 						},
@@ -1500,21 +1506,21 @@
 							"id": "mGmO2-KIrK-nb6S6F",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Common Attack Form@",
+							"local_notes": "@Common Attack Form@",
 							"cost": -40,
 							"disabled": true
 						},
 						{
 							"id": "mg_4VF5d7RnHCZ-s2",
 							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40
 						},
 						{
 							"id": "mr-o2Yw2rm-mDjO5n",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
+							"local_notes": "@Occasional Attack Form@",
 							"cost": -60,
 							"disabled": true
 						},
@@ -1529,7 +1535,7 @@
 							"id": "m1b_8TmKLriE2_ERO",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Rare Attack Form@",
+							"local_notes": "@Rare Attack Form@",
 							"cost": -80,
 							"disabled": true
 						},
@@ -1870,7 +1876,7 @@
 						{
 							"id": "m26UHltJ0N9vLZun-",
 							"name": "Koppemak",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1884,7 +1890,7 @@
 						{
 							"id": "mk5IghPvMsPh_69mr",
 							"name": "Korkon",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points"
 						},
 						{
@@ -1897,7 +1903,7 @@
 						{
 							"id": "mjtS1WseUyaZKKC6v",
 							"name": "Kwazaar",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1910,7 +1916,7 @@
 						{
 							"id": "m8xbzyD0j77ssDgWu",
 							"name": "Te'karn",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1924,7 +1930,7 @@
 						{
 							"id": "mLliNkNPghBfjELcV",
 							"name": "O'koptera",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						}
@@ -1980,7 +1986,7 @@
 							"id": "mDQdqY7qFa8DU9pez",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1988,7 +1994,7 @@
 							"id": "mqr9qP_nNbEdzExLy",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1997,7 +2003,7 @@
 							"id": "mFQhJVaF--ALTBBiE",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points"
 						},
@@ -2005,7 +2011,7 @@
 							"id": "mnUqLuDqb0hmbp0cU",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
@@ -2014,7 +2020,7 @@
 							"id": "m9wNI0G3OnJ0C9WaO",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -2022,7 +2028,7 @@
 							"id": "mpOB23b86eLxEhL84",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -2031,7 +2037,7 @@
 							"id": "mctV3JyVHuGlG1FzK",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points"
 						},
@@ -2039,7 +2045,7 @@
 							"id": "mR0XZpp0pK9vU1Wv6",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
@@ -2095,7 +2101,7 @@
 							"id": "mh9VJZAao4-qX3MfC",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -2103,7 +2109,7 @@
 							"id": "mu6jE07ZmREd3ZPoT",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -2112,7 +2118,7 @@
 							"id": "mkKa8UmtPOr4Pa-gH",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -2121,7 +2127,7 @@
 							"id": "mcemJjexY0RDy5q7r",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						},
@@ -2129,7 +2135,7 @@
 							"id": "mdgKJWoiVLmAs4LBE",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -2137,7 +2143,7 @@
 							"id": "mCEYr8ynmE2H1KZLk",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -2146,7 +2152,7 @@
 							"id": "mgptzFYo59U6GQThI",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -2155,7 +2161,7 @@
 							"id": "m4Dwy9q-fq-LFDd9P",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						}
@@ -2907,13 +2913,13 @@
 			},
 			"description": "Backpack, Small",
 			"reference": "HT54",
-			"notes": "Holds 50lbs.",
+			"local_notes": "Holds 50lbs.",
 			"tech_level": "5",
 			"tags": [
 				"General Equipment"
 			],
-			"value": 60,
-			"weight": "3 lb",
+			"base_value": "60",
+			"base_weight": "3 lb",
 			"quantity": 1,
 			"equipped": true,
 			"children": [
@@ -2926,13 +2932,13 @@
 					},
 					"description": "Glass Bottle, 1 quart",
 					"reference": "LT34",
-					"notes": "DR 1, Fragile (Brittle) see B136",
+					"local_notes": "DR 1, Fragile (Brittle) see B136",
 					"tech_level": "0",
 					"tags": [
 						"Container"
 					],
-					"value": 3.75,
-					"weight": "1 lb",
+					"base_value": "3.75",
+					"base_weight": "1 lb",
 					"prereqs": {
 						"type": "prereq_list",
 						"all": true,
@@ -2950,7 +2956,9 @@
 					"quantity": 3,
 					"equipped": true,
 					"calc": {
+						"value": 3.75,
 						"extended_value": 11.25,
+						"weight": "1 lb",
 						"extended_weight": "3 lb"
 					}
 				},
@@ -2963,17 +2971,19 @@
 					},
 					"description": "Lantern",
 					"reference": "B288",
-					"notes": "Uses 1 pint of oil per 24 hours",
+					"local_notes": "Uses 1 pint of oil per 24 hours",
 					"tech_level": "2",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 20,
-					"weight": "2 lb",
+					"base_value": "20",
+					"base_weight": "2 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 20,
 						"extended_value": 20,
+						"weight": "2 lb",
 						"extended_weight": "2 lb"
 					}
 				},
@@ -2986,17 +2996,19 @@
 					},
 					"description": "Personal Basics",
 					"reference": "B288",
-					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"local_notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
 					"tech_level": "0",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 5,
-					"weight": "1 lb",
+					"base_value": "5",
+					"base_weight": "1 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 5,
 						"extended_value": 5,
+						"weight": "1 lb",
 						"extended_weight": "1 lb"
 					}
 				},
@@ -3009,17 +3021,19 @@
 					},
 					"description": "Rope, 3/8\", 20 yards",
 					"reference": "B288",
-					"notes": "Supports 300 lbs.",
+					"local_notes": "Supports 300 lbs.",
 					"tech_level": "0",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 10,
-					"weight": "3 lb",
+					"base_value": "10",
+					"base_weight": "3 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 10,
 						"extended_value": 10,
+						"weight": "3 lb",
 						"extended_weight": "3 lb"
 					}
 				},
@@ -3036,12 +3050,14 @@
 					"tags": [
 						"Personal Gear"
 					],
-					"value": 50,
-					"weight": "3 lb",
+					"base_value": "50",
+					"base_weight": "3 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 50,
 						"extended_value": 50,
+						"weight": "3 lb",
 						"extended_weight": "3 lb"
 					}
 				},
@@ -3058,11 +3074,13 @@
 					"tags": [
 						"General Equipment"
 					],
-					"value": 1,
+					"base_value": "1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 1,
 						"extended_value": 1,
+						"weight": "0 lb",
 						"extended_weight": "0 lb"
 					}
 				},
@@ -3079,12 +3097,14 @@
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 50,
-					"weight": "8 lb",
+					"base_value": "50",
+					"base_weight": "8 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 50,
 						"extended_value": 50,
+						"weight": "8 lb",
 						"extended_weight": "8 lb"
 					}
 				},
@@ -3097,17 +3117,19 @@
 					},
 					"description": "Tent, 2-Man",
 					"reference": "B288",
-					"notes": "Includes ropes; requires one 6' pole",
+					"local_notes": "Includes ropes; requires one 6' pole",
 					"tech_level": "0",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 80,
-					"weight": "12 lb",
+					"base_value": "80",
+					"base_weight": "12 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 80,
 						"extended_value": 80,
+						"weight": "12 lb",
 						"extended_weight": "12 lb"
 					}
 				},
@@ -3120,17 +3142,19 @@
 					},
 					"description": "Thermos Bottle",
 					"reference": "HT33",
-					"notes": "Fragile.",
+					"local_notes": "Fragile.",
 					"tech_level": "6",
 					"tags": [
 						"General Equipment"
 					],
-					"value": 10,
-					"weight": "2 lb",
+					"base_value": "10",
+					"base_weight": "2 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 10,
 						"extended_value": 10,
+						"weight": "2 lb",
 						"extended_weight": "2 lb"
 					}
 				},
@@ -3143,17 +3167,19 @@
 					},
 					"description": "Wax Candles",
 					"reference": "HT51",
-					"notes": "Burns 8hrs.",
+					"local_notes": "Burns 8hrs.",
 					"tech_level": "1",
 					"tags": [
 						"General Equipment"
 					],
-					"value": 0.3,
-					"weight": "0.0624 lb",
+					"base_value": "0.3",
+					"base_weight": "0.0624 lb",
 					"quantity": 10,
 					"equipped": true,
 					"calc": {
+						"value": 0.3,
 						"extended_value": 3,
+						"weight": "0.0624 lb",
 						"extended_weight": "0.624 lb"
 					}
 				},
@@ -3161,18 +3187,22 @@
 					"id": "eHZMvY18fKLRhiykG",
 					"description": "Wool yarn and needle",
 					"legality_class": "4",
-					"value": 3,
-					"weight": "0.1 lb",
+					"base_value": "3",
+					"base_weight": "0.1 lb",
 					"quantity": 3,
 					"equipped": true,
 					"calc": {
+						"value": 3,
 						"extended_value": 9,
+						"weight": "0.1 lb",
 						"extended_weight": "0.3 lb"
 					}
 				}
 			],
 			"calc": {
+				"value": 60,
 				"extended_value": 309.25,
+				"weight": "3 lb",
 				"extended_weight": "37.924 lb"
 			}
 		},
@@ -3189,8 +3219,8 @@
 			"tags": [
 				"Body Armor"
 			],
-			"value": 100,
-			"weight": "10 lb",
+			"base_value": "100",
+			"base_weight": "10 lb",
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -3217,21 +3247,25 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
+				"value": 100,
 				"extended_value": 100,
+				"weight": "10 lb",
 				"extended_weight": "10 lb"
 			}
 		},
 		{
 			"id": "eN84Jj4QV1NV87tnG",
 			"description": "Parole Armband",
-			"notes": "Marks you as “criminal on parole”, probably.",
+			"local_notes": "Marks you as “criminal on parole”, probably.",
 			"legality_class": "4",
-			"value": 0.3,
-			"weight": "0.1 lb",
+			"base_value": "0.3",
+			"base_weight": "0.1 lb",
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
+				"value": 0.3,
 				"extended_value": 0.3,
+				"weight": "0.1 lb",
 				"extended_weight": "0.1 lb"
 			}
 		}
@@ -3239,18 +3273,18 @@
 	"notes": [
 		{
 			"id": "nABbH-BQb6WzNWSvL",
-			"text": "**Anotaciones**: [1] Autoproclamado"
+			"markdown": "**Anotaciones**: [1] Autoproclamado"
 		},
 		{
 			"id": "nnt6fhg9e0s6fikxK",
-			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"markdown": "**Umbrales HP**: \u003cscript\u003eMath.floor($hp / 2) + 1\u003c/script\u003e (\u003eHP/2), \u003cscript\u003eMath.floor($hp / 3) + 1\u003c/script\u003e (\u003eHP/3), \u003cscript\u003eMath.ceil($hp / 3) - 1\u003c/script\u003e (\u003cHP/3)",
 			"calc": {
 				"resolved_text": "**Umbrales HP**: 7 (\u003eHP/2), 5 (\u003eHP/3), 4 (\u003cHP/3)"
 			}
 		}
 	],
 	"created_date": "2024-07-24T23:01:56+02:00",
-	"modified_date": "2025-06-06T07:43:34+02:00",
+	"modified_date": "2025-07-14T16:25:35+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

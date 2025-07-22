@@ -323,30 +323,6 @@
 			"points": 1
 		},
 		{
-			"id": "qhIt4_xBEFZhAjol7",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades B (Melé).skl",
-				"id": "qOpiopxlUD7g1WROx"
-			},
-			"name": "Jitte/Sai",
-			"reference": "B208",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "a",
-			"default": {
-				"type": "skill",
-				"name": "One-Handed Sword",
-				"modifier": -2
-			},
-			"limit": 0,
-			"points": 1
-		},
-		{
 			"id": "qMdc2XBmc-d7iV7-q",
 			"source": {
 				"library": "/gcs-cdp",
@@ -371,40 +347,28 @@
 			"points": 1
 		},
 		{
-			"id": "qtq1b_tAnijfGpOCF",
+			"id": "qhIt4_xBEFZhAjol7",
 			"source": {
 				"library": "/gcs-cdp",
 				"path": "CdP Habilidades B (Melé).skl",
-				"id": "qwwp44kWOy-0J5myP"
+				"id": "qOpiopxlUD7g1WROx"
 			},
-			"name": "Main-Gauche",
-			"reference": "B208,MA58",
-			"difficulty": "h",
+			"name": "Jitte/Sai",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
 			"default": {
 				"type": "skill",
-				"name": "Fencing",
+				"name": "One-Handed Sword",
 				"modifier": -2
 			},
 			"limit": 0,
-			"points": 2
-		},
-		{
-			"id": "qymA6QXKov0xY4hTr",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades B (Melé).skl",
-				"id": "qmx1mTdSZ8kWSXceT"
-			},
-			"name": "Main-Gauche",
-			"reference": "B208,MA58",
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Knife",
-				"modifier": -2
-			},
-			"limit": 0,
-			"points": 2
+			"points": 1
 		},
 		{
 			"id": "qJ_Vvh9xMH6Vuh4rS",
@@ -453,6 +417,42 @@
 			},
 			"limit": 0,
 			"points": 1
+		},
+		{
+			"id": "qtq1b_tAnijfGpOCF",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qwwp44kWOy-0J5myP"
+			},
+			"name": "Main-Gauche",
+			"reference": "B208,MA58",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Fencing",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
+		},
+		{
+			"id": "qymA6QXKov0xY4hTr",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades B (Melé).skl",
+				"id": "qmx1mTdSZ8kWSXceT"
+			},
+			"name": "Main-Gauche",
+			"reference": "B208,MA58",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -2
+			},
+			"limit": 0,
+			"points": 2
 		},
 		{
 			"id": "qLmfubClVXWY_T2dw",

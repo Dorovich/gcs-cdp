@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "A9vrjJ5Jr-GAk8Fme",
-	"total_points": 120,
+	"total_points": 123,
 	"points_record": [
+		{
+			"when": "2025-07-14T16:11:13+02:00",
+			"points": 3,
+			"reason": "Sesión 2-1"
+		},
 		{
 			"when": "2025-05-21T18:55:56+02:00",
 			"points": 20,
@@ -1260,59 +1265,6 @@
 			}
 		},
 		{
-			"id": "sL-I_k0ZgAyBOTzqT",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "sPHhENc1u1ER3SoI2"
-			},
-			"name": "Apparatus Operation",
-			"reference": "B189",
-			"reference_highlight": "Electronics Operation",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "Comms",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"specialization": "Comms",
-					"modifier": -3
-				},
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Apparatus Operation",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Comms",
-					"modifier": -4
-				}
-			],
-			"points": 2,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Mechanic",
-				"specialization": "Comms",
-				"modifier": -3,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 11,
-				"rsl": "IQ+0"
-			}
-		},
-		{
 			"id": "sgca3PzYimYExJbd3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1425,6 +1377,109 @@
 			"calc": {
 				"level": 12,
 				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "sLnJB8glgyP-FFTsj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swXuff1DBhSQbTqy1"
+			},
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"tags": [
+				"Technical"
+			],
+			"specialization": "Communications",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Repair",
+					"specialization": "Communications",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sWAa43PgGltIoCbyx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smQb4vkfHH6Aaczt2"
+			},
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Communications",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Operation",
+					"specialization": "Communications",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Electronics Operation",
+				"specialization": "Communications",
+				"modifier": -3,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -1584,58 +1639,6 @@
 			"calc": {
 				"level": 11,
 				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "sm0RtbJAqDHhFnBem",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sRfVMd6U3uKdXctRs"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Comms",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Comms",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Mechanic",
-				"specialization": "Light Arkopan",
-				"modifier": -4,
-				"level": 9,
-				"adjusted_level": 9,
-				"points": -9
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -2067,6 +2070,21 @@
 			"equipped": true,
 			"children": [
 				{
+					"id": "e06rALGLfwuZGq3hD",
+					"description": "Aerosol Paint Spray",
+					"legality_class": "4",
+					"base_value": "1",
+					"base_weight": "0.3",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 1,
+						"extended_value": 1,
+						"weight": "0.6 lb",
+						"extended_weight": "0.6 lb"
+					}
+				},
+				{
 					"id": "eeWff8Jm-2W2uqEnw",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2121,9 +2139,9 @@
 			],
 			"calc": {
 				"value": 100,
-				"extended_value": 705,
+				"extended_value": 706,
 				"weight": "10 lb",
-				"extended_weight": "31 lb"
+				"extended_weight": "31.6 lb"
 			}
 		},
 		{
@@ -2256,7 +2274,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-07-12T13:33:51+02:00",
+	"modified_date": "2025-07-22T04:41:37+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

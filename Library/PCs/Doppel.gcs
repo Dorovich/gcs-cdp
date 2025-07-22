@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "Apmi-XAhxTr7N_wgY",
-	"total_points": 169,
+	"total_points": 172,
 	"points_record": [
+		{
+			"when": "2025-07-14T16:12:03+02:00",
+			"points": 3,
+			"reason": "Sesión 2-1"
+		},
 		{
 			"when": "2025-05-21T16:23:54+02:00",
 			"points": 4,
@@ -54,7 +59,7 @@
 				"type": "integer",
 				"name": "ST",
 				"full_name": "Strength",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10,
 				"cost_adj_percent_per_sm": 10
 			},
@@ -63,7 +68,7 @@
 				"type": "integer",
 				"name": "DX",
 				"full_name": "Dexterity",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -71,7 +76,7 @@
 				"type": "integer",
 				"name": "IQ",
 				"full_name": "Intelligence",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 20
 			},
 			{
@@ -79,21 +84,21 @@
 				"type": "integer",
 				"name": "HT",
 				"full_name": "Health",
-				"attribute_base": "10",
+				"base": "10",
 				"cost_per_point": 10
 			},
 			{
 				"id": "will",
 				"type": "integer",
 				"name": "Will",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "fright_check",
 				"type": "integer",
 				"name": "Fright Check",
-				"attribute_base": "$will",
+				"base": "$will",
 				"cost_per_point": 2
 			},
 			{
@@ -101,14 +106,14 @@
 				"type": "decimal",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$ht)/4",
+				"base": "($dx + $ht) / 4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "floor($basic_speed)",
+				"base": "Math.floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
@@ -121,35 +126,35 @@
 				"type": "integer",
 				"name": "Per",
 				"full_name": "Perception",
-				"attribute_base": "$iq",
+				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
 				"id": "vision",
 				"type": "integer",
 				"name": "Vision",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "hearing",
 				"type": "integer",
 				"name": "Hearing",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "taste_smell",
 				"type": "integer",
 				"name": "Taste \u0026 Smell",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
 				"id": "touch",
 				"type": "integer",
 				"name": "Touch",
-				"attribute_base": "$per",
+				"base": "$per",
 				"cost_per_point": 2
 			},
 			{
@@ -157,13 +162,13 @@
 				"type": "pool",
 				"name": "HP",
 				"full_name": "Hit Points",
-				"attribute_base": "$st",
+				"base": "$st",
 				"cost_per_point": 2,
 				"cost_adj_percent_per_sm": 10,
 				"thresholds": [
 					{
 						"state": "Dead",
-						"expression": "round(-$hp*5)",
+						"value": "Math.round(-$hp * 5)",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -171,7 +176,7 @@
 					},
 					{
 						"state": "Dying #4",
-						"expression": "round(-$hp*4)",
+						"value": "Math.round(-$hp * 4)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -180,7 +185,7 @@
 					},
 					{
 						"state": "Dying #3",
-						"expression": "round(-$hp*3)",
+						"value": "Math.round(-$hp * 3)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -189,7 +194,7 @@
 					},
 					{
 						"state": "Dying #2",
-						"expression": "round(-$hp*2)",
+						"value": "Math.round(-$hp * 2)",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -198,7 +203,7 @@
 					},
 					{
 						"state": "Dying #1",
-						"expression": "-$hp",
+						"value": "-$hp",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -207,7 +212,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -216,7 +221,7 @@
 					},
 					{
 						"state": "Reeling",
-						"expression": "ceil($hp/3)-1",
+						"value": "Math.ceil($hp / 3) - 1",
 						"explanation": "Move and Dodge are halved (B419)",
 						"ops": [
 							"halve_move",
@@ -225,11 +230,11 @@
 					},
 					{
 						"state": "Wounded",
-						"expression": "$hp-1"
+						"value": "$hp - 1"
 					},
 					{
 						"state": "Healthy",
-						"expression": "$hp"
+						"value": "$hp"
 					}
 				]
 			},
@@ -238,12 +243,12 @@
 				"type": "pool",
 				"name": "FP",
 				"full_name": "Fatigue Points",
-				"attribute_base": "$ht",
+				"base": "$ht",
 				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "Unconscious",
-						"expression": "-$fp",
+						"value": "-$fp",
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -252,7 +257,7 @@
 					},
 					{
 						"state": "Collapse",
-						"expression": "0",
+						"value": "0",
 						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
@@ -262,7 +267,7 @@
 					},
 					{
 						"state": "Tired",
-						"expression": "ceil($fp/3)-1",
+						"value": "Math.ceil($fp / 3) - 1",
 						"explanation": "Move, Dodge and ST are halved (B426)",
 						"ops": [
 							"halve_move",
@@ -272,11 +277,11 @@
 					},
 					{
 						"state": "Tiring",
-						"expression": "$fp-1"
+						"value": "$fp - 1"
 					},
 					{
 						"state": "Rested",
-						"expression": "$fp"
+						"value": "$fp"
 					}
 				]
 			}
@@ -696,7 +701,7 @@
 							"id": "mSN-_uUCPa5b05tZT",
 							"name": "Low Ceiling",
 							"reference": "B56",
-							"notes": "30'",
+							"local_notes": "30'",
 							"cost": -10,
 							"disabled": true
 						},
@@ -704,7 +709,7 @@
 							"id": "mKyNslqiDszSEC5gO",
 							"name": "Low Ceiling",
 							"reference": "B56",
-							"notes": "10'",
+							"local_notes": "10'",
 							"cost": -20,
 							"disabled": true
 						},
@@ -712,7 +717,7 @@
 							"id": "mIx0M2apuNMKpRnR_",
 							"name": "Low Ceiling",
 							"reference": "B56",
-							"notes": "5'",
+							"local_notes": "5'",
 							"cost": -25,
 							"disabled": true
 						},
@@ -755,7 +760,7 @@
 							"id": "mPoZIWjiXV7dsGyNJ",
 							"name": "Slow",
 							"reference": "PSI14",
-							"notes": "||floor(($dx+$ht)/4)||",
+							"local_notes": "\u003cscript\u003eMath.floor(($dx + $ht) / 4)\u003c/script\u003e",
 							"cost": -25,
 							"calc": {
 								"resolved_notes": "5"
@@ -773,7 +778,7 @@
 							"name": "Encumbrance-Limited (No encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
-							"notes": "Can only glide at best when overburdened",
+							"local_notes": "Can only glide at best when overburdened",
 							"cost": -15,
 							"disabled": true
 						},
@@ -782,7 +787,7 @@
 							"name": "Encumbrance-Limited (Light encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
-							"notes": "Can only glide at best when overburdened",
+							"local_notes": "Can only glide at best when overburdened",
 							"cost": -10,
 							"disabled": true
 						},
@@ -791,7 +796,7 @@
 							"name": "Encumbrance-Limited (Medium encumbrance)",
 							"reference": "FFWF12",
 							"reference_highlight": "Encumbrance-Limited",
-							"notes": "Can only glide at best when overburdened",
+							"local_notes": "Can only glide at best when overburdened",
 							"cost": -5,
 							"disabled": true
 						},
@@ -821,12 +826,15 @@
 						"Advantage",
 						"Social"
 					],
+					"replacements": {
+						"Small class of people": "Caravana Terrien"
+					},
 					"modifiers": [
 						{
 							"id": "mtobkHhyjJu_e9Bg4",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone",
+							"local_notes": "Almost everyone",
 							"cost": 1,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -835,7 +843,7 @@
 							"id": "msZV3V_uwv4C8sl3q",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone except @large class of people@",
+							"local_notes": "Almost everyone except @large class of people@",
 							"cost": 0.67,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -844,7 +852,7 @@
 							"id": "mInOYJ5_l9k6G-Dv6",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "@Large class of people@",
+							"local_notes": "@Large class of people@",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -853,9 +861,6 @@
 							"id": "m1ish944-LCdeUv4T",
 							"name": "Caravana Terrien",
 							"reference": "B27",
-							"replacements": {
-								"Small class of people": "Caravana Terrien"
-							},
 							"cost": 0.33,
 							"cost_type": "multiplier"
 						},
@@ -870,7 +875,7 @@
 							"id": "mEE1gnWRslCR0JdqL",
 							"name": "Recognized sometimes",
 							"reference": "B28",
-							"notes": "10-",
+							"local_notes": "10-",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -879,7 +884,7 @@
 							"id": "mN1q-6bgwD6TArQvH",
 							"name": "Recognized occasionally",
 							"reference": "B28",
-							"notes": "7-",
+							"local_notes": "7-",
 							"cost": 0.33,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -959,7 +964,7 @@
 							"id": "mIlhSq1dihCFTXJR0",
 							"name": "Aspected",
 							"reference": "B66",
-							"notes": "@Aspect@",
+							"local_notes": "@Aspect@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -981,7 +986,7 @@
 							"id": "mSbuR5sVliNU5iC30",
 							"name": "Game Time",
 							"reference": "P108",
-							"notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
 							"disabled": true
 						}
 					],
@@ -1004,6 +1009,9 @@
 						"Exotic",
 						"Physical"
 					],
+					"replacements": {
+						"Attribute DX, IQ, or HT": "IQ"
+					},
 					"modifiers": [
 						{
 							"id": "meH2s6uY3XR62Lfna",
@@ -1084,7 +1092,7 @@
 							"id": "mxJzRVdz5QBiNehI-",
 							"name": "Preparation Required",
 							"reference": "B114",
-							"notes": "1 minute, else is weakened",
+							"local_notes": "1 minute, else is weakened",
 							"cost": -10
 						},
 						{
@@ -1096,9 +1104,6 @@
 							},
 							"name": "Requires (@Attribute DX, IQ, or HT@) Roll",
 							"reference": "PU8:17",
-							"replacements": {
-								"Attribute DX, IQ, or HT": "IQ"
-							},
 							"cost": -10
 						}
 					],
@@ -1349,12 +1354,15 @@
 						"Disadvantage",
 						"Social"
 					],
+					"replacements": {
+						"Small class of people": "Erlit"
+					},
 					"modifiers": [
 						{
 							"id": "mWjfvMxebowFak4jR",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone",
+							"local_notes": "Almost everyone",
 							"cost": 1,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -1363,7 +1371,7 @@
 							"id": "my7QwJR5uYJnxbicC",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "Almost everyone except @large class of people@",
+							"local_notes": "Almost everyone except @large class of people@",
 							"cost": 0.67,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -1372,7 +1380,7 @@
 							"id": "mTHw8QYWimqUZM9cm",
 							"name": "People Affected",
 							"reference": "B27",
-							"notes": "@Large class of people@",
+							"local_notes": "@Large class of people@",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -1381,9 +1389,6 @@
 							"id": "mI_5JIAS_CBEd-buW",
 							"name": "Ciudadanos de Erlit",
 							"reference": "B27",
-							"replacements": {
-								"Small class of people": "Erlit"
-							},
 							"cost": 0.33,
 							"cost_type": "multiplier"
 						},
@@ -1398,7 +1403,7 @@
 							"id": "mpB2QTlxuMrRxUpsx",
 							"name": "Recognized sometimes",
 							"reference": "B28",
-							"notes": "10-",
+							"local_notes": "10-",
 							"cost": 0.5,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -1407,7 +1412,7 @@
 							"id": "mbvQtSgFpjpihxLvS",
 							"name": "Recognized occasionally",
 							"reference": "B28",
-							"notes": "7-",
+							"local_notes": "7-",
 							"cost": 0.33,
 							"cost_type": "multiplier",
 							"disabled": true
@@ -1512,7 +1517,7 @@
 					},
 					"name": "Trickster",
 					"reference": "B159",
-					"notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
+					"local_notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
 					"tags": [
 						"Disadvantage",
 						"Mental"
@@ -1557,7 +1562,7 @@
 						{
 							"id": "mbtOXqJzKT1xcWFZK",
 							"name": "Koppemak",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1571,7 +1576,7 @@
 						{
 							"id": "mNo10bZOsSepwLB2-",
 							"name": "Korkon",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1585,7 +1590,7 @@
 						{
 							"id": "mHGmVfWU5G0_lECXT",
 							"name": "Kwazaar",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1599,7 +1604,7 @@
 						{
 							"id": "mshSjYU0H1agYu3tb",
 							"name": "Te'karn",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points"
 						},
 						{
@@ -1612,7 +1617,7 @@
 						{
 							"id": "m0DezhI2VF6Id6Uz_",
 							"name": "O'koptera",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost_type": "points",
 							"disabled": true
 						}
@@ -1667,7 +1672,7 @@
 							"id": "mCVRmn9tLQ9wEHJxh",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1675,7 +1680,7 @@
 							"id": "m4NcDXHkguesUNVUg",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1684,7 +1689,7 @@
 							"id": "mpab6GH-hxxYGPle_",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -1693,7 +1698,7 @@
 							"id": "mobjVzMi4SG0Oo1jT",
 							"name": "Spoken",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						},
@@ -1701,7 +1706,7 @@
 							"id": "mMfODIYfUoKCCYCtG",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "None",
+							"local_notes": "None",
 							"cost_type": "points",
 							"disabled": true
 						},
@@ -1709,7 +1714,7 @@
 							"id": "mRVJlNwuc2r_CjlVj",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Broken",
+							"local_notes": "Broken",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
@@ -1718,7 +1723,7 @@
 							"id": "mjX4vLWgmY3t-kYbM",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Accented",
+							"local_notes": "Accented",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
@@ -1727,7 +1732,7 @@
 							"id": "mBMf_UdpytETNOf8Z",
 							"name": "Written",
 							"reference": "B24",
-							"notes": "Native",
+							"local_notes": "Native",
 							"cost": 3,
 							"cost_type": "points"
 						}
@@ -1767,7 +1772,7 @@
 							"id": "mJWoQhBs4orwY6bmX",
 							"name": "Diffuse",
 							"reference": "B60",
-							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+							"local_notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
 							"cost": 100,
 							"cost_type": "points",
 							"disabled": true
@@ -1776,7 +1781,7 @@
 							"id": "mDclKwJLndDIABWbV",
 							"name": "Homogenous",
 							"reference": "B60",
-							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
 							"cost": 40,
 							"cost_type": "points",
 							"disabled": true
@@ -1785,7 +1790,7 @@
 							"id": "mst-2J4W2u85Yv8t2",
 							"name": "No Blood",
 							"reference": "B61",
-							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+							"local_notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -1794,7 +1799,7 @@
 							"id": "m6jQlBqs98dbkzjYq",
 							"name": "No Brain",
 							"reference": "B61",
-							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+							"local_notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -1803,7 +1808,7 @@
 							"id": "mKWK2CJlpN5yAM_S4",
 							"name": "No Eyes",
 							"reference": "B61",
-							"notes": "Eyes may not be targeted. Immune to blinding attacks",
+							"local_notes": "Eyes may not be targeted. Immune to blinding attacks",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -1812,7 +1817,7 @@
 							"id": "mlLgi4X66Pz4YYT0c",
 							"name": "No Head",
 							"reference": "B61",
-							"notes": "Skull, Brain and Face cannot be targeted",
+							"local_notes": "Skull, Brain and Face cannot be targeted",
 							"cost": 7,
 							"cost_type": "points",
 							"disabled": true
@@ -1821,7 +1826,7 @@
 							"id": "mv7GtfMVaL-I4KW9x",
 							"name": "No Neck",
 							"reference": "B61",
-							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+							"local_notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -1830,7 +1835,7 @@
 							"id": "mdscXVfA6Yp7yzPsc",
 							"name": "No Vitals",
 							"reference": "B61",
-							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+							"local_notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
 							"cost": 5,
 							"cost_type": "points"
 						},
@@ -1838,7 +1843,7 @@
 							"id": "mCD_e1Z2owBCc0UtK",
 							"name": "Unliving",
 							"reference": "B61",
-							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
 							"cost": 20,
 							"cost_type": "points",
 							"disabled": true
@@ -2015,7 +2020,7 @@
 							"id": "mMKQxpA5MfxCQRsxg",
 							"name": "No Body Heat",
 							"reference": "B157",
-							"notes": "Gives +1 on all rolls to deduce your secret",
+							"local_notes": "Gives +1 on all rolls to deduce your secret",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -2031,7 +2036,7 @@
 							"id": "mo_eei7XZyQIK8VE8",
 							"name": "No Body Heat",
 							"reference": "B157",
-							"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
+							"local_notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
 							"cost": -1,
 							"cost_type": "points",
 							"features": [
@@ -2047,7 +2052,7 @@
 							"id": "mFmkskwQe1N4d5ia9",
 							"name": "No Reflection",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -2063,7 +2068,7 @@
 							"id": "mXDprFX2bZ0bsnS8t",
 							"name": "No Shadow",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -2079,7 +2084,7 @@
 							"id": "mS2gIAHWDrDNNTmOr",
 							"name": "Pallor",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -2095,7 +2100,7 @@
 							"id": "mlVjVSvjl0-94oeiq",
 							"name": "Pallor",
 							"reference": "B157",
-							"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -2110,7 +2115,7 @@
 						{
 							"id": "m0koEGzB4AOGP5cnv",
 							"name": "Vessel",
-							"notes": "Unnatural physiology",
+							"local_notes": "Unnatural physiology",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -2134,7 +2139,7 @@
 						"id": "t1w1RFcFceKR2T9_e"
 					},
 					"name": "The Fifth Door (Ajar)",
-					"notes": "Halve Tempo shift penalties",
+					"local_notes": "Halve Tempo shift penalties",
 					"tags": [
 						"Advantage",
 						"Supernatural"
@@ -3062,13 +3067,13 @@
 			},
 			"description": "Backpack, Small",
 			"reference": "HT54",
-			"notes": "Holds 50lbs.",
+			"local_notes": "Holds 50lbs.",
 			"tech_level": "5",
 			"tags": [
 				"General Equipment"
 			],
-			"value": 60,
-			"weight": "3 lb",
+			"base_value": "60",
+			"base_weight": "3 lb",
 			"quantity": 1,
 			"equipped": true,
 			"children": [
@@ -3081,23 +3086,27 @@
 					},
 					"description": "Personal Basics",
 					"reference": "B288",
-					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"local_notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
 					"tech_level": "0",
 					"tags": [
 						"Camping and Survival Gear"
 					],
-					"value": 5,
-					"weight": "1 lb",
+					"base_value": "5",
+					"base_weight": "1 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 5,
 						"extended_value": 5,
+						"weight": "1 lb",
 						"extended_weight": "1 lb"
 					}
 				}
 			],
 			"calc": {
+				"value": 60,
 				"extended_value": 65,
+				"weight": "3 lb",
 				"extended_weight": "4 lb"
 			}
 		},
@@ -3122,8 +3131,8 @@
 					"tags": [
 						"Missile Weapon"
 					],
-					"value": 350,
-					"weight": "2.4 lb",
+					"base_value": "350",
+					"base_weight": "2.4 lb",
 					"weapons": [
 						{
 							"id": "WimzXV_JdIlnoD3xW",
@@ -3211,7 +3220,9 @@
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 350,
 						"extended_value": 350,
+						"weight": "2.4 lb",
 						"extended_weight": "2.4 lb"
 					}
 				},
@@ -3224,23 +3235,27 @@
 					},
 					"description": "Silencer, Pistol or SMG",
 					"reference": "B289",
-					"notes": "Reduces damage by -1 per die; see Silencers (B412)",
+					"local_notes": "Reduces damage by -1 per die; see Silencers (B412)",
 					"tech_level": "6",
 					"tags": [
 						"Weapon and Combat Accessories"
 					],
-					"value": 400,
-					"weight": "1 lb",
+					"base_value": "400",
+					"base_weight": "1 lb",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
+						"value": 400,
 						"extended_value": 400,
+						"weight": "1 lb",
 						"extended_weight": "1 lb"
 					}
 				}
 			],
 			"calc": {
+				"value": 0,
 				"extended_value": 750,
+				"weight": "0 lb",
 				"extended_weight": "3.4 lb"
 			}
 		},
@@ -3258,8 +3273,8 @@
 				"Melee Weapon",
 				"Missile Weapon"
 			],
-			"value": 30,
-			"weight": "0.5 lb",
+			"base_value": "30",
+			"base_weight": "0.5 lb",
 			"weapons": [
 				{
 					"id": "wxS-lYIMYpi6Einsf",
@@ -3387,7 +3402,9 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
+				"value": 30,
 				"extended_value": 30,
+				"weight": "0.5 lb",
 				"extended_weight": "0.5 lb"
 			}
 		}
@@ -3395,11 +3412,11 @@
 	"notes": [
 		{
 			"id": "nIyYunpgwWXPKPQxs",
-			"text": "**Anotaciones**: [1] Autoproclamada; [2] Edad aparente"
+			"markdown": "**Anotaciones**: [1] Autoproclamada; [2] Edad aparente"
 		},
 		{
 			"id": "n-ui21t7yMb-oh1YA",
-			"text": "**Umbrales HP**: ||floor($hp/2)+1|| (\u003eHP/2), ||floor($hp/3)+1|| (\u003eHP/3), ||ceil($hp/3)-1|| (\u003cHP/3)",
+			"markdown": "**Umbrales HP**: \u003cscript\u003eMath.floor($hp / 2) + 1\u003c/script\u003e (\u003eHP/2), \u003cscript\u003eMath.floor($hp / 3) + 1\u003c/script\u003e (\u003eHP/3), \u003cscript\u003eMath.ceil($hp / 3) - 1\u003c/script\u003e (\u003cHP/3)",
 			"calc": {
 				"resolved_text": "**Umbrales HP**: 6 (\u003eHP/2), 4 (\u003eHP/3), 3 (\u003cHP/3)"
 			}

@@ -207,6 +207,28 @@
 					"points": 1
 				},
 				{
+					"id": "snWhZgke5UNjcDMBF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sXJr0hlUYaTTuJrPx"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Arzaron",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "sGcoPkD9D1Z_pdg36",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -329,372 +351,6 @@
 				}
 			],
 			"points": 1
-		},
-		{
-			"id": "SCFoQxV26fp-yYDZ-",
-			"name": "Apparatus Operation",
-			"children": [
-				{
-					"id": "sYn8ZUAsluwwH5yBs",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "@Specialty@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "@Specialty@",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sZ2ZQuC1Xf1Ga-uwU",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Comms",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Comms",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Comms",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sKZOZP5ybzQKJiy7U",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Countermeasures",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Countermeasures",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Countermeasures",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s_rFS5sSEMqFNLgqr",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Media",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Media Apparatus",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Media Apparatus",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "syHjOnoTCL7J7zEKh",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Medical",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Medical Apparatus",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Medical Apparatus",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s-fhGTr1o8mxNonD2",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Scientific",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Scientific Apparatus",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Scientific Apparatus",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sZlrFqxqnUEtRRqSO",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Security",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Security Apparatus",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Security Apparatus",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "seKpTdHvm5iJliv3d",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Sensors",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Sensors",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Sensors",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sUnRQNeYmaGTS7M9c",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Habilidades.skl",
-						"id": "sPHhENc1u1ER3SoI2"
-					},
-					"name": "Apparatus Operation",
-					"reference": "B189",
-					"reference_highlight": "Electronics Operation",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Sonar",
-							"modifier": -3
-						},
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Apparatus Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Sonar",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				}
-			]
 		},
 		{
 			"id": "sI5V3SOCbiDdyGal_",
@@ -2664,6 +2320,10 @@
 			"difficulty": "iq/e",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Housekeeping"
+				},
+				{
 					"type": "iq",
 					"modifier": -2
 				}
@@ -2730,38 +2390,79 @@
 			"points": 1
 		},
 		{
-			"id": "s1hEpOh6KXahD2OWz",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sBY-R7Xmf64T7WzZ4"
-			},
+			"id": "ScQoZmg3jPOhS6TLE",
 			"name": "Computer Programming",
-			"reference": "B184",
-			"tags": [
-				"Design",
-				"Invention"
-			],
-			"difficulty": "iq/h",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Mechanic"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "Analytical Engine"
-						}
-					}
-				]
-			},
-			"points": 1
+			"children": [
+				{
+					"id": "s1hEpOh6KXahD2OWz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sBY-R7Xmf64T7WzZ4"
+					},
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"difficulty": "iq/h",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Mechanic"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "Analytical Engine"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "s-3tlCEYRmYbJudWN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "szsZqNr4dhr9UC-fG"
+					},
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"specialization": "AI",
+					"difficulty": "iq/h",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Mechanic"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "Analytical Engine"
+								}
+							}
+						]
+					},
+					"points": 1
+				}
+			]
 		},
 		{
 			"id": "SHYceexb-p6bSNwpP",
@@ -4242,6 +3943,819 @@
 			"points": 1
 		},
 		{
+			"id": "S0dolB7A9sVfGFKM_",
+			"name": "Electronics Operation",
+			"children": [
+				{
+					"id": "sfj34yHhQO23lEGIq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUOQKAH8IaMhpxk1o"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "@Electronics type@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Communications",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sLSQ0riyLZggver9L",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "swXuff1DBhSQbTqy1"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "Communications",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Communications",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNlZskIKbnOXk0cv6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "seXPb_1UO1I8EvWq6"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Military",
+						"Spy",
+						"Technical"
+					],
+					"specialization": "Electronic Warfare",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Electronic Warfare",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s0Kopciu11zxjDhug",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sLDuQRGJ4yzEXiQ0G"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Technical"
+					],
+					"specialization": "Media",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Media",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sy9VEJ0_O47QbtamM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sKTF4zU6WcKytEDRW"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Medical",
+						"Technical"
+					],
+					"specialization": "Medical",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Medical",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJet30c7A57Fv4d_S",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sirFPuXXZfzdkM7Zm"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "Scientific",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Scientific",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "squkco3vv1fl4cM9s",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "slXlqD4FNReNHmsov"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street",
+						"Technical"
+					],
+					"specialization": "Security",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "szrAtBTqPskuUXLkL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sluTeYhSTpIbVNfA5"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "Sensors",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Sensors",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sihDSXBdXSemgjs-E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scI2qsAuQCh8ddpSr"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "Sonar",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Sonar",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sdjl4kR5e5_nS18jQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s71NSSCnVzScWznSY"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Police",
+						"Spy",
+						"Technical"
+					],
+					"specialization": "Surveillance",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Surveillance",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SiWeeL0gSRqZI342F",
+			"name": "Electronics Repair",
+			"children": [
+				{
+					"id": "sNL6hoTkjS4HlgSWE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sYwZvSMZ9tfHES4z7"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "@Electronics type@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Communications",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "spnzkFUiL-QDYKkAr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "smQb4vkfHH6Aaczt2"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Communications",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Communications",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sCO6LJ5Dsd4BqPHon",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sBODT29VA-rjZhuEg"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Military",
+						"Repair"
+					],
+					"specialization": "Electronic Warfare",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Electronic Warfare",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sw-a_VWonQfTebvAv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sEHYoHVHYnYHXBQAa"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Media",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Media",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s_GhVLoZoM3tPg5Y_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "swSaJKN2SmblIiMqn"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Medical",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Medical",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sK1d1M1Pz4JD4RB8U",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sL2WMJ4MuOZegXNpu"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Scientific",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Scientific",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sE46oVlSEKAqPp_mr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s88dcbZG-whQhwn7j"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Security",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sc8YxOYdaqkT1RTMJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sfGjvfoOWTcgmqI06"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Sensors",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Sensors",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sgQzQkH2gILPXxcC6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8-3sT1s5O9ggV5Y0"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Sonar",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Sonar",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s0gnn7zq-rbnsxZND",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sbrQ0ex4zRoErYb5A"
+					},
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Surveillance",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Surveillance",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
 			"id": "SRxhw8eokW4YM9UwL",
 			"name": "Engineer",
 			"children": [
@@ -4581,11 +5095,11 @@
 					"points": 1
 				},
 				{
-					"id": "sRL-0ych4almn8Tdt",
+					"id": "slRBFEVRjdJnATUrN",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
+						"id": "sMIEoVTEXT8J2IGwj"
 					},
 					"name": "Engineer",
 					"reference": "B190",
@@ -4594,61 +5108,12 @@
 						"Engineer",
 						"Invention"
 					],
-					"specialization": "Comms",
+					"specialization": "Electronics",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Comms",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "szlRXiyySDkNLgZaJ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Countermeasures",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Countermeasures",
+							"name": "Electronics Repair",
 							"modifier": -6
 						}
 					],
@@ -4900,102 +5365,6 @@
 					"points": 1
 				},
 				{
-					"id": "sNr0nrQHb9qdlcFOL",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Media Apparatus",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Media Apparatus",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sENEDu-aPd6j0ppjT",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Medical Apparatus",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Medical Apparatus",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
 					"id": "sogRGi-O3L06LlnJ0",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5145,150 +5514,6 @@
 					"points": 1
 				},
 				{
-					"id": "sAu9DvYJ4Qgizofzs",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Scientific Apparatus",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Scientific Apparatus",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sadADE6LM_nIfToB_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Security Apparatus",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Security Apparatus",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sZZ7hniyTOylF2Bsl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Sensors",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Sensors",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
 					"id": "sAypnwcdhQzlBDvLx",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5357,54 +5582,6 @@
 							"type": "skill",
 							"name": "Armoury",
 							"specialization": "Small Arms",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sn7BFd4hIZ7ziF9Tc",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sA6P5KJBe3XByGYc9"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Sonar",
 							"modifier": -6
 						}
 					],
@@ -7491,7 +7668,6 @@
 					"reference": "B199,MA57",
 					"tags": [
 						"Knowledge",
-						"Magical",
 						"Occult"
 					],
 					"specialization": "Automatons",
@@ -7509,10 +7685,9 @@
 					"reference": "B199,MA57",
 					"tags": [
 						"Knowledge",
-						"Magical",
 						"Occult"
 					],
-					"specialization": "Crystal spheres",
+					"specialization": "Crystal Spheres",
 					"difficulty": "iq/a",
 					"points": 1
 				},
@@ -7527,10 +7702,26 @@
 					"reference": "B199,MA57",
 					"tags": [
 						"Knowledge",
-						"Magical",
 						"Occult"
 					],
 					"specialization": "Gods of yore",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sL6ebkAWoUdiZttiz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "Keum/Nulle",
 					"difficulty": "iq/a",
 					"points": 1
 				},
@@ -7545,7 +7736,6 @@
 					"reference": "B199,MA57",
 					"tags": [
 						"Knowledge",
-						"Magical",
 						"Occult"
 					],
 					"specialization": "The Heart",
@@ -8769,45 +8959,6 @@
 					"points": 1
 				},
 				{
-					"id": "svJi-i68oVhUVm5IH",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Comms",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Comms",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "syIo-pxyFas7T3pr8",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -8870,45 +9021,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Contragravity",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sn5AikANIUqhoKYm_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Countermeasures",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Countermeasures",
 							"modifier": -4
 						},
 						{
@@ -9432,84 +9544,6 @@
 					"points": 1
 				},
 				{
-					"id": "spRnPKdAZJfsD2W8D",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Media Apparatus",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Media Apparatus",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sYAGua8H4UiuNLoin",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Medical Apparatus",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Medical Apparatus",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "s23qN45hcxHanx0Mi",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -9650,162 +9684,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Robotics",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sapTtl3a8spGM0TTU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Scientific Apparatus",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Scientific Apparatus",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "spBEznIv9fuI06ajp",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Security Apparatus",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Security Apparatus",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sCCXqC2ODAi9xcYRd",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Sensors",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Sensors",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sT0XDEj2944twMTEg",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Sonar",
 							"modifier": -4
 						},
 						{
@@ -10454,6 +10332,43 @@
 			]
 		},
 		{
+			"id": "sPPIg6gl9__1i9B9k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swjwM4R_hmkH-UXlB"
+			},
+			"name": "NBC Suit",
+			"reference": "B192",
+			"tags": [
+				"Military",
+				"Technical"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Diving Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Vacc Suit",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sb-dT1JtN4GUTLhQa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10517,7 +10432,6 @@
 			"name": "Occultism",
 			"reference": "B212",
 			"tags": [
-				"Magical",
 				"Occult"
 			],
 			"difficulty": "iq/a",
@@ -11579,7 +11493,6 @@
 					"name": "Religious Ritual",
 					"reference": "B217",
 					"tags": [
-						"Magical",
 						"Occult"
 					],
 					"specialization": "@Specialty@",
@@ -11610,7 +11523,6 @@
 					"name": "Religious Ritual",
 					"reference": "B217",
 					"tags": [
-						"Magical",
 						"Occult"
 					],
 					"specialization": "Path of the Sands",
@@ -11763,6 +11675,34 @@
 					"points": 1
 				},
 				{
+					"id": "s48aUj3TrE1BJCeZZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sw6twMMqbSiWNaKtg"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Arzaron",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Arzaron",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "sZuadW9IPmmlxWWPU",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -11785,62 +11725,6 @@
 							"type": "skill",
 							"name": "Animal Handling",
 							"specialization": "Camel",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "stz0M1bgYajtMLAxm",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sut4EOsdzoDkI0Hmb"
-					},
-					"name": "Riding",
-					"reference": "B217",
-					"tags": [
-						"Animal"
-					],
-					"specialization": "Dolphin",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Animal Handling",
-							"specialization": "Dolphin",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sRjSiRvAWROsDbvN0",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s2FPgMUpDuT_TWt2I"
-					},
-					"name": "Riding",
-					"reference": "B217",
-					"tags": [
-						"Animal"
-					],
-					"specialization": "Dragon",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Animal Handling",
-							"specialization": "Dragon",
 							"modifier": -3
 						}
 					],
