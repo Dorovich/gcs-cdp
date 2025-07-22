@@ -2307,30 +2307,6 @@
 			"points": 1
 		},
 		{
-			"id": "srgEFj0IbrccsGd4s",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sfZrwMVUibhbtdssl"
-			},
-			"name": "Cleaning",
-			"tags": [
-				"Everyman"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Housekeeping"
-				},
-				{
-					"type": "iq",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sbctVCx3uPtWh4nJT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2936,7 +2912,6 @@
 					"name": "Current Affairs",
 					"reference": "B186",
 					"tags": [
-						"Business",
 						"Everyman",
 						"Knowledge",
 						"Social"
@@ -11249,7 +11224,7 @@
 			"points": 1
 		},
 		{
-			"id": "sZGEZZiTPkL52rJc2",
+			"id": "s5z0I_864nK8Ch8t7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -11267,6 +11242,16 @@
 				{
 					"type": "dx",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -4
 				},
 				{
 					"type": "skill",
@@ -12764,6 +12749,39 @@
 			"points": 1
 		},
 		{
+			"id": "so6S3_VF-lYaG3fdp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sGZIS74r72pQZ7Ayv"
+			},
+			"name": "Spear",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sebnGY_U53k6wnDlc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -12830,7 +12848,7 @@
 			"points": 1
 		},
 		{
-			"id": "swZPegXNU5UugoC2O",
+			"id": "sW4C-8LRaoHyri1Aq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -12853,6 +12871,11 @@
 					"type": "skill",
 					"name": "Polearm",
 					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -2
 				}
 			],
 			"points": 1
@@ -14151,7 +14174,7 @@
 					"points": 1
 				},
 				{
-					"id": "sL9sJXTIgF7M9wPp8",
+					"id": "sCMm_keebShX6Z0BL",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -14163,7 +14186,7 @@
 						"Humanities",
 						"Social Sciences"
 					],
-					"specialization": "Faith of Sh-gá-rra",
+					"specialization": "Order of Old",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
@@ -14180,7 +14203,7 @@
 					"points": 1
 				},
 				{
-					"id": "sCMm_keebShX6Z0BL",
+					"id": "sL9sJXTIgF7M9wPp8",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -14192,7 +14215,7 @@
 						"Humanities",
 						"Social Sciences"
 					],
-					"specialization": "Order of Old",
+					"specialization": "Sh-gá-rra's Faith",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
