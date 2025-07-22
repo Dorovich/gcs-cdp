@@ -5095,11 +5095,11 @@
 					"points": 1
 				},
 				{
-					"id": "slRBFEVRjdJnATUrN",
+					"id": "s781beqgqGeXp1E1x",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sMIEoVTEXT8J2IGwj"
+						"id": "s1tGkNec9Plmq9fGX"
 					},
 					"name": "Engineer",
 					"reference": "B190",
@@ -5108,12 +5108,12 @@
 						"Engineer",
 						"Invention"
 					],
-					"specialization": "Electronics",
+					"specialization": "Electrical",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Electronics Repair",
+							"name": "Electrician",
 							"modifier": -6
 						}
 					],
@@ -5142,11 +5142,11 @@
 					"points": 1
 				},
 				{
-					"id": "s781beqgqGeXp1E1x",
+					"id": "slRBFEVRjdJnATUrN",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s1tGkNec9Plmq9fGX"
+						"id": "sMIEoVTEXT8J2IGwj"
 					},
 					"name": "Engineer",
 					"reference": "B190",
@@ -5155,12 +5155,12 @@
 						"Engineer",
 						"Invention"
 					],
-					"specialization": "Electrical",
+					"specialization": "Electronics",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Electrician",
+							"name": "Electronics Repair",
 							"modifier": -6
 						}
 					],
