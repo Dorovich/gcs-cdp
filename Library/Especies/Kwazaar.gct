@@ -9,7 +9,7 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tmEjkjkaw-3WrxNSh",
+					"id": "tJGoIpsJvFDHawcNQ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -22,9 +22,9 @@
 						"Exotic",
 						"Physical"
 					],
-					"base_points": 10,
+					"base_points": 5,
 					"calc": {
-						"points": 10
+						"points": 5
 					}
 				},
 				{
@@ -214,14 +214,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mVeJiesDHqMaf3hXd",
+							"id": "mor9BALsPfse0RkDE",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "m-gfcGyYFBljlfZ8l",
+							"id": "mvhm1YaNmUa-k0Dck",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -229,7 +229,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m8d8JUS5M_UQSNUO1",
+							"id": "mQIKZMdjfpQGYaqWk",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances @Trait@",
@@ -237,7 +237,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mwW1P0NAHe2q6sLYM",
+							"id": "mWgSSoaLtNSyLTUIE",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Healing only",
@@ -245,7 +245,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m8sp9d_mb0t_d7UxA",
+							"id": "mQgagPzfgxECJp6Bn",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances any trait",
@@ -253,14 +253,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mL4HmN1VYyU1eEXS5",
+							"id": "mGl8LDwDJSwaZ6_wL",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mlirboO7pNeOuyq8U",
+							"id": "md8O-geRLGnenYbns",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Rare@",
@@ -269,7 +269,7 @@
 							"disabled": true
 						},
 						{
-							"id": "myrlcLFFMoD-G2y9c",
+							"id": "mNFj2AOCCu4Rmlo5s",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Occasional@",
@@ -277,7 +277,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m6tgdc4P7iinWnukz",
+							"id": "mFgNG8b_ZCD1DKL07",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Common@",
@@ -285,7 +285,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mKDKg_B2BcfrGPoLQ",
+							"id": "mHl4XlqVc6330xm69",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Very Common@",
@@ -293,7 +293,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mGaI4a0p7mp1Tuxp_",
+							"id": "mmBWcLBuxGB8S-8u_",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "Front",
@@ -301,14 +301,13 @@
 							"disabled": true
 						},
 						{
-							"id": "mux91M6aqVsygyBzb",
+							"id": "mxhAnmrcZ10yroJut",
 							"name": "Flexible",
 							"reference": "B47",
-							"cost": -20,
-							"disabled": true
+							"cost": -20
 						},
 						{
-							"id": "mnicCZdldwpKDswh9",
+							"id": "mZCtXOBQ_VxDLelEY",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Very Common Attack Form@",
@@ -316,21 +315,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mWlzOzwvjzXzGisgf",
+							"id": "mQwTarfAy399yq64f",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "m0tFMfHKBGc8BzpUs",
+							"id": "md3iSCtU2ToPYatBE",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m0fyOCjlpqMpkJUc4",
+							"id": "mjIowsRIvOPI-GBfp",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -338,7 +337,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mpTdnsl6SPyTI_mJ4",
+							"id": "mApcPkw_Ee1GYgh5Q",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Common Attack Form@",
@@ -346,13 +345,13 @@
 							"disabled": true
 						},
 						{
-							"id": "m-IFvM6OI1vK7nh5l",
+							"id": "mu8LBgkHb5cJkZ2ki",
 							"name": "Tough Skin",
 							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40
 						},
 						{
-							"id": "mrQmum8uc20sC2bto",
+							"id": "mPzh1EfiOr-C8DJrJ",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Occasional Attack Form@",
@@ -360,14 +359,14 @@
 							"disabled": true
 						},
 						{
-							"id": "moBYqe5c4TMHa4oOq",
+							"id": "mq6c08oIV7j-OBA8f",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mMzhRB20M_Nc9PGZc",
+							"id": "m8eWNPwiYsXVfF-Ww",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Rare Attack Form@",
@@ -375,27 +374,27 @@
 							"disabled": true
 						},
 						{
-							"id": "m1KxjDFe7zwYfE8Pm",
+							"id": "mw4YQBfPlgiFZcyda",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mzYzKhLa9gLuiVQLc",
+							"id": "mxOO6k6LmrVSFDgdZ",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mKkEOBSsrfBrj_RjJ",
+							"id": "mPCoaRWOqHqGeqqD6",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "mJdJ1DSUhz0bTbkzD",
+							"id": "mIkv3ZyzEm5CBi3Cv",
 							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 							"reference": "B47",
 							"cost": -10,
@@ -426,7 +425,7 @@
 					"can_level": true,
 					"levels": 1,
 					"calc": {
-						"points": 3
+						"points": 2
 					}
 				},
 				{
@@ -743,7 +742,7 @@
 				}
 			],
 			"calc": {
-				"points": 20
+				"points": 14
 			}
 		}
 	]

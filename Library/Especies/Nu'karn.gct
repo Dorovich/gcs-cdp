@@ -423,11 +423,11 @@
 					}
 				},
 				{
-					"id": "tm3ScQcC3Xk-OOMcH",
+					"id": "t4sNfkVKdMHHManO1",
 					"source": {
-						"library": "Dorovich/gcs-cdp",
-						"path": "CdP Rasgos (Especies).adq",
-						"id": "t3RvGqLj6IEvF5xi5"
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYnrwhhEwv7uvdomv"
 					},
 					"name": "Unaging",
 					"reference": "B95,PSI18",
@@ -438,56 +438,56 @@
 					],
 					"modifiers": [
 						{
-							"id": "meyp73NpHVZTQYwgo",
+							"id": "mkxPbY5n1GsT7symu",
 							"name": "Age Control",
 							"reference": "B95",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mgfuXiMCtsiGz5-J5",
+							"id": "mWx_AEYIr418S_hYq",
 							"name": "IQ Only",
 							"reference": "RSWL24",
 							"cost": -75,
 							"disabled": true
 						},
 						{
-							"id": "mu--F3qtK6uKesQS9",
+							"id": "mOVhz7XUJAbRX2DHe",
 							"name": "Halt Aging, Weekly",
 							"reference": "PSI18",
 							"cost": 80,
 							"disabled": true
 						},
 						{
-							"id": "m8QUnddg3gqkgAA8F",
+							"id": "m9eI81lrQI4goUjjp",
 							"name": "Halt Aging, Monthly",
 							"reference": "PSI18",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mzAz80VUtpvbQDloM",
+							"id": "mhH05f-RHDQH4yrIJ",
 							"name": "Halt Aging, Yearly",
 							"reference": "PSI18",
 							"cost": 130,
 							"disabled": true
 						},
 						{
-							"id": "mbR8vRVh9Ky_C7Ikr",
+							"id": "mNSqMWh6mNiowi_3d",
 							"name": "Life Extension",
 							"reference": "PSI18",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "mmkcf0Mh7yQFM8loj",
+							"id": "mYr4W_XIYh3m-mZLL",
 							"name": "Keumic",
 							"cost": -10
 						}
 					],
-					"base_points": 15,
+					"base_points": 5,
 					"calc": {
-						"points": 14
+						"points": 5
 					}
 				},
 				{
@@ -510,7 +510,7 @@
 				}
 			],
 			"calc": {
-				"points": 24
+				"points": 15
 			}
 		}
 	]
