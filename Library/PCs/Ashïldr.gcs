@@ -752,55 +752,6 @@
 			}
 		},
 		{
-			"id": "tBvXXnmtJVFmelh-l",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Rasgos.adq",
-				"id": "tuitUP-5ouHHoHtrS"
-			},
-			"name": "CdP Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wS0sLirvS-oMzXe_4",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Unarmed",
-					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "1d-3 cr",
-						"parry": "9"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"id": "TcOs3DeUL5Ik0i3Jd",
 			"name": "Disadvantages \u0026 Quirks",
 			"children": [
@@ -856,13 +807,13 @@
 			"name": "Languages \u0026 Culture",
 			"children": [
 				{
-					"id": "t_w2NiCboeTZJH1aU",
+					"id": "tt_lLB8-mKN8hmHKi",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "toXBQ8q4Nek5lsLPF"
 					},
-					"name": "Cultural Familiarity",
+					"name": "Cultural Familiarity (Korkon)",
 					"reference": "B23",
 					"tags": [
 						"Advantage",
@@ -871,86 +822,53 @@
 					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 					"modifiers": [
 						{
-							"id": "mLIy68IE-kjkd3SAx",
-							"name": "Koppemak",
-							"cost": 1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mE3iKoh4OW2EGXWqJ",
-							"name": "Koppemak",
-							"local_notes": "Native",
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mVesqvscOUzl5R6Bs",
-							"name": "Korkon",
-							"cost": 1,
-							"cost_type": "points"
-						},
-						{
-							"id": "m_0ox00oWligiY2b8",
-							"name": "Korkon",
-							"local_notes": "Native",
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mgycx3g_Yq_hXQxpO",
-							"name": "Kwazaar",
-							"cost": 1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mrBPz8_53v01mIL7E",
-							"name": "Kwazaar",
-							"local_notes": "Native",
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mphKAuQB40bQeT86j",
-							"name": "Te'karn",
-							"cost": 1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mW4gI0K6miDAKAgXp",
-							"name": "Te'karn",
-							"local_notes": "Native",
-							"cost_type": "points"
-						},
-						{
-							"id": "mid5u8oNfup6Ej1jt",
-							"name": "O'koptera",
-							"cost": 1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mNvko1RJ6o6LES3S2",
-							"name": "O'koptera",
-							"local_notes": "Native",
+							"id": "mOuWT3ljO5Q6CFTj8",
+							"name": "Native",
+							"cost": -1,
 							"cost_type": "points",
 							"disabled": true
 						}
 					],
+					"base_points": 1,
 					"calc": {
 						"points": 1
 					}
 				},
 				{
-					"id": "tYyrTf8nu4qWYuMyC",
+					"id": "tInoxUP8Kg7cmCFD_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toXBQ8q4Nek5lsLPF"
+					},
+					"name": "Cultural Familiarity (Te'karn)",
+					"reference": "B23",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+					"modifiers": [
+						{
+							"id": "mePjAu2Qt9Vc8c-dI",
+							"name": "Native",
+							"cost": -1,
+							"cost_type": "points"
+						}
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "trFSCWO5eCSNbaxSG",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tw1Ad0oSMw2ATM4X1"
 					},
-					"name": "Language: Ama'kon",
+					"name": "Language: @Language@",
 					"reference": "B24",
 					"tags": [
 						"Advantage",
@@ -975,18 +893,18 @@
 						]
 					},
 					"replacements": {
-						"Language": "Anere"
+						"Language": "Ama'kon"
 					},
 					"modifiers": [
 						{
-							"id": "mr3qnXY5A4sSdZ6dl",
+							"id": "mAcGlsOf9r7qg51u3",
 							"name": "Native",
 							"reference": "B23",
 							"cost": -6,
 							"cost_type": "points"
 						},
 						{
-							"id": "m-ON71UMg3ttPwydj",
+							"id": "meKA3YfBBiXxyMmwd",
 							"name": "Spoken",
 							"reference": "B24",
 							"local_notes": "None",
@@ -994,7 +912,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mfL-FaA44wXgRs8XW",
+							"id": "m4nA2NoUHwS0cmbQb",
 							"name": "Spoken",
 							"reference": "B24",
 							"local_notes": "Broken",
@@ -1003,53 +921,53 @@
 							"disabled": true
 						},
 						{
-							"id": "mkFNROyyzGTRLYNXs",
+							"id": "mcGej_wzFMEg4dqLQ",
 							"name": "Spoken",
 							"reference": "B24",
-							"local_notes": "Accented",
+							"local_notes": "Conversational",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mIM0bd6e2nX1lNqNZ",
+							"id": "mbpLdSZhXTD_pTldr",
 							"name": "Spoken",
 							"reference": "B24",
-							"local_notes": "Native",
+							"local_notes": "Fluent",
 							"cost": 3,
 							"cost_type": "points"
 						},
 						{
-							"id": "m0zLBcDQ7l_pcjfGK",
+							"id": "mKIV_Gz5cae7NR8p2",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "None",
+							"local_notes": "Illiterate",
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "m56gvAzny-OzsgSkS",
+							"id": "mzaSxof-M1b7Btn8Z",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "Broken",
+							"local_notes": "Semi-Literate",
 							"cost": 1,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mAVkXVd_iGQP65SIW",
+							"id": "m0jzajNbOwZmrkLSl",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "Accented",
+							"local_notes": "Literate",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mqQv98J3ZIEAGVoAW",
+							"id": "mBdrAF1PU7VNL22NE",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "Native",
+							"local_notes": "Educated",
 							"cost": 3,
 							"cost_type": "points"
 						}
@@ -1059,7 +977,7 @@
 					}
 				},
 				{
-					"id": "tzqf34uQrPg8fHRUW",
+					"id": "tY7SBivLM9lTAPXQs",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1094,7 +1012,7 @@
 					},
 					"modifiers": [
 						{
-							"id": "mRgI8YHSvyEyeZomt",
+							"id": "m3j7egPfejURaB6ri",
 							"name": "Native",
 							"reference": "B23",
 							"cost": -6,
@@ -1102,7 +1020,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mfRpnyvLgTqvWSlHY",
+							"id": "m6Y-q_uchsmJocvN2",
 							"name": "Spoken",
 							"reference": "B24",
 							"local_notes": "None",
@@ -1110,7 +1028,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjLc-UajhzGbB5tGF",
+							"id": "mY4Ugvi4mkn0oKb3e",
 							"name": "Spoken",
 							"reference": "B24",
 							"local_notes": "Broken",
@@ -1119,71 +1037,129 @@
 							"disabled": true
 						},
 						{
-							"id": "maLMBGrQZWE_WhtwC",
+							"id": "mhJJmfzLfBLITPME_",
 							"name": "Spoken",
 							"reference": "B24",
-							"local_notes": "Accented",
+							"local_notes": "Conversational",
 							"cost": 2,
 							"cost_type": "points"
 						},
 						{
-							"id": "mxL4wTRj3UEyLzrzb",
+							"id": "mM-ipq7pCVq6hucvF",
 							"name": "Spoken",
 							"reference": "B24",
-							"local_notes": "Native",
+							"local_notes": "Fluent",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mI-_mLj7amPKXa4Zd",
+							"id": "m4xlbnrD7tFdJFC_Z",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "None",
-							"cost_type": "points"
-						},
-						{
-							"id": "miVGfJqHhxpPmTMW0",
-							"name": "Written",
-							"reference": "B24",
-							"local_notes": "Broken",
-							"cost": 1,
+							"local_notes": "Illiterate",
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mhREAzJEp6XqY427r",
+							"id": "mMSDsqQTTOP8QJQ7a",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "Accented",
+							"local_notes": "Semi-Literate",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "m73cpB-EovZ-qIs4V",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Literate",
 							"cost": 2,
 							"cost_type": "points",
 							"disabled": true
 						},
 						{
-							"id": "mvFLnDkTDfu1pdA05",
+							"id": "mUHcLWsP8_G5fhmzh",
 							"name": "Written",
 							"reference": "B24",
-							"local_notes": "Native",
+							"local_notes": "Educated",
 							"cost": 3,
 							"cost_type": "points",
 							"disabled": true
 						}
 					],
 					"calc": {
-						"points": 2
+						"points": 3
 					}
 				}
 			],
 			"calc": {
-				"points": 3
+				"points": 4
 			}
 		},
 		{
-			"id": "TdBVxp0MmidPsOhr-",
-			"name": "Te'karn",
-			"ancestry": "Human",
-			"container_type": "ancestry",
+			"id": "TTRWgTWKSgJ34GUfb",
+			"name": "Other Features \u0026 Traits",
+			"children": [
+				{
+					"id": "t719d_EkfnFTLyM3K",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tuitUP-5ouHHoHtrS"
+					},
+					"name": "CdP Natural Attacks",
+					"reference": "B271",
+					"weapons": [
+						{
+							"id": "wiWFIWOUkuhUHHb8x",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Unarmed",
+							"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"level": 12,
+								"damage": "1d-3 cr",
+								"parry": "9"
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "TdBVxp0MmidPsOhr-",
+					"name": "Te'karn",
+					"ancestry": "Human",
+					"container_type": "ancestry",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
 			"calc": {
 				"points": 0
 			}
@@ -2274,7 +2250,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-07-22T04:41:37+02:00",
+	"modified_date": "2025-07-24T18:59:44+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

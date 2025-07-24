@@ -1,0 +1,193 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "sSXnlvb2rFBjbnxn_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sx1CDkGBR830IZrmz"
+			},
+			"name": "Childcare",
+			"reference": "B215",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sl9n_CsWnS6b5cdXR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sx1CDkGBR830IZrmz"
+			},
+			"name": "Childcare",
+			"reference": "B215",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Own Children",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sigtlMCHv5eVH2UKE",
+			"name": "Circus Performance",
+			"local_notes": "May be based on DX or IQ.",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "smccUuJB5LEyH0caG",
+			"name": "Circus Performance",
+			"local_notes": "May be based on DX or IQ.",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "@Particular act@",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sug7cG67bH2KKM06g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVSxt6kQGDV8RpNKB"
+			},
+			"name": "Medical Care",
+			"reference": "B213",
+			"tags": [
+				"Medical"
+			],
+			"vtt_notes": "Renamed Physician",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -7
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -11
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sqGJlWtuYCOHp6_La",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjU9kn3jTX-_5Q5p5"
+			},
+			"name": "Psychology",
+			"reference": "B216",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"vtt_notes": "Renamed Psychology (Experimental)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Sociology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "spBzI9180FoYZ6_DA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sv_ITrhGSsEpjdcqa"
+			},
+			"name": "Sailor",
+			"reference": "B185",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Seamanship",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "smX7rgYJVHDx7gPrP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjU9kn3jTX-_5Q5p5"
+			},
+			"name": "Social Sense",
+			"reference": "B216",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"vtt_notes": "Renamed Psychology (Applied)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Sociology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		}
+	]
+}

@@ -218,7 +218,7 @@
 					"tags": [
 						"Animal"
 					],
-					"specialization": "Arzaron",
+					"specialization": "Arzarron",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -241,6 +241,28 @@
 						"Animal"
 					],
 					"specialization": "Big Cats",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "ssqG8hzL7L3ALrkSc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s1_nSFTuBswujqGAo"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Bovines",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -307,6 +329,28 @@
 						"Animal"
 					],
 					"specialization": "Raptors",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "scp1qvNSJbu8NzXxt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s1_nSFTuBswujqGAo"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Rodents",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -2121,6 +2165,28 @@
 			"points": 1
 		},
 		{
+			"id": "sFkqrpJJ-r10LpTNK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Brakeman",
+			"reference": "B185",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Crewman, but for working in trains.",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "srIVrk5O67pPqWepl",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3839,6 +3905,12 @@
 			],
 			"difficulty": "dx/a",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Artillery",
+					"specialization": "Bombs",
+					"modifier": -4
+				},
 				{
 					"type": "dx",
 					"modifier": -3
@@ -6397,234 +6469,36 @@
 			"points": 1
 		},
 		{
-			"id": "SIPLdGTXUdRk3Ih_J",
+			"id": "sU-f61e3ssrd80y3Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "svJog6lGk8GM_HdKw"
+			},
 			"name": "Fortune-Telling",
-			"children": [
+			"reference": "B196",
+			"tags": [
+				"Social"
+			],
+			"vtt_notes": "Apply familiarity penalties for props used (Tarot cards, crystals, augurs, etc.).",
+			"difficulty": "iq/a",
+			"defaults": [
 				{
-					"id": "s3q8SMjytu1LzzyYH",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "svJog6lGk8GM_HdKw"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Astrology",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
+					"type": "iq",
+					"modifier": -5
 				},
 				{
-					"id": "sihaI4BVa1cnzf00J",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "scZAN2KsmWIajEzSR"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Augury",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
 				},
 				{
-					"id": "srsW38GjSh8xClitP",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "slh7dCCgDEXkpqkw8"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Crystal Gazing",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sE6puutYmb-tVTkpl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sycuMbNlkLixKA1YH"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Dream Interpretation",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "snHunqNJh67K3Voaf",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sXJZAPFywkP7ExfQz"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Feng Shui",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sb9VeDADyjkcHA4w7",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s0e856Pzu41j3DG33"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Palmistry",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "seswfJ8tuOAoHAceM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "syJI_IgGzZiXfb1qO"
-					},
-					"name": "Fortune-Telling",
-					"reference": "B196",
-					"tags": [
-						"Social"
-					],
-					"specialization": "Tarot",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Fast-Talk",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Occultism",
-							"modifier": -3
-						}
-					],
-					"points": 1
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
 				}
-			]
+			],
+			"points": 1
 		},
 		{
 			"id": "sT4O9upJYwQICrwfb",
@@ -8034,6 +7908,46 @@
 			"points": 1
 		},
 		{
+			"id": "sNxG8u3zoxwO0uUeb",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades (sugerencias).skl",
+				"id": "sBwUf9b9I0zcjyofj"
+			},
+			"name": "Interviewing",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Detect Lies",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Interrogation",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Intelligence Analysis",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "stYx1JoUzkz-Q90zi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -8586,6 +8500,27 @@
 			"id": "S-uNQzIWpdyztpOwf",
 			"name": "Mathematics",
 			"children": [
+				{
+					"id": "sMcEVgmDhnLxbruKj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGgBbCTe-AwY1nu3W"
+					},
+					"name": "Mathematics",
+					"reference": "B207",
+					"tags": [
+						"Natural Science"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -7
+						}
+					],
+					"points": 1
+				},
 				{
 					"id": "siz9Cisfvo2ivLqmX",
 					"source": {
@@ -9675,6 +9610,45 @@
 					"points": 1
 				},
 				{
+					"id": "sCYM5zF8TxudLDvdr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sjiPOdZOS0Ve3xMhr"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Sapper",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Combat",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "sn2NhS9CaG3bSNI5O",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -10409,7 +10383,8 @@
 			"tags": [
 				"Occult"
 			],
-			"difficulty": "iq/a",
+			"vtt_notes": "Difficulty is now H because it's more akin to an Expert Skill.",
+			"difficulty": "iq/h",
 			"defaults": [
 				{
 					"type": "iq",
@@ -10446,136 +10421,28 @@
 			"points": 1
 		},
 		{
-			"id": "SNzx3N4BCBDsji4yn",
+			"id": "sdtWdAcsQLZBk0NHx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "se1T6IhiE46THIVU6"
+			},
 			"name": "Paleontology",
-			"children": [
+			"reference": "B212",
+			"tags": [
+				"Humanities",
+				"Natural Science",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
 				{
-					"id": "sdGNtNmGm06AWRo_V",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "se1T6IhiE46THIVU6"
-					},
-					"name": "Paleontology",
-					"reference": "B212",
-					"tags": [
-						"Humanities",
-						"Natural Science",
-						"Social Sciences"
-					],
-					"specialization": "Micropaleontology",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Biology",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Paleontology",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sGsaxG0ajYoODtt50",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "stUKchVWMwZxSmBWL"
-					},
-					"name": "Paleontology",
-					"reference": "B212",
-					"tags": [
-						"Humanities",
-						"Natural Science",
-						"Social Sciences"
-					],
-					"specialization": "Paleoanthropology",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Biology",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Paleontology",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Anthropology",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sIex16ZIPtiRbJHr7",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s2jbIDIXeLBNbxcuo"
-					},
-					"name": "Paleontology",
-					"reference": "B212",
-					"tags": [
-						"Humanities",
-						"Natural Science",
-						"Plant",
-						"Social Sciences"
-					],
-					"specialization": "Paleobotany",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Biology",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Paleontology",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s28Lv9--IsGCUH03-",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sNN-ULO6HlINrt-Yb"
-					},
-					"name": "Paleontology",
-					"reference": "B212",
-					"tags": [
-						"Humanities",
-						"Natural Science",
-						"Social Sciences"
-					],
-					"specialization": "Paleozoology",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Biology",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Paleontology",
-							"modifier": -2
-						}
-					],
-					"points": 1
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -4
 				}
-			]
+			],
+			"points": 1
 		},
 		{
 			"id": "swhzoK-EYkgtEHfn-",
@@ -11671,7 +11538,7 @@
 					"tags": [
 						"Animal"
 					],
-					"specialization": "Arzaron",
+					"specialization": "Arzarron",
 					"difficulty": "dx/a",
 					"defaults": [
 						{
@@ -11681,7 +11548,7 @@
 						{
 							"type": "skill",
 							"name": "Animal Handling",
-							"specialization": "Arzaron",
+							"specialization": "Arzarron",
 							"modifier": -3
 						}
 					],

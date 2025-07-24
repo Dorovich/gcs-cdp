@@ -903,294 +903,6 @@
 			}
 		},
 		{
-			"id": "tMb62WNQYCjCNlFIq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t9fwzDbdQy1S9CHUx"
-			},
-			"name": "Affliction",
-			"reference": "B35,P39,PSI13",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "MHbLd9IrWFoR0bJ9p",
-					"name": "Attribute Penalties",
-					"children": [
-						{
-							"id": "mg_CjyjBtY37okobF",
-							"name": "DX Penalty",
-							"reference": "B36",
-							"local_notes": "Gives -1 to DX per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mR_Aa5B6rQeZfY5Hw",
-							"name": "HT Penalty",
-							"reference": "B36",
-							"local_notes": "Gives -1 to HT per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mp9WaYXqmNfJv-ANy",
-							"name": "IQ Penalty",
-							"reference": "B36",
-							"local_notes": "Gives -1 to IQ per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mrPtmMbmFuSSxtCuh",
-							"name": "ST Penalty",
-							"reference": "B36",
-							"local_notes": "Gives -1 to ST per level",
-							"cost": 5,
-							"levels": 1,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "m6KWN4aCI7MGuf0Rf",
-					"name": "Cancellation",
-					"reference": "PSI13",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "mvdSbTUxrhx7TFMl8",
-					"name": "Cumulative",
-					"reference": "B36",
-					"cost": 400,
-					"disabled": true
-				},
-				{
-					"id": "M8Nhgcqq1TNrtHYl6",
-					"name": "Incapacitation",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mrb3wTuFOZry6MHE2",
-							"name": "Agony",
-							"reference": "B428",
-							"local_notes": "Lose 1 FP per minute",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mLzBvV2dGYeZf0-m2",
-							"name": "Choking",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mi3J2RpozQjlzZc6U",
-							"name": "Daze",
-							"reference": "B428",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mQxtBj2SK2MfvbtGp",
-							"name": "Ecstasy",
-							"reference": "B428",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mLDGS1ItmyJAaxLiD",
-							"name": "Hallucination",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mlFp8JPkG4HR9UD6D",
-							"name": "Paralysis",
-							"reference": "B429",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "m54EdEHEK7zKWiXs3",
-							"name": "Retching",
-							"reference": "B429",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mC7m7b_qpSlL2_uKo",
-							"name": "Seizure",
-							"reference": "B429",
-							"local_notes": "Lose 1d FP at the end of the seizure",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mWbKQl16Qga6m-qCe",
-							"name": "Sleep",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "mERibJMXhQ42L0VXb",
-							"name": "Unconsciousness",
-							"reference": "B429",
-							"cost": 200,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "MR9S09MVr1QSwZ8mR",
-					"name": "Irritations",
-					"reference": "B36",
-					"children": [
-						{
-							"id": "mWqAla1i6yGstK22D",
-							"name": "Coughing",
-							"reference": "B428",
-							"local_notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mdmoeeTKkmHznbfWZ",
-							"name": "Drunk",
-							"reference": "B428",
-							"local_notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mthJzKv4h96u4yHBG",
-							"name": "Euphoria",
-							"reference": "B428",
-							"local_notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "m4q6-yb5wjKxfQebm",
-							"name": "Moderate Pain",
-							"reference": "B428",
-							"local_notes": "-2 to all DX, IQ, skill and self-control rolls",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mfNVk9k5p3LNvMSWK",
-							"name": "Nauseated",
-							"reference": "B428",
-							"local_notes": "-2 to all attribute and skill rolls; -1 to active defenses",
-							"cost": 30,
-							"disabled": true
-						},
-						{
-							"id": "mVs7m4uwaKvLYhVBM",
-							"name": "Severe Pain",
-							"reference": "B428",
-							"local_notes": "-4 to all DX, IQ, skill and self-control rolls",
-							"cost": 40,
-							"disabled": true
-						},
-						{
-							"id": "mhNAuSru2_BjMDmiL",
-							"name": "Terrible Pain",
-							"reference": "B428",
-							"local_notes": "-6 to all DX, IQ, skill and self-control rolls",
-							"cost": 60,
-							"disabled": true
-						},
-						{
-							"id": "mdeNpymEbNlH1LkjN",
-							"name": "Tipsy",
-							"reference": "B428",
-							"local_notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
-							"cost": 10,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "McUpHba7fPU-Tq4X0",
-					"name": "Mortal Conditions",
-					"children": [
-						{
-							"id": "mk9zNQmibOT5ZtoKe",
-							"name": "Coma",
-							"reference": "B429",
-							"cost": 250,
-							"disabled": true
-						},
-						{
-							"id": "mL2hsBeJv4LUO88Mk",
-							"name": "Heart Attack",
-							"reference": "B429",
-							"cost": 300,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"id": "mqn-qgZm_7oVA46FF",
-					"name": "Stunning",
-					"reference": "B36",
-					"cost": 10,
-					"disabled": true
-				},
-				{
-					"id": "M5rx9pQjDtDSBI0Ti",
-					"name": "Traits",
-					"children": [
-						{
-							"id": "mDG7EBARxeXiKbojY",
-							"name": "Gives @Advantage@",
-							"reference": "B36",
-							"local_notes": "1 point per level",
-							"cost": 10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mVYaJgOBn82FjeHen",
-							"name": "Gives @Disadvantage@",
-							"reference": "B36",
-							"local_notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mSi6naU5M6zIkrXxd",
-							"name": "Negates @Advantage@",
-							"reference": "B36",
-							"local_notes": "1 point per level",
-							"cost": 1,
-							"levels": 1,
-							"disabled": true
-						}
-					]
-				}
-			],
-			"points_per_level": 10,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 10
-			}
-		},
-		{
 			"id": "tYUMXUzun7SJ2aTnq",
 			"name": "Affliction — Narcotic Bite",
 			"reference": "B35,P39,PSI13",
@@ -3046,6 +2758,30 @@
 			}
 		},
 		{
+			"id": "tD3dK_tLhE4F9lCWT",
+			"name": "Attributes: Child",
+			"tags": [
+				"Attribute",
+				"Mental",
+				"Physical"
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "st",
+					"amount": -2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "iq",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "tnR6yJr2rWcVHND0l",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3485,6 +3221,24 @@
 			"base_points": -10,
 			"calc": {
 				"points": -10
+			}
+		},
+		{
+			"id": "tXwX-rAqgb3wuv9LM",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos (sugerencias).adq",
+				"id": "tbvWrfX49Ucpsmey8"
+			},
+			"name": "Bilingual",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"vtt_notes": "Can have an additional Native language",
+			"base_points": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -5129,7 +4883,7 @@
 			}
 		},
 		{
-			"id": "t2NCoFyHZ6jTQIeML",
+			"id": "tVCifhbbGl5h2P-tg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -5138,21 +4892,21 @@
 			"name": "Common Sense",
 			"reference": "B43,P45",
 			"tags": [
-				"Advantage",
-				"Mental"
+				"Mental",
+				"Perk"
 			],
 			"modifiers": [
 				{
-					"id": "mxIDP7E_J6rsQ4t5S",
+					"id": "m0EazhLkMX7XDHC6j",
 					"name": "Concious",
 					"reference": "P45",
 					"cost": 50,
 					"disabled": true
 				}
 			],
-			"base_points": 10,
+			"base_points": 1,
 			"calc": {
-				"points": 10
+				"points": 1
 			}
 		},
 		{
@@ -6204,6 +5958,174 @@
 			}
 		},
 		{
+			"id": "tCInVqWwmBDNVxNP3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Koppemak)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mbNIa2EQEe4PCzCZS",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tE0Pj0cIhoHLuDggx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Korkon)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mikxd7IKCF1dVwQ5Y",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tFCjw7Ull8lGRYqRL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Kwazaar)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "m-qNNMMg1o0dbP3um",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUt8qYRGWwkN4kSuR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Nu'karn)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mfI_dFEBseo71aB4e",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "toDIQ38Sd8l8vTIHC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (O'koptera)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "mU1XsVYxT--fqVngn",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tp32QRxM8sVZwEbXi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Te'karn)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"modifiers": [
+				{
+					"id": "m0YRIBcf1rTJ7t0UP",
+					"name": "Native",
+					"cost": -1,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tcT169odORvbWComi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -7105,7 +7027,7 @@
 						"id": "tTvj6VaPYW4126mZe"
 					},
 					"name": "Separate Attributes",
-					"local_notes": "HT 12, HP 8 (each arm), HP 10 (each leg); Suffer a penalty to DX equal to the Pain level it would be suffering from its damage.",
+					"local_notes": "HT 12, HP 8 (each arm), HP 10 (each leg); Suffer a penalty to DX equal to its missing HP when using them.",
 					"calc": {
 						"points": 0
 					}
@@ -8064,7 +7986,7 @@
 						"id": "tTvj6VaPYW4126mZe"
 					},
 					"name": "Separate Attributes",
-					"local_notes": "HT 12, HP 8 (each arm), HP 10 (each leg); Suffer a penalty to DX equal to the Pain level it would be suffering from its damage.",
+					"local_notes": "HT 12, HP 8 (each arm), HP 10 (each leg); Suffer a penalty to DX equal to its missing HP when using them.",
 					"calc": {
 						"points": 0
 					}
@@ -9572,6 +9494,50 @@
 			}
 		},
 		{
+			"id": "tvs_kDr66GXwh-eIu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tuYiQV8SE62EPDnuX"
+			},
+			"name": "Ditz",
+			"reference": "B141",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 13
+						},
+						"which": "iq"
+					}
+				]
+			},
+			"vtt_notes": "Same as Klutz, but based on IQ.",
+			"modifiers": [
+				{
+					"id": "mrlWjMYI52URatj_E",
+					"name": "Total",
+					"reference": "B141",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
 			"id": "tte2TWKNhAZuFQiHh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10159,6 +10125,22 @@
 			],
 			"calc": {
 				"points": 20
+			}
+		},
+		{
+			"id": "tRV26nu8lYmbwM0p9",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos (sugerencias).adq",
+				"id": "tu6PKDOwyfvx7i-J0"
+			},
+			"name": "Elderly",
+			"vtt_notes": "Has passed one (or more) aging thresholds",
+			"points_per_level": -1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -1
 			}
 		},
 		{
@@ -10892,7 +10874,7 @@
 			}
 		},
 		{
-			"id": "tnTqVm39MrfpfNWHu",
+			"id": "tW_TJFr0gUF6r20f8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -10905,11 +10887,11 @@
 				"Exotic",
 				"Physical"
 			],
-			"points_per_level": 2,
+			"points_per_level": 1,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 1
 			}
 		},
 		{
@@ -11693,6 +11675,27 @@
 			"levels": 1,
 			"calc": {
 				"points": -2
+			}
+		},
+		{
+			"id": "tNO-Y-dsX9td_ai7A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tu0KYjUBLw84B4gKc"
+			},
+			"name": "Fighter",
+			"reference": "B159",
+			"local_notes": "Make a self-control roll each day. If you fail, you must try to seek a challenging battle. No need to kill your foes (unless you also have Bloodlust). If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"vtt_notes": "Similar to Trickster",
+			"cr": 12,
+			"base_points": -15,
+			"calc": {
+				"points": -15
 			}
 		},
 		{
@@ -14450,6 +14453,25 @@
 			],
 			"calc": {
 				"points": 0
+			}
+		},
+		{
+			"id": "tmT1FCBf5fIA3L5HT",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos (sugerencias).adq",
+				"id": "tV_B60gTAAsg-x0Yq"
+			},
+			"name": "Impudent",
+			"local_notes": "Make a self-controll roll whenever you deal with those of higher Rank or Status to resist the urge to mouth off, doubling any penalty for having lower Rank or Status.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
 			}
 		},
 		{
@@ -18602,7 +18624,7 @@
 			}
 		},
 		{
-			"id": "tlmKAfkRf44GVImco",
+			"id": "tiO83nu-w8aDN7XDx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -18634,7 +18656,7 @@
 			},
 			"modifiers": [
 				{
-					"id": "mtDDZruOsuEzILvMo",
+					"id": "mGGtpn_omd5V_n49u",
 					"name": "Native",
 					"reference": "B23",
 					"cost": -6,
@@ -18642,7 +18664,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mbsMadZSYF1R8f_am",
+					"id": "mn67J_VmJfvOyUfsn",
 					"name": "Spoken",
 					"reference": "B24",
 					"local_notes": "None",
@@ -18650,7 +18672,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mx_UinEj3R2qso4MX",
+					"id": "m_Fed6UeEIirF15gb",
 					"name": "Spoken",
 					"reference": "B24",
 					"local_notes": "Broken",
@@ -18659,63 +18681,65 @@
 					"disabled": true
 				},
 				{
-					"id": "mPIWL0SmGOf0V4WYT",
+					"id": "mkwA0IqbEUe0Ka8eb",
 					"name": "Spoken",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Conversational",
 					"cost": 2,
-					"cost_type": "points"
+					"cost_type": "points",
+					"disabled": true
 				},
 				{
-					"id": "mmL08ECAsXUUy_iep",
+					"id": "mj-BGeq_gTMJc-_6E",
 					"name": "Spoken",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Fluent",
 					"cost": 3,
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mb0Bnklvl_UJzPB7s",
+					"id": "mP2LzN_MAx7Bb3vnE",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "None",
+					"local_notes": "Illiterate",
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "m77IDyrQrhNDyV6Iq",
+					"id": "mzf4FOasBCFq2A_qx",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "Broken",
+					"local_notes": "Semi-Literate",
 					"cost": 1,
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mPMQ_FWPLY7Z0vIqX",
+					"id": "mEbxvuML3ziNpiefS",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Literate",
 					"cost": 2,
-					"cost_type": "points"
+					"cost_type": "points",
+					"disabled": true
 				},
 				{
-					"id": "mgxqtiO2jG1RFG0uo",
+					"id": "mHuab1o6EGzfNl_01",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Educated",
 					"cost": 3,
 					"cost_type": "points",
 					"disabled": true
 				}
 			],
 			"calc": {
-				"points": 4
+				"points": 0
 			}
 		},
 		{
-			"id": "t8xObv0TNXjKHALOX",
+			"id": "tuUXTuECv2lpwXm7Q",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -18745,7 +18769,7 @@
 			},
 			"modifiers": [
 				{
-					"id": "m_L8KCrtR2YmWScQW",
+					"id": "mRTDMCnC_32BT2jYr",
 					"name": "Native",
 					"reference": "B23",
 					"cost": -4,
@@ -18753,42 +18777,44 @@
 					"disabled": true
 				},
 				{
-					"id": "mQ0_QtOZaj7ehcZuh",
+					"id": "mPP3EhghCr984r-I0",
 					"name": "Spoken",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Conversational",
 					"cost": 1,
-					"cost_type": "points"
+					"cost_type": "points",
+					"disabled": true
 				},
 				{
-					"id": "mD7xOycOPp9tjmWQH",
+					"id": "mPW3AuW2WDFl1ZJbA",
 					"name": "Spoken",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Fluent",
 					"cost": 2,
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mhVavsW9jSnfOEdiB",
+					"id": "mkXcMUuw8-HqnSPxg",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Literate",
 					"cost": 1,
-					"cost_type": "points"
+					"cost_type": "points",
+					"disabled": true
 				},
 				{
-					"id": "mQoFYD81RNZEoBWlv",
+					"id": "muwKwtlofhs4Wg2zB",
 					"name": "Written",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Educated",
 					"cost": 2,
 					"cost_type": "points",
 					"disabled": true
 				}
 			],
 			"calc": {
-				"points": 2
+				"points": 0
 			}
 		},
 		{
@@ -19308,7 +19334,7 @@
 			}
 		},
 		{
-			"id": "tenfXX5QZL-9Uwyn9",
+			"id": "twB1pUxQOhMwkdABL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -19321,9 +19347,9 @@
 				"Advantage",
 				"Physical"
 			],
-			"base_points": 2,
+			"base_points": 1,
 			"calc": {
-				"points": 2
+				"points": 1
 			}
 		},
 		{
@@ -25594,7 +25620,7 @@
 			}
 		},
 		{
-			"id": "tZ04Uz7nqxxSVEoi7",
+			"id": "tVE8gTsaDOkTJObO1",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -25621,9 +25647,9 @@
 					}
 				]
 			},
-			"base_points": -10,
+			"base_points": -5,
 			"calc": {
-				"points": -10
+				"points": -5
 			}
 		},
 		{
@@ -26386,7 +26412,7 @@
 			}
 		},
 		{
-			"id": "tZ0haCaiTj0uZ8wyZ",
+			"id": "tau0nOHHv2KPcJc4j",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -26399,11 +26425,11 @@
 				"Exotic",
 				"Physical"
 			],
-			"points_per_level": -10,
+			"points_per_level": -5,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -10
+				"points": -5
 			}
 		},
 		{
@@ -26580,7 +26606,7 @@
 			}
 		},
 		{
-			"id": "tJbJ2BVvb78pwA1Rw",
+			"id": "tV9b295vAcyC87VLB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -26610,7 +26636,7 @@
 			},
 			"modifiers": [
 				{
-					"id": "mOVawZjkBW9Wr_FZ7",
+					"id": "m9eLUUwCtYqtZgy2B",
 					"name": "Native",
 					"reference": "B23",
 					"cost": -3,
@@ -26618,7 +26644,7 @@
 					"disabled": true
 				},
 				{
-					"id": "mcOSgS02grxmKxrYn",
+					"id": "m1_kT5QSga_jG83wZ",
 					"name": "Signed",
 					"reference": "B24",
 					"local_notes": "Broken",
@@ -26627,19 +26653,19 @@
 					"disabled": true
 				},
 				{
-					"id": "mwfuly7EcinVKRD7o",
+					"id": "mD-F4ulcEZZJOjHld",
 					"name": "Signed",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Conversational",
 					"cost": 2,
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "m77VspTp3X83jCZwE",
+					"id": "meVw42D6a0feSM8v8",
 					"name": "Signed",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Fluent",
 					"cost": 3,
 					"cost_type": "points",
 					"disabled": true
@@ -26650,7 +26676,7 @@
 			}
 		},
 		{
-			"id": "tqbmMNKFfb7TshnEw",
+			"id": "t0nR5CRCt_Hxg6Mnc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -26681,7 +26707,7 @@
 			},
 			"modifiers": [
 				{
-					"id": "mjlrrn3Fbsf0c4C7d",
+					"id": "mWIyP0W4nuVuvzBSE",
 					"name": "Native",
 					"reference": "B23",
 					"cost": -2,
@@ -26689,19 +26715,19 @@
 					"disabled": true
 				},
 				{
-					"id": "mopzw8CwEOEABzAkG",
+					"id": "mJSGLZSTRWy4hPeyo",
 					"name": "Signed",
 					"reference": "B24",
-					"local_notes": "Accented",
+					"local_notes": "Conversational",
 					"cost": 1,
 					"cost_type": "points",
 					"disabled": true
 				},
 				{
-					"id": "mI8jbzO3zOPKFZJkU",
+					"id": "mq7OvDkMvMDyPVVtb",
 					"name": "Signed",
 					"reference": "B24",
-					"local_notes": "Native",
+					"local_notes": "Fluent",
 					"cost": 2,
 					"cost_type": "points",
 					"disabled": true
@@ -27314,6 +27340,57 @@
 			}
 		},
 		{
+			"id": "tzoUNMQpulj6kre3l",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7U0VbIzs6SqefwLr"
+			},
+			"name": "Social Stigma (ITP Criminal)",
+			"reference": "B155",
+			"local_notes": "Assigned to Niwel's \"Interim Temperance Program\"",
+			"tags": [
+				"Disadvantage",
+				"Social"
+			],
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from non-criminals who learn of your Criminal Record. Police, judges, vigilantes, and other law-and-order types react at -2",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tL65Qd8w5EXxI3iqc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7U0VbIzs6SqefwLr"
+			},
+			"name": "Social Stigma (Kwazaar)",
+			"reference": "B155",
+			"tags": [
+				"Disadvantage",
+				"Social"
+			],
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from Niwel patriots and similar persons at -2",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -5
+			}
+		},
+		{
 			"id": "tiZOzUHeCMzJyDfBf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -27433,6 +27510,57 @@
 			],
 			"calc": {
 				"points": -15
+			}
+		},
+		{
+			"id": "tja-vJ_dh_Hbe4kS2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7U0VbIzs6SqefwLr"
+			},
+			"name": "Social Stigma (Non-Kwazaar)",
+			"reference": "B155",
+			"tags": [
+				"Disadvantage",
+				"Social"
+			],
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from Niwel patriots and similar persons at -2",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tUFRAMZZW4DXYn2dR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7U0VbIzs6SqefwLr"
+			},
+			"name": "Social Stigma (Outlaw)",
+			"reference": "B155",
+			"local_notes": "Either the police are actively after you, or it's no crime to kill you; in either case, it's also a crime to assist you.",
+			"tags": [
+				"Disadvantage",
+				"Social"
+			],
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from non-criminals who learn of your Criminal Record. Police, judges, vigilantes, and other law-and-order types react at -4. Occasionaly, admiring criminals will react at +1.",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"points": -5
 			}
 		},
 		{
@@ -30677,49 +30805,6 @@
 			}
 		},
 		{
-			"id": "tkEmnc1rinVs11HZq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t4idKrZuFXq9pkIp5"
-			},
-			"name": "Terminally Ill",
-			"reference": "B158",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mqHirQt2s6cU5R-Br",
-					"name": "2 years to live",
-					"reference": "B158",
-					"cost": -50,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mvumQc2luUZsPywbR",
-					"name": "1 year to live",
-					"reference": "B158",
-					"cost": -75,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mcdFL1aJlZ3jA_FBz",
-					"name": "1 month to live",
-					"reference": "B158",
-					"cost": -100,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"id": "tTzsQbAcAhepUtXbh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -30822,7 +30907,7 @@
 				"id": "t1w1RFcFceKR2T9_e"
 			},
 			"name": "The Fifth Door (Ajar)",
-			"local_notes": "Halve Tempo shift penalties",
+			"local_notes": "Halve K-shift penalties",
 			"tags": [
 				"Advantage",
 				"Supernatural"
@@ -30830,7 +30915,7 @@
 			"userdesc": "Unusual background",
 			"modifiers": [
 				{
-					"id": "mg6XcbnQMWjfVSoLY",
+					"id": "mOXdI4-ZS8Iy4dlEL",
 					"name": "Unusual Background",
 					"cost": 5,
 					"cost_type": "points",
@@ -30857,7 +30942,7 @@
 				"id": "t1w1RFcFceKR2T9_e"
 			},
 			"name": "The Fifth Door (Open)",
-			"local_notes": "Halve Tempo shift penalties",
+			"local_notes": "Halve K-shift penalties",
 			"tags": [
 				"Advantage",
 				"Supernatural"
@@ -30865,7 +30950,7 @@
 			"userdesc": "Unusual background",
 			"modifiers": [
 				{
-					"id": "myItdcQZxM-d2GPTb",
+					"id": "mP9S4vJccyX45wEG5",
 					"name": "Unusual Background",
 					"cost": 10,
 					"cost_type": "points",
@@ -31202,7 +31287,7 @@
 			}
 		},
 		{
-			"id": "tUqQw0zsR6tY6Sff3",
+			"id": "tCFu5TJTLndEPVuzc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -31217,51 +31302,51 @@
 			],
 			"modifiers": [
 				{
-					"id": "mlC4pFw9Tes2NUaTV",
+					"id": "m_uJYiQqDzt0mvPTZ",
 					"name": "Age Control",
 					"reference": "B95",
 					"cost": 20,
 					"disabled": true
 				},
 				{
-					"id": "mnah1swLCu2fY1ggw",
+					"id": "mTbH8jOXHPSVbaEKq",
 					"name": "IQ Only",
 					"reference": "RSWL24",
 					"cost": -75,
 					"disabled": true
 				},
 				{
-					"id": "m6bbCHp5gQErZVgmJ",
+					"id": "mbxnN4Ge-96rhFgqm",
 					"name": "Halt Aging, Weekly",
 					"reference": "PSI18",
 					"cost": 80,
 					"disabled": true
 				},
 				{
-					"id": "mqN7Ap66A5RtEJ5Pq",
+					"id": "mPiepXxd0kPoLgm3n",
 					"name": "Halt Aging, Monthly",
 					"reference": "PSI18",
 					"cost": 100,
 					"disabled": true
 				},
 				{
-					"id": "m288x8owwcBOvB4ls",
+					"id": "mJM1oIGr-elTjU7kP",
 					"name": "Halt Aging, Yearly",
 					"reference": "PSI18",
 					"cost": 130,
 					"disabled": true
 				},
 				{
-					"id": "mciYLORive5aLboXi",
+					"id": "mnhF-Ypv8Ml9m_dET",
 					"name": "Life Extension",
 					"reference": "PSI18",
 					"cost": -30,
 					"disabled": true
 				}
 			],
-			"base_points": 15,
+			"base_points": 5,
 			"calc": {
-				"points": 15
+				"points": 5
 			}
 		},
 		{

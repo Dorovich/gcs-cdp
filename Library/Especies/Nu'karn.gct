@@ -28,7 +28,7 @@
 							"id": "myHf9BMEhE-b5uSZa",
 							"name": "Diffuse",
 							"reference": "B60",
-							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+							"local_notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
 							"cost": 100,
 							"cost_type": "points",
 							"disabled": true
@@ -37,7 +37,7 @@
 							"id": "moBLOUX_aRer4yQCL",
 							"name": "Homogenous",
 							"reference": "B60",
-							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
 							"cost": 40,
 							"cost_type": "points",
 							"disabled": true
@@ -46,7 +46,7 @@
 							"id": "mJc-EpSwxr428aqk3",
 							"name": "No Blood",
 							"reference": "B61",
-							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+							"local_notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -55,7 +55,7 @@
 							"id": "mWvQwZ9ek_1Bp8r1K",
 							"name": "No Brain",
 							"reference": "B61",
-							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+							"local_notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -64,7 +64,7 @@
 							"id": "mqQxraOobsU_PtdRW",
 							"name": "No Eyes",
 							"reference": "B61",
-							"notes": "Eyes may not be targeted. Immune to blinding attacks",
+							"local_notes": "Eyes may not be targeted. Immune to blinding attacks",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -73,7 +73,7 @@
 							"id": "mUeZZJm93hEmj8705",
 							"name": "No Head",
 							"reference": "B61",
-							"notes": "Skull, Brain and Face cannot be targeted",
+							"local_notes": "Skull, Brain and Face cannot be targeted",
 							"cost": 7,
 							"cost_type": "points",
 							"disabled": true
@@ -82,7 +82,7 @@
 							"id": "mnpS9n42-uMCj5DjR",
 							"name": "No Neck",
 							"reference": "B61",
-							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+							"local_notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
 							"cost": 5,
 							"cost_type": "points",
 							"disabled": true
@@ -91,7 +91,7 @@
 							"id": "mcy5hYH7GCvNy5AmU",
 							"name": "No Vitals",
 							"reference": "B61",
-							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+							"local_notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
 							"cost": 5,
 							"cost_type": "points"
 						},
@@ -99,7 +99,7 @@
 							"id": "mDRHrfHfFaONT8AJz",
 							"name": "Unliving",
 							"reference": "B61",
-							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
 							"cost": 20,
 							"cost_type": "points",
 							"disabled": true
@@ -276,7 +276,7 @@
 							"id": "mQFGNhEMag2JgyUy_",
 							"name": "No Body Heat",
 							"reference": "B157",
-							"notes": "Gives +1 on all rolls to deduce your secret",
+							"local_notes": "Gives +1 on all rolls to deduce your secret",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -292,7 +292,7 @@
 							"id": "mWELEEq6KF1TpTVbJ",
 							"name": "No Body Heat",
 							"reference": "B157",
-							"notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
+							"local_notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
 							"cost": -1,
 							"cost_type": "points",
 							"features": [
@@ -308,7 +308,7 @@
 							"id": "mSmZZaAZl6w1eBv-E",
 							"name": "No Reflection",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -324,7 +324,7 @@
 							"id": "moEOd4x1KbXUYWkHq",
 							"name": "No Shadow",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -340,7 +340,7 @@
 							"id": "m6W4DhNgfSlfVyy0J",
 							"name": "Pallor",
 							"reference": "B157",
-							"notes": "Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Gives +2 on all rolls to deduce your secret",
 							"cost": -10,
 							"cost_type": "points",
 							"features": [
@@ -356,7 +356,7 @@
 							"id": "mUZIrzkHStE_Ds8IY",
 							"name": "Pallor",
 							"reference": "B157",
-							"notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
+							"local_notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -371,7 +371,7 @@
 						{
 							"id": "mBB7F1mRMZ1KWzfsJ",
 							"name": "Vessel",
-							"notes": "Unnatural physiology",
+							"local_notes": "Unnatural physiology",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -395,7 +395,7 @@
 						"id": "t1w1RFcFceKR2T9_e"
 					},
 					"name": "The Fifth Door (Ajar)",
-					"notes": "Halve Tempo shift penalties",
+					"local_notes": "Halve K-shift penalties",
 					"tags": [
 						"Advantage",
 						"Supernatural"
@@ -403,7 +403,7 @@
 					"userdesc": "Unusual background",
 					"modifiers": [
 						{
-							"id": "m3BfTu7Hk0riF4KH0",
+							"id": "m7BU_YACoYyWvnJkq",
 							"name": "Unusual Background",
 							"cost": 5,
 							"cost_type": "points",
