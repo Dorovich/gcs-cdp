@@ -28,6 +28,22 @@
 					}
 				},
 				{
+					"id": "taEaJCCHkMqxmO4c6",
+					"name": "Attributes: Kwazaar",
+					"local_notes": "IQ+1.",
+					"base_points": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
 					"id": "tXVLo4WHGh_DAir5f",
 					"source": {
 						"library": "/gcs_user_library",
@@ -447,30 +463,6 @@
 					"levels": 1,
 					"calc": {
 						"points": 0
-					}
-				},
-				{
-					"id": "tlpZOCxE_hzbAL0xU",
-					"name": "Increased Intelligence",
-					"reference": "B15",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Mental"
-					],
-					"points_per_level": 20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "iq",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 20
 					}
 				},
 				{

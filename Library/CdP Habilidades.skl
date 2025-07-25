@@ -169,8 +169,8 @@
 			"name": "Airshipman",
 			"reference": "B185",
 			"tags": [
-				"Vehicle",
-				"Hv. Akp."
+				"Hv. Akp.",
+				"Vehicle"
 			],
 			"difficulty": "iq/e",
 			"defaults": [
@@ -903,10 +903,11 @@
 					"name": "Armoury",
 					"reference": "B178",
 					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
 						"Maintenance",
 						"Military",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Heavy Weapons",
 					"difficulty": "iq/a",
@@ -1024,11 +1025,11 @@
 					"name": "Armoury",
 					"reference": "B178",
 					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
 						"Maintenance",
 						"Military",
-						"Repair",
-						"Hv. Akp.",
-						"Lt. Akp."
+						"Repair"
 					],
 					"specialization": "Vehicular Armor",
 					"difficulty": "iq/a",
@@ -1087,9 +1088,9 @@
 					"reference": "B178",
 					"tags": [
 						"Combat",
+						"Hv. Akp.",
 						"Ranged Combat",
-						"Weapon",
-						"Hv. Akp."
+						"Weapon"
 					],
 					"specialization": "Bombs",
 					"difficulty": "iq/a",
@@ -1112,9 +1113,9 @@
 					"reference": "B178",
 					"tags": [
 						"Combat",
+						"Hv. Akp.",
 						"Ranged Combat",
-						"Weapon",
-						"Hv. Akp."
+						"Weapon"
 					],
 					"specialization": "Cannon",
 					"difficulty": "iq/a",
@@ -2748,8 +2749,8 @@
 					"reference": "B184",
 					"tags": [
 						"Design",
-						"Invention",
-						"Hv. Akp."
+						"Hv. Akp.",
+						"Invention"
 					],
 					"difficulty": "iq/h",
 					"prereqs": {
@@ -4315,10 +4316,10 @@
 			"name": "Electrician",
 			"reference": "B189",
 			"tags": [
-				"Maintenance",
-				"Repair",
 				"Hv. Akp.",
-				"Lt. Akp."
+				"Lt. Akp.",
+				"Maintenance",
+				"Repair"
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -4388,9 +4389,9 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
-						"Technical",
 						"Hv. Akp.",
-						"Lt. Akp."
+						"Lt. Akp.",
+						"Technical"
 					],
 					"specialization": "Communications",
 					"difficulty": "iq/a",
@@ -4429,11 +4430,11 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
 						"Military",
 						"Spy",
-						"Technical",
-						"Hv. Akp.",
-						"Lt. Akp."
+						"Technical"
 					],
 					"specialization": "Electronic Warfare",
 					"difficulty": "iq/a",
@@ -4634,8 +4635,8 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
-						"Technical",
-						"Hv. Akp."
+						"Hv. Akp.",
+						"Technical"
 					],
 					"specialization": "Sensors",
 					"difficulty": "iq/a",
@@ -4800,10 +4801,10 @@
 					"name": "Electronics Repair",
 					"reference": "B190",
 					"tags": [
-						"Maintenance",
-						"Repair",
 						"Hv. Akp.",
-						"Lt. Akp."
+						"Lt. Akp.",
+						"Maintenance",
+						"Repair"
 					],
 					"specialization": "Communications",
 					"difficulty": "iq/a",
@@ -4842,11 +4843,11 @@
 					"name": "Electronics Repair",
 					"reference": "B190",
 					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
 						"Maintenance",
 						"Military",
-						"Repair",
-						"Hv. Akp.",
-						"Lt. Akp."
+						"Repair"
 					],
 					"specialization": "Electronic Warfare",
 					"difficulty": "iq/a",
@@ -5045,9 +5046,9 @@
 					"name": "Electronics Repair",
 					"reference": "B190",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Sensors",
 					"difficulty": "iq/a",
@@ -5603,8 +5604,8 @@
 					"tags": [
 						"Design",
 						"Engineer",
-						"Invention",
-						"Hv. Akp."
+						"Hv. Akp.",
+						"Invention"
 					],
 					"specialization": "Heavy Arkopan",
 					"difficulty": "iq/h",
@@ -7645,9 +7646,9 @@
 					"reference": "B198",
 					"tags": [
 						"Combat",
+						"Hv. Akp.",
 						"Ranged Combat",
-						"Weapon",
-						"Hv. Akp."
+						"Weapon"
 					],
 					"specialization": "Cannon",
 					"difficulty": "dx/e",
@@ -7704,10 +7705,10 @@
 					"reference": "B198",
 					"tags": [
 						"Combat",
-						"Ranged Combat",
-						"Weapon",
 						"Hv. Akp.",
-						"Lt. Akp."
+						"Lt. Akp.",
+						"Ranged Combat",
+						"Weapon"
 					],
 					"specialization": "Machine Gun",
 					"difficulty": "dx/e",
@@ -8535,9 +8536,9 @@
 			"name": "Leadership",
 			"reference": "B204",
 			"tags": [
+				"Hv. Akp.",
 				"Military",
-				"Social",
-				"Hv. Akp."
+				"Social"
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -9318,9 +9319,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Contragravity",
 					"difficulty": "iq/a",
@@ -9358,9 +9359,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Diesel Engine",
 					"difficulty": "iq/a",
@@ -9476,9 +9477,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Gas Turbine",
 					"difficulty": "iq/a",
@@ -9516,9 +9517,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Gasoline Engine",
 					"difficulty": "iq/a",
@@ -9634,9 +9635,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Heavy Arkopan",
 					"difficulty": "iq/a",
@@ -9791,9 +9792,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Lt. Akp.",
 						"Maintenance",
-						"Repair",
-						"Lt. Akp."
+						"Repair"
 					],
 					"specialization": "Light Arkopan",
 					"difficulty": "iq/a",
@@ -10065,9 +10066,9 @@
 					"name": "Mechanic",
 					"reference": "B207",
 					"tags": [
+						"Hv. Akp.",
 						"Maintenance",
-						"Repair",
-						"Hv. Akp."
+						"Repair"
 					],
 					"specialization": "Steam Engine",
 					"difficulty": "iq/a",
@@ -10562,10 +10563,10 @@
 					"reference": "B211",
 					"tags": [
 						"Exploration",
+						"Hv. Akp.",
 						"Outdoor",
 						"Technical",
-						"Vehicle",
-						"Hv. Akp."
+						"Vehicle"
 					],
 					"specialization": "Air",
 					"difficulty": "iq/a",
@@ -11342,9 +11343,9 @@
 					"name": "Piloting",
 					"reference": "B214",
 					"tags": [
-						"Vehicle",
 						"Hv. Akp.",
-						"Lt. Akp."
+						"Lt. Akp.",
+						"Vehicle"
 					],
 					"specialization": "Contragravity",
 					"difficulty": "dx/a",
@@ -12539,8 +12540,8 @@
 					"name": "Shiphandling",
 					"reference": "B220",
 					"tags": [
-						"Vehicle",
-						"Hv. Akp."
+						"Hv. Akp.",
+						"Vehicle"
 					],
 					"specialization": "Airship",
 					"difficulty": "iq/h",
@@ -14299,9 +14300,9 @@
 			"name": "Tactics",
 			"reference": "B224,MA60",
 			"tags": [
+				"Hv. Akp.",
 				"Military",
-				"Police",
-				"Hv. Akp."
+				"Police"
 			],
 			"difficulty": "iq/h",
 			"defaults": [

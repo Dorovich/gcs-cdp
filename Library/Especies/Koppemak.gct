@@ -142,6 +142,32 @@
 					}
 				},
 				{
+					"id": "tg2gbMQVyNjTIDqUh",
+					"name": "Attributes: Koppemak",
+					"local_notes": "HP+2, Per-1, Init-0.5.",
+					"base_points": -11,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hp",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_speed",
+							"amount": -0.5
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "per",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -11
+					}
+				},
+				{
 					"id": "t_XjeVu3d7dW75R_k",
 					"name": "Cannot Float",
 					"reference": "B165",
@@ -186,7 +212,7 @@
 							"id": "mZ9aLYyXRvvpEW6gG",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Rare Attack Form@",
+							"local_notes": "@Rare Attack Form@",
 							"cost": -80,
 							"disabled": true
 						},
@@ -201,7 +227,7 @@
 							"id": "m_XlDlXU2wppsgCRG",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
+							"local_notes": "@Occasional Attack Form@",
 							"cost": -60,
 							"disabled": true
 						},
@@ -215,7 +241,7 @@
 						{
 							"id": "m5z16Bbp8bEseRPlz",
 							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
@@ -223,7 +249,7 @@
 							"id": "mhSkGhJTZJ7vMg-Qz",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Common Attack Form@",
+							"local_notes": "@Common Attack Form@",
 							"cost": -40,
 							"disabled": true
 						},
@@ -231,7 +257,7 @@
 							"id": "mktd54YyhZ1IlI2tf",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
 							"cost": -40,
 							"disabled": true
 						},
@@ -239,7 +265,7 @@
 							"id": "m6_HnLJsqA5K8qVZY",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "Front",
+							"local_notes": "Front",
 							"cost": -20,
 							"disabled": true
 						},
@@ -261,7 +287,7 @@
 							"id": "mjUlFyjlRCV7GcLO-",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
+							"local_notes": "@Very Common Attack Form@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -269,7 +295,7 @@
 							"id": "m1pok2AcInjFSwkYx",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Very Common@",
+							"local_notes": "@Very Common@",
 							"cost": -15,
 							"disabled": true
 						},
@@ -277,7 +303,7 @@
 							"id": "myW00z0CIhl9rZTNq",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Common@",
+							"local_notes": "@Common@",
 							"cost": -10,
 							"disabled": true
 						},
@@ -292,7 +318,7 @@
 							"id": "md2HqayA73CA_U-Zh",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Occasional@",
+							"local_notes": "@Occasional@",
 							"cost": -5,
 							"disabled": true
 						},
@@ -300,7 +326,7 @@
 							"id": "mWtD4eV0KdCffWmFH",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Rare@",
+							"local_notes": "@Rare@",
 							"cost": -1,
 							"cost_type": "points",
 							"disabled": true
@@ -316,7 +342,7 @@
 							"id": "mSgvmiEeqxHwoWf6M",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances any trait",
+							"local_notes": "Enhances any trait",
 							"cost": 100,
 							"disabled": true
 						},
@@ -324,7 +350,7 @@
 							"id": "mhMUIWyDcdx7sUA7X",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Healing only",
+							"local_notes": "Healing only",
 							"cost": 80,
 							"disabled": true
 						},
@@ -332,7 +358,7 @@
 							"id": "mkTA3jYgP28o50W_Y",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances @Trait@",
+							"local_notes": "Enhances @Trait@",
 							"cost": 80,
 							"disabled": true
 						},
@@ -401,65 +427,6 @@
 					}
 				},
 				{
-					"id": "tKh2-Lq0Zq_iDMsPo",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tLnETZfKq1bkyavDB"
-					},
-					"name": "Decreased Basic Speed",
-					"reference": "B17",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "basic_speed",
-							"amount": -0.25,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "tWGsPvtVh2nA9iiwy",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t8bkRwuJEx6Kf0zU_"
-					},
-					"name": "Decreased Perception",
-					"reference": "B16",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Mental",
-						"Physical"
-					],
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "per",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -5
-					}
-				},
-				{
 					"id": "t-cok5tWRu7rORb5D",
 					"name": "Electrical",
 					"reference": "B134",
@@ -474,55 +441,28 @@
 					}
 				},
 				{
-					"id": "t-fF-N7olfyC9LOpN",
-					"name": "Extra Hit Points",
-					"reference": "B16",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "m6XKlYNvvQLoBl2bo",
-							"name": "Size",
-							"cost": -10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mGY6jXCU-ttNqr_6P",
-							"name": "No Fine Manipulators",
-							"cost": -40,
-							"disabled": true
-						}
-					],
-					"points_per_level": 2,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "hp",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 4
-					}
-				},
-				{
-					"id": "Txs9lrvM54u0PRnwx",
+					"id": "TrEzHcSqQU5YimTPJ",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "T0Z2WDrv2v0XfS82s"
+					},
 					"name": "Machine",
 					"reference": "B263",
 					"container_type": "meta_trait",
 					"children": [
 						{
-							"id": "tYnoqeFGUsHUpZy7E",
-							"name": "Eight-hour energy reserve, Refuel 3 times per day",
-							"reference": "B263",
+							"id": "tsvbn0_0Ys78xaN3o",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t_Y-ThxxuHTwdO-qp"
+							},
+							"name": "Fuel Supply",
+							"reference": "TT2:12",
 							"tags": [
+								"Exotic",
+								"Feature",
 								"Physical"
 							],
 							"calc": {
@@ -530,7 +470,32 @@
 							}
 						},
 						{
-							"id": "tIhjW4d1MvFcSQ_J-",
+							"id": "tm550HtrKNnPrf364",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
+								"id": "tbhBtGVVGekZQK7Oi"
+							},
+							"name": "Immunity to Metabolic Hazards",
+							"reference": "B81",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"vtt_notes": "This is just Resistant (Metabolic Hazards; Immunity)",
+							"base_points": 30,
+							"round_down": true,
+							"calc": {
+								"points": 30
+							}
+						},
+						{
+							"id": "tJcq55ZKYEye-sW4A",
+							"source": {
+								"library": "/gcs-cdp",
+								"path": "CdP Rasgos.adq",
+								"id": "tB-Cm3DdZeSJKEFfD"
+							},
 							"name": "Injury Tolerance",
 							"reference": "B60",
 							"tags": [
@@ -540,81 +505,81 @@
 							],
 							"modifiers": [
 								{
-									"id": "mFZyHDaZ8UBB2hZCT",
+									"id": "m5kj5vPqbloseRdXr",
 									"name": "Diffuse",
 									"reference": "B60",
-									"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+									"local_notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
 									"cost": 100,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "myMwwnRLUMZdh6NMk",
+									"id": "m5MUH-jRpFGOc8gjR",
 									"name": "Homogenous",
 									"reference": "B60",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+									"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
 									"cost": 40,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "m2gYVQxkYUc3kpmsk",
+									"id": "mxkJYbzhNGrKvfAyn",
 									"name": "No Blood",
 									"reference": "B61",
-									"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+									"local_notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
 									"cost": 5,
 									"cost_type": "points"
 								},
 								{
-									"id": "mzpEUFgEMIVW10wZH",
+									"id": "mc1v0cDAJ_vRbHIGG",
 									"name": "No Brain",
 									"reference": "B61",
-									"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+									"local_notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
 									"cost": 5,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "mDKg63oocbiHlIxoJ",
+									"id": "m0tYgZS1ewhZXg4TH",
 									"name": "No Eyes",
 									"reference": "B61",
-									"notes": "Eyes may not be targeted. Immune to blinding attacks",
+									"local_notes": "Eyes may not be targeted. Immune to blinding attacks",
 									"cost": 5,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "moiL1KerZglnHJYM4",
+									"id": "mh3Zu9hAb9mE0jKwZ",
 									"name": "No Head",
 									"reference": "B61",
-									"notes": "Skull, Brain and Face cannot be targeted",
+									"local_notes": "Skull, Brain and Face cannot be targeted",
 									"cost": 7,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "mJwrXOOOZa7QbqkMd",
+									"id": "m0KhYSN662VwRH33t",
 									"name": "No Neck",
 									"reference": "B61",
-									"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+									"local_notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
 									"cost": 5,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "mpEib4WF6oapXS2yz",
+									"id": "mXhyXXyvxSSURD1Ed",
 									"name": "No Vitals",
 									"reference": "B61",
-									"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+									"local_notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
 									"cost": 5,
 									"cost_type": "points",
 									"disabled": true
 								},
 								{
-									"id": "m_ZP3d-6gApiJmUYS",
+									"id": "m0dQqwPICTsiVy_49",
 									"name": "Unliving",
 									"reference": "B61",
-									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+									"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
 									"cost": 20,
 									"cost_type": "points"
 								}
@@ -624,10 +589,75 @@
 							}
 						},
 						{
-							"id": "tWzP51YGSaifO6mnV",
-							"name": "No fatigue points, Don't spend fatigue points",
-							"reference": "B263",
+							"id": "tAv2sBkzCK0mUn3BL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t2RlTCKSn0W2EHfsX"
+							},
+							"name": "Not Pressurized",
+							"reference": "TT2:12",
 							"tags": [
+								"Exotic",
+								"Feature",
+								"Physical"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": false,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "Machine"
+												}
+											},
+											{
+												"type": "trait_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "Injury Tolerance"
+												},
+												"notes": {
+													"compare": "contains",
+													"qualifier": "Unliving"
+												}
+											}
+										]
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Immunity to Metabolic Hazards"
+										}
+									}
+								]
+							},
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tMi6rDMOYKAiRK-oP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "tWvXsARO0dmH9NHbh"
+							},
+							"name": "Not Subject to Aging",
+							"reference": "TT2:12",
+							"tags": [
+								"Exotic",
+								"Feature",
 								"Physical"
 							],
 							"calc": {
@@ -635,76 +665,30 @@
 							}
 						},
 						{
-							"id": "t2JmqKR1ypUe2rmdY",
-							"name": "Resistant",
-							"reference": "B81",
+							"id": "tcRRsc_GRFa1f76Ex",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "tQKODUZQelKt0ZzkI"
+							},
+							"name": "Not Subject to Fatigue",
+							"reference": "TT2:12",
 							"tags": [
-								"Advantage",
+								"Exotic",
+								"Feature",
 								"Physical"
 							],
-							"modifiers": [
-								{
-									"id": "mrXXVTkhvp4YTWJMM",
-									"name": "Metabolic Hazards",
-									"reference": "B80",
-									"cost": 30,
-									"cost_type": "points"
-								},
-								{
-									"id": "mzKj0rzT-OYdOEHlG",
-									"name": "@Common: Poison, Sickness, etc.@",
-									"reference": "B81",
-									"cost": 15,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mBsQR80F-RtMaJTvZ",
-									"name": "@Occasional: Disease, Ingested Poison, etc.@",
-									"reference": "B81",
-									"cost": 10,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "m0Or7_FLRlunNYQpE",
-									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
-									"reference": "B81",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "m8sOnY48Az1sGrNUO",
-									"name": "Immunity",
-									"reference": "B81",
-									"cost": 1,
-									"cost_type": "multiplier"
-								},
-								{
-									"id": "m3NRhL9eGdKOaaPNG",
-									"name": "+8 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.5,
-									"cost_type": "multiplier",
-									"disabled": true
-								},
-								{
-									"id": "m1ahn-78OhbPxzNZe",
-									"name": "+3 to all HT rolls to resist",
-									"reference": "B81",
-									"cost": 0.33,
-									"cost_type": "multiplier",
-									"disabled": true
-								}
-							],
-							"round_down": true,
 							"calc": {
-								"points": 30
+								"points": 0
 							}
 						},
 						{
-							"id": "ts6KsSD2IUJnRHXdu",
+							"id": "tD_b3QwKt_iKAw6RJ",
+							"source": {
+								"library": "/gcs-cdp",
+								"path": "CdP Rasgos.adq",
+								"id": "tY8-plkQfgopmAMUi"
+							},
 							"name": "Unhealing (Total)",
 							"reference": "B160",
 							"tags": [
@@ -716,17 +700,6 @@
 							"calc": {
 								"points": -30
 							}
-						},
-						{
-							"id": "tKFnuEvAzqUFtqBsC",
-							"name": "Wears out instead of aging",
-							"reference": "B263",
-							"tags": [
-								"Physical"
-							],
-							"calc": {
-								"points": 0
-							}
 						}
 					],
 					"calc": {
@@ -734,19 +707,21 @@
 					}
 				},
 				{
-					"id": "th-N1kxRSHDOw1Anq",
+					"id": "tIC_44oWAP0IEuGq-",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
 						"id": "tyk4elDSJmb7D6itb"
 					},
-					"name": "No Ribcage DR",
+					"name": "No Natural DR",
+					"reference": "TT2:29",
 					"tags": [
 						"Disadvantage",
 						"Exotic",
 						"Physical"
 					],
-					"base_points": -1,
+					"vtt_notes": "Based on No Skull DR",
+					"base_points": -3,
 					"features": [
 						{
 							"type": "dr_bonus",
@@ -754,10 +729,17 @@
 								"vitals"
 							],
 							"amount": -1
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": -2
 						}
 					],
 					"calc": {
-						"points": -1
+						"points": -3
 					}
 				},
 				{
@@ -776,34 +758,6 @@
 					"base_points": -5,
 					"calc": {
 						"points": -5
-					}
-				},
-				{
-					"id": "tPMeaGMA1W938myqt",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Skull DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"base_points": -2,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"skull"
-							],
-							"amount": -2
-						}
-					],
-					"calc": {
-						"points": -2
 					}
 				},
 				{
@@ -855,7 +809,7 @@
 					"id": "tkkQ7zqBAGqdiqFM2",
 					"name": "Reduced Consumption",
 					"reference": "B80",
-					"notes": "Refuel once per day",
+					"local_notes": "Refuel once per day",
 					"tags": [
 						"Advantage",
 						"Physical"

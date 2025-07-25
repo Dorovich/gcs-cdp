@@ -1392,7 +1392,7 @@
 					}
 				},
 				{
-					"id": "t2R-qtg8m6nn8LXAl",
+					"id": "t3oKnCTsgFaWe-tLd",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -1400,7 +1400,7 @@
 					},
 					"name": "Social Stigma (ITP Criminal)",
 					"reference": "B155",
-					"local_notes": "Assigned to Niwel's \"Interim Temperance Program\"",
+					"local_notes": "Assigned to NCC's (Niwel capital city) \"Interim Temperance Program\"",
 					"tags": [
 						"Disadvantage",
 						"Social"
@@ -2054,13 +2054,44 @@
 					}
 				},
 				{
-					"id": "TFlaqL26tfm6CtxB2",
+					"id": "TWXByknlij3bxojpu",
 					"name": "Korkon",
 					"ancestry": "Human",
 					"container_type": "ancestry",
 					"children": [
 						{
-							"id": "tUcjviA6N_ns65dfh",
+							"id": "ttXr1Tgn18A9-KkfI",
+							"name": "Attributes: Korkon",
+							"local_notes": "ST+1, IQ-1, HT+1, Will+2.",
+							"base_points": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": -1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 2
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "t6HjoYfSWPijjU0IT",
 							"name": "Crushing Striker (Horns)",
 							"reference": "B88,MA47",
 							"tags": [
@@ -2070,14 +2101,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mWtwtKYWldI6nnnLj",
+									"id": "mACtb6YIJ4plif6ST",
 									"name": "Cannot Parry",
 									"reference": "B88",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mM6N5Olk46rmy5pUp",
+									"id": "mG9g_wpJoxImpoqtT",
 									"name": "Clumsy",
 									"reference": "B88",
 									"cost": -20,
@@ -2096,13 +2127,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mZWjRE890J0c1w-Zi",
+									"id": "mib_kuxtV-gt98cjL",
 									"name": "Limited Arc (Front)",
 									"reference": "B88",
 									"cost": -40
 								},
 								{
-									"id": "mrT0r5qUOQ12LqP0I",
+									"id": "meN8QejheltKDFPAD",
 									"name": "Weak",
 									"cost": -50,
 									"features": [
@@ -2125,7 +2156,7 @@
 							"base_points": 5,
 							"weapons": [
 								{
-									"id": "wf99Hg8uxlRbe1aHf",
+									"id": "wLT2l3Lwsa8yYNh6c",
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2155,7 +2186,7 @@
 							}
 						},
 						{
-							"id": "tjRkA2km5oEkqbWG7",
+							"id": "tbRyYM-r2ceXRFCGG",
 							"name": "Damage Resistance",
 							"reference": "B47,P45,MA43,PSI14",
 							"tags": [
@@ -2165,14 +2196,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mjXDw6ruPRCIX6dvU",
+									"id": "mQURL-dDEHUFrzNe6",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost": 20,
 									"disabled": true
 								},
 								{
-									"id": "mke2GpXJ51NSxrDEY",
+									"id": "mRnzsSBwGznR9DwCZ",
 									"name": "Hardened",
 									"reference": "B47",
 									"cost": 20,
@@ -2180,7 +2211,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mSrPimrrlg9h1Gere",
+									"id": "mSLsDJ_HATNDrLpml",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Enhances @Trait@",
@@ -2188,7 +2219,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mFQqPGnrwtqYNILZY",
+									"id": "mqQPiZwuFyk_e-u_4",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Healing only",
@@ -2196,7 +2227,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mBuvNH9SZfkC10rRg",
+									"id": "m6EUEoNVAn98OyCZ2",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Enhances any trait",
@@ -2204,14 +2235,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mnxHdakPIt1M9Od24",
+									"id": "mGMzudFNpHjsRysMM",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost": 100,
 									"disabled": true
 								},
 								{
-									"id": "mgnEXoBHcfT00RfnW",
+									"id": "m3PezPDDG7n72NG9m",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Rare@",
@@ -2220,7 +2251,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mLmKcF2A-M-juewgl",
+									"id": "mxFzNwe9OIvUwNptz",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Occasional@",
@@ -2228,7 +2259,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m83BY0-mTuQluO3SU",
+									"id": "mo7D1Fn62WZGgbu0E",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Common@",
@@ -2236,7 +2267,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mvf0a7e24JW8Z-GVC",
+									"id": "mrXecYaXroMhX8h-Q",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Very Common@",
@@ -2244,7 +2275,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mk-i1PEMNwxeBWsRB",
+									"id": "mV5gngvEEyQFkmjJ6",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "Front",
@@ -2252,14 +2283,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mO0FioUvvqK3asDLc",
+									"id": "mZ8iz9bW_IfkgKDXP",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mkm8v2LvYapAKndRO",
+									"id": "mXp8kCfttVh8ti_Cb",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Very Common Attack Form@",
@@ -2267,21 +2298,21 @@
 									"disabled": true
 								},
 								{
-									"id": "m_IVLzGABbBqeE9tG",
+									"id": "mFe777oyN8YKS6z2M",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mtCwB5ip21YENk6j9",
+									"id": "m4uZW8uvJ6uY4zJY_",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mjJy_8FhNwpiw4coB",
+									"id": "mlEvSfKtQ1Q0-HNpB",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -2289,7 +2320,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mrL_CwfgdFASH78qI",
+									"id": "m47Lv0UZvl3PF3f2i",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Common Attack Form@",
@@ -2297,13 +2328,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mPhCwRvvE018wco7z",
+									"id": "mPky_K7kZVk4qOaTr",
 									"name": "Tough Skin",
 									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 									"cost": -40
 								},
 								{
-									"id": "mkidgS47jPRNYjnqS",
+									"id": "mmG_zzzlVTRR2Dawr",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Occasional Attack Form@",
@@ -2311,14 +2342,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mTfGI27U7d1kneyH_",
+									"id": "mamzpXWs8UN0hNWgH",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost": -80,
 									"disabled": true
 								},
 								{
-									"id": "m_HtwRPo_owW7PWNr",
+									"id": "mVgafkSTCNEN-4rDA",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Rare Attack Form@",
@@ -2326,27 +2357,27 @@
 									"disabled": true
 								},
 								{
-									"id": "m2aFDuVh5sUAzYMzE",
+									"id": "mMP1fz5GjHu6WC6VD",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost": 10,
 									"disabled": true
 								},
 								{
-									"id": "mYFbDFQRi-zi11gNP",
+									"id": "mwPuH1zXd0rvFqpZc",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost": 50,
 									"disabled": true
 								},
 								{
-									"id": "mJSqHMHLLKQdJqR22",
+									"id": "m7S247TIZfVkdZUrW",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mfNEfOH45DXHO1geY",
+									"id": "mi1guYcuQMDUb55h1",
 									"name": "Partial (Skull only)",
 									"reference": "B47",
 									"cost": -70
@@ -2378,36 +2409,7 @@
 							}
 						},
 						{
-							"id": "tOqEI1ddYyeluCXQ0",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t50ZzyORV0rTiYwnb"
-							},
-							"name": "Decreased Intelligence",
-							"reference": "B15",
-							"tags": [
-								"Attribute",
-								"Disadvantage",
-								"Mental"
-							],
-							"points_per_level": -20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "iq",
-									"amount": -1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": -20
-							}
-						},
-						{
-							"id": "tFhlwjJ1PUginAQXg",
+							"id": "thm0PCOFygF6VcCzH",
 							"name": "Fur",
 							"reference": "B101",
 							"tags": [
@@ -2421,7 +2423,7 @@
 							}
 						},
 						{
-							"id": "tRD8H1XR0WIRoCWJm",
+							"id": "t33yf0JizWCqNrhEC",
 							"name": "Hooves",
 							"reference": "B42",
 							"tags": [
@@ -2431,7 +2433,7 @@
 							"base_points": 3,
 							"weapons": [
 								{
-									"id": "wSIlGLyHmt8wFbeTx",
+									"id": "wTY9FO73SUkwVXiHG",
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2476,103 +2478,7 @@
 							}
 						},
 						{
-							"id": "t1pHNmFEY8VTJg-JC",
-							"name": "Increased Health",
-							"reference": "B14",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ht",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
-							"id": "tp_5155NuoZD4e5bK",
-							"name": "Increased Strength",
-							"reference": "B14",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "mvGFogZlY8GUOZrUY",
-									"name": "No Fine Manipulators",
-									"reference": "B15",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "mrMhY-D8hW-uZgYQj",
-									"name": "Size",
-									"reference": "B15",
-									"cost": -10,
-									"levels": 1,
-									"disabled": true
-								},
-								{
-									"id": "mv47K00V6AQpKTgXG",
-									"name": "Super-Effort",
-									"reference": "SU24",
-									"cost": 300,
-									"disabled": true
-								}
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "st",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
-							"id": "tnXuARbMWJmITwXjF",
-							"name": "Increased Will",
-							"reference": "B16",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Mental"
-							],
-							"points_per_level": 5,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "will",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 10
-							}
-						},
-						{
-							"id": "t446kbrgKYZ5riGmB",
+							"id": "tNeGQMjKFdtbus8hz",
 							"name": "Stubbornness",
 							"reference": "B157",
 							"tags": [
@@ -2592,7 +2498,7 @@
 							}
 						},
 						{
-							"id": "tZHJQe35-XEBAPdDp",
+							"id": "tF2cfUkaaVZcM-Ggh",
 							"name": "Temperature Tolerance",
 							"reference": "B93",
 							"tags": [
@@ -2607,7 +2513,7 @@
 							}
 						},
 						{
-							"id": "tkxFFjO7m1JcYhYnP",
+							"id": "tYvnAKF8mQNI1QDmA",
 							"name": "Universal Digestion",
 							"reference": "B95,P86",
 							"tags": [
@@ -2616,7 +2522,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mbnPC54GeSCtQVtXA",
+									"id": "mnyqyVGE_lJEY5-2t",
 									"name": "Matter Eater",
 									"reference": "P86",
 									"cost": 300,
@@ -4241,7 +4147,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-07-25T18:33:20+02:00",
+	"modified_date": "2025-07-25T21:30:37+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

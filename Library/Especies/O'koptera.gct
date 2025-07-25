@@ -9,26 +9,24 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "t-AoWfUPC3zE1viBc",
-					"source": {
-						"library": "/gcs-cdp",
-						"path": "CdP Rasgos.adq",
-						"id": "tZRPo1XCgs4WPVW6U"
-					},
-					"name": "Bad Vision",
-					"points_per_level": -2,
+					"id": "tv3ka4TaVZDKKw_8o",
+					"name": "Attributes: O'koptera",
+					"local_notes": "HP-1, Vision-2.",
+					"base_points": -6,
 					"features": [
 						{
 							"type": "attribute_bonus",
+							"attribute": "hp",
+							"amount": -1
+						},
+						{
+							"type": "attribute_bonus",
 							"attribute": "vision",
-							"amount": -1,
-							"per_level": true
+							"amount": -2
 						}
 					],
-					"can_level": true,
-					"levels": 2,
 					"calc": {
-						"points": -4
+						"points": -6
 					}
 				},
 				{
@@ -335,14 +333,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "m3f5Qf1XRr4OOfVvi",
+							"id": "maJJeGLZJ0JPnbYO_",
 							"name": "Extra-Flexible",
 							"reference": "B53",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "m_XrId5K7K5KGJp6i",
+							"id": "mrugCp1T1OIO0uGKE",
 							"name": "Long",
 							"reference": "B53",
 							"cost": 100,
@@ -350,28 +348,28 @@
 							"disabled": true
 						},
 						{
-							"id": "m82q8g0pHb9l0g8HO",
+							"id": "mwuiWxHModefBfos4",
 							"name": "Foot Manipulators",
 							"reference": "B53",
 							"cost": -30,
 							"disabled": true
 						},
 						{
-							"id": "mNDLVdZc1IzsLtb0f",
+							"id": "mMPcG-u32qwpQe2Kk",
 							"name": "No Physical Attack",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mEFZ2g-hdBeE7AGtt",
+							"id": "mGNv319cfXHU3XEOT",
 							"name": "Short",
 							"reference": "B53",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mKdyXB5iGOvglszw5",
+							"id": "mgB38q-PqHt73JsW4",
 							"name": "Weak",
 							"reference": "B53",
 							"local_notes": "Half body ST",
@@ -379,7 +377,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m7yHoOIEiwU9M6OET",
+							"id": "mAhj1oH4drI6FuO5e",
 							"name": "Weak",
 							"reference": "B53",
 							"local_notes": "Quarter body ST",
@@ -387,54 +385,25 @@
 							"disabled": true
 						},
 						{
-							"id": "mx638nAlfYLO3HvKW",
+							"id": "mIAnXepstMDg3W46V",
 							"name": "Weapon Mount",
 							"reference": "B53",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "maz5GlNFnsJ8F5Xgk",
+							"id": "m6MkuzivvqsdMptaB",
 							"name": "No Grasping Hand",
 							"reference": "MATG28",
 							"cost": -40,
 							"disabled": true
 						}
 					],
-					"points_per_level": 10,
+					"points_per_level": 7,
 					"can_level": true,
 					"levels": 2,
 					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "te3giTpYkwgn9ypiA",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tpVpKxJ4O8NxUBBDE"
-					},
-					"name": "Fewer Hit Points",
-					"reference": "B16",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -2,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "hp",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -2
+						"points": 14
 					}
 				},
 				{
@@ -453,19 +422,21 @@
 					}
 				},
 				{
-					"id": "tIRkQO5W7NazkUKxG",
+					"id": "taYgpI45mPwxaTGv7",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
 						"id": "tyk4elDSJmb7D6itb"
 					},
-					"name": "No Ribcage DR",
+					"name": "No Natural DR",
+					"reference": "TT2:29",
 					"tags": [
 						"Disadvantage",
 						"Exotic",
 						"Physical"
 					],
-					"base_points": -1,
+					"vtt_notes": "Based on No Skull DR",
+					"base_points": -3,
 					"features": [
 						{
 							"type": "dr_bonus",
@@ -473,28 +444,7 @@
 								"vitals"
 							],
 							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -1
-					}
-				},
-				{
-					"id": "tSiU6PzDUdfeGwxWS",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Skull DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"base_points": -2,
-					"features": [
+						},
 						{
 							"type": "dr_bonus",
 							"locations": [
@@ -504,7 +454,7 @@
 						}
 					],
 					"calc": {
-						"points": -2
+						"points": -3
 					}
 				},
 				{
@@ -562,15 +512,14 @@
 					}
 				},
 				{
-					"id": "tlLNCscVVkN097wSz",
+					"id": "tq-oyFMFeoiMhbuGg",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tlCuUK0YaDVALIxPZ"
+						"id": "t7U0VbIzs6SqefwLr"
 					},
-					"name": "Social Stigma (Cannibal)",
-					"reference": "B156",
-					"local_notes": "Except for koppemak and other o'koptera",
+					"name": "Social Stigma (Family-bound)",
+					"reference": "B155",
 					"tags": [
 						"Disadvantage",
 						"Social"
@@ -579,8 +528,8 @@
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "from others except koppemak and o'koptera",
-							"amount": -1
+							"situation": "from o'koptera who belong to rival families or clans.",
+							"amount": -2
 						}
 					],
 					"calc": {
@@ -598,21 +547,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mNPGHQ8OPuRnisdWF",
+							"id": "mZ4KDGzQ8i14FxRc6",
 							"name": "Universal",
 							"reference": "B96",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "madepg3Mi5Z7BL0wI",
+							"id": "m4JNbxQjU49oUDtKN",
 							"name": "Sense of Perception",
 							"reference": "P86",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "m7LOC9Vj8ZfPw0FgZ",
+							"id": "mfzOCtcfiTDADhH6D",
 							"name": "Targeting",
 							"reference": "P86",
 							"cost": 20,
@@ -712,10 +661,28 @@
 					"calc": {
 						"points": -15
 					}
+				},
+				{
+					"id": "tLbNW0-ItP8kZCvJv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t8I0xw1Lj1_222aEN"
+					},
+					"name": "Workaholic",
+					"reference": "B162",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
 				}
 			],
 			"calc": {
-				"points": 35
+				"points": 24
 			}
 		}
 	]

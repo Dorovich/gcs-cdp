@@ -9,6 +9,37 @@
 			"container_type": "ancestry",
 			"children": [
 				{
+					"id": "tHhy5rIyVEHbboxPm",
+					"name": "Attributes: Korkon",
+					"local_notes": "ST+1, IQ-1, HT+1, Will+2.",
+					"base_points": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": -1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 2
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "tV-jnnij1EUEiaKjB",
 					"name": "Crushing Striker (Horns)",
 					"reference": "B88,MA47",
@@ -130,7 +161,7 @@
 							"id": "mzvBzpIfClrHZz__L",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances @Trait@",
+							"local_notes": "Enhances @Trait@",
 							"cost": 80,
 							"disabled": true
 						},
@@ -138,7 +169,7 @@
 							"id": "mhgdvthbKa3gggY-d",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Healing only",
+							"local_notes": "Healing only",
 							"cost": 80,
 							"disabled": true
 						},
@@ -146,7 +177,7 @@
 							"id": "mMGnttc7FCePIJLNo",
 							"name": "Absorption",
 							"reference": "B46",
-							"notes": "Enhances any trait",
+							"local_notes": "Enhances any trait",
 							"cost": 100,
 							"disabled": true
 						},
@@ -161,7 +192,7 @@
 							"id": "mt1qgMm9Lu6m3Y1UR",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Rare@",
+							"local_notes": "@Rare@",
 							"cost": -1,
 							"cost_type": "points",
 							"disabled": true
@@ -170,7 +201,7 @@
 							"id": "muxY7X7ahhJQOOeby",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Occasional@",
+							"local_notes": "@Occasional@",
 							"cost": -5,
 							"disabled": true
 						},
@@ -178,7 +209,7 @@
 							"id": "m7AFn0PdsPF3ij56g",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Common@",
+							"local_notes": "@Common@",
 							"cost": -10,
 							"disabled": true
 						},
@@ -186,7 +217,7 @@
 							"id": "m15urW65YnJIhU5HH",
 							"name": "Bane",
 							"reference": "H14",
-							"notes": "@Very Common@",
+							"local_notes": "@Very Common@",
 							"cost": -15,
 							"disabled": true
 						},
@@ -194,7 +225,7 @@
 							"id": "mhkn_POhm0I2CT7wH",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "Front",
+							"local_notes": "Front",
 							"cost": -20,
 							"disabled": true
 						},
@@ -209,7 +240,7 @@
 							"id": "m_saeY2MlfZw76xSu",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Very Common Attack Form@",
+							"local_notes": "@Very Common Attack Form@",
 							"cost": -20,
 							"disabled": true
 						},
@@ -231,7 +262,7 @@
 							"id": "mJ4skJ48ncNw-L8XO",
 							"name": "Directional",
 							"reference": "B47",
-							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
 							"cost": -40,
 							"disabled": true
 						},
@@ -239,21 +270,21 @@
 							"id": "mnVxBEfpxWr_HCs6P",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Common Attack Form@",
+							"local_notes": "@Common Attack Form@",
 							"cost": -40,
 							"disabled": true
 						},
 						{
 							"id": "mXprlYOGcW8YsXE1f",
 							"name": "Tough Skin",
-							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40
 						},
 						{
 							"id": "mNBupcIvNIoCpE3K2",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Occasional Attack Form@",
+							"local_notes": "@Occasional Attack Form@",
 							"cost": -60,
 							"disabled": true
 						},
@@ -268,7 +299,7 @@
 							"id": "mlDWNTZ14vM1tyhaY",
 							"name": "Limited",
 							"reference": "B46",
-							"notes": "@Rare Attack Form@",
+							"local_notes": "@Rare Attack Form@",
 							"cost": -80,
 							"disabled": true
 						},
@@ -322,35 +353,6 @@
 					"levels": 1,
 					"calc": {
 						"points": 1
-					}
-				},
-				{
-					"id": "tk9eql_vc2LgEzu7y",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t50ZzyORV0rTiYwnb"
-					},
-					"name": "Decreased Intelligence",
-					"reference": "B15",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Mental"
-					],
-					"points_per_level": -20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "iq",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -20
 					}
 				},
 				{
@@ -419,102 +421,6 @@
 					],
 					"calc": {
 						"points": 3
-					}
-				},
-				{
-					"id": "ttuH2P1RPDFD9Ebfd",
-					"name": "Increased Health",
-					"reference": "B14",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "ht",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "t-ipOVRkInYHd_PT4",
-					"name": "Increased Strength",
-					"reference": "B14",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "m16-9OwlQ_5JmXQs5",
-							"name": "No Fine Manipulators",
-							"reference": "B15",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "m5AvFpc_E7YAGtNgy",
-							"name": "Size",
-							"reference": "B15",
-							"cost": -10,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mmL9Gch1zjRwFr_cq",
-							"name": "Super-Effort",
-							"reference": "SU24",
-							"cost": 300,
-							"disabled": true
-						}
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "st",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "tJKWwDgWwXa_XotQt",
-					"name": "Increased Will",
-					"reference": "B16",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Mental"
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "will",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 10
 					}
 				},
 				{

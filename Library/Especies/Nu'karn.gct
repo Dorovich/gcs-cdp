@@ -10,6 +10,26 @@
 			"container_type": "ancestry",
 			"children": [
 				{
+					"id": "t7CazBicpWxAo6F9a",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
+						"id": "tbhBtGVVGekZQK7Oi"
+					},
+					"name": "Immunity to Diseases",
+					"reference": "B81",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"vtt_notes": "This is just Resistant (Diseases; Immunity)",
+					"base_points": 10,
+					"round_down": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "tjdFFtWDynCQUGaC_",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -110,80 +130,6 @@
 					}
 				},
 				{
-					"id": "thtayD-SGLOS1NDDK",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tJTfFdHM7YI5IZR7I"
-					},
-					"name": "Resistant",
-					"reference": "B81,P71,MA47",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mH0POp49uqstEjSHj",
-							"name": "@Very Common: Metabolic Hazards, etc.@",
-							"reference": "B80",
-							"cost": 30,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mF7ViFpyqBVwdX8lw",
-							"name": "@Common: Poison, Sickness, etc.@",
-							"reference": "B81",
-							"cost": 15,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mcA8SfyeECJDcOfAw",
-							"name": "Diseases",
-							"reference": "B81",
-							"cost": 10,
-							"cost_type": "points"
-						},
-						{
-							"id": "m7LJXqVoFnokQNHqD",
-							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
-							"reference": "B81",
-							"cost": 5,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mmXzXLR0rzCxGh6U5",
-							"name": "Immunity",
-							"reference": "B81",
-							"cost": 1,
-							"cost_type": "multiplier"
-						},
-						{
-							"id": "m81hm1eFryDfSB2PK",
-							"name": "+8 to all HT rolls to resist",
-							"reference": "B81",
-							"cost": 0.5,
-							"cost_type": "multiplier",
-							"disabled": true
-						},
-						{
-							"id": "mjlTbj9AXH8YHL1eD",
-							"name": "+3 to all HT rolls to resist",
-							"reference": "B81",
-							"cost": 0.33,
-							"cost_type": "multiplier",
-							"disabled": true
-						}
-					],
-					"round_down": true,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
 					"id": "t263Fy7RrcfouiWtp",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -241,20 +187,21 @@
 					}
 				},
 				{
-					"id": "t4S0_G-4myDPUj0U3",
+					"id": "tzUj57zm9hZ2RLXrS",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tQY4rjF8t2sAPM9xv"
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tSKajHun2ScWfmrCr"
 					},
-					"name": "Sterile",
-					"reference": "TT2:12",
+					"name": "Sexless",
+					"reference": "B165",
 					"tags": [
-						"Feature",
-						"Physical"
+						"Physical",
+						"Quirk"
 					],
+					"base_points": -1,
 					"calc": {
-						"points": 0
+						"points": -1
 					}
 				},
 				{
@@ -388,7 +335,7 @@
 					}
 				},
 				{
-					"id": "tfmnwfpGffH__-dva",
+					"id": "tCruFI2-I7tQHX9gr",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
@@ -403,7 +350,7 @@
 					"userdesc": "Unusual background",
 					"modifiers": [
 						{
-							"id": "m7BU_YACoYyWvnJkq",
+							"id": "mLWjNQHD1otV7tk79",
 							"name": "Unusual Background",
 							"cost": 5,
 							"cost_type": "points",
@@ -414,7 +361,7 @@
 					"features": [
 						{
 							"type": "conditional_modifier",
-							"situation": "to resist stress caused by a change of Tempo",
+							"situation": "to Body Sense skill when in a K-shift.",
 							"amount": 1
 						}
 					],
@@ -510,7 +457,7 @@
 				}
 			],
 			"calc": {
-				"points": 15
+				"points": 14
 			}
 		}
 	]
