@@ -169,7 +169,8 @@
 			"name": "Airshipman",
 			"reference": "B185",
 			"tags": [
-				"Vehicle"
+				"Vehicle",
+				"Hv. Akp."
 			],
 			"difficulty": "iq/e",
 			"defaults": [
@@ -478,29 +479,325 @@
 			"points": 1
 		},
 		{
-			"id": "sGf4d1_oiKDNJTkLV",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sUyiTwddn_HuinJ4K"
-			},
+			"id": "SU1fiEmyRfCakezIq",
 			"name": "Area Knowledge",
-			"reference": "B176",
-			"tags": [
-				"Everyman",
-				"Knowledge"
-			],
-			"specialization": "@Area@",
-			"difficulty": "iq/e",
-			"defaults": [
+			"children": [
 				{
-					"type": "skill",
-					"name": "Geography",
-					"specialization": "@Specialty@",
-					"modifier": -3
+					"id": "sGf4d1_oiKDNJTkLV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Area@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sS0ML-Hh6N_844P3K",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Al-Shreggel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sZsQZXV5pcOTll6l9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Boxton",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJahiuSIUReM6FDJl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Camdel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2SobWsfqf8aGB2YH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "El'neun",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "spXySgoJ-zra2s3fo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "El'parpen",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGVW2pridiQtTNnVM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Erlit",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNXncSY6-0-w-rE-V",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Niwel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s4fY_MkIxIAr_q5ee",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Nürenfort",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "seUH-mfjt9EGH9Uxi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Serlit",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJX3FucJSytU53IHn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "@Area@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
 				}
-			],
-			"points": 1
+			]
 		},
 		{
 			"id": "SuZ71vMPyrL7099vv",
@@ -608,7 +905,8 @@
 					"tags": [
 						"Maintenance",
 						"Military",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Heavy Weapons",
 					"difficulty": "iq/a",
@@ -728,7 +1026,9 @@
 					"tags": [
 						"Maintenance",
 						"Military",
-						"Repair"
+						"Repair",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Vehicular Armor",
 					"difficulty": "iq/a",
@@ -788,7 +1088,8 @@
 					"tags": [
 						"Combat",
 						"Ranged Combat",
-						"Weapon"
+						"Weapon",
+						"Hv. Akp."
 					],
 					"specialization": "Bombs",
 					"difficulty": "iq/a",
@@ -812,7 +1113,8 @@
 					"tags": [
 						"Combat",
 						"Ranged Combat",
-						"Weapon"
+						"Weapon",
+						"Hv. Akp."
 					],
 					"specialization": "Cannon",
 					"difficulty": "iq/a",
@@ -2446,7 +2748,8 @@
 					"reference": "B184",
 					"tags": [
 						"Design",
-						"Invention"
+						"Invention",
+						"Hv. Akp."
 					],
 					"difficulty": "iq/h",
 					"prereqs": {
@@ -3001,6 +3304,47 @@
 						}
 					],
 					"points": 1
+				},
+				{
+					"id": "syoKewR138HNSB0gG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sdRSlSZk2CCNNJ0i6"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Arkopan Racing",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -4,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					}
 				},
 				{
 					"id": "sRJwyPDKlfvoN4KJO",
@@ -3972,7 +4316,9 @@
 			"reference": "B189",
 			"tags": [
 				"Maintenance",
-				"Repair"
+				"Repair",
+				"Hv. Akp.",
+				"Lt. Akp."
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -4042,7 +4388,9 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
-						"Technical"
+						"Technical",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Communications",
 					"difficulty": "iq/a",
@@ -4083,7 +4431,9 @@
 					"tags": [
 						"Military",
 						"Spy",
-						"Technical"
+						"Technical",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Electronic Warfare",
 					"difficulty": "iq/a",
@@ -4284,7 +4634,8 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
-						"Technical"
+						"Technical",
+						"Hv. Akp."
 					],
 					"specialization": "Sensors",
 					"difficulty": "iq/a",
@@ -4450,7 +4801,9 @@
 					"reference": "B190",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Communications",
 					"difficulty": "iq/a",
@@ -4491,7 +4844,9 @@
 					"tags": [
 						"Maintenance",
 						"Military",
-						"Repair"
+						"Repair",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Electronic Warfare",
 					"difficulty": "iq/a",
@@ -4691,7 +5046,8 @@
 					"reference": "B190",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Sensors",
 					"difficulty": "iq/a",
@@ -5247,7 +5603,8 @@
 					"tags": [
 						"Design",
 						"Engineer",
-						"Invention"
+						"Invention",
+						"Hv. Akp."
 					],
 					"specialization": "Heavy Arkopan",
 					"difficulty": "iq/h",
@@ -5295,7 +5652,8 @@
 					"tags": [
 						"Design",
 						"Engineer",
-						"Invention"
+						"Invention",
+						"Lt. Akp."
 					],
 					"specialization": "Light Arkopan",
 					"difficulty": "iq/h",
@@ -7288,7 +7646,8 @@
 					"tags": [
 						"Combat",
 						"Ranged Combat",
-						"Weapon"
+						"Weapon",
+						"Hv. Akp."
 					],
 					"specialization": "Cannon",
 					"difficulty": "dx/e",
@@ -7346,7 +7705,9 @@
 					"tags": [
 						"Combat",
 						"Ranged Combat",
-						"Weapon"
+						"Weapon",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Machine Gun",
 					"difficulty": "dx/e",
@@ -7617,27 +7978,66 @@
 			"points": 1
 		},
 		{
-			"id": "sliQbLtsSJLx6ixyT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sRzoU2_LS2s4r51LA"
-			},
+			"id": "SnnVuVAifuT6mSNBM",
 			"name": "History",
-			"reference": "B200",
-			"tags": [
-				"Humanities",
-				"Social Sciences"
-			],
-			"specialization": "@Specialty@",
-			"difficulty": "iq/h",
-			"defaults": [
+			"children": [
 				{
-					"type": "iq",
-					"modifier": -6
+					"id": "sliQbLtsSJLx6ixyT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRzoU2_LS2s4r51LA"
+					},
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNme6YrlDarlqxPNI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRzoU2_LS2s4r51LA"
+					},
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"replacements": {
+						"Specialty": "Korkon Tribes"
+					},
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 3,
+						"adjusted_level": 3,
+						"points": -3
+					}
 				}
-			],
-			"points": 1
+			]
 		},
 		{
 			"id": "SZW0wWaEmZUT2E-Zm",
@@ -8136,7 +8536,8 @@
 			"reference": "B204",
 			"tags": [
 				"Military",
-				"Social"
+				"Social",
+				"Hv. Akp."
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -8918,7 +9319,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Contragravity",
 					"difficulty": "iq/a",
@@ -8957,7 +9359,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Diesel Engine",
 					"difficulty": "iq/a",
@@ -9074,7 +9477,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Gas Turbine",
 					"difficulty": "iq/a",
@@ -9113,7 +9517,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Gasoline Engine",
 					"difficulty": "iq/a",
@@ -9230,7 +9635,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Heavy Arkopan",
 					"difficulty": "iq/a",
@@ -9386,7 +9792,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Lt. Akp."
 					],
 					"specialization": "Light Arkopan",
 					"difficulty": "iq/a",
@@ -9659,7 +10066,8 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
-						"Repair"
+						"Repair",
+						"Hv. Akp."
 					],
 					"specialization": "Steam Engine",
 					"difficulty": "iq/a",
@@ -10156,7 +10564,8 @@
 						"Exploration",
 						"Outdoor",
 						"Technical",
-						"Vehicle"
+						"Vehicle",
+						"Hv. Akp."
 					],
 					"specialization": "Air",
 					"difficulty": "iq/a",
@@ -10933,7 +11342,9 @@
 					"name": "Piloting",
 					"reference": "B214",
 					"tags": [
-						"Vehicle"
+						"Vehicle",
+						"Hv. Akp.",
+						"Lt. Akp."
 					],
 					"specialization": "Contragravity",
 					"difficulty": "dx/a",
@@ -12128,7 +12539,8 @@
 					"name": "Shiphandling",
 					"reference": "B220",
 					"tags": [
-						"Vehicle"
+						"Vehicle",
+						"Hv. Akp."
 					],
 					"specialization": "Airship",
 					"difficulty": "iq/h",
@@ -13888,7 +14300,8 @@
 			"reference": "B224,MA60",
 			"tags": [
 				"Military",
-				"Police"
+				"Police",
+				"Hv. Akp."
 			],
 			"difficulty": "iq/h",
 			"defaults": [

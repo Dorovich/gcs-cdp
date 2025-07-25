@@ -3049,6 +3049,46 @@
 			}
 		},
 		{
+			"id": "sExie70rR3-1O7FpG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sWB9ypJAq43MF3O0n"
+			},
+			"name": "Gambling",
+			"reference": "B197",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "IQ-1"
+			}
+		},
+		{
 			"id": "s_sXmpvMgPPSdkgvW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3082,51 +3122,6 @@
 			"calc": {
 				"level": 10,
 				"rsl": "IQ+0"
-			}
-		},
-		{
-			"id": "sw03Yltk0owsTyeJT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sWB9ypJAq43MF3O0n"
-			},
-			"name": "Games",
-			"reference": "B197,B197,MA57",
-			"tags": [
-				"Criminal",
-				"Knowledge",
-				"Social",
-				"Street"
-			],
-			"replacements": {
-				"Gambling game": "Poker"
-			},
-			"specialization": "@Gambling game@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mathematics",
-					"specialization": "Statistics",
-					"modifier": -5
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -4246,7 +4241,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-07-24T23:15:59+02:00",
+	"modified_date": "2025-07-25T18:33:20+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

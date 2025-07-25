@@ -996,13 +996,13 @@
 					}
 				},
 				{
-					"id": "t-ZC_0TPqXW-jpWm-",
+					"id": "tdPTa-h9NNpnHPk_-",
 					"source": {
 						"library": "Dorovich/gcs-cdp",
 						"path": "CdP Rasgos (Especies).adq",
 						"id": "tmGpyuJ7BpkUVuUDw"
 					},
-					"name": "Morph — Disguise",
+					"name": "Morph (Disguise)",
 					"reference": "B84",
 					"tags": [
 						"Advantage",
@@ -1014,89 +1014,89 @@
 					},
 					"modifiers": [
 						{
-							"id": "meH2s6uY3XR62Lfna",
+							"id": "mJ2H1X_REH6OpNHY_",
 							"name": "Unlimited",
 							"reference": "B85",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mIy-lEc7bCsd3Jk8U",
+							"id": "mF7tmJYpWEcaLMo25",
 							"name": "Cosmetic",
 							"reference": "B85",
 							"cost": -50
 						},
 						{
-							"id": "muINB0oUgdy8ypX06",
+							"id": "msBmsL2HWH96LRQK4",
 							"name": "Retains Shape",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "moE4b0DIFq_74FHTc",
+							"id": "mGjZST745uUus8oh1",
 							"name": "Mass Conservation",
 							"reference": "B85",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mpF4iyzd6R15_MLrc",
+							"id": "mVHMge-07L_hTwdyS",
 							"name": "Active Change",
 							"reference": "P75",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mU43N3-qF3jcegp6O",
+							"id": "mOYbiK3SxhFWI3Qep",
 							"name": "Improvised Forms",
 							"reference": "P75",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mefB5CrbHxCtKAFca",
+							"id": "mRPa7R4vK8qB3Akwn",
 							"name": "Cosmic (For Improvised Forms)",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "maCPomwSTC5FEPOVH",
+							"id": "m0Di2E_htEMb12_VV",
 							"name": "No Memorization Required",
 							"reference": "P75",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "m4GrHrSKA0j2NCvJg",
+							"id": "m2FaUmmnpXCjDp7Li",
 							"name": "Cannot Memorize Forms",
 							"reference": "P75",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mVVhHCYT5-iZhoNKS",
+							"id": "mx5CcvxXb05fhv9JY",
 							"name": "Flawed",
 							"reference": "P75",
 							"cost": -10,
 							"disabled": true
 						},
 						{
-							"id": "maoWXmdGphn5591mU",
+							"id": "mTWyQrCixd29wFxCE",
 							"name": "Unliving Forms Only",
 							"reference": "P75",
 							"disabled": true
 						},
 						{
-							"id": "mxJzRVdz5QBiNehI-",
+							"id": "mSurzFvuiF3XA0Fzu",
 							"name": "Preparation Required",
 							"reference": "B114",
 							"local_notes": "1 minute, else is weakened",
 							"cost": -10
 						},
 						{
-							"id": "mpGi0KD_Yo8DdOjk2",
+							"id": "mR2NBqmrwcGEqTFre",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Power Ups/Power Ups 8 Limitations Limitation Modifiers.adm",
@@ -3523,7 +3523,7 @@
 		}
 	],
 	"created_date": "2024-08-04T00:53:59+02:00",
-	"modified_date": "2025-07-24T23:36:08+02:00",
+	"modified_date": "2025-07-25T14:08:39+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
