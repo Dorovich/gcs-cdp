@@ -342,7 +342,7 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 1
 						}
 					}
 				},
@@ -2402,7 +2402,7 @@
 								{
 									"type": "dr_bonus",
 									"locations": [
-										"eye"
+										"eyes"
 									],
 									"amount": 1,
 									"per_level": true

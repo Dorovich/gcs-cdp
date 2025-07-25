@@ -2769,10 +2769,47 @@
 					"modifier": -4
 				}
 			],
+			"points": 2,
+			"calc": {
+				"level": 10,
+				"rsl": "Per+0"
+			}
+		},
+		{
+			"id": "sWcdbjOi2ETnJh_Nu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shtDdl5thrvKSnJHf"
+			},
+			"name": "Brawling",
+			"reference": "B182,MA55",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
 			"points": 1,
 			"calc": {
-				"level": 9,
-				"rsl": "Per-1"
+				"level": 10,
+				"rsl": "DX+0"
 			}
 		},
 		{
@@ -2875,7 +2912,7 @@
 					"modifier": -6
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -6,
@@ -2884,8 +2921,8 @@
 				"points": -4
 			},
 			"calc": {
-				"level": 8,
-				"rsl": "DX-2"
+				"level": 9,
+				"rsl": "DX-1"
 			}
 		},
 		{
@@ -3194,7 +3231,7 @@
 					"modifier": -6
 				}
 			],
-			"points": 1,
+			"points": 2,
 			"defaulted_from": {
 				"type": "skill",
 				"name": "Naturalist",
@@ -3204,8 +3241,8 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 8,
-				"rsl": "IQ-2"
+				"level": 9,
+				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -3651,6 +3688,41 @@
 					"modifier": -5
 				}
 			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "DX+0"
+			}
+		},
+		{
+			"id": "s57SnmPGLWT1n4Cd6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smTUpMWJGqPeT1KER"
+			},
+			"name": "Streetwise",
+			"reference": "B223",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
 			"points": 1,
 			"defaulted_from": {
 				"type": "iq",
@@ -3660,8 +3732,8 @@
 				"points": -5
 			},
 			"calc": {
-				"level": 8,
-				"rsl": "DX-1"
+				"level": 9,
+				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -3821,6 +3893,27 @@
 			"calc": {
 				"level": 10,
 				"rsl": "Per+0"
+			}
+		},
+		{
+			"id": "sCpWJUUpzIAXKiqsg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8parl7zgbXys0OF2"
+			},
+			"name": "Wrestling",
+			"reference": "B228,MA61",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"points": 2,
+			"calc": {
+				"level": 10,
+				"rsl": "DX+0"
 			}
 		}
 	],
@@ -4153,7 +4246,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-07-24T19:14:12+02:00",
+	"modified_date": "2025-07-24T23:15:59+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

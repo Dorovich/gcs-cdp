@@ -513,7 +513,7 @@
 						{
 							"type": "dr_bonus",
 							"locations": [
-								"eye"
+								"eyes"
 							],
 							"amount": 1,
 							"per_level": true
