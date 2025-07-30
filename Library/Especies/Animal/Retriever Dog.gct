@@ -1,0 +1,1000 @@
+{
+	"version": 5,
+	"id": "BZvDqsMXXZTDhfZbr",
+	"traits": [
+		{
+			"id": "TushlJECm8pxK-Ax3",
+			"name": "Dog, Retriever",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "tDTNXjIhcNy9xDXfE",
+					"name": "Attributes: Dog, Retriever",
+					"local_notes": "ST-2, DX+2, IQ-6, HT+1, Will+6, Per+8, Move+4, FP+3.",
+					"base_points": 6,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "fp",
+							"amount": 3
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": 4
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "per",
+							"amount": 8
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 6
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": -6
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "tTSx1XwpZC1xWSW4I",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tmRX0o0iO20zWIVyo"
+					},
+					"name": "Bloodlust",
+					"reference": "B125",
+					"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 15,
+					"base_points": -10,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tq1xn_1Zb1QsvCK3H",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
+						"id": "tZ_pYFMU2TzZOYTqw"
+					},
+					"name": "Born Biter",
+					"reference": "MA115",
+					"tags": [
+						"Feature",
+						"Physical"
+					],
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to being hit in the face/jaw.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tPSqZOGcud2G37rTK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzBDG0xUlT_dh7FuY"
+					},
+					"name": "Chummy",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t506rv8HWVovpbYMX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tjKuFiuy3Fs6rm69e"
+					},
+					"name": "Discriminatory Smell",
+					"reference": "B49,P47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mWowxjYnfdDrjqCna",
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "meRojb3r7gKP29yp3",
+							"name": "Profiling",
+							"reference": "P47",
+							"cost": 50,
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tracking"
+							},
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "on any task that utilizes sense of smell",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TdaEUve_IWmtkmJkZ",
+					"name": "Domestic Animal Ally",
+					"reference": "B263",
+					"container_type": "meta_trait",
+					"children": [
+						{
+							"id": "t4aa_T3zXF5uQ4JoF",
+							"name": "Cannot Speak",
+							"reference": "B125",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "stuttering"
+										}
+									}
+								]
+							},
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "trK_3_oAIEvqYVull",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tw71iZfV_lekRjlBO"
+							},
+							"name": "Dead Broke",
+							"reference": "B25",
+							"local_notes": "Starting wealth is 0",
+							"tags": [
+								"Disadvantage",
+								"Social",
+								"Wealth"
+							],
+							"disabled": true,
+							"base_points": -25,
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "ts_A4vBFrcMFxrE5w",
+							"name": "Social Stigma (Valuable Property)",
+							"reference": "B156",
+							"tags": [
+								"Disadvantage",
+								"Social"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "txuKCQvQmcItrZ-Ms",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "thR91RlonCb2vGKR4"
+							},
+							"name": "Speak With Animals",
+							"reference": "B87,P77",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mP4G_QAKAxvfGDc0D",
+									"name": "Specialized",
+									"reference": "B87",
+									"local_notes": "All aquatic animals",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m-2bWFHZwMCeI_oOv",
+									"name": "Specialized",
+									"reference": "B87",
+									"local_notes": "All land animals",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mwaopO7YdC-wxM3DT",
+									"name": "Specialized",
+									"reference": "B87",
+									"local_notes": "@One class: Mammals, Birds, etc.@",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mVQiJ7AOfsFFKgPGi",
+									"name": "Specialized",
+									"reference": "B87",
+									"local_notes": "Canines",
+									"cost": -60
+								},
+								{
+									"id": "mvJoEhJRD1X92lat1",
+									"name": "Specialized",
+									"reference": "B87",
+									"local_notes": "@One species: House Cats, Macaws, etc.@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "mwxji13z23rTJFITg",
+									"name": "Sapience",
+									"reference": "P77",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "mNdZqCk7c0QywN7e6",
+									"name": "Universal",
+									"reference": "P77",
+									"cost": 20,
+									"disabled": true
+								}
+							],
+							"base_points": 25,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tW88JoD6sXV_1d-SW",
+							"name": "Taboo Trait (Fixed IQ)",
+							"tags": [
+								"Mental"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tsseNEpGynbg6-60-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tG2tK0QWXPQqFk-rd"
+					},
+					"name": "Enhanced Move (Land)",
+					"reference": "B52,P49",
+					"local_notes": "Double your normal land Move for each level",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mvuR5h2mKFzQwge29",
+							"name": "Handling Bonus",
+							"reference": "B52",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mkYhqIkdIB0Sp8OZu",
+							"name": "Handling Penalty",
+							"reference": "B52",
+							"cost": -5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m9IV79G4Tsp5CvuyA",
+							"name": "Newtonian",
+							"reference": "B52",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "md6iexdUR0vv5ZblF",
+							"name": "Road-Bound",
+							"reference": "B52",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m2YAjOOU4fZzs3lPN",
+							"name": "All-Out",
+							"reference": "P49",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m9GVp65zEUqQqJ-wP",
+							"name": "Cosmic",
+							"reference": "SU26",
+							"local_notes": "Instantaneous Acceleration",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mvruR4_8vfMXIGHgh",
+							"name": "Cosmic",
+							"reference": "SU27",
+							"local_notes": "Complete Maneuverability",
+							"cost": 50,
+							"disabled": true
+						}
+					],
+					"points_per_level": 20,
+					"can_level": true,
+					"levels": 0.5,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "t9TbuO-WCR0_nxlWL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tsPqY8NyZ8sJbkdS-"
+					},
+					"name": "Fast Eater",
+					"tags": [
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "t75glmqv5NEVvZyy0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tsPqY8NyZ8sJbkdS-"
+					},
+					"name": "Fur",
+					"reference": "B101",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "t82Tv6Y1ITDGFAY-u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYHaB3nA17KP6h1DZ"
+					},
+					"name": "Gluttony",
+					"reference": "B137",
+					"local_notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tWhpVz3-m4RGr7FQz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t5NruiJFzLvsyzwd1"
+					},
+					"name": "Incompetence (Climbing)",
+					"reference": "B164",
+					"local_notes": "May only know Climbing at default (i.e. no points spent)",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Climbing"
+							},
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "t0BZBhkE4j06ZW6PJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tk0ZKpvgqpE35AZcM"
+					},
+					"name": "Night Vision",
+					"reference": "B71,P87",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "TeqTss3-sh0RDCJKX",
+					"name": "Quadruped",
+					"reference": "B263",
+					"container_type": "meta_trait",
+					"children": [
+						{
+							"id": "tv8DZ1HQHM7CITSMr",
+							"name": "Extra Legs",
+							"reference": "B54",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mscR-f0Fj1gHGjvgy",
+									"name": "4",
+									"reference": "B54",
+									"cost": 5,
+									"cost_type": "points"
+								},
+								{
+									"id": "mcov1-MuQIG8PZBPR",
+									"name": "@5 or 6@",
+									"reference": "B55",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mSoTt_vGLRCS0p-y1",
+									"name": "@7+@",
+									"reference": "B55",
+									"cost": 15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mzfEsFTjJYJi6bXKx",
+									"name": "Long",
+									"reference": "B55",
+									"cost": 100,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mdbzbvIA17KgAmFJf",
+									"name": "Cannot Kick",
+									"reference": "B55",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "my2qbqsRHR-bgmr9L",
+									"name": "Extra Flexible",
+									"reference": "MATG27",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mOj3bd1LRcbOXy9Ne",
+									"name": "Prehensile Feet",
+									"reference": "MATG28",
+									"cost": 20,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "ttziAlAZNDFlCBpK6",
+							"name": "Horizontal",
+							"reference": "B139",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tHL2Onwv_YLxfYLPj",
+							"name": "No Fine Manipulators",
+							"reference": "B145",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -30,
+							"features": [
+								{
+									"type": "cost_reduction",
+									"attribute": "st",
+									"percentage": 40
+								},
+								{
+									"type": "cost_reduction",
+									"attribute": "dx",
+									"percentage": 40
+								}
+							],
+							"calc": {
+								"points": -30
+							}
+						}
+					],
+					"calc": {
+						"points": -35
+					}
+				},
+				{
+					"id": "tWe-QAKOAMvZ4ZKBy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tHv97hIejdmH2l3xH"
+					},
+					"name": "Red-Green Colorblindness",
+					"reference": "B164",
+					"tags": [
+						"Physical",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tsJskqD1zUZsLxxxp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tynHtgvWZmmNOL97D"
+					},
+					"name": "Reduced Consumption",
+					"reference": "B80",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mgZ_IPH0hq4VfRPfs",
+							"name": "Cast-Iron Stomach",
+							"reference": "B80",
+							"cost": -50
+						},
+						{
+							"id": "mzdwmixHYGxwpsldb",
+							"name": "Food Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mt9Cg2PtRRth00ygS",
+							"name": "Water Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "t08OnShiK_bhJVYlB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tK9Ov0WtlrhnJFy5n"
+					},
+					"name": "Sharp Teeth",
+					"reference": "B91",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mjhqtjGfr649Ge1Kf",
+							"name": "Provided by Vampiric Bite",
+							"reference": "B96",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 1,
+					"weapons": [
+						{
+							"id": "wCia0OPl9VdDSVNDH",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tG5dd4N0j4QUvqQre",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t9nyvI3uvjJi5aqF5"
+					},
+					"name": "Short Lifespan",
+					"reference": "B154",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": -5,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "thyfwCgBnA7xLzGvc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "t-L4J01_YfuM1dAvC"
+					},
+					"name": "Tail",
+					"reference": "TT2:12",
+					"tags": [
+						"Exotic",
+						"Feature",
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "t7TqcHpA_3x7nmrmL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "touwUIFalnae02BUl"
+					},
+					"name": "Temperature Tolerance (Cold)",
+					"reference": "B93",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tUtUq1W-CrRjakaQY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t9SRIvj3a6sg382bW"
+					},
+					"name": "Ultrahearing",
+					"reference": "B94,P51",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mSyom36ZTQoZf2Il3",
+							"name": "No normal hearing",
+							"reference": "B94",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "t6CMEYZ3UXA4KzAOv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tpVAPTgSu9gjTf1IB"
+					},
+					"name": "Vibration Sense",
+					"reference": "B96,P86",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mSh96lpPP0rlCAIhZ",
+							"name": "Universal",
+							"reference": "B96",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mCt3Tim4Eou4Cftsp",
+							"name": "Sense of Perception",
+							"reference": "P86",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mXobQIskk8bPv37sU",
+							"name": "Targeting",
+							"reference": "P86",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mmYxIuyakpCm9Gpg1",
+							"name": "Air"
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				}
+			],
+			"calc": {
+				"points": -21
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "sD31GvTOtHCJmZ-t8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shun-iitiwyWbrGcF"
+			},
+			"name": "Intimidation",
+			"reference": "B202",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "will/a",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sHDOccffeliahG9rL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s4I5dPhJgOFfh57YM"
+			},
+			"name": "Running",
+			"reference": "B218",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 2
+		},
+		{
+			"id": "swXl8EAlfjDZJyNG6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smxkcngH5Kz54yeN3"
+			},
+			"name": "Sports",
+			"reference": "B222,MA59",
+			"tags": [
+				"Athletic"
+			],
+			"specialization": "Retrieving",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 2
+		},
+		{
+			"id": "sk4KybnQ1LtmlLdYi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s3rs5bVG0nxQSZEGS"
+			},
+			"name": "Tracking",
+			"reference": "B226",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		}
+	]
+}

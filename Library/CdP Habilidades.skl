@@ -907,6 +907,7 @@
 						"Lt. Akp.",
 						"Maintenance",
 						"Military",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Heavy Weapons",
@@ -1029,6 +1030,7 @@
 						"Lt. Akp.",
 						"Maintenance",
 						"Military",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Vehicular Armor",
@@ -1186,6 +1188,7 @@
 					"reference": "B178",
 					"tags": [
 						"Combat",
+						"Nokk",
 						"Ranged Combat",
 						"Weapon"
 					],
@@ -4319,7 +4322,8 @@
 				"Hv. Akp.",
 				"Lt. Akp.",
 				"Maintenance",
-				"Repair"
+				"Repair",
+				"Nokk"
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -4636,6 +4640,7 @@
 					"reference": "B189",
 					"tags": [
 						"Hv. Akp.",
+						"Nokk",
 						"Technical"
 					],
 					"specialization": "Sensors",
@@ -4675,6 +4680,7 @@
 					"name": "Electronics Operation",
 					"reference": "B189",
 					"tags": [
+						"Nokk",
 						"Technical"
 					],
 					"specialization": "Sonar",
@@ -5048,6 +5054,7 @@
 					"tags": [
 						"Hv. Akp.",
 						"Maintenance",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Sensors",
@@ -5088,6 +5095,7 @@
 					"reference": "B190",
 					"tags": [
 						"Maintenance",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Sonar",
@@ -5835,7 +5843,8 @@
 					"tags": [
 						"Design",
 						"Engineer",
-						"Invention"
+						"Invention",
+						"Nokk"
 					],
 					"specialization": "Nokk",
 					"difficulty": "iq/h",
@@ -9360,7 +9369,9 @@
 					"reference": "B207",
 					"tags": [
 						"Hv. Akp.",
+						"Lt. Akp.",
 						"Maintenance",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Diesel Engine",
@@ -9518,7 +9529,9 @@
 					"reference": "B207",
 					"tags": [
 						"Hv. Akp.",
+						"Lt. Akp.",
 						"Maintenance",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Gasoline Engine",
@@ -9950,6 +9963,7 @@
 					"reference": "B207",
 					"tags": [
 						"Maintenance",
+						"Nokk",
 						"Repair"
 					],
 					"specialization": "Nokk",
@@ -14760,37 +14774,77 @@
 			"points": 1
 		},
 		{
-			"id": "sI6oRDxJYFGrmryUU",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "souQEXbTa7sf2sUGU"
-			},
+			"id": "SL-PT5eNICL6Ti8jv",
 			"name": "Veterinary",
-			"reference": "B228",
-			"tags": [
-				"Animal",
-				"Medical"
-			],
-			"difficulty": "iq/h",
-			"defaults": [
+			"children": [
 				{
-					"type": "skill",
-					"name": "Animal Handling",
-					"modifier": -6
+					"id": "sI6oRDxJYFGrmryUU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "souQEXbTa7sf2sUGU"
+					},
+					"name": "Veterinary",
+					"reference": "B228",
+					"tags": [
+						"Animal",
+						"Medical"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
 				},
 				{
-					"type": "skill",
-					"name": "Physician",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Surgery",
-					"modifier": -5
+					"id": "sBUVq4xz-W3YRXdnz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "souQEXbTa7sf2sUGU"
+					},
+					"name": "Veterinary",
+					"reference": "B228",
+					"tags": [
+						"Animal",
+						"Medical"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
 				}
-			],
-			"points": 1
+			]
 		},
 		{
 			"id": "s28ft5aCzstGLIGIT",
