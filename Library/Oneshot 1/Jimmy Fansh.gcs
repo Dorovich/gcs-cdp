@@ -1,0 +1,1099 @@
+{
+	"version": 5,
+	"id": "Aqb9VDs3VnVKv6JFf",
+	"total_points": 30,
+	"points_record": [
+		{
+			"when": "2025-07-22T19:08:29+02:00",
+			"points": 30,
+			"reason": "Initial points"
+		}
+	],
+	"profile": {
+		"name": "Jimmy Fansh",
+		"age": "11",
+		"gender": "Male",
+		"height": "4'9.6\"",
+		"weight": "80 lb",
+		"player_name": "Guido",
+		"title": "Estudiante",
+		"organization": "Academia Port Bell",
+		"tech_level": "(5+1)",
+		"portrait": "UklGRvxOAABXRUJQVlA4WAoAAAAgAAAAjwEAjwEASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggDk0AAPBEAZ0BKpABkAE+bTCURqQjIiSqUvuAkA2JTXVGUuk3dV0PyPZCmANqeAaItT2081P7xgj3Ncr/vP89+7Htt8f9+fvfyp/e/ep4Qdt+eD5z/G/p72j/+D1u+Yf+xXri9OH/E9DH7o+qx6cP619wHyP/1T/d9df6Kvm6//T2pf3Q9KLUMfmvlh+a9lf5v7ru1lh37e8336C0Adpv7h4iOTfbf9n5hHgLz2ft/OL95/1v7GfAB5p/9zxgPxn/e9gf+V/3z1lP9fyu/sf/H9hzy6P//7lP3i///vAftk16ZRO0mzusfL3WOvSmovmrluNM+0ugrIFRiqS1usd2QuLC6K5X43rcSzD67UgKJ+JVrNrETlsxZm8n4r1VP0h51AOd/ssTpG3vuvNAaGHhw+MBTgn8ui/ih6kGmNc3+XJ8XmgdQh68ptbXdZtZHk/jsQBUww7lnPYEGVh8E/nzWRO3AIyNuRo4EDvb7AlXMmdT+ZnGCaLOFGWgSku7hyCf8f/7uKUT+nhFYeExzrRF9xmTnUHCq+1L78Aai10iiaQOrgiqPDU+AqPYdblc8oCbxeZ5q6V+SSSTV+rWGf3ibSrI//U8YV0HcCXgJE7xa3zWJPB9swUkQqRIvbNNckqcDdmfPHMgei1AwjrzR3caIZmSk1Lr4y0Pwe2OPKDMoQfFveRS3MSCM9SgMry19KKQdlvEeJP7HKMXWVqIo11w6nfthGHX/dxEfu4HgQAt9XdSR//qh35qu/NdYoufjZDMqUQMPx+SZcYzF9LaDHP4qAq1Oq8YhoTFJR5lgtwNo39AVaBSaeeaDXt0eHEnpw4+Z03TWdGu3h5s1wPATmsDx4chnZSvSY8ab1IYUtUFJra3ipVPymBK54eZuOohifN5WseHM8nLBBO31mQqnxGDQi6utr1D3VH3EN6EMydT5XN76scEPJw+Ztsbb5R7obiRsi4wtSePa7+O9WiyVSm9RN/w6+Ne8AUiZ2pFOZiF0Rti+JMbpyCSHNGHZoEHrKkeWin+S1stbQbLXMPvilWou++xfThTn//iBKe2RJt9ccuoJdfCTnDZ6JoX1R9HrBAlxXypZ95HVOe0MyeL8I3lNEb7c4kGMZ5XILQ8T8Nrup7E+XVeZKXS8CiiRCQpoXsmL9fccrt3SqSg9YtTq3TTiZGwif9Yq2IzX3hrH3FXtZGdr4D0qfF36cN3TUWRNIFsd6dTT4g129+5/fg3nloIts1uOUa8At9QvxLK36TbYlTc2I54gO0GS12hVWJUI88cyIfI+GmHG1w40k8AD0cFtVDy4hgY0Y7WkGFVAtUkF2N+pVcZN5URx2seheda1eh2/2RSltVxF6WsjZHeLM4a4UUr41ixi+OlSOCr83FrZegsbn5k3tatAsv2VvPM0RFZ3vyZXeS+siLzPNAymqE+MT0xP0J1brr9B3VOQGRmRwuv9PYyPFESI/Ka4Sctg93r03HUno8JO5BtFkIKn8kDefIjqESvl/G3MD7DysOaYk3UKntG1rl44RbF0zC4K+a4NPsBG82uRJxNahqkehB/GjnLXdbajIvW8/TDxgjsFHeCdq8FOQHv5J2F4mFS4xy5frbzb4Vu4QAPix8rmLim1U4bGSSaOYUDca4rri6mcjO4Sz6Kf2AhaCEdFRJOklrGoR/rzaNrWfHWRkZwb53wAoSfr9ZulLJ26/Ni4bX1uueM6M7vt+iqp8h0weDA145sokEdR+p9r96DqxcJX3z27ePAPEMnL8j4wINIWv5BOoqFqN/DVVXNo1CWkeK2a1pctE2LjbW7SOq7e1LSAHc8FRCnZWfE/IIWQNZfSrdLKdqarQEFhp9RQjNDyV0RhCRtzsjwT8Y6qmq/wzknACQJqpQfY8ZcMrzua/JD8emXLtV31mstjb7f/3UhCtFpQHmXiWnOCeX3vl5sGhK9sq17Vnq7qvh/a+yvHDoYjcCZ3Zfa5cWir/ohwrgIAtFy1bjZj6evKX31qZ3gf5Ysghc95RcEzMEgMp49HdloOD6K7LGsRUy0LPnh6yYlErSfndbi5eFBsIb4iEHOom/1VvCAp3ZfUJXIvmNbK+ScUmvtGRsvFwI9KOQJMcc6gpmPeS3mMsIXfGFQl74rmkbJ5ynHyKsMPWVUPP6hgDh53uJfBvui4Il8thsXnf7MM7A4ratCV/rBfU7DG2889aAyZYhigjpZcfP2py8ev4AbfDDwLyB1AMaebBE/XWcO0qRL01fxBN2Ld8DbBs7+oCsQLqbhX/xqhWsKFBk1iOn1P/lmcW887PdsQxsglP8wi/arZOECwJ534TwcT+iQsEFxrmNtxYhzbKdjxZch7xKrZmTbJCxMfFBy33chFBEDtnOeJOQ9K0grRZYhpXADUwzE6yQz4v3X3bpu7oNU42My/HR2huy9NraGY03uZcDHi5ILAK0mtqjBxC3C7T9e3d7exmgNCJea7YTMauNAuSXqzQWt2zsVTSmvdvXpWXjDlAhsuG9qDXZQvpUulEmeLI9j05gjHS002u8GBlnJaCBYRjsTBTmnA6gZQOZePgi1Zhz+R2Os9JEQVZpTsWFvuyNOuxfNc2Cl1SH5JZsyrF0EAdkkDvfVol+atE6I5bqoy5t2QonbGMVFByt2L8DcMxLkIY8CuAEsQ+/epaNu7JrRPINTeH0vFsooVO/H2BBF8ygaMKfsfQSc1P2TQrPtJTeLpDiTVoPfdqnJ9ooKB+XAJ6ZKxI0Z6GpKDUaEcPlqYIjBCU5XW2TBtbMjwU01avcL+rGAhbSuMH8I8pyI58mh7PKtmdanUCOR4W6Ez0r/QoHv9UIID7GusDQKF+lVhBH2NqG1TEo23JymaGe0fKmVdg9G6FKLrtVmgJPUW8Gyh2p6tkjtYkwMfvz4HRTJMctEq/uco0B3yjEYrZOHMXosHyRIQf534KvbX/5+4gIsjjX/W3qBsyDquzBK+gZnGYuHkTiomiTxI+Z/Xf1+l0frforonq64S07EcduYZRWPuCVCH/xElcWT+Qtoh+blGTWC/t5Q2+BIgfG/KNqpgKs9eiH8XR0Bxk/uK8xiPiZ0amJ9t7NfuQzyBpBxaXiPoUWpI9bmpXKA1qqMQPCFaF0ezLf5V9iRs3PgDX3OJlfRo2KA4mmIrLe7CGX3H3JankV4ydY7OwOQPNO7WyFVMmVNbYyLmF0+Ejz1ssFwUNCcfRRf5DsSleFWm23yb9UFNseU3kJbFUtsBHbFKPjvmi/qYnwo7vbLd3GdTiQD8MMAAXgtF+m4OQy8uZ3B0Ab+fPF9GFRN35AVllNP88YWsyb7odinL7tUSzSyYFzuXPXb+t0szkywBJOjg4DOxYMYsqZgik9Tq4VHrJl7yz0vyR+hp/0VuudoAYhrJxGrGOu1qiz6vb0DfNpX5b4TfOOFhZouIhcC5k+PJ0g56F8JmrngyHr/0MenKnHa5MO7pzptqTJLX7zRuCn0IBXQQ68N84HM3k0XSFzR9ZAA82fdzf+HujJejS7/4++8m8ktABaODiSF0lyLMKV01/gXbh4gRakjBFSxRHGoaMKnFDAQNIqqm3myeazFiNEtElJzca1z8Y2gfBq7Uf+w4MRU++ZXkyvi4irxqz1Vd3b0mwnbGrwnAeb0jBgyJsZZ93ICyyB50n6g9DFogLCUhnrgnjjESjYVxtRuiFK8kCT46djp5kt3DmgBpwq7lpmy6gKjPGlk6Copueq9UKPo8ZyNC92Mb5FJoB2M98SqIv3JFy2KLAaKeJuQ1IqfGlL9G8kTH51DwKpSuAWT1lmxbjTikyrqpvq8yzbdLjrUr3SZxsFqHUUXRiJgWowoqQ79YYiJUPG1MdFhG75V1wR0JjLlH1+jePaRthHPCNrePnFpMOfq0QVVvz3NHQ2MOuXDy38RA9MEuBPWvwDcIZJgxluHKQ3t15+JSFwnSMYTNrJyXmJmCWmQAb4+gA/Jds89+RHsVnish69W5tY5QC95qCRFhuexaTcWNk4oYLLRHqTt7TfW4BFQ0qX1HeYy8Z73AoKR6zAbNd2k9FOhgD5lwo1u+G4boRXpnCqHe+bVg3Yr5TzjqxV3dNsTE+41qvcAA0iiXr1XfRB/9t4OF+dV1rjVHMVih4aPzIVB8wYJuxvyt3kCR2LsCpXb4S0WTgJyLjyk4/ShC/hnYakf/chMIFs3bKPKV3Wwsks9ZlrOD5ZL+Q45Qn58CB4e3sBj93Na5ksRUuXdzrdxgiM10WboycWqpvYXZ3fmt+NC2L3OnGQX7IQIvVdxmx5n8VX4YGJXcvFSUBvDIEl8dX2AB0Z/7aKTn0a64bU9xtzUVR9mutOcUXoMQsxmW0XFwkPIrTj2VNu5JPgt8oWBS7YbhUj2s+kSDQN36Ind2FBgoSW1lTy1ZrnyfER9xWPD++0TSiSPqckIDLcK/Ot2FKzF2FRELIGXU+zwGY7Q6W/uRwxFio2GQ1scteGJ74kqanjIw90Ne93hVoAX7mJhjXS9maTPRPqFMDLNdoOk7wSel22AAe01nXSyiiCNgwH/ZFxHYWUGCfoMKLtNQx6bJkuVvz+QPqpDSKWq9XBu7pyL3OPmFLe4+GwoKeZ5MLdVDbwhK5X9t23QdqJ3y1a/IN5A9juhO43YL+WvxAggCGcTqadkq6Wsn9ID692Yyrg8jyxYANlPyOmibUA2b1X0ldWTx/h6ztMYqFq6vQleot3wwi0/x2THg26kZcJfoisnA4p2Uv5LMRE9C3GzBpaOGJw7Zcj9SvKo+gWaAts0ewlqX1DJNaT7pFNBgOgUy5xgrKAsiQU5JA6s5B7MqU8dngB2tjv0rHVReW1IHg2CX2RWlMlsEimn7Imeuq9xfUHWMtfpwY/XwLaGBfD5WBZSkeWVfgh5m+cY3JMy7FfszzNjG9CJqUMNYTJOFp+uRaEWKqLtdZHtvFHudOxpkwyNawPY0y1S0fwJfk6G7KST406481VI6IhzGzkpC4sRRZJtYJ8t7xEcbrHUthFgZv5WOUrMla9zzXcO4XjuwxMMWwH3pfKSvKdZmN/tT+2dRZnMa/RuyrUAt/uIXlIDUgFkIBkCzu/hA+4tf5P+Wv3zIbK03XX3HeUDqLIq/hkLXrTauvlpBCpgHAsZxHPxMY3nwEf2wIfCCLOslK5Bhx/77tsQ1ytL22ovPxpkqpt+f2pltb/Z+sjRxvIjq0OjDZbYuqkV3rNa/xKDClJVWk04Yx7tJi+4HsyTWUFD8x4ZQIqCWhXMWHvmagnYXFNEI0t3aCZiowjM9zA1aO4BynDUIxGsMU/RUnok9IfKbg5ZP6gTqXJ+e7lkv45q+DuRcWr/mos6jZ4I6p7obG0p+PjuRJOs7E2PfJ2VrUI3UwhYDx7CSABrPdMQ4YJUTRBeJwhuiU1N0piEAsrxLGFoTNeuunqC+uFrLFoz+aE5u2pOci6WtNNfvO1SoTPAems2RE6XcOxVNIUz4t687WXLvOGre1Cd9c2IkDPVwAngFj8fkGwFzynQyImInohq3LLvmjsQknYITG07qCM2bGsjp3KjdMyXUik5M/CPdbHN1pNqbcJ/fY14MynNmVYFFLI6xC83TaOr3ZJQzhP7uhMJzRoQDZVaYbRmAr8RogauQCZXJtGBbpP7WzIhxIPk7BeGnPZIDHz9C0zcYWh1yaL4il4zwmfYvXCOKfwUBDOAbGdnf31c8Ed8IdB2ssSlPAdhiVtYyA+x1kFIMHrf6oSMjV7vwdVsX9NfEjA5k4ilgE4Xol/WDwe5hAisMen8aOiZIINyjVFxkVHcVjJ/AQ1segwjd29YOLZjpXKV/gJh1onolOqavhggO/lSeozmCG7rti5BK1o0HX8VyOZOuwE6i2naA7wmqLCDxxaZZBN6/jWJLiD0MqGRQ4F3NmZm7LhwjYVFUNa3kgB3BNoo24mwLrjgORyC36ZtdvmztNgs9DbTEllAIZcw9rmfbrImleFAelTBgJZu4DDbv7r0aryfSFFh+Ul3hfsppGlAc+LDfQitCdlsjBYA9xd37nfHuE9zGhMoYvjSRlnGCsbxxClAsQLRmYxiuEH2JHzCYNGj1QABDs4HIXHr7hesQXQN9eFMmFys6voIt+SIqYobacYBTKsAHj+Pyj8n+/1gNYi6WkC3v60JM6KlrcEiJ1nT9vYfjIB4dCKXOk9zwJhV25nQ3PgnGrC/arSBmTf0doMCliGS4ZIV1H9Ev35QKKIb92FQmyOHk8YoMA5q92M2VSeBdyFXGxcHOHP96H1D8BIDQDAE2tohYd8HAw/OrXNnHxKVw2kZ8BBhQ3IQOqQZOO6XOjdRrSS1g9WICZmBM0KTUT2Y9nGoiTgjcYqBPnHguEPTN+qQ4VWqSVYa8t3eYsOhsu3INCbc0f8hVgKK1fST54gm/X5BoUxlmpNJtmOh/fwrOugDBwqxaogViBgQOieTZJK+CpxurbwhsnSJgDbPKzPF08uR5fwANOYUDK/o0Y/gFJEbObN+Vv9sB7X6jAueCcReIU4qgrv717WSf2SN7BSqrCP0qTPx7nn9c6Om+oVh3inq3vtB13viePDebMx0sOZzOjw7gH0qiu+Oecb6MKIGTko0QXIKUfzfD01A/RGI8WkPdr4JljACzDWtFtiADn4Vib/nMiKAiNoCiKvdnQkv0eIK50IT03GF+hqBsWQ/rHnM444WrjdaG+/BGfNTw0Y+ytucT5Wprj3TPegqTdPyUV6ygpXj3FkjeFl5e4ksbDcBCZyh1kCFlJ7LM19cF8+g9/ADrBtow5Wzz54DG3gU7AVdnRrvR4Xhrb4vVrfpLjIUTov1Dluhdf/F7Ihyhmc7ubLXl0WveP+3FnQVfKQ7Jj0wGhVem+1lrfaSm8CP29c+wdxOW/16EgBfXtidLCBzzWzbRYFB88SYOsSjab2VoaHqrFYQ43sBz23YNRNG52nwwdpIaOm8Ellwlch6V35IJdrYsZv35LMOTDmV2sXUH9QKSvugtY4iY/iUy3D3JCxrf7Su98KOwWiFNhYu3zbH4UfZ+IFGqq/Wt3N2lYYYfLGwV+0Ox56hRjDzgI5vJqJ/nswfiMiLPlSSae9PuuADnhx75VQwRPL15dTfbHtxiDyzlMcbrih1vCzNQ5DxktlG1Yx6kjWLPcP/pEM6a+IqPo6xIJUQ8MS24eQm3rxO4hkU2AQKktZjMKf3n1F8n7lPcZN6uG5+MU8Y8La+70P2FGtSCLK88u9A1MS/qV/+ApmG/r473RxrJDuGerqyohaznPhq6H6ompHwAiWERMvwlR87xKgOnj0LJ6tJxs9K0eTBLMSMPRTXbIVKsNEdnFFmuUtHLh3+INRCcfw4bWiS2vrvcpiaAL+0A+brnFix6I7sSoc68nI0/7vJbM23Y0pmQd6B1sFGKpNiD0mZdSzBK+HOa7nPkwiDLolniNcRnYXXaNrZcBSZdw7Vf13HlTdeYcTuO9ZtuTsvzJ9XDyPGwAfGGuKNXgW897Y3Cat3Vf6vr/ZZtXlrhc1IE2EgAe6jezEHpAZALlhz+2CPRYQa47zGDGTHwjhvXP2mDhirK2/tvcjn2bipTK/CNECqahjwI9/FT4P4FpwLFljQJCFoNFY/T+QAJd83JpQbkjOzTL2g9t2f1URexy+y8cAu28kzyMjNvqIhg3AkdlekgxTnHeJEwKxYPMv90i67ySjGsk7C+lkxkGb7JVNTuoFEyVNsl1aB38+pGMaxeG3Q1/eZQrmKoKCvRh/xiOCWZtX+QncSvflK6R8RAffR7OjXxIVZ/c1stOuYt0Q/Lp0SkqFeiOk3a9MpQUoo76GcZgNblnwouLgt8Ouyjzz/EMuEwGI1M+JAeB/5G79OjutVI2qGOs6y1ZsDiYIY8suGyhBnXtByfK/1Ffc2ImpfSFZgZ5Dw2dtyPTDGCxQv8jVHf2EYNZxsEBFTBLGsitf8CdySnF0b2lC5eyWZT7XI6bsZ/OOa8I+oTxQwPQOVCuQYNlYRzNeoH6oenx7AHUvGYxFNZ46OxRAFCVxp+xqZ51n5AKCpDul0oaR1Wv6QMKnCKqOW0YSiOHwHsusL0zxCwTU2fwOLQLmjd58qSQwFomki9mNvo8cuD6X9UHTwlwLLuJTbCnagEmOrwVUZsLh5YrJQnMkMm8rDYywPravD5IphN8YjbdjvbMwqpT+K2xMtElcPp6owtLuweGgRYvLYDlxGOOFRE+gRZJENn1KPu/dItlyf+ya9zcPk/b0Zo2elYRXI+EIjIbXowJnlxqur6U+7nizWUlO3IvsYq+d05airYzEBVq5hvh6D3SF9MmSjsOhZ3O0lMbhTqf7D+jJ2p9i5kB2od7LVoUAxRAN4yZ/V9pj/aJbEi7Db8/x6eARaZsnuwdtc3xyHYtlXLkLFHuTGc22jjFzs11wx77wB/9ITjRq7BPO1Wf12g9r0e9Pcm2x3MY5fKHiDd0RjcKHdg1XONEhaJ+OAUfGiEH7eQNe/td+SJYeK9aFI5ldiMP+1TN2M6GBHNZXFPnYcLh70w5wg+K65MGZDRG8xt1KhpXY7sT9mBgPtPhE8+bHMJ5JfN3ruxqfR9cGH4MMoAv0jAw3DaWnkQCtOV11hv2z7nHwvfu0OM/0NHLBEuM77I9LNbjp/qSHpIS2hbtOq4feihatR+gq+cYAOZiJgg5VPvUYo7HicKeFWsZIwpxP23rQBG6apUVXmfN7MnbGbpuCX7qf7TTvGYk4IytPMm2yeOMtkjQtLoBKlqxh97pfbhAJXmnl8KpvlZ429zlGlp1va1dt5OwxYmxT8WjA46Yl5uKN1/vOlqlUSP80nqN9HcPUj8K3ugoxCqPTGbnTO9xQIyACkgNMIWiTrqocmGx2zrCnX3baLb3a/yUirGCMU+RJTEonX+GcmqkhjcJoHvFSu0vyZg0/jAsoFWS0U3+M0lhwV0ez4yypnBg4jzNI7F+nhGnRsbAEo37hRxMYaWemY4KrIKM+RZXM0iLOGBF1wuij6AJOn6ICpRCumebev4NjqZMOVdojDGJsYZ933CHU/EBBlvbfhh/Q5v1w6E8extmLSLlzsrF5hwVsOPf/0FXk4BaLUUiKUVXkt4HiaP9IU8Gs4Frll9hKwJDzn/QcEhEQ0E9Cfj7HoFbdIenUUZwz6Sltp4h4o8X8AHUfChUp0ogFpVIDW2uRtcXGhoGa3gd1jCChhMSzsgiBv0dzeJMxRla5+w04cunEYYnllR7G0rQQDW70c/JvfupfdbTeHTjv1ZwnLdxE+9BS63cjfmQwaGo/5bBG0ekf/iJPAhHZ23zpFh3E5c6xPkfuf5aeIwzP64krA25LoUfYjaP8d1LJ4TKdm2jKJECuoD1ZcfWwao1w3qLKDlRWE+ed/VZeqLKZt9DJ9CROLRO12xI1LgKksZBY67x7QyszRMSz4/NvppRBGk56YJvsuDhwTLmkw66MPqyw/Y5/IgbxFuKijAjgIZZJuO7YsUtENgIvUiGArVKmeKNGv1feb26D/UKVaxNQP0dZTHi3Wfmay3iwOo8uyjmqj+cEVbT8cVS4kBI2QW/g0z6BvNMPOBc35MGdAl3/DnI5qDTnRFH2wMO57GLJxHKINs++ZuwmNDHPaBHLaGC9Bt6WaH01lJFQpeCjfhBcWtO+AVoOwmyhONYlHdLSsbSe7ZDyeD/C1aWzIXAKQrE3VlVIh/TEr2sg8mR+3b99TdWVTndHWDS1csarPUyj4+3c0WwPdHzt7Yl8rzWztwqOImjD21A1Y0TBmfOsKWZPtAP5cXg6IQGGxk7CxeDfdujI56Gb22hph9RgvTywVTLvVNdFIHcs5kqryzl5ni6MCG9K37WaSnaX2mqT1FYYLXCcaBTjbeAdeC8fbYq+U1dfzLC4rQmPjnHMrlwTx/SSrBUQDfxMtwruhhZhuHMjstelu7MgKlPQsNBv5fEYcTBnAWIYN9V+wo0xZEQBpwwDJOx9rQ2320/Da2cg85YntCuAQAizT8HcfggKfl0Kv9hxnv7iKw3f3xZ6x8/8mmQTIBE2rwRg5HBe5PRxhNWxC4uzQ6okF9elpBIa433ST4uN9AO8zE5NYhkN4RVqm7l3iHLai5cUfWmpZqRQdEUYN0Ni1V5AhkeKBBJb+Quix8EAYr3hPFZMDBaUbA0JquhsnFfFGE9JfDuDHdZ0V/eCC1q1W2S+R6C3FRW6DOsyoPYoJ5JiKdM/QBVh9OxihVq+BVSKcIIr+SxTTRQP36Fj/BRf9ICLcGsifXdsusRHTnlADBeqkLjuHpFBVQs8MRM+rEYEGC/4S0Sda8T2Q0nopYy3rktkxR2mwFRo/J06sxPjbpb4LaNy35hELmIH+hScx0TNbN8/x/lN4jPBs94eBG/D+CGuInXBoUytQLe+WHIbUmipDDCoQg6af+PmFRV6mmdEaOgzQcdqBQMIg3F4fMP97uQzrQ/1MbG9yW7YqT5QogWg3zcfRN8MX98kmEonaEXG687MAv/Lgz83055GGdKiwYenlevT/pK3Ja8ujx14OGUdUHJPP2RGk9OpwkIj8FnA5b4axY4y+CfGic6WpYIhAWXBkgXBPzEJ+o8IVJl79d5JsXFmg7zVSLXI9FfzePgIg6gA3+gTBkryb8VyHNb5640pioMVlMAZq2FoHMT1/E1CTfcXu4v88cAnHwhBj56WkaqVqdZosiRoIBTVfp0lbxXxb2Hp5KDebZsFqkY9Rkd5Yao2a5WsAo3rUltZLSpAyYDgawPCQyRjzZzkhoRCC8KsKgN4sTOGg23po+dUQ5Qe8P39O6A8gCHq8/GadEAjcLqes7JwBKXZJIaFSvN1P9ea7TrYv43UtKYAcbEVd3wkCJ9ZXaRciKq+Kr7PioTOWnGGmoIcr5KKOvHlIFZSkyC2OxOgmVfM+0svRzB0mFYjRB1Hv42YxhUjBMjUViHTJ3+xNtUKirmkiElvruhdswW1+BThkLF1C2zLO0vVBBJUeFE26ltaw5czVBo4MMbfP4gsHt53nTopbpsXdctr6QvlptcBk6rqX8uEKk/ydIIz2+FsNOlIj2wo87isJJ3hxgNCdHxI56r36vzvjh3rlL/qtXYmN2VuAKVO9Z0XLYtCAg4WFxPTu++xN7zPDJR3SFj4+IufDYORDe9AMBLQKQ2MX9lEvD2YB3pJUrMtDcOG/PaWm7+NHH/pt47Oi+xkC6onqbsyQVs1N37/pLdxdfseafXnGXVCloGPeUfZaObELwgpyJ1OYj7TgdMoiASL+Sirpu8Z/bj1sA8OcmfihNt5zAwq/8zmbXuWHEvbeOAQHbxvF1LSzY7vUxBoXMOXq4zdhvpryYTL2CC7GMYWStAbkfU9ox3GEcAM9my9bht2tRck148TalLMkTuafJnnKj3t7Il43b5jESB65jAC4wPnL0Xg25dvuRSo9roM+q2YH2CW60g87NoPh2ew6eSbnrLrFtDXQJUa+/kOHSxZsZEfUNYKBENJV0aCM68stl+hZvRgp9/aw5mTSc3eSjnjoQeaFVGldxdDXu47PxbEcWRmSOwDl9XfCh67TmyXpxkHCPObQiY9aTJq20KuPMYwSfCe5ud0EwI6tyGtR1LldTAQ/dtYo4k/2QGm4VUt+L+9tLMAg6UCXQ65qpn2L40rw6KwYZImQ55PDgNf4uJcXF0HK06MamKIiXd9/KjPjI3QP3LUrKvIvReVqAaG2jXbRbY32/rnNrT85XbFURjJZVtsq8HGh5KpAZD7jgVkcEB7POlqD7gRfFFC5Vo8I/UGoFCAkc/gVzmuzw/dd4rt2a0kUKGc3/O5F5SlkIaXsRvJ3+hBE9K4kKmYKhtlWp+hnzBhA29ayFhRB/4TQGfrCWjGqp5rGEv5KGpqZJahxofvEhyyLxaZk39gRebx1BauzKaxlkayj3Xqa7uaRZE9SNdUYfjbFrSt1Dr1QPqjxgFnL0cqnvFbw+PKukOBz0HObtKaC8lZCKlZhcHCo5YjXk0R5XEiv6Ql9rVpR2wQEnX6oYtB8ZIdVXPp04TRpce8RKCv2CRkEqvyl70AVh+Bx+16IN6AHx7jPxC4qiJMswEH1881o45eZMETho5xt+1ksFiQy4kBKverhEDXFZNpQu5TFVzN2PifnsxsrCpowJ4u2VeRcl0E9vb7RjLX9T9km0aB7znDANGIb0JdYhoR7ib1H04kq+8P4lQMHhfnTrT6EYTAVU9O0ATlEAMK1bLnmx+bEcZbcFCuCynyj03oVTjst+ZA07zP+2Gf78XdjiNFooCTganEEAFPAMdVy3+0UlnI/F8ZHMDBtSJ5tQF2pHGY7aw4DvDV1QSEDbfzNtjZizuyeDZb8rkaOhiDy+8E+YS2uTz/ttMugiBPxwvx2p4gqQPcbtBIj0ZVrWTOkkSo/UNf54YTR6pRrUDdDNh0QhblzC8hWCLO0ILl+Kobdf/0C/iOz0KyBqrnTpi6Z6K9N20yH6yKal1peGJlEurW75KObJgwA2wI0WfX6yqarXLG3jFHKor63PY/FilBNXW67Xn7rXRyxoUx4D44tIz3ZKFX4NcrlJFWC5DAaOLhnhL3DMg/SD+YZmZeGpr0uDvGzihnQOJmCpPXDjtLVebA77sN+y0zlcxNnVDtXd40iy7oqy6t8OPUj+34WL7NXK+ShrcGh6BtmZRhi4WviGFOHOHSFvfIKAAhJ+aTOC1A2I1286x0dcNoM0XL9bWPN5EhPgWOvU0S7JustFG8F7qXtEgicCh9V/yxGA2prHYDdpbgoOjLxGMOGTmySjU5N1t2RBHYW6A4ICq8YQ1FlevmEMTH6csTiFLB7CD84BO4x6gcE4fhEndw/CEd+GYmi5lEnvpR2MHNCH5Wkhm7oi363oU5ITMuZp6942cAe3S6GgvlQqljRy/0+b00t5r/Jd/4a5R7yUkZ7/QK/+UWe9v5+vWJU6IiowzzxMCXNFzCJB/ZmDX3EbHqCHJaK4s2mJwx7vzYN1IKorrIaygnTan8gcsjZqvtHJU+57qucu0X7j+M5U/NDmYbJONHiBz+wXVjQERNVuocRatmwGG/JvqR51mQm9ykaTib8LuwyUIF5nY2vtPSK+mStosCFD5Z45dQVI4JAgrI6h4sXN+rIXXplIGJmLtW+79b/bi9/7taHco+8Rb6XQU7s3jI/27w5mU8PKFvazJQVVYtSSpnQws5OeJnJkelm997F2Cd7EdCGhCfaK4Q8kLuxRzZzISxh9h3+G60bQN36XtWcY1JYgZIWGt7Sn7NHGcWC3jXSqOE1r6g2OK7lmn+SVQNFna7xW5bcQnZE9+S5OZjwFxIBBG8Wdij8qzMmtE6r1h/4qgaVZl9O1sBux79dB0a/9EgdJeubT2uSZ7L8FSEkKh4rdYINbUrxwb6S51oBmLetJnr+BOG5Jz1gsgJ2U7cRAntVrr994Tsyx5JyGWyypKCfint0nzKH5tmb5twnScpQg/C/JyKjkok6G7hGK37r1PePWAB9H5lH7uNkZECkhgkjsQDBwpKgEYqEMiF6BiuV23bCmPA1VK3XPj/uOUquk6UMqDa0NCAaRMhNlAPKkioXbDJvoncc2xedTJaSRRdcOhvGH8T7aHcqZCHFbVFnfIA9GI0ibUUwN0dO3/hEqXsR5fwixdBypwAFrVQyZ01qTNacA016NzqidGizbuvzGFuzmXN6neXFjNVTUNsyhLJ8GGZ0Ketf/vAnMqZkOLBSU0+BMA9an5ZN6VRuq+N93Rgllhn2P1coThJ6JnqxgbV3T7vi/DVsmMXOytGymMq9D+I/3ZxJRi+dqsFAKyGrrkcsCi1iURjmQsLK5YGId+dgpv1TAJ8EkG/7wnVf3+zuzfXcIoX/Xhkt5SQbHTXua7e75bh8zVBJA9nsaB1kmg48goszFOKBYjg53MMjjzdRW2j3PMkBWnkv1N29D97ANdjubI3UeUFuuiRYHnH4XkjSMLZlkO/QPameyanTqdL6PkVv4/Id0zLx5tcVuCVbyAiaz/jznEGctg+lvlwrqaT4RGZE1fVNm7Fq71XhYdQpOcdeyi7Cb3FhSRAtuUENnlcnUDQZ55394zrzttqweyGRdIZteJZkdqrDIDjNk2mb6SXD94xFLC8Ij7o+GewRAIIEyctTOaHmV1mKr+zk797ucY51mk9ne1GS4w20n0vhp18qIP//S85fhiPVXPJ015dXDEVgs68b1hEBLbAKLdjuUhxfUYW+YXADsLCGM+kJPpQgP++HAsOT30SMgdFu0S7ZI4O0MC1VQ+m3Kqp85D7Ad9/OffPMdWn/JQaRFwqlJ0n18PsAvvr2Hi4q0m7wi8NuRNJpwvkAzV4TacxtWM1ZTzsq+xbjGuq07T22PifwLWYOMHocgME57AbQutb0SGXGF+X+m0OQGlbioj9stNxdvRwnwi6ss6KPtHpetlXahAYbxOMWmg3ZltNm0JvgGqTrPKWI3cVRP33e/2BMlt/8fvLhMxfBhp1TVVe2fY5q/9wMIopaZYOjkSO9qdvazUbJwGj+gILmGXO3Y9Bm9j4Lyy1SpIzf9unfq94MewMosLWkTrRzJdTIJnmcg7jA89sHuEy2Dznr50nKUwDktSy7hJA1sqlSDdKrHu4P9fdyct2rceCE0AdDF9WyarX19I6ZlO/8uFJ4KZWA+u9Gs6+caGmxQtCHnSTclwmVTXpt4ZruQbdpjvN2dagmkOePkQ/ZtB5sOo7YZeULhBo/1stIINf0GzuK4QVO7tyyc+uFIz+YMWXCdZLB1SS+AzAAVdCz+BtR5l8/z8ggH74nsaLOw7zjDjZ2sN8NH73rQZ74C3cgmC7QI4JKrQXWpNPwdPO7JqRxREul4Jazm3SWvxioV4BYvNX7v6wOcyIWK38e1dj1zJagKr+IOv6/SnHtg8ULqPm6v/4S6LazEWeZbXJB7O7TU51ejmxjboGgOoehHI8Ts6/PaS+kqdkRsiiTcQfnySEn8Ial4lDXwIFu1UnkJomCX6n0ibv4vdg4iSfSY/gf1AVAr99EFcm3lrup0UbXvTRt42i3xSYopEcHN/XsSPerYVOGG0K9fVQgpDnV0Raoz9TsKL1v2ePmKWfCZAecwcet17DGWJU0W8ODQ9z95hXhVOdj0mwwpCni6WW5Q4o8cgoellYziFEQSpk3fNTVnZYGwJcj+RP8MxOhkbjmFZ7J1mHzrWEAHAozYhEb22UAYY29SaE+811AlwuuyOJykQe4MCZ17smulrcArv2IHsHVM4AgoFHiFMnnmuwPeacyF5wBgc3SRU3XoCrZzMwHqHUWK2DeWuVINefsfuRBFl0xpr184YlHtQVBbBj9dXH3OmuItfkBbi+JPpUBeIWI6HudnGd9cSe2iBUJwqzg41HCOHs+bAy74j+uMJT5afvZIBuA/R8ML+2SbTJgmUS8pW8/w+y3yhXGDDMYwU2Ah+HVaXZUnBA+XWLokFf7Jrff58Gf6TEijtXDcGU0t4ypbP/tldy8FR0XOPlCrMcJAC7mPID3UWCvnz2IMKPqgfSLCZca7V+mgiQixiw/TZzUMjn553MrOMYfiJgXLVS5E35stGjzBunNtk07uybf4j7e5xHk/5A7CwMsxPj1TxcYcW2Y1XnOdbQcfL+w53n0QaL901SjxMNq2XITjaapwxCTlURdImfYu//itekX6Jrs2T2gsU6RIvLf0/D4m9qB1+41SdsDhDevKLXqjkdgfJWHHPTjj454nCTa4PCcvq4Ege8cG3F0+Qkv519kft8ILT7c8IIzONIhSw4w5DT1qQLK3ewup0eweR2BPDIKBgYcvWizqqlqs4fd1u6OBqZrdPBGgAlnXTFAgAQQK6d2e9Ye1dNqaZ8xAw73kEYj344yzquBpbNNrBfHC9lBo2uG0ccspytY3qzrtHdCh0yZtazOJ0S6gpikQfKnILkpRIRMgC2N9hbdm9yyO2EjtvG5yszkLG/yxflsyjKAokMgZVyBe8msxQj3dCTExg9Dr4U8OrusSSYdiHpO7zThOuWuDXdobqbvwlZCaUPpnou038cSeDUkiGgKQICXFJxBXrsA9sq8dY9HjrE5MtMGHhfcJGk40e0OV6dUN3881yKPf7Jo5V1E7kz9BnmwFeOS7ZYGJHURHZezDWIE4KVLD3/CMyHJs6nf+w2uCekB08ejn7T1ccTo70KpXBlHTv8808JfxkVoP7vrwvWL9JAXrJLQUmq9yLQUwo6JwcyHkajD7sAwX9hVoMIcpClSBXsgwc+Z2xofiYnEYY/0vvTR0JCww4q2CPvl0+proBOpHCyT4BMD6Y01s3PIqWwTw2BeIU1J4r98nzp7DR7HbtOTKL5crHa+ZwJ25UVJtcqdvjT5Cz0A9bHwn6KdiZBb8vW/HQl4tMeav7ce2RUMWOVG9v/uGVakAqMKpE16ipk2kO6Ci+wiSGy2J7cOU8KLTwebR9jqUKNaIZ/QBElRoyaW1f2LTGMlr0sQww2pkqsbDFNmorTFyW7wDLvyKPQ3pKi2t8i2LIaao5zRYUlUJPW3yj7btSAxvrWGJUvHb6QxeUl8++nBqfw6Vd2ZWSo3Rw9Vlv9mhA3NWD2b9qqDi4C/UVHkeC8ZUVv/IMyq5bwg7feGDeyqx0vT12z0h4kCamfnVc6dhykHNkneDscXdi2lD7/1ZTtK39LEfb+em6f1HtctXy963aH6vmQbYIkj1mKDyx4H++o97rSM9TfzmhusbnK0dVljI8FM+lFPPQyzdp5r1/Q3VBt8JUizENf7k6Q7Z4WDEUucOsFfTTRNtCojRh0o9kSIs+x6vh8TOxuRceauoW8LeHvEJT+umZgat3XFY/LK9Zmx+VoJ3SzN3KnXiYbvE9zjH+94ciOzRj5Ju4M5CmezODRwxDThVa4bLI7Q6jHYbZkZ8MS1JvfhRQvuFSyN4vPT6rsQU9Zl+JSn8DZBzmP5TLC6exMpy+xO7KRGcoRXZyDJ6e5dvD03YEgn1QB37NKhDPQflg4WCPqrG2L/3Hs0xObhCliSc24Ch0TxMWXtR2HAImNrchfK7BtPOYmsFIe9qir7A7OZcSl+BwXAi+sAMsayua1IN19dX9S66d9dNthcXb4C32gUntA1E4xhDwJJDHyKxaaJIbqgB71WbBru2ktlJgQn5sywdpDxOI6OeaGQcYUmW4d4OxNxzvCldQdBJsWfnf2ZDSk8v05n8gYQ7cu/SZZYKbZkOKPXhVqBmOdzOfbZkXvIw55OLoENVk/pnlt3WvqqQByTH+cdRnFAVAxGgGtxrAfL8Vnvnt7EXM2kagFXJ2Rzb4fQw2FVWGPUP0HErh++5F+vMS0GFltcF7rJzNIQUpKDYbGmCEBbCmyNJ0Sztx6v80qEohNh9VOy9llnNeLMFLy76cTcpJP90BXvFD2jGdexGXVieOT1bCjZ5QIjzC0Q3762Cqp+1ihIjQls9du4pta+5rnxp6ScI690OFg5bf7qPF+yE7LBh3npJxv9XaMQv8utmPQGBnX+MhWy9HTHNUCsfOOzJFAWysx1BnBk5upwKnl+lE1XpZqiG3i4LwF0pSZmZTcDE+aotIhMoqpq1xpVJcoI/tYLJfuyBmeN16fJ4DMs8awKl8KIUwdJHq8Dnsj898rGy4IK/z/PC+kTfVZm8ZEYb4X9oQwbGKCRe7ERjNK3SfB0gOfuI612I8UU0xjLC0NHjJnR9tL2793rvl0tR/svpddHn3ZoEpS8xKsZCZp/JlbHj76f6ZEjeyEMRVXWfCPKOgP1ALUzQzLkp2wQjtwmfgBRRjuVfbCTEXMb8HQ2EQTf+IHB3CXA067p3Yamrr+lKcUZudUzHJjYX18wMeIfZ+6PcCAM+a11JCgGizoCN7sZKhyh8wPfrzida5mZOANf+YaQJdN35CXOsMGvBvweYo7w9Je7mG3S1BOj7NRQyjXCWZqScalfYivHWV63pBLfjKpVFpPn/bEJcBqZY4qxfj36GFv/rKX4nG2Uj2Bq0p8qjAY7CNkhVuUgygmndWD9p9xmxsitehZ0TzgwGvCjLVqBV0OuaysqiR+OKpqNGskoXSwoN0xXnK/qF2W4KfmaTjUHELDGWVmzazfguxm7S8aS1N0SuKlQWLXQMchJb5YZev6GwN3HgzY4pebK9+nglJpln7WiTGZA3TN6+xbPNdCQSpnd2tADpwtrrpXRnz+luR9RzlR9LBjVVBG17rlM/PhTvSGB3fBjd+lOfDwW2yboc7TGSN4gYsZ3po/RymBkpzy/V8iDDElzwSLv7C4Ns9iQshXKPTUkcJ1KE1wfMOf0A7ytI6CmA7Lkyr+N6KxN5ng60cglmp3v0E+Qj9D1E9bBTG38/VfiY81nFtr4o1QBX1Edb59fvWUgMkDTT53UWcZ4lmpf7gzRheQGu8yE8NEKRMdDg9XfCahl8S8dQBVsBV5YJyggqUSoTGHXJuMgNL1HKkH4vjqYSovOZEpJzpfVkIQtvy8iq2jRPCtXaNaYaBfb2CVfeNq7tDk73CrykvVXa2ePalfjn2uQPHWh6la4JOp0/DyrH+H0euL9nM0+szILsktiJFqZNTahE6B84xhNQwk++vr7w/lQXcFU/w46IUjscCbieWKP+C3h6SCwUxuuebEwQJYXQX8s/3qap8MVYbC0QcFbtwSMlwKLpHYkzOmNWuxUaCBIkEFXwDKsuLqYiXrN6+AtsEEsFoN56ulVi9ralp/dVofM5RIDFjS8NFAGJSZtwtOx/ateVQltIVlgvzEOMBv5PP6UyAlgG3Jb9kX2SQenfTw84lGEFqo6WRfBYLGGfJqCHb+vQwHjKhNSrTPwJbii/lRgoNS0uV4gX9DmdfR0XJT7Yi3h7kbfIwaFFL5nND2cmqz3JrtuQoXXgyLfiUpNxNCV+A3mn4tcphDJiWGqVogdOaCoqFMb59vP/8iMLqSBfwVieZeHkQd1Pv/c5arXT4YGV04eWVEGNAXI38VaHK6NbBC5jBJWreLowxkCvp3P43mRNPsN6m6yUcIVniy6bRSZxVjQZb3/o1lLqwtqcW6SigiaQl9LcCJSxDquihCApliJ3brhGoAnZ6IHBNr4A+/5DW2QTAi6I4i4tHZT71m+FaqKNGx1F8NNUh4vyVvaig2RPKIocEp0VHtZ8Nsii9DpqIBogA0rTxsnlkq3UyMGdFFT9U1t1ihFTbIqowGsUM4+V7zEWHlaUaGX/8j3f1JdI6ks8xOZ+2ivqtUlAEt1lqqXCu9yeDS7IkbhfcQXFCqGnpegEWKfKzJXwfC7/uNlRFlxfd17+OuHahL1YuylC9v834b9t6cltoGQVhoL1d3XJq/Sv8xToytLgoXNog8siQx61vye2gLAoVp5ZfEKpHp27wNptFn1xcRN8WwUHwTBWqT9SRgeDPp0nmhJJF6dV6QXm7hLTx6fF0CcBorg7+CuIxACPg2yN5Qm0WnAw4a2zJJOFe+u/FRydovDULGsOVuDj1ZxUsrFYkV/XB1D9KmAaqO2OVlDMIol+iO6BPbsatF4gdtlJvlUbTv9FjcBezRvew/peYO3lfpK1vqjBFVi93tDZZH593g1hyypV/sPq4ZmTqtyIfO6O5+MXm+KqqK1MOZgyPCcu2H4CDfRZAoP/FAbUZRVcB3kVfFg2Vm4AeApXdMSKDo/+mNq9b0SuptTfq2J3jMl2++HZCz7wlBq3Durs3uPuGTyhPEii6E2t2TBANq6TYmuR26SMGbwLxnQQXIP1a7HUV8iTSkJDg9tjBAoh5SurXoF3bPejYXJzTiRNhTOzogO3sh3d0Yew559lesGEGk7teMMoohtg6zYL5c+dR/RXCAWDhYr3c3i7tM405hT5Y7SkcU4KGJ+vPKGis4PfmeADFux/faYrv0fdtVt9PBw8vjzVgP0cKyye+fEblBNKS+/3aH6YAjYK3CU6Zzt2a09UkxG/EJw+vjXGYyh5IxZifkkUZnd26lr0CuiC5Y6qDutCFydVahqwMNMnT9IPB2ZIrpVsQBCAhCa2/zQBhdCnQykZr6HyP4+JruhepuL8YNAWbUKRcxlfH5IWzU82nSz0cf+ccWGOt/f4U4fDDsv6gXXG8Fe9JXX5ZSqYJnsrQD5H1tkDR6KOmR8LVOQECs1M1LAHsNvvXA7s0QtVTkGeeOvamaJJWGI+xtsyvfMZ5Mpltg2lUOR79PjRlAXeeFnMkS/pg3gzB4JqMGe9MHJvavrxOud3Lame87NETOfj0uZhd5IrzPqBzaBEtjW4VS/WQJYwguCOwAxl5PKsT2JH+PkDiVU6A0L+GRSyGrOKQWgJJmHUVlGmdJRdSctico5kpMzsBiyrOa5MJx8Rn4OMtC/dIdSBPWpNwNy4+LeLuMSmeCGg/FJv32T2KHi0FyBMTDiLt/JUCtpmoIt1XkUJ/PZsmNlzOJzAOefeSws2ANl2bn6R3JZO9PZNgaFDX3yD7wPxxfypaek2Ipyai16/A95ce8zhzFfAZUpaEo5CM1fuECVOnFL+gHKQ27s4PZnLXysWfF4KmU6wiW+MZhu/Vwamr5qx0ivE8PJguG9bZ5I9/uvKqJPejYpopc9lnwD0vJETs6K43quXl8fj9FcUmRSsIjdIvQLf0woKepi/aHFOTDHHZfH6J5hGH5qXp4M1Xg/lDI2/lNLgkzTxZec314OfLOjs56NqVn6g1srr4zb5EUq1DtIpfN63lqu8hf1NUvMwBwZMsRXB23KSS469VGMtQxoBb/DhjvgRZOqV9quyPcTm7qXbTer6Oh8/797dedVduyvLG7tV1L7f7xk5lWIrF5BbP/1bSi6KqQ2EZzYGCc58l1wx5wfzyoI4Z82AyrkChyqgi73Qi1rga4GfTaiDHZEJGCJPFkSbcKO2O7MadlO5l6KFJECB923/MAXjK2QHMhU1yViZ6XOxqCQARu0maFVHPz3xkEF3obSyxj+hmsXNbc+AVL8RAM2PX0NAKNzQlY3OVCbQPUB194KmsYYool+hlwVcyWibakRmWevW8jJlmqsyfCrrrUWaCVX07mLA9ep2D3gwZE402+Z7fbmOYA8Arb4c/WJ/btyUkGdeP05lCvXGeiGe5QqoQtsZyKirQlTGFHqlSDKmwvGJyJwE3dQGIOXDc4pjiKrIbJCAB1IIRdhtZ5Fwiky6cWyI1Z2pfYG0/iiawabO33u5pmTSFQe1zH3NJIJVhu2WQpdCwokclQ09VKu7NX7queLH4w6LW1ONR4Zz1Vgt2wisj71CpwDPP1nUcO3J9vEY7zGb4f/bq0K5GVLTAPHnI6a1SeiL0gwx0AtwIdevMR29iBdrCaycpP6WKNPHTdR0gdqzStIqJkzUTTojWPoeD8tcyuVr22Ll6Cm28+o3T/V3OYu0CWG7wb3LX7K8mUd0zE4mvQa7gjvA7XzAFQcnbYcboYlMZXJRuLEGm0wouRBceTfOguWME1HLBFF6Rtaky2z06JQZDk1uWySxj1k4SQPqEAlzOyZSkcijUSDXDK5lW52RWpNNMCXqJU1/4Xt3xuWishoVCOOI/OUUgl5mBvC5HDqy9Ddgs0Cy2fAqkXUNzHLfZO0CV0FKXb7rFZgIs9SqLkxXJKnAWP37n+8FWv1GskS4ssXH9xz6oWHFbm2/h90VUFM+sQMXDxYSJKmN7ZlAdCbsiH7WE0LrAPL8uVKTpV1McrEzaYtllaTyozFchxAm3Eyhw0xF2mnYwx19n9Wujloaue9jl2nscrXWg2LZ6ve5le8i0+pjGYwiMF2KJZCnA6ysDXYYLG0IxTCQos+ncpav4tO8HSSF1lDTBlq4W2irCXe5T3u7tbL3b4oDLCgSixmZah/vNMXMmEqOXFEBwqRsaB9c0Sa3WWndMTqYxzfy07Iwq0aBDKyjLjBr/gvgc8JAizR3dNNqTkO6x3o3BG6duPwqJhSnpuKDgV6rGyzrRNtQs6GxDLhu4l1vgttREaHnpTl/r/Y1YaK3jCm5SB8obkyO4mURgWwDmT9pYkWoZC6YOUnm2dH01vD8RnMF45mycHzeA22UeZcJtPQPCPECHl5qknaNTsjKNGeMXbYIocjBd07dnrGIQgOq/+WzpXcjrjhB2J/qHOHjtwDFVZKPrHLiVEPVyEzb00NATRvg+/jeNqkPe80IjpVNzOYYSH5vvleqF20qo8IRxaS960+Isgva/iGV67qbY5KFUOGdu8mUz5L5XD72/82sG9NGLSPa+GWJApZ5mwq+DYhA0DPqsMSfY+ykqWzZ7htMhKu9L9qGAjwHnDB1hdHiEiBBWNyLTqy8lDiFAPlVqfM4KheyMjpZVQNp9QXYBA3qntU2Y+XJKDGbXeDPcywlhd1zHauU03m9RTPihp0WywgLnedX8f+lw/M4Qnu3p227jlzsAtSAFRpWU5QEGDKTUER4dV3ta3rTl9CAhoXD15vLwG4YxMkNoyBntQZBQAfTA3JZkCCGkqV+5mQUI2P+K1xOYYjTH//eWXB9L2kRXwfJbkpaMfAnnF52gonoREPxHzdkYxRlXDolBve+arf0UqHD7JIltAKQdsjTha6R9aQbbRxo4sHER+EyJedFprpJdd6sY9/9j/W1oywjD9SWLcIl3jJq2hOHrjH+JBe/6Jom0/nSPK6RDBSe0r/axRiuRndCJhwD9qNEJuQvLSU+cFe6Onfl0EaPj1l1tNDBMZ3Jz2TivbNMqVYPU6b+RqBwE8j47lJUyUvpWrjRuW3hB7jNvKpUzLDC3sgX4n/1ZgpjV8IV9HiDxe5miVgyrzlqtVSx0uc7FhMShHt1z9OPwlLzQsDXiItNQ0TBu9nOoGpWKnXWfwtjaM3IYr2zaphvpEs1T+9/MWe7w62YMylgwRS2Mg1ad+/b6DK0hj57GACARx6x5xcK6msSk8+/D5tCdIbHL3/4D9F/CePVCY2PXbtbulSd8cJlr6lsq93HgwHUqrOlKhq3N8tJyYgZo+SAvCtqkxTRTujl9BHSdCrTaOpob+P7BHu7Q7dnOewbbIzKg8MAIoSHdI1pJVp7LTNnCADyNbPyf4+BPwqO8piVNLrWXoWmWNGxrPcjzH2lrm+J3qDqGE1nmFc8IA4zRuydNQjF6rWpT99XKHB264hU+P3ILSqw6+Ky4r+/Np+h1E2a04Ahj48Ovw01SSlQ0DIeiSVq8qXZInjU21wTK55rqkFMnDs29OduPGbXCjCRVd5pwRSuhaRRrcFLl3zTtCeBo7tfsB9K14xgq+a/I9eF/mCY3X/56MBPXMPDIMGzH6GU2zuuu+pt0Ad7f381RdaJunISlrh5vSdR42CAKBef+oG2rvVJYUD3Da9bpkn0vgzeVVCu+UYzU1EV7AJ7ssI4fIAGlELaO7jCS0XoAhNu0QDsvzGtSXD+dwjpTwhTWVzfztbGpTy/pGgkjQtch3QkvtuosKPcj3isIJIDWsfxEkPSuPRSmxPtHR+B5lLcu1gBNAB1eaYuPujIe1sK9oWBvUl6nFbo/VyhflcgYzPbcV6cyjsxhhUNMsrEaYimacPzbVIdLQ4xFdIgS5N7tBTHgfs4LOQns0yYEtdyXEEWhYO1/NLlN3ZjBlHuUpPehjbDlxd5lXH4tZngydxPClD4XPi1yuUY310Hy8arLqtupkGISQ+Ybo2QkEjm5lJjiliFrBiTV/d3/VipKKzNglUpXh5L5cKpu9ohYWvtmrPefQifnhYGesTGpPM02FW2OnQ+Xh/wynlXvkIUvwVgMNEZt2+51DjHLVwbZERRYvTderc8Tipg/lBLcC814MqaX68lNN/t11gCP6llwU2EkMJo3LR2ogjSDAhHUPjmTtXwgErr/si1+WfWTWUJlJFrVNdYhThi1IhVTgsHGFzWqMy1O6b31epZOeH0bhWPLub0RsUX6tUPbUbdIhjYnyjyvzW/eYm/1z67aQSUMEbTr+nZ8ChhCr9sDGVWzuc+lo45eYkhFiRE+FoM9z2HLLxk1oqVuCsXSSItd0S6WPoxROgwv5oiuZKa6urFU1l/2cBhHkqrvfr+6DdaXv5L6a6FfYYXFSG6DtQ6rRZxr+r4PU6EN5u/AzfCztcLc5JomjLUrgC9BrY8nregY/YXvGB5+avXi8YJx/0pubxw9VupNgjp+yTYInHTME3vy72oFWAoy44Ask0ivmyZtT5f87rds+lxeC4u/m7XJFlAcaK9JWiiGp98QrqsKiAWDRP/uvgyHc5sLHIv/UpBEdzK/E2Or0pTNq1JZB3yMC1iZ7T1g8+NYeM8OwHmgCqgjdq5xKqqle5cjEoQV6W/NgO/e4lJ8IMJkBA2rbUiQHAnDNeAeIXkWCgBwDsKfbsHu1CUiTs6AERAClDd7mxAfadG1EpGpxfd5bxYV3RK6xM1hWujxECrPu9qERw33A58/eCN3MKJEUq9egqUGY8w46cntFx12IsyAwIxi3O5Q6PJQfMnjPhFQZRVkm293VgecubTsXaA+AEJS88qYHZk4GyQjYRD9AKqmwG6GM3pdbp3+gO/zPLfmLhH9weYSQj8Rey9/z+cUdN+0drt76y0dn3sLLrp4DzpMoo+AEGrCkrFI1+Lk1tIV8BfORC+iQtBkcMMplcm16Ji27bfEMzPR1er+f1vsWA90RSXdWbdvVcy8dzXm31hxDglL1OZJH19a8PrcHseqyb0kDnVNGuClnMkKHqR8pTbKWb4KvFMS6fpVzb95IfbCU97JNFfRPD+NNlXFvspDYhhEJmrxzZDuaNt5VwO0sKfS1mW9EvLzuSyiU3C+3BdoAcTKily5kLN9pTZjv+hkebOwQeWY6HP58up7DqJKKyLEribdOmLTzZ49bP4NJ11NpHq5dpiJZgpp7vYVfk5mzv8mD9KzxeBBmKUmE5twDOp8b9dJvMeYP9dv2Z1qYT8Oo3AeZobkFwh/zfU4vqUCxGWHAwcESh5QWODoImt5XWx4gG5iB49Ibd7X6P2mt3qTklRT4R2mg+/jqmJ5J6OMxosfOX4rFmA9AIbDeJVHYB/DXJ5gdq64hUNADfJ4VgYf0j8zWkAvgJuCpZNno/j3ysWpwRgd0VeQPXwrownaoJqlFn207YeTjCg6iRfMhcswEj7Mcjv4Xr9hKxam+s7UvJ0b+NN570wX96ODoJ5027N8L1rpvcmQg1RCH2KVLDoJqUeYmMpCcuVX0D0S9B4JTMLUFShG1eY9wO0vzBhMI2aI3EbIzcnDjQLt9kRc0++wneW2ficig0147RKbYbhOoQkW12L8VTn4vWnRoOoHKrDAvs6DPW6Zh1aTcoJBXls31khI8bA6tFY1qipWRCYhyAjawpIH9V1V7S9RPkXkYtDwtosTecmLdO8FtQwCYXAIvo3J6mF+5wPc5UAQlBmmMb5kx1/iq2yj7D/WqzVYM5oGUsuo7rycrOB47KnQLT4azyqvlhZBimubyMqP2ogqt9ZnMl2DbKLLmDmJ3rAqne8DjZH+Z+0OzWR49BSUphP0hbzgqog0Lc7we7PjEE1G9DIWeNgLMevTOKq0znKqKpBVhcxgXZpdgEL+U4u9g9Kwhciys0rqHS4UHbMQtg4yWCiGAjEG6XtS4uYz5dedYLJmhUF1WBZasSzIxBTXa3uATVAHvoT5Aaei2kKhFFKshoUtSD0xPGGFTOpegsteGhT8ll3j407fFmuHw1CEwhslnFGKlOQiHZ7xMNaFfh2acv/LiMadMuHmelRXihQrYfhwsgoZVsaGqt1seiKoUmT3usAZOcmjuTYTdszLacwsUrsg6ObMZFknF3lIE8+oUAEWoW9XSBxZ1nY+PmGwHFknxDDUeoq94qupPOOAiDmKXmWKgJFgqbRshhakBuo5q7IdiCOgW2yMKmiBL6YZBD6AkhJGlGpL4VeKwoXoosiHAwYe6Ez3tUk5X2t+fi+NodOy6gauQVl5oFyUKZz5f0hKSl/n510rGRa3Y5/DgXX2GK9MCL1ATY+UJxh3lAHHIr+xOe4GAlLao9vrufRRP5H3jz69LERAOV2rnhmMQAt8XxOaVOsF4si6m7QOfj25CK2iWEHwgBE2leRHZgrb3I442bMDiwM5Nk9urSkvrQx1x52YVdJ55jm0N1kJ4HsszY/W1Kv/Rd7Vei+wLp5dOvTP0XHiTZYOg4bOHCSp9mHxDkJIPmFKjFANipXcFafOBAWhg5O0W4Ukl7dHZ5WUBQd3AzVl1PvzogSmyUc1+pgG6k1rArNRORG6MPKb8JXgobQA5WzBAH1WfIOlt+9rQ9FKRRhfTpS+J9//eNhwrAjiJKwlWBmXWnXYT0myrok8I3MhwGce8vbgWotq1nFdfP1BskKPgS+joVGjXN06nU1EC7ceQqcWXOY3RxymuLH9BNcNpXUKXxa4aIC4u9GUz6Ed5lKXYI2T0zHl8/s5qg/GVdlQRY+eTsbYieZ5AWnBOldngBA/2vDKSpfWhWxv1Ch9+g2WBRE9ty9NLdW4JwAAA="
+	},
+	"settings": {
+		"page": {
+			"paper_size": "a4",
+			"orientation": "portrait",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"traits skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"name": "ST",
+				"full_name": "Strength",
+				"base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "dx",
+				"type": "integer",
+				"name": "DX",
+				"full_name": "Dexterity",
+				"base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "iq",
+				"type": "integer",
+				"name": "IQ",
+				"full_name": "Intelligence",
+				"base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"name": "HT",
+				"full_name": "Health",
+				"base": "10",
+				"cost_per_point": 10
+			},
+			{
+				"id": "will",
+				"type": "integer",
+				"name": "Will",
+				"base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fright Check",
+				"base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Init",
+				"full_name": "Initiative",
+				"base": "($dx + $ht) / 4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"base": "Math.floor($basic_speed)",
+				"cost_per_point": 5
+			},
+			{
+				"id": "senses_sep",
+				"type": "secondary_separator",
+				"name": "Senses"
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "vision",
+				"type": "integer",
+				"name": "Vision",
+				"base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "hearing",
+				"type": "integer",
+				"name": "Hearing",
+				"base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "taste_smell",
+				"type": "integer",
+				"name": "Taste \u0026 Smell",
+				"base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "touch",
+				"type": "integer",
+				"name": "Touch",
+				"base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"value": "Math.round(-$hp * 5)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"value": "Math.round(-$hp * 4)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"value": "Math.round(-$hp * 3)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"value": "Math.round(-$hp * 2)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"value": "-$hp",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"value": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"value": "Math.ceil($hp / 3) - 1",
+						"explanation": "Move and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"value": "$hp - 1"
+					},
+					{
+						"state": "Healthy",
+						"value": "$hp"
+					}
+				]
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"base": "$ht",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"value": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"value": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"value": "Math.ceil($fp / 3) - 1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"value": "$fp - 1"
+					},
+					{
+						"state": "Rested",
+						"value": "$fp"
+					}
+				]
+			}
+		],
+		"body_type": {
+			"name": "Humanoid",
+			"roll": "2d",
+			"locations": [
+				{
+					"id": "head",
+					"choice_name": "Head",
+					"table_name": "Head",
+					"slots": 2,
+					"hit_penalty": -5,
+					"calc": {
+						"roll_range": "2-3",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"hit_penalty": -7,
+					"dr_bonus": 2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 2
+						}
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"hit_penalty": -5,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"hit_penalty": -5,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eyes",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -9,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arms",
+					"choice_name": "Arms",
+					"table_name": "Arms",
+					"slots": 3,
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "4-6",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "hands",
+					"choice_name": "Hands",
+					"table_name": "Hands",
+					"hit_penalty": -4,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 3,
+					"calc": {
+						"roll_range": "7-9",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"hit_penalty": -3,
+					"dr_bonus": 1,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 1
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"hit_penalty": -3,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "legs",
+					"choice_name": "Legs",
+					"table_name": "Legs",
+					"slots": 3,
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "10-12",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "feet",
+					"choice_name": "Feet",
+					"table_name": "Feet",
+					"hit_penalty": -4,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				}
+			]
+		},
+		"damage_progression": "basic_set",
+		"default_length_units": "m",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"show_spell_adj": true,
+		"hide_source_mismatch": true,
+		"hide_tl_column": true,
+		"hide_lc_column": true
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "dx",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "iq",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "will",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "senses_sep",
+			"adj": 0
+		},
+		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"current": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		}
+	],
+	"traits": [
+		{
+			"id": "TKT0keOg2uJJV1V4X",
+			"name": "Advantages \u0026 Perks",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "TV5ljep6sdl7RJ6q1",
+			"name": "Disadvantages \u0026 Quirks",
+			"children": [
+				{
+					"id": "tfy7k2FK6-mxUbS33",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzt3FQiPe2cmVzpVT"
+					},
+					"name": "Brontophobia (Loud Noises)",
+					"reference": "B150",
+					"local_notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "action_penalty",
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t3oZCRMILyb_V5oac",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tuYiQV8SE62EPDnuX"
+					},
+					"name": "Klutz",
+					"reference": "B141",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 13
+								},
+								"which": "dx"
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "mfme_TSoiSLScUbSi",
+							"name": "Total",
+							"reference": "B141",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "txbz75ifF3akl0_JA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t49qcxpm53kg-OdPj"
+					},
+					"name": "Odious Personal Habit",
+					"reference": "B22",
+					"local_notes": "@Habit@",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"replacements": {
+						"Habit": "O'koptera obsession"
+					},
+					"modifiers": [
+						{
+							"id": "mJLBR5I_Fda_9v2V0",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "mOCWrIDXeX0AlgoRI",
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mieYf6wsKgSsGhBzT",
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5,
+						"resolved_notes": "O'koptera obsession"
+					}
+				}
+			],
+			"calc": {
+				"points": -20
+			}
+		},
+		{
+			"id": "TSXg8oFuUA2S-CTgM",
+			"name": "Languages \u0026 Culture",
+			"children": [
+				{
+					"id": "taCnN-vMU2RWVC1AX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toXBQ8q4Nek5lsLPF"
+					},
+					"name": "Cultural Familiarity (Te'karn)",
+					"reference": "B23",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+					"modifiers": [
+						{
+							"id": "mX3guhrevwDTZFV7L",
+							"name": "Native",
+							"cost": -1,
+							"cost_type": "points"
+						}
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tb-RJm-mvvOX-rz-n",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: Amate'karn",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "mKGLlNt20IaLavyFJ",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points"
+						},
+						{
+							"id": "mBmG5sWoiZyP8t8pQ",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m1LgMp2C4MMc8sU9u",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mE8OoY_UHxQZcJJKy",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Conversational",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mwLN1Gz_9gbNe4Z92",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Fluent",
+							"cost": 3,
+							"cost_type": "points"
+						},
+						{
+							"id": "m4e-hFEAWLurEGcx_",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Illiterate",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mic5jYjUucUGXsZyl",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Semi-Literate",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mMrRfE3l9liJpOTGz",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Literate",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "myL8TXSG83VHjKUkQ",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Educated",
+							"cost": 3,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "TvPGaaiZOpNDUs1Wr",
+			"name": "Other Features \u0026 Traits",
+			"children": [
+				{
+					"id": "tFO9HJZDlXOId7-b_",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tD3dK_tLhE4F9lCWT"
+					},
+					"name": "Attributes: Child",
+					"tags": [
+						"Attribute",
+						"Mental",
+						"Physical"
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": -2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "t5r0NxTg4R9oimJ_0",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tuitUP-5ouHHoHtrS"
+					},
+					"name": "CdP Natural Attacks",
+					"reference": "B271",
+					"weapons": [
+						{
+							"id": "wHOBAU3xF2EhxU2-k",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Unarmed",
+							"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"level": 10,
+								"damage": "1d-4 cr",
+								"parry": "8"
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tybagLLDp_b_W_z-m",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tV_f_75HmwzWOPhuu"
+					},
+					"name": "Reluctant Killer",
+					"reference": "B148",
+					"local_notes": "CR: 12 (Resist quite often), -4 Action Penalty",
+					"tags": [
+						"Feature",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mS3ecdKhzkRT-8PM5",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "TA74EWfNPWzigmO2X",
+					"name": "Te'karn",
+					"ancestry": "Human",
+					"container_type": "ancestry",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "sPtSzKu0vJDD1iktO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sRzoU2_LS2s4r51LA"
+			},
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"replacements": {
+				"Specialty": "O'koptera Facts"
+			},
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 3,
+				"adjusted_level": 3,
+				"points": -3
+			},
+			"calc": {
+				"level": 8,
+				"rsl": "IQ-1"
+			}
+		},
+		{
+			"id": "slnoW7n6iwtl-ur2_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sTZDWJpkF7w7CYYRT"
+			},
+			"name": "Speed-Reading",
+			"reference": "B222",
+			"tags": [
+				"Scholarly"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"calc": {
+				"level": 8,
+				"rsl": "IQ-1"
+			}
+		},
+		{
+			"id": "sNQcFBag1EnWX_tBQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "svEm7OyeCu_9wJ8Kk"
+			},
+			"name": "Stealth",
+			"reference": "B222",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "DX-1"
+			}
+		}
+	],
+	"notes": [
+		{
+			"id": "n1M0LL7_kTbghQHr_",
+			"markdown": "**Umbrales HP**: \u003cscript\u003eMath.floor($hp / 2) + 1\u003c/script\u003e (\u003eHP/2), \u003cscript\u003eMath.floor($hp / 3) + 1\u003c/script\u003e (\u003eHP/3), \u003cscript\u003eMath.ceil($hp / 3) - 1\u003c/script\u003e (\u003cHP/3)",
+			"calc": {
+				"resolved_text": "**Umbrales HP**: 5 (\u003eHP/2), 3 (\u003eHP/3), 2 (\u003cHP/3)"
+			}
+		}
+	],
+	"created_date": "2025-07-28T21:54:22+02:00",
+	"modified_date": "2025-07-30T19:47:57+02:00",
+	"calc": {
+		"swing": "1d-2",
+		"thrust": "1d-3",
+		"basic_lift": "13 lb",
+		"move": [
+			5,
+			4,
+			3,
+			2,
+			1
+		],
+		"dodge": [
+			8,
+			7,
+			6,
+			5,
+			4
+		]
+	}
+}

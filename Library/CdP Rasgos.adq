@@ -34926,6 +34926,48 @@
 			}
 		},
 		{
+			"id": "tLo6D_jFVWG2E_e2w",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tpVAPTgSu9gjTf1IB"
+			},
+			"name": "Vibration Sense (@Air or Water@)",
+			"reference": "B96,P86",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m0LE3vf2oH1U6uauc",
+					"name": "Universal",
+					"reference": "B96",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mEoIhABS8oXuLXBne",
+					"name": "Sense of Perception",
+					"reference": "P86",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "mJeaZiJ0QjQKEAc9l",
+					"name": "Targeting",
+					"reference": "P86",
+					"cost": 20,
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
 			"id": "tNBAVxuRwBSHXpUvT",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
