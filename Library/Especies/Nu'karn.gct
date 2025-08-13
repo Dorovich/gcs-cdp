@@ -136,7 +136,7 @@
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "t8duh7FJvBdSs4NOb"
 					},
-					"name": "Restricted Diet (Living matter)",
+					"name": "Restricted Diet (Living Matter)",
 					"reference": "B151",
 					"tags": [
 						"Disadvantage",
@@ -144,21 +144,21 @@
 					],
 					"modifiers": [
 						{
-							"id": "mCXYms5IXTnEH7aGE",
+							"id": "muXzBImBigPxx__2w",
 							"name": "Substitution",
 							"reference": "B151",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mM0b92msbZFYZI456",
+							"id": "mPsJY61-U3cqVq-Dx",
 							"name": "Very Common",
 							"reference": "B151",
 							"cost": -10,
 							"cost_type": "points"
 						},
 						{
-							"id": "mL6XfTG-jdytg9MRX",
+							"id": "m5Ae9rCIu4PoH3LvE",
 							"name": "Common",
 							"reference": "B151",
 							"cost": -20,
@@ -166,7 +166,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mreS16bXUJ344SyBr",
+							"id": "meipBuC7kHHTK6vDj",
 							"name": "Occasional",
 							"reference": "B151",
 							"cost": -30,
@@ -174,7 +174,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mVOW-GBQfJ1omhe2v",
+							"id": "mJV7hJutlEueIa8J_",
 							"name": "Rare",
 							"reference": "B151",
 							"cost": -40,
@@ -220,7 +220,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mQFGNhEMag2JgyUy_",
+							"id": "m5HRqoCAAzJS7GKO4",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"local_notes": "Gives +1 on all rolls to deduce your secret",
@@ -236,7 +236,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mWELEEq6KF1TpTVbJ",
+							"id": "m8yew4cMUYU4q0-oV",
 							"name": "No Body Heat",
 							"reference": "B157",
 							"local_notes": "Can gain warmth temporarily, such as after feeding for a vampire. Gives +1 on all rolls to deduce your secret",
@@ -252,7 +252,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mSmZZaAZl6w1eBv-E",
+							"id": "mQkma08q5QmWOw8W5",
 							"name": "No Reflection",
 							"reference": "B157",
 							"local_notes": "Gives +2 on all rolls to deduce your secret",
@@ -268,7 +268,7 @@
 							"disabled": true
 						},
 						{
-							"id": "moEOd4x1KbXUYWkHq",
+							"id": "mZzBq-qpfRIS4yg39",
 							"name": "No Shadow",
 							"reference": "B157",
 							"local_notes": "Gives +2 on all rolls to deduce your secret",
@@ -284,7 +284,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m6W4DhNgfSlfVyy0J",
+							"id": "mOV3btg8d1NWT_9ES",
 							"name": "Pallor",
 							"reference": "B157",
 							"local_notes": "Gives +2 on all rolls to deduce your secret",
@@ -300,7 +300,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mUZIrzkHStE_Ds8IY",
+							"id": "mW6ivahNn5he3TYYd",
 							"name": "Pallor",
 							"reference": "B157",
 							"local_notes": "Can gain the flush of life temporarily, such as after feeding for a vampire. Gives +2 on all rolls to deduce your secret",
@@ -316,9 +316,9 @@
 							"disabled": true
 						},
 						{
-							"id": "mBB7F1mRMZ1KWzfsJ",
-							"name": "Vessel",
-							"local_notes": "Unnatural physiology",
+							"id": "m4Kwl9-fDs8Kedr4J",
+							"name": "No Body Heat, Dark Blood",
+							"local_notes": "+1 on rolls to deduce your secret",
 							"cost": -5,
 							"cost_type": "points",
 							"features": [
@@ -332,41 +332,6 @@
 					],
 					"calc": {
 						"points": -5
-					}
-				},
-				{
-					"id": "tCruFI2-I7tQHX9gr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t1w1RFcFceKR2T9_e"
-					},
-					"name": "The Fifth Door (Ajar)",
-					"local_notes": "Halve K-shift penalties",
-					"tags": [
-						"Advantage",
-						"Supernatural"
-					],
-					"userdesc": "Unusual background",
-					"modifiers": [
-						{
-							"id": "mLWjNQHD1otV7tk79",
-							"name": "Unusual Background",
-							"cost": 5,
-							"cost_type": "points",
-							"disabled": true
-						}
-					],
-					"base_points": 15,
-					"features": [
-						{
-							"type": "conditional_modifier",
-							"situation": "to Body Sense skill when in a K-shift.",
-							"amount": 1
-						}
-					],
-					"calc": {
-						"points": 15
 					}
 				},
 				{
@@ -453,6 +418,41 @@
 					"base_points": -5,
 					"calc": {
 						"points": -5
+					}
+				},
+				{
+					"id": "ta7NwVfjrT4WBRpUB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t1w1RFcFceKR2T9_e"
+					},
+					"name": "Unusual Tempo (Dissonant)",
+					"local_notes": "Halve K-shift penalties",
+					"tags": [
+						"Advantage",
+						"Supernatural"
+					],
+					"userdesc": "Unusual background",
+					"modifiers": [
+						{
+							"id": "mfOI2vaC2sY7hPHw2",
+							"name": "Unusual Background",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Body Sense skill when in a K-shift.",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 15
 					}
 				}
 			],

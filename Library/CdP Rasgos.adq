@@ -10250,17 +10250,25 @@
 			],
 			"modifiers": [
 				{
-					"id": "m_83b0WbS5uDge6Jv",
+					"id": "mVF60lt-d1VjUYgJ-",
 					"name": "Emotion Sense",
 					"reference": "B49",
 					"cost": 50,
 					"disabled": true
 				},
 				{
-					"id": "mge5BOaD7uj6ZePnw",
+					"id": "mAhGGh140ceompfCw",
 					"name": "Profiling",
 					"reference": "P47",
 					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "mu1QKl7GNYdqj8kQC",
+					"name": "Vague Emotion Sense",
+					"reference": "B49",
+					"local_notes": "As Empathy (Sensitive)",
+					"cost": 25,
 					"disabled": true
 				}
 			],
@@ -11874,6 +11882,108 @@
 			"base_points": -30,
 			"calc": {
 				"points": -30
+			}
+		},
+		{
+			"id": "tu-7-cpVZjpR1kMZF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tBmSJ3pNE53c4IRUU"
+			},
+			"name": "Exoskeleton",
+			"reference": "B47,P45,MA43,PSI14",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mPoEADFT-xppxpAdA",
+					"name": "Directional",
+					"reference": "B47",
+					"local_notes": "Front",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mu1FzJwEIxaJrAQqP",
+					"name": "Flexible",
+					"reference": "B47",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mP_vnKxEyleOfIvRU",
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mfkxSKvw7GadQEs3o",
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mnBD5BTzFUP7Vy5hy",
+					"name": "Directional",
+					"reference": "B47",
+					"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mketZMpdE-a_ADE64",
+					"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+					"reference": "B47",
+					"cost": -10,
+					"disabled": true
+				}
+			],
+			"base_points": -3,
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": -1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arms",
+						"face",
+						"feet",
+						"groin",
+						"hands",
+						"head",
+						"legs",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 2
 			}
 		},
 		{
@@ -23761,6 +23871,87 @@
 			}
 		},
 		{
+			"id": "t8hE_K6pBuoiQbhVZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tBmSJ3pNE53c4IRUU"
+			},
+			"name": "Natural Scale Armor",
+			"reference": "B47,P45,MA43,PSI14",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"vtt_notes": "As DR (Flexible) 1",
+			"modifiers": [
+				{
+					"id": "mCaD8nYtWPjl4AkCr",
+					"name": "Directional",
+					"reference": "B47",
+					"local_notes": "Front",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "maCsmVHaR4tw-a1x3",
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m8hIuXRarckKh1iJb",
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mCS0TRw9cCCABZDoG",
+					"name": "Directional",
+					"reference": "B47",
+					"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "m711qhecB6p8xevIh",
+					"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+					"reference": "B47",
+					"cost": -10,
+					"disabled": true
+				}
+			],
+			"points_per_level": 4,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arms",
+						"face",
+						"feet",
+						"groin",
+						"hands",
+						"head",
+						"legs",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 4
+			}
+		},
+		{
 			"id": "tp2yjv_PuAUGdC1G0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -29495,9 +29686,9 @@
 				"Exotic",
 				"Physical"
 			],
-			"base_points": 5,
+			"base_points": 3,
 			"calc": {
-				"points": 5
+				"points": 3
 			}
 		},
 		{
@@ -29528,9 +29719,9 @@
 					}
 				]
 			},
-			"base_points": 5,
+			"base_points": 3,
 			"calc": {
-				"points": 5
+				"points": 3
 			}
 		},
 		{
@@ -29561,9 +29752,9 @@
 					}
 				]
 			},
-			"base_points": 5,
+			"base_points": 3,
 			"calc": {
-				"points": 5
+				"points": 3
 			}
 		},
 		{
@@ -29596,16 +29787,16 @@
 			},
 			"modifiers": [
 				{
-					"id": "mJm-bCYCJSmI4LwTn",
+					"id": "m_8uQnbmKf_8lIDOB",
 					"name": "Video",
 					"reference": "TT2:44",
 					"cost": 40,
 					"disabled": true
 				}
 			],
-			"base_points": 5,
+			"base_points": 3,
 			"calc": {
-				"points": 5
+				"points": 3
 			}
 		},
 		{
@@ -29636,9 +29827,9 @@
 					}
 				]
 			},
-			"base_points": 5,
+			"base_points": 3,
 			"calc": {
-				"points": 5
+				"points": 3
 			}
 		},
 		{
@@ -33720,7 +33911,7 @@
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "touwUIFalnae02BUl"
 			},
-			"name": "Temperature Tolerance",
+			"name": "Temperature Tolerance (@Heat or Cold@)",
 			"reference": "B93",
 			"tags": [
 				"Advantage",
@@ -33731,6 +33922,26 @@
 			"levels": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tFmdBwbRQW8k2S0Bs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "touwUIFalnae02BUl"
+			},
+			"name": "Temperature Tolerance (Any)",
+			"reference": "B93",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1.5,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 2
 			}
 		},
 		{
@@ -33912,77 +34123,21 @@
 			}
 		},
 		{
-			"id": "tBuwJkh1KoxZgdlDC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t1w1RFcFceKR2T9_e"
-			},
-			"name": "The Fifth Door (Ajar)",
-			"local_notes": "Halve K-shift penalties",
-			"tags": [
-				"Advantage",
-				"Supernatural"
-			],
-			"userdesc": "Unusual background",
-			"modifiers": [
-				{
-					"id": "mc0POnbiDJtLiTGDw",
-					"name": "Unusual Background",
-					"cost": 5,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
+			"id": "twJtL5hss3rx598Cj",
+			"name": "Tough Skull",
+			"vtt_notes": "As DR (Tough Skin; Partial (Skull Only)) 1",
+			"base_points": 1,
 			"features": [
 				{
-					"type": "conditional_modifier",
-					"situation": "to Body Sense skill when in a K-shift.",
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
 					"amount": 1
 				}
 			],
 			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tnkv-AfH_Xa2YS2Ef",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t1w1RFcFceKR2T9_e"
-			},
-			"name": "The Fifth Door (Open)",
-			"local_notes": "Halve K-shift penalties",
-			"tags": [
-				"Advantage",
-				"Supernatural"
-			],
-			"userdesc": "Unusual background",
-			"modifiers": [
-				{
-					"id": "mIgcYEGOiCwjaqLKV",
-					"name": "Unusual Background",
-					"cost": 10,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Body Sense skill when in a K-shift.",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 20
+				"points": 1
 			}
 		},
 		{
@@ -34589,6 +34744,80 @@
 			"base_points": -5,
 			"calc": {
 				"points": -5
+			}
+		},
+		{
+			"id": "tnkv-AfH_Xa2YS2Ef",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t1w1RFcFceKR2T9_e"
+			},
+			"name": "Unusual Tempo (Disjointed)",
+			"local_notes": "Halve K-shift penalties",
+			"tags": [
+				"Advantage",
+				"Supernatural"
+			],
+			"userdesc": "Unusual background",
+			"modifiers": [
+				{
+					"id": "mU19sx5p9pKaj03rR",
+					"name": "Unusual Background",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Body Sense skill when in a K-shift.",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "tBuwJkh1KoxZgdlDC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t1w1RFcFceKR2T9_e"
+			},
+			"name": "Unusual Tempo (Dissonant)",
+			"local_notes": "Halve K-shift penalties",
+			"tags": [
+				"Advantage",
+				"Supernatural"
+			],
+			"userdesc": "Unusual background",
+			"modifiers": [
+				{
+					"id": "m_6IdLSqcFzJ66CIg",
+					"name": "Unusual Background",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Body Sense skill when in a K-shift.",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 15
 			}
 		},
 		{

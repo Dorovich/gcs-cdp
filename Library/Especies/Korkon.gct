@@ -133,226 +133,21 @@
 					}
 				},
 				{
-					"id": "th2G7vQm0vxc6m14w",
-					"name": "Damage Resistance",
-					"reference": "B47,P45,MA43,PSI14",
+					"id": "tothKmN3h1p3soX3g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tHBiRZcX2d5iKicWB"
+					},
+					"name": "Dull",
+					"reference": "B164",
 					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
+						"Mental",
+						"Quirk"
 					],
-					"modifiers": [
-						{
-							"id": "mU8SpKADSL11BoSvT",
-							"name": "Force Field",
-							"reference": "B47",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "m810GM7R-5-2gRMxL",
-							"name": "Hardened",
-							"reference": "B47",
-							"cost": 20,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mzvBzpIfClrHZz__L",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances @Trait@",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mhgdvthbKa3gggY-d",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Healing only",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mMGnttc7FCePIJLNo",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances any trait",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "m7XKovgdj_CAprfXd",
-							"name": "Reflection",
-							"reference": "B47",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mt1qgMm9Lu6m3Y1UR",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Rare@",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "muxY7X7ahhJQOOeby",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Occasional@",
-							"cost": -5,
-							"disabled": true
-						},
-						{
-							"id": "m7AFn0PdsPF3ij56g",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Common@",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "m15urW65YnJIhU5HH",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Very Common@",
-							"cost": -15,
-							"disabled": true
-						},
-						{
-							"id": "mhkn_POhm0I2CT7wH",
-							"name": "Directional",
-							"reference": "B47",
-							"local_notes": "Front",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mWP-09DFyd10u-P-I",
-							"name": "Flexible",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "m_saeY2MlfZw76xSu",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Very Common Attack Form@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "m3IMLxjKSvTYUzthR",
-							"name": "Semi-Ablative",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "m711SeLZpvSd1hnTi",
-							"name": "Can't wear armor",
-							"reference": "B47",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mJ4skJ48ncNw-L8XO",
-							"name": "Directional",
-							"reference": "B47",
-							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mnVxBEfpxWr_HCs6P",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Common Attack Form@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mXprlYOGcW8YsXE1f",
-							"name": "Tough Skin",
-							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
-							"cost": -40
-						},
-						{
-							"id": "mNBupcIvNIoCpE3K2",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Occasional Attack Form@",
-							"cost": -60,
-							"disabled": true
-						},
-						{
-							"id": "moxKjd4q-Ojokt0qi",
-							"name": "Ablative",
-							"reference": "B47",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mlDWNTZ14vM1tyhaY",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Rare Attack Form@",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mGqNFDPTmydZ-9UrT",
-							"name": "Laminate",
-							"reference": "RSWL18",
-							"cost": 10,
-							"disabled": true
-						},
-						{
-							"id": "mdxiNSf-Dd-ICy5Jc",
-							"name": "Malediction-Proof",
-							"reference": "PSI14",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mVxAXWGjDxiVfVgBp",
-							"name": "Maledictions Only",
-							"reference": "PSI14",
-							"disabled": true
-						},
-						{
-							"id": "mOAW9TRB210Nat8kg",
-							"name": "Partial (Skull only)",
-							"reference": "B47",
-							"cost": -70
-						}
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"skull"
-							],
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"brain"
-							],
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
+					"base_points": -1,
 					"calc": {
-						"points": 1
+						"points": -1
 					}
 				},
 				{
@@ -444,18 +239,47 @@
 					}
 				},
 				{
-					"id": "tPFAJLx5F4poxNZGJ",
-					"name": "Temperature Tolerance",
+					"id": "ttbxiFBN1Cdt8P4mt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "touwUIFalnae02BUl"
+					},
+					"name": "Temperature Tolerance (Any)",
 					"reference": "B93",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
-					"points_per_level": 1,
+					"points_per_level": 1.5,
 					"can_level": true,
 					"levels": 2,
 					"calc": {
-						"points": 2
+						"points": 3
+					}
+				},
+				{
+					"id": "t_30K0AVStr0UUQJz",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "twJtL5hss3rx598Cj"
+					},
+					"name": "Tough Skull",
+					"reference": "B47",
+					"vtt_notes": "As DR (Tough Skin; Partial (Skull Only)) 1",
+					"base_points": 1,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 1
 					}
 				},
 				{

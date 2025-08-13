@@ -2059,13 +2059,13 @@
 					}
 				},
 				{
-					"id": "TWXByknlij3bxojpu",
+					"id": "T5Ta7Qq5aFBWVJ8qz",
 					"name": "Korkon",
 					"ancestry": "Human",
 					"container_type": "ancestry",
 					"children": [
 						{
-							"id": "ttXr1Tgn18A9-KkfI",
+							"id": "tRBmphxuNEbMvosKi",
 							"name": "Attributes: Korkon",
 							"local_notes": "ST+1, IQ-1, HT+1, Will+2.",
 							"base_points": 10,
@@ -2096,7 +2096,7 @@
 							}
 						},
 						{
-							"id": "t6HjoYfSWPijjU0IT",
+							"id": "tM6t4QmPkDMSmWhQn",
 							"name": "Crushing Striker (Horns)",
 							"reference": "B88,MA47",
 							"tags": [
@@ -2106,14 +2106,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mACtb6YIJ4plif6ST",
+									"id": "mL48zdah_7mcpkXQM",
 									"name": "Cannot Parry",
 									"reference": "B88",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mG9g_wpJoxImpoqtT",
+									"id": "mjs6pFAEGE9FswWzZ",
 									"name": "Clumsy",
 									"reference": "B88",
 									"cost": -20,
@@ -2132,13 +2132,13 @@
 									"disabled": true
 								},
 								{
-									"id": "mib_kuxtV-gt98cjL",
+									"id": "mn0KeNg7gPEq7lIte",
 									"name": "Limited Arc (Front)",
 									"reference": "B88",
 									"cost": -40
 								},
 								{
-									"id": "meN8QejheltKDFPAD",
+									"id": "mim7A-LCB1iMCYbqG",
 									"name": "Weak",
 									"cost": -50,
 									"features": [
@@ -2161,7 +2161,7 @@
 							"base_points": 5,
 							"weapons": [
 								{
-									"id": "wLT2l3Lwsa8yYNh6c",
+									"id": "wi2ghSYI46dcAkh79",
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2191,230 +2191,25 @@
 							}
 						},
 						{
-							"id": "tbRyYM-r2ceXRFCGG",
-							"name": "Damage Resistance",
-							"reference": "B47,P45,MA43,PSI14",
+							"id": "tBiH_h5SkZsEWt47s",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tHBiRZcX2d5iKicWB"
+							},
+							"name": "Dull",
+							"reference": "B164",
 							"tags": [
-								"Advantage",
-								"Exotic",
-								"Physical"
+								"Mental",
+								"Quirk"
 							],
-							"modifiers": [
-								{
-									"id": "mQURL-dDEHUFrzNe6",
-									"name": "Force Field",
-									"reference": "B47",
-									"cost": 20,
-									"disabled": true
-								},
-								{
-									"id": "mRnzsSBwGznR9DwCZ",
-									"name": "Hardened",
-									"reference": "B47",
-									"cost": 20,
-									"levels": 1,
-									"disabled": true
-								},
-								{
-									"id": "mSLsDJ_HATNDrLpml",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Enhances @Trait@",
-									"cost": 80,
-									"disabled": true
-								},
-								{
-									"id": "mqQPiZwuFyk_e-u_4",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Healing only",
-									"cost": 80,
-									"disabled": true
-								},
-								{
-									"id": "m6EUEoNVAn98OyCZ2",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Enhances any trait",
-									"cost": 100,
-									"disabled": true
-								},
-								{
-									"id": "mGMzudFNpHjsRysMM",
-									"name": "Reflection",
-									"reference": "B47",
-									"cost": 100,
-									"disabled": true
-								},
-								{
-									"id": "m3PezPDDG7n72NG9m",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Rare@",
-									"cost": -1,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mxFzNwe9OIvUwNptz",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Occasional@",
-									"cost": -5,
-									"disabled": true
-								},
-								{
-									"id": "mo7D1Fn62WZGgbu0E",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Common@",
-									"cost": -10,
-									"disabled": true
-								},
-								{
-									"id": "mrXecYaXroMhX8h-Q",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Very Common@",
-									"cost": -15,
-									"disabled": true
-								},
-								{
-									"id": "mV5gngvEEyQFkmjJ6",
-									"name": "Directional",
-									"reference": "B47",
-									"local_notes": "Front",
-									"cost": -20,
-									"disabled": true
-								},
-								{
-									"id": "mZ8iz9bW_IfkgKDXP",
-									"name": "Flexible",
-									"reference": "B47",
-									"cost": -20,
-									"disabled": true
-								},
-								{
-									"id": "mXp8kCfttVh8ti_Cb",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Very Common Attack Form@",
-									"cost": -20,
-									"disabled": true
-								},
-								{
-									"id": "mFe777oyN8YKS6z2M",
-									"name": "Semi-Ablative",
-									"reference": "B47",
-									"cost": -20,
-									"disabled": true
-								},
-								{
-									"id": "m4uZW8uvJ6uY4zJY_",
-									"name": "Can't wear armor",
-									"reference": "B47",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "mlEvSfKtQ1Q0-HNpB",
-									"name": "Directional",
-									"reference": "B47",
-									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "m47Lv0UZvl3PF3f2i",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Common Attack Form@",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "mPky_K7kZVk4qOaTr",
-									"name": "Tough Skin",
-									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
-									"cost": -40
-								},
-								{
-									"id": "mmG_zzzlVTRR2Dawr",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Occasional Attack Form@",
-									"cost": -60,
-									"disabled": true
-								},
-								{
-									"id": "mamzpXWs8UN0hNWgH",
-									"name": "Ablative",
-									"reference": "B47",
-									"cost": -80,
-									"disabled": true
-								},
-								{
-									"id": "mVgafkSTCNEN-4rDA",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Rare Attack Form@",
-									"cost": -80,
-									"disabled": true
-								},
-								{
-									"id": "mMP1fz5GjHu6WC6VD",
-									"name": "Laminate",
-									"reference": "RSWL18",
-									"cost": 10,
-									"disabled": true
-								},
-								{
-									"id": "mwPuH1zXd0rvFqpZc",
-									"name": "Malediction-Proof",
-									"reference": "PSI14",
-									"cost": 50,
-									"disabled": true
-								},
-								{
-									"id": "m7S247TIZfVkdZUrW",
-									"name": "Maledictions Only",
-									"reference": "PSI14",
-									"disabled": true
-								},
-								{
-									"id": "mi1guYcuQMDUb55h1",
-									"name": "Partial (Skull only)",
-									"reference": "B47",
-									"cost": -70
-								}
-							],
-							"points_per_level": 5,
-							"features": [
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"skull"
-									],
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"brain"
-									],
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
+							"base_points": -1,
 							"calc": {
-								"points": 1
+								"points": -1
 							}
 						},
 						{
-							"id": "thm0PCOFygF6VcCzH",
+							"id": "taFxHrl9BKgjQcjbn",
 							"name": "Fur",
 							"reference": "B101",
 							"tags": [
@@ -2428,7 +2223,7 @@
 							}
 						},
 						{
-							"id": "t33yf0JizWCqNrhEC",
+							"id": "tITdSWEm2wV3mkcBU",
 							"name": "Hooves",
 							"reference": "B42",
 							"tags": [
@@ -2438,7 +2233,7 @@
 							"base_points": 3,
 							"weapons": [
 								{
-									"id": "wTY9FO73SUkwVXiHG",
+									"id": "wF1BH9vjRoRCMFZUj",
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2483,7 +2278,7 @@
 							}
 						},
 						{
-							"id": "tNeGQMjKFdtbus8hz",
+							"id": "t4I_B82Vrjggd2kQm",
 							"name": "Stubbornness",
 							"reference": "B157",
 							"tags": [
@@ -2503,22 +2298,51 @@
 							}
 						},
 						{
-							"id": "tF2cfUkaaVZcM-Ggh",
-							"name": "Temperature Tolerance",
+							"id": "tb1fHa_doGt1WWo8I",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "touwUIFalnae02BUl"
+							},
+							"name": "Temperature Tolerance (Any)",
 							"reference": "B93",
 							"tags": [
 								"Advantage",
 								"Physical"
 							],
-							"points_per_level": 1,
+							"points_per_level": 1.5,
 							"can_level": true,
 							"levels": 2,
 							"calc": {
-								"points": 2
+								"points": 3
 							}
 						},
 						{
-							"id": "tYvnAKF8mQNI1QDmA",
+							"id": "tBEgQ6n_hlRRGIBss",
+							"source": {
+								"library": "/gcs-cdp",
+								"path": "CdP Rasgos.adq",
+								"id": "twJtL5hss3rx598Cj"
+							},
+							"name": "Tough Skull",
+							"reference": "B47",
+							"vtt_notes": "As DR (Tough Skin; Partial (Skull Only)) 1",
+							"base_points": 1,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tTnzsEnsqUBCfv3OJ",
 							"name": "Universal Digestion",
 							"reference": "B95,P86",
 							"tags": [
@@ -2527,7 +2351,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mnyqyVGE_lJEY5-2t",
+									"id": "mVpB8UCX0gbaFsAoJ",
 									"name": "Matter Eater",
 									"reference": "P86",
 									"cost": 300,
@@ -4189,7 +4013,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-07-30T01:32:45+02:00",
+	"modified_date": "2025-08-04T18:06:22+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

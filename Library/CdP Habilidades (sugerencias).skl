@@ -112,56 +112,6 @@
 			"points": 1
 		},
 		{
-			"id": "sqGJlWtuYCOHp6_La",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sjU9kn3jTX-_5Q5p5"
-			},
-			"name": "Psychology",
-			"reference": "B216",
-			"tags": [
-				"Humanities",
-				"Social Sciences"
-			],
-			"vtt_notes": "Renamed Psychology (Experimental)",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Sociology",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "spBzI9180FoYZ6_DA",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sv_ITrhGSsEpjdcqa"
-			},
-			"name": "Sailor",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"vtt_notes": "Renamed Seamanship",
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "smX7rgYJVHDx7gPrP",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -188,6 +138,166 @@
 				}
 			],
 			"points": 1
+		},
+		{
+			"id": "sB9TQwfLC3ZMefwA3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sMIEoVTEXT8J2IGwj"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Electronics",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "Sb4VppXobcbnJ7bTI",
+			"name": "Electronics",
+			"children": [
+				{
+					"id": "srzX7SOaCYWJ80ft4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "swXuff1DBhSQbTqy1"
+					},
+					"name": "Electronics",
+					"reference": "B189",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Technical"
+					],
+					"specialization": "Comms",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sLITpBWSii_UmRSA1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "seXPb_1UO1I8EvWq6"
+					},
+					"name": "Electronics",
+					"reference": "B189",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Military",
+						"Spy",
+						"Technical"
+					],
+					"specialization": "Electronic Warfare",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sXzjPJ8eXzCldMxeG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sluTeYhSTpIbVNfA5"
+					},
+					"name": "Electronics",
+					"reference": "B189",
+					"tags": [
+						"Hv. Akp.",
+						"Nokk",
+						"Technical"
+					],
+					"specialization": "Sensors",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
 		}
 	]
 }

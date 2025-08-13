@@ -129,7 +129,7 @@
 			"points": 1
 		},
 		{
-			"id": "sdZjcKQMc-adp5350",
+			"id": "sx7CP_1SVohALXD4H",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
@@ -160,18 +160,20 @@
 			"points": 1
 		},
 		{
-			"id": "sFeBxZsEP3l2A-xqZ",
+			"id": "swdus2bk_b76Ycjav",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
 				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Airshipman",
+			"name": "Airman",
 			"reference": "B185",
+			"reference_highlight": "Airshipman",
 			"tags": [
 				"Hv. Akp.",
 				"Vehicle"
 			],
+			"vtt_notes": "Renamed Airshipman",
 			"difficulty": "iq/e",
 			"defaults": [
 				{
@@ -264,6 +266,28 @@
 						"Animal"
 					],
 					"specialization": "Bovines",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s3F13kIsK4HsWvmEz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sXJr0hlUYaTTuJrPx"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Bérog",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -393,37 +417,6 @@
 					"type": "skill",
 					"name": "Sociology",
 					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sI5V3SOCbiDdyGal_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sb4cJ_wee2WvuSEP6"
-			},
-			"name": "Aquabatics",
-			"reference": "B174",
-			"tags": [
-				"Athletic"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Acrobatics",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Aerobatics",
-					"modifier": -4
 				}
 			],
 			"points": 1
@@ -2110,242 +2103,6 @@
 			"points": 1
 		},
 		{
-			"id": "SONpNvWbwqRluKkwg",
-			"name": "Boating",
-			"children": [
-				{
-					"id": "swB6mUHdQw4EaRykF",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s_hzIiLr9SpjrJyxG"
-					},
-					"name": "Boating",
-					"reference": "B180",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "@Boat class@",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Motorboat",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Sailboat",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Unpowered",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Seamanship",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "syk5heyYsdu01Kq9Z",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s1F-ATtHCyhyeyXk8"
-					},
-					"name": "Boating",
-					"reference": "B180",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Large Powerboat",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Motorboat",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Sailboat",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Unpowered",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Seamanship",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sIcWtGU1wt5uFPLsw",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "shD0hxQUJbiwt-oY5"
-					},
-					"name": "Boating",
-					"reference": "B180",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Motorboat",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Large Powerboat",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Sailboat",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Unpowered",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sam8Qsbb_DBbtJxRn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "soV4km-2aPJ1tURp-"
-					},
-					"name": "Boating",
-					"reference": "B180",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Sailboat",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Large Powerboat",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Motorboat",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Unpowered",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sqpghAFV20KTwRI7J",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "seWanmmH0f_ZW6o0B"
-					},
-					"name": "Boating",
-					"reference": "B180",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Unpowered",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Large Powerboat",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Motorboat",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Sailboat",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				}
-			]
-		},
-		{
 			"id": "sjKnBwPU1WuqWGlqJ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2569,6 +2326,80 @@
 			"points": 1
 		},
 		{
+			"id": "ssR9-intfYoObCtT_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "srJZ2I_KS3wPlAaAv"
+			},
+			"name": "Captaincy",
+			"reference": "B220",
+			"reference_highlight": "Shiphandling",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Shiphandling (Airship)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "dx"
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Airman",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Lighter-Than-Air",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "navigation"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "air"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "leadership"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "airman"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
 			"id": "sE8eFi9bS-SeZQUBq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2738,80 +2569,39 @@
 			"points": 1
 		},
 		{
-			"id": "ScQoZmg3jPOhS6TLE",
+			"id": "s1hEpOh6KXahD2OWz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBY-R7Xmf64T7WzZ4"
+			},
 			"name": "Computer Programming",
-			"children": [
-				{
-					"id": "s1hEpOh6KXahD2OWz",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sBY-R7Xmf64T7WzZ4"
-					},
-					"name": "Computer Programming",
-					"reference": "B184",
-					"tags": [
-						"Design",
-						"Hv. Akp.",
-						"Invention"
-					],
-					"difficulty": "iq/h",
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Mechanic"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "Analytical Engine"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "s-3tlCEYRmYbJudWN",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "szsZqNr4dhr9UC-fG"
-					},
-					"name": "Computer Programming",
-					"reference": "B184",
-					"tags": [
-						"Design",
-						"Invention"
-					],
-					"specialization": "AI",
-					"difficulty": "iq/h",
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Mechanic"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "Analytical Engine"
-								}
-							}
-						]
-					},
-					"points": 1
-				}
-			]
+			"reference": "B184",
+			"tags": [
+				"Design",
+				"Hv. Akp.",
+				"Invention"
+			],
+			"difficulty": "iq/h",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Mechanic"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Analytical Engine"
+						}
+					}
+				]
+			},
+			"points": 1
 		},
 		{
 			"id": "SHYceexb-p6bSNwpP",
@@ -3846,47 +3636,6 @@
 			"points": 1
 		},
 		{
-			"id": "s94JqmeGiD_V_pJa5",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "str5VV-DO6mEEMNdt"
-			},
-			"name": "Diving Suit",
-			"reference": "B192",
-			"tags": [
-				"Technical"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Scuba",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Battlesuit",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "NBC Suit",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Vacc Suit",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "SlEYDgztRTOd0eMqt",
 			"name": "Driving",
 			"children": [
@@ -4238,40 +3987,6 @@
 			]
 		},
 		{
-			"id": "sn5Rv9BbFlopQqoAE",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sq8xLgEq7YeXjyiv4"
-			},
-			"name": "Dropping",
-			"reference": "B189",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Artillery",
-					"specialization": "Bombs",
-					"modifier": -4
-				},
-				{
-					"type": "dx",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Throwing",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sEojz5bHIxe5JOm_S",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4322,8 +4037,8 @@
 				"Hv. Akp.",
 				"Lt. Akp.",
 				"Maintenance",
-				"Repair",
-				"Nokk"
+				"Nokk",
+				"Repair"
 			],
 			"difficulty": "iq/a",
 			"defaults": [
@@ -4344,45 +4059,6 @@
 			"id": "S0dolB7A9sVfGFKM_",
 			"name": "Electronics Operation",
 			"children": [
-				{
-					"id": "sfj34yHhQO23lEGIq",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sUOQKAH8IaMhpxk1o"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "@Electronics type@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Communications",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
 				{
 					"id": "sLSQ0riyLZggver9L",
 					"source": {
@@ -4468,168 +4144,6 @@
 					"points": 1
 				},
 				{
-					"id": "s0Kopciu11zxjDhug",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sLDuQRGJ4yzEXiQ0G"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Technical"
-					],
-					"specialization": "Media",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Media",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sy9VEJ0_O47QbtamM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKTF4zU6WcKytEDRW"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Medical",
-						"Technical"
-					],
-					"specialization": "Medical",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Medical",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sJet30c7A57Fv4d_S",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sirFPuXXZfzdkM7Zm"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Technical"
-					],
-					"specialization": "Scientific",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Scientific",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "squkco3vv1fl4cM9s",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "slXlqD4FNReNHmsov"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street",
-						"Technical"
-					],
-					"specialization": "Security",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Security",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "szrAtBTqPskuUXLkL",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -4669,87 +4183,6 @@
 						}
 					],
 					"points": 1
-				},
-				{
-					"id": "sihDSXBdXSemgjs-E",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "scI2qsAuQCh8ddpSr"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Nokk",
-						"Technical"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Sonar",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sdjl4kR5e5_nS18jQ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s71NSSCnVzScWznSY"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Police",
-						"Spy",
-						"Technical"
-					],
-					"specialization": "Surveillance",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Surveillance",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
 				}
 			]
 		},
@@ -4757,46 +4190,6 @@
 			"id": "SiWeeL0gSRqZI342F",
 			"name": "Electronics Repair",
 			"children": [
-				{
-					"id": "sNL6hoTkjS4HlgSWE",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sYwZvSMZ9tfHES4z7"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "@Electronics type@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Communications",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
 				{
 					"id": "spnzkFUiL-QDYKkAr",
 					"source": {
@@ -4883,166 +4276,6 @@
 					"points": 1
 				},
 				{
-					"id": "sw-a_VWonQfTebvAv",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sEHYoHVHYnYHXBQAa"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Media",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Media",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s_GhVLoZoM3tPg5Y_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "swSaJKN2SmblIiMqn"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Medical",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Medical",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sK1d1M1Pz4JD4RB8U",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sL2WMJ4MuOZegXNpu"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Scientific",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Scientific",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sE46oVlSEKAqPp_mr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s88dcbZG-whQhwn7j"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Security",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Security",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sc8YxOYdaqkT1RTMJ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5068,87 +4301,6 @@
 							"type": "skill",
 							"name": "Electronics Operation",
 							"specialization": "Sensors",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sgQzQkH2gILPXxcC6",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8-3sT1s5O9ggV5Y0"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Nokk",
-						"Repair"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Sonar",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s0gnn7zq-rbnsxZND",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sbrQ0ex4zRoErYb5A"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Surveillance",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Surveillance",
 							"modifier": -3
 						},
 						{
@@ -5364,7 +4516,7 @@
 					"points": 1
 				},
 				{
-					"id": "s0ijoUIEbtZYFPZyV",
+					"id": "sbkIkBDRe7z5yrJ8q",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -5411,7 +4563,7 @@
 					"points": 1
 				},
 				{
-					"id": "stItmt84C07F_NUEr",
+					"id": "sIc6sBzRbZWxHbPRO",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -5929,54 +5081,6 @@
 					"points": 1
 				},
 				{
-					"id": "sAypnwcdhQzlBDvLx",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s5o7m6a6iCXJOPgYO"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "Ships",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Ships",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
 					"id": "sk7FAgw_78vC-VocI",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -6025,27 +5129,6 @@
 					"points": 1
 				}
 			]
-		},
-		{
-			"id": "sHY7tz3iTBPuR4h-K",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "st53T_P4vw5xhO7Rp"
-			},
-			"name": "Environment Suit",
-			"reference": "B192",
-			"tags": [
-				"Technical"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
 		},
 		{
 			"id": "sVjFcTdcDS-DGKZtt",
@@ -6624,22 +5707,6 @@
 			"points": 1
 		},
 		{
-			"id": "sVjvXGg1FhWhGhb9J",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sQHalgIcHaJaMxuWp"
-			},
-			"name": "Fire Eating",
-			"reference": "B195",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"difficulty": "dx/a",
-			"points": 1
-		},
-		{
 			"id": "seqhWgPwJFRjWHvFW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -7207,443 +6274,9 @@
 			"points": 1
 		},
 		{
-			"id": "SqGl9A1mSghI8EvWW",
-			"name": "Group Performance",
-			"children": [
-				{
-					"id": "s4o9acI5U3CgeD2nI",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sMUFAf6g_JoMYW3r7"
-					},
-					"name": "Group Performance",
-					"reference": "B198,MA57",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "@Art@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Dancing",
-							"modifier": -2
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "diplomacy"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "intimidation"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "leadership"
-										}
-									}
-								]
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sVqnUNTCxQlk5e4WE",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s67bGQ_e5_wCaaEx-"
-					},
-					"name": "Group Performance",
-					"reference": "B198,MA57",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "Choreography",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Dancing",
-							"modifier": -2
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "diplomacy"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "intimidation"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "leadership"
-										}
-									}
-								]
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "dancing"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "suYW9308i6FNF-pRk",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sVA6l16nBR86F53ab"
-					},
-					"name": "Group Performance",
-					"reference": "B198,MA57",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "Conducting",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Musical Instrument",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Singing",
-							"modifier": -3
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "diplomacy"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "intimidation"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "leadership"
-										}
-									}
-								]
-							},
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "prereq_list",
-										"all": true,
-										"prereqs": [
-											{
-												"type": "skill_prereq",
-												"has": true,
-												"name": {
-													"compare": "contains",
-													"qualifier": "musical instrument"
-												}
-											},
-											{
-												"type": "skill_prereq",
-												"has": true,
-												"name": {
-													"compare": "contains",
-													"qualifier": "musical instrument"
-												}
-											}
-										]
-									},
-									{
-										"type": "prereq_list",
-										"all": true,
-										"prereqs": [
-											{
-												"type": "skill_prereq",
-												"has": true,
-												"name": {
-													"compare": "contains",
-													"qualifier": "musical instrument"
-												}
-											},
-											{
-												"type": "skill_prereq",
-												"has": true,
-												"name": {
-													"compare": "is",
-													"qualifier": "singing"
-												}
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sxSB840bjtQjajPQn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sZ7NYJ5fxLa2Jj93s"
-					},
-					"name": "Group Performance",
-					"reference": "B198,MA57",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "Directing",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Performance",
-							"modifier": -5
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "diplomacy"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "intimidation"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "leadership"
-										}
-									}
-								]
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "performance"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sa-Ft8Pscta7QjuIo",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "spLtdtwiNdLkklweA"
-					},
-					"name": "Group Performance",
-					"reference": "B198,MA57",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "Fight Choreography",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Stage Combat",
-							"modifier": -2
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": false,
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "diplomacy"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "intimidation"
-										}
-									},
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "leadership"
-										}
-									}
-								]
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "stage combat"
-								}
-							}
-						]
-					},
-					"points": 1
-				}
-			]
-		},
-		{
 			"id": "SGfz6g8B_e9uipoNu",
 			"name": "Gunner",
 			"children": [
-				{
-					"id": "sCKudcFlTTCxr6u95",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "snZtm1wwlLIeerPuO"
-					},
-					"name": "Gunner",
-					"reference": "B198",
-					"tags": [
-						"Combat",
-						"Ranged Combat",
-						"Weapon"
-					],
-					"specialization": "@Gun class@",
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Gunner",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
 				{
 					"id": "sbLPyV4dh9zKiafaY",
 					"source": {
@@ -7828,34 +6461,6 @@
 					"points": 1
 				}
 			]
-		},
-		{
-			"id": "s6hOYhsZ82-54--Ym",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sYlFWI7xkIaK8OMWP"
-			},
-			"name": "Heraldry",
-			"reference": "B199",
-			"tags": [
-				"Knowledge",
-				"Social"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Savoir-Faire",
-					"specialization": "High Society",
-					"modifier": -3
-				}
-			],
-			"points": 1
 		},
 		{
 			"id": "SQGR8yUsA3QLB1Ec-",
@@ -8164,99 +6769,6 @@
 			"points": 1
 		},
 		{
-			"id": "SUen9_M_I-PnsGwi_",
-			"name": "Innate Attack",
-			"children": [
-				{
-					"id": "sQHm2lWJk21LzYSzz",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s6rCvCSMxy5vSy3gd"
-					},
-					"name": "Innate Attack",
-					"reference": "B201",
-					"tags": [
-						"Combat",
-						"Ranged Combat",
-						"Weapon"
-					],
-					"specialization": "Breath",
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "svx8GscuavkXkSDvE",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "srCc5hZzKUhInxl3K"
-					},
-					"name": "Innate Attack",
-					"reference": "B201",
-					"tags": [
-						"Combat",
-						"Ranged Combat",
-						"Weapon"
-					],
-					"specialization": "Gaze",
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s8x6ikp2xpGJrHvGu",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sJvwPKtI422-KNEiv"
-					},
-					"name": "Innate Attack",
-					"reference": "B201",
-					"tags": [
-						"Combat",
-						"Ranged Combat",
-						"Weapon"
-					],
-					"specialization": "Projectile",
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				}
-			]
-		},
-		{
 			"id": "sH0LnhGGee_GvWz0F",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -8420,21 +6932,6 @@
 			"points": 1
 		},
 		{
-			"id": "sLJieOl9E-NA0z-Mk",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "so6xAKJVgFYRWYyQA"
-			},
-			"name": "Jumping",
-			"reference": "B203,MA57",
-			"tags": [
-				"Athletic"
-			],
-			"difficulty": "dx/e",
-			"points": 1
-		},
-		{
 			"id": "seT-xQ_XFcR7_b5-f",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -8577,21 +7074,6 @@
 					"modifier": -4
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "sSwOtij5f5vLecG73",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "suO1r-jJlrd15U-GJ"
-			},
-			"name": "Lifting",
-			"reference": "B205",
-			"tags": [
-				"Athletic"
-			],
-			"difficulty": "ht/a",
 			"points": 1
 		},
 		{
@@ -9241,7 +7723,7 @@
 					"points": 1
 				},
 				{
-					"id": "sKRiiZCtrr5--iQR_",
+					"id": "sSuXgiL00EbPC-uoI",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -9264,45 +7746,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Clockwork",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "syIo-pxyFas7T3pr8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s102i1t396jeq77a8"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Construction Equipment",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Construction Equipment",
 							"modifier": -4
 						},
 						{
@@ -9385,45 +7828,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Diesel Engine",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "stSwQTeaII-nW5L09",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8dHPfBBKfX6vmoW0"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Free-Flooding Sub",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Free-Flooding Sub",
 							"modifier": -4
 						},
 						{
@@ -9718,84 +8122,6 @@
 					"points": 1
 				},
 				{
-					"id": "sJrTbp5Nn4wckzoEr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKiS9x7zW-lq4gyEw"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Hovercraft",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Hovercraft",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "skxQrT35RoOCSplYo",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s6G3F7OzSmS6EL4Vl"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Large Sub",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Large Sub",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sLogH1PsTP6GysszZ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -9859,45 +8185,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Mecha",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s23qN45hcxHanx0Mi",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sYE1kO_owXbs8tt-m"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Mini-Sub",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Mini-Sub",
 							"modifier": -4
 						},
 						{
@@ -10529,44 +8816,6 @@
 			"name": "Navigation",
 			"children": [
 				{
-					"id": "stA46PDXpprTZU491",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "shChZ7cQ-SIe7JKo6"
-					},
-					"name": "Navigation",
-					"reference": "B211",
-					"tags": [
-						"Exploration",
-						"Outdoor",
-						"Technical",
-						"Vehicle"
-					],
-					"specialization": "@Environment@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Astronomy",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Navigation",
-							"specialization": "Land",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Navigation",
-							"specialization": "Sea",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sjcdckPyb_zz0j_YN",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -10654,49 +8903,6 @@
 							"type": "skill",
 							"name": "Navigation",
 							"specialization": "Underground",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sF6SAcZucrnuzlGjG",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s7KRXMjseuOk05MMU"
-					},
-					"name": "Navigation",
-					"reference": "B211",
-					"tags": [
-						"Exploration",
-						"Outdoor",
-						"Technical",
-						"Vehicle"
-					],
-					"specialization": "Sea",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Astronomy",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Seamanship",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Navigation",
-							"specialization": "Air",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Navigation",
-							"specialization": "Land",
 							"modifier": -2
 						}
 					],
@@ -10818,33 +9024,6 @@
 			"points": 1
 		},
 		{
-			"id": "sJMyXVH0vq3gDSeW9",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sM7zEW0oDYHNZZuWo"
-			},
-			"name": "Packing",
-			"reference": "B212",
-			"tags": [
-				"Animal"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Animal Handling",
-					"specialization": "Equines",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sdtWdAcsQLZBk0NHx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10864,39 +9043,6 @@
 					"type": "skill",
 					"name": "Biology",
 					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "swhzoK-EYkgtEHfn-",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sIxFgcOH8EDvaxZAy"
-			},
-			"name": "Panhandling",
-			"reference": "B212",
-			"tags": [
-				"Criminal",
-				"Social",
-				"Street"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Fast-Talk",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Public Speaking",
-					"modifier": -3
 				}
 			],
 			"points": 1
@@ -10939,38 +9085,6 @@
 				"Weapon"
 			],
 			"difficulty": "dx/h",
-			"points": 1
-		},
-		{
-			"id": "sTrktX6uu6w65VNFY",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "smuiHfT5hh4IOqtPW"
-			},
-			"name": "Performance",
-			"reference": "B212",
-			"tags": [
-				"Arts",
-				"Entertainment"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Acting",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Public Speaking",
-					"modifier": -2
-				}
-			],
 			"points": 1
 		},
 		{
@@ -11315,39 +9429,6 @@
 			"name": "Piloting",
 			"children": [
 				{
-					"id": "sZpA70fFry-lMYj7S",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sQE2t0-gMM5-4KgPb"
-					},
-					"name": "Piloting",
-					"reference": "B214",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "@Flying vehicle class@",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "High-Performance Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sgiStzwCRu8qIr9fs",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -11434,6 +9515,33 @@
 						"Vehicle"
 					],
 					"specialization": "Lighter-Than-Air",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sMon0xF13HHq1mN-B",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sjyoJ5IgTR4oJIF8n"
+					},
+					"name": "Piloting",
+					"reference": "B214",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Mole",
 					"difficulty": "dx/a",
 					"defaults": [
 						{
@@ -11981,6 +10089,34 @@
 					"points": 1
 				},
 				{
+					"id": "sJ7nEYd59ZEJEBthR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sw6twMMqbSiWNaKtg"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Bérog",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Bérog",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "sZuadW9IPmmlxWWPU",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -12282,71 +10418,6 @@
 			"points": 1
 		},
 		{
-			"id": "s4Yp6jPxb9f1qwtxU",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "slt_JUd-roKZ6TmQY"
-			},
-			"name": "Scuba",
-			"reference": "B219",
-			"tags": [
-				"Athletic",
-				"Exploration",
-				"Military",
-				"Outdoor",
-				"Technical"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Diving Suit",
-					"modifier": -2
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "swimming"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
-			"id": "sIHUkoo5gCuowHj_P",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sv_ITrhGSsEpjdcqa"
-			},
-			"name": "Seamanship",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sELqkhprtOI991fVZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -12474,287 +10545,6 @@
 			"points": 1
 		},
 		{
-			"id": "SsgL7C1Sv0vvrKhm0",
-			"name": "Shiphandling",
-			"children": [
-				{
-					"id": "sbpQdzqGeC0Hu7chD",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "srGD2BBTEQxUY4yhg"
-					},
-					"name": "Shiphandling",
-					"reference": "B220",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "@Ship class@",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Airshipman",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Lighter-Than-Air",
-							"modifier": -5
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "navigation"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "air"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "airshipman"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "shqC_jt2zGAR-gKmt",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "srJZ2I_KS3wPlAaAv"
-					},
-					"name": "Shiphandling",
-					"reference": "B220",
-					"tags": [
-						"Hv. Akp.",
-						"Vehicle"
-					],
-					"specialization": "Airship",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Airshipman",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Lighter-Than-Air",
-							"modifier": -5
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "navigation"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "air"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "airshipman"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "saLft1bP9HAv8Kedl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s-0KJuw7_V5l8G_Q-"
-					},
-					"name": "Shiphandling",
-					"reference": "B220",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Ship",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Seamanship",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Large Powerboat",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Boating",
-							"specialization": "Sailboat",
-							"modifier": -5
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "seamanship"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "navigation"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "sea"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sRFjtTaYECcRfoOTm",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "szffDNscx1251Omqr"
-					},
-					"name": "Shiphandling",
-					"reference": "B220",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Submarine",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Submariner",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"specialization": "Large Sub",
-							"modifier": -5
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "submariner"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "navigation"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "sea"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "leadership"
-								}
-							}
-						]
-					},
-					"points": 1
-				}
-			]
-		},
-		{
 			"id": "s8ZdP6yWU0lYJYk28",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -12772,51 +10562,6 @@
 				{
 					"type": "ht",
 					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sEmHgRkcYAVKaiDB_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sKsmA1SUKqVibJWUT"
-			},
-			"name": "Skating",
-			"reference": "B220",
-			"tags": [
-				"Exploration",
-				"Outdoor"
-			],
-			"difficulty": "ht/h",
-			"defaults": [
-				{
-					"type": "ht",
-					"modifier": -6
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sRLJxjyxBhSbjdAWK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sZSMcJF_6tsVoHnXE"
-			},
-			"name": "Skiing",
-			"reference": "B221",
-			"tags": [
-				"Athletic",
-				"Exploration",
-				"Outdoor"
-			],
-			"difficulty": "ht/h",
-			"defaults": [
-				{
-					"type": "ht",
-					"modifier": -6
 				}
 			],
 			"points": 1
@@ -13076,35 +10821,6 @@
 			"points": 1
 		},
 		{
-			"id": "sebnGY_U53k6wnDlc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "scjjlTC-AfuV0whOe"
-			},
-			"name": "Spear Thrower",
-			"reference": "B222",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Thrown Weapon",
-					"specialization": "Spear",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sylfjOo7VFcHu24zA",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -13268,7 +10984,7 @@
 					"points": 1
 				},
 				{
-					"id": "sAmT5-ZfCuRbViNqh",
+					"id": "syRtEK566yxy94Q9I",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -13279,7 +10995,7 @@
 					"tags": [
 						"Military"
 					],
-					"specialization": "Land",
+					"specialization": "Caves",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
@@ -13305,18 +11021,18 @@
 					"points": 1
 				},
 				{
-					"id": "sMVP5tq-dHHegiRAI",
+					"id": "sAmT5-ZfCuRbViNqh",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sDjZhd_pI3nsLNPQp"
+						"id": "sTzZdkEt9palkx6X8"
 					},
 					"name": "Strategy",
 					"reference": "B222",
 					"tags": [
 						"Military"
 					],
-					"specialization": "Naval",
+					"specialization": "Land",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
@@ -13363,150 +11079,6 @@
 				{
 					"type": "iq",
 					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "SQ6bfclW-dWfdjAcq",
-			"name": "Submarine",
-			"children": [
-				{
-					"id": "ssQyPQ5Om0HwpPWGn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "saJVAc9MntVDp2nul"
-					},
-					"name": "Submarine",
-					"reference": "B222",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Free-Flooding Sub",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"specialization": "Large Sub",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"specialization": "Mini-Sub",
-							"modifier": -4
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "diving suit"
-								}
-							},
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "scuba"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "s0Vvc_xx0STBJkZJ3",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sFBbOT02js0oHhXii"
-					},
-					"name": "Submarine",
-					"reference": "B222",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Large Sub",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"specialization": "Free-Flooding Sub",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"specialization": "Mini-Sub",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sN7whLyB761LDRel2",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sDqPeFPPad8AhIZaX"
-					},
-					"name": "Submarine",
-					"reference": "B222",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Mini-Sub",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Submarine",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				}
-			]
-		},
-		{
-			"id": "sKWNwpppn8QReaCYC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "saSMvQLBSkJb2Ln1l"
-			},
-			"name": "Submariner",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
 				}
 			],
 			"points": 1

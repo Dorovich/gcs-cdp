@@ -215,236 +215,6 @@
 					}
 				},
 				{
-					"id": "tQ74IkD8Juq78kRsH",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tBmSJ3pNE53c4IRUU"
-					},
-					"name": "Damage Resistance",
-					"reference": "B47,P45,MA43,PSI14",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mor9BALsPfse0RkDE",
-							"name": "Force Field",
-							"reference": "B47",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "mvhm1YaNmUa-k0Dck",
-							"name": "Hardened",
-							"reference": "B47",
-							"cost": 20,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mQIKZMdjfpQGYaqWk",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances @Trait@",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mWgSSoaLtNSyLTUIE",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Healing only",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mQgagPzfgxECJp6Bn",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances any trait",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "mGl8LDwDJSwaZ6_wL",
-							"name": "Reflection",
-							"reference": "B47",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "md8O-geRLGnenYbns",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Rare@",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mNFj2AOCCu4Rmlo5s",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Occasional@",
-							"cost": -5,
-							"disabled": true
-						},
-						{
-							"id": "mFgNG8b_ZCD1DKL07",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Common@",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "mHl4XlqVc6330xm69",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Very Common@",
-							"cost": -15,
-							"disabled": true
-						},
-						{
-							"id": "mmBWcLBuxGB8S-8u_",
-							"name": "Directional",
-							"reference": "B47",
-							"local_notes": "Front",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mxhAnmrcZ10yroJut",
-							"name": "Flexible",
-							"reference": "B47",
-							"cost": -20
-						},
-						{
-							"id": "mZCtXOBQ_VxDLelEY",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Very Common Attack Form@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mQwTarfAy399yq64f",
-							"name": "Semi-Ablative",
-							"reference": "B47",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "md3iSCtU2ToPYatBE",
-							"name": "Can't wear armor",
-							"reference": "B47",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mjIowsRIvOPI-GBfp",
-							"name": "Directional",
-							"reference": "B47",
-							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mApcPkw_Ee1GYgh5Q",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Common Attack Form@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mu8LBgkHb5cJkZ2ki",
-							"name": "Tough Skin",
-							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
-							"cost": -40
-						},
-						{
-							"id": "mPzh1EfiOr-C8DJrJ",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Occasional Attack Form@",
-							"cost": -60,
-							"disabled": true
-						},
-						{
-							"id": "mq6c08oIV7j-OBA8f",
-							"name": "Ablative",
-							"reference": "B47",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "m8eWNPwiYsXVfF-Ww",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Rare Attack Form@",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mw4YQBfPlgiFZcyda",
-							"name": "Laminate",
-							"reference": "RSWL18",
-							"cost": 10,
-							"disabled": true
-						},
-						{
-							"id": "mxOO6k6LmrVSFDgdZ",
-							"name": "Malediction-Proof",
-							"reference": "PSI14",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mPCoaRWOqHqGeqqD6",
-							"name": "Maledictions Only",
-							"reference": "PSI14",
-							"disabled": true
-						},
-						{
-							"id": "mIkv3ZyzEm5CBi3Cv",
-							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
-							"reference": "B47",
-							"cost": -10,
-							"disabled": true
-						}
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"arms",
-								"face",
-								"feet",
-								"groin",
-								"hands",
-								"head",
-								"legs",
-								"neck",
-								"skull",
-								"torso",
-								"vitals"
-							],
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 2
-					}
-				},
-				{
 					"id": "tjAoUTj8BJjSWs1XP",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -478,6 +248,87 @@
 					"levels": 3,
 					"calc": {
 						"points": 3
+					}
+				},
+				{
+					"id": "t9ey3JtALrFGUxZJv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tBmSJ3pNE53c4IRUU"
+					},
+					"name": "Natural Scale Armor",
+					"reference": "B47,P45,MA43,PSI14",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"vtt_notes": "As DR (Flexible) 1",
+					"modifiers": [
+						{
+							"id": "mSZdUm9apzR6UX0fi",
+							"name": "Directional",
+							"reference": "B47",
+							"local_notes": "Front",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m0sK_oG1bA9fGcQ0u",
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "me88bEmUdvA_bJgvg",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mn0fM6WiEpivuhyyk",
+							"name": "Directional",
+							"reference": "B47",
+							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mKmVegygrfWCqa1jX",
+							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+							"reference": "B47",
+							"cost": -10,
+							"disabled": true
+						}
+					],
+					"points_per_level": 4,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arms",
+								"face",
+								"feet",
+								"groin",
+								"hands",
+								"head",
+								"legs",
+								"neck",
+								"skull",
+								"torso",
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 4
 					}
 				},
 				{
@@ -515,49 +366,6 @@
 					"levels": 1,
 					"calc": {
 						"points": 1
-					}
-				},
-				{
-					"id": "tQRU6SdnUbSPTF0gF",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tynHtgvWZmmNOL97D"
-					},
-					"name": "Reduced Consumption",
-					"reference": "B80",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "ma4oDtt1Z828boQ_9",
-							"name": "Cast-Iron Stomach",
-							"reference": "B80",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "m9ZQLXB6dsYamEAHL",
-							"name": "Food Only",
-							"reference": "B80",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "mjAtGKZX2Qv8bRYno",
-							"name": "Water Only",
-							"reference": "B80",
-							"cost": -50,
-							"disabled": true
-						}
-					],
-					"points_per_level": 2,
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 2
 					}
 				},
 				{

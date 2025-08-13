@@ -1896,13 +1896,13 @@
 					}
 				},
 				{
-					"id": "TMzDMqM9MFXaSGrja",
+					"id": "TaTCMpomCp7I3sHYK",
 					"name": "Kwazaar",
 					"ancestry": "Human",
 					"container_type": "ancestry",
 					"children": [
 						{
-							"id": "t8x-rI1HQutHN89x9",
+							"id": "t3NL_sSvwaqgtxiB_",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -1921,7 +1921,7 @@
 							}
 						},
 						{
-							"id": "tmvJv0lpWS8PpjkcF",
+							"id": "tYgJNfKbZn72l58IY",
 							"name": "Attributes: Kwazaar",
 							"local_notes": "IQ+1.",
 							"base_points": 20,
@@ -1937,7 +1937,7 @@
 							}
 						},
 						{
-							"id": "tBnQ12DZElZcVqH2H",
+							"id": "tGtUfUy5suARKvr_x",
 							"source": {
 								"library": "/gcs_user_library",
 								"path": "Crónicas del Pentácoro/Rasgos Generales.adq",
@@ -1964,7 +1964,7 @@
 							}
 						},
 						{
-							"id": "tDH2jYB7ZY47rcc52",
+							"id": "tUe_wGTrTSBXDymUq",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -1985,7 +1985,7 @@
 							}
 						},
 						{
-							"id": "t-Jz0aryD1WQ4zYW5",
+							"id": "twT5Xv4OewPLYY_ff",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2012,7 +2012,7 @@
 							}
 						},
 						{
-							"id": "tZig3dCaaEkxnsDea",
+							"id": "tVJ4CgfEYoFXTOUKp",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2027,14 +2027,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mauiYJqpcfFOqDuVT",
+									"id": "mr6zemAI_McB-LzOO",
 									"name": "Cannot Parry",
 									"reference": "B88",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mNJvQyEryC6z-XsqO",
+									"id": "mig0Lt45BvjnWPoVu",
 									"name": "Clumsy",
 									"reference": "B88",
 									"cost": -20,
@@ -2052,13 +2052,13 @@
 									"levels": 2
 								},
 								{
-									"id": "mwpkl5tI8plrvI-kK",
+									"id": "mSuRvXVqwIn5EBvcJ",
 									"name": "Limited Arc (Behind)",
 									"reference": "B88",
 									"cost": -40
 								},
 								{
-									"id": "muTMtBPsB0Q9a_8c9",
+									"id": "mxUwPLs4tyACoqaYF",
 									"name": "Weak",
 									"cost": -50,
 									"features": [
@@ -2081,7 +2081,7 @@
 							"base_points": 5,
 							"weapons": [
 								{
-									"id": "wM0BKMb75JiMgFf2g",
+									"id": "w35IiROiEh5DQkNJ2",
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2110,101 +2110,59 @@
 							}
 						},
 						{
-							"id": "tlzs5q3wFZYecqeUX",
+							"id": "tTk3Otul4CoI7p-BO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+								"id": "t0VPbjg7THRHjm113"
+							},
+							"name": "Early Maturation",
+							"reference": "TT2:12",
+							"tags": [
+								"Exotic",
+								"Feature",
+								"Physical",
+								"Supernatural"
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tBEQ9UeTGUn_PdKit",
+							"source": {
+								"library": "/gcs-cdp",
+								"path": "CdP Rasgos.adq",
+								"id": "tToTfPINFyLrfLrrL"
+							},
+							"name": "Jaw ST",
+							"points_per_level": 1,
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "tCNmQ5W6L70dSZz15",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
 								"id": "tBmSJ3pNE53c4IRUU"
 							},
-							"name": "Damage Resistance",
+							"name": "Natural Scale Armor",
 							"reference": "B47,P45,MA43,PSI14",
 							"tags": [
 								"Advantage",
 								"Exotic",
 								"Physical"
 							],
+							"vtt_notes": "As DR (Flexible) 1",
 							"modifiers": [
 								{
-									"id": "mjRosYpFB8fFeWqly",
-									"name": "Force Field",
-									"reference": "B47",
-									"cost": 20,
-									"disabled": true
-								},
-								{
-									"id": "ms-dd-fi_femQyY3u",
-									"name": "Hardened",
-									"reference": "B47",
-									"cost": 20,
-									"levels": 1,
-									"disabled": true
-								},
-								{
-									"id": "mzbl8P-MlFC_1A58A",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Enhances @Trait@",
-									"cost": 80,
-									"disabled": true
-								},
-								{
-									"id": "mlCcqKNAFpIrIIN2K",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Healing only",
-									"cost": 80,
-									"disabled": true
-								},
-								{
-									"id": "mAfVBxWAcbwnY1qxg",
-									"name": "Absorption",
-									"reference": "B46",
-									"local_notes": "Enhances any trait",
-									"cost": 100,
-									"disabled": true
-								},
-								{
-									"id": "mQBqPj_8Y7k-SOMjU",
-									"name": "Reflection",
-									"reference": "B47",
-									"cost": 100,
-									"disabled": true
-								},
-								{
-									"id": "m2gdU5NvkU1EH3_NZ",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Rare@",
-									"cost": -1,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mSPu5jRY3LNvTebTk",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Occasional@",
-									"cost": -5,
-									"disabled": true
-								},
-								{
-									"id": "mH-J3SlnYGVDlFKWT",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Common@",
-									"cost": -10,
-									"disabled": true
-								},
-								{
-									"id": "m2z57Yq6hix-LJIyo",
-									"name": "Bane",
-									"reference": "H14",
-									"local_notes": "@Very Common@",
-									"cost": -15,
-									"disabled": true
-								},
-								{
-									"id": "mtdltD8vFJQQE6KbG",
+									"id": "msKYWsxg7olv7CyB-",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "Front",
@@ -2212,35 +2170,21 @@
 									"disabled": true
 								},
 								{
-									"id": "mNLRIRCOgsMkbN9wM",
-									"name": "Flexible",
-									"reference": "B47",
-									"cost": -20
-								},
-								{
-									"id": "mly8JMB-8ghfNJ6Rl",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Very Common Attack Form@",
-									"cost": -20,
-									"disabled": true
-								},
-								{
-									"id": "mdXqbJsbWRsfhEgkg",
+									"id": "m_fj7IBBALUzQFqJH",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost": -20,
 									"disabled": true
 								},
 								{
-									"id": "mCYuR3U4i4JmhOV5z",
+									"id": "m8n0pe5lLQu3BYdJ5",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mdgfqsZOubX1VnjUU",
+									"id": "mLCvth2OEr6c-qkRP",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -2248,71 +2192,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mQuuTP3Z632B9SMY2",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Common Attack Form@",
-									"cost": -40,
-									"disabled": true
-								},
-								{
-									"id": "m1MIpM03DDbz0bLkN",
-									"name": "Tough Skin",
-									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
-									"cost": -40
-								},
-								{
-									"id": "mVW3tRl7J5e0RQ8ip",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Occasional Attack Form@",
-									"cost": -60,
-									"disabled": true
-								},
-								{
-									"id": "mHAgV45os20DzohTH",
-									"name": "Ablative",
-									"reference": "B47",
-									"cost": -80,
-									"disabled": true
-								},
-								{
-									"id": "muYYNXWeQhlo6VX0i",
-									"name": "Limited",
-									"reference": "B46",
-									"local_notes": "@Rare Attack Form@",
-									"cost": -80,
-									"disabled": true
-								},
-								{
-									"id": "mlsogC0j1hCvpWi8M",
-									"name": "Laminate",
-									"reference": "RSWL18",
-									"cost": 10,
-									"disabled": true
-								},
-								{
-									"id": "mzmdf2duB7eEbj85S",
-									"name": "Malediction-Proof",
-									"reference": "PSI14",
-									"cost": 50,
-									"disabled": true
-								},
-								{
-									"id": "m2wNi0gxLc10toVQJ",
-									"name": "Maledictions Only",
-									"reference": "PSI14",
-									"disabled": true
-								},
-								{
-									"id": "mU0E8OYLBrI14LONX",
+									"id": "mDFbIQLo_XwEN5gHp",
 									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 									"reference": "B47",
 									"cost": -10,
 									"disabled": true
 								}
 							],
-							"points_per_level": 5,
+							"points_per_level": 4,
 							"features": [
 								{
 									"type": "dr_bonus",
@@ -2336,47 +2223,11 @@
 							"can_level": true,
 							"levels": 2,
 							"calc": {
-								"points": 4
+								"points": 8
 							}
 						},
 						{
-							"id": "twVko8jBHPgLsuKFb",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-								"id": "t0VPbjg7THRHjm113"
-							},
-							"name": "Early Maturation",
-							"reference": "TT2:12",
-							"tags": [
-								"Exotic",
-								"Feature",
-								"Physical",
-								"Supernatural"
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 0
-							}
-						},
-						{
-							"id": "tbVI0IACTSYTO6Dgc",
-							"source": {
-								"library": "/gcs-cdp",
-								"path": "CdP Rasgos.adq",
-								"id": "tToTfPINFyLrfLrrL"
-							},
-							"name": "Jaw ST",
-							"points_per_level": 1,
-							"can_level": true,
-							"levels": 3,
-							"calc": {
-								"points": 3
-							}
-						},
-						{
-							"id": "tYaehK1zx59qY19zJ",
+							"id": "tpjih_zgHAajfCEsp",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2413,50 +2264,7 @@
 							}
 						},
 						{
-							"id": "t7pKvTeYziyJjC_wU",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tynHtgvWZmmNOL97D"
-							},
-							"name": "Reduced Consumption",
-							"reference": "B80",
-							"tags": [
-								"Advantage",
-								"Physical"
-							],
-							"modifiers": [
-								{
-									"id": "m5NsLEvEGztF4tN4z",
-									"name": "Cast-Iron Stomach",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "mOrA-6ZYYvA1HonzK",
-									"name": "Food Only",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								},
-								{
-									"id": "mPTeLvXLU6hZJrsJX",
-									"name": "Water Only",
-									"reference": "B80",
-									"cost": -50,
-									"disabled": true
-								}
-							],
-							"points_per_level": 2,
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 2
-							}
-						},
-						{
-							"id": "tBzOwA4sC7FrOUhxx",
+							"id": "tCC4Cboh-ZZoxjnGP",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2470,21 +2278,21 @@
 							],
 							"modifiers": [
 								{
-									"id": "myUUP0pE5nMa_4vMA",
+									"id": "mq1m0kWngT-NUcKub",
 									"name": "Substitution",
 									"reference": "B151",
 									"cost": -50,
 									"disabled": true
 								},
 								{
-									"id": "mj7VFaDJA78_nJ5Il",
+									"id": "mUF1e8Oyo9px32cMr",
 									"name": "Very Common",
 									"reference": "B151",
 									"cost": -10,
 									"cost_type": "points"
 								},
 								{
-									"id": "mDXB2PRqvsMm34kuB",
+									"id": "mc2avxDJY6BalYHgX",
 									"name": "Common",
 									"reference": "B151",
 									"cost": -20,
@@ -2492,7 +2300,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mEJUvAGoyr5b_Wxch",
+									"id": "mwDfrpZJCXRD76n2u",
 									"name": "Occasional",
 									"reference": "B151",
 									"cost": -30,
@@ -2500,7 +2308,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mWkjqNJxdbl3X3Hq3",
+									"id": "mtYBxkuxhWIsgSFAP",
 									"name": "Rare",
 									"reference": "B151",
 									"cost": -40,
@@ -2513,7 +2321,7 @@
 							}
 						},
 						{
-							"id": "t-595RrcThKGzWH3G",
+							"id": "t_-IV01QuJNmltNnE",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2528,7 +2336,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mMDDEhrqxvjDqLn18",
+									"id": "ma_22VIABdN3vZEQR",
 									"name": "Provided by Vampiric Bite",
 									"reference": "B96",
 									"cost": -1,
@@ -2539,7 +2347,7 @@
 							"base_points": 1,
 							"weapons": [
 								{
-									"id": "wDhn7mxHRz4mWWE9H",
+									"id": "w-XCeT4MxE9pJPBqH",
 									"damage": {
 										"type": "cut",
 										"st": "thr",
@@ -2567,7 +2375,7 @@
 							}
 						},
 						{
-							"id": "tsbsjPe6dvg-3kJ1x",
+							"id": "tgHVzDhrTKfqbxZY0",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Traits.adq",
@@ -2582,14 +2390,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mhdCoDeVVdzMaD5li",
+									"id": "mTZAN8ng1UOlFv0E8",
 									"name": "Mild",
 									"reference": "B156",
 									"cost": -10,
 									"cost_type": "points"
 								},
 								{
-									"id": "mXNWSevqC9w4cAApl",
+									"id": "mxHBH2cAvxbpeBHEU",
 									"name": "Moderate",
 									"reference": "B156",
 									"cost": -15,
@@ -2597,7 +2405,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mnavgfPyiHzKqIP9U",
+									"id": "mKrPXKZeKsyNmG5qY",
 									"name": "Severe",
 									"reference": "B156",
 									"cost": -20,
@@ -2611,7 +2419,7 @@
 							}
 						},
 						{
-							"id": "tO8GGImj2IAhfLbMr",
+							"id": "tHGDHoBtaN3MWTD7f",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -2630,12 +2438,12 @@
 						}
 					],
 					"calc": {
-						"points": 16
+						"points": 18
 					}
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 18
 			}
 		}
 	],
@@ -3732,7 +3540,7 @@
 		}
 	],
 	"created_date": "2025-07-10T02:43:50+02:00",
-	"modified_date": "2025-07-25T21:01:32+02:00",
+	"modified_date": "2025-08-04T18:15:48+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

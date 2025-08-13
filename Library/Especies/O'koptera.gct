@@ -30,13 +30,89 @@
 					}
 				},
 				{
-					"id": "tDptwtdHavyhZAOwu",
+					"id": "tspHDNWfM2XtzNafa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tDJEofRVQdR97QyYX"
+					},
+					"name": "Congenial",
+					"reference": "B164",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tp2PUNGpdDZUg6B_G",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tjKuFiuy3Fs6rm69e"
+					},
+					"name": "Discriminatory Smell",
+					"reference": "B49,P47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mJiMQe0rtnVmDUHaa",
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mxqIiQzYrR2xpAuoA",
+							"name": "Profiling",
+							"reference": "P47",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mM7TIs0Oe1DNH_aLc",
+							"name": "Vague Emotion Sense",
+							"reference": "B49",
+							"local_notes": "As Empathy (Sensitive)",
+							"cost": 25
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tracking"
+							},
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "on any task that utilizes sense of smell",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": 19
+					}
+				},
+				{
+					"id": "tLWpCsbiMyN4X55kj",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "tBmSJ3pNE53c4IRUU"
 					},
-					"name": "Damage Resistance",
+					"name": "Exoskeleton",
 					"reference": "B47,P45,MA43,PSI14",
 					"tags": [
 						"Advantage",
@@ -45,86 +121,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mSJP-67w4P3eL7K7w",
-							"name": "Force Field",
-							"reference": "B47",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "m-NGTVi50QACbymcw",
-							"name": "Hardened",
-							"reference": "B47",
-							"cost": 20,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "mHZYSzxwYfiX7iLOn",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances @Trait@",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "mD4IqqQhiJVQTGVF5",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Healing only",
-							"cost": 80,
-							"disabled": true
-						},
-						{
-							"id": "m84wG7thRjOEzn_P7",
-							"name": "Absorption",
-							"reference": "B46",
-							"local_notes": "Enhances any trait",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "m961g4HJBl8h2MFeF",
-							"name": "Reflection",
-							"reference": "B47",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "m6OQ2neI4OgMHkbUk",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Rare@",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mFddAKhoVOOeglkH-",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Occasional@",
-							"cost": -5,
-							"disabled": true
-						},
-						{
-							"id": "muASxIaJ3knTMBIeR",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Common@",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "mw8iIno58WaqaQ-Rj",
-							"name": "Bane",
-							"reference": "H14",
-							"local_notes": "@Very Common@",
-							"cost": -15,
-							"disabled": true
-						},
-						{
-							"id": "m3TQ5fnOo7JPWJPUO",
+							"id": "mbjfr6Zxf1NXmTZXt",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "Front",
@@ -132,36 +129,28 @@
 							"disabled": true
 						},
 						{
-							"id": "mPCt4GabsgLOSpGKG",
+							"id": "mmyp_ZkfzOS8sg6NZ",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "muG8r-QOr9ELed8Gu",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Very Common Attack Form@",
-							"cost": -20,
-							"disabled": true
-						},
-						{
-							"id": "mSEE7UveXD1qaG6Ji",
+							"id": "mP9kckMQTKY9QJOde",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mNdK1AlaNkcNDDxJM",
+							"id": "mGbnL1T4oxt7FfGfk",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m_MUoCf2f74007H_9",
+							"id": "mW0er_PFb-RRixBr9",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -169,73 +158,30 @@
 							"disabled": true
 						},
 						{
-							"id": "mrQxq6QF0ByBOwXsp",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Common Attack Form@",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mT0q0ice2QcrO4Nqn",
-							"name": "Tough Skin",
-							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
-							"cost": -40,
-							"disabled": true
-						},
-						{
-							"id": "mL6x1yrKpqZcelfuG",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Occasional Attack Form@",
-							"cost": -60,
-							"disabled": true
-						},
-						{
-							"id": "mddBFCBn7GZOJkXBu",
-							"name": "Ablative",
-							"reference": "B47",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "m5PjyyDmUZTfzx8Zk",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Rare Attack Form@",
-							"cost": -80,
-							"disabled": true
-						},
-						{
-							"id": "mvCM1wutOE0MbFKgd",
-							"name": "Laminate",
-							"reference": "RSWL18",
-							"cost": 10,
-							"disabled": true
-						},
-						{
-							"id": "m0dNu5zmNJAd12_NV",
-							"name": "Malediction-Proof",
-							"reference": "PSI14",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mSkhIgdU5j-m-F411",
-							"name": "Maledictions Only",
-							"reference": "PSI14",
-							"disabled": true
-						},
-						{
-							"id": "mVH4hkCk1WIAbQBP_",
+							"id": "m05jqdNRh99gDVXM3",
 							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 							"reference": "B47",
 							"cost": -10,
 							"disabled": true
 						}
 					],
+					"base_points": -3,
 					"points_per_level": 5,
 					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": -1
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": -2
+						},
 						{
 							"type": "dr_bonus",
 							"locations": [
@@ -258,68 +204,7 @@
 					"can_level": true,
 					"levels": 2,
 					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "t16fN3lHfYcf28qHL",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tjKuFiuy3Fs6rm69e"
-					},
-					"name": "Discriminatory Smell",
-					"reference": "B49,P47",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mKxg99H2YNPP3qHRK",
-							"name": "Emotion Sense",
-							"reference": "B49",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mFIfRbCTdoyAosy4-",
-							"name": "Profiling",
-							"reference": "P47",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "mVa3fF0Uq349Jx1yq",
-							"name": "Racial Emotion Sense",
-							"local_notes": "As Empaty for same race, and Empathy (Sensitive) for unfamiliar ones.",
-							"cost": 30
-						},
-						{
-							"id": "mSTRV12IH98ByEZ9M",
-							"name": "Vague Communication"
-						}
-					],
-					"base_points": 15,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "Tracking"
-							},
-							"amount": 4
-						},
-						{
-							"type": "conditional_modifier",
-							"situation": "on any task that utilizes sense of smell",
-							"amount": 4
-						}
-					],
-					"calc": {
-						"points": 20
+						"points": 7
 					}
 				},
 				{
@@ -407,6 +292,63 @@
 					}
 				},
 				{
+					"id": "tGal_1voV1Pm2KxXp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ttHkLI9zwzfeOIEZc"
+					},
+					"name": "Intolerance (Rival Families)",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mME_IPLsTo5fKPUP-",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mQ1Sg2p6icTTufle8",
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost": -2,
+							"cost_type": "points"
+						},
+						{
+							"id": "mk4qI10rsEmP9dyDC",
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mAi-YNU0lFT0YSpU1",
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				},
+				{
 					"id": "tROhOy8Xhz9J_LQcM",
 					"name": "Night Vision",
 					"reference": "B71,P87",
@@ -416,45 +358,9 @@
 					],
 					"points_per_level": 1,
 					"can_level": true,
-					"levels": 4,
+					"levels": 3,
 					"calc": {
-						"points": 4
-					}
-				},
-				{
-					"id": "taYgpI45mPwxaTGv7",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
-						"id": "tyk4elDSJmb7D6itb"
-					},
-					"name": "No Natural DR",
-					"reference": "TT2:29",
-					"tags": [
-						"Disadvantage",
-						"Exotic",
-						"Physical"
-					],
-					"vtt_notes": "Based on No Skull DR",
-					"base_points": -3,
-					"features": [
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"vitals"
-							],
-							"amount": -1
-						},
-						{
-							"type": "dr_bonus",
-							"locations": [
-								"skull"
-							],
-							"amount": -2
-						}
-					],
-					"calc": {
-						"points": -3
+						"points": 3
 					}
 				},
 				{
@@ -479,7 +385,7 @@
 					}
 				},
 				{
-					"id": "tZ4tS6m4K7jtzf7UC",
+					"id": "tQcPln3SgXFs79v9g",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
@@ -506,34 +412,9 @@
 							}
 						]
 					},
-					"base_points": 5,
+					"base_points": 3,
 					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "tq-oyFMFeoiMhbuGg",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t7U0VbIzs6SqefwLr"
-					},
-					"name": "Social Stigma (Family-bound)",
-					"reference": "B155",
-					"tags": [
-						"Disadvantage",
-						"Social"
-					],
-					"base_points": -5,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from o'koptera who belong to rival families or clans.",
-							"amount": -2
-						}
-					],
-					"calc": {
-						"points": -5
+						"points": 3
 					}
 				},
 				{
@@ -682,7 +563,7 @@
 				}
 			],
 			"calc": {
-				"points": 24
+				"points": 22
 			}
 		}
 	]
