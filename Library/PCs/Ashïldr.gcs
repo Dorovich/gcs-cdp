@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "A9vrjJ5Jr-GAk8Fme",
-	"total_points": 123,
+	"total_points": 121,
 	"points_record": [
+		{
+			"when": "2025-08-14T00:20:37+02:00",
+			"points": -2,
+			"reason": "Ajuste habilidades"
+		},
 		{
 			"when": "2025-07-14T16:11:13+02:00",
 			"points": 3,
@@ -1209,17 +1214,20 @@
 			}
 		},
 		{
-			"id": "sB4puzPQYfab6kKBb",
+			"id": "sFXLilVM2Xtdoh6Hq",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
 				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Airshipman",
+			"name": "Airman",
 			"reference": "B185",
+			"reference_highlight": "Airshipman",
 			"tags": [
+				"Hv. Akp.",
 				"Vehicle"
 			],
+			"vtt_notes": "Renamed Airshipman",
 			"difficulty": "iq/e",
 			"defaults": [
 				{
@@ -1235,39 +1243,6 @@
 				"adjusted_level": 7,
 				"points": -7
 			},
-			"calc": {
-				"level": 11,
-				"rsl": "IQ+0"
-			}
-		},
-		{
-			"id": "sgca3PzYimYExJbd3",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sUyiTwddn_HuinJ4K"
-			},
-			"name": "Area Knowledge",
-			"reference": "B176",
-			"tags": [
-				"Everyman",
-				"Knowledge"
-			],
-			"replacements": {
-				"Area": "Sha'karrat",
-				"Specialty": "Specialty"
-			},
-			"specialization": "@Area@",
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Geography",
-					"specialization": "@Specialty@",
-					"modifier": -3
-				}
-			],
-			"points": 1,
 			"calc": {
 				"level": 11,
 				"rsl": "IQ+0"
@@ -1356,18 +1331,20 @@
 			}
 		},
 		{
-			"id": "sLnJB8glgyP-FFTsj",
+			"id": "s-MPdHsz906vORLJt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
 				"id": "swXuff1DBhSQbTqy1"
 			},
-			"name": "Electronics Operation",
+			"name": "Electronics",
 			"reference": "B189",
 			"tags": [
+				"Hv. Akp.",
+				"Lt. Akp.",
 				"Technical"
 			],
-			"specialization": "Communications",
+			"specialization": "Comms",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -1376,14 +1353,8 @@
 				},
 				{
 					"type": "skill",
-					"name": "Electronics Operation",
+					"name": "Electronics",
 					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Repair",
-					"specialization": "Communications",
-					"modifier": -5
 				},
 				{
 					"type": "skill",
@@ -1403,59 +1374,6 @@
 			"calc": {
 				"level": 11,
 				"rsl": "IQ+0"
-			}
-		},
-		{
-			"id": "sWAa43PgGltIoCbyx",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "smQb4vkfHH6Aaczt2"
-			},
-			"name": "Electronics Repair",
-			"reference": "B190",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Communications",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Operation",
-					"specialization": "Communications",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electronics",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Repair",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Electronics Operation",
-				"specialization": "Communications",
-				"modifier": -3,
-				"level": 8,
-				"adjusted_level": 8,
-				"points": -8
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ-1"
 			}
 		},
 		{
@@ -1943,38 +1861,43 @@
 			}
 		},
 		{
-			"id": "svHQ5nXSS7vfZDfcC",
+			"id": "sxoGt3OSqjA29wueD",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sQ93W8oPsTVYtDkZ9"
+				"id": "s64oJ-8i-8xecRu4a"
 			},
-			"name": "Thrown Weapon",
+			"name": "Throwing",
 			"reference": "B226",
 			"tags": [
+				"Athletic",
 				"Combat",
 				"Ranged Combat",
 				"Weapon"
 			],
-			"specialization": "Axe/Mace",
-			"difficulty": "dx/e",
+			"difficulty": "dx/a",
 			"defaults": [
 				{
 					"type": "dx",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Dropping",
 					"modifier": -4
 				}
 			],
 			"points": 1,
 			"defaulted_from": {
 				"type": "dx",
-				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"modifier": -3,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
-				"level": 11,
-				"rsl": "DX+0"
+				"level": 10,
+				"rsl": "DX-1"
 			}
 		},
 		{
@@ -2206,7 +2129,7 @@
 						}
 					],
 					"calc": {
-						"level": 11,
+						"level": 6,
 						"damage": "1d+1 cr",
 						"range": "10/15"
 					}
@@ -2250,7 +2173,7 @@
 		}
 	],
 	"created_date": "2025-05-10T22:40:31+02:00",
-	"modified_date": "2025-07-24T18:59:44+02:00",
+	"modified_date": "2025-08-14T00:18:58+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

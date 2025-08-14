@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "A7ihFSVGiblNzcFYY",
-	"total_points": 168,
+	"total_points": 167,
 	"points_record": [
+		{
+			"when": "2025-08-14T00:25:18+02:00",
+			"points": -1,
+			"reason": "Ajuste habilidades"
+		},
 		{
 			"when": "2025-07-26T18:20:33+02:00",
 			"points": 1,
@@ -2376,17 +2381,20 @@
 	],
 	"skills": [
 		{
-			"id": "s7_fDvhgbDVjoui3o",
+			"id": "sDbFcc7gxLhIhmvxM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
 				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Airshipman",
+			"name": "Airman",
 			"reference": "B185",
+			"reference_highlight": "Airshipman",
 			"tags": [
+				"Hv. Akp.",
 				"Vehicle"
 			],
+			"vtt_notes": "Renamed Airshipman",
 			"difficulty": "iq/e",
 			"defaults": [
 				{
@@ -2582,6 +2590,93 @@
 				"level": 7,
 				"adjusted_level": 7,
 				"points": -7
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sVT7nvpB_-_3AHEMT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "srJZ2I_KS3wPlAaAv"
+			},
+			"name": "Captaincy",
+			"reference": "B220",
+			"reference_highlight": "Shiphandling",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Shiphandling (Airship)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Airman",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Lighter-Than-Air",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "navigation"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "air"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "leadership"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "airman"
+						}
+					}
+				]
+			},
+			"points": 4,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Airman",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
 				"level": 10,
@@ -2860,43 +2955,6 @@
 			}
 		},
 		{
-			"id": "sB8sti-VQNGYUY4DD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sRzoU2_LS2s4r51LA"
-			},
-			"name": "History",
-			"reference": "B200",
-			"tags": [
-				"Humanities",
-				"Social Sciences"
-			],
-			"replacements": {
-				"Specialty": "Korkon Tribes"
-			},
-			"specialization": "@Specialty@",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -6,
-				"level": 4,
-				"adjusted_level": 4,
-				"points": -4
-			},
-			"calc": {
-				"level": 8,
-				"rsl": "IQ-2"
-			}
-		},
-		{
 			"id": "sTczZ_pcwtQE26mA0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3096,47 +3154,6 @@
 			}
 		},
 		{
-			"id": "sC8Ark2p8zI10WNRh",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Habilidades.skl",
-				"id": "sG-p-TFJcarrY1btF"
-			},
-			"name": "Observation",
-			"reference": "B211",
-			"tags": [
-				"Criminal",
-				"Military",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "per",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Shadowing",
-					"modifier": -5
-				}
-			],
-			"points": 2,
-			"defaulted_from": {
-				"type": "per",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "Per+0"
-			}
-		},
-		{
 			"id": "sSFGY5RcaLcFsGoBY",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3318,6 +3335,51 @@
 			}
 		},
 		{
+			"id": "sGEtKxp180qwkBai7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6Yn2IClGb4i4LgOQ"
+			},
+			"name": "Recon",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Military",
+				"Police",
+				"Spy"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Forensics",
+					"modifier": -3
+				},
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Search",
+					"modifier": -3
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "Per+0"
+			}
+		},
+		{
 			"id": "sSv13PiTLdsHXD-xa",
 			"source": {
 				"library": "/gcs_user_library",
@@ -3347,85 +3409,6 @@
 			"calc": {
 				"level": 11,
 				"rsl": "HT+0"
-			}
-		},
-		{
-			"id": "sAJkZoHVY7DA680fO",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "srJZ2I_KS3wPlAaAv"
-			},
-			"name": "Shiphandling",
-			"reference": "B220",
-			"tags": [
-				"Vehicle"
-			],
-			"specialization": "Airship",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Airshipman",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Piloting",
-					"specialization": "Lighter-Than-Air",
-					"modifier": -5
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "navigation"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "air"
-						}
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "leadership"
-						}
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "airshipman"
-						}
-					}
-				]
-			},
-			"points": 4,
-			"defaulted_from": {
-				"type": "skill",
-				"name": "Airshipman",
-				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ+0"
 			}
 		},
 		{
@@ -4013,7 +3996,7 @@
 		}
 	],
 	"created_date": "2024-07-25T00:10:31+02:00",
-	"modified_date": "2025-08-04T18:06:22+02:00",
+	"modified_date": "2025-08-14T00:25:02+02:00",
 	"calc": {
 		"swing": "1d+2",
 		"thrust": "1d-1",

@@ -2888,47 +2888,6 @@
 			}
 		},
 		{
-			"id": "sylLlsrk0e5lQnU6b",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6Yn2IClGb4i4LgOQ"
-			},
-			"name": "Observation",
-			"reference": "B211",
-			"tags": [
-				"Criminal",
-				"Military",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "per",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Shadowing",
-					"modifier": -5
-				}
-			],
-			"points": 2,
-			"defaulted_from": {
-				"type": "per",
-				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 11,
-				"rsl": "Per+0"
-			}
-		},
-		{
 			"id": "sdJ4_2iV-fonjBto7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3043,6 +3002,51 @@
 			"calc": {
 				"level": 10,
 				"rsl": "IQ-1"
+			}
+		},
+		{
+			"id": "s4Y-vG9ld3x1fxE_U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6Yn2IClGb4i4LgOQ"
+			},
+			"name": "Recon",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Military",
+				"Police",
+				"Spy"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Forensics",
+					"modifier": -3
+				},
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Search",
+					"modifier": -3
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "Per+0"
 			}
 		},
 		{
@@ -3540,7 +3544,7 @@
 		}
 	],
 	"created_date": "2025-07-10T02:43:50+02:00",
-	"modified_date": "2025-08-04T18:15:48+02:00",
+	"modified_date": "2025-08-14T00:19:29+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

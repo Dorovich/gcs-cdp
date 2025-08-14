@@ -33,6 +33,360 @@
 			"points": 1
 		},
 		{
+			"id": "SXML508PZh2sstFUy",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SU1fiEmyRfCakezIq"
+			},
+			"name": "Area Knowledge",
+			"children": [
+				{
+					"id": "sq5Ku5jmFtsOubS0w",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Area@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGHYzKXVzDrYogAN_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Al-Shreggel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "stn9VZpYFT9Q2HiiI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Boxton",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sjtSDQoq3ngDNy9pn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Camdel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s1nstTp-A9V2Z_F2l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "El'neun",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "ssY-ifdPXpZx6AaQA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "El'parpen",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "shYt_x9zZtpZiFSZy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Erlit",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "ssWZJTj6j_tDv6lbC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Niwel",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sW5LeM-N7uOC-B8yU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Nürenfort",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sCF-Lk8pyPoxgsAUJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "Serlit",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGubhwvfy5UN3iPwg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sUyiTwddn_HuinJ4K"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"replacements": {
+						"Area": "Sha'karrat",
+						"Specialty": "Specialty"
+					},
+					"specialization": "@Area@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sKALsaAKuNZLzdWhh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sgDVif7IKSPE3JdMR"
+			},
+			"name": "Bicycling",
+			"reference": "B180",
+			"tags": [
+				"Athletic",
+				"Vehicle"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Motorcycle",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "SsSVhLshPrwRcefss",
 			"source": {
 				"library": "/gcs-cdp",
@@ -274,6 +628,89 @@
 			]
 		},
 		{
+			"id": "svoiaQjiPnnI5Vn7l",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "str5VV-DO6mEEMNdt"
+			},
+			"name": "Diving Suit",
+			"reference": "B192",
+			"tags": [
+				"Technical"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Scuba",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "NBC Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Vacc Suit",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "S8sdvmZphVebtBAh-",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SlEYDgztRTOd0eMqt"
+			},
+			"name": "Driving",
+			"children": [
+				{
+					"id": "ssPmbBZGIRdpcgK5B",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sBJMD_HQmpdY_foql"
+					},
+					"name": "Driving",
+					"reference": "B188",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Construction Equipment",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Driving",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
 			"id": "Skb3Q-SZ24CoIqwF4",
 			"source": {
 				"library": "/gcs-cdp",
@@ -333,42 +770,117 @@
 			]
 		},
 		{
-			"id": "svoiaQjiPnnI5Vn7l",
+			"id": "SGrAbyJglT8AkvJlC",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "ST94AxrMO2SdCRK4E"
+			},
+			"name": "Explosives",
+			"children": [
+				{
+					"id": "sClMwpGggHPeXlaPf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sBo_rPo1Tssf4Qjf3"
+					},
+					"name": "Explosives",
+					"reference": "B194",
+					"tags": [
+						"Military",
+						"Technical"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Combat",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Mining",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Underwater Demolition",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s-WGV7_UaHJ1eaMIJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "seNr8bwC1ERg2ZOEH"
+					},
+					"name": "Explosives",
+					"reference": "B194",
+					"tags": [
+						"Military",
+						"Technical"
+					],
+					"specialization": "Underwater Demolition",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "s4e8oQSn-d4orbtRk",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "str5VV-DO6mEEMNdt"
+				"id": "s7kVwKFERTuMYO3O8"
 			},
-			"name": "Diving Suit",
-			"reference": "B192",
+			"name": "Free Fall",
+			"reference": "B197",
 			"tags": [
-				"Technical"
+				"Athletic"
 			],
 			"difficulty": "dx/a",
 			"defaults": [
 				{
-					"type": "dx",
+					"type": "ht",
 					"modifier": -5
 				},
 				{
-					"type": "skill",
-					"name": "Scuba",
-					"modifier": -2
-				},
-				{
-					"type": "skill",
-					"name": "Battlesuit",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "NBC Suit",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Vacc Suit",
-					"modifier": -4
+					"type": "dx",
+					"modifier": -5
 				}
 			],
 			"points": 1
@@ -784,6 +1296,35 @@
 			]
 		},
 		{
+			"id": "s1HD03e-LkjLRxIzq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "snZtm1wwlLIeerPuO"
+			},
+			"name": "Gunner",
+			"reference": "B198",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "@Gun class@",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sbxUrboEXAdEVLngQ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -810,6 +1351,240 @@
 				}
 			],
 			"points": 1
+		},
+		{
+			"id": "ShXKOLYa66VIsDMH9",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SQGR8yUsA3QLB1Ec-"
+			},
+			"name": "Hidden Lore",
+			"children": [
+				{
+					"id": "sppGq465lIDDv1_w-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sIGnp4W_M8XBodpEH"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Subject@",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sow0CfPx3cgLWq7CB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "Automatons",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "seS07MPTW7Uw_mDOL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "Crystal Spheres",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sDI0_NsgS4SOOmeUP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "Gods of yore",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sP9ufO0vp-KSYNVcx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "Keum/Nulle",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "ssP3HON-_NrVZLPkF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scUd9D-fClueKYIDh"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Occult"
+					],
+					"specialization": "The Heart",
+					"difficulty": "iq/a",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "StWY077jX7j7p_3nj",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SnnVuVAifuT6mSNBM"
+			},
+			"name": "History",
+			"children": [
+				{
+					"id": "s3EZr-HDy8xvTu3mT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRzoU2_LS2s4r51LA"
+					},
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sm1y2Ct__Q-U9EYW0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRzoU2_LS2s4r51LA"
+					},
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"replacements": {
+						"Specialty": "Korkon Tribes"
+					},
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 3,
+						"adjusted_level": 3,
+						"points": -3
+					}
+				}
+			]
+		},
+		{
+			"id": "Sa6rD2bGhWfzQIMfA",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SZW0wWaEmZUT2E-Zm"
+			},
+			"name": "Hobby Skill",
+			"children": [
+				{
+					"id": "sv760X-cWHniCrRLy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sOtPessbzkRjGaQPR"
+					},
+					"name": "Hobby Skill",
+					"reference": "B200,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Mental Hobby@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sjcpgiyiUjwtHTJp1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sDLf4crz0sGRjVDFi"
+					},
+					"name": "Hobby Skill",
+					"reference": "B200,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Physical Hobby@",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
 		},
 		{
 			"id": "SUSJy2y_GhXcciMQE",
@@ -925,35 +1700,6 @@
 			"points": 1
 		},
 		{
-			"id": "s1HD03e-LkjLRxIzq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "snZtm1wwlLIeerPuO"
-			},
-			"name": "Gunner",
-			"reference": "B198",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "@Gun class@",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Gunner",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sqE4QF6Y7ynbzGh2f",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -966,6 +1712,28 @@
 				"Athletic"
 			],
 			"difficulty": "ht/a",
+			"points": 1
+		},
+		{
+			"id": "sYNSdt3q762Hj5zOE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6AbBm2rmYkJwjkmr"
+			},
+			"name": "Mathematics",
+			"reference": "B207",
+			"tags": [
+				"Natural Science"
+			],
+			"specialization": "Pure: @Optional specialty@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
 			"points": 1
 		},
 		{
@@ -1534,6 +2302,77 @@
 			]
 		},
 		{
+			"id": "SvSrBVQJ3s73Kiae_",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SWZf4TVdN-xM0HtEJ"
+			},
+			"name": "Religious Ritual",
+			"children": [
+				{
+					"id": "sKS_TAa4A3msaDTdn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s0OrRdzDLyXnfmwj9"
+					},
+					"name": "Religious Ritual",
+					"reference": "B217",
+					"tags": [
+						"Occult"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Ritual Magic",
+							"specialization": "@Specialty@",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Theology",
+							"specialization": "@Specialty@",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sIxDAU-8izWE4KlSh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s0OrRdzDLyXnfmwj9"
+					},
+					"name": "Religious Ritual",
+					"reference": "B217",
+					"tags": [
+						"Occult"
+					],
+					"specialization": "Path of the Sands",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Ritual Magic",
+							"specialization": "@Specialty@",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Theology",
+							"specialization": "@Specialty@",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
 			"id": "sl2ZXTMM5dg6L8nna",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1551,43 +2390,6 @@
 			"defaults": [
 				{
 					"type": "iq",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sWJJB8Ne_ugD-fZMz",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sDjZhd_pI3nsLNPQp"
-			},
-			"name": "Strategy",
-			"reference": "B222",
-			"tags": [
-				"Military"
-			],
-			"specialization": "Naval",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Intelligence Analysis",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Tactics",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Strategy",
 					"modifier": -4
 				}
 			],
@@ -2152,291 +2954,96 @@
 			"points": 1
 		},
 		{
-			"id": "SMyJhxBtanb_DIBgA",
+			"id": "S3b8L4uU91iWJkrKy",
 			"source": {
 				"library": "/gcs-cdp",
 				"path": "CdP Habilidades.skl",
-				"id": "S0dolB7A9sVfGFKM_"
+				"id": "SD3-WGeArl5s-XDKJ"
 			},
-			"name": "Electronics Operation",
+			"name": "Theology",
 			"children": [
 				{
-					"id": "sMVwvdUXwUn0YbrXY",
+					"id": "sOsoRiHsUMRd-Azfc",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sUOQKAH8IaMhpxk1o"
+						"id": "sMIRD7ORV8Bmze6Af"
 					},
-					"name": "Electronics Operation",
-					"reference": "B189",
+					"name": "Theology",
+					"reference": "B226",
 					"tags": [
-						"Technical"
+						"Humanities",
+						"Social Sciences"
 					],
-					"specialization": "@Electronics type@",
-					"difficulty": "iq/a",
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "iq",
-							"modifier": -5
+							"modifier": -6
 						},
 						{
 							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Communications",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sOhF_NyxUeguQRkWM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sLDuQRGJ4yzEXiQ0G"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Technical"
-					],
-					"specialization": "Media",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Media",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
+							"name": "Religious Ritual",
+							"specialization": "@Specialty@",
 							"modifier": -4
 						}
 					],
 					"points": 1
 				},
 				{
-					"id": "sG6O1BRB6rknOo9WY",
+					"id": "sECciqvHCraIYl9tQ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKTF4zU6WcKytEDRW"
+						"id": "sMIRD7ORV8Bmze6Af"
 					},
-					"name": "Electronics Operation",
-					"reference": "B189",
+					"name": "Theology",
+					"reference": "B226",
 					"tags": [
-						"Medical",
-						"Technical"
+						"Humanities",
+						"Social Sciences"
 					],
-					"specialization": "Medical",
-					"difficulty": "iq/a",
+					"specialization": "Order of Old",
+					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "iq",
-							"modifier": -5
+							"modifier": -6
 						},
 						{
 							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Medical",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
+							"name": "Religious Ritual",
+							"specialization": "@Specialty@",
 							"modifier": -4
 						}
 					],
 					"points": 1
 				},
 				{
-					"id": "sNe7Z4GuLzXBjYArw",
+					"id": "sJbJH3kXseqwflLeV",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sirFPuXXZfzdkM7Zm"
+						"id": "sMIRD7ORV8Bmze6Af"
 					},
-					"name": "Electronics Operation",
-					"reference": "B189",
+					"name": "Theology",
+					"reference": "B226",
 					"tags": [
-						"Technical"
+						"Humanities",
+						"Social Sciences"
 					],
-					"specialization": "Scientific",
-					"difficulty": "iq/a",
+					"specialization": "Sh-gá-rra's Faith",
+					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "iq",
-							"modifier": -5
+							"modifier": -6
 						},
 						{
 							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Scientific",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sRm5QVgODGgyL3XBW",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "slXlqD4FNReNHmsov"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street",
-						"Technical"
-					],
-					"specialization": "Security",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Security",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sqAK0mx-ONdA8P9KT",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "scI2qsAuQCh8ddpSr"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Nokk",
-						"Technical"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Sonar",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s3XvUnXftv05VZQZU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s71NSSCnVzScWznSY"
-					},
-					"name": "Electronics Operation",
-					"reference": "B189",
-					"tags": [
-						"Police",
-						"Spy",
-						"Technical"
-					],
-					"specialization": "Surveillance",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"specialization": "Surveillance",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
+							"name": "Religious Ritual",
+							"specialization": "@Specialty@",
 							"modifier": -4
 						}
 					],
@@ -2445,296 +3052,20 @@
 			]
 		},
 		{
-			"id": "S0lnJh7S8METepG3P",
+			"id": "swKE-i5Wc-6pRmmVK",
 			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades.skl",
-				"id": "SiWeeL0gSRqZI342F"
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqGxu15iEnZV1UQbt"
 			},
-			"name": "Electronics Repair",
-			"children": [
-				{
-					"id": "sWyKxGqOFXzQPhwFI",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sYwZvSMZ9tfHES4z7"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "@Electronics type@",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Communications",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sWCAPJhTSN1Ux2RP6",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sEHYoHVHYnYHXBQAa"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Media",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Media",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sE9bQc9XpHdqBW8mj",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "swSaJKN2SmblIiMqn"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Medical",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Medical",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sqYePUUQ4YhcVWc7s",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sL2WMJ4MuOZegXNpu"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Scientific",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Scientific",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sxqlPM-1SQpDtwQ7q",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s88dcbZG-whQhwn7j"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Security",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Security",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sstuA6BDTGRQ5uieN",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8-3sT1s5O9ggV5Y0"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Nokk",
-						"Repair"
-					],
-					"specialization": "Sonar",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Sonar",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sgAg5T56EZm9z5YAb",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sbrQ0ex4zRoErYb5A"
-					},
-					"name": "Electronics Repair",
-					"reference": "B190",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Surveillance",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Operation",
-							"specialization": "Surveillance",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics Repair",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				}
-			]
+			"name": "Ventriloquism",
+			"reference": "B228",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/h",
+			"points": 1
 		}
 	]
 }
