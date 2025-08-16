@@ -315,6 +315,54 @@
 			}
 		},
 		{
+			"id": "tY3gxO-ZA_Pd3danm",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
+			},
+			"name": "Sharp Claws/Fangs",
+			"reference": "B271",
+			"base_points": 5,
+			"weapons": [
+				{
+					"id": "wgPnixRbQi16a6T77",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Unarmed",
+					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cut"
+					}
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "thW4szo_kZ6BtnByi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3509,96 +3557,6 @@
 			],
 			"calc": {
 				"points": 3
-			}
-		},
-		{
-			"id": "teV0cvgF_6W13ORVh",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "toXBQ8q4Nek5lsLPF"
-			},
-			"name": "Body Familiarity",
-			"reference": "B23",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mn6KMp6XJolLMl-ee",
-					"name": "Koppemak",
-					"cost": 1,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mOcrkeBFxZpScjXZv",
-					"name": "Koppemak",
-					"local_notes": "Native",
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m2LJVWA-0cygOyJ5S",
-					"name": "Korkon",
-					"cost": 1,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mi1ycxk3hsDZWMntz",
-					"name": "Korkon",
-					"local_notes": "Native",
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m-MzJy-ZdQZBJ0ctb",
-					"name": "Kwazaar",
-					"cost": 1,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mqbmMQiFYbaFxiQ85",
-					"name": "Kwazaar",
-					"local_notes": "Native",
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mjhiiCUIjiG3bNJ69",
-					"name": "O'koptera",
-					"cost": 1,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mbxjZGHGwtYcLanl-",
-					"name": "O'koptera",
-					"local_notes": "Native",
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mIwDfVP9pZ5rO_O7r",
-					"name": "Te'karn",
-					"cost": 1,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m5DwNaHtlqUkNUbtw",
-					"name": "Te'karn",
-					"local_notes": "Native",
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
 			}
 		},
 		{
@@ -12175,35 +12133,6 @@
 					"per_level": true
 				}
 			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 3
-			}
-		},
-		{
-			"id": "tqwu-2_eTidWR2RDF",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "twvmiGFkU_Fw0FuZF"
-			},
-			"name": "Extra Fatigue Points",
-			"reference": "B16",
-			"tags": [
-				"Advantage",
-				"Attribute",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "m3cqFWtazyDSxpdzT",
-					"name": "Magic Only",
-					"local_notes": "Subject to involuntary FP drain",
-					"cost": -10
-				}
-			],
-			"points_per_level": 3,
 			"can_level": true,
 			"levels": 1,
 			"calc": {
@@ -23744,127 +23673,6 @@
 				"Exotic",
 				"Feature",
 				"Physical"
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t1QjUETw9MwxB0vhR",
-			"name": "Natural Attacks*",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wdVIQ87n8_RjtiZ_p",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"damage": "thr-1 cr"
-					}
-				},
-				{
-					"id": "w7u0M-Uvh4F3b5tz4",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"damage": "thr-1 cr"
-					}
-				},
-				{
-					"id": "wFNVZzTZ2VAU9ftWa",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"damage": "thr cr"
-					}
-				},
-				{
-					"id": "wgaqO3Ona69bsDo_v",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-2"
-					},
-					"usage": "Slam",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Sumo Wrestling"
-						}
-					],
-					"calc": {
-						"damage": "thr-2 cr"
-					}
-				}
 			],
 			"calc": {
 				"points": 0

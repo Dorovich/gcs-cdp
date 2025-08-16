@@ -1006,6 +1006,354 @@
 				}
 			],
 			"points": 1
+		},
+		{
+			"id": "SWm8LXdCbfKk2xuRY",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SsgL7C1Sv0vvrKhm0"
+			},
+			"name": "Shiphandling",
+			"children": [
+				{
+					"id": "sjPZARX6E3r2tBcM1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "srGD2BBTEQxUY4yhg"
+					},
+					"name": "Shiphandling",
+					"reference": "B220",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "@Ship class@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Airshipman",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Lighter-Than-Air",
+							"modifier": -5
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "navigation"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "air"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "airshipman"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "st1bq6jrTvPgxgjZC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "srJZ2I_KS3wPlAaAv"
+					},
+					"name": "Shiphandling",
+					"reference": "B220",
+					"tags": [
+						"Hv. Akp.",
+						"Vehicle"
+					],
+					"specialization": "Airship",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Contragravity",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Airshipman",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Lighter-Than-Air",
+							"modifier": -5
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "navigation"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "air"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "airman"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "syTDMe-NimmBlKAh_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s-0KJuw7_V5l8G_Q-"
+					},
+					"name": "Shiphandling",
+					"reference": "B220",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Ship",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sailor",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Large Powerboat",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Sailboat",
+							"modifier": -5
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "sailor"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "navigation"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "sea"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "saktAN0-DrBEhux6y",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "szffDNscx1251Omqr"
+					},
+					"name": "Shiphandling",
+					"reference": "B220",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Submarine",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Submariner",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"specialization": "Large Sub",
+							"modifier": -5
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "submariner"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "navigation"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "sea"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sawo4UDzvLhwURvPh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqGxu15iEnZV1UQbt"
+			},
+			"name": "Ventriloquism",
+			"reference": "B228",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "SyEoMr2Qca0uAFDie",
+			"name": "Skill Container"
+		},
+		{
+			"id": "s7nMGLHq6gZXdYzau",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sgZ77vcEFm00N-2h9"
+			},
+			"name": "Mimicry",
+			"reference": "B210",
+			"tags": [
+				"Animal",
+				"Arts",
+				"Entertainment",
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Bird Calls",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mimicry",
+					"specialization": "Animal Sounds",
+					"modifier": -6
+				}
+			],
+			"points": 1
 		}
 	]
 }

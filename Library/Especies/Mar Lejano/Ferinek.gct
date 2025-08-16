@@ -1,0 +1,261 @@
+{
+	"version": 5,
+	"id": "Bv6dPOHoNUh5Fu3UE",
+	"traits": [
+		{
+			"id": "T3a40EaMtgroY0pUI",
+			"name": "Ferinek",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "thYhNPpcd8O-i0eL1",
+					"name": "Attributes: Ferinek",
+					"local_notes": "ST-1, DX+1, Per+1, Striking ST+1, Init+0.25.",
+					"base_points": 25,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_speed",
+							"amount": 0.25
+						},
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": -1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "per",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "tMzumHY01dgm3RwTE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tijmxMEy4B1uAVMr9"
+					},
+					"name": "Extra Sleep",
+					"reference": "B136",
+					"local_notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -2,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -4
+					}
+				},
+				{
+					"id": "tlrAH1fPrfg9dqpkn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tV06LED8bg9xJGF3c"
+					},
+					"name": "Impulsiveness",
+					"reference": "B139",
+					"local_notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "toeSBPRR8Ey7jDHum",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t8duh7FJvBdSs4NOb"
+					},
+					"name": "Restricted Diet (Carnivorous)",
+					"reference": "B151",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mgEEQA5M3zL82bOvC",
+							"name": "Substitution",
+							"reference": "B151",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mF-dO_OwbYqgr8S1S",
+							"name": "Very Common",
+							"reference": "B151",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "m-NkM3q48PMkEbslB",
+							"name": "Common",
+							"reference": "B151",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m64ozuAI45W6fyCcF",
+							"name": "Occasional",
+							"reference": "B151",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mmRER8MtBOI8KE9b1",
+							"name": "Rare",
+							"reference": "B151",
+							"cost": -40,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t8KQeqpxBJ9IP-us9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tkiJQ7nfyi9aAdGHK"
+					},
+					"name": "Serendipity",
+					"reference": "B83,P73",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "m8fNaKj8O8T-1sy1d",
+							"name": "Wishing",
+							"reference": "P73",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mES0SkiQcBMs5ffmc",
+							"name": "Wishing",
+							"reference": "P73",
+							"local_notes": "For others only",
+							"disabled": true
+						},
+						{
+							"id": "m9wW3nGc51kROA5Nm",
+							"name": "Game Time",
+							"reference": "P108",
+							"local_notes": "Uses per game week equal to its maximum possible uses per session",
+							"disabled": true
+						}
+					],
+					"points_per_level": 15,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tOtgmyzKAHr-l6pPu",
+					"source": {
+						"library": "/gcs-cdp",
+						"path": "CdP Rasgos.adq",
+						"id": "tuitUP-5ouHHoHtrS"
+					},
+					"name": "Sharp Claws/Fangs",
+					"reference": "B271",
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "wzDROXJolTUCPcvDN",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Unarmed",
+							"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "twIqNxfocK9ulr47T",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "t-L4J01_YfuM1dAvC"
+					},
+					"name": "Tail",
+					"reference": "TT2:12",
+					"tags": [
+						"Exotic",
+						"Feature",
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 21
+			}
+		}
+	]
+}

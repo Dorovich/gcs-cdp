@@ -1,0 +1,223 @@
+{
+	"version": 5,
+	"id": "BC5gwpdur5ryt-HKQ",
+	"traits": [
+		{
+			"id": "T3hk2FyiL2_fxa9h-",
+			"name": "Pisché",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "tUtfmxkGAG1beMhxE",
+					"name": "Attributes: Pisché",
+					"local_notes": "HT+2, Init-0.5.",
+					"base_points": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_speed",
+							"amount": -0.5
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tz8dkNoMItkHF9xbx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tk0ZKpvgqpE35AZcM"
+					},
+					"name": "Night Vision",
+					"reference": "B71,P87",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "toRhbhyyzRTFoVsq4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tynHtgvWZmmNOL97D"
+					},
+					"name": "Reduced Consumption",
+					"reference": "B80",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "myWyB1BVUBv1GIrfV",
+							"name": "Cast-Iron Stomach",
+							"reference": "B80",
+							"cost": -50
+						},
+						{
+							"id": "mbAvn2NxmjhUKVe1_",
+							"name": "Food Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mNxdl7GQA3QJ_NE4m",
+							"name": "Water Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tOWJi4B8xjbO6QHW0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t8duh7FJvBdSs4NOb"
+					},
+					"name": "Restricted Diet (Metal)",
+					"reference": "B151",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mgb-9lpb9508eYsZJ",
+							"name": "Substitution",
+							"reference": "B151",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m4UhIfSUu_dz6Vas5",
+							"name": "Very Common",
+							"reference": "B151",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "m-pxDvKBQWXqZTjvn",
+							"name": "Common",
+							"reference": "B151",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "me_O8zMcLxWuIt2CX",
+							"name": "Occasional",
+							"reference": "B151",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mpzvo2rAN2JTA60In",
+							"name": "Rare",
+							"reference": "B151",
+							"cost": -40,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tSC6kA6zADVHlPlUl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tf5DfdQFaNUVbkPV2"
+					},
+					"name": "Sanitized Metabolism",
+					"reference": "B101",
+					"tags": [
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others in close confines",
+							"amount": 1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to attempts to track you by scent",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tLDIQMhsNQmfi1MGS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "tsHVvqolCDYjdinue"
+					},
+					"name": "Strongly Alkaline",
+					"reference": "TT2:19",
+					"tags": [
+						"Exotic",
+						"Feature",
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "t5Q6qpp3U5oabdpEx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Template Toolkit/Template Toolkit 2 - Races/Template Toolkit 2 - Races Traits.adq",
+						"id": "t-L4J01_YfuM1dAvC"
+					},
+					"name": "Tail",
+					"reference": "TT2:12",
+					"tags": [
+						"Exotic",
+						"Feature",
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 7
+			}
+		}
+	]
+}
