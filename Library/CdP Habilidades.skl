@@ -827,34 +827,6 @@
 			"name": "Artist",
 			"children": [
 				{
-					"id": "srXRbDWb-VBe42GBP",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sxaqO49XK7d4W5JEK"
-					},
-					"name": "Artist",
-					"reference": "B179",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "@Art@",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"modifier": -6
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "s6kTTjlwhv47jFK13",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -988,58 +960,6 @@
 							"type": "skill",
 							"name": "Artist",
 							"specialization": "Illumination",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"specialization": "Painting",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"specialization": "Body Art",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"modifier": -6
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "ssYCLb8Ow3B4x1VDp",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s3lIVQrT-Ta5bnc4D"
-					},
-					"name": "Artist",
-					"reference": "B179",
-					"tags": [
-						"Arts",
-						"Entertainment"
-					],
-					"specialization": "Illumination",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"specialization": "Calligraphy",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Artist",
-							"specialization": "Drawing",
 							"modifier": -2
 						},
 						{
@@ -1673,32 +1593,6 @@
 			"points": 1
 		},
 		{
-			"id": "sSSMox-QIV7VvEPZw",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sziMa9_9xTvR2iiqx"
-			},
-			"name": "Body Sense",
-			"reference": "B181",
-			"tags": [
-				"Athletic"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Acrobatics",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sT2L5jdfB9pVuCl5J",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1811,21 +1705,6 @@
 					"per_die": true
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "sSlpXvDPt44gZh2ap",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "spMUh1AbXRoFm1hqU"
-			},
-			"name": "Breath Control",
-			"reference": "B182",
-			"tags": [
-				"Athletic"
-			],
-			"difficulty": "ht/h",
 			"points": 1
 		},
 		{
@@ -2170,6 +2049,31 @@
 					"points": 1
 				},
 				{
+					"id": "sw3KYQ0kuw8nwFQME",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sJ1uD8vZTPU9j3y4a"
+					},
+					"name": "Connoisseur",
+					"reference": "B185,MA56",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Cuisine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "skO1DHZR4yMiqylv3",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2316,31 +2220,6 @@
 						"Social"
 					],
 					"specialization": "Visual Arts",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sw3KYQ0kuw8nwFQME",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sJ1uD8vZTPU9j3y4a"
-					},
-					"name": "Connoisseur",
-					"reference": "B185,MA56",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Wine",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -3499,7 +3378,6 @@
 					"reference": "B189",
 					"tags": [
 						"Hv. Akp.",
-						"Lt. Akp.",
 						"Military",
 						"Spy",
 						"Technical"
@@ -3566,54 +3444,6 @@
 			"id": "SRxhw8eokW4YM9UwL",
 			"name": "Engineer",
 			"children": [
-				{
-					"id": "sx0GCn_qNZD7l1HuA",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s_QPsaG-MtZBFWSgN"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention"
-					],
-					"specialization": "@Field of expertise@",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Armoury",
-							"specialization": "Heavy Weapons",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
 				{
 					"id": "sLUOxSw2ucID9Dc2J",
 					"source": {
@@ -8192,6 +8022,45 @@
 					"points": 1
 				},
 				{
+					"id": "sf-3neag9W8U9kDV0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sU3WBe_euE-2u36U2"
+					},
+					"name": "Piloting",
+					"reference": "B214",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Heavy Airplane",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "High-Performance Airplane",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Light Airplane",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "s3akLuKicSBEXG93M",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -8210,6 +8079,57 @@
 						{
 							"type": "will",
 							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sRhmlsCIfy4vYxiIn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "ss7jX_zvtMCUp6msC"
+					},
+					"name": "Piloting",
+					"reference": "B214",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Light Airplane",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Glider",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Heavy Airplane",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "High-Performance Airplane",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Ultralight",
+							"modifier": -2
 						}
 					],
 					"points": 1
@@ -8910,29 +8830,6 @@
 					"points": 1
 				},
 				{
-					"id": "sObdZrIWN3CHA4Dmx",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sPNoFjMzWUsnwn7Pv"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Tribal",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "srBPlusjzk_idW31E",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -9094,6 +8991,29 @@
 							"name": "Savoir-Faire",
 							"specialization": "High Society",
 							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sObdZrIWN3CHA4Dmx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPNoFjMzWUsnwn7Pv"
+					},
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Tribal",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
 						}
 					],
 					"points": 1

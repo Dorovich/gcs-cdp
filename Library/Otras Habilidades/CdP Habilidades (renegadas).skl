@@ -413,6 +413,97 @@
 			"points": 1
 		},
 		{
+			"id": "ShxacwnmweenptyN-",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SpghX5TrwWI8rh8VR"
+			},
+			"name": "Artist",
+			"children": [
+				{
+					"id": "sn_GMr0kPGwgsqNRr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxaqO49XK7d4W5JEK"
+					},
+					"name": "Artist",
+					"reference": "B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "@Art@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "swjWEOjljv7jAuXhY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s3lIVQrT-Ta5bnc4D"
+					},
+					"name": "Artist",
+					"reference": "B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Illumination",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Calligraphy",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Drawing",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Painting",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Body Art",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
 			"id": "sKALsaAKuNZLzdWhh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -708,6 +799,47 @@
 					"points": 1
 				}
 			]
+		},
+		{
+			"id": "sJOxUklbISRxUbUim",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sziMa9_9xTvR2iiqx"
+			},
+			"name": "Body Sense",
+			"reference": "B181",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "so5OH6h7P03q6azM0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spMUh1AbXRoFm1hqU"
+			},
+			"name": "Breath Control",
+			"reference": "B182",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "ht/h",
+			"points": 1
 		},
 		{
 			"id": "sFU3vuyAYejAWxdBu",
@@ -1094,6 +1226,54 @@
 			},
 			"name": "Engineer",
 			"children": [
+				{
+					"id": "sVBHU54AnDqXX3OX2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s_QPsaG-MtZBFWSgN"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "@Field of expertise@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Armoury",
+							"specialization": "Heavy Weapons",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 5
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
 				{
 					"id": "sH6ni4bRbW2HTDMnc",
 					"source": {
@@ -2685,133 +2865,37 @@
 			"points": 1
 		},
 		{
-			"id": "SdjuOr2MR9Ok888Hi",
+			"id": "syIOlwFJ0P9D4FPc9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sQE2t0-gMM5-4KgPb"
+			},
 			"name": "Piloting",
-			"children": [
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "@Flying vehicle class@",
+			"difficulty": "dx/a",
+			"defaults": [
 				{
-					"id": "syIOlwFJ0P9D4FPc9",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sQE2t0-gMM5-4KgPb"
-					},
-					"name": "Piloting",
-					"reference": "B214",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "@Flying vehicle class@",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "High-Performance Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"modifier": -4
-						}
-					],
-					"points": 1
+					"type": "iq",
+					"modifier": -6
 				},
 				{
-					"id": "sDbGWBb_cpWJYokB_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sU3WBe_euE-2u36U2"
-					},
+					"type": "skill",
 					"name": "Piloting",
-					"reference": "B214",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Heavy Airplane",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "High-Performance Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Light Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"modifier": -4
-						}
-					],
-					"points": 1
+					"specialization": "High-Performance Airplane",
+					"modifier": -2
 				},
 				{
-					"id": "sIHwlphpkYyzzY5cs",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "ss7jX_zvtMCUp6msC"
-					},
+					"type": "skill",
 					"name": "Piloting",
-					"reference": "B214",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Light Airplane",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Glider",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Heavy Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "High-Performance Airplane",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Piloting",
-							"specialization": "Ultralight",
-							"modifier": -2
-						}
-					],
-					"points": 1
+					"modifier": -4
 				}
-			]
+			],
+			"points": 1
 		},
 		{
 			"id": "SvSrBVQJ3s73Kiae_",

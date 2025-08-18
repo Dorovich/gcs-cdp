@@ -67,6 +67,25 @@
 					}
 				},
 				{
+					"id": "t6CZr_1GhwEnw3zmz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tsPqY8NyZ8sJbkdS-"
+					},
+					"name": "Fur",
+					"reference": "B101",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
 					"id": "tlrAH1fPrfg9dqpkn",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -199,6 +218,7 @@
 					"weapons": [
 						{
 							"id": "wzDROXJolTUCPcvDN",
+							"sv": 1,
 							"damage": {
 								"type": "cut",
 								"st": "thr",
@@ -254,7 +274,7 @@
 				}
 			],
 			"calc": {
-				"points": 21
+				"points": 22
 			}
 		}
 	]

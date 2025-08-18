@@ -327,6 +327,7 @@
 			"weapons": [
 				{
 					"id": "wgPnixRbQi16a6T77",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -3495,6 +3496,7 @@
 			"weapons": [
 				{
 					"id": "wL3uUBT8iqHkiPa0d",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -3527,6 +3529,7 @@
 				},
 				{
 					"id": "wwxSHoyQmv-EWkMnH",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -3986,6 +3989,7 @@
 			"weapons": [
 				{
 					"id": "wj0l-7kLqviFLniOw",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -5872,6 +5876,7 @@
 			"weapons": [
 				{
 					"id": "wzaYqsMeyRcLIIZDm",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -6310,6 +6315,7 @@
 			"weapons": [
 				{
 					"id": "wBnKS899HyLayky3p",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -12502,6 +12508,7 @@
 			"weapons": [
 				{
 					"id": "wjyxal9_pGx9ex4hn",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -15116,6 +15123,7 @@
 			"weapons": [
 				{
 					"id": "w-SL9j62ahv9pCCEc",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -15565,6 +15573,7 @@
 			"weapons": [
 				{
 					"id": "w-_r393Zva95HAKWF",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -16687,9 +16696,10 @@
 			"weapons": [
 				{
 					"id": "WQ7zq5BOURUQPiMYf",
+					"sv": 1,
 					"damage": {
 						"type": "burn",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -16712,7 +16722,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d burn"
+						"damage": "1d per level  burn"
 					}
 				}
 			],
@@ -16972,9 +16982,10 @@
 			"weapons": [
 				{
 					"id": "WGw2vKLtZL7Jw58Pw",
+					"sv": 1,
 					"damage": {
 						"type": "cor",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -16997,7 +17008,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d cor"
+						"damage": "1d per level  cor"
 					}
 				}
 			],
@@ -17164,9 +17175,10 @@
 			"weapons": [
 				{
 					"id": "W4dXdR9OeRcR4-how",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -17189,7 +17201,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d cr"
+						"damage": "1d per level  cr"
 					}
 				}
 			],
@@ -17357,9 +17369,10 @@
 			"weapons": [
 				{
 					"id": "W_YLIOECtK4sUg2IM",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -17382,7 +17395,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d cut"
+						"damage": "1d per level  cut"
 					}
 				}
 			],
@@ -17674,9 +17687,10 @@
 			"weapons": [
 				{
 					"id": "WRjJCPTUSkGxEkOOo",
+					"sv": 1,
 					"damage": {
 						"type": "fat",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -17699,7 +17713,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d fat"
+						"damage": "1d per level  fat"
 					}
 				}
 			],
@@ -17866,9 +17880,10 @@
 			"weapons": [
 				{
 					"id": "Wqk7LNa1jy4DA6DCv",
+					"sv": 1,
 					"damage": {
 						"type": "pi++",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -17891,7 +17906,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d pi++"
+						"damage": "1d per level  pi++"
 					}
 				}
 			],
@@ -18058,9 +18073,10 @@
 			"weapons": [
 				{
 					"id": "WGuTpoXrMQK796QYJ",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -18083,7 +18099,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d imp"
+						"damage": "1d per level  imp"
 					}
 				}
 			],
@@ -18265,9 +18281,10 @@
 			"weapons": [
 				{
 					"id": "WCcLdg6DQrOlJ48xi",
+					"sv": 1,
 					"damage": {
 						"type": "pi+",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -18290,7 +18307,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d pi+"
+						"damage": "1d per level  pi+"
 					}
 				}
 			],
@@ -18472,9 +18489,10 @@
 			"weapons": [
 				{
 					"id": "Wp4F5h7MuFvh6nG1r",
+					"sv": 1,
 					"damage": {
 						"type": "pi",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -18497,7 +18515,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d pi"
+						"damage": "1d per level  pi"
 					}
 				}
 			],
@@ -18665,9 +18683,10 @@
 			"weapons": [
 				{
 					"id": "W_bYWVAdAEUrg38vP",
+					"sv": 1,
 					"damage": {
 						"type": "pi-",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -18690,7 +18709,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d pi-"
+						"damage": "1d per level  pi-"
 					}
 				}
 			],
@@ -18957,9 +18976,10 @@
 			"weapons": [
 				{
 					"id": "Wu-HzafgxSvTX6fte",
+					"sv": 1,
 					"damage": {
 						"type": "tox",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -18982,7 +19002,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d tox"
+						"damage": "1d per level  tox"
 					}
 				}
 			],
@@ -19284,9 +19304,10 @@
 			"weapons": [
 				{
 					"id": "WHHH1lGp-G9MijN8N",
+					"sv": 1,
 					"damage": {
 						"type": "tox",
-						"base": "1d"
+						"base_leveled": "1d"
 					},
 					"accuracy": "3",
 					"range": "10/100",
@@ -19309,7 +19330,7 @@
 						}
 					],
 					"calc": {
-						"damage": "1d tox"
+						"damage": "1d per level  tox"
 					}
 				}
 			],
@@ -21096,6 +21117,7 @@
 			"weapons": [
 				{
 					"id": "ww3vxzYvkwZGjneft",
+					"sv": 1,
 					"damage": {
 						"type": "pi+",
 						"st": "thr",
@@ -21434,6 +21456,7 @@
 			"weapons": [
 				{
 					"id": "wfc2UjYQKJRJlD-oE",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"base": "1d"
@@ -21472,6 +21495,7 @@
 			"weapons": [
 				{
 					"id": "wV_kYqi3Dq2uAG3Le",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -21504,6 +21528,7 @@
 				},
 				{
 					"id": "wpD3PY8rmR31bE9bE",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -26542,6 +26567,7 @@
 			"weapons": [
 				{
 					"id": "wY3PMSh4LPP4B_Zx7",
+					"sv": 1,
 					"damage": {
 						"type": "pi",
 						"st": "thr",
@@ -28907,6 +28933,7 @@
 			"weapons": [
 				{
 					"id": "wC4EwY4CmcA8ocD0G",
+					"sv": 1,
 					"damage": {
 						"type": "pi+",
 						"st": "thr",
@@ -28949,6 +28976,7 @@
 			"weapons": [
 				{
 					"id": "whHnQfR1GmpjtzP6n",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -28980,6 +29008,7 @@
 				},
 				{
 					"id": "wSzGGgLwv0gV0VEot",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr"
@@ -29039,6 +29068,7 @@
 			"weapons": [
 				{
 					"id": "w9hoiVqFPVbp8jHso",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -29123,6 +29153,7 @@
 			"weapons": [
 				{
 					"id": "wrYw_5cA3NcWNzten",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"base": "1d-2"
@@ -33355,6 +33386,7 @@
 			"weapons": [
 				{
 					"id": "wv7J3k2UetGPvz0qA",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "thr",
@@ -33386,6 +33418,7 @@
 				},
 				{
 					"id": "w52rEf9JjHn0eotHR",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -34857,6 +34890,34 @@
 			}
 		},
 		{
+			"id": "trRTQjjMWO8Tdd8nI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tV_f_75HmwzWOPhuu"
+			},
+			"name": "Hardened Killer",
+			"reference": "B148",
+			"local_notes": "May kill freely.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mZ8WiynKmcPhHKh4e",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "tO7aNUrT_syZNdku_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -35274,6 +35335,7 @@
 			"weapons": [
 				{
 					"id": "wQbpJ9cDf6uS9G3-s",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
