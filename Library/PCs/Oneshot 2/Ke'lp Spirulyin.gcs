@@ -10,7 +10,7 @@
 		}
 	],
 	"profile": {
-		"name": "Ke'lp",
+		"name": "Ke'lp Spirulyin",
 		"age": "23",
 		"birthday": "33 de Fler, 2º",
 		"eyes": "Amber",
@@ -1895,7 +1895,7 @@
 		}
 	],
 	"created_date": "2025-08-17T23:23:15+02:00",
-	"modified_date": "2025-08-18T01:19:28+02:00",
+	"modified_date": "2025-08-19T02:04:06+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

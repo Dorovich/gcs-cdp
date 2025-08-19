@@ -315,55 +315,6 @@
 			}
 		},
 		{
-			"id": "tY3gxO-ZA_Pd3danm",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Rasgos.adq",
-				"id": "tuitUP-5ouHHoHtrS"
-			},
-			"name": "Sharp Claws/Fangs",
-			"reference": "B271",
-			"base_points": 5,
-			"weapons": [
-				{
-					"id": "wgPnixRbQi16a6T77",
-					"sv": 1,
-					"damage": {
-						"type": "cut",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Unarmed",
-					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"damage": "thr-1 cut"
-					}
-				}
-			],
-			"calc": {
-				"points": 5
-			}
-		},
-		{
 			"id": "thW4szo_kZ6BtnByi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -14480,6 +14431,34 @@
 			}
 		},
 		{
+			"id": "trRTQjjMWO8Tdd8nI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tV_f_75HmwzWOPhuu"
+			},
+			"name": "Hardened Killer",
+			"reference": "B148",
+			"local_notes": "May kill freely.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mZ8WiynKmcPhHKh4e",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "tA80ZWnd4KwzI7Yp6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -19338,6 +19317,36 @@
 			"levels": 1,
 			"calc": {
 				"points": 5
+			}
+		},
+		{
+			"id": "tVKZiodXFcNjiqCoR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "trPM4mpwMJnj-tqdg"
+			},
+			"name": "Innocent",
+			"local_notes": "You are free from guilt or sin especially through lack of knowledge of evil, and are clueless about subjects like sex and dark humor.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -2,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others who expect you to know about evil and adult matters",
+					"amount": -2
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from others who are merciful of your innocence",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": -2
 			}
 		},
 		{
@@ -29041,6 +29050,55 @@
 			}
 		},
 		{
+			"id": "tY3gxO-ZA_Pd3danm",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
+			},
+			"name": "Sharp Claws/Fangs",
+			"reference": "B271",
+			"base_points": 5,
+			"weapons": [
+				{
+					"id": "wgPnixRbQi16a6T77",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Unarmed",
+					"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cut"
+					}
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "t1aY6pMi2SlNdgmA2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -34887,34 +34945,6 @@
 			"base_points": -5,
 			"calc": {
 				"points": -5
-			}
-		},
-		{
-			"id": "trRTQjjMWO8Tdd8nI",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tV_f_75HmwzWOPhuu"
-			},
-			"name": "Hardened Killer",
-			"reference": "B148",
-			"local_notes": "May kill freely.",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mZ8WiynKmcPhHKh4e",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": 5,
-			"calc": {
-				"points": 5
 			}
 		},
 		{

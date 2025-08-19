@@ -2001,8 +2001,20 @@
 			"difficulty": "iq/h",
 			"prereqs": {
 				"type": "prereq_list",
-				"all": true,
+				"all": false,
 				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Electronics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Computer"
+						}
+					},
 					{
 						"type": "skill_prereq",
 						"has": true,
@@ -2423,510 +2435,28 @@
 			"points": 1
 		},
 		{
-			"id": "Sz3B5TE8tTd2atgm8",
+			"id": "smFVhkeDKcfxNiq25",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sKEmDeUJja8G_ZlSV"
+			},
 			"name": "Cryptography",
-			"children": [
+			"reference": "B186",
+			"tags": [
+				"Military",
+				"Spy"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
 				{
-					"id": "smFVhkeDKcfxNiq25",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKEmDeUJja8G_ZlSV"
-					},
-					"name": "Cryptography",
-					"reference": "B186",
-					"tags": [
-						"Military",
-						"Spy"
-					],
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mathematics",
-							"specialization": "Cryptology",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s-XcLByV8e66VB51V",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sXcerOER0ZxXDkajA"
-					},
-					"name": "Cryptography",
-					"reference": "B186",
-					"tags": [
-						"Military",
-						"Spy"
-					],
-					"specialization": "Code Design",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mathematics",
-							"specialization": "Cryptology",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sF-dIlZILZgkjYfhb",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "skMNNg5aD_BwYbRLd"
-					},
-					"name": "Cryptography",
-					"reference": "B186",
-					"tags": [
-						"Military",
-						"Spy"
-					],
-					"specialization": "Cryptanalysis",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mathematics",
-							"specialization": "Cryptology",
-							"modifier": -5
-						}
-					],
-					"points": 1
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Cryptology",
+					"modifier": -5
 				}
-			]
-		},
-		{
-			"id": "S7N3UdVPzmuF8KbeQ",
-			"name": "Current Affairs",
-			"children": [
-				{
-					"id": "sheL7mDkLbF585DxK",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sWFtA7Gvclq4aL-Yb"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "@Subject@",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "syoKewR138HNSB0gG",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sdRSlSZk2CCNNJ0i6"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Arkopan Racing",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -4,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					}
-				},
-				{
-					"id": "sRJwyPDKlfvoN4KJO",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sKOmJlv_7KR14adzW"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Business",
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Business",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sEJJ_JmzATyIdyHSd",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sD4fUkpkj37Cpnm1z"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Headline News",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sSo69VEEcdgEqlIeM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s4BmaX2CiqLccuB_5"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "High Culture",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s3DW0GKhLbzQ5xq7X",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sPVKx0V_AAgtQHZkd"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "People",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "st472Ofbfp35SOnPn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s10aGuDru_p7ABhKW"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Politics",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sigPO73XLatOIg_R5",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "soKJZnazxqKXVkp10"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Popular Culture",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sscfYdddlGQasDsme",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sBx1tiUNiX5AvQpIz"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Regional",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sMkyMMA3JlFb_Tcsy",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sWZx5RKXXnBX3nFHt"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Science \u0026 Technology",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sg6d1RMaEb2PSAskM",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sdRSlSZk2CCNNJ0i6"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Sports",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sbotf7Tyul5g9eqab",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s3iSN0-YJRl0MDrvf"
-					},
-					"name": "Current Affairs",
-					"reference": "B186",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Travel",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Research",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Current Affairs",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				}
-			]
+			],
+			"points": 1
 		},
 		{
 			"id": "soyPxF6StGTwG5_d6",
@@ -3149,42 +2679,6 @@
 					"points": 1
 				},
 				{
-					"id": "sk1etw3MJASG-iyR8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sJyAvegSjTAjJKrDh"
-					},
-					"name": "Driving",
-					"reference": "B188",
-					"tags": [
-						"Vehicle"
-					],
-					"specialization": "Mecha",
-					"difficulty": "dx/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Battlesuit",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Driving",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "soh21cQwfek7soAo-",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3363,6 +2857,40 @@
 							"name": "Engineer",
 							"specialization": "Electronics",
 							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTfjOMyfHlGp9kkqt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sqH7X8s6knQ9FmK-F"
+					},
+					"name": "Electronics",
+					"reference": "B190",
+					"tags": [
+						"Hv. Akp.",
+						"Technical"
+					],
+					"specialization": "Computer",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics",
+							"modifier": -4
 						}
 					],
 					"points": 1
@@ -4247,6 +3775,33 @@
 				{
 					"type": "dx",
 					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "seQkWC0qVVBL0gq7B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sPNoFjMzWUsnwn7Pv"
+			},
+			"name": "Etiquette",
+			"reference": "B218,MA59",
+			"tags": [
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Diplomacy",
+					"modifier": -2
 				}
 			],
 			"points": 1
@@ -7288,28 +6843,6 @@
 			]
 		},
 		{
-			"id": "sc0_wEsc0VpfZyjPN",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s72AJypdaNPoqKcDy"
-			},
-			"name": "Mount",
-			"reference": "B210",
-			"tags": [
-				"Animal",
-				"Athletic"
-			],
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sw_n3B8g4v_5HNGuY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -8295,33 +7828,6 @@
 			"points": 1
 		},
 		{
-			"id": "s6cjUmdVrvMxaVHDZ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6tcQ-jAVh2MoJ_uf"
-			},
-			"name": "Politics",
-			"reference": "B215",
-			"tags": [
-				"Business",
-				"Social"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Diplomacy",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "SfWSvHoBzxnsFRfYR",
 			"name": "Profession",
 			"children": [
@@ -8796,229 +8302,6 @@
 				}
 			],
 			"points": 1
-		},
-		{
-			"id": "SvD3ZtULpvm_LcOtv",
-			"name": "Savoir-Faire",
-			"children": [
-				{
-					"id": "sfb_3r_qz5O9KKkmk",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sPNoFjMzWUsnwn7Pv"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "@Social group@",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Games",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "srBPlusjzk_idW31E",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s7nXHa7mrKbU2X3wz"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Dojo",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Games",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sWO8nVyZZxZzaows_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s4WxUyOWPwvLxBypO"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Business",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "High Society",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Savoir-Faire",
-							"specialization": "Servant",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "svDdBlN31Hz1-9BYN",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "skKJPuPuNFJ2u6p1f"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Criminal",
-						"Knowledge",
-						"Social",
-						"Street"
-					],
-					"specialization": "Mafia",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Streetwise",
-							"modifier": -3
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sR4svSk1NA49k3lmn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sPTlfb6j7JYiJ2sdx"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Military",
-						"Social"
-					],
-					"specialization": "Military",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sosXgy29k954DhH3W",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sW_7zfEtZS5wjZRD-"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Police",
-						"Social"
-					],
-					"specialization": "Police",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sD9dTu0zisLh8tcpa",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8sGblB3JWt6f_2hf"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Everyman",
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Servant",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Savoir-Faire",
-							"specialization": "High Society",
-							"modifier": -2
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sObdZrIWN3CHA4Dmx",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sPNoFjMzWUsnwn7Pv"
-					},
-					"name": "Savoir-Faire",
-					"reference": "B218,MA59",
-					"tags": [
-						"Knowledge",
-						"Social"
-					],
-					"specialization": "Tribal",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				}
-			]
 		},
 		{
 			"id": "sJMTzh09s5_UHBrth",
