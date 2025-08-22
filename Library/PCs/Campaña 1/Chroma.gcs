@@ -39,9 +39,9 @@
 		},
 		"block_layout": [
 			"reactions conditional_modifiers",
+			"traits skills",
 			"melee",
 			"ranged",
-			"traits skills",
 			"spells",
 			"equipment",
 			"other_equipment",
@@ -442,7 +442,6 @@
 		"modifiers_display": "inline",
 		"notes_display": "inline",
 		"skill_level_adj_display": "tooltip",
-		"show_spell_adj": true,
 		"hide_source_mismatch": true,
 		"hide_tl_column": true,
 		"hide_lc_column": true
@@ -764,7 +763,7 @@
 						"path": "Basic Set/Basic Set Traits.adq",
 						"id": "ttP5n0OVmbu8o50uI"
 					},
-					"name": "Innate Attack (Toxic) (Venomous Bite)",
+					"name": "Innate Attack (Toxic)",
 					"reference": "B62,P53,MA45",
 					"tags": [
 						"Advantage",
@@ -777,7 +776,7 @@
 					},
 					"modifiers": [
 						{
-							"id": "m9-oOPtxw0JTq9viz",
+							"id": "m9PbcizxHqWqJCTQq",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 sec",
@@ -786,7 +785,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mctA9Gt_OBGGvWDwi",
+							"id": "mm4EdcKkHrp2haykg",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "10 sec",
@@ -795,7 +794,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mr5F2h_tYJPyNQY0T",
+							"id": "m4HYByy4QqmGPqUjO",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 min",
@@ -804,7 +803,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m3voDVWSFoguDjIqt",
+							"id": "mxnB_DeSmD58AQhHe",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 hr",
@@ -813,7 +812,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mUovxLLRrxoadhaqv",
+							"id": "mw2YtsOiB04zXr1XC",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 day",
@@ -822,7 +821,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mWfjemlTZXlnUR0Xc",
+							"id": "mEo-qpPvxBYjOIZ-n",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 sec; Resistible",
@@ -831,7 +830,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mqDVPmNGn5yMSG1C-",
+							"id": "mA_Sy_x_v-BK96AhG",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "10 sec; Resistible",
@@ -840,7 +839,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHdK1TkwPUCzcLAjw",
+							"id": "mraN6aUdMe1BFUhzs",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 min; Resistible",
@@ -848,7 +847,7 @@
 							"levels": 1
 						},
 						{
-							"id": "m4ruxM1LcPL88pB2n",
+							"id": "mm2vKj6WhUAouDP26",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 hr; Resistible",
@@ -857,7 +856,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mXp6tWLbjVvF4Asv4",
+							"id": "mNcQkatfQuURL9kfP",
 							"name": "Cyclic",
 							"reference": "B103",
 							"local_notes": "1 day; Resistible",
@@ -866,7 +865,7 @@
 							"disabled": true
 						},
 						{
-							"id": "meC1mNY0FSUlzmbo_",
+							"id": "mjQ3fgote0hOrzDUL",
 							"name": "Contagious",
 							"reference": "B103",
 							"local_notes": "Mildly",
@@ -874,7 +873,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m19J7Q4q8yfk3IqpL",
+							"id": "mfwcdPHi0_FyFThEC",
 							"name": "Contagious",
 							"reference": "B103",
 							"local_notes": "Highly",
@@ -882,7 +881,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mpFJs2nBcEITx-CGi",
+							"id": "mDVe6uggGVZm4VgVJ",
 							"name": "Double Blunt Trauma",
 							"reference": "B104",
 							"local_notes": "1HP per 10 dmg",
@@ -890,7 +889,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mePSoMhFIkNzjwI9X",
+							"id": "mtxFAo9HBAvMqGGMW",
 							"name": "Explosion",
 							"reference": "B104",
 							"cost": 50,
@@ -898,7 +897,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mpsSnAuJRS870AGWh",
+							"id": "mkwUDWnqJCHHrQFkw",
 							"name": "Fragmentation",
 							"reference": "B104",
 							"cost": 15,
@@ -906,7 +905,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHMpz-O9jGhKq2Jym",
+							"id": "mCHnLYvkzpoiq0MU9",
 							"name": "Fragmentation",
 							"reference": "B104",
 							"local_notes": "Hot",
@@ -915,21 +914,21 @@
 							"disabled": true
 						},
 						{
-							"id": "m2Hnpa5FpvJ991CvY",
+							"id": "mj9JNSW5jLfQBnawG",
 							"name": "Radiation",
 							"reference": "B104",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "m_-hjHf-sLNnZQT2_",
+							"id": "mPBWrGKXqSzVktj0E",
 							"name": "Surge",
 							"reference": "B104",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "m_6sHCW4qO6M8IMLW",
+							"id": "mA_hhIzt6L45JohzL",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "2",
@@ -937,7 +936,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mj8mBcvdr4_UQDuR_",
+							"id": "mG6s__YKPKzL8dWN-",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "3",
@@ -945,7 +944,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m4uHDytp2GF82zdp9",
+							"id": "md3yg3wxng1nidlaW",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "5",
@@ -953,7 +952,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m0Rw9znA3F_-EOVdO",
+							"id": "meVcZXlp6N114xIOb",
 							"name": "Armor Divisor",
 							"reference": "B102",
 							"local_notes": "10",
@@ -961,21 +960,21 @@
 							"disabled": true
 						},
 						{
-							"id": "m4FuhGZMISa6KfEfh",
+							"id": "m2nDJ5Y-iAANLm6kG",
 							"name": "Side Effect",
 							"reference": "B109",
 							"local_notes": "Hemorrhage (-2 HT)",
 							"cost": 10
 						},
 						{
-							"id": "mwr_VhieX8Tu1dlNN",
+							"id": "mGve_Hua5DEEHPq1B",
 							"name": "Side Effect",
 							"reference": "B109",
 							"local_notes": "Tipsy",
 							"cost": 10
 						},
 						{
-							"id": "mvoQcDShxZBQyGBVK",
+							"id": "mWfJv-7BdekUwg96C",
 							"name": "Symptoms",
 							"reference": "B109",
 							"local_notes": "@Effect@",
@@ -985,7 +984,7 @@
 							}
 						},
 						{
-							"id": "m1j8aulXn3-pVCLTh",
+							"id": "mBE8qxdUXpDwS20-B",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.5",
@@ -993,7 +992,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJRUGIiwi_fGllPYh",
+							"id": "m6Tw7BWBUWgrJVn9C",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.2",
@@ -1001,7 +1000,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mLTfLAmztoBnTS8s9",
+							"id": "mSLwAeZB5UD71WCzM",
 							"name": "Armor Divisor",
 							"reference": "B110",
 							"local_notes": "0.1",
@@ -1009,21 +1008,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mSUGsYZXmCfFU82Rx",
+							"id": "mALwwbkKli1Ky2LgO",
 							"name": "No Wounding",
 							"reference": "B111",
 							"cost": -50,
 							"disabled": true
 						},
 						{
-							"id": "mlDw3YoqZPGNoVtVO",
+							"id": "me15RJmcKb-MA6Lkn",
 							"name": "Incendiary",
 							"reference": "B104",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mNyP0gcQZnmKifR_q",
+							"id": "mSIBMe-5qzwWG-Geg",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
@@ -1034,7 +1033,7 @@
 							"local_notes": "Bite"
 						},
 						{
-							"id": "m28z5F8miKJ6sr0hh",
+							"id": "mum642xFia7nfE85c",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -1046,7 +1045,7 @@
 							"cost": -10
 						},
 						{
-							"id": "m7WoCOYXYsMaPVSSa",
+							"id": "mOEjhP3O9zDpSgCc4",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -1062,10 +1061,11 @@
 					"points_per_level": 4,
 					"weapons": [
 						{
-							"id": "WTBSA_YOK922E1qgH",
+							"id": "W_-5_asc_aMdZMmlI",
+							"sv": 1,
 							"damage": {
 								"type": "tox",
-								"base": "1d"
+								"base_leveled": "1d"
 							},
 							"accuracy": "3",
 							"range": "10/100",
@@ -1558,7 +1558,7 @@
 					},
 					"name": "Teratophobia (Monsters)",
 					"reference": "B150",
-					"local_notes": "Any “unnatural” creature sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them. Note that the definition of “monster” depends on experience. An American Indian would consider an elephant monstrous, while an African pygmy would not!",
+					"local_notes": "Any “unnatural” creature (depends on personal experience) sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them.",
 					"tags": [
 						"Disadvantage",
 						"Mental"
@@ -1858,6 +1858,7 @@
 					"weapons": [
 						{
 							"id": "ws7Y8jb0_O1Gv8FBI",
+							"sv": 1,
 							"damage": {
 								"type": "cr",
 								"st": "thr",
@@ -2082,6 +2083,7 @@
 							"weapons": [
 								{
 									"id": "w35IiROiEh5DQkNJ2",
+									"sv": 1,
 									"damage": {
 										"type": "cr",
 										"st": "thr",
@@ -2348,6 +2350,7 @@
 							"weapons": [
 								{
 									"id": "w-XCeT4MxE9pJPBqH",
+									"sv": 1,
 									"damage": {
 										"type": "cut",
 										"st": "thr",
@@ -3454,6 +3457,7 @@
 					"weapons": [
 						{
 							"id": "wovbZFCT7vgobS_Q0",
+							"sv": 1,
 							"damage": {
 								"type": "cut",
 								"st": "sw"
@@ -3485,6 +3489,7 @@
 						},
 						{
 							"id": "wmyK505k6RU0lvu2z",
+							"sv": 1,
 							"damage": {
 								"type": "imp",
 								"st": "thr",
@@ -3534,17 +3539,8 @@
 			}
 		}
 	],
-	"notes": [
-		{
-			"id": "nJq-rqrP7n6c9_SC_",
-			"markdown": "**Umbrales HP**: \u003cscript\u003eMath.floor($hp / 2) + 1\u003c/script\u003e (\u003eHP/2), \u003cscript\u003eMath.floor($hp / 3) + 1\u003c/script\u003e (\u003eHP/3), \u003cscript\u003eMath.ceil($hp / 3) - 1\u003c/script\u003e (\u003cHP/3)",
-			"calc": {
-				"resolved_text": "**Umbrales HP**: 6 (\u003eHP/2), 4 (\u003eHP/3), 3 (\u003cHP/3)"
-			}
-		}
-	],
 	"created_date": "2025-07-10T02:43:50+02:00",
-	"modified_date": "2025-08-14T00:19:29+02:00",
+	"modified_date": "2025-08-19T20:23:37+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

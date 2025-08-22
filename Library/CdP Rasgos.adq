@@ -6366,14 +6366,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mjFC5Y8WQlH8SRP9v",
+							"id": "mW3aIQofXkmyaeROa",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "msbPdak_QGOIviDw0",
+							"id": "mGqFqJ7fp7tfuEjwm",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -6381,7 +6381,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mvbAOgxDNRv_FPe9n",
+							"id": "my4YBJH6Fu2IxS3Uj",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances @Trait@",
@@ -6389,7 +6389,7 @@
 							"disabled": true
 						},
 						{
-							"id": "msHy_WajfC6klrjnG",
+							"id": "mcHxWmwYYqtYN9LE5",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Healing only",
@@ -6397,7 +6397,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHJaJgsAJWm0mNn64",
+							"id": "mwZDk38-ErPUTF_0f",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances any trait",
@@ -6405,14 +6405,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mH9z-y7bHjBy6WhCk",
+							"id": "mN9pK6HptP13hZH7Z",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "msSF948tisPtQhudO",
+							"id": "mceNamaU2gM_5ACN2",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Rare@",
@@ -6421,7 +6421,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mohou3ONyyWFZe9ji",
+							"id": "mZogfZwlZaZ_WuUWg",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Occasional@",
@@ -6429,7 +6429,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mk1Onz0oIyIIJ1NJS",
+							"id": "m5Za0ApeanTbqWVUD",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Common@",
@@ -6437,7 +6437,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mRgOnAgTA1WplfXx4",
+							"id": "mPeitGP7Tt_YP5-v0",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Very Common@",
@@ -6445,7 +6445,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mmaoZv2tJNhgZglhy",
+							"id": "mILAxSFCXjXxc304S",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "Front",
@@ -6453,14 +6453,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mIdZnkOqVeynr6c-G",
+							"id": "mvZL_Xk-kfTfszlrm",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mojXms958O3tlewga",
+							"id": "mrpAiUzpkPxeDzvnQ",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Very Common Attack Form@",
@@ -6468,21 +6468,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mA9Y5AJZsZ4mYDMIC",
+							"id": "mchPJix6JBqyf6TGe",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mVLmKZvbvh1tRz-jk",
+							"id": "mbyzLmOqLgF2jGino",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mo7nymqeH9Sv7XAHz",
+							"id": "mQwp3Vy7JTy1x59Jr",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -6490,7 +6490,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m20LT6Effy0DMMsmi",
+							"id": "mZldDiWlDFKcmzrbw",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Common Attack Form@",
@@ -6498,14 +6498,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mOHtcBWzgFCwirXTa",
+							"id": "m8Gl-IdORzJhZnG0V",
 							"name": "Tough Skin",
 							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m3bByIWGdcPtw-YO9",
+							"id": "m7YFNQO6LYHuKRDvN",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Occasional Attack Form@",
@@ -6513,14 +6513,14 @@
 							"disabled": true
 						},
 						{
-							"id": "m-LGhec9CM-IA0TCE",
+							"id": "mfbotmYAHU8N6nlY_",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "meZSHLNp2KBCgrYZM",
+							"id": "mE8jLkOttOjGKvkY-",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Rare Attack Form@",
@@ -6528,27 +6528,27 @@
 							"disabled": true
 						},
 						{
-							"id": "mWfeNnyQpIrLXX-Il",
+							"id": "m6e6F0ELzV9K2UH6A",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mM-c1BuOw1d9T8Mm9",
+							"id": "mZhqhPDPLZNJyxj4m",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mx-myRAB7dzVUhC0q",
+							"id": "m0fmgrKRtIQOeAUNO",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "mwT16TDYjc_m4JzdQ",
+							"id": "mrmaElaTTh5MuAiup",
 							"name": "Partial (Arms, Right Leg)",
 							"reference": "B47",
 							"cost": -60,
@@ -6575,9 +6575,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 5,
+					"levels": 4,
 					"calc": {
-						"points": 25
+						"points": 20
 					}
 				},
 				{
@@ -7110,7 +7110,7 @@
 				}
 			],
 			"calc": {
-				"points": 29
+				"points": 24
 			}
 		},
 		{
@@ -7170,14 +7170,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "mZ6GpSoFXpdTqbY97",
+							"id": "mwNu5UUAGp0eX84Lg",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mFRGwRqNeVE88JcDG",
+							"id": "meIg8kC5L0ADb-WCO",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -7185,7 +7185,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mWM7-cUKlwH7yC-dG",
+							"id": "mvHQLT9AHAtfpmtF4",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances @Trait@",
@@ -7193,7 +7193,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mhDgOJXA0UfSqHRaU",
+							"id": "mJ0mb9847ozDwgCVQ",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Healing only",
@@ -7201,7 +7201,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mJ8yBO4IrtuSYtDtj",
+							"id": "mAENlcqGdEMsSwojU",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances any trait",
@@ -7209,14 +7209,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mmdvXkjqSfEr_1cxI",
+							"id": "mEk0i73rCMLaPEH-z",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mPF-Vl8llsnngtxdx",
+							"id": "mWbQbrwNG_GqV3v7P",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Rare@",
@@ -7225,7 +7225,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mAn_RwlVaQ2aq9BHO",
+							"id": "mm7-RPBoHHN9hkFQn",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Occasional@",
@@ -7233,7 +7233,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mwTO5XIE_-Uy2BG_8",
+							"id": "m6DucXWP02WF59oiJ",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Common@",
@@ -7241,7 +7241,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mKoGEXM_aLI4K9EeD",
+							"id": "m9PphCmw5QyIIuWtD",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Very Common@",
@@ -7249,7 +7249,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjPJUSnJluDYSc8Nv",
+							"id": "mJMUdbwZOhH0Ptrrv",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "Front",
@@ -7257,14 +7257,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mhymmZxr62AWTclYN",
+							"id": "mpP1Lbr-kWC-ewWCT",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mHk9XxfBXJQ1V415S",
+							"id": "mQM65qopPaQ2WbwTB",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Very Common Attack Form@",
@@ -7272,21 +7272,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mqDE0juxmDxxNKDIB",
+							"id": "mliSDXuO-dBGjsr2z",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "msh4c--UxeKBX-Alx",
+							"id": "m55w0xBddkEI1wkfE",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m5LMOrV18ytyOKHXT",
+							"id": "m-EEC8qwmGvNc_kXZ",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -7294,7 +7294,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mzIXAtJxRns3bxxkL",
+							"id": "mD-Su460-ShlAQ1k4",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Common Attack Form@",
@@ -7302,14 +7302,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mfEpejBttVNdrIY0v",
+							"id": "mbXkn_R-F60f-KxZO",
 							"name": "Tough Skin",
 							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m1kEkSpqmu2SXjRG8",
+							"id": "mKZKNcH9jHVOisANQ",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Occasional Attack Form@",
@@ -7317,14 +7317,14 @@
 							"disabled": true
 						},
 						{
-							"id": "m6DYeC4UrRRJcx-vP",
+							"id": "mJg51RnpMORKQCByB",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mzgYsVijywvKn1X-O",
+							"id": "mr34LJDPPbjMZpxuk",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Rare Attack Form@",
@@ -7332,27 +7332,27 @@
 							"disabled": true
 						},
 						{
-							"id": "m1qe1oVQ1y6SoP7ZV",
+							"id": "mE2Z4gxbSCFFAXp8c",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "mhX578e20MWYu6HJA",
+							"id": "mNs34X7biRYTN2G1K",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mgPVDDBhzLlw0uUBt",
+							"id": "m1VtgBBqA2FLAnrpr",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "m7Ji7nJgCbnC0USq_",
+							"id": "mJKvKShk36xiT1pN7",
 							"name": "Partial (Arms, Right Leg)",
 							"reference": "B47",
 							"cost": -60,
@@ -7379,9 +7379,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 4,
+					"levels": 3,
 					"calc": {
-						"points": 20
+						"points": 15
 					}
 				},
 				{
@@ -8096,7 +8096,7 @@
 				}
 			],
 			"calc": {
-				"points": -1
+				"points": -6
 			}
 		},
 		{
@@ -8156,14 +8156,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "msdMKiqipwIrtunZS",
+							"id": "mPvRlB8XhdHXQopJV",
 							"name": "Force Field",
 							"reference": "B47",
 							"cost": 20,
 							"disabled": true
 						},
 						{
-							"id": "mducuFpsnrV9hT74m",
+							"id": "mYqWfvaL9qQVfFctQ",
 							"name": "Hardened",
 							"reference": "B47",
 							"cost": 20,
@@ -8171,7 +8171,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHNZyoxnaoQEUGa3e",
+							"id": "mrm9u8UPIRhhFY9Bk",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances @Trait@",
@@ -8179,7 +8179,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mtBmYLWK1Rh3PeN7c",
+							"id": "mxyvMEMbtIEuGuCn9",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Healing only",
@@ -8187,7 +8187,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mhpAqfBuYKCPb3IE8",
+							"id": "m70FAevOerrpcrNcH",
 							"name": "Absorption",
 							"reference": "B46",
 							"local_notes": "Enhances any trait",
@@ -8195,14 +8195,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mQORIwXjrs5Y50RKx",
+							"id": "mdSZXfUtgBRzDgDy9",
 							"name": "Reflection",
 							"reference": "B47",
 							"cost": 100,
 							"disabled": true
 						},
 						{
-							"id": "mwkbD8bn9ULllbUQ3",
+							"id": "m9AxKS_AK0V8CBVJO",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Rare@",
@@ -8211,7 +8211,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mzeX6SxQtzeaIhvUp",
+							"id": "mMpcFZjGei-4TYz69",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Occasional@",
@@ -8219,7 +8219,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mjaaMh4jDLz4ubyPN",
+							"id": "m59mws_N-diC2696h",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Common@",
@@ -8227,7 +8227,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mnggdQeMSFyhiOnuf",
+							"id": "mCIKHOMtl1L0FD6Md",
 							"name": "Bane",
 							"reference": "H14",
 							"local_notes": "@Very Common@",
@@ -8235,7 +8235,7 @@
 							"disabled": true
 						},
 						{
-							"id": "m9fIx__0Y7KKcJO3d",
+							"id": "mu-npRZ8BSxHsZIbu",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "Front",
@@ -8243,14 +8243,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mV1vQNQcqtu611Dfj",
+							"id": "mpWl0NVFtp0Sa_CoU",
 							"name": "Flexible",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mrcszyRJNffxsef7-",
+							"id": "mmLMd2ib2Cv7UPj7m",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Very Common Attack Form@",
@@ -8258,21 +8258,21 @@
 							"disabled": true
 						},
 						{
-							"id": "mJbe590mTVKJj6pb6",
+							"id": "moG-nIec_lEfrA6Py",
 							"name": "Semi-Ablative",
 							"reference": "B47",
 							"cost": -20,
 							"disabled": true
 						},
 						{
-							"id": "mcHMEL7jbyTKR9hBZ",
+							"id": "mzvY06SPdEAbba2DL",
 							"name": "Can't wear armor",
 							"reference": "B47",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "mjq12iVfaJJgvOSEU",
+							"id": "m8Xh6ZM3lV4XKYEHS",
 							"name": "Directional",
 							"reference": "B47",
 							"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -8280,7 +8280,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mHkreTvkNe1PiBtcc",
+							"id": "mjzP2bBlWqcfmOnVw",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Common Attack Form@",
@@ -8288,14 +8288,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mUi8JHwNoegRe5crQ",
+							"id": "mJsBONerzGV-V8XkF",
 							"name": "Tough Skin",
 							"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
 							"cost": -40,
 							"disabled": true
 						},
 						{
-							"id": "m-jN89gcKYTfZA0C0",
+							"id": "mj7jVoCJzboUFULcg",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Occasional Attack Form@",
@@ -8303,14 +8303,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mKOFKFclMHE5MsXwU",
+							"id": "mjBB7FZp_t0WnVWtB",
 							"name": "Ablative",
 							"reference": "B47",
 							"cost": -80,
 							"disabled": true
 						},
 						{
-							"id": "mdS1kkGZQvhIyGUgL",
+							"id": "mbZFe1JUuZzBT97-b",
 							"name": "Limited",
 							"reference": "B46",
 							"local_notes": "@Rare Attack Form@",
@@ -8318,27 +8318,27 @@
 							"disabled": true
 						},
 						{
-							"id": "mHJjbRySaaruqCGtQ",
+							"id": "mhQKf56LGkLKYb3qC",
 							"name": "Laminate",
 							"reference": "RSWL18",
 							"cost": 10,
 							"disabled": true
 						},
 						{
-							"id": "m7ryXqaTU-CB8hJ5z",
+							"id": "mU8IW-MSe-Pdhj1-U",
 							"name": "Malediction-Proof",
 							"reference": "PSI14",
 							"cost": 50,
 							"disabled": true
 						},
 						{
-							"id": "mgkxvo_TdpOJnKQ4b",
+							"id": "mJTfztxwldc5GaX3b",
 							"name": "Maledictions Only",
 							"reference": "PSI14",
 							"disabled": true
 						},
 						{
-							"id": "mt3r5_txlen6tSAYN",
+							"id": "moolRVtPRHIBXoxeW",
 							"name": "Partial (Arms, Right Leg)",
 							"reference": "B47",
 							"cost": -60,
@@ -8365,9 +8365,9 @@
 						}
 					],
 					"can_level": true,
-					"levels": 6,
+					"levels": 5,
 					"calc": {
-						"points": 30
+						"points": 25
 					}
 				},
 				{
@@ -8881,7 +8881,7 @@
 				}
 			],
 			"calc": {
-				"points": 56
+				"points": 51
 			}
 		},
 		{
@@ -33870,16 +33870,16 @@
 			},
 			"name": "Teratophobia (Monsters)",
 			"reference": "B150",
-			"local_notes": "Any “unnatural” creature sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them. Note that the definition of “monster” depends on experience. An American Indian would consider an elephant monstrous, while an African pygmy would not!",
+			"local_notes": "Any “unnatural” creature (depends on personal experience) sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
 			],
 			"cr_adj": "action_penalty",
 			"cr": 12,
-			"base_points": -15,
+			"base_points": -5,
 			"calc": {
-				"points": -15
+				"points": -5
 			}
 		},
 		{
@@ -34408,6 +34408,99 @@
 			"base_points": 5,
 			"calc": {
 				"points": 5
+			}
+		},
+		{
+			"id": "toDBJRONwMug8IgUA",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos.adq",
+				"id": "tuitUP-5ouHHoHtrS"
+			},
+			"name": "Unarmed Attacks",
+			"reference": "B271",
+			"modifiers": [
+				{
+					"id": "m9UPkdTDgBiDUhO_M",
+					"name": "Sharp Claws/Teeth",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"weapons": [
+				{
+					"id": "wRUXyR7ICEfPtG5KY",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage_notes": "Parry with punches; Kicks have range C-1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				},
+				{
+					"id": "wjNwGntKHmoY_pCA6",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage_notes": "Parry with punches; Kicks have range C-1; High Kicks are at -2.",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"hide": true,
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cut",
+						"parry": "8"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
 			}
 		},
 		{
