@@ -583,25 +583,33 @@
 			"name": "Other Features \u0026 Traits",
 			"children": [
 				{
-					"id": "t5r0NxTg4R9oimJ_0",
+					"id": "tPCWce26wyne5e7OO",
 					"source": {
 						"library": "/gcs-cdp",
 						"path": "CdP Rasgos.adq",
 						"id": "tuitUP-5ouHHoHtrS"
 					},
-					"name": "CdP Natural Attacks",
+					"name": "Unarmed Attacks",
 					"reference": "B271",
+					"modifiers": [
+						{
+							"id": "musS5AOnHfwTC_Lpj",
+							"name": "Sharp Claws/Teeth",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
 					"weapons": [
 						{
-							"id": "wHOBAU3xF2EhxU2-k",
+							"id": "wW-msO-bwC_xR1ahJ",
 							"sv": 1,
 							"damage": {
 								"type": "cr",
 								"st": "thr",
 								"base": "-1"
 							},
-							"usage": "Unarmed",
-							"usage_notes": "Parry with punches; Kicks have range C, 1; High Kicks are at -2.",
+							"usage_notes": "Parry with punches; Kicks have range C-1; High Kicks are at -2.",
 							"reach": "C",
 							"parry": "0",
 							"defaults": [
@@ -626,6 +634,41 @@
 								"damage": "1d-3 cr",
 								"parry": "8"
 							}
+						},
+						{
+							"id": "wY9Out3i2baleiiTM",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage_notes": "Parry with punches; Kicks have range C-1; High Kicks are at -2.",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"hide": true,
+							"calc": {
+								"level": 10,
+								"damage": "1d-3 cut",
+								"parry": "8"
+							}
 						}
 					],
 					"calc": {
@@ -639,7 +682,7 @@
 		}
 	],
 	"created_date": "2025-07-22T19:08:29+02:00",
-	"modified_date": "2025-08-19T20:05:52+02:00",
+	"modified_date": "2025-08-22T16:32:04+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

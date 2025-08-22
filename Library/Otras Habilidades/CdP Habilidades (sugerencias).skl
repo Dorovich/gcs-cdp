@@ -2,6 +2,40 @@
 	"version": 5,
 	"rows": [
 		{
+			"id": "s6ZN6Q5Cx0o817El5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqH7X8s6knQ9FmK-F"
+			},
+			"name": "Electronics",
+			"reference": "B190",
+			"tags": [
+				"Hv. Akp.",
+				"Technical"
+			],
+			"specialization": "Computer",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sug7cG67bH2KKM06g",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

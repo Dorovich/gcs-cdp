@@ -587,6 +587,50 @@
 			]
 		},
 		{
+			"id": "sfE8Ft8VWtfjrVDzJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBHpgicbxJl1DmtOS"
+			},
+			"name": "Explosives",
+			"reference": "B194",
+			"tags": [
+				"Military",
+				"Police",
+				"Technical"
+			],
+			"specialization": "EOD",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Explosives",
+					"modifier": -4
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"which": "dx"
+					}
+				]
+			},
+			"points": 1
+		},
+		{
 			"id": "s7nMGLHq6gZXdYzau",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

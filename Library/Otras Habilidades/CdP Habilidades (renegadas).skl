@@ -560,6 +560,34 @@
 			"points": 1
 		},
 		{
+			"id": "s6p5e4fdwKRwo7DG3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjwJIejxzqb2ukpSd"
+			},
+			"name": "Biology",
+			"reference": "B180",
+			"tags": [
+				"Natural Science",
+				"Plant"
+			],
+			"specialization": "Marine Biology",
+			"difficulty": "iq/vh",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "SsSVhLshPrwRcefss",
 			"source": {
 				"library": "/gcs-cdp",
@@ -822,6 +850,28 @@
 					"type": "skill",
 					"name": "Acrobatics",
 					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "swoCdwWVeH2kx8dH7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Brakeman",
+			"reference": "B185",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Crewman, but for working in trains.",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
 				}
 			],
 			"points": 1

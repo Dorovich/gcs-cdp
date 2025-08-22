@@ -1456,34 +1456,6 @@
 					"points": 1
 				},
 				{
-					"id": "s06xPuDtJ0y3Ehh6i",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sjwJIejxzqb2ukpSd"
-					},
-					"name": "Biology",
-					"reference": "B180",
-					"tags": [
-						"Natural Science",
-						"Plant"
-					],
-					"specialization": "Marine Biology",
-					"difficulty": "iq/vh",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Naturalist",
-							"modifier": -6
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sXWzPwJQqOBgIQRlB",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1643,28 +1615,6 @@
 					}
 				]
 			},
-			"points": 1
-		},
-		{
-			"id": "sFkqrpJJ-r10LpTNK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shCDVQzZKFQTj_qbS"
-			},
-			"name": "Brakeman",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"vtt_notes": "Crewman, but for working in trains.",
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				}
-			],
 			"points": 1
 		},
 		{
@@ -2862,40 +2812,6 @@
 					"points": 1
 				},
 				{
-					"id": "sTfjOMyfHlGp9kkqt",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sqH7X8s6knQ9FmK-F"
-					},
-					"name": "Electronics",
-					"reference": "B190",
-					"tags": [
-						"Hv. Akp.",
-						"Technical"
-					],
-					"specialization": "Computer",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Electronics",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Electronics",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "s4F575H4tdz-Pbvrk",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3859,7 +3775,7 @@
 					"points": 1
 				},
 				{
-					"id": "sdItMNOIw6ufrcS5F",
+					"id": "sYT-UOfsb53_fGtlo",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -3872,7 +3788,8 @@
 						"Police",
 						"Technical"
 					],
-					"specialization": "EOD",
+					"vtt_notes": "Renamed Explosives (EOD)",
+					"specialization": "Disarming",
 					"difficulty": "iq/a",
 					"defaults": [
 						{
@@ -5389,7 +5306,7 @@
 				"Weapon"
 			],
 			"vtt_notes": "Use for Lasso, Bolas and Net",
-			"difficulty": "dx/a",
+			"difficulty": "dx/h",
 			"points": 1
 		},
 		{
