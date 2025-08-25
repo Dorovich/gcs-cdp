@@ -1,0 +1,810 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "siwCy69ZHuNw8cD3R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sb4cJ_wee2WvuSEP6"
+			},
+			"name": "Aquabatics",
+			"reference": "B174",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Aerobatics",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "S-M0Cf_el681M21xB",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SONpNvWbwqRluKkwg"
+			},
+			"name": "Boating",
+			"children": [
+				{
+					"id": "sz1kyxSd2OBQ9Zvi6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s_hzIiLr9SpjrJyxG"
+					},
+					"name": "Boating",
+					"reference": "B180",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "@Boat class@",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Motorboat",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Sailboat",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Unpowered",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sailor",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "suhYqeDvjuwsfSkbu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s1F-ATtHCyhyeyXk8"
+					},
+					"name": "Boating",
+					"reference": "B180",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Large Powerboat",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Motorboat",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Sailboat",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Unpowered",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sailor",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "shySlG16Chya0S5TZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "shD0hxQUJbiwt-oY5"
+					},
+					"name": "Boating",
+					"reference": "B180",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Motorboat",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Large Powerboat",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Sailboat",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Unpowered",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s9q3vxVNlAwojvZfa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "soV4km-2aPJ1tURp-"
+					},
+					"name": "Boating",
+					"reference": "B180",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Sailboat",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Large Powerboat",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Motorboat",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Unpowered",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGqUS8-tMo0KTQm0S",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "seWanmmH0f_ZW6o0B"
+					},
+					"name": "Boating",
+					"reference": "B180",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Unpowered",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Large Powerboat",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Motorboat",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Boating",
+							"specialization": "Sailboat",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "smdXfLN3TMMMRiwlC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-0KJuw7_V5l8G_Q-"
+			},
+			"name": "Captaincy (Ship)",
+			"reference": "B220",
+			"reference_highlight": "Shiphandling",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Shiphandling (Ship)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Captaincy",
+					"modifier": -1
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Sailor",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Large Powerboat",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Sailboat",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "sailor"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "navigation"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "sea"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "leadership"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sKQ9Jw-vEtlv6-9Rc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "szffDNscx1251Omqr"
+			},
+			"name": "Captaincy (Submarine)",
+			"reference": "B220",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Replaces Shiphandling (Submarine)",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Captaincy",
+					"modifier": -1
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Submariner",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Submarine",
+					"specialization": "Large Sub",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "submariner"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "navigation"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "sea"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "leadership"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sk4lWEua8Lj2vpdWk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "str5VV-DO6mEEMNdt"
+			},
+			"name": "Diving Suit",
+			"reference": "B192",
+			"tags": [
+				"Technical"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Scuba",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "NBC Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Vacc Suit",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDP2bZQhTYYfG15oM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s5o7m6a6iCXJOPgYO"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Ships",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Ships",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sE7p9qKNuAPhXRir9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "seNr8bwC1ERg2ZOEH"
+			},
+			"name": "Explosives",
+			"reference": "B194",
+			"tags": [
+				"Military",
+				"Technical"
+			],
+			"specialization": "Underwater Demolition",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Explosives",
+					"specialization": "Demolition",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Explosives",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "soeFRZ3bOGbUTwvz0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s7KRXMjseuOk05MMU"
+			},
+			"name": "Navigation",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"specialization": "Sea",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Astronomy",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Air",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Land",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sAssBs1Jr6gsxvxX_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sv_ITrhGSsEpjdcqa"
+			},
+			"name": "Sailor",
+			"reference": "B185",
+			"reference_highlight": "Seamanship",
+			"tags": [
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Seamanship",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sunT7mkhpAM8Rim0b",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "slt_JUd-roKZ6TmQY"
+			},
+			"name": "Scuba",
+			"reference": "B219",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Military",
+				"Outdoor",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Diving Suit",
+					"modifier": -2
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "swimming"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "SzOnuQKpCC3S_yVc8",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Habilidades.skl",
+				"id": "SQ6bfclW-dWfdjAcq"
+			},
+			"name": "Submarine",
+			"children": [
+				{
+					"id": "s8844YHWHIPHpS3uz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "saJVAc9MntVDp2nul"
+					},
+					"name": "Submarine",
+					"reference": "B222",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Free-Flooding Sub",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"specialization": "Large Sub",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"specialization": "Mini-Sub",
+							"modifier": -4
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diving suit"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "scuba"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "sv-4y4yK5qumqdP3z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sFBbOT02js0oHhXii"
+					},
+					"name": "Submarine",
+					"reference": "B222",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Large Sub",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"specialization": "Free-Flooding Sub",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"specialization": "Mini-Sub",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sFqE_7SPit7uAQWiR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sDqPeFPPad8AhIZaX"
+					},
+					"name": "Submarine",
+					"reference": "B222",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Mini-Sub",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Submarine",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "s9dYkKIwyjdU05nTG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "saSMvQLBSkJb2Ln1l"
+			},
+			"name": "Submariner",
+			"reference": "B185",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		}
+	]
+}

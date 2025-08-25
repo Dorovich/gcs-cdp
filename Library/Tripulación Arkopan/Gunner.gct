@@ -1,0 +1,124 @@
+{
+	"version": 5,
+	"id": "B_j1zG9BSWKOraOfJ",
+	"skills": [
+		{
+			"id": "s6-zXnURGoLp0rITC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Airshipman",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "slEhvI6XQRt---14Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "siSKgRr1MizPF9IrU"
+			},
+			"name": "Armoury",
+			"reference": "B178",
+			"tags": [
+				"Hv. Akp.",
+				"Lt. Akp.",
+				"Maintenance",
+				"Military",
+				"Nokk",
+				"Repair"
+			],
+			"specialization": "Heavy Weapons",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Weapons",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sSYc2anfMpE_V539g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s5c7q2yMkvwWpUEzZ"
+			},
+			"name": "Gunner",
+			"reference": "B198",
+			"tags": [
+				"Combat",
+				"Hv. Akp.",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Cannon",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "siQsLb5wfMV8rICXK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sUoqxi6oeyAOnuNzf"
+			},
+			"name": "Gunner",
+			"reference": "B198",
+			"tags": [
+				"Combat",
+				"Hv. Akp.",
+				"Lt. Akp.",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Machine Gun",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		}
+	]
+}

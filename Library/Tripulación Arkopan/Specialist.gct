@@ -1,0 +1,164 @@
+{
+	"version": 5,
+	"id": "BbuxZVUKuSCU-zEDj",
+	"skills": [
+		{
+			"id": "suuelAZwCvDNKTIVj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Airshipman",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "stkGnowPYSrSY4WeW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8j6tcaNxXkF89Xbt"
+			},
+			"name": "Diplomacy",
+			"reference": "B187",
+			"tags": [
+				"Business",
+				"Police",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sbBKWWsD07JOg2EjL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swXuff1DBhSQbTqy1"
+			},
+			"name": "Electronics",
+			"reference": "B189",
+			"tags": [
+				"Hv. Akp.",
+				"Lt. Akp.",
+				"Technical"
+			],
+			"specialization": "Comms",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sO4gbn5O5NqUyA9bH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "seXPb_1UO1I8EvWq6"
+			},
+			"name": "Electronics",
+			"reference": "B189",
+			"tags": [
+				"Hv. Akp.",
+				"Military",
+				"Spy",
+				"Technical"
+			],
+			"specialization": "Electronic Warfare",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sUp2HXUS27YM-Ea3V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sluTeYhSTpIbVNfA5"
+			},
+			"name": "Electronics",
+			"reference": "B189",
+			"tags": [
+				"Hv. Akp.",
+				"Nokk",
+				"Technical"
+			],
+			"specialization": "Sensors",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		}
+	]
+}

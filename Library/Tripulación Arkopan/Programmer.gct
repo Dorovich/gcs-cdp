@@ -1,0 +1,173 @@
+{
+	"version": 5,
+	"id": "BZzHpSPWp-oXlVfvM",
+	"skills": [
+		{
+			"id": "sWU28Tqxs8etLERuw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Airshipman",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "szIV72zQ2OGGoRRdG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBY-R7Xmf64T7WzZ4"
+			},
+			"name": "Computer Programming",
+			"reference": "B184",
+			"tags": [
+				"Design",
+				"Hv. Akp.",
+				"Invention"
+			],
+			"difficulty": "iq/h",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Electronics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Computer"
+						}
+					}
+				]
+			},
+			"points": 4
+		},
+		{
+			"id": "suztBf1fV8cmRV-Ii",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqH7X8s6knQ9FmK-F"
+			},
+			"name": "Electronics",
+			"reference": "B190",
+			"tags": [
+				"Hv. Akp.",
+				"Technical"
+			],
+			"specialization": "Computer",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sWLthhT43b7DNJ2sU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sMIEoVTEXT8J2IGwj"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Electronics",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Electronics",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 4
+		},
+		{
+			"id": "sH6lOsalOEDEm3-Df",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sC4i1u83C2BZjqIDe"
+			},
+			"name": "Mathematics",
+			"reference": "B207",
+			"tags": [
+				"Natural Science"
+			],
+			"specialization": "Computer Science",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Computer Programming",
+					"modifier": -5
+				}
+			],
+			"points": 4
+		}
+	]
+}

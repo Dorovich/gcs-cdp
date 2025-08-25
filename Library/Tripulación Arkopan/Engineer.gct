@@ -1,0 +1,359 @@
+{
+	"version": 5,
+	"id": "BgSNeaO4ylBLtda6D",
+	"skills": [
+		{
+			"id": "sLSq6296na1v2LFG9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Airshipman",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sNh43l8B__yrMwINp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "scAysIf1hcMnIL0Ca"
+			},
+			"name": "Electrician",
+			"reference": "B189",
+			"tags": [
+				"Hv. Akp.",
+				"Lt. Akp.",
+				"Maintenance",
+				"Nokk",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -3
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "SukRP8eFqeQobLehj",
+			"name": "Engine Type",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "so0_vp5DNEMigfb_v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sHQpro7wqfP04HzAj"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Maintenance",
+						"Nokk",
+						"Repair"
+					],
+					"specialization": "Diesel Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Diesel Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "sJGLRO_8MdAK-VAD8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8ru3HTHb4kbm8nGz"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Gas Turbine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Gas Turbine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "s0x7NwXBQb1dIUF0o",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "smLOOlLIZd_uKpS9x"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Maintenance",
+						"Nokk",
+						"Repair"
+					],
+					"specialization": "Gasoline Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Gasoline Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "sY8wFuf6i3b8sYssy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s-AqnJIKgzRC5GmmW"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Steam Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Steam Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				}
+			]
+		},
+		{
+			"id": "sOZ11stfdK3WErHCm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s10pC5SG3-DVJxORd"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Hv. Akp.",
+				"Invention"
+			],
+			"specialization": "Heavy Arkopan",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Heavy Arkopan",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"points": 4
+		},
+		{
+			"id": "shetqPsqHaVvC47sH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sGgBbCTe-AwY1nu3W"
+			},
+			"name": "Mathematics",
+			"reference": "B207",
+			"tags": [
+				"Natural Science"
+			],
+			"specialization": "Applied",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Physics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"modifier": -5
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sP-P5On0WmVtoXO_U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sm4VKEsooHU6KLuFP"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Hv. Akp.",
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Contragravity",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Contragravity",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		}
+	]
+}

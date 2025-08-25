@@ -2,43 +2,6 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "sxhLu0wbktuHPl9BD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s67Roch7cMOY4VSj-"
-			},
-			"name": "Accounting",
-			"reference": "B174",
-			"tags": [
-				"Business"
-			],
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Finance",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Mathematics",
-					"specialization": "Statistics",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Merchant",
-					"modifier": -5
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "siLv2tfJpss3vUBoV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1588,36 +1551,6 @@
 			"points": 1
 		},
 		{
-			"id": "sPbMTZBeXZPIrEvwI",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s7K5VfH6fgYzs2cty"
-			},
-			"name": "Brainwashing",
-			"reference": "B182",
-			"tags": [
-				"Military",
-				"Spy"
-			],
-			"difficulty": "iq/h",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "psychology"
-						}
-					}
-				]
-			},
-			"points": 1
-		},
-		{
 			"id": "srIVrk5O67pPqWepl",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1951,7 +1884,7 @@
 			"difficulty": "iq/h",
 			"prereqs": {
 				"type": "prereq_list",
-				"all": false,
+				"all": true,
 				"prereqs": [
 					{
 						"type": "skill_prereq",
@@ -1963,18 +1896,6 @@
 						"specialization": {
 							"compare": "is",
 							"qualifier": "Computer"
-						}
-					},
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Mechanic"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "Analytical Engine"
 						}
 					}
 				]
@@ -2194,117 +2115,30 @@
 			]
 		},
 		{
-			"id": "S0dcqLrmx5RBnPxWa",
+			"id": "sAGQCR5HKhkrNF4jj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sxglmNWmcsR5YcSDw"
+			},
 			"name": "Cooking",
-			"children": [
+			"reference": "B185",
+			"tags": [
+				"Everyman"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
 				{
-					"id": "sAGQCR5HKhkrNF4jj",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sxglmNWmcsR5YcSDw"
-					},
-					"name": "Cooking",
-					"reference": "B185",
-					"tags": [
-						"Everyman"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Housekeeping",
-							"modifier": -5
-						}
-					],
-					"points": 1
+					"type": "iq",
+					"modifier": -5
 				},
 				{
-					"id": "snOjIoCuOtZIgEOKw",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sQ6d6Vd_CsdeNzbiV"
-					},
-					"name": "Cooking",
-					"reference": "B185",
-					"tags": [
-						"Everyman"
-					],
-					"specialization": "@Specialty@",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Housekeeping",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sIypkJyShR9CdOA3U",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "spcD4n1qGEgtMUX7M"
-					},
-					"name": "Cooking",
-					"reference": "B185",
-					"tags": [
-						"Everyman"
-					],
-					"specialization": "Baking",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Housekeeping",
-							"modifier": -5
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sxQJU2bSHyDA85hfx",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sZcWieaQhitPQdZ6m"
-					},
-					"name": "Cooking",
-					"reference": "B185",
-					"tags": [
-						"Everyman"
-					],
-					"specialization": "Beverage Making",
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Housekeeping",
-							"modifier": -5
-						}
-					],
-					"points": 1
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
 				}
-			]
+			],
+			"points": 1
 		},
 		{
 			"id": "s5V1btVeOogUPVwa3",
@@ -2812,6 +2646,40 @@
 					"points": 1
 				},
 				{
+					"id": "sEgiOsRRe9qVvPDCY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sqH7X8s6knQ9FmK-F"
+					},
+					"name": "Electronics",
+					"reference": "B190",
+					"tags": [
+						"Hv. Akp.",
+						"Technical"
+					],
+					"specialization": "Computer",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
 					"id": "s4F575H4tdz-Pbvrk",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2889,26 +2757,33 @@
 			"name": "Engineer",
 			"children": [
 				{
-					"id": "sLUOxSw2ucID9Dc2J",
+					"id": "scNTWyLcuZJq4RvQf",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sUMX5WJHqMbYwXdJG"
+						"id": "s10pC5SG3-DVJxORd"
 					},
 					"name": "Engineer",
 					"reference": "B190",
 					"tags": [
 						"Design",
 						"Engineer",
+						"Hv. Akp.",
 						"Invention"
 					],
-					"specialization": "Analytical Engine",
+					"specialization": "Arkopan",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
 							"type": "skill",
 							"name": "Mechanic",
-							"specialization": "Analytical Engine",
+							"specialization": "Light Arkopan",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"specialization": "Heavy Arkopan",
 							"modifier": -6
 						}
 					],
@@ -3242,104 +3117,6 @@
 						{
 							"type": "skill",
 							"name": "Electronics",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "suCH50PGE3LpSgUTF",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s10pC5SG3-DVJxORd"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Hv. Akp.",
-						"Invention"
-					],
-					"specialization": "Heavy Arkopan",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Heavy Arkopan",
-							"modifier": -6
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 5
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
-								}
-							}
-						]
-					},
-					"points": 1
-				},
-				{
-					"id": "sxerQJgF0J0sBNVT8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s10pC5SG3-DVJxORd"
-					},
-					"name": "Engineer",
-					"reference": "B190",
-					"tags": [
-						"Design",
-						"Engineer",
-						"Invention",
-						"Lt. Akp."
-					],
-					"specialization": "Light Arkopan",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"specialization": "Light Arkopan",
 							"modifier": -6
 						}
 					],
@@ -4605,7 +4382,7 @@
 						"Humanities",
 						"Social Sciences"
 					],
-					"specialization": "Regional",
+					"specialization": "Regional, @Specialty@",
 					"difficulty": "iq/h",
 					"defaults": [
 						{
@@ -5804,45 +5581,6 @@
 			"name": "Mechanic",
 			"children": [
 				{
-					"id": "s3o9fOzJPm1bGSQT3",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "stJGGgA2iI_-Sk0YN"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Analytical Engine",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Analytical Engine",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sPFfPW5iGmXdJzpz5",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -6003,45 +5741,6 @@
 					"points": 1
 				},
 				{
-					"id": "suYpzfoaP1kkYkHI_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sCOXnuAMOGrnOAJLE"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Fuel Cell",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Fuel Cell",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "sWWEGAj0LxbOrmKLD",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -6163,7 +5862,7 @@
 					"points": 1
 				},
 				{
-					"id": "sMg1k2l8jWGlWq6cI",
+					"id": "sIYBQeFUzTguKczwi",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -6186,7 +5885,7 @@
 						{
 							"type": "skill",
 							"name": "Engineer",
-							"specialization": "Heavy Arkopan",
+							"specialization": "Arkopan",
 							"modifier": -4
 						},
 						{
@@ -6203,7 +5902,7 @@
 					"points": 1
 				},
 				{
-					"id": "sLogH1PsTP6GysszZ",
+					"id": "sZOcES7ICIT6XCGqb",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -6226,7 +5925,7 @@
 						{
 							"type": "skill",
 							"name": "Engineer",
-							"specialization": "Light Arkopan",
+							"specialization": "Arkopan",
 							"modifier": -4
 						},
 						{
@@ -6479,45 +6178,6 @@
 					"points": 1
 				},
 				{
-					"id": "stY01g_4UPpB5Dp_i",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sSQm-xKCCHx9N-PPC"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Tracked Drive",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Tracked Drive",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
 					"id": "snpx26rowDDatxY5L",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -6541,45 +6201,6 @@
 							"type": "skill",
 							"name": "Engineer",
 							"specialization": "Tracked Vehicle",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Machinist",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Mechanic",
-							"modifier": -4
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "sRu7Kpq0wC7Hu5u7w",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sRfVMd6U3uKdXctRs"
-					},
-					"name": "Mechanic",
-					"reference": "B207",
-					"tags": [
-						"Maintenance",
-						"Repair"
-					],
-					"specialization": "Wheeled Drive",
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Engineer",
-							"specialization": "Wheeled Drive",
 							"modifier": -4
 						},
 						{
@@ -7037,23 +6658,6 @@
 					"modifier": -4
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "sNbKM6d7Lfcda1__F",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "snO8a_369cUR1W1i-"
-			},
-			"name": "Parry Missile-Weapons",
-			"reference": "B212",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/h",
 			"points": 1
 		},
 		{
@@ -8658,28 +8262,6 @@
 				"Scholarly"
 			],
 			"difficulty": "iq/a",
-			"points": 1
-		},
-		{
-			"id": "sgdMQ5qtQYKRoj_l8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "smxkcngH5Kz54yeN3"
-			},
-			"name": "Sports",
-			"reference": "B222,MA59",
-			"tags": [
-				"Athletic"
-			],
-			"specialization": "@Speciality@",
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
 			"points": 1
 		},
 		{

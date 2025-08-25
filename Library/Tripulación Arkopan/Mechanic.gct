@@ -1,0 +1,307 @@
+{
+	"version": 5,
+	"id": "BpRFmKxwBR_-ZAdcY",
+	"skills": [
+		{
+			"id": "ssWET9O8aTCpvUQx3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Hv. Akp.",
+				"Vehicle"
+			],
+			"vtt_notes": "Renamed Airshipman",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "sokB0hYEF2smYGZHf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sF2gsndOW8j3EX1CG"
+			},
+			"name": "Armoury",
+			"reference": "B178",
+			"tags": [
+				"Hv. Akp.",
+				"Lt. Akp.",
+				"Maintenance",
+				"Military",
+				"Nokk",
+				"Repair"
+			],
+			"specialization": "Vehicular Armor",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Vehicular Armor",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "SxGGgjqCgfxuyu9Ii",
+			"name": "Engine Type",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "sKupBnaMTAk7OsvJ_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sHQpro7wqfP04HzAj"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Maintenance",
+						"Nokk",
+						"Repair"
+					],
+					"specialization": "Diesel Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Diesel Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "sOaQANLe7odPbrJzP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8ru3HTHb4kbm8nGz"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Gas Turbine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Gas Turbine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "sQ8npKg3tx8Ndfvji",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "smLOOlLIZd_uKpS9x"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Lt. Akp.",
+						"Maintenance",
+						"Nokk",
+						"Repair"
+					],
+					"specialization": "Gasoline Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Gasoline Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "sWDOCi7G7pnX6RmoR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s-AqnJIKgzRC5GmmW"
+					},
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Hv. Akp.",
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Steam Engine",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Steam Engine",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				}
+			]
+		},
+		{
+			"id": "su1Qy011aYraJKFhF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s_KN_9-Qka4xk40ns"
+			},
+			"name": "Machinist",
+			"reference": "B206",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -5
+				}
+			],
+			"points": 4
+		},
+		{
+			"id": "s5sITesGBH7aZy9N0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sYE1kO_owXbs8tt-m"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Hv. Akp.",
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Heavy Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"points": 4
+		}
+	]
+}
