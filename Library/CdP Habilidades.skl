@@ -2141,33 +2141,6 @@
 			"points": 1
 		},
 		{
-			"id": "s5V1btVeOogUPVwa3",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sGGKY6NW6IibJJLFF"
-			},
-			"name": "Counterfeiting",
-			"reference": "B185",
-			"tags": [
-				"Criminal",
-				"Street"
-			],
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Forgery",
-					"modifier": -2
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sT-pQzOMz2dq8OVqj",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4098,6 +4071,7 @@
 				"Spy",
 				"Street"
 			],
+			"vtt_notes": "Includes Counterfeiting",
 			"difficulty": "iq/h",
 			"defaults": [
 				{
@@ -4898,46 +4872,6 @@
 					"type": "skill",
 					"name": "Intimidation",
 					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Psychology",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sNxG8u3zoxwO0uUeb",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Habilidades (sugerencias).skl",
-				"id": "sBwUf9b9I0zcjyofj"
-			},
-			"name": "Interviewing",
-			"tags": [
-				"Social"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Detect Lies",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Interrogation",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Intelligence Analysis",
-					"modifier": -6
 				},
 				{
 					"type": "skill",

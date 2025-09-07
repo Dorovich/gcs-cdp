@@ -121,6 +121,57 @@
 			}
 		},
 		{
+			"id": "t-Mutg246qz1jEXBO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Luck",
+			"reference": "B66,P59",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "By default, total uses depend on the number of current players. Usually 1 per hour.",
+			"modifiers": [
+				{
+					"id": "mS4EbDMEhpc47S4BP",
+					"name": "PC-independent",
+					"local_notes": "Total uses do not depend on player count",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mCRSaTvvOTKN_X3rt",
+					"name": "Active",
+					"reference": "B66",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "mLogfMJuLzG6hagK9",
+					"name": "Aspected",
+					"reference": "B66",
+					"local_notes": "@Aspect@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mpakIbfw1yLQHrNLs",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
 			"id": "tmoyrJyQEb5oj7JHi",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -12331,63 +12382,6 @@
 			}
 		},
 		{
-			"id": "tCUTEcAkZbXKAgB-0",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tpqxCsRu8W1w0NZPS"
-			},
-			"name": "Extraordinary Luck",
-			"reference": "B66",
-			"local_notes": "Usable once per 30 minutes of play",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mDDislKDp10658cGb",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mGs5GZUxmozzs_mYe",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mCUEGkSY3lKc0yA16",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mMxL4bXXUXurlQqd0",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mTapF90VbWYRVsDDR",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 30,
-			"calc": {
-				"points": 30
-			}
-		},
-		{
 			"id": "tsWveMH4qLbbfmBvG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -21898,231 +21892,6 @@
 			}
 		},
 		{
-			"id": "t79vHg4I3aJJp6XMR",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Luck",
-			"reference": "B66,P59",
-			"local_notes": "Usable once per hour of play",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mz6HSL3Fcg21O_tsh",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "m3JgoOv_eYZUiHo-L",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mxxZVxt-o7wxP9N8h",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mwRtFRqJ6KJhKRLZC",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "m3H1uF5YMz0sxGWCi",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "t1I_wAKdziih9i4Qo",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Luck (1/h)",
-			"reference": "B66,P59",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "m2h2VkTa8Q9XiYt6o",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mnipoZXeRil5EB_-d",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "m7wGCpIfqqW2mYUel",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mTPno1s3qXc7Sdh9m",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mqgiFnvNKtH_234Cw",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 15,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "t3OBkbZqr08GlfvPE",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tpqxCsRu8W1w0NZPS"
-			},
-			"name": "Luck (2/h)",
-			"reference": "B66",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mdcB1pFmS_iUeWbKv",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "myOe2LKT52iAcsk2D",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mXLoC3yx1J7-UHjFC",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mUH4Y2BssP_zMkzNk",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mNvor8zG42hqIbkQX",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 30,
-			"calc": {
-				"points": 30
-			}
-		},
-		{
-			"id": "tSLwpkZZ5iQtsvYLr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tzcAVOHp3Wd0BY361"
-			},
-			"name": "Luck (6/h)",
-			"reference": "B66",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mcIWYNsvHOsXj3ZyF",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "mZvJ7qdO5DKyBZeJP",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mrXtB35BzpRtIl6P7",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "ms-dolDvydVVZG9d5",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mBp9XHmbrv6Oju5If",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 60,
-			"calc": {
-				"points": 60
-			}
-		},
-		{
 			"id": "tBI_bG7KfwQwTiruU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -27799,63 +27568,6 @@
 			"base_points": -15,
 			"calc": {
 				"points": -15
-			}
-		},
-		{
-			"id": "tDNXNnr1EwURhVkL_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tzcAVOHp3Wd0BY361"
-			},
-			"name": "Ridiculous Luck",
-			"reference": "B66",
-			"local_notes": "Usable once per 10 minutes of play",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mBBZE8CefS2PN8t_3",
-					"name": "Active",
-					"reference": "B66",
-					"cost": -40,
-					"disabled": true
-				},
-				{
-					"id": "m_w0_w6CtVfQPgbaq",
-					"name": "Aspected",
-					"reference": "B66",
-					"local_notes": "@Aspect@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mt1S7P_Mmtbrfi_kB",
-					"name": "Defensive",
-					"reference": "B66",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mb-ryqHZfUwqD3pno",
-					"name": "Wishing",
-					"reference": "P59",
-					"cost": 100,
-					"disabled": true
-				},
-				{
-					"id": "mpfPbghFxRb1obWzo",
-					"name": "Game Time",
-					"reference": "P108",
-					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
-					"disabled": true
-				}
-			],
-			"base_points": 60,
-			"calc": {
-				"points": 60
 			}
 		},
 		{
@@ -34458,9 +34170,7 @@
 						}
 					],
 					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr",
-						"parry": "8"
+						"damage": "thr-1 cr"
 					}
 				},
 				{
@@ -34493,9 +34203,7 @@
 					],
 					"hide": true,
 					"calc": {
-						"level": 10,
-						"damage": "1d-3 cut",
-						"parry": "8"
+						"damage": "thr-1 cut"
 					}
 				}
 			],
